@@ -9,20 +9,19 @@
 </head>
 <body>
     <?php include "public/partials/status_bar.php"; ?>
-    <main class="flex flex-col justify-center items-center">
-        <div class="space-y-5">
-            <p id="transmission" class="text-xl cursor-pointer text-green-400 opacity-80">░█░█░▄▀▄░█░█░░░░░█▀▀░█▀▄░█▀▄░█▀█░█▀▄░░▀█░█/█░░▀█░░░░░█▀▀░█▀▄░█▀▄░█░█░█▀▄░░░▀░░▀░░░░▀░▀▀▀░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀</p>
+    <main class="flex flex-col justify-center items-center min-h-screen px-4">
+        <div class="space-y-5 w-full max-w-4xl">
+            <p id="transmission" class="text-xl break-all cursor-pointer text-green-400 opacity-80">░█░█░▄▀▄░█░█░░░░░█▀▀░█▀▄░█▀▄░█▀█░█▀▄░░▀█░█/█░░▀█░░░░░█▀▀░█▀▄░█▀▄░█░█░█▀▄░░░▀░░▀░░░░▀░▀▀▀░▀▀▀░▀░▀</p>
             <script>
                 const e=document.getElementById('transmission'),c='░█▓▒▀▄▌▐',l=e.innerText.length;
                 setInterval(()=>e.innerText=[...Array(l)].map(()=>c[Math.floor(Math.random()*c.length)]).join(''),100);
             </script>
-            <div class="font-mono">
+            <div class="font-mono text-sm md:text-base font-bold">
                 <p class="text-green-700 animate-pulse">> Initializing handshake protocol...</p>
                 <p class="text-green-600 animate-pulse delay-75">> Verifying security clearance...</p>
                 <p class="text-green-500">> CONNECTION_SUCCESSFUL</p>
             </div>
         </div>
     </main>
-    <?php include "public/partials/footer.php"; ?>
 </body>
 </html>
