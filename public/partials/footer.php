@@ -1,4 +1,4 @@
-<footer class="mt-20 text-center text-green-500 mb-10">
+<footer class="mt-20 mb-10 text-center text-green-500">
     <p>--- END OF LINE ---</p>
     <p>&copy; <?php echo date("Y"); ?> JRWNNNN_</p>
 </footer>

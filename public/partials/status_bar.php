@@ -1,4 +1,4 @@
-<div class="fixed top-0 left-0 w-full bg-green-900/20 border-b border-green-800 text-xs px-5 py-1 flex justify-between items-center z-40 backdrop-blur-sm">
+<div class="flex fixed top-0 left-0 z-40 justify-between items-center py-1 px-5 w-full text-xs border-b border-green-800 bg-green-900/20 backdrop-blur-sm">
     <div class="flex gap-4">
         <span>[ CONNECTED ]</span>
         <span>USER: GUEST</span>
