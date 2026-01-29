@@ -1,8 +1,8 @@
-name: Fetch Participation Data On REST API
+name: Fetch participation data on REST API
 
 on:
   schedule:
-    - cron: '30 1 * * *'
+    - cron: "30 1 * * *"
   workflow_dispatch:
 
 permissions:
@@ -20,7 +20,7 @@ jobs:
         run: |
           echo "{}" > participation.json
           repo_names=$(jq -r '.[].name' repositories.json)
-          
+
           for repo in $repo_names; do
             data=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" -H "User-Agent: REST-API-Bot" "https://api.github.com/repos/jrwnnnn/$repo/stats/participation")
             jq --arg r "$repo" --argjson d "$data" '.[$r] = $d' participation.json > temp.json && mv temp.json participation.json
