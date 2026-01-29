@@ -1,8 +1,8 @@
-name: Fetch Languages Data On REST-API
+name: Fetch languages data on REST-API
 
 on:
   schedule:
-    - cron: '30 2 * * *'
+    - cron: "30 2 * * *"
   workflow_dispatch:
 
 permissions:
@@ -20,7 +20,7 @@ jobs:
         run: |
           echo "{}" > languages.json
           repo_names=$(jq -r '.[0:20] | .[].name' repositories.json)
-          
+
           for repo in $repo_names; do
             data=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" -H "User-Agent: REST-API-Bot" "https://api.github.com/repos/jrwnnnn/$repo/languages")
             jq --arg r "$repo" --argjson d "$data" '.[$r] = $d' languages.json > temp.json && mv temp.json languages.json
