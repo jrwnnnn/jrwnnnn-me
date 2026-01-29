@@ -1,27 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project jrwnnnn_ // TRANSMISSION</title>    
-    <link href="public/css/output.css" rel="stylesheet">
+<?php
 
-</head>
-<body>
-    <?php include "public/partials/status_bar.php"; ?>
-    <main class="flex flex-col justify-center items-center min-h-screen px-4">
-        <div class="space-y-5 w-full max-w-4xl">
-            <p id="transmission" class="text-xl break-all cursor-pointer text-green-400 opacity-80">░█░█░▄▀▄░█░█░░░░░█▀▀░█▀▄░█▀▄░█▀█░█▀▄░░▀█░█/█░░▀█░░░░░█▀▀░█▀▄░█▀▄░█░█░█▀▄░░░▀░░▀░░░░▀░▀▀▀░▀▀▀░▀░▀</p>
-            <script>
-                const e=document.getElementById('transmission'),c='░█▓▒▀▄▌▐',l=e.innerText.length;
-                setInterval(()=>e.innerText=[...Array(l)].map(()=>c[Math.floor(Math.random()*c.length)]).join(''),100);
-            </script>
-            <div class="font-mono text-sm md:text-base font-bold">
-                <p class="text-green-700 animate-pulse">> Initializing handshake protocol...</p>
-                <p class="text-green-600 animate-pulse delay-75">> Verifying security clearance...</p>
-                <p class="text-green-500">> CONNECTION_SUCCESSFUL</p>
-            </div>
-        </div>
-    </main>
-</body>
-</html>
+$uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+
+$routes = [
+    '/'          => './public/home.php',
+    '/projects'  => './public/projects.php',
+];
+
+if (array_key_exists($uri, $routes)) {
+    require $routes[$uri];
+} else {
+    http_response_code(404);
+    require './public/404.php';
+}
