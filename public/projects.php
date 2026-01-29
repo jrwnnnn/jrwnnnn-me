@@ -43,12 +43,12 @@ usort($repos, function ($a, $b) {
                 $width =
                     (60 + floor(min($repo["size"] ?? 0, 100000) / 2500)) / 4;
                 $statusClass = $repo["archived"]
-                    ? "border-green-500 bg-green-900/5 opacity-50 hover:opacity-100"
-                    : "border-green-500 bg-green-900/10 hover:bg-green-500 hover:text-black";
+                    ? "border-green-500 bg-green-900/5 opacity-50 hover:opacity-100 focus:opacity-100"
+                    : "border-green-500 bg-green-900/10  hover:bg-green-500 hover:text-black focus:bg-green-500 focus:text-black";
                 ?>
                 <a href="<?= htmlspecialchars(
                     $repo["html_url"],
-                ) ?>" target="_blank" style="--w: <?= $width ?>rem" class="<?= $statusClass ?> w-full md:w-(--w) border p-4 flex flex-col space-y-2 justify-between">
+                ) ?>" target="_blank" style="--w:<?= $width ?>rem" class="<?= $statusClass ?> w-full md:w-(--w) border p-4 flex flex-col space-y-2 justify-between">
                     <div class="flex justify-between font-mono opacity-60 text-[.7rem]">
                         <div>0x<?= substr(md5($repo["name"]), 0, 4) ?></div>
                         <div><?= $repo["size"] ?? 0 ?>k</div>
