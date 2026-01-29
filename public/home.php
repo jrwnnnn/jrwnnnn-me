@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <base href="http://<?= $_SERVER["HTTP_HOST"] ?>">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project jrwnnnn_ // BOOT</title>    
-    <link href="./public/css/output.css" rel="stylesheet">
-</head>
+<?php
+$title = "Project jrwnnnn_ // BOOT";
+require_once "./public/components/head.php";
+?>
 <body>
     <?php include "./public/partials/status_bar.php"; ?>
     <main class="flex flex-col space-y-8">
