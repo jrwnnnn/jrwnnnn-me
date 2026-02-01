@@ -3,6 +3,7 @@
     <p>&copy; <?php echo date("Y"); ?> JRWNNNN_</p>
 </footer>
 
+<script src="./public/js/glitchFX.js"></script>
 <script>
     document.addEventListener("DOMContentLoaded", () => {
         const mainElements = document.querySelectorAll("main > *");
