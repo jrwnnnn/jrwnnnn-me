@@ -1,0 +1,65 @@
+---
+interface Props {
+	title: string;
+	description?: string;
+	statusBar?: boolean;
+	footer?: boolean;
+}
+
+import "../styles/global.css";
+const { title, description = "Default Description", statusBar = true, footer = true } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Project jrwnnnn_ // {title}</title>
+	</head>
+	<body>
+		{statusBar ?
+			<div class="flex fixed top-0 left-0 z-40 justify-between items-center py-1 px-5 w-full text-xs border-b border-green-800 bg-green-900/20 backdrop-blur-sm">
+				<div class="flex gap-4">
+					<span>[ CONNECTED ]</span>
+					<span>USER: GUEST</span>
+				</div>
+				<div>
+					<span id="live-clock"></span>
+					<script>
+						function updateTime() {
+							const now = new Date();
+							const timeString = now.toLocaleTimeString([], { hour12: false });
+							document.getElementById('live-clock')!.textContent = timeString;
+						}
+						updateTime();
+						setInterval(updateTime, 1000);
+					</script>
+				</div>
+			</div>
+			: null
+		}
+
+		<slot />
+
+		<script src="../scripts/glitchFX.ts"></script>
+		<script>
+			document.addEventListener("DOMContentLoaded", () => {
+				const mainElements = document.querySelectorAll("main > *") as NodeListOf<HTMLElement>;;
+				mainElements.forEach((elements, index) => {
+					elements.classList.add("animate-pop-in");
+					elements.style.animationDelay = `${index * 100}ms`;
+				});
+			});
+		</script>
+
+		{footer ?
+			<footer class="mt-20 mb-10 text-center text-green-500">
+				<p>--- END OF LINE ---</p>
+				<p>&copy; 2026 JRWNNNN_</p>
+			</footer>
+		: null 
+		}
+
+	</body>
+</html>

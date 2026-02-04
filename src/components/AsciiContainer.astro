@@ -1,0 +1,12 @@
+---
+interface Props {
+  class?: string;
+}
+
+const { class: additionalClasses = '' } = Astro.props;
+---
+<div class="@container w-full overflow-hidden">
+    <pre class={`overflow-hidden font-mono whitespace-pre leading-none ${additionalClasses}`}>
+<slot />
+    </pre>
+</div>

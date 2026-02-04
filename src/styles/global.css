@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: ibm;
+  src: url(../assets/fonts/ibm_vga_8x16.ttf);
+}
+
+body {
+  @apply flex flex-col bg-black text-green-500 min-h-dvh overflow-x-hidden;
+  font-family: ibm;
+  background-image:
+    linear-gradient(rgba(34, 197, 94, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(34, 197, 94, 0.05) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+body::before {
+  content: " ";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(18, 16, 16, 0) 50%,
+    rgba(0, 0, 0, 0.25) 50%
+  );
+  background-size: 100% 4px;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+main {
+  @apply px-4 md:px-30 py-20 grow;
+}
+
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-pop-in {
+  opacity: 0;
+  animation: pop-in 0.2s steps(1) forwards;
+}
+
+.glitch { 
+  position: relative; 
+  isolation: isolate; 
+}
