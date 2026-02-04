@@ -1,0 +1,106 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Container from '../components/Container.astro';
+import Button from '../components/Button.astro';
+import Ascii from '../components/AsciiContainer.astro';
+
+const title = await(await fetch('https://pastebin.com/raw/K1GufLfn')).text();
+const asciiArt = await(await fetch('https://pastebin.com/raw/2w7sZxex')).text();
+const languages = await(await fetch('https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/languages.json')).json() as Record <string, Record<string, number>>;
+
+let stack: Record<string, number> = {};
+let total = 0;
+for (const lang of Object.values(languages)) {
+    for (const [key, value] of Object.entries(lang)) {
+        stack[key] = (stack[key] || 0) + value;
+        total += value;
+    }
+}
+for (const lang in stack) {
+    stack[lang] = (stack[lang] / total) * 100;
+}
+---
+
+<Layout title="BOOT">
+    <main class="flex flex-col space-y-8">
+        <div class="space-y-5">
+            <Ascii class="leading-normal! md:text-lg text-[2.5cqw]">
+                { title }
+            </Ascii>
+            <p>Hello! I'm a computer science student here in the Philippines, and I've been coding since the ripe old age of (wait for it) 14. My first language? HTML, the basic building blocks of the internet  (think blinking text and questionable color schemes). Now I'm tackling Java and Python, because frankly, web development is about as exciting as watching paint dry. When I'm not meticulously crafting lines of code, you can find me strategically demolishing virtual enemies, listening to good music, trying to convince my pet dog to take over the world (spoiler alert, he's not very interested) or perfecting the art of the ceiling stare. The crazy part? I manage to ace my classes while being this gloriously lazy. Don't worry though, I'm not here to brag (okay, maybe a little). </p>
+            <Container class="space-y-2" onclick="location.href='blog?=latest'">
+                <p class="text-lg font-bold tracking-widest">> LATEST_TRANSMISSION</p>
+                <div class="flex items-center font-mono text-sm">
+                    <span class="px-1 mr-2 text-xs font-bold text-black bg-green-500">ENCRYPTED</span>
+                    <span id="latest_transmission" class="text-green-500 opacity-80 cursor-pointer line-clamp-2">░█░█░▄▀▄░█░█░░░░░█▀▀░█▀▄░█▀▄░█▀█░█▀▄░░▀█░█/█░░▀█░░░░░█▀▀░█▀▄░█▀▄░█░█░█▀▄░░░▀░░▀░░░░▀░▀▀▀░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀</span>
+                    <script>
+                        const e=document.getElementById('latest_transmission'),c='░█▓▒▀▄▌▐',l=e!.innerText.length;
+                        setInterval(()=>e!.innerText=[...Array(l)].map(()=>c[Math.floor(Math.random()*c.length)]).join(''),100);
+                    </script>
+                </div>
+                <p class="font-mono text-xs font-bold">[ DATE RECIEVED: 2026-01-27 ]</p>
+            </Container>
+        </div>
+        <hr class="border-green-500">
+        <div class="space-y-5">
+            <h3 class="text-xl font-bold tracking-widest">> MAIN_MENU</h3>
+            <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+                <Button class="group text-left py-3!" onclick="location.href='projects'">
+                    <span class="mr-2 group-hover:animate-ping">></span> [ DIR ] PROJECTS
+                </Button>
+                <Button class="group text-left py-3!" onclick="location.href='blog'">
+                    <span class="mr-2 group-hover:animate-ping">></span> [ LOG ] BLOGS
+                </Button>
+            </div>
+        </div>
+        <div class="gap-6 space-y-6 columns-1 lg:columns-2">
+            <Container class="space-y-5 break-inside-avoid">
+                <Ascii class="text-[.9cqw]">
+                    {asciiArt}
+                </Ascii>
+            </Container>
+            <Container class="break-inside-avoid">
+                <p class="text-lg font-bold tracking-widest">> STACK</p>
+                <canvas id="stackradar"></canvas>
+                <script is:inline src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+                <script is:inline define:vars={{ stack }}>
+                    const chartLabels = Object.keys(stack);
+                    const chartData = Object.values(stack);
+                    const ctx = document.getElementById('stackradar');
+                    new Chart(ctx, {
+                        type: 'radar',
+                        data: {
+                        labels: chartLabels,
+                        datasets: [{
+                            data: chartData,
+                            backgroundColor: 'rgba(0, 201, 80, 0.2)',
+                            borderColor: '#00C950',
+                            borderWidth: 2,
+                            pointBackgroundColor: '#00C950',
+                            pointBorderColor: '#00C950'
+                        }]
+                        },
+                        options: {
+                            responsive: true,
+                            scales: {
+                                r: {
+                                    angleLines: { color: '#00C95050' },
+                                    grid: { color: '#00C95030' },
+                                    pointLabels: {
+                                        color: '#00C950',
+                                        font: { family: "monospace", size: 12, weight: 'bold' }
+                                    },
+                                    ticks: { display: false }
+                                }
+                            },
+                            plugins: {
+                                legend: { display: false },
+                                tooltip: { enabled: false }
+                            }
+                        }
+                    });
+                </script>
+            </Container>
+        </div>
+    </main>
+</Layout>
