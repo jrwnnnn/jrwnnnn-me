@@ -1,35 +1,18 @@
 {
   "name": "jrwnnnn-me",
-  "version": "1.0.0",
-  "description": "<h1 align=\"center\">Project Name</h1>",
-  "main": "tailwind.config.js",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "browser-sync": "browser-sync start --proxy 'localhost:8080' --files '**/*.php, **/*.css, **/*.js'",
-    "rustywind": "rustywind ./public --write",
-    "tailwind/dev": "tailwindcss -i ./public/css/input.css -o ./public/css/output.css --watch",
-    "tailwind/build": "tailwindcss -i ./public/css/input.css -o ./public/css/output.css --minify"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jrwnnnn/jrwnnnn-me.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/jrwnnnn/jrwnnnn-me/issues"
-  },
-  "homepage": "https://github.com/jrwnnnn/jrwnnnn-me#readme",
   "dependencies": {
-    "@tailwindcss/cli": "^4.1.18",
-    "@tailwindcss/container-queries": "^0.1.1",
+    "@astrojs/db": "^0.19.0",
+    "@astrojs/node": "^9.5.2",
+    "@tailwindcss/vite": "^4.1.18",
+    "astro": "^5.17.1",
     "tailwindcss": "^4.1.18"
-  },
-  "devDependencies": {
-    "@prettier/plugin-php": "^0.24.0",
-    "browser-sync": "^3.0.4",
-    "prettier": "^3.8.1",
-    "rustywind": "^0.24.3"
   }
 }
