@@ -1,12 +1,15 @@
 ---
 interface Props {
   class?: string;
+  ascii: string;
 }
+const { class: additionalClasses = '', ascii = '' } = Astro.props;
 
-const { class: additionalClasses = '' } = Astro.props;
+// Turn the ASCII art into an array of individual lines then find the longest line
+const cols = ascii.split(/\r\n|\r|\n/).reduce((max, line) => Math.max(max, line.length), 0);
 ---
-<div class="@container w-full overflow-hidden">
-    <pre class={`overflow-hidden font-mono whitespace-pre leading-none ${additionalClasses}`}>
-<slot />
+<div class="@container overflow-hidden">
+    <pre style=`--cols: ${cols}` class=`font-['ibm'] leading-none tracking-widest text-[calc(200cqi/var(--cols))] ${additionalClasses}`>
+{ascii}
     </pre>
 </div>

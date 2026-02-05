@@ -24,10 +24,10 @@ for (const lang in stack) {
 <Layout title="BOOT">
     <main class="flex flex-col space-y-8">
         <div class="space-y-5">
-            <Ascii class="leading-normal! md:text-lg text-[2.5cqw]">
-                { title }
-            </Ascii>
             <p>Hello! I'm a computer science student here in the Philippines, and I've been coding since the ripe old age of (wait for it) 14. My first language? HTML, the basic building blocks of the internet  (think blinking text and questionable color schemes). Now I'm tackling Java and Python, because frankly, web development is about as exciting as watching paint dry. When I'm not meticulously crafting lines of code, you can find me strategically demolishing virtual enemies, listening to good music, trying to convince my pet dog to take over the world (spoiler alert, he's not very interested) or perfecting the art of the ceiling stare. The crazy part? I manage to ace my classes while being this gloriously lazy. Don't worry though, I'm not here to brag (okay, maybe a little). </p>
+            <div class="md:max-w-2/3">
+                <Ascii ascii={title} class="font-mono! tracking-normal! text-[calc(180cqi/var(--cols))]!"/>
+            </div>
             <Container class="space-y-2" onclick="location.href='blog?=latest'">
                 <p class="text-lg font-bold tracking-widest">> LATEST_TRANSMISSION</p>
                 <div class="flex items-center font-mono text-sm">
@@ -55,9 +55,7 @@ for (const lang in stack) {
         </div>
         <div class="gap-6 space-y-6 columns-1 lg:columns-2">
             <Container class="space-y-5 break-inside-avoid">
-                <Ascii class="text-[.9cqw]">
-                    {asciiArt}
-                </Ascii>
+                <Ascii ascii={asciiArt} class="glitch"/>
             </Container>
             <Container class="break-inside-avoid">
                 <p class="text-lg font-bold tracking-widest">> STACK</p>
