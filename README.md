@@ -1,34 +1,18 @@
-<h1 align="center">Project Name</h1>
+<h1 align="center">Project jrwnnnn_</h1>
 
-<p align="center"><i>Quick one-liner about what this project does.</i></p>
+<p align="center"><i>My personal portfolio site built with Astro, wrapped in a green-on-black ASCII/CRT vibe.</i></p>
 
-<p align="center">
+<div align="center">
    <!-- FIND PREMADE BADGES HERE: https://github.com/Ileriayo/markdown-badges -->
+   <a href="https://astro.build"><img src="https://img.shields.io/badge/astro-%232C2052.svg?style=for-the-badge&logo=astro&logoColor=white"></a>
+   <a href="https://tailwindcss.com"><img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white"></a>
    <a href="https://opensource.org/license/mit"><img src="https://img.shields.io/badge/MIT-green?style=for-the-badge"></a>
-   <a href="https://github.com/jrwnnnn/template-global"><img src="https://img.shields.io/github/stars/jrwnnnn/template-global?style=for-the-badge"></a> <!-- <---- CHANGE -->
-</p>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-## Prerequisites
-Make sure the following are installed:
-
-## Development
-
-   ```bash
-   #Clone the repository
-   git clone https://github.com/jrwnnnn/repo.git  <---- CHANGE
-   cd block1a
-
-   #Install the required dependencies
-   npm install
-
-   #Run the program
-   npm run
-   ```
+   <a href="https://github.com/jrwnnnn/jrwnnnn-me"><img src="https://img.shields.io/github/stars/jrwnnnn/jrwnnnn-me?style=for-the-badge"></a>
+</div>
 
 ## License
-Distributed under the MIT License. 
+
+Distributed under the MIT License.
 Copyright (c) 2025 Mark Jerwin(@jrwnnnn). All rights reserved.
 
 See the See the [LICENSE](LICENSE) file for full details.
@@ -39,4 +23,5 @@ The above copyright notice and this permission notice shall be included in all c
 
 <br>
 <br>
+
 <img src="https://forthebadge.com/images/badges/built-with-love.svg">
