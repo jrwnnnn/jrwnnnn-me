@@ -4,6 +4,7 @@ import Container from "../components/Container.astro";
 import Button from "../components/Button.astro";
 import Ascii from "../components/AsciiContainer.astro";
 import CommitLog from "../components/CommitLog.astro";
+import LastFM from "../components/Scrobble.astro";
 
 const title = await (await fetch("https://pastebin.com/raw/K1GufLfn")).text();
 const asciiArt = await (
@@ -182,6 +183,11 @@ const js = await (await fetch("https://pastebin.com/raw/f3mNJJkE")).text();
         <hr class="border border-green-500/30" />
         <CommitLog />
         <!-- TODO: Add heat map -->
+      </Container>
+      <Container class="break-inside-avoid space-y-4">
+        <p class="text-lg font-bold tracking-widest">> LAST_FM</p>
+        <hr class="border border-green-500/30" />
+        <LastFM />
       </Container>
     </div>
   </main>
