@@ -12,6 +12,7 @@ try {
 } catch (error) {
   console.error(error);
 }
+console.error("Test log stream error");
 ---
 
 <!-- TODO: Implement realtime ajax-->
@@ -20,8 +21,8 @@ try {
 >
   NOW SCROBBLING
 </div>
-<a class="flex cursor-pointer gap-5" href={lastfm.recenttracks.track[0].url}>
-  <div class="group relative w-30 border border-green-500">
+<a class="flex flex-col md:flex-row cursor-pointer gap-5" href={lastfm.recenttracks.track[0].url}>
+  <div class="group relative md:w-30 w-full border border-green-500">
     <img
       src={lastfm.recenttracks.track[0].image[3]["#text"]}
       alt={lastfm.recenttracks.track[0].album["#text"]}
