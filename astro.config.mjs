@@ -12,7 +12,4 @@ export default defineConfig({
     mode: "standalone",
   }),
   output: "server",
-  image: {
-    domains: ["lastfm.freetls.fastly.net"],
-  },
 });
