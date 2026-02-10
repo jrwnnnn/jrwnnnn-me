@@ -84,7 +84,21 @@
       "total": 2,
       "additions": 1,
       "deletions": 1
-    }
+    },
+    "files": [
+      {
+        "sha": "a95acba948850dc3842da65b58101fa7c6b6e6b4",
+        "filename": "README.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn/blob/7ac0eceac977d47335271a712b9966dc10b11cb0/README.md",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn/raw/7ac0eceac977d47335271a712b9966dc10b11cb0/README.md",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn/contents/README.md?ref=7ac0eceac977d47335271a712b9966dc10b11cb0",
+        "patch": "@@ -2,7 +2,7 @@\n \n <br>\n \n-Ni Howdy, Jerwin here! I'm a student based in <strong>Manila, PH</strong>. I build things for the <strong>web</strong>. My code is held together by duct tape and prayers. pls send help. I spend more time customizing my VS Code than actually coding. If you see a bug, no you didn't. web: <a href=\"https://jrwnnnn.me\">jrwnnnn.me</a> <img src=\"smol/hornet.webp\" height=\"20px\" align=\"center\"/>\n+Ni Howdy, Jerwin here! I'm a student based in <strong>Manila, PH</strong>. I build things for the <strong>web</strong>. My code is held together by duct tape and prayers. pls send help. I spend more time customizing my VS Code than actually coding. If you see a bug, no you didn't. web: <a href=\"https://jrwnnnn.me\" target=\"_blank\">jrwnnnn.me</a> <img src=\"smol/hornet.webp\" height=\"20px\" align=\"center\"/>\n \n <div>\n   <img src=\"https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E\" alt=\"JavaScript\" />"
+      }
+    ]
   },
   {
     "sha": "a3ae94472dd4a99b8ac22e25561a5ead08095751",
@@ -171,7 +185,93 @@
       "total": 270,
       "additions": 173,
       "deletions": 97
-    }
+    },
+    "files": [
+      {
+        "sha": "926f0728642d8af1ba168aa7665c8628e215cb2f",
+        "filename": "public/icons/astro.svg",
+        "status": "added",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/a3ae94472dd4a99b8ac22e25561a5ead08095751/public%2Ficons%2Fastro.svg",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/a3ae94472dd4a99b8ac22e25561a5ead08095751/public%2Ficons%2Fastro.svg",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ficons%2Fastro.svg?ref=a3ae94472dd4a99b8ac22e25561a5ead08095751",
+        "patch": "@@ -0,0 +1 @@\n+<svg fill=\"#00C950\" role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><title>Astro</title><path d=\"M8.358 20.162c-1.186-1.07-1.532-3.316-1.038-4.944.856 1.026 2.043 1.352 3.272 1.535 1.897.283 3.76.177 5.522-.678.202-.098.388-.229.608-.36.166.473.209.95.151 1.437-.14 1.185-.738 2.1-1.688 2.794-.38.277-.782.525-1.175.787-1.205.804-1.531 1.747-1.078 3.119l.044.148a3.158 3.158 0 0 1-1.407-1.188 3.31 3.31 0 0 1-.544-1.815c-.004-.32-.004-.642-.048-.958-.106-.769-.472-1.113-1.161-1.133-.707-.02-1.267.411-1.415 1.09-.012.053-.028.104-.045.165h.002zm-5.961-4.445s3.24-1.575 6.49-1.575l2.451-7.565c.092-.366.36-.614.662-.614.302 0 .57.248.662.614l2.45 7.565c3.85 0 6.491 1.575 6.491 1.575L16.088.727C15.93.285 15.663 0 15.303 0H8.697c-.36 0-.615.285-.784.727l-5.516 14.99z\"/></svg>\n\\ No newline at end of file"
+      },
+      {
+        "sha": "bfd226e5e3da7353525813cf54cf7592a6b3ccd4",
+        "filename": "public/icons/javascript.svg",
+        "status": "added",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/a3ae94472dd4a99b8ac22e25561a5ead08095751/public%2Ficons%2Fjavascript.svg",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/a3ae94472dd4a99b8ac22e25561a5ead08095751/public%2Ficons%2Fjavascript.svg",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ficons%2Fjavascript.svg?ref=a3ae94472dd4a99b8ac22e25561a5ead08095751",
+        "patch": "@@ -0,0 +1 @@\n+<svg fill=\"#00C950\" role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><title>JavaScript</title><path d=\"M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z\"/></svg>\n\\ No newline at end of file"
+      },
+      {
+        "sha": "911c305d39cbdc64ac2c1c482ceebee867feb0e5",
+        "filename": "public/icons/mariadb.svg",
+        "status": "added",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/a3ae94472dd4a99b8ac22e25561a5ead08095751/public%2Ficons%2Fmariadb.svg",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/a3ae94472dd4a99b8ac22e25561a5ead08095751/public%2Ficons%2Fmariadb.svg",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ficons%2Fmariadb.svg?ref=a3ae94472dd4a99b8ac22e25561a5ead08095751",
+        "patch": "@@ -0,0 +1 @@\n+<svg fill=\"#00C950\" role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><title>MariaDB</title><path d=\"M23.157 4.412c-.676.284-.79.31-1.673.372-.65.045-.757.057-1.212.209-.75.246-1.395.75-2.02 1.59-.296.398-1.249 1.913-1.249 1.988 0 .057-.65.998-.915 1.32-.574.713-1.08 1.079-2.14 1.59-.77.36-1.224.524-4.102 1.477-1.073.353-2.133.738-2.367.864-.852.449-1.515 1.036-2.203 1.938-1.003 1.32-.972 1.313-3.042.947a12.264 12.264 0 00-.675-.063c-.644-.05-1.023.044-1.332.334L0 17.193l.177.088c.094.05.353.234.561.398.215.17.461.347.55.391.088.044.17.088.183.101.012.013-.089.17-.228.353-.435.581-.593.871-.574 1.048.019.164.032.17.43.17.517-.006.826-.056 1.261-.208.65-.233 2.058-.94 2.784-1.4.776-.5 1.717-.998 1.956-1.042.082-.02.354-.07.594-.114.58-.107 1.464-.095 2.587.05.108.013.373.045.6.064.227.025.43.057.454.076.026.012.474.037.998.056.934.026 1.104.007 1.3-.189.126-.133.385-.631.498-.985.209-.643.417-.921.366-.492-.113.966-.322 1.692-.713 2.411-.259.499-.663 1.092-.934 1.395-.322.347-.315.36.088.315.619-.063 1.471-.397 2.096-.82.827-.562 1.647-1.691 2.19-3.03.107-.27.22-.22.183.083-.013.094-.038.315-.057.498l-.031.328.353-.202c.833-.48 1.414-1.262 2.127-2.884.227-.518.877-2.922 1.073-3.976a9.64 9.64 0 01.271-1.042c.127-.429.196-.555.48-.858.183-.19.625-.555.978-.808.72-.505.953-.75 1.187-1.205.208-.417.284-1.13.132-1.357-.132-.202-.284-.196-.763.006Z\"/></svg>\n\\ No newline at end of file"
+      },
+      {
+        "sha": "8814d3f7dd4f37aa58cdc7126638a056d78362d7",
+        "filename": "public/icons/php.svg",
+        "status": "added",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/a3ae94472dd4a99b8ac22e25561a5ead08095751/public%2Ficons%2Fphp.svg",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/a3ae94472dd4a99b8ac22e25561a5ead08095751/public%2Ficons%2Fphp.svg",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ficons%2Fphp.svg?ref=a3ae94472dd4a99b8ac22e25561a5ead08095751",
+        "patch": "@@ -0,0 +1 @@\n+<svg fill=\"#00C950\" role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><title>PHP</title><path d=\"M7.01 10.207h-.944l-.515 2.648h.838c.556 0 .97-.105 1.242-.314.272-.21.455-.559.55-1.049.092-.47.05-.802-.124-.995-.175-.193-.523-.29-1.047-.29zM12 5.688C5.373 5.688 0 8.514 0 12s5.373 6.313 12 6.313S24 15.486 24 12c0-3.486-5.373-6.312-12-6.312zm-3.26 7.451c-.261.25-.575.438-.917.551-.336.108-.765.164-1.285.164H5.357l-.327 1.681H3.652l1.23-6.326h2.65c.797 0 1.378.209 1.744.628.366.418.476 1.002.33 1.752a2.836 2.836 0 0 1-.305.847c-.143.255-.33.49-.561.703zm4.024.715l.543-2.799c.063-.318.039-.536-.068-.651-.107-.116-.336-.174-.687-.174H11.46l-.704 3.625H9.388l1.23-6.327h1.367l-.327 1.682h1.218c.767 0 1.295.134 1.586.401s.378.7.263 1.299l-.572 2.944h-1.389zm7.597-2.265a2.782 2.782 0 0 1-.305.847c-.143.255-.33.49-.561.703a2.44 2.44 0 0 1-.917.551c-.336.108-.765.164-1.286.164h-1.18l-.327 1.682h-1.378l1.23-6.326h2.649c.797 0 1.378.209 1.744.628.366.417.477 1.001.331 1.751zM17.766 10.207h-.943l-.516 2.648h.838c.557 0 .971-.105 1.242-.314.272-.21.455-.559.551-1.049.092-.47.049-.802-.125-.995s-.524-.29-1.047-.29z\"/></svg>\n\\ No newline at end of file"
+      },
+      {
+        "sha": "048c82da28ee56af7bb4b117325d8ad653729c35",
+        "filename": "public/icons/react.svg",
+        "status": "added",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/a3ae94472dd4a99b8ac22e25561a5ead08095751/public%2Ficons%2Freact.svg",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/a3ae94472dd4a99b8ac22e25561a5ead08095751/public%2Ficons%2Freact.svg",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ficons%2Freact.svg?ref=a3ae94472dd4a99b8ac22e25561a5ead08095751",
+        "patch": "@@ -0,0 +1 @@\n+<svg fill=\"#00C950\" role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><title>React</title><path d=\"M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39.24-.375.48-.762.705-1.158.225-.39.435-.788.636-1.18zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z\"/></svg>\n\\ No newline at end of file"
+      },
+      {
+        "sha": "1430168f14056278162a4adf6679be9c07aa9942",
+        "filename": "public/icons/tailwindcss.svg",
+        "status": "added",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/a3ae94472dd4a99b8ac22e25561a5ead08095751/public%2Ficons%2Ftailwindcss.svg",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/a3ae94472dd4a99b8ac22e25561a5ead08095751/public%2Ficons%2Ftailwindcss.svg",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ficons%2Ftailwindcss.svg?ref=a3ae94472dd4a99b8ac22e25561a5ead08095751",
+        "patch": "@@ -0,0 +1 @@\n+<svg fill=\"#00C950\" role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><title>Tailwind CSS</title><path d=\"M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z\"/></svg>\n\\ No newline at end of file"
+      },
+      {
+        "sha": "2a0c75840892ed51a52d8225b3742be221cb0c6e",
+        "filename": "src/pages/index.astro",
+        "status": "modified",
+        "additions": 167,
+        "deletions": 97,
+        "changes": 264,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/a3ae94472dd4a99b8ac22e25561a5ead08095751/src%2Fpages%2Findex.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/a3ae94472dd4a99b8ac22e25561a5ead08095751/src%2Fpages%2Findex.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Findex.astro?ref=a3ae94472dd4a99b8ac22e25561a5ead08095751",
+        "patch": "@@ -1,104 +1,174 @@\n ---\n-import Layout from '../layouts/Layout.astro';\n-import Container from '../components/Container.astro';\n-import Button from '../components/Button.astro';\n-import Ascii from '../components/AsciiContainer.astro';\n+import Layout from \"../layouts/Layout.astro\";\n+import Container from \"../components/Container.astro\";\n+import Button from \"../components/Button.astro\";\n+import Ascii from \"../components/AsciiContainer.astro\";\n \n-const title = await(await fetch('https://pastebin.com/raw/K1GufLfn')).text();\n-const asciiArt = await(await fetch('https://pastebin.com/raw/2w7sZxex')).text();\n-const languages = await(await fetch('https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/languages.json')).json() as Record <string, Record<string, number>>;\n-\n-let stack: Record<string, number> = {};\n-let total = 0;\n-for (const lang of Object.values(languages)) {\n-    for (const [key, value] of Object.entries(lang)) {\n-        stack[key] = (stack[key] || 0) + value;\n-        total += value;\n-    }\n-}\n-for (const lang in stack) {\n-    stack[lang] = (stack[lang] / total) * 100;\n-}\n+const title = await (await fetch(\"https://pastebin.com/raw/K1GufLfn\")).text();\n+const asciiArt = await (\n+  await fetch(\"https://pastebin.com/raw/2w7sZxex\")\n+).text();\n+const js = await (await fetch(\"https://pastebin.com/raw/f3mNJJkE\")).text();\n ---\n \n <Layout title=\"BOOT\">\n-    <main class=\"flex flex-col space-y-8\">\n-        <div class=\"space-y-5\">\n-            <div class=\"md:max-w-2/3\">\n-                <Ascii ascii={title} class=\"font-mono! tracking-normal! text-[calc(180cqi/var(--cols))]!\"/>\n-            </div>\n-            <p>Hello! I'm a computer science student here in the Philippines, and I've been coding since the ripe old age of (wait for it) 14. My first language? HTML, the basic building blocks of the internet (think blinking text and questionable color schemes). Now I'm tackling Java and Python, because frankly, web development is about as exciting as watching paint dry. When I'm not meticulously crafting lines of code, you can find me strategically demolishing virtual enemies, listening to good music, trying to convince my pet dog to take over the world (spoiler alert, he's not very interested) or perfecting the art of the ceiling stare. The crazy part? I manage to ace my classes while being this gloriously lazy. Don't worry though, I'm not here to brag (okay, maybe a little). </p>\n-            <Container class=\"space-y-2\" onclick=\"location.href='blog?=latest'\">\n-                <p class=\"text-lg font-bold tracking-widest\">> LATEST_TRANSMISSION</p>\n-                <div class=\"flex items-center font-mono text-sm\">\n-                    <span class=\"px-1 mr-2 text-xs font-bold text-black bg-green-500\">ENCRYPTED</span>\n-                    <span id=\"latest_transmission\" class=\"text-green-500 opacity-80 cursor-pointer line-clamp-2\">░█░█░▄▀▄░█░█░░░░░█▀▀░█▀▄░█▀▄░█▀█░█▀▄░░▀█░█/█░░▀█░░░░░█▀▀░█▀▄░█▀▄░█░█░█▀▄░░░▀░░▀░░░░▀░▀▀▀░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀</span>\n-                    <script>\n-                        const e=document.getElementById('latest_transmission'),c='░█▓▒▀▄▌▐',l=e!.innerText.length;\n-                        setInterval(()=>e!.innerText=[...Array(l)].map(()=>c[Math.floor(Math.random()*c.length)]).join(''),100);\n-                    </script>\n-                </div>\n-                <p class=\"font-mono text-xs font-bold\">[ DATE RECIEVED: 2026-01-27 ]</p>\n-            </Container>\n-        </div>\n-        <hr class=\"border-green-500\">\n-        <div class=\"space-y-5\">\n-            <h3 class=\"text-xl font-bold tracking-widest\">> MAIN_MENU</h3>\n-            <div class=\"grid grid-cols-1 gap-6 md:grid-cols-2\">\n-                <Button class=\"group text-left py-3!\" onclick=\"location.href='projects'\">\n-                    <span class=\"mr-2 group-hover:animate-ping\">></span> [ DIR ] PROJECTS\n-                </Button>\n-                <Button class=\"group text-left py-3!\" onclick=\"location.href='blog'\">\n-                    <span class=\"mr-2 group-hover:animate-ping\">></span> [ LOG ] BLOGS\n-                </Button>\n-            </div>\n+  <main class=\"flex flex-col space-y-8\">\n+    <div class=\"space-y-5\">\n+      <div class=\"md:max-w-2/3\">\n+        <Ascii\n+          ascii={title}\n+          class=\"font-mono! text-[calc(180cqi/var(--cols))]! tracking-normal!\"\n+        />\n+      </div>\n+      <!-- TODO shorten and update this -->\n+      <p>\n+        Hello! I'm a computer science student here in the Philippines, and I've\n+        been coding since the ripe old age of (wait for it) 14. My first\n+        language? HTML, the basic building blocks of the internet (think\n+        blinking text and questionable color schemes). Now I'm tackling Java and\n+        Python, because frankly, web development is about as exciting as\n+        watching paint dry. When I'm not meticulously crafting lines of code,\n+        you can find me strategically demolishing virtual enemies, listening to\n+        good music, trying to convince my pet dog to take over the world\n+        (spoiler alert, he's not very interested) or perfecting the art of the\n+        ceiling stare. The crazy part? I manage to ace my classes while being\n+        this gloriously lazy. Don't worry though, I'm not here to brag (okay,\n+        maybe a little).\n+      </p>\n+      <Container class=\"space-y-2\" onclick=\"location.href='blog?=latest'\">\n+        <p class=\"text-lg font-bold tracking-widest\">> LATEST_TRANSMISSION</p>\n+        <div class=\"flex items-center font-mono text-sm\">\n+          <span class=\"mr-2 bg-green-500 px-1 text-xs font-bold text-black\"\n+            >ENCRYPTED</span\n+          >\n+          <span\n+            id=\"latest_transmission\"\n+            class=\"line-clamp-2 cursor-pointer text-green-500 opacity-80\"\n+            >░█░█░▄▀▄░█░█░░░░░█▀▀░█▀▄░█▀▄░█▀█░█▀▄░░▀█░█/█░░▀█░░░░░█▀▀░█▀▄░█▀▄░█░█░█▀▄░░░▀░░▀░░░░▀░▀▀▀░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀</span\n+          >\n+          <script>\n+            const e = document.getElementById(\"latest_transmission\"),\n+              c = \"░█▓▒▀▄▌▐\",\n+              l = e!.innerText.length;\n+            setInterval(\n+              () =>\n+                (e!.innerText = [...Array(l)]\n+                  .map(() => c[Math.floor(Math.random() * c.length)])\n+                  .join(\"\")),\n+              100,\n+            );\n+          </script>\n         </div>\n-        <div class=\"gap-6 space-y-6 columns-1 lg:columns-2\">\n-            <Container class=\"space-y-5 break-inside-avoid\">\n-                <Ascii ascii={asciiArt} class=\"glitch\"/>\n-            </Container>\n-            <Container class=\"break-inside-avoid\">\n-                <p class=\"text-lg font-bold tracking-widest\">> STACK</p>\n-                <canvas id=\"stackradar\"></canvas>\n-                <script is:inline src=\"https://cdn.jsdelivr.net/npm/chart.js\"></script>\n-                <script is:inline define:vars={{ stack }}>\n-                    const chartLabels = Object.keys(stack);\n-                    const chartData = Object.values(stack);\n-                    const ctx = document.getElementById('stackradar');\n-                    new Chart(ctx, {\n-                        type: 'radar',\n-                        data: {\n-                        labels: chartLabels,\n-                        datasets: [{\n-                            data: chartData,\n-                            backgroundColor: 'rgba(0, 201, 80, 0.2)',\n-                            borderColor: '#00C950',\n-                            borderWidth: 2,\n-                            pointBackgroundColor: '#00C950',\n-                            pointBorderColor: '#00C950'\n-                        }]\n-                        },\n-                        options: {\n-                            responsive: true,\n-                            scales: {\n-                                r: {\n-                                    angleLines: { color: '#00C95050' },\n-                                    grid: { color: '#00C95030' },\n-                                    pointLabels: {\n-                                        color: '#00C950',\n-                                        font: { family: \"monospace\", size: 12, weight: 'bold' }\n-                                    },\n-                                    ticks: { display: false }\n-                                }\n-                            },\n-                            plugins: {\n-                                legend: { display: false },\n-                                tooltip: { enabled: false }\n-                            }\n-                        }\n-                    });\n-                </script>\n-            </Container>\n+        <p class=\"font-mono text-xs font-bold\">[ DATE RECIEVED: 2026-01-27 ]</p>\n+      </Container>\n+    </div>\n+    <hr class=\"border-green-500\" />\n+    <div class=\"space-y-5\">\n+      <h3 class=\"text-xl font-bold tracking-widest\">> MAIN_MENU</h3>\n+      <div class=\"grid grid-cols-1 gap-6 md:grid-cols-2\">\n+        <Button\n+          class=\"group py-3! text-left\"\n+          onclick=\"location.href='projects'\"\n+        >\n+          <span class=\"mr-2 group-hover:animate-ping\">></span> [ DIR ] PROJECTS\n+        </Button>\n+        <Button class=\"group py-3! text-left\" onclick=\"location.href='blog'\">\n+          <span class=\"mr-2 group-hover:animate-ping\">></span> [ LOG ] BLOGS\n+        </Button>\n+      </div>\n+    </div>\n+    <div class=\"columns-1 gap-6 space-y-6 lg:columns-2\">\n+      <Container class=\"break-inside-avoid space-y-5\">\n+        <Ascii ascii={asciiArt} class=\"glitch\" />\n+      </Container>\n+      <Container class=\"break-inside-avoid space-y-5\">\n+        <p class=\"text-lg font-bold tracking-widest\">> STACK</p>\n+        <canvas class=\"border-y border-green-500/50\" id=\"stackradar\"></canvas>\n+        <div class=\"grid grid-cols-3 place-items-center gap-4 md:grid-cols-5\">\n+          <div class=\"flex flex-col items-center gap-2\">\n+            <img\n+              class=\"h-10 w-10 object-contain\"\n+              src=\"icons/javascript.svg\"\n+              alt=\"JavaScript\"\n+            />\n+            <p class=\"font-mono text-xs font-bold\">JavaScript</p>\n+          </div>\n+          <div class=\"flex flex-col items-center gap-2\">\n+            <img\n+              class=\"h-10 w-10 object-contain\"\n+              src=\"icons/astro.svg\"\n+              alt=\"Astro\"\n+            />\n+            <p class=\"font-mono text-xs font-bold\">Astro</p>\n+          </div>\n+          <div class=\"flex flex-col items-center gap-2\">\n+            <img\n+              class=\"h-10 w-10 object-contain\"\n+              src=\"icons/php.svg\"\n+              alt=\"PHP\"\n+            />\n+            <p class=\"font-mono text-xs font-bold\">PHP</p>\n+          </div>\n+          <div class=\"flex flex-col items-center gap-2\">\n+            <img\n+              class=\"h-10 w-10 object-contain\"\n+              src=\"icons/react.svg\"\n+              alt=\"React\"\n+            />\n+            <p class=\"font-mono text-xs font-bold\">React</p>\n+          </div>\n+          <div class=\"flex flex-col items-center gap-2\">\n+            <img\n+              class=\"h-10 w-10 object-contain\"\n+              src=\"icons/tailwindcss.svg\"\n+              alt=\"Tailwind CSS\"\n+            />\n+            <p class=\"font-mono text-xs font-bold\">Tailwind CSS</p>\n+          </div>\n         </div>\n-    </main>\n-</Layout>\n\\ No newline at end of file\n+        <script is:inline src=\"https://cdn.jsdelivr.net/npm/chart.js\"></script>\n+        <!-- TODO Move this huge ass jsob blob out of here -->\n+        <script is:inline>\n+          const ctx = document.getElementById(\"stackradar\");\n+          new Chart(ctx, {\n+            type: \"radar\",\n+            data: {\n+              labels: [\"Astro\", \"JavaScript\", \"PHP\", \"React\", \"CSS\"],\n+              datasets: [\n+                {\n+                  data: [5, 5, 8, 3, 9],\n+                  backgroundColor: \"rgba(0, 201, 80, 0.2)\",\n+                  borderColor: \"#00C950\",\n+                  borderWidth: 2,\n+                  pointBackgroundColor: \"#00C950\",\n+                  pointBorderColor: \"#00C950\",\n+                },\n+              ],\n+            },\n+            options: {\n+              responsive: true,\n+              maintainAspectRatio: true,\n+              scales: {\n+                r: {\n+                  min: 0,\n+                  max: 10,\n+                  angleLines: { color: \"#00C95050\" },\n+                  grid: { color: \"#00C95030\" },\n+                  pointLabels: {\n+                    color: \"#00C950\",\n+                    font: { family: \"monospace\", size: 12, weight: \"bold\" },\n+                  },\n+                  ticks: { display: false },\n+                },\n+              },\n+              plugins: {\n+                legend: { display: false },\n+                tooltip: { enabled: false },\n+              },\n+            },\n+          });\n+        </script>\n+      </Container>\n+    </div>\n+  </main>\n+</Layout>"
+      }
+    ]
   },
   {
     "sha": "5da5d1c18f56032e1fd19e8fb73595dc588f572f",
@@ -258,7 +358,45 @@
       "total": 151,
       "additions": 151,
       "deletions": 0
-    }
+    },
+    "files": [
+      {
+        "sha": "ceb2c398823a2442d5a6bb1ec4b7faf9f299fac2",
+        "filename": ".prettierrc",
+        "status": "added",
+        "additions": 12,
+        "deletions": 0,
+        "changes": 12,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/5da5d1c18f56032e1fd19e8fb73595dc588f572f/.prettierrc",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/5da5d1c18f56032e1fd19e8fb73595dc588f572f/.prettierrc",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/.prettierrc?ref=5da5d1c18f56032e1fd19e8fb73595dc588f572f",
+        "patch": "@@ -0,0 +1,12 @@\n+{\n+  \"bracketSameLine\": false,\n+  \"plugins\": [\"prettier-plugin-astro\", \"prettier-plugin-tailwindcss\"],\n+  \"overrides\": [\n+    {\n+      \"files\": \"*.astro\",\n+      \"options\": {\n+        \"parser\": \"astro\"\n+      }\n+    }\n+  ]\n+}"
+      },
+      {
+        "sha": "c11e71fa440a4f62634673ba151234de0e4793b3",
+        "filename": "package-lock.json",
+        "status": "modified",
+        "additions": 136,
+        "deletions": 0,
+        "changes": 136,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/5da5d1c18f56032e1fd19e8fb73595dc588f572f/package-lock.json",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/5da5d1c18f56032e1fd19e8fb73595dc588f572f/package-lock.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/package-lock.json?ref=5da5d1c18f56032e1fd19e8fb73595dc588f572f",
+        "patch": "@@ -12,6 +12,9 @@\n         \"@astrojs/node\": \"^9.5.2\",\n         \"@tailwindcss/vite\": \"^4.1.18\",\n         \"astro\": \"^5.17.1\",\n+        \"prettier\": \"^3.8.1\",\n+        \"prettier-plugin-astro\": \"^0.14.1\",\n+        \"prettier-plugin-tailwindcss\": \"^0.7.2\",\n         \"tailwindcss\": \"^4.1.18\"\n       }\n     },\n@@ -5042,6 +5045,115 @@\n         \"node\": \"^10 || ^12 || >=14\"\n       }\n     },\n+    \"node_modules/prettier\": {\n+      \"version\": \"3.8.1\",\n+      \"resolved\": \"https://registry.npmjs.org/prettier/-/prettier-3.8.1.tgz\",\n+      \"integrity\": \"sha512-UOnG6LftzbdaHZcKoPFtOcCKztrQ57WkHDeRD9t/PTQtmT0NHSeWWepj6pS0z/N7+08BHFDQVUrfmfMRcZwbMg==\",\n+      \"license\": \"MIT\",\n+      \"peer\": true,\n+      \"bin\": {\n+        \"prettier\": \"bin/prettier.cjs\"\n+      },\n+      \"engines\": {\n+        \"node\": \">=14\"\n+      },\n+      \"funding\": {\n+        \"url\": \"https://github.com/prettier/prettier?sponsor=1\"\n+      }\n+    },\n+    \"node_modules/prettier-plugin-astro\": {\n+      \"version\": \"0.14.1\",\n+      \"resolved\": \"https://registry.npmjs.org/prettier-plugin-astro/-/prettier-plugin-astro-0.14.1.tgz\",\n+      \"integrity\": \"sha512-RiBETaaP9veVstE4vUwSIcdATj6dKmXljouXc/DDNwBSPTp8FRkLGDSGFClKsAFeeg+13SB0Z1JZvbD76bigJw==\",\n+      \"license\": \"MIT\",\n+      \"peer\": true,\n+      \"dependencies\": {\n+        \"@astrojs/compiler\": \"^2.9.1\",\n+        \"prettier\": \"^3.0.0\",\n+        \"sass-formatter\": \"^0.7.6\"\n+      },\n+      \"engines\": {\n+        \"node\": \"^14.15.0 || >=16.0.0\"\n+      }\n+    },\n+    \"node_modules/prettier-plugin-tailwindcss\": {\n+      \"version\": \"0.7.2\",\n+      \"resolved\": \"https://registry.npmjs.org/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.7.2.tgz\",\n+      \"integrity\": \"sha512-LkphyK3Fw+q2HdMOoiEHWf93fNtYJwfamoKPl7UwtjFQdei/iIBoX11G6j706FzN3ymX9mPVi97qIY8328vdnA==\",\n+      \"license\": \"MIT\",\n+      \"engines\": {\n+        \"node\": \">=20.19\"\n+      },\n+      \"peerDependencies\": {\n+        \"@ianvs/prettier-plugin-sort-imports\": \"*\",\n+        \"@prettier/plugin-hermes\": \"*\",\n+        \"@prettier/plugin-oxc\": \"*\",\n+        \"@prettier/plugin-pug\": \"*\",\n+        \"@shopify/prettier-plugin-liquid\": \"*\",\n+        \"@trivago/prettier-plugin-sort-imports\": \"*\",\n+        \"@zackad/prettier-plugin-twig\": \"*\",\n+        \"prettier\": \"^3.0\",\n+        \"prettier-plugin-astro\": \"*\",\n+        \"prettier-plugin-css-order\": \"*\",\n+        \"prettier-plugin-jsdoc\": \"*\",\n+        \"prettier-plugin-marko\": \"*\",\n+        \"prettier-plugin-multiline-arrays\": \"*\",\n+        \"prettier-plugin-organize-attributes\": \"*\",\n+        \"prettier-plugin-organize-imports\": \"*\",\n+        \"prettier-plugin-sort-imports\": \"*\",\n+        \"prettier-plugin-svelte\": \"*\"\n+      },\n+      \"peerDependenciesMeta\": {\n+        \"@ianvs/prettier-plugin-sort-imports\": {\n+          \"optional\": true\n+        },\n+        \"@prettier/plugin-hermes\": {\n+          \"optional\": true\n+        },\n+        \"@prettier/plugin-oxc\": {\n+          \"optional\": true\n+        },\n+        \"@prettier/plugin-pug\": {\n+          \"optional\": true\n+        },\n+        \"@shopify/prettier-plugin-liquid\": {\n+          \"optional\": true\n+        },\n+        \"@trivago/prettier-plugin-sort-imports\": {\n+          \"optional\": true\n+        },\n+        \"@zackad/prettier-plugin-twig\": {\n+          \"optional\": true\n+        },\n+        \"prettier-plugin-astro\": {\n+          \"optional\": true\n+        },\n+        \"prettier-plugin-css-order\": {\n+          \"optional\": true\n+        },\n+        \"prettier-plugin-jsdoc\": {\n+          \"optional\": true\n+        },\n+        \"prettier-plugin-marko\": {\n+          \"optional\": true\n+        },\n+        \"prettier-plugin-multiline-arrays\": {\n+          \"optional\": true\n+        },\n+        \"prettier-plugin-organize-attributes\": {\n+          \"optional\": true\n+        },\n+        \"prettier-plugin-organize-imports\": {\n+          \"optional\": true\n+        },\n+        \"prettier-plugin-sort-imports\": {\n+          \"optional\": true\n+        },\n+        \"prettier-plugin-svelte\": {\n+          \"optional\": true\n+        }\n+      }\n+    },\n     \"node_modules/prismjs\": {\n       \"version\": \"1.30.0\",\n       \"resolved\": \"https://registry.npmjs.org/prismjs/-/prismjs-1.30.0.tgz\",\n@@ -5380,6 +5492,21 @@\n         \"fsevents\": \"~2.3.2\"\n       }\n     },\n+    \"node_modules/s.color\": {\n+      \"version\": \"0.0.15\",\n+      \"resolved\": \"https://registry.npmjs.org/s.color/-/s.color-0.0.15.tgz\",\n+      \"integrity\": \"sha512-AUNrbEUHeKY8XsYr/DYpl+qk5+aM+DChopnWOPEzn8YKzOhv4l2zH6LzZms3tOZP3wwdOyc0RmTciyi46HLIuA==\",\n+      \"license\": \"MIT\"\n+    },\n+    \"node_modules/sass-formatter\": {\n+      \"version\": \"0.7.9\",\n+      \"resolved\": \"https://registry.npmjs.org/sass-formatter/-/sass-formatter-0.7.9.tgz\",\n+      \"integrity\": \"sha512-CWZ8XiSim+fJVG0cFLStwDvft1VI7uvXdCNJYXhDvowiv+DsbD1nXLiQ4zrE5UBvj5DWZJ93cwN0NX5PMsr1Pw==\",\n+      \"license\": \"MIT\",\n+      \"dependencies\": {\n+        \"suf-log\": \"^2.5.3\"\n+      }\n+    },\n     \"node_modules/sax\": {\n       \"version\": \"1.4.4\",\n       \"resolved\": \"https://registry.npmjs.org/sax/-/sax-1.4.4.tgz\",\n@@ -5592,6 +5719,15 @@\n         \"url\": \"https://github.com/chalk/strip-ansi?sponsor=1\"\n       }\n     },\n+    \"node_modules/suf-log\": {\n+      \"version\": \"2.5.3\",\n+      \"resolved\": \"https://registry.npmjs.org/suf-log/-/suf-log-2.5.3.tgz\",\n+      \"integrity\": \"sha512-KvC8OPjzdNOe+xQ4XWJV2whQA0aM1kGVczMQ8+dStAO6KfEB140JEVQ9dE76ONZ0/Ylf67ni4tILPJB41U0eow==\",\n+      \"license\": \"MIT\",\n+      \"dependencies\": {\n+        \"s.color\": \"0.0.15\"\n+      }\n+    },\n     \"node_modules/svgo\": {\n       \"version\": \"4.0.0\",\n       \"resolved\": \"https://registry.npmjs.org/svgo/-/svgo-4.0.0.tgz\","
+      },
+      {
+        "sha": "2fa6d96c53335ce733affc2cdeb37e58b4a690d9",
+        "filename": "package.json",
+        "status": "modified",
+        "additions": 3,
+        "deletions": 0,
+        "changes": 3,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/5da5d1c18f56032e1fd19e8fb73595dc588f572f/package.json",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/5da5d1c18f56032e1fd19e8fb73595dc588f572f/package.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/package.json?ref=5da5d1c18f56032e1fd19e8fb73595dc588f572f",
+        "patch": "@@ -13,6 +13,9 @@\n     \"@astrojs/node\": \"^9.5.2\",\n     \"@tailwindcss/vite\": \"^4.1.18\",\n     \"astro\": \"^5.17.1\",\n+    \"prettier\": \"^3.8.1\",\n+    \"prettier-plugin-astro\": \"^0.14.1\",\n+    \"prettier-plugin-tailwindcss\": \"^0.7.2\",\n     \"tailwindcss\": \"^4.1.18\"\n   }\n }"
+      }
+    ]
   },
   {
     "sha": "0355341a433ef317cb4fa13334bef27bee4b2131",
@@ -345,7 +483,21 @@
       "total": 2,
       "additions": 1,
       "deletions": 1
-    }
+    },
+    "files": [
+      {
+        "sha": "2679f1f6db87379a781ee336bd96fc802a39bf36",
+        "filename": ".github/workflows/basic_chron.yml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/0355341a433ef317cb4fa13334bef27bee4b2131/.github%2Fworkflows%2Fbasic_chron.yml",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/0355341a433ef317cb4fa13334bef27bee4b2131/.github%2Fworkflows%2Fbasic_chron.yml",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/.github%2Fworkflows%2Fbasic_chron.yml?ref=0355341a433ef317cb4fa13334bef27bee4b2131",
+        "patch": "@@ -49,7 +49,7 @@ jobs:\n           git config --global user.email \"actions@github.com\"\n           git add profile.json repositories.json commits.json\n           if [[ -n $(git status -s) ]]; then\n-            git commit -m \"Update portfolio data [skip ci]\"\n+            git commit -m \"Update data [skip deploy]\"\n             git push origin data\n           else\n             echo \"No changes.\""
+      }
+    ]
   },
   {
     "sha": "384023a8cab66210deeb1b0fdf57787a0328e7d6",
@@ -432,6 +584,20 @@
       "total": 22,
       "additions": 14,
       "deletions": 8
-    }
+    },
+    "files": [
+      {
+        "sha": "edfc10154ce91311c7f5b8104d22162840c2160a",
+        "filename": ".github/workflows/basic_chron.yml",
+        "status": "modified",
+        "additions": 14,
+        "deletions": 8,
+        "changes": 22,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/384023a8cab66210deeb1b0fdf57787a0328e7d6/.github%2Fworkflows%2Fbasic_chron.yml",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/384023a8cab66210deeb1b0fdf57787a0328e7d6/.github%2Fworkflows%2Fbasic_chron.yml",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/.github%2Fworkflows%2Fbasic_chron.yml?ref=384023a8cab66210deeb1b0fdf57787a0328e7d6",
+        "patch": "@@ -29,19 +29,25 @@ jobs:\n           -H \"User-Agent: REST-API-Bot\" \\\n           \"https://api.github.com/users/jrwnnnn/repos?sort=pushed&per_page=100\" > repositories.json\n \n-      - name: Fetch Recent Events\n-        run: |\n-          curl -s -H \"Authorization: token ${{ secrets.GITHUB_TOKEN }}\" \\\n-          -H \"User-Agent: REST-API-Bot\" \\\n-          \"https://api.github.com/users/jrwnnnn/events?per_page=10\" > activity.json\n+      - name: Fetch Commits\n+        uses: actions/github-script@v7\n+        with:\n+          script: |\n+            const fs = require('fs');\n+            const search = await github.rest.search.commits({ q: 'author:jrwnnnn', sort: 'author-date', order: 'desc', per_page: 5});\n+            const commits = await Promise.all(search.data.items.map(async (item) => {\n+              const { data } = await github.request(item.url);\n+              delete data.files; \n+              return data;\n+            }));\n+\n+            fs.writeFileSync('commits.json', JSON.stringify(commits, null, 2));\n \n       - name: Commit and Push\n         run: |\n           git config --global user.name \"GitHub Actions\"\n           git config --global user.email \"actions@github.com\"\n-\n-          git add profile.json repositories.json activity.json\n-\n+          git add profile.json repositories.json commits.json\n           if [[ -n $(git status -s) ]]; then\n             git commit -m \"Update portfolio data [skip ci]\"\n             git push origin data"
+      }
+    ]
   }
 ]
