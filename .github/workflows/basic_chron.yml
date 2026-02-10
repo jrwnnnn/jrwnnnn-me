@@ -37,7 +37,6 @@ jobs:
             const search = await github.rest.search.commits({ q: 'author:jrwnnnn', sort: 'author-date', order: 'desc', per_page: 5});
             const commits = await Promise.all(search.data.items.map(async (item) => {
               const { data } = await github.request(item.url);
-              delete data.files; 
               return data;
             }));
 
