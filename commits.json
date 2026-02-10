@@ -1,5 +1,106 @@
 [
   {
+    "sha": "1cf623da60a902328bc6dd01b019bf6f11f57d18",
+    "node_id": "C_kwDORCOQn9oAKDFjZjYyM2RhNjBhOTAyMzI4YmM2ZGQwMWIwMTliZjZmMTFmNTdkMTg",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-02-10T07:42:52Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-02-10T07:42:52Z"
+      },
+      "message": "Preserve 'files' in fetched commit data [skip deploy]",
+      "tree": {
+        "sha": "77db97c214bf65365972083887688de809990d26",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/77db97c214bf65365972083887688de809990d26"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/1cf623da60a902328bc6dd01b019bf6f11f57d18",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/1cf623da60a902328bc6dd01b019bf6f11f57d18",
+    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/1cf623da60a902328bc6dd01b019bf6f11f57d18",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/1cf623da60a902328bc6dd01b019bf6f11f57d18/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a3ae94472dd4a99b8ac22e25561a5ead08095751",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/a3ae94472dd4a99b8ac22e25561a5ead08095751",
+        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/a3ae94472dd4a99b8ac22e25561a5ead08095751"
+      }
+    ],
+    "stats": {
+      "total": 1,
+      "additions": 0,
+      "deletions": 1
+    },
+    "files": [
+      {
+        "sha": "65e85b911b0d6b989744690c69d552769945f33b",
+        "filename": ".github/workflows/basic_chron.yml",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 1,
+        "changes": 1,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/1cf623da60a902328bc6dd01b019bf6f11f57d18/.github%2Fworkflows%2Fbasic_chron.yml",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/1cf623da60a902328bc6dd01b019bf6f11f57d18/.github%2Fworkflows%2Fbasic_chron.yml",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/.github%2Fworkflows%2Fbasic_chron.yml?ref=1cf623da60a902328bc6dd01b019bf6f11f57d18",
+        "patch": "@@ -37,7 +37,6 @@ jobs:\n             const search = await github.rest.search.commits({ q: 'author:jrwnnnn', sort: 'author-date', order: 'desc', per_page: 5});\n             const commits = await Promise.all(search.data.items.map(async (item) => {\n               const { data } = await github.request(item.url);\n-              delete data.files; \n               return data;\n             }));\n "
+      }
+    ]
+  },
+  {
     "sha": "7ac0eceac977d47335271a712b9966dc10b11cb0",
     "node_id": "C_kwDOL2Ahc9oAKDdhYzBlY2VhYzk3N2Q0NzMzNTI3MWE3MTJiOTk2NmRjMTBiMTFjYjA",
     "commit": {
@@ -496,107 +597,6 @@
         "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/0355341a433ef317cb4fa13334bef27bee4b2131/.github%2Fworkflows%2Fbasic_chron.yml",
         "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/.github%2Fworkflows%2Fbasic_chron.yml?ref=0355341a433ef317cb4fa13334bef27bee4b2131",
         "patch": "@@ -49,7 +49,7 @@ jobs:\n           git config --global user.email \"actions@github.com\"\n           git add profile.json repositories.json commits.json\n           if [[ -n $(git status -s) ]]; then\n-            git commit -m \"Update portfolio data [skip ci]\"\n+            git commit -m \"Update data [skip deploy]\"\n             git push origin data\n           else\n             echo \"No changes.\""
-      }
-    ]
-  },
-  {
-    "sha": "384023a8cab66210deeb1b0fdf57787a0328e7d6",
-    "node_id": "C_kwDORCOQn9oAKDM4NDAyM2E4Y2FiNjYyMTBkZWViMWIwZmRmNTc3ODdhMDMyOGU3ZDY",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-10T05:28:58Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-10T05:28:58Z"
-      },
-      "message": "Update basic_chron.yml to fetch recent commits [skip deploy]",
-      "tree": {
-        "sha": "befc1bc54028325b8a9041c85eea450b19e9f609",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/befc1bc54028325b8a9041c85eea450b19e9f609"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/384023a8cab66210deeb1b0fdf57787a0328e7d6",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/384023a8cab66210deeb1b0fdf57787a0328e7d6",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/384023a8cab66210deeb1b0fdf57787a0328e7d6",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/384023a8cab66210deeb1b0fdf57787a0328e7d6/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "47c54ef8f3a108a70afa8dd58ed2ed0120e2c4ef",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/47c54ef8f3a108a70afa8dd58ed2ed0120e2c4ef",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/47c54ef8f3a108a70afa8dd58ed2ed0120e2c4ef"
-      }
-    ],
-    "stats": {
-      "total": 22,
-      "additions": 14,
-      "deletions": 8
-    },
-    "files": [
-      {
-        "sha": "edfc10154ce91311c7f5b8104d22162840c2160a",
-        "filename": ".github/workflows/basic_chron.yml",
-        "status": "modified",
-        "additions": 14,
-        "deletions": 8,
-        "changes": 22,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/384023a8cab66210deeb1b0fdf57787a0328e7d6/.github%2Fworkflows%2Fbasic_chron.yml",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/384023a8cab66210deeb1b0fdf57787a0328e7d6/.github%2Fworkflows%2Fbasic_chron.yml",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/.github%2Fworkflows%2Fbasic_chron.yml?ref=384023a8cab66210deeb1b0fdf57787a0328e7d6",
-        "patch": "@@ -29,19 +29,25 @@ jobs:\n           -H \"User-Agent: REST-API-Bot\" \\\n           \"https://api.github.com/users/jrwnnnn/repos?sort=pushed&per_page=100\" > repositories.json\n \n-      - name: Fetch Recent Events\n-        run: |\n-          curl -s -H \"Authorization: token ${{ secrets.GITHUB_TOKEN }}\" \\\n-          -H \"User-Agent: REST-API-Bot\" \\\n-          \"https://api.github.com/users/jrwnnnn/events?per_page=10\" > activity.json\n+      - name: Fetch Commits\n+        uses: actions/github-script@v7\n+        with:\n+          script: |\n+            const fs = require('fs');\n+            const search = await github.rest.search.commits({ q: 'author:jrwnnnn', sort: 'author-date', order: 'desc', per_page: 5});\n+            const commits = await Promise.all(search.data.items.map(async (item) => {\n+              const { data } = await github.request(item.url);\n+              delete data.files; \n+              return data;\n+            }));\n+\n+            fs.writeFileSync('commits.json', JSON.stringify(commits, null, 2));\n \n       - name: Commit and Push\n         run: |\n           git config --global user.name \"GitHub Actions\"\n           git config --global user.email \"actions@github.com\"\n-\n-          git add profile.json repositories.json activity.json\n-\n+          git add profile.json repositories.json commits.json\n           if [[ -n $(git status -s) ]]; then\n             git commit -m \"Update portfolio data [skip ci]\"\n             git push origin data"
       }
     ]
   }
