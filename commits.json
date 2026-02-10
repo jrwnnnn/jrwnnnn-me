@@ -1,5 +1,166 @@
 [
   {
+    "sha": "c7cb70d86ba3219bbaeff8f88271bd71df255ad4",
+    "node_id": "C_kwDORCOQn9oAKGM3Y2I3MGQ4NmJhMzIxOWJiYWVmZjhmODgyNzFiZDcxZGYyNTVhZDQ",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-02-10T09:06:33Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-02-10T09:06:33Z"
+      },
+      "message": "Prettier refactor [skip deploy]",
+      "tree": {
+        "sha": "a5b9cd1a39a4a40b91cc8355782e0a2702c4aa17",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/a5b9cd1a39a4a40b91cc8355782e0a2702c4aa17"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/c7cb70d86ba3219bbaeff8f88271bd71df255ad4",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/c7cb70d86ba3219bbaeff8f88271bd71df255ad4",
+    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/c7cb70d86ba3219bbaeff8f88271bd71df255ad4",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/c7cb70d86ba3219bbaeff8f88271bd71df255ad4/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1cf623da60a902328bc6dd01b019bf6f11f57d18",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/1cf623da60a902328bc6dd01b019bf6f11f57d18",
+        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/1cf623da60a902328bc6dd01b019bf6f11f57d18"
+      }
+    ],
+    "stats": {
+      "total": 276,
+      "additions": 179,
+      "deletions": 97
+    },
+    "files": [
+      {
+        "sha": "227dcc7293de6008d1033be1642f3f54eeed558e",
+        "filename": "src/components/AsciiContainer.astro",
+        "status": "modified",
+        "additions": 8,
+        "deletions": 3,
+        "changes": 11,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/c7cb70d86ba3219bbaeff8f88271bd71df255ad4/src%2Fcomponents%2FAsciiContainer.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/c7cb70d86ba3219bbaeff8f88271bd71df255ad4/src%2Fcomponents%2FAsciiContainer.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2FAsciiContainer.astro?ref=c7cb70d86ba3219bbaeff8f88271bd71df255ad4",
+        "patch": "@@ -3,13 +3,18 @@ interface Props {\n   class?: string;\n   ascii: string;\n }\n-const { class: additionalClasses = '', ascii = '' } = Astro.props;\n+const { class: additionalClasses = \"\", ascii = \"\" } = Astro.props;\n \n // Turn the ASCII art into an array of individual lines then find the longest line\n-const cols = ascii.split(/\\r\\n|\\r|\\n/).reduce((max, line) => Math.max(max, line.length), 0);\n+const cols = ascii\n+  .split(/\\r\\n|\\r|\\n/)\n+  .reduce((max, line) => Math.max(max, line.length), 0);\n ---\n+\n <div class=\"@container overflow-hidden\">\n-    <pre style=`--cols: ${cols}` class=`font-['ibm'] leading-none tracking-widest text-[calc(200cqi/var(--cols))] ${additionalClasses}`>\n+  <pre\n+    style=`--cols: ${cols}`\n+    class=`font-['ibm'] leading-none tracking-widest text-[calc(200cqi/var(--cols))] ${additionalClasses}`>\n {ascii}\n     </pre>\n </div>"
+      },
+      {
+        "sha": "e42e48f212c4c4f0ec7aa54509354849dc64af4d",
+        "filename": "src/components/Button.astro",
+        "status": "modified",
+        "additions": 10,
+        "deletions": 6,
+        "changes": 16,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/c7cb70d86ba3219bbaeff8f88271bd71df255ad4/src%2Fcomponents%2FButton.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/c7cb70d86ba3219bbaeff8f88271bd71df255ad4/src%2Fcomponents%2FButton.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2FButton.astro?ref=c7cb70d86ba3219bbaeff8f88271bd71df255ad4",
+        "patch": "@@ -1,11 +1,15 @@\n ---\n interface Props {\n-    class?: string;\n-    onclick?: string;\n+  class?: string;\n+  onclick?: string;\n }\n \n-const { class: additionalClasses = '', onclick = '' } = Astro.props;\n+const { class: additionalClasses = \"\", onclick = \"\" } = Astro.props;\n ---\n-<button class={`px-3 py-2 border border-green-500 text-green-500 hover:bg-green-500 hover:text-black focus:bg-green-500 focus:text-black cursor-pointer ${additionalClasses}`} onclick={onclick}>\n-    <slot />\n-</button>\n\\ No newline at end of file\n+\n+<button\n+  class={`px-3 py-2 border border-green-500 text-green-500 hover:bg-green-500 hover:text-black focus:bg-green-500 focus:text-black cursor-pointer ${additionalClasses}`}\n+  onclick={onclick}\n+>\n+  <slot />\n+</button>"
+      },
+      {
+        "sha": "489d07a58f433aeb8d3137a13c2965338684a494",
+        "filename": "src/components/Container.astro",
+        "status": "modified",
+        "additions": 17,
+        "deletions": 9,
+        "changes": 26,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/c7cb70d86ba3219bbaeff8f88271bd71df255ad4/src%2Fcomponents%2FContainer.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/c7cb70d86ba3219bbaeff8f88271bd71df255ad4/src%2Fcomponents%2FContainer.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2FContainer.astro?ref=c7cb70d86ba3219bbaeff8f88271bd71df255ad4",
+        "patch": "@@ -1,15 +1,23 @@\n ---\n interface Props {\n-    class?: string;\n-    hover?: boolean;\n-    onclick?: string;\n+  class?: string;\n+  hover?: boolean;\n+  onclick?: string;\n }\n \n-let { class: additionalClasses = '', hover = false, onclick = '' } = Astro.props;\n-if (onclick !== '') {\n-    hover = true;\n+let {\n+  class: additionalClasses = \"\",\n+  hover = false,\n+  onclick = \"\",\n+} = Astro.props;\n+if (onclick !== \"\") {\n+  hover = true;\n }\n ---\n-<div class={`border border-green-500 md:p-5 p-4 ${hover ? 'transition hover:bg-green-900/20 hover:border-green-400 focus:bg-green-900/20 focus:border-green-400 cursor-pointer' : ''} ${additionalClasses}`} onclick={onclick}>\n-    <slot />\n-</div>\n\\ No newline at end of file\n+\n+<div\n+  class={`border border-green-500 md:p-5 p-4 ${hover ? \"transition hover:bg-green-900/20 hover:border-green-400 focus:bg-green-900/20 focus:border-green-400 cursor-pointer\" : \"\"} ${additionalClasses}`}\n+  onclick={onclick}\n+>\n+  <slot />\n+</div>"
+      },
+      {
+        "sha": "ebd9eb8f24b16bbed382fb0eea42c9b26efb14f6",
+        "filename": "src/pages/404.astro",
+        "status": "modified",
+        "additions": 19,
+        "deletions": 10,
+        "changes": 29,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/c7cb70d86ba3219bbaeff8f88271bd71df255ad4/src%2Fpages%2F404.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/c7cb70d86ba3219bbaeff8f88271bd71df255ad4/src%2Fpages%2F404.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2F404.astro?ref=c7cb70d86ba3219bbaeff8f88271bd71df255ad4",
+        "patch": "@@ -1,14 +1,23 @@\n ---\n import Layout from \"../layouts/Layout.astro\";\n ---\n+\n <Layout title=\"404\" footer={false}>\n-    <main class=\"flex flex-col justify-between\">\n-        <div class=\"space-y-5\">\n-            <p class=\"text-5xl font-bold tracking-widest text-green-500 animate-pulse glitch\">> 404_ERROR</p>\n-            <div class=\"space-y-5 font-mono text-sm text-green-500/80\">\n-                <p class=\"font-bold md:max-w-2/3\">> <span class=\"text-red-500\">FATAL EXCEPTION:</span> The requested frequency is receiving static. The page you are looking for might have been moved, deleted, or never existed in this timeline.</p>\n-            </div>\n-        </div>\n-        <p class=\"self-end font-mono text-sm opacity-50\"> &copy; jrwnnnn_</p>\n-    </main>\n-</Layout>\n\\ No newline at end of file\n+  <main class=\"flex flex-col justify-between\">\n+    <div class=\"space-y-5\">\n+      <p\n+        class=\"glitch animate-pulse text-5xl font-bold tracking-widest text-green-500\"\n+      >\n+        > 404_ERROR\n+      </p>\n+      <div class=\"space-y-5 font-mono text-sm text-green-500/80\">\n+        <p class=\"font-bold md:max-w-2/3\">\n+          > <span class=\"text-red-500\">FATAL EXCEPTION:</span> The requested frequency\n+          is receiving static. The page you are looking for might have been moved,\n+          deleted, or never existed in this timeline.\n+        </p>\n+      </div>\n+    </div>\n+    <p class=\"self-end font-mono text-sm opacity-50\">&copy; jrwnnnn_</p>\n+  </main>\n+</Layout>"
+      },
+      {
+        "sha": "547d667f1c5440272996359cac76b0f7b4ccfe1c",
+        "filename": "src/pages/projects.astro",
+        "status": "modified",
+        "additions": 112,
+        "deletions": 63,
+        "changes": 175,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/c7cb70d86ba3219bbaeff8f88271bd71df255ad4/src%2Fpages%2Fprojects.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/c7cb70d86ba3219bbaeff8f88271bd71df255ad4/src%2Fpages%2Fprojects.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Fprojects.astro?ref=c7cb70d86ba3219bbaeff8f88271bd71df255ad4",
+        "patch": "@@ -1,77 +1,126 @@\n ---\n-import Layout from '../layouts/Layout.astro';\n-import { createHash } from 'node:crypto';\n+import Layout from \"../layouts/Layout.astro\";\n+import { createHash } from \"node:crypto\";\n \n-const repositories = await (await fetch('https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/repositories.json')).json();\n-const participation = await (await fetch('https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/participation.json')).json();\n+const repositories = await (\n+  await fetch(\n+    \"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/repositories.json\",\n+  )\n+).json();\n+const participation = await (\n+  await fetch(\n+    \"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/participation.json\",\n+  )\n+).json();\n \n let total = 0;\n for (const repo of Object.values(repositories) as Record<string, number>[]) {\n-    total += repo.size ?? 0;\n+  total += repo.size ?? 0;\n }\n ---\n \n <Layout title=\"PROJECTS\">\n-    <main class=\"flex flex-col space-y-8\">\n-        <div class=\"flex justify-between items-end\">\n-            <div>\n-                <p class=\"text-xl font-bold tracking-widest\">> PROJECT_DATABASE</p>\n-                <p class=\"mt-1 text-sm opacity-70\">Found {repositories.length} records in local storage. Total size: {total} B</p>\n-            </div>\n-            <a href=\"/\" class=\"hidden text-sm md:block group\">\n-                <span class=\"inline-block group-hover:-translate-x-1\">&lt;</span> [ RETURN ]\n-            </a>\n-        </div>\n-        <hr class=\"bg-green-500\">\n-        <div class=\"flex flex-wrap gap-2\">\n-            {Object.values(repositories).map((repo: any) => {\n-                const width =  (60 + Math.floor(Math.min(repo.size ?? 0, 100000) / 2500)) / 4;\n-                const statusClass = repo.archived \n-                    ? 'border-green-500 bg-green-900/5 opacity-50 hover:opacity-100 focus:opacity-100' \n-                    : 'border-green-500 bg-green-900/10  hover:bg-green-500 hover:text-black focus:bg-green-500 focus:text-black';\n+  <main class=\"flex flex-col space-y-8\">\n+    <div class=\"flex items-end justify-between\">\n+      <div>\n+        <p class=\"text-xl font-bold tracking-widest\">> PROJECT_DATABASE</p>\n+        <p class=\"mt-1 text-sm opacity-70\">\n+          Found {repositories.length} records in local storage. Total size: {\n+            total\n+          } B\n+        </p>\n+      </div>\n+      <a href=\"/\" class=\"group hidden text-sm md:block\">\n+        <span class=\"inline-block group-hover:-translate-x-1\">&lt;</span> [ RETURN\n+        ]\n+      </a>\n+    </div>\n+    <hr class=\"bg-green-500\" />\n+    <div class=\"flex flex-wrap gap-2\">\n+      {\n+        Object.values(repositories).map((repo: any) => {\n+          const width =\n+            (60 + Math.floor(Math.min(repo.size ?? 0, 100000) / 2500)) / 4;\n+          const statusClass = repo.archived\n+            ? \"border-green-500 bg-green-900/5 opacity-50 hover:opacity-100 focus:opacity-100\"\n+            : \"border-green-500 bg-green-900/10  hover:bg-green-500 hover:text-black focus:bg-green-500 focus:text-black\";\n \n-                const stats = participation[repo.name]?.all ?? new Array(52).fill(0);\n-                const max = Math.max(...stats) || 1;\n-                const points = stats.map((v: number, i: number) => \n-                    `${i * 2},${25 - (v / max) * 25}`\n-                ).join(' ');\n+          const stats = participation[repo.name]?.all ?? new Array(52).fill(0);\n+          const max = Math.max(...stats) || 1;\n+          const points = stats\n+            .map((v: number, i: number) => `${i * 2},${25 - (v / max) * 25}`)\n+            .join(\" \");\n \n-                return (\n-                    <a href={repo.html_url} target=\"_blank\" style={{'--w': `${width}rem`}} class={`${statusClass} w-full md:w-(--w) border p-4 flex flex-col space-y-2 justify-between`}>\n-                        <div class=\"flex justify-between font-mono opacity-60 text-[.7rem]\">\n-                            <div>0x{createHash('md5').update(repo.name).digest('hex').substring(0, 6)}</div>\n-                            <div>{repo.size} B</div>\n-                        </div>\n-                        <div class=\"flex items-center\">\n-                            <p class=\"text-lg font-bold uppercase truncate\">{repo.name}</p>\n-                            <svg class=\"inline-block ml-1 w-3.5 h-3.5\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n-                                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"3\" d=\"M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14\" />\n-                            </svg>\n-                        </div>\n-                        <p class=\"text-xs opacity-70 line-clamp-2\">{repo.description ?? \"No description available.\"}</p>\n+          return (\n+            <a\n+              href={repo.html_url}\n+              target=\"_blank\"\n+              style={{ \"--w\": `${width}rem` }}\n+              class={`${statusClass} flex w-full flex-col justify-between space-y-2 border p-4 md:w-(--w)`}\n+            >\n+              <div class=\"flex justify-between font-mono text-[.7rem] opacity-60\">\n+                <div>\n+                  0x\n+                  {createHash(\"md5\")\n+                    .update(repo.name)\n+                    .digest(\"hex\")\n+                    .substring(0, 6)}\n+                </div>\n+                <div>{repo.size} B</div>\n+              </div>\n+              <div class=\"flex items-center\">\n+                <p class=\"truncate text-lg font-bold uppercase\">{repo.name}</p>\n+                <svg\n+                  class=\"ml-1 inline-block h-3.5 w-3.5\"\n+                  fill=\"none\"\n+                  stroke=\"currentColor\"\n+                  viewBox=\"0 0 24 24\"\n+                  xmlns=\"http://www.w3.org/2000/svg\"\n+                >\n+                  <path\n+                    stroke-linecap=\"round\"\n+                    stroke-linejoin=\"round\"\n+                    stroke-width=\"3\"\n+                    d=\"M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14\"\n+                  />\n+                </svg>\n+              </div>\n+              <p class=\"line-clamp-2 text-xs opacity-70\">\n+                {repo.description ?? \"No description available.\"}\n+              </p>\n \n-                        {/* Activity Graph */}\n-                        <svg viewBox=\"0 0 102 25\" class=\"w-full h-8 opacity-60 hover:opacity-100\" preserveAspectRatio=\"none\">\n-                            <polyline \n-                                points={points} \n-                                fill=\"none\" \n-                                stroke=\"currentColor\" \n-                                stroke-width=\"2\" \n-                                vector-effect=\"non-scaling-stroke\" \n-                                stroke-linecap=\"round\" \n-                                stroke-linejoin=\"round\" />\n-                        </svg>\n+              {/* Activity Graph */}\n+              <svg\n+                viewBox=\"0 0 102 25\"\n+                class=\"h-8 w-full opacity-60 hover:opacity-100\"\n+                preserveAspectRatio=\"none\"\n+              >\n+                <polyline\n+                  points={points}\n+                  fill=\"none\"\n+                  stroke=\"currentColor\"\n+                  stroke-width=\"2\"\n+                  vector-effect=\"non-scaling-stroke\"\n+                  stroke-linecap=\"round\"\n+                  stroke-linejoin=\"round\"\n+                />\n+              </svg>\n \n-                        <div class=\"flex justify-between items-end mt-2\">\n-                            <div class=\"flex gap-2 items-center text-xs tracking-wider uppercase\">\n-                                <div class=\"py-0.5 px-2 border\">{repo.language ?? \"RAW\"}</div>\n-                                <div class=\"py-0.5 px-2 border\">{repo.license?.spdx_id ?? \"N/A\"}</div>\n-                            </div>\n-                            <div class={`w-2 h-2 rounded-full ${repo.archived ? 'bg-red-900' : 'bg-green-500 animate-pulse'}`}></div>\n-                        </div>\n-                    </a>\n-                )\n-            })}\n-        </div>\n-    </main>\n+              <div class=\"mt-2 flex items-end justify-between\">\n+                <div class=\"flex items-center gap-2 text-xs tracking-wider uppercase\">\n+                  <div class=\"border px-2 py-0.5\">{repo.language ?? \"RAW\"}</div>\n+                  <div class=\"border px-2 py-0.5\">\n+                    {repo.license?.spdx_id ?? \"N/A\"}\n+                  </div>\n+                </div>\n+                <div\n+                  class={`h-2 w-2 rounded-full ${repo.archived ? \"bg-red-900\" : \"animate-pulse bg-green-500\"}`}\n+                />\n+              </div>\n+            </a>\n+          );\n+        })\n+      }\n+    </div>\n+  </main>\n </Layout>"
+      },
+      {
+        "sha": "fbdf887c41a37d65201d7ccb586ceabc63680322",
+        "filename": "src/styles/global.css",
+        "status": "modified",
+        "additions": 13,
+        "deletions": 6,
+        "changes": 19,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/c7cb70d86ba3219bbaeff8f88271bd71df255ad4/src%2Fstyles%2Fglobal.css",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/c7cb70d86ba3219bbaeff8f88271bd71df255ad4/src%2Fstyles%2Fglobal.css",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fstyles%2Fglobal.css?ref=c7cb70d86ba3219bbaeff8f88271bd71df255ad4",
+        "patch": "@@ -6,7 +6,7 @@\n }\n \n body {\n-  @apply flex flex-col bg-black text-green-500 min-h-dvh overflow-x-hidden;\n+  @apply flex min-h-dvh flex-col overflow-x-hidden bg-black text-green-500;\n   font-family: ibm;\n   background-image:\n     linear-gradient(rgba(34, 197, 94, 0.05) 1px, transparent 1px),\n@@ -33,7 +33,7 @@ body::before {\n }\n \n main {\n-  @apply px-4 md:px-30 py-20 grow;\n+  @apply grow px-4 py-20 md:px-30;\n }\n \n @keyframes pop-in {\n@@ -50,7 +50,14 @@ main {\n   animation: pop-in 0.2s steps(1) forwards;\n }\n \n-.glitch { \n-  position: relative; \n-  isolation: isolate; \n-}\n\\ No newline at end of file\n+.glitch {\n+  position: relative;\n+  isolation: isolate;\n+}\n+\n+.line-clamp-1 {\n+  display: -webkit-box;\n+  -webkit-line-clamp: 1;\n+  -webkit-box-orient: vertical;\n+  overflow: hidden;\n+}"
+      }
+    ]
+  },
+  {
     "sha": "1cf623da60a902328bc6dd01b019bf6f11f57d18",
     "node_id": "C_kwDORCOQn9oAKDFjZjYyM2RhNjBhOTAyMzI4YmM2ZGQwMWIwMTliZjZmMTFmNTdkMTg",
     "commit": {
@@ -496,107 +657,6 @@
         "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/5da5d1c18f56032e1fd19e8fb73595dc588f572f/package.json",
         "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/package.json?ref=5da5d1c18f56032e1fd19e8fb73595dc588f572f",
         "patch": "@@ -13,6 +13,9 @@\n     \"@astrojs/node\": \"^9.5.2\",\n     \"@tailwindcss/vite\": \"^4.1.18\",\n     \"astro\": \"^5.17.1\",\n+    \"prettier\": \"^3.8.1\",\n+    \"prettier-plugin-astro\": \"^0.14.1\",\n+    \"prettier-plugin-tailwindcss\": \"^0.7.2\",\n     \"tailwindcss\": \"^4.1.18\"\n   }\n }"
-      }
-    ]
-  },
-  {
-    "sha": "0355341a433ef317cb4fa13334bef27bee4b2131",
-    "node_id": "C_kwDORCOQn9oAKDAzNTUzNDFhNDMzZWYzMTdjYjRmYTEzMzM0YmVmMjdiZWU0YjIxMzE",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-10T05:32:25Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-10T05:32:25Z"
-      },
-      "message": "Update workflow commit message",
-      "tree": {
-        "sha": "54ab98814b473d0a77076bfc51ece1a274d0e94f",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/54ab98814b473d0a77076bfc51ece1a274d0e94f"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/0355341a433ef317cb4fa13334bef27bee4b2131",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/0355341a433ef317cb4fa13334bef27bee4b2131",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/0355341a433ef317cb4fa13334bef27bee4b2131",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/0355341a433ef317cb4fa13334bef27bee4b2131/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "384023a8cab66210deeb1b0fdf57787a0328e7d6",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/384023a8cab66210deeb1b0fdf57787a0328e7d6",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/384023a8cab66210deeb1b0fdf57787a0328e7d6"
-      }
-    ],
-    "stats": {
-      "total": 2,
-      "additions": 1,
-      "deletions": 1
-    },
-    "files": [
-      {
-        "sha": "2679f1f6db87379a781ee336bd96fc802a39bf36",
-        "filename": ".github/workflows/basic_chron.yml",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/0355341a433ef317cb4fa13334bef27bee4b2131/.github%2Fworkflows%2Fbasic_chron.yml",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/0355341a433ef317cb4fa13334bef27bee4b2131/.github%2Fworkflows%2Fbasic_chron.yml",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/.github%2Fworkflows%2Fbasic_chron.yml?ref=0355341a433ef317cb4fa13334bef27bee4b2131",
-        "patch": "@@ -49,7 +49,7 @@ jobs:\n           git config --global user.email \"actions@github.com\"\n           git add profile.json repositories.json commits.json\n           if [[ -n $(git status -s) ]]; then\n-            git commit -m \"Update portfolio data [skip ci]\"\n+            git commit -m \"Update data [skip deploy]\"\n             git push origin data\n           else\n             echo \"No changes.\""
       }
     ]
   }
