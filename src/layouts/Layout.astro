@@ -7,7 +7,9 @@ interface Props {
 }
 
 import "../styles/global.css";
-const { title, description = "Default Description", statusBar = true, footer = true } = Astro.props;
+const { title, description = "Default Description", statusBar = true, footer = true} = Astro.props;
+
+const latestCommit = await(await fetch('https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/jrwnnnn-me-commits.json')).json();
 ---
 
 <!DOCTYPE html>
@@ -55,11 +57,58 @@ const { title, description = "Default Description", statusBar = true, footer = t
 			});
 		</script>
 
-		<!-- TODO: Re-design footer -->
 		{footer ?
-			<footer class="mt-20 mb-10 text-center text-green-500">
-				<p>--- END OF LINE ---</p>
-				<p>&copy; 2026 JRWNNNN_</p>
+			<footer
+			class="mt-20 flex items-center justify-between border-t border-green-900/30 bg-black px-5 py-8 text-xs md:px-30"
+			>
+			<div class="flex flex-col space-x-5 md:flex-row">
+				<p class="font-mono font-bold">© 2026 Mark Jerwin</p>
+				<p class="hidden font-mono md:block">-</p>
+				<a 
+					class="flex items-center gap-2 opacity-75 cursor-pointer hover:underline" 
+					href={latestCommit[0].html_url} 
+					target="_blank"
+				>
+					<img
+						class="h-4 object-contain"
+						src="icons/git-commit.svg"
+						loading="lazy"
+						alt="Git Commit"
+					/>
+					<p class="mt-0.5 font-mono">{latestCommit[0].sha.slice(0, 7)}</p>
+				</a>
+			</div>
+
+			<div class="flex items-center space-x-5">
+				<a href="https://github.com/jrwnnnn" target="_blank" class="cursor-pointer">
+				<img
+					class="h-5 object-contain"
+					src="icons/socials/github.svg"
+					loading="lazy"
+					alt="GitHub Icon"
+				/>
+				</a>
+				<a
+				href="mailto:im_not_adding_my_email_here_yet@gmail.com"
+				target="_blank"
+				class="cursor-pointer"
+				>
+				<img
+					class="h-5 object-contain"
+					src="icons/socials/gmail.svg"
+					loading="lazy"
+					alt="Gmail Icon"
+				/>
+				</a>
+				<a href="https://instagram.com/jrwnnn_" target="_blank" class="cursor-pointer">
+				<img
+					class="h-5 object-contain"
+					src="icons/socials/instagram.svg"
+					loading="lazy"
+					alt="Instagram Icon"
+				/>
+				</a>
+			</div>
 			</footer>
 		: null 
 		}
