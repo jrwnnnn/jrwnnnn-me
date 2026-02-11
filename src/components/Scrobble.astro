@@ -1,18 +1,12 @@
 ---
-let lastfm;
-try {
-  lastfm = await (
-    await fetch(
-      `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=KeiCantRead&api_key=${process.env.LASTFM_API_KEY || import.meta.env.LASTFM_API_KEY}&format=json&limit=5`,
-      {
-        headers: { "User-Agent": "Mozilla/5.0" },
-      },
-    )
-  ).json();
-} catch (error) {
-  console.error(error);
-}
-console.error("Test log stream error");
+const lastfm = await (
+  await fetch(
+    `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=KeiCantRead&api_key=${process.env.LASTFM_API_KEY || import.meta.env.LASTFM_API_KEY}&format=json&limit=5`,
+    {
+      headers: { "User-Agent": "Mozilla/5.0" },
+    },
+  )
+).json();
 ---
 
 <!-- TODO: Implement realtime ajax-->
@@ -21,12 +15,16 @@ console.error("Test log stream error");
 >
   NOW SCROBBLING
 </div>
-<a class="flex flex-col md:flex-row cursor-pointer gap-5" href={lastfm.recenttracks.track[0].url}>
-  <div class="group relative md:w-30 w-full border border-green-500">
+<a
+  class="flex cursor-pointer flex-col gap-5 md:flex-row"
+  href={lastfm.recenttracks.track[0].url}
+  target="_blank"
+>
+  <div class="group relative w-full border border-green-500 md:w-30">
     <img
       src={lastfm.recenttracks.track[0].image[3]["#text"]}
       alt={lastfm.recenttracks.track[0].album["#text"]}
-      class="h-full w-full object-cover brightness-90 contrast-125 grayscale transition group-hover:brightness-100 group-hover:contrast-100 group-hover:grayscale-0"
+      class="h-full w-full object-cover contrast-125 grayscale transition group-hover:contrast-100 group-hover:grayscale-0"
     />
 
     <div
