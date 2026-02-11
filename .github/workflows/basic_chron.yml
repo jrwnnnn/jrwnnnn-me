@@ -41,6 +41,12 @@ jobs:
             }));
 
             fs.writeFileSync('commits.json', JSON.stringify(commits, null, 2));
+      
+    - name: Fetch jrwnnnn/jrwnnnn-me Commits
+        run: |
+          curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          -H "User-Agent: REST-API-Bot" \
+          "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits" > jrwnnnn-me-commits.json
 
       - name: Commit and Push
         run: |
