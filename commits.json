@@ -1,5 +1,207 @@
 [
   {
+    "sha": "13efc4f4ab0cfc24fe20c099b7ad82acecc0b70c",
+    "node_id": "C_kwDORCOQn9oAKDEzZWZjNGY0YWIwY2ZjMjRmZTIwYzA5OWI3YWQ4MmFjZWNjMGI3MGM",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-02-11T07:16:48Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-02-11T07:16:48Z"
+      },
+      "message": "Add jrwnnnn-me-commits.json to git add\n\nUpdate the GitHub Actions workflow to stage the generated jrwnnnn-me-commits.json file before committing and pushing. Also fix the step indentation.",
+      "tree": {
+        "sha": "c2628c7e60d9a9081b272c0bf7884e916d97358e",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/c2628c7e60d9a9081b272c0bf7884e916d97358e"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/13efc4f4ab0cfc24fe20c099b7ad82acecc0b70c",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/13efc4f4ab0cfc24fe20c099b7ad82acecc0b70c",
+    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/13efc4f4ab0cfc24fe20c099b7ad82acecc0b70c",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/13efc4f4ab0cfc24fe20c099b7ad82acecc0b70c/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e17a120006b45724866ea6908bdc20141a83ed61",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/e17a120006b45724866ea6908bdc20141a83ed61",
+        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/e17a120006b45724866ea6908bdc20141a83ed61"
+      }
+    ],
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2
+    },
+    "files": [
+      {
+        "sha": "517edd72039b720ce9c8fe6a6f3c6cf581516124",
+        "filename": ".github/workflows/basic_chron.yml",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/13efc4f4ab0cfc24fe20c099b7ad82acecc0b70c/.github%2Fworkflows%2Fbasic_chron.yml",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/13efc4f4ab0cfc24fe20c099b7ad82acecc0b70c/.github%2Fworkflows%2Fbasic_chron.yml",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/.github%2Fworkflows%2Fbasic_chron.yml?ref=13efc4f4ab0cfc24fe20c099b7ad82acecc0b70c",
+        "patch": "@@ -42,7 +42,7 @@ jobs:\n \n             fs.writeFileSync('commits.json', JSON.stringify(commits, null, 2));\n       \n-    - name: Fetch jrwnnnn/jrwnnnn-me Commits\n+      - name: Fetch jrwnnnn/jrwnnnn-me Commits\n         run: |\n           curl -s -H \"Authorization: token ${{ secrets.GITHUB_TOKEN }}\" \\\n           -H \"User-Agent: REST-API-Bot\" \\\n@@ -52,7 +52,7 @@ jobs:\n         run: |\n           git config --global user.name \"GitHub Actions\"\n           git config --global user.email \"actions@github.com\"\n-          git add profile.json repositories.json commits.json\n+          git add profile.json repositories.json commits.json jrwnnnn-me-commits.json\n           if [[ -n $(git status -s) ]]; then\n             git commit -m \"Update data [skip deploy]\"\n             git push origin data"
+      }
+    ]
+  },
+  {
+    "sha": "e17a120006b45724866ea6908bdc20141a83ed61",
+    "node_id": "C_kwDORCOQn9oAKGUxN2ExMjAwMDZiNDU3MjQ4NjZlYTY5MDhiZGMyMDE0MWE4M2VkNjE",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-02-11T07:14:24Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-02-11T07:14:24Z"
+      },
+      "message": "Add step to fetch jrwnnnn/jrwnnnn-me commits [skip deploy]\n\nInsert a workflow step to retrieve commits from the jrwnnnn/jrwnnnn-me repository and write them to jrwnnnn-me-commits.json.",
+      "tree": {
+        "sha": "2a4622176a0e158e252958cdc0c7364cec026400",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/2a4622176a0e158e252958cdc0c7364cec026400"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/e17a120006b45724866ea6908bdc20141a83ed61",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/e17a120006b45724866ea6908bdc20141a83ed61",
+    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/e17a120006b45724866ea6908bdc20141a83ed61",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/e17a120006b45724866ea6908bdc20141a83ed61/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4bef96ac21ffc3d002370f42d5da981bfdf15078",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/4bef96ac21ffc3d002370f42d5da981bfdf15078",
+        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/4bef96ac21ffc3d002370f42d5da981bfdf15078"
+      }
+    ],
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0
+    },
+    "files": [
+      {
+        "sha": "1b889add6897bb216571e6a884f4b7ff31f3eae5",
+        "filename": ".github/workflows/basic_chron.yml",
+        "status": "modified",
+        "additions": 6,
+        "deletions": 0,
+        "changes": 6,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/e17a120006b45724866ea6908bdc20141a83ed61/.github%2Fworkflows%2Fbasic_chron.yml",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/e17a120006b45724866ea6908bdc20141a83ed61/.github%2Fworkflows%2Fbasic_chron.yml",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/.github%2Fworkflows%2Fbasic_chron.yml?ref=e17a120006b45724866ea6908bdc20141a83ed61",
+        "patch": "@@ -41,6 +41,12 @@ jobs:\n             }));\n \n             fs.writeFileSync('commits.json', JSON.stringify(commits, null, 2));\n+      \n+    - name: Fetch jrwnnnn/jrwnnnn-me Commits\n+        run: |\n+          curl -s -H \"Authorization: token ${{ secrets.GITHUB_TOKEN }}\" \\\n+          -H \"User-Agent: REST-API-Bot\" \\\n+          \"https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits\" > jrwnnnn-me-commits.json\n \n       - name: Commit and Push\n         run: |"
+      }
+    ]
+  },
+  {
     "sha": "4bef96ac21ffc3d002370f42d5da981bfdf15078",
     "node_id": "C_kwDORCOQn9oAKDRiZWY5NmFjMjFmZmMzZDAwMjM3MGY0MmQ1ZGE5ODFiZmRmMTUwNzg",
     "commit": {
@@ -299,220 +501,6 @@
         "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/4c82fe915609fc104ee373cbf5382fa375a044b9/src%2Fcomponents%2FScrobble.astro",
         "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2FScrobble.astro?ref=4c82fe915609fc104ee373cbf5382fa375a044b9",
         "patch": "@@ -1,9 +1,13 @@\n ---\n-const lastfm = await (\n-  await fetch(\n+let lastfm;\n+try {\n+  const response = await fetch(\n     `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=KeiCantRead&api_key=${import.meta.env.LASTFM_API_KEY}&format=json&limit=5`,\n-  )\n-).json();\n+  );\n+  lastfm = await response.json();\n+} catch (error) {\n+  console.log(error);\n+}\n ---\n \n <!-- TODO: Implement realtime ajax-->"
-      }
-    ]
-  },
-  {
-    "sha": "15c96e016bc9e86f8ec5f1bbb8b413c45151bdad",
-    "node_id": "C_kwDORCOQn9oAKDE1Yzk2ZTAxNmJjOWU4NmY4ZWM1ZjFiYmI4YjQxM2M0NTE1MWJkYWQ",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-10T13:46:55Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-10T13:46:55Z"
-      },
-      "message": "Use native img and remove Astro image config\n\nRemove Astro image handling and simplify the scrobble component.",
-      "tree": {
-        "sha": "5d69e06c6e1a9041113972dff7c4cfc844597bc5",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/5d69e06c6e1a9041113972dff7c4cfc844597bc5"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/15c96e016bc9e86f8ec5f1bbb8b413c45151bdad",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/15c96e016bc9e86f8ec5f1bbb8b413c45151bdad",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/15c96e016bc9e86f8ec5f1bbb8b413c45151bdad",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/15c96e016bc9e86f8ec5f1bbb8b413c45151bdad/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "728fe841c579b3a8aa7af8b3fb6cc6ce16b643e5",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/728fe841c579b3a8aa7af8b3fb6cc6ce16b643e5",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/728fe841c579b3a8aa7af8b3fb6cc6ce16b643e5"
-      }
-    ],
-    "stats": {
-      "total": 8,
-      "additions": 1,
-      "deletions": 7
-    },
-    "files": [
-      {
-        "sha": "bb7e961f8a85bccbe0d6bca6867612db9e607a4d",
-        "filename": "astro.config.mjs",
-        "status": "modified",
-        "additions": 0,
-        "deletions": 3,
-        "changes": 3,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/15c96e016bc9e86f8ec5f1bbb8b413c45151bdad/astro.config.mjs",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/15c96e016bc9e86f8ec5f1bbb8b413c45151bdad/astro.config.mjs",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/astro.config.mjs?ref=15c96e016bc9e86f8ec5f1bbb8b413c45151bdad",
-        "patch": "@@ -12,7 +12,4 @@ export default defineConfig({\n     mode: \"standalone\",\n   }),\n   output: \"server\",\n-  image: {\n-    domains: [\"lastfm.freetls.fastly.net\"],\n-  },\n });\n\\ No newline at end of file"
-      },
-      {
-        "sha": "8ca9c61e4a336b6beb63aa63b5f868f59df4d701",
-        "filename": "src/components/Scrobble.astro",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 4,
-        "changes": 5,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/15c96e016bc9e86f8ec5f1bbb8b413c45151bdad/src%2Fcomponents%2FScrobble.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/15c96e016bc9e86f8ec5f1bbb8b413c45151bdad/src%2Fcomponents%2FScrobble.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2FScrobble.astro?ref=15c96e016bc9e86f8ec5f1bbb8b413c45151bdad",
-        "patch": "@@ -1,5 +1,4 @@\n ---\n-import { Image } from \"astro:assets\";\n const lastfm = await (\n   await fetch(\n     `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=KeiCantRead&api_key=${import.meta.env.LASTFM_API_KEY}&format=json&limit=5`,\n@@ -15,11 +14,9 @@ const lastfm = await (\n </div>\n <a class=\"flex cursor-pointer gap-5\" href={lastfm.recenttracks.track[0].url}>\n   <div class=\"group relative w-30 border border-green-500\">\n-    <Image\n+    <img\n       src={lastfm.recenttracks.track[0].image[3][\"#text\"]}\n       alt={lastfm.recenttracks.track[0].album[\"#text\"]}\n-      width=\"300\"\n-      height=\"300\"\n       class=\"h-full w-full object-cover brightness-90 contrast-125 grayscale transition group-hover:brightness-100 group-hover:contrast-100 group-hover:grayscale-0\"\n     />\n "
-      }
-    ]
-  },
-  {
-    "sha": "728fe841c579b3a8aa7af8b3fb6cc6ce16b643e5",
-    "node_id": "C_kwDORCOQn9oAKDcyOGZlODQxYzU3OWIzYThhYTdhZjhiM2ZiNmNjNmNlMTZiNjQzZTU",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-10T13:44:32Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-10T13:44:32Z"
-      },
-      "message": "Revert \"Add Last.fm fetch error handling and UI states\"\n\nThis reverts commit e9ab4af468b6a96876ea320a6e1538d6a5c7fa4e.",
-      "tree": {
-        "sha": "6882e49e2f6ca0b874f9d95fdb59b4ad6b86b418",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/6882e49e2f6ca0b874f9d95fdb59b4ad6b86b418"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/728fe841c579b3a8aa7af8b3fb6cc6ce16b643e5",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/728fe841c579b3a8aa7af8b3fb6cc6ce16b643e5",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/728fe841c579b3a8aa7af8b3fb6cc6ce16b643e5",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/728fe841c579b3a8aa7af8b3fb6cc6ce16b643e5/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "e9ab4af468b6a96876ea320a6e1538d6a5c7fa4e",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/e9ab4af468b6a96876ea320a6e1538d6a5c7fa4e",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/e9ab4af468b6a96876ea320a6e1538d6a5c7fa4e"
-      }
-    ],
-    "stats": {
-      "total": 139,
-      "additions": 52,
-      "deletions": 87
-    },
-    "files": [
-      {
-        "sha": "48958b933570c2158862d5304706a5f157abfe13",
-        "filename": "src/components/Scrobble.astro",
-        "status": "modified",
-        "additions": 52,
-        "deletions": 87,
-        "changes": 139,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/728fe841c579b3a8aa7af8b3fb6cc6ce16b643e5/src%2Fcomponents%2FScrobble.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/728fe841c579b3a8aa7af8b3fb6cc6ce16b643e5/src%2Fcomponents%2FScrobble.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2FScrobble.astro?ref=728fe841c579b3a8aa7af8b3fb6cc6ce16b643e5",
-        "patch": "@@ -1,94 +1,59 @@\n ---\n import { Image } from \"astro:assets\";\n-\n-let lastfm;\n-let error = false;\n-\n-try {\n-  const response = await fetch(\n+const lastfm = await (\n+  await fetch(\n     `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=KeiCantRead&api_key=${import.meta.env.LASTFM_API_KEY}&format=json&limit=5`,\n-    {\n-      headers: {\n-        \"User-Agent\": \"Mozilla/5.0\",\n-      },\n-    },\n-  );\n-\n-  if (!response.ok) {\n-    throw new Error(`HTTP error! status: ${response.status}`);\n-  }\n-\n-  lastfm = await response.json();\n-} catch (e) {\n-  console.error(\"Last.fm fetch error:\", e);\n-  error = true;\n-}\n+  )\n+).json();\n ---\n \n-{\n-  error ? (\n-    <div class=\"border border-red-500/30 bg-red-950/20 p-4\">\n-      <p class=\"font-mono text-sm text-red-500\">\n-        ⚠ Failed to load Last.fm data. Check API key or try again later.\n-      </p>\n-    </div>\n-  ) : lastfm?.recenttracks?.track ? (\n-    <>\n-      <div\n-        class={`bg-green-500 px-2 py-px font-mono text-[12px] font-bold text-black ${lastfm.recenttracks.track[0][\"@attr\"]?.nowplaying === \"true\" ? \"\" : \"hidden\"}`}\n-      >\n-        NOW SCROBBLING\n-      </div>\n-      <a\n-        class=\"flex cursor-pointer gap-5\"\n-        href={lastfm.recenttracks.track[0].url}\n-      >\n-        <div class=\"group relative w-30 border border-green-500\">\n-          <Image\n-            src={lastfm.recenttracks.track[0].image[3][\"#text\"]}\n-            alt={lastfm.recenttracks.track[0].album[\"#text\"]}\n-            width=\"300\"\n-            height=\"300\"\n-            class=\"h-full w-full object-cover brightness-90 contrast-125 grayscale transition group-hover:brightness-100 group-hover:contrast-100 group-hover:grayscale-0\"\n-          />\n+<!-- TODO: Implement realtime ajax-->\n+<div\n+  class=`bg-green-500 py-px px-2 font-mono text-[12px] font-bold text-black ${lastfm.recenttracks.track[0]['@attr']?.nowplaying === 'true' ? '' : 'hidden'}`\n+>\n+  NOW SCROBBLING\n+</div>\n+<a class=\"flex cursor-pointer gap-5\" href={lastfm.recenttracks.track[0].url}>\n+  <div class=\"group relative w-30 border border-green-500\">\n+    <Image\n+      src={lastfm.recenttracks.track[0].image[3][\"#text\"]}\n+      alt={lastfm.recenttracks.track[0].album[\"#text\"]}\n+      width=\"300\"\n+      height=\"300\"\n+      class=\"h-full w-full object-cover brightness-90 contrast-125 grayscale transition group-hover:brightness-100 group-hover:contrast-100 group-hover:grayscale-0\"\n+    />\n \n-          <div class=\"pointer-events-none absolute inset-0 bg-green-500/90 mix-blend-multiply group-hover:hidden\"></div>\n-        </div>\n-        <div>\n-          <p class=\"mb-2 text-xl font-bold tracking-normal\">\n-            {lastfm.recenttracks.track[0].name}\n-          </p>\n-          <p class=\"font-mono text-xs text-green-700 line-clamp-1\">\n-            Artist: {lastfm.recenttracks.track[0].artist[\"#text\"]}\n-          </p>\n-          <p class=\"font-mono text-xs text-green-700 line-clamp-1\">\n-            Album: {lastfm.recenttracks.track[0].album[\"#text\"]}\n-          </p>\n-        </div>\n-      </a>\n-      <div>\n-        <div class=\"flex items-center gap-2\">\n-          <hr class=\"grow border border-dashed border-green-900\" />\n-          <p class=\"text-center font-mono text-xs tracking-widest text-green-900\">\n-            Recent Tracks\n-          </p>\n-          <hr class=\"grow border border-dashed border-green-900\" />\n-        </div>\n-        {lastfm.recenttracks.track.slice(1).map((track: any) => (\n-          <div class=\"flex items-center justify-between\">\n-            <p class=\"text-green-600 line-clamp-1\">{track.name}</p>\n-            <p class=\"font-mono text-xs text-green-700 line-clamp-1\">\n-              {track.artist[\"#text\"]}\n-            </p>\n-          </div>\n-        ))}\n-      </div>\n-    </>\n-  ) : (\n-    <div class=\"border border-yellow-500/30 bg-yellow-950/20 p-4\">\n-      <p class=\"font-mono text-sm text-yellow-500\">\n-        ⚠ No Last.fm data available\n-      </p>\n+    <div\n+      class=\"pointer-events-none absolute inset-0 bg-green-500/90 mix-blend-multiply group-hover:hidden\"\n+    >\n     </div>\n-  )\n-}\n+  </div>\n+  <div>\n+    <p class=\"mb-2 text-xl font-bold tracking-normal\">\n+      {lastfm.recenttracks.track[0].name}\n+    </p>\n+    <p class=\"font-mono text-xs text-green-700\">\n+      Artist: {lastfm.recenttracks.track[0].artist[\"#text\"]}\n+    </p>\n+    <p class=\"font-mono text-xs text-green-700\">\n+      Album: {lastfm.recenttracks.track[0].album[\"#text\"]}\n+    </p>\n+  </div>\n+</a>\n+<div>\n+  <div class=\"flex items-center gap-2\">\n+    <hr class=\"grow border border-dashed border-green-900\" />\n+    <p class=\"text-center font-mono text-xs tracking-widest text-green-900\">\n+      Recent Tracks\n+    </p>\n+    <hr class=\"grow border border-dashed border-green-900\" />\n+  </div>\n+  {\n+    lastfm.recenttracks.track.slice(1).map((track: any) => (\n+      <div class=\"flex items-center justify-between\">\n+        <p class=\"text-green-600\">{track.name}</p>\n+        <p class=\"font-mono text-xs text-green-700\">{track.artist[\"#text\"]}</p>\n+      </div>\n+    ))\n+  }\n+</div>"
       }
     ]
   }
