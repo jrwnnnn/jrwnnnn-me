@@ -42,7 +42,7 @@ jobs:
 
             fs.writeFileSync('commits.json', JSON.stringify(commits, null, 2));
       
-    - name: Fetch jrwnnnn/jrwnnnn-me Commits
+      - name: Fetch jrwnnnn/jrwnnnn-me Commits
         run: |
           curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
           -H "User-Agent: REST-API-Bot" \
@@ -52,7 +52,7 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add profile.json repositories.json commits.json
+          git add profile.json repositories.json commits.json jrwnnnn-me-commits.json
           if [[ -n $(git status -s) ]]; then
             git commit -m "Update data [skip deploy]"
             git push origin data
