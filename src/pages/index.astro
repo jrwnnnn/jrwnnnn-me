@@ -16,8 +16,8 @@ const js = await (await fetch("https://pastebin.com/raw/f3mNJJkE")).text();
 <Layout title="BOOT">
   <main class="flex flex-col space-y-8">
     <div class="mt-15 space-y-5 md:w-2/3">
-      <p class="text-5xl text-balance md:text-6xl">Ni Howdy! It's Jerwin</p>
-      <p class="text-md font-mono">
+      <p class="text-5xl text-balance md:text-6xl">Hello! It's Jerwin</p>
+      <p class="font-mono md:text-lg">
         I'm a student based in <strong>Manila, PH</strong>. I build things for
         the <strong>web</strong>. My code is held together by duct tape and
         prayers. I spend more time customizing my VS Code theme than actually
@@ -26,8 +26,9 @@ const js = await (await fetch("https://pastebin.com/raw/f3mNJJkE")).text();
     </div>
     <Container class="space-y-2" onclick="location.href='blog?=latest'">
       <p class="text-lg font-bold tracking-widest">> LATEST_TRANSMISSION</p>
-      <div class="flex items-center font-mono text-sm">
-        <span class="mr-2 bg-green-500 px-1 text-xs font-bold text-black"
+      <div class="flex items-center text-sm">
+        <span
+          class="mr-2 bg-green-500 px-1 font-mono text-xs font-bold text-black"
           >ENCRYPTED</span
         >
         <span
@@ -48,19 +49,24 @@ const js = await (await fetch("https://pastebin.com/raw/f3mNJJkE")).text();
           );
         </script>
       </div>
-      <p class="font-mono text-xs font-bold">[ DATE RECIEVED: 2026-01-27 ]</p>
+      <p class="font-mono text-xs text-green-700">
+        [ DATE RECIEVED: 2026-01-27 ]
+      </p>
     </Container>
     <hr class="border-green-500" />
     <div class="space-y-5">
       <h3 class="text-xl font-bold tracking-widest">> MAIN_MENU</h3>
-      <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+      <div class="grid grid-cols-1 gap-6 md:grid-cols-2 font-mono">
         <Button
           class="group py-3! text-left"
           onclick="location.href='projects'"
         >
           <span class="mr-2 group-hover:animate-ping">></span> [ DIR ] PROJECTS
         </Button>
-        <Button class="group py-3! text-left" onclick="location.href='blog'">
+        <Button 
+          class="group py-3! text-left" 
+          onclick="location.href='blog'"
+        >
           <span class="mr-2 group-hover:animate-ping">></span> [ LOG ] BLOGS
         </Button>
       </div>
@@ -169,9 +175,7 @@ const js = await (await fetch("https://pastebin.com/raw/f3mNJJkE")).text();
         <CommitLog />
         <!-- TODO: Add heat map -->
       </Container>
-      <Container class="break-inside-avoid space-y-4">
-        <p class="text-lg font-bold tracking-widest">> LAST_FM</p>
-        <hr class="border border-green-500/30" />
+      <Container class="break-inside-avoid space-y-5">
         <LastFM />
       </Container>
     </div>
