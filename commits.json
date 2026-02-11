@@ -1,24 +1,24 @@
 [
   {
-    "sha": "1baf7624082a370f96b714bba6d5e68963310957",
-    "node_id": "C_kwDORCOQn9oAKDFiYWY3NjI0MDgyYTM3MGY5NmI3MTRiYmE2ZDVlNjg5NjMzMTA5NTc",
+    "sha": "5cf4163f12a901258060dcef422eb7aadaa11917",
+    "node_id": "C_kwDORCOQn9oAKDVjZjQxNjNmMTJhOTAxMjU4MDYwZGNlZjQyMmViN2FhZGFhMTE5MTc",
     "commit": {
       "author": {
         "name": "Mark Jerwin",
         "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-11T09:27:06Z"
+        "date": "2026-02-11T11:00:19Z"
       },
       "committer": {
         "name": "Mark Jerwin",
         "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-11T09:27:06Z"
+        "date": "2026-02-11T11:00:19Z"
       },
-      "message": "Update UI, fonts, and LastFM component\n\nAdd new assets and refine UI/typography: add two woff2 fonts (Terminus and ibm_vga_8x16), remove old TTF. Register fonts in global.css and set --font-mono to Terminus.",
+      "message": "Inline stack icons and simplify Radar component\n\nMove stack icon data into the index page and render the stack icon grid inline there; remove the Radar component's static icon list and markup (Radar.astro now only contains the chart scripts). Remove the Radar import and canvas from src/pages/index.astro, add a local `stack` array, and render the icon grid directly. Also move the Ascii component placement and add an opacity tweak for its styling. Minor UI tweak in src/pages/projects.astro: remove the bold font weight from repository name.",
       "tree": {
-        "sha": "a1c86570b6df1c5caa2435a418575c3b5d059791",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/a1c86570b6df1c5caa2435a418575c3b5d059791"
+        "sha": "adc8d63929c8b42b8b223a1a03c9ec01de457a57",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/adc8d63929c8b42b8b223a1a03c9ec01de457a57"
       },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/1baf7624082a370f96b714bba6d5e68963310957",
+      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/5cf4163f12a901258060dcef422eb7aadaa11917",
       "comment_count": 0,
       "verification": {
         "verified": false,
@@ -28,9 +28,9 @@
         "verified_at": null
       }
     },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/1baf7624082a370f96b714bba6d5e68963310957",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/1baf7624082a370f96b714bba6d5e68963310957",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/1baf7624082a370f96b714bba6d5e68963310957/comments",
+    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/5cf4163f12a901258060dcef422eb7aadaa11917",
+    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/5cf4163f12a901258060dcef422eb7aadaa11917",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/5cf4163f12a901258060dcef422eb7aadaa11917/comments",
     "author": {
       "login": "jrwnnnn",
       "id": 136870415,
@@ -75,132 +75,75 @@
     },
     "parents": [
       {
-        "sha": "f69986ddf306fbea5eb9f3fcfc72393a917ab8b0",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0"
+        "sha": "f607655b27cee1bda557defb12029c76185231bb",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/f607655b27cee1bda557defb12029c76185231bb",
+        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/f607655b27cee1bda557defb12029c76185231bb"
       }
     ],
     "stats": {
-      "total": 84,
-      "additions": 53,
-      "deletions": 31
+      "total": 74,
+      "additions": 27,
+      "deletions": 47
     },
     "files": [
       {
-        "sha": "728475bda3426140f604f44da5b155011979eedf",
-        "filename": "src/assets/fonts/Terminus.woff2",
-        "status": "added",
-        "additions": 0,
-        "deletions": 0,
-        "changes": 0,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/1baf7624082a370f96b714bba6d5e68963310957/src%2Fassets%2Ffonts%2FTerminus.woff2",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/1baf7624082a370f96b714bba6d5e68963310957/src%2Fassets%2Ffonts%2FTerminus.woff2",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fassets%2Ffonts%2FTerminus.woff2?ref=1baf7624082a370f96b714bba6d5e68963310957"
-      },
-      {
-        "sha": "34af64c2d8f783cb75501cd8d425a97d5e302c1e",
-        "filename": "src/assets/fonts/ibm_vga_8x16.ttf",
-        "status": "removed",
-        "additions": 0,
-        "deletions": 0,
-        "changes": 0,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0/src%2Fassets%2Ffonts%2Fibm_vga_8x16.ttf",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0/src%2Fassets%2Ffonts%2Fibm_vga_8x16.ttf",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fassets%2Ffonts%2Fibm_vga_8x16.ttf?ref=f69986ddf306fbea5eb9f3fcfc72393a917ab8b0"
-      },
-      {
-        "sha": "196aa2752f8c0d5c16e970dcef8c1a658a7470f4",
-        "filename": "src/assets/fonts/ibm_vga_8x16.woff2",
-        "status": "added",
-        "additions": 0,
-        "deletions": 0,
-        "changes": 0,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/1baf7624082a370f96b714bba6d5e68963310957/src%2Fassets%2Ffonts%2Fibm_vga_8x16.woff2",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/1baf7624082a370f96b714bba6d5e68963310957/src%2Fassets%2Ffonts%2Fibm_vga_8x16.woff2",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fassets%2Ffonts%2Fibm_vga_8x16.woff2?ref=1baf7624082a370f96b714bba6d5e68963310957"
-      },
-      {
-        "sha": "b2ad51c8697466776c13707464335cce79ea3781",
-        "filename": "src/components/Scrobble.astro",
+        "sha": "4b3367a05d1c741c1981a5aabfd2e2c89371f4b0",
+        "filename": "src/components/Radar.astro",
         "status": "modified",
-        "additions": 25,
-        "deletions": 16,
-        "changes": 41,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/1baf7624082a370f96b714bba6d5e68963310957/src%2Fcomponents%2FScrobble.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/1baf7624082a370f96b714bba6d5e68963310957/src%2Fcomponents%2FScrobble.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2FScrobble.astro?ref=1baf7624082a370f96b714bba6d5e68963310957",
-        "patch": "@@ -10,11 +10,15 @@ const lastfm = await (\n ---\n \n <!-- TODO: Implement realtime ajax-->\n-<div\n-  class=`bg-green-500 py-px px-2 font-mono text-[12px] font-bold text-black ${lastfm.recenttracks.track[0]['@attr']?.nowplaying === 'true' ? '' : 'hidden'}`\n->\n-  NOW SCROBBLING\n+<div class=\"flex items-center justify-between\">\n+  <p class=\"text-lg font-bold tracking-widest\">> LAST_FM</p>\n+  <div\n+    class=`bg-green-500 px-3 py-px font-mono text-[12px] text-black ${lastfm.recenttracks.track[0]['@attr']?.nowplaying === 'true' ? '' : 'hidden'}`\n+  >\n+    LIVE\n+  </div>\n </div>\n+<hr class=\"border border-green-500/30\" />\n <a\n   class=\"flex cursor-pointer flex-col gap-5 md:flex-row\"\n   href={lastfm.recenttracks.track[0].url}\n@@ -33,31 +37,36 @@ const lastfm = await (\n     </div>\n   </div>\n   <div>\n-    <p class=\"mb-2 text-xl font-bold tracking-normal\">\n+    <p class=\"text-lg font-bold\">\n       {lastfm.recenttracks.track[0].name}\n     </p>\n-    <p class=\"font-mono text-xs text-green-700\">\n+    <p class=\"font-mono text-sm text-green-600\">\n       Artist: {lastfm.recenttracks.track[0].artist[\"#text\"]}\n     </p>\n-    <p class=\"font-mono text-xs text-green-700\">\n+    <p class=\"font-mono text-sm text-green-600\">\n       Album: {lastfm.recenttracks.track[0].album[\"#text\"]}\n     </p>\n   </div>\n </a>\n <div>\n-  <div class=\"flex items-center gap-2\">\n+  <div class=\"mb-2 flex items-center gap-2\">\n     <hr class=\"grow border border-dashed border-green-900\" />\n     <p class=\"text-center font-mono text-xs tracking-widest text-green-900\">\n       Recent Tracks\n     </p>\n     <hr class=\"grow border border-dashed border-green-900\" />\n   </div>\n-  {\n-    lastfm.recenttracks.track.slice(1).map((track: any) => (\n-      <div class=\"flex items-center justify-between\">\n-        <p class=\"text-green-600\">{track.name}</p>\n-        <p class=\"font-mono text-xs text-green-700\">{track.artist[\"#text\"]}</p>\n-      </div>\n-    ))\n-  }\n+  <div>\n+    {\n+      lastfm.recenttracks.track.slice(1).map((track: any) => (\n+        <a\n+          href={track.url}\n+          class=\"mb-1 flex gap-3 font-mono text-sm md:mb-0 md:flex md:justify-between\"\n+        >\n+          <p class=\"line-clamp-1 text-green-600\">{track.name}</p>\n+          <p class=\"text-green-800\">{track.artist[\"#text\"]}</p>\n+        </a>\n+      ))\n+    }\n+  </div>\n </div>"
+        "additions": 0,
+        "deletions": 38,
+        "changes": 38,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/5cf4163f12a901258060dcef422eb7aadaa11917/src%2Fcomponents%2FRadar.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/5cf4163f12a901258060dcef422eb7aadaa11917/src%2Fcomponents%2FRadar.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2FRadar.astro?ref=5cf4163f12a901258060dcef422eb7aadaa11917",
+        "patch": "@@ -16,46 +16,8 @@ for (const lang of Object.values(languages)) {\n for (const lang in stack) {\n \tstack[lang] = (stack[lang] / total) * 100;\n }\n-\n-const stackIcons = [\n-\t{\n-\t\ticon: \"icons/stack/javascript.svg\",\n-\t\tname: \"JavaScript\",\n-\t},\n-\t{\n-\t\ticon: \"icons/stack/astro.svg\",\n-\t\tname: \"Astro\",\n-\t},\n-\t{\n-\t\ticon: \"icons/stack/php.svg\",\n-\t\tname: \"PHP\",\n-\t},\n-\t{\n-\t\ticon: \"icons/stack/react.svg\",\n-\t\tname: \"React\",\n-\t},\n-\t{\n-\t\ticon: \"icons/stack/tailwindcss.svg\",\n-\t\tname: \"Tailwind CSS\",\n-\t},\n-];\n ---\n \n-<div class=\"grid grid-cols-3 place-items-center gap-4 md:grid-cols-5\">\n-\t{\n-\t\tstackIcons.map((language) => (\n-\t\t\t<div class=\"flex flex-col items-center gap-2\">\n-\t\t\t\t<img\n-\t\t\t\t\tclass=\"h-10 w-10 object-contain\"\n-\t\t\t\t\tsrc={language.icon}\n-\t\t\t\t\tloading=\"lazy\"\n-\t\t\t\t\talt={language.name}\n-\t\t\t\t/>\n-\t\t\t\t<p class=\"font-mono text-xs font-bold\">{language.name}</p>\n-\t\t\t</div>\n-\t\t))\n-\t}\n-</div>\n <script is:inline src=\"https://cdn.jsdelivr.net/npm/chart.js\"></script>\n <script is:inline define:vars={{ stack }}>\n \tconst ctx = document.getElementById(\"stackradar\");"
       },
       {
-        "sha": "2d42c02502115e804ec4c69d16b7aeaea6a0e467",
-        "filename": "src/pages/404.astro",
-        "status": "modified",
-        "additions": 2,
-        "deletions": 2,
-        "changes": 4,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/1baf7624082a370f96b714bba6d5e68963310957/src%2Fpages%2F404.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/1baf7624082a370f96b714bba6d5e68963310957/src%2Fpages%2F404.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2F404.astro?ref=1baf7624082a370f96b714bba6d5e68963310957",
-        "patch": "@@ -11,13 +11,13 @@ import Layout from \"../layouts/Layout.astro\";\n         > 404_ERROR\n       </p>\n       <div class=\"space-y-5 font-mono text-sm text-green-500/80\">\n-        <p class=\"font-bold md:max-w-2/3\">\n+        <p class=\"md:max-w-2/3\">\n           > <span class=\"text-red-500\">FATAL EXCEPTION:</span> The requested frequency\n           is receiving static. The page you are looking for might have been moved,\n           deleted, or never existed in this timeline.\n         </p>\n       </div>\n     </div>\n-    <p class=\"self-end font-mono text-sm opacity-50\">&copy; jrwnnnn_</p>\n+    <p class=\"self-end font-mono text-sm text-green-800\">&copy; jrwnnnn_</p>\n   </main>\n </Layout>"
-      },
-      {
-        "sha": "5c064a23f344ee9ca1a7cfc45f65b126bdddf14c",
+        "sha": "8e2e3b38c5f819dfe638caf3d39d316c8fe72eba",
         "filename": "src/pages/index.astro",
         "status": "modified",
-        "additions": 14,
-        "deletions": 10,
-        "changes": 24,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/1baf7624082a370f96b714bba6d5e68963310957/src%2Fpages%2Findex.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/1baf7624082a370f96b714bba6d5e68963310957/src%2Fpages%2Findex.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Findex.astro?ref=1baf7624082a370f96b714bba6d5e68963310957",
-        "patch": "@@ -16,8 +16,8 @@ const js = await (await fetch(\"https://pastebin.com/raw/f3mNJJkE\")).text();\n <Layout title=\"BOOT\">\n   <main class=\"flex flex-col space-y-8\">\n     <div class=\"mt-15 space-y-5 md:w-2/3\">\n-      <p class=\"text-5xl text-balance md:text-6xl\">Ni Howdy! It's Jerwin</p>\n-      <p class=\"text-md font-mono\">\n+      <p class=\"text-5xl text-balance md:text-6xl\">Hello! It's Jerwin</p>\n+      <p class=\"font-mono md:text-lg\">\n         I'm a student based in <strong>Manila, PH</strong>. I build things for\n         the <strong>web</strong>. My code is held together by duct tape and\n         prayers. I spend more time customizing my VS Code theme than actually\n@@ -26,8 +26,9 @@ const js = await (await fetch(\"https://pastebin.com/raw/f3mNJJkE\")).text();\n     </div>\n     <Container class=\"space-y-2\" onclick=\"location.href='blog?=latest'\">\n       <p class=\"text-lg font-bold tracking-widest\">> LATEST_TRANSMISSION</p>\n-      <div class=\"flex items-center font-mono text-sm\">\n-        <span class=\"mr-2 bg-green-500 px-1 text-xs font-bold text-black\"\n+      <div class=\"flex items-center text-sm\">\n+        <span\n+          class=\"mr-2 bg-green-500 px-1 font-mono text-xs font-bold text-black\"\n           >ENCRYPTED</span\n         >\n         <span\n@@ -48,19 +49,24 @@ const js = await (await fetch(\"https://pastebin.com/raw/f3mNJJkE\")).text();\n           );\n         </script>\n       </div>\n-      <p class=\"font-mono text-xs font-bold\">[ DATE RECIEVED: 2026-01-27 ]</p>\n+      <p class=\"font-mono text-xs text-green-700\">\n+        [ DATE RECIEVED: 2026-01-27 ]\n+      </p>\n     </Container>\n     <hr class=\"border-green-500\" />\n     <div class=\"space-y-5\">\n       <h3 class=\"text-xl font-bold tracking-widest\">> MAIN_MENU</h3>\n-      <div class=\"grid grid-cols-1 gap-6 md:grid-cols-2\">\n+      <div class=\"grid grid-cols-1 gap-6 md:grid-cols-2 font-mono\">\n         <Button\n           class=\"group py-3! text-left\"\n           onclick=\"location.href='projects'\"\n         >\n           <span class=\"mr-2 group-hover:animate-ping\">></span> [ DIR ] PROJECTS\n         </Button>\n-        <Button class=\"group py-3! text-left\" onclick=\"location.href='blog'\">\n+        <Button \n+          class=\"group py-3! text-left\" \n+          onclick=\"location.href='blog'\"\n+        >\n           <span class=\"mr-2 group-hover:animate-ping\">></span> [ LOG ] BLOGS\n         </Button>\n       </div>\n@@ -169,9 +175,7 @@ const js = await (await fetch(\"https://pastebin.com/raw/f3mNJJkE\")).text();\n         <CommitLog />\n         <!-- TODO: Add heat map -->\n       </Container>\n-      <Container class=\"break-inside-avoid space-y-4\">\n-        <p class=\"text-lg font-bold tracking-widest\">> LAST_FM</p>\n-        <hr class=\"border border-green-500/30\" />\n+      <Container class=\"break-inside-avoid space-y-5\">\n         <LastFM />\n       </Container>\n     </div>"
+        "additions": 26,
+        "deletions": 8,
+        "changes": 34,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/5cf4163f12a901258060dcef422eb7aadaa11917/src%2Fpages%2Findex.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/5cf4163f12a901258060dcef422eb7aadaa11917/src%2Fpages%2Findex.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Findex.astro?ref=5cf4163f12a901258060dcef422eb7aadaa11917",
+        "patch": "@@ -3,7 +3,6 @@ import Layout from \"../layouts/Layout.astro\";\n import Container from \"../components/Container.astro\";\n import Button from \"../components/Button.astro\";\n import Ascii from \"../components/AsciiContainer.astro\";\n-import Radar from \"../components/Radar.astro\";\n import CommitLog from \"../components/CommitLog.astro\";\n import LastFM from \"../components/Scrobble.astro\";\n \n@@ -30,6 +29,14 @@ const socials = [\n     href: \"https://instagram.com/jrwnnn_\"\n   },\n ];\n+\n+const stack = [\n+  { icon: \"icons/stack/javascript.svg\", name: \"JavaScript\", },\n+  { icon: \"icons/stack/astro.svg\", name: \"Astro\", },\n+  { icon: \"icons/stack/php.svg\", name: \"PHP\", },\n+  { icon: \"icons/stack/react.svg\", name: \"React\", },\n+  { icon: \"icons/stack/tailwindcss.svg\", name: \"Tailwind CSS\", },\n+];\n ---\n \n <Layout title=\"BOOT\">\n@@ -112,16 +119,24 @@ const socials = [\n       </div>\n     </div>\n     <div class=\"columns-1 gap-6 space-y-6 lg:columns-2\">\n-      <Container class=\"break-inside-avoid space-y-5\">\n-        <Ascii ascii={asciiArt} class=\"glitch\" />\n-      </Container>\n       <Container class=\"break-inside-avoid space-y-5\">\n         <p class=\"text-lg font-bold tracking-widest\">> STACK</p>\n         <hr class=\"border border-green-500/30\">\n-        <p class=\"font-mono text-sm text-green-600\">Stats pulled from my GitHub: languages ranked by total code size.</p>\n-        <canvas id=\"stackradar\"></canvas>\n-        <p class=\"text-xs font-mono text-right text-green-900\">made with chart.js</p>\n-        <Radar />\n+        <div class=\"grid grid-cols-3 place-items-center gap-4 md:grid-cols-5\">\n+          {\n+            stack.map((language) => (\n+              <div class=\"flex flex-col items-center gap-2\">\n+                <img\n+                  class=\"h-10 w-10 object-contain\"\n+                  src={language.icon}\n+                  loading=\"lazy\"\n+                  alt={language.name}\n+                />\n+                <p class=\"font-mono text-xs font-bold\">{language.name}</p>\n+              </div>\n+            ))\n+          }\n+        </div>\n       </Container>\n       <Container class=\"break-inside-avoid space-y-5\">\n         <p class=\"text-lg font-bold tracking-widest\">> COMMIT_LOG</p>\n@@ -132,6 +147,9 @@ const socials = [\n       <Container class=\"break-inside-avoid space-y-5\">\n         <LastFM />\n       </Container>\n+      <Container class=\"break-inside-avoid space-y-5\">\n+        <Ascii ascii={asciiArt} class=\"glitch opacity-90\" />\n+      </Container>\n     </div>\n   </main>\n </Layout>"
       },
       {
-        "sha": "d830d8e75acf52b64ff5025b1284384de9822bb1",
+        "sha": "e48fbb9e904edfdeef938bbcaf77f968f743af21",
         "filename": "src/pages/projects.astro",
         "status": "modified",
         "additions": 1,
         "deletions": 1,
         "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/1baf7624082a370f96b714bba6d5e68963310957/src%2Fpages%2Fprojects.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/1baf7624082a370f96b714bba6d5e68963310957/src%2Fpages%2Fprojects.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Fprojects.astro?ref=1baf7624082a370f96b714bba6d5e68963310957",
-        "patch": "@@ -84,7 +84,7 @@ for (const repo of Object.values(repositories) as Record<string, number>[]) {\n                   />\n                 </svg>\n               </div>\n-              <p class=\"line-clamp-2 text-xs opacity-70\">\n+              <p class=\"line-clamp-2 text-xs opacity-70 font-mono\">\n                 {repo.description ?? \"No description available.\"}\n               </p>\n "
-      },
-      {
-        "sha": "8911d1e245db9657a3ef05fa66f67b3fe2fca4a7",
-        "filename": "src/styles/global.css",
-        "status": "modified",
-        "additions": 11,
-        "deletions": 2,
-        "changes": 13,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/1baf7624082a370f96b714bba6d5e68963310957/src%2Fstyles%2Fglobal.css",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/1baf7624082a370f96b714bba6d5e68963310957/src%2Fstyles%2Fglobal.css",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fstyles%2Fglobal.css?ref=1baf7624082a370f96b714bba6d5e68963310957",
-        "patch": "@@ -1,8 +1,17 @@\n @import \"tailwindcss\";\n \n @font-face {\n-  font-family: ibm;\n-  src: url(../assets/fonts/ibm_vga_8x16.ttf);\n+  font-family: 'ibm';\n+  src: url(../assets/fonts/ibm_vga_8x16.woff2) format('woff2');\n+}\n+\n+@font-face {\n+  font-family: 'Terminus';\n+  src: url(../assets/fonts/Terminus.woff2) format('woff2');\n+}\n+\n+@theme {\n+  --font-mono: 'Terminus';\n }\n \n body {"
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/5cf4163f12a901258060dcef422eb7aadaa11917/src%2Fpages%2Fprojects.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/5cf4163f12a901258060dcef422eb7aadaa11917/src%2Fpages%2Fprojects.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Fprojects.astro?ref=5cf4163f12a901258060dcef422eb7aadaa11917",
+        "patch": "@@ -68,7 +68,7 @@ for (const repo of Object.values(repositories) as Record<string, number>[]) {\n                 <div>{repo.size} B</div>\n               </div>\n               <div class=\"flex items-center\">\n-                <p class=\"truncate text-lg font-bold uppercase\">{repo.name}</p>\n+                <p class=\"truncate text-lg uppercase\">{repo.name}</p>\n                 <svg\n                   class=\"ml-1 inline-block h-3.5 w-3.5\"\n                   fill=\"none\""
       }
     ]
   },
   {
-    "sha": "f69986ddf306fbea5eb9f3fcfc72393a917ab8b0",
-    "node_id": "C_kwDORCOQn9oAKGY2OTk4NmRkZjMwNmZiZWE1ZWI5ZjNmY2ZjNzIzOTNhOTE3YWI4YjA",
+    "sha": "f607655b27cee1bda557defb12029c76185231bb",
+    "node_id": "C_kwDORCOQn9oAKGY2MDc2NTViMjdjZWUxYmRhNTU3ZGVmYjEyMDI5Yzc2MTg1MjMxYmI",
     "commit": {
       "author": {
         "name": "Mark Jerwin",
         "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-11T07:40:44Z"
+        "date": "2026-02-11T10:47:17Z"
       },
       "committer": {
         "name": "Mark Jerwin",
         "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-11T07:40:44Z"
+        "date": "2026-02-11T10:47:17Z"
       },
-      "message": "Redesigned footer\n\nThe layout now fetches the latest commit JSON from the repo and displays a linked short SHA with a commit icon, plus social links and updated footer styling. Small props destructuring whitespace was also adjusted.",
+      "message": "Format Scrobble.astro and tweak recent tracks UI\n\nReformatted src/components/Scrobble.astro for consistent indentation and spacing.",
       "tree": {
-        "sha": "546a9c228a1bb97172c5b1f4660f8fcba2b3cb78",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/546a9c228a1bb97172c5b1f4660f8fcba2b3cb78"
+        "sha": "908d4fe6fdbafb985002187a270cbfed8652b552",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/908d4fe6fdbafb985002187a270cbfed8652b552"
       },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0",
+      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/f607655b27cee1bda557defb12029c76185231bb",
       "comment_count": 0,
       "verification": {
         "verified": false,
@@ -210,9 +153,9 @@
         "verified_at": null
       }
     },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0/comments",
+    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/f607655b27cee1bda557defb12029c76185231bb",
+    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/f607655b27cee1bda557defb12029c76185231bb",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/f607655b27cee1bda557defb12029c76185231bb/comments",
     "author": {
       "login": "jrwnnnn",
       "id": 136870415,
@@ -257,99 +200,51 @@
     },
     "parents": [
       {
-        "sha": "dcdca4f99c794b31348a4dc4b9f3f31c079f7e8f",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/dcdca4f99c794b31348a4dc4b9f3f31c079f7e8f",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/dcdca4f99c794b31348a4dc4b9f3f31c079f7e8f"
+        "sha": "4963b94760ae9c657b4243708d2187070523d644",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/4963b94760ae9c657b4243708d2187070523d644",
+        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/4963b94760ae9c657b4243708d2187070523d644"
       }
     ],
     "stats": {
-      "total": 66,
-      "additions": 61,
-      "deletions": 5
+      "total": 117,
+      "additions": 60,
+      "deletions": 57
     },
     "files": [
       {
-        "sha": "52cc6e7b4ffe9b9b92f67bd3dd9c3f4a031f011e",
-        "filename": "public/icons/git-commit.svg",
-        "status": "added",
-        "additions": 4,
-        "deletions": 0,
-        "changes": 4,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0/public%2Ficons%2Fgit-commit.svg",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0/public%2Ficons%2Fgit-commit.svg",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ficons%2Fgit-commit.svg?ref=f69986ddf306fbea5eb9f3fcfc72393a917ab8b0",
-        "patch": "@@ -0,0 +1,4 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->\n+<svg fill=\"#00C950\" width=\"800px\" height=\"800px\" viewBox=\"0 0 256 256\" id=\"Flat\" xmlns=\"http://www.w3.org/2000/svg\">\n+  <path d=\"M244.00293,116H190.8584a63.98856,63.98856,0,0,0-125.71094,0H12.00293a12,12,0,1,0,0,24H65.14746a63.98856,63.98856,0,0,0,125.71094,0h53.14453a12,12,0,0,0,0-24Zm-116,52a40,40,0,1,1,40-40A40.04552,40.04552,0,0,1,128.00293,168Z\"/>\n+</svg>\n\\ No newline at end of file"
-      },
-      {
-        "sha": "79cf0c076516491f1ae4e1d0b11c53e5fe8a9f7f",
-        "filename": "public/icons/socials/github.svg",
-        "status": "added",
-        "additions": 1,
-        "deletions": 0,
-        "changes": 1,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0/public%2Ficons%2Fsocials%2Fgithub.svg",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0/public%2Ficons%2Fsocials%2Fgithub.svg",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ficons%2Fsocials%2Fgithub.svg?ref=f69986ddf306fbea5eb9f3fcfc72393a917ab8b0",
-        "patch": "@@ -0,0 +1 @@\n+<svg fill=\"#00C950\" role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><title>GitHub</title><path d=\"M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12\"/></svg>\n\\ No newline at end of file"
-      },
-      {
-        "sha": "211675f0cf87095fdbdd6ee55b51b271722056ec",
-        "filename": "public/icons/socials/gmail.svg",
-        "status": "added",
-        "additions": 1,
-        "deletions": 0,
-        "changes": 1,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0/public%2Ficons%2Fsocials%2Fgmail.svg",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0/public%2Ficons%2Fsocials%2Fgmail.svg",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ficons%2Fsocials%2Fgmail.svg?ref=f69986ddf306fbea5eb9f3fcfc72393a917ab8b0",
-        "patch": "@@ -0,0 +1 @@\n+<svg fill=\"#00C950\" role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><title>Gmail</title><path d=\"M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z\"/></svg>\n\\ No newline at end of file"
-      },
-      {
-        "sha": "2f258d0b087390664d3dfd3c5799bf221cc57369",
-        "filename": "public/icons/socials/instagram.svg",
-        "status": "added",
-        "additions": 1,
-        "deletions": 0,
-        "changes": 1,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0/public%2Ficons%2Fsocials%2Finstagram.svg",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0/public%2Ficons%2Fsocials%2Finstagram.svg",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ficons%2Fsocials%2Finstagram.svg?ref=f69986ddf306fbea5eb9f3fcfc72393a917ab8b0",
-        "patch": "@@ -0,0 +1 @@\n+<svg fill=\"#00C950\" role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><title>Instagram</title><path d=\"M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077\"/></svg>\n\\ No newline at end of file"
-      },
-      {
-        "sha": "0275417691891a45ccab2a804b134f04e03e38c6",
-        "filename": "src/layouts/Layout.astro",
+        "sha": "9c99a13140fae75eab20407fb2f58a966cc8715d",
+        "filename": "src/components/Scrobble.astro",
         "status": "modified",
-        "additions": 54,
-        "deletions": 5,
-        "changes": 59,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0/src%2Flayouts%2FLayout.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0/src%2Flayouts%2FLayout.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Flayouts%2FLayout.astro?ref=f69986ddf306fbea5eb9f3fcfc72393a917ab8b0",
-        "patch": "@@ -7,7 +7,9 @@ interface Props {\n }\n \n import \"../styles/global.css\";\n-const { title, description = \"Default Description\", statusBar = true, footer = true } = Astro.props;\n+const { title, description = \"Default Description\", statusBar = true, footer = true} = Astro.props;\n+\n+const latestCommit = await(await fetch('https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/jrwnnnn-me-commits.json')).json();\n ---\n \n <!DOCTYPE html>\n@@ -55,11 +57,58 @@ const { title, description = \"Default Description\", statusBar = true, footer = t\n \t\t\t});\n \t\t</script>\n \n-\t\t<!-- TODO: Re-design footer -->\n \t\t{footer ?\n-\t\t\t<footer class=\"mt-20 mb-10 text-center text-green-500\">\n-\t\t\t\t<p>--- END OF LINE ---</p>\n-\t\t\t\t<p>&copy; 2026 JRWNNNN_</p>\n+\t\t\t<footer\n+\t\t\tclass=\"mt-20 flex items-center justify-between border-t border-green-900/30 bg-black px-5 py-8 text-xs md:px-30\"\n+\t\t\t>\n+\t\t\t<div class=\"flex flex-col space-x-5 md:flex-row\">\n+\t\t\t\t<p class=\"font-mono font-bold\">© 2026 Mark Jerwin</p>\n+\t\t\t\t<p class=\"hidden font-mono md:block\">-</p>\n+\t\t\t\t<a \n+\t\t\t\t\tclass=\"flex items-center gap-2 opacity-75 cursor-pointer hover:underline\" \n+\t\t\t\t\thref={latestCommit[0].html_url} \n+\t\t\t\t\ttarget=\"_blank\"\n+\t\t\t\t>\n+\t\t\t\t\t<img\n+\t\t\t\t\t\tclass=\"h-4 object-contain\"\n+\t\t\t\t\t\tsrc=\"icons/git-commit.svg\"\n+\t\t\t\t\t\tloading=\"lazy\"\n+\t\t\t\t\t\talt=\"Git Commit\"\n+\t\t\t\t\t/>\n+\t\t\t\t\t<p class=\"mt-0.5 font-mono\">{latestCommit[0].sha.slice(0, 7)}</p>\n+\t\t\t\t</a>\n+\t\t\t</div>\n+\n+\t\t\t<div class=\"flex items-center space-x-5\">\n+\t\t\t\t<a href=\"https://github.com/jrwnnnn\" target=\"_blank\" class=\"cursor-pointer\">\n+\t\t\t\t<img\n+\t\t\t\t\tclass=\"h-5 object-contain\"\n+\t\t\t\t\tsrc=\"icons/socials/github.svg\"\n+\t\t\t\t\tloading=\"lazy\"\n+\t\t\t\t\talt=\"GitHub Icon\"\n+\t\t\t\t/>\n+\t\t\t\t</a>\n+\t\t\t\t<a\n+\t\t\t\thref=\"mailto:im_not_adding_my_email_here_yet@gmail.com\"\n+\t\t\t\ttarget=\"_blank\"\n+\t\t\t\tclass=\"cursor-pointer\"\n+\t\t\t\t>\n+\t\t\t\t<img\n+\t\t\t\t\tclass=\"h-5 object-contain\"\n+\t\t\t\t\tsrc=\"icons/socials/gmail.svg\"\n+\t\t\t\t\tloading=\"lazy\"\n+\t\t\t\t\talt=\"Gmail Icon\"\n+\t\t\t\t/>\n+\t\t\t\t</a>\n+\t\t\t\t<a href=\"https://instagram.com/jrwnnn_\" target=\"_blank\" class=\"cursor-pointer\">\n+\t\t\t\t<img\n+\t\t\t\t\tclass=\"h-5 object-contain\"\n+\t\t\t\t\tsrc=\"icons/socials/instagram.svg\"\n+\t\t\t\t\tloading=\"lazy\"\n+\t\t\t\t\talt=\"Instagram Icon\"\n+\t\t\t\t/>\n+\t\t\t\t</a>\n+\t\t\t</div>\n \t\t\t</footer>\n \t\t: null \n \t\t}"
+        "additions": 60,
+        "deletions": 57,
+        "changes": 117,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/f607655b27cee1bda557defb12029c76185231bb/src%2Fcomponents%2FScrobble.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/f607655b27cee1bda557defb12029c76185231bb/src%2Fcomponents%2FScrobble.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2FScrobble.astro?ref=f607655b27cee1bda557defb12029c76185231bb",
+        "patch": "@@ -1,72 +1,75 @@\n ---\n const lastfm = await (\n-  await fetch(\n-    `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=KeiCantRead&api_key=${process.env.LASTFM_API_KEY || import.meta.env.LASTFM_API_KEY}&format=json&limit=5`,\n-    {\n-      headers: { \"User-Agent\": \"Mozilla/5.0\" },\n-    },\n-  )\n+\tawait fetch(\n+\t\t`https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=KeiCantRead&api_key=${process.env.LASTFM_API_KEY || import.meta.env.LASTFM_API_KEY}&format=json&limit=5`,\n+\t\t{\n+\t\t\theaders: { \"User-Agent\": \"Mozilla/5.0\" },\n+\t\t},\n+\t)\n ).json();\n ---\n \n <!-- TODO: Implement realtime ajax-->\n <div class=\"flex items-center justify-between\">\n-  <p class=\"text-lg font-bold tracking-widest\">> LAST_FM</p>\n-  <div\n-    class=`bg-green-500 px-3 py-px font-mono text-[12px] text-black ${lastfm.recenttracks.track[0]['@attr']?.nowplaying === 'true' ? '' : 'hidden'}`\n-  >\n-    LIVE\n-  </div>\n+\t<p class=\"text-lg font-bold tracking-widest\">> LAST_FM</p>\n+\t<div\n+\t\tclass=`bg-green-500 px-3 py-px font-mono text-[12px] text-black ${lastfm.recenttracks.track[0]['@attr']?.nowplaying === 'true' ? '' : 'hidden'}`\n+\t>\n+\t\tLIVE\n+\t</div>\n </div>\n <hr class=\"border border-green-500/30\" />\n <a\n-  class=\"flex cursor-pointer flex-col gap-5 md:flex-row\"\n-  href={lastfm.recenttracks.track[0].url}\n-  target=\"_blank\"\n+\tclass=\"flex cursor-pointer flex-col gap-5 md:flex-row\"\n+\thref={lastfm.recenttracks.track[0].url}\n+\ttarget=\"_blank\"\n >\n-  <div class=\"group relative w-full border border-green-500 md:w-30\">\n-    <img\n-      src={lastfm.recenttracks.track[0].image[3][\"#text\"]}\n-      alt={lastfm.recenttracks.track[0].album[\"#text\"]}\n-      class=\"h-full w-full object-cover contrast-125 grayscale transition group-hover:contrast-100 group-hover:grayscale-0\"\n-    />\n+\t<div class=\"group relative w-full border border-green-500 md:w-30\">\n+\t\t<img\n+\t\t\tsrc={lastfm.recenttracks.track[0].image[3][\"#text\"]}\n+\t\t\talt={lastfm.recenttracks.track[0].album[\"#text\"]}\n+\t\t\tclass=\"h-full w-full object-cover contrast-125 grayscale transition group-hover:contrast-100 group-hover:grayscale-0\"\n+\t\t/>\n \n-    <div\n-      class=\"pointer-events-none absolute inset-0 bg-green-500/90 mix-blend-multiply group-hover:hidden\"\n-    >\n-    </div>\n-  </div>\n-  <div>\n-    <p class=\"text-lg font-bold\">\n-      {lastfm.recenttracks.track[0].name}\n-    </p>\n-    <p class=\"font-mono text-sm text-green-600\">\n-      Artist: {lastfm.recenttracks.track[0].artist[\"#text\"]}\n-    </p>\n-    <p class=\"font-mono text-sm text-green-600\">\n-      Album: {lastfm.recenttracks.track[0].album[\"#text\"]}\n-    </p>\n-  </div>\n+\t\t<div\n+\t\t\tclass=\"pointer-events-none absolute inset-0 bg-green-500/90 mix-blend-multiply group-hover:hidden\"\n+\t\t>\n+\t\t</div>\n+\t</div>\n+\t<div>\n+\t\t<p class=\"text-lg font-bold\">\n+\t\t\t{lastfm.recenttracks.track[0].name}\n+\t\t</p>\n+\t\t<p class=\"font-mono text-sm text-green-600\">\n+\t\t\tArtist: {lastfm.recenttracks.track[0].artist[\"#text\"]}\n+\t\t</p>\n+\t\t<p class=\"font-mono text-sm text-green-600\">\n+\t\t\tAlbum: {lastfm.recenttracks.track[0].album[\"#text\"]}\n+\t\t</p>\n+\t</div>\n </a>\n <div>\n-  <div class=\"mb-2 flex items-center gap-2\">\n-    <hr class=\"grow border border-dashed border-green-900\" />\n-    <p class=\"text-center font-mono text-xs tracking-widest text-green-900\">\n-      Recent Tracks\n-    </p>\n-    <hr class=\"grow border border-dashed border-green-900\" />\n-  </div>\n-  <div>\n-    {\n-      lastfm.recenttracks.track.slice(1).map((track: any) => (\n-        <a\n-          href={track.url}\n-          class=\"mb-1 flex gap-3 font-mono text-sm md:mb-0 md:flex md:justify-between\"\n-        >\n-          <p class=\"line-clamp-1 text-green-600\">{track.name}</p>\n-          <p class=\"text-green-800\">{track.artist[\"#text\"]}</p>\n-        </a>\n-      ))\n-    }\n-  </div>\n+\t<div class=\"mb-2 flex items-center gap-2\">\n+\t\t<hr class=\"grow border border-dashed border-green-900\" />\n+\t\t<p class=\"text-center font-mono text-xs tracking-widest text-green-900\">\n+\t\t\tRecent Tracks\n+\t\t</p>\n+\t\t<hr class=\"grow border border-dashed border-green-900\" />\n+\t</div>\n+\t<div>\n+\t\t<!--TODO: Fix responsiveness -->\n+\t\t{\n+\t\t\tlastfm.recenttracks.track.slice(1).map((track: any) => (\n+\t\t\t\t<a\n+\t\t\t\t\thref={track.url}\n+\t\t\t\t\tclass=\"mb-1 flex gap-5 font-mono text-sm md:mb-0 md:flex md:justify-between\"\n+\t\t\t\t>\n+\t\t\t\t\t<p class=\"line-clamp-1 text-green-600\">{track.name}</p>\n+\t\t\t\t\t<p class=\"line-clamp-1 text-left text-green-800\">\n+\t\t\t\t\t\t{track.artist[\"#text\"]}\n+\t\t\t\t\t</p>\n+\t\t\t\t</a>\n+\t\t\t))\n+\t\t}\n+\t</div>\n </div>"
       }
     ]
   },
   {
-    "sha": "dcdca4f99c794b31348a4dc4b9f3f31c079f7e8f",
-    "node_id": "C_kwDORCOQn9oAKGRjZGNhNGY5OWM3OTRiMzEzNDhhNGRjNGI5ZjNmMzFjMDc5ZjdlOGY",
+    "sha": "4963b94760ae9c657b4243708d2187070523d644",
+    "node_id": "C_kwDORCOQn9oAKDQ5NjNiOTQ3NjBhZTljNjU3YjQyNDM3MDhkMjE4NzA3MDUyM2Q2NDQ",
     "commit": {
       "author": {
         "name": "Mark Jerwin",
         "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-11T07:39:33Z"
+        "date": "2026-02-11T10:46:52Z"
       },
       "committer": {
         "name": "Mark Jerwin",
         "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-11T07:39:33Z"
+        "date": "2026-02-11T10:46:52Z"
       },
-      "message": "Increase main horizontal padding to px-5\n\nChange the main selector's Tailwind @apply from px-4 to px-5 to slightly increase horizontal spacing. Responsive md:px-30 and other spacing remain unchanged.",
+      "message": "Update .prettierrc [skip deploy]\n\nAdd \"useTabs\": true to .prettierrc so Prettier formats code using tabs instead of spaces.",
       "tree": {
-        "sha": "bf6a843a1f1ac385a9f8d0e90d786afec8875da5",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/bf6a843a1f1ac385a9f8d0e90d786afec8875da5"
+        "sha": "daff316bf6c04c55469ad69c01e9918f4a31809f",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/daff316bf6c04c55469ad69c01e9918f4a31809f"
       },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/dcdca4f99c794b31348a4dc4b9f3f31c079f7e8f",
+      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/4963b94760ae9c657b4243708d2187070523d644",
       "comment_count": 0,
       "verification": {
         "verified": false,
@@ -359,9 +254,9 @@
         "verified_at": null
       }
     },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/dcdca4f99c794b31348a4dc4b9f3f31c079f7e8f",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/dcdca4f99c794b31348a4dc4b9f3f31c079f7e8f",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/dcdca4f99c794b31348a4dc4b9f3f31c079f7e8f/comments",
+    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/4963b94760ae9c657b4243708d2187070523d644",
+    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/4963b94760ae9c657b4243708d2187070523d644",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/4963b94760ae9c657b4243708d2187070523d644/comments",
     "author": {
       "login": "jrwnnnn",
       "id": 136870415,
@@ -406,176 +301,51 @@
     },
     "parents": [
       {
-        "sha": "79740edf8f72e23e5e00b80f1fa976f629f41727",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/79740edf8f72e23e5e00b80f1fa976f629f41727",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/79740edf8f72e23e5e00b80f1fa976f629f41727"
+        "sha": "19c7ef858905f99c833509713e453ea1bbdf486b",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/19c7ef858905f99c833509713e453ea1bbdf486b",
+        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/19c7ef858905f99c833509713e453ea1bbdf486b"
       }
     ],
     "stats": {
-      "total": 2,
+      "total": 1,
       "additions": 1,
-      "deletions": 1
-    },
-    "files": [
-      {
-        "sha": "a5361f23724232dd81c8c15e4bafcaea5199db59",
-        "filename": "src/styles/global.css",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/dcdca4f99c794b31348a4dc4b9f3f31c079f7e8f/src%2Fstyles%2Fglobal.css",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/dcdca4f99c794b31348a4dc4b9f3f31c079f7e8f/src%2Fstyles%2Fglobal.css",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fstyles%2Fglobal.css?ref=dcdca4f99c794b31348a4dc4b9f3f31c079f7e8f",
-        "patch": "@@ -33,7 +33,7 @@ body::before {\n }\n \n main {\n-  @apply grow px-4 py-20 md:px-30;\n+  @apply grow px-5 py-20 md:px-30;\n }\n \n @keyframes pop-in {"
-      }
-    ]
-  },
-  {
-    "sha": "79740edf8f72e23e5e00b80f1fa976f629f41727",
-    "node_id": "C_kwDORCOQn9oAKDc5NzQwZWRmOGY3MmUyM2U1ZTAwYjgwZjFmYTk3NmY2MjlmNDE3Mjc",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-11T07:36:36Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-11T07:36:36Z"
-      },
-      "message": "Add SVG favicons and reference in Layout.astro",
-      "tree": {
-        "sha": "d57099e458f683ba724a974fc868591b5b62fae5",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/d57099e458f683ba724a974fc868591b5b62fae5"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/79740edf8f72e23e5e00b80f1fa976f629f41727",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/79740edf8f72e23e5e00b80f1fa976f629f41727",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/79740edf8f72e23e5e00b80f1fa976f629f41727",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/79740edf8f72e23e5e00b80f1fa976f629f41727/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "f56ebc78fb999c8761382f15e3489519a04a0749",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/f56ebc78fb999c8761382f15e3489519a04a0749",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/f56ebc78fb999c8761382f15e3489519a04a0749"
-      }
-    ],
-    "stats": {
-      "total": 7,
-      "additions": 7,
       "deletions": 0
     },
     "files": [
       {
-        "sha": "cfc6d7b4c6abc7d7ca4949057ec7ab072f03d7ed",
-        "filename": "public/favicon-wordmark.svg",
-        "status": "added",
-        "additions": 5,
-        "deletions": 0,
-        "changes": 5,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/79740edf8f72e23e5e00b80f1fa976f629f41727/public%2Ffavicon-wordmark.svg",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/79740edf8f72e23e5e00b80f1fa976f629f41727/public%2Ffavicon-wordmark.svg",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ffavicon-wordmark.svg?ref=79740edf8f72e23e5e00b80f1fa976f629f41727",
-        "patch": "@@ -0,0 +1,5 @@\n+<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\">\n+  <rect width=\"64\" height=\"64\" fill=\"#0C0C0C\"/>\n+  <path d=\"M42 16H22V24H28V40C28 42.2 26.2 44 24 44H20V52H24C30.6 52 36 46.6 36 40V24H42V16Z\" fill=\"#00FF41\"/>\n+  <rect x=\"44\" y=\"44\" width=\"10\" height=\"8\" fill=\"#00FF41\"/>\n+</svg>\n\\ No newline at end of file"
-      },
-      {
-        "sha": "72c776b4271b67c753a644f200ea9503f1eafb32",
-        "filename": "public/favicon.svg",
-        "status": "added",
-        "additions": 1,
-        "deletions": 0,
-        "changes": 1,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/79740edf8f72e23e5e00b80f1fa976f629f41727/public%2Ffavicon.svg",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/79740edf8f72e23e5e00b80f1fa976f629f41727/public%2Ffavicon.svg",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ffavicon.svg?ref=79740edf8f72e23e5e00b80f1fa976f629f41727",
-        "patch": "@@ -0,0 +1 @@\n+<svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\"  width=\"600.000000pt\" height=\"600.000000pt\" viewBox=\"0 0 600.000000 600.000000\"  preserveAspectRatio=\"xMidYMid meet\"> <rect width=\"100%\" height=\"100%\" fill=\"#000000\"/> <g transform=\"translate(0.000000,600.000000) scale(0.100000,-0.100000)\" fill=\"#00C950\" stroke=\"none\"> <path d=\"M1345 5722 c-85 -48 -159 -99 -186 -128 -36 -39 -48 -81 -57 -204 -16 -209 12 -992 43 -1210 3 -19 21 -231 40 -470 20 -239 43 -500 51 -580 8 -80 19 -244 24 -365 5 -121 16 -254 24 -295 8 -41 20 -127 26 -190 6 -62 20 -166 31 -230 10 -63 28 -180 40 -260 35 -256 48 -323 79 -420 17 -52 44 -148 61 -213 24 -90 53 -162 121 -299 105 -214 139 -253 341 -392 154 -106 229 -141 407 -195 463 -138 773 -120 1157 69 253 123 396 229 482 354 47 68 96 177 156 351 67 192 89 275 110 420 93 643 112 729 235 1090 63 183 133 463 162 645 31 187 33 641 5 795 -58 310 -151 524 -336 771 -98 131 -134 164 -192 171 -86 12 -99 -38 -98 -382 1 -142 -4 -289 -10 -340 -28 -210 -104 -499 -187 -705 -51 -128 -179 -290 -286 -363 -85 -58 -155 -67 -450 -60 -172 4 -294 2 -400 -7 -199 -18 -384 -17 -473 3 -128 28 -157 38 -182 65 -14 15 -44 47 -68 72 -24 25 -58 70 -76 100 -57 99 -168 325 -189 385 -29 84 -116 423 -134 525 -8 47 -31 171 -50 275 -52 285 -85 571 -96 840 -10 247 -17 357 -26 388 -8 25 -41 21 -99 -11z m2512 -3962 c149 -64 219 -245 194 -499 -12 -128 -35 -200 -105 -335 -77 -149 -194 -261 -324 -309 -44 -16 -81 -21 -157 -22 -87 0 -106 3 -150 25 -60 30 -97 85 -121 180 -24 93 -15 341 16 460 67 260 232 462 420 515 71 19 161 14 227 -15z m-1673 -7 c111 -43 245 -166 317 -290 118 -204 146 -572 58 -764 -16 -35 -34 -54 -73 -77 -76 -47 -109 -55 -192 -50 -64 4 -89 12 -168 51 -128 64 -206 124 -256 196 -108 160 -182 437 -159 599 27 192 121 325 251 352 56 12 170 3 222 -17z\"/> </g> </svg>\n\\ No newline at end of file"
-      },
-      {
-        "sha": "6d3d5d4e5b0a5284ce072f06564232cf1cd613c8",
-        "filename": "src/layouts/Layout.astro",
+        "sha": "6be1e17afba223d132a791f1ec0d1085d4df3203",
+        "filename": ".prettierrc",
         "status": "modified",
         "additions": 1,
         "deletions": 0,
         "changes": 1,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/79740edf8f72e23e5e00b80f1fa976f629f41727/src%2Flayouts%2FLayout.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/79740edf8f72e23e5e00b80f1fa976f629f41727/src%2Flayouts%2FLayout.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Flayouts%2FLayout.astro?ref=79740edf8f72e23e5e00b80f1fa976f629f41727",
-        "patch": "@@ -15,6 +15,7 @@ const { title, description = \"Default Description\", statusBar = true, footer = t\n \t<head>\n \t\t<meta charset=\"UTF-8\" />\n \t\t<meta name=\"viewport\" content=\"width=device-width\" />\n+\t\t<link rel=\"icon\" type=\"image/x-icon\" href=\"/favicon.svg\">\n \t\t<!-- TODO: Favicon and Meta -->\n \t\t<title>Project jrwnnnn_ // {title}</title>\n \t</head>"
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/4963b94760ae9c657b4243708d2187070523d644/.prettierrc",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/4963b94760ae9c657b4243708d2187070523d644/.prettierrc",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/.prettierrc?ref=4963b94760ae9c657b4243708d2187070523d644",
+        "patch": "@@ -1,5 +1,6 @@\n {\n   \"bracketSameLine\": false,\n+  \"useTabs\": true,\n   \"plugins\": [\"prettier-plugin-astro\", \"prettier-plugin-tailwindcss\"],\n   \"overrides\": [\n     {"
       }
     ]
   },
   {
-    "sha": "f56ebc78fb999c8761382f15e3489519a04a0749",
-    "node_id": "C_kwDORCOQn9oAKGY1NmViYzc4ZmI5OTljODc2MTM4MmYxNWUzNDg5NTE5YTA0YTA3NDk",
+    "sha": "19c7ef858905f99c833509713e453ea1bbdf486b",
+    "node_id": "C_kwDORCOQn9oAKDE5YzdlZjg1ODkwNWY5OWM4MzM1MDk3MTNlNDUzZWExYmJkZjQ4NmI",
     "commit": {
       "author": {
         "name": "Mark Jerwin",
         "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-11T07:35:56Z"
+        "date": "2026-02-11T10:45:20Z"
       },
       "committer": {
         "name": "Mark Jerwin",
         "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-11T07:35:56Z"
+        "date": "2026-02-11T10:45:20Z"
       },
-      "message": "Refactor Scrobble.astro fetch and markup\n\nSimplify the Last.fm fetch by assigning the JSON response directly. The anchor and container classes were also reorganized.",
+      "message": "Moved Radar to a separate component",
       "tree": {
-        "sha": "fabe5f5061bea755a449c9e9e1576a05ef71518e",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/fabe5f5061bea755a449c9e9e1576a05ef71518e"
+        "sha": "0af76fd57ec3a820c59cdc91af3cdef2204995fa",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/0af76fd57ec3a820c59cdc91af3cdef2204995fa"
       },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/f56ebc78fb999c8761382f15e3489519a04a0749",
+      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/19c7ef858905f99c833509713e453ea1bbdf486b",
       "comment_count": 0,
       "verification": {
         "verified": false,
@@ -585,9 +355,9 @@
         "verified_at": null
       }
     },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/f56ebc78fb999c8761382f15e3489519a04a0749",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/f56ebc78fb999c8761382f15e3489519a04a0749",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/f56ebc78fb999c8761382f15e3489519a04a0749/comments",
+    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/19c7ef858905f99c833509713e453ea1bbdf486b",
+    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/19c7ef858905f99c833509713e453ea1bbdf486b",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/19c7ef858905f99c833509713e453ea1bbdf486b/comments",
     "author": {
       "login": "jrwnnnn",
       "id": 136870415,
@@ -632,28 +402,153 @@
     },
     "parents": [
       {
-        "sha": "0734c53571aa5c80561e758d012f2f5f4a18f987",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/0734c53571aa5c80561e758d012f2f5f4a18f987",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/0734c53571aa5c80561e758d012f2f5f4a18f987"
+        "sha": "19b158a9477167c3104cdcc12711ff77a65a00f9",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/19b158a9477167c3104cdcc12711ff77a65a00f9",
+        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/19b158a9477167c3104cdcc12711ff77a65a00f9"
       }
     ],
     "stats": {
-      "total": 32,
-      "additions": 15,
-      "deletions": 17
+      "total": 206,
+      "additions": 115,
+      "deletions": 91
     },
     "files": [
       {
-        "sha": "2503ceeaba6f2297f930c8cc2ab3625502f496a8",
-        "filename": "src/components/Scrobble.astro",
+        "sha": "d3420d4b4b3ca09f4fdc4523d65cfdcd63e5dc73",
+        "filename": "src/components/Radar.astro",
+        "status": "added",
+        "additions": 109,
+        "deletions": 0,
+        "changes": 109,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/19c7ef858905f99c833509713e453ea1bbdf486b/src%2Fcomponents%2FRadar.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/19c7ef858905f99c833509713e453ea1bbdf486b/src%2Fcomponents%2FRadar.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2FRadar.astro?ref=19c7ef858905f99c833509713e453ea1bbdf486b",
+        "patch": "@@ -0,0 +1,109 @@\n+---\n+const languages = (await (\n+\tawait fetch(\n+\t\t\"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/languages.json\",\n+\t)\n+).json()) as Record<string, Record<string, number>>;\n+\n+let stack: Record<string, number> = {};\n+let total = 0;\n+for (const lang of Object.values(languages)) {\n+\tfor (const [key, value] of Object.entries(lang)) {\n+\t\tstack[key] = (stack[key] || 0) + value;\n+\t\ttotal += value;\n+\t}\n+}\n+for (const lang in stack) {\n+\tstack[lang] = (stack[lang] / total) * 100;\n+}\n+\n+const stackIcons = [\n+\t{\n+\t\ticon: \"icons/stack/javascript.svg\",\n+\t\tname: \"JavaScript\",\n+\t},\n+\t{\n+\t\ticon: \"icons/stack/astro.svg\",\n+\t\tname: \"Astro\",\n+\t},\n+\t{\n+\t\ticon: \"icons/stack/php.svg\",\n+\t\tname: \"PHP\",\n+\t},\n+\t{\n+\t\ticon: \"icons/stack/react.svg\",\n+\t\tname: \"React\",\n+\t},\n+\t{\n+\t\ticon: \"icons/stack/tailwindcss.svg\",\n+\t\tname: \"Tailwind CSS\",\n+\t},\n+];\n+---\n+\n+<div class=\"grid grid-cols-3 place-items-center gap-4 md:grid-cols-5\">\n+\t{\n+\t\tstackIcons.map((language) => (\n+\t\t\t<div class=\"flex flex-col items-center gap-2\">\n+\t\t\t\t<img\n+\t\t\t\t\tclass=\"h-10 w-10 object-contain\"\n+\t\t\t\t\tsrc={language.icon}\n+\t\t\t\t\tloading=\"lazy\"\n+\t\t\t\t\talt={language.name}\n+\t\t\t\t/>\n+\t\t\t\t<p class=\"font-mono text-xs font-bold\">{language.name}</p>\n+\t\t\t</div>\n+\t\t))\n+\t}\n+</div>\n+<script is:inline src=\"https://cdn.jsdelivr.net/npm/chart.js\"></script>\n+<script is:inline define:vars={{ stack }}>\n+\tconst ctx = document.getElementById(\"stackradar\");\n+\tconst chartLabels = Object.keys(stack);\n+\tconst chartData = Object.values(stack);\n+\tnew Chart(ctx, {\n+\t\ttype: \"radar\",\n+\t\tdata: {\n+\t\t\tlabels: chartLabels,\n+\t\t\tdatasets: [\n+\t\t\t\t{\n+\t\t\t\t\tdata: chartData,\n+\t\t\t\t\tbackgroundColor: \"rgba(0, 201, 80, 0.2)\",\n+\t\t\t\t\tborderColor: \"#00C950\",\n+\t\t\t\t\tborderWidth: 2,\n+\t\t\t\t\tpointBackgroundColor: \"#00C950\",\n+\t\t\t\t\tpointBorderColor: \"#00C950\",\n+\t\t\t\t},\n+\t\t\t],\n+\t\t},\n+\t\toptions: {\n+\t\t\tresponsive: true,\n+\t\t\tmaintainAspectRatio: true,\n+\t\t\tscales: {\n+\t\t\t\tr: {\n+\t\t\t\t\tangleLines: { color: \"#00C95050\" },\n+\t\t\t\t\tgrid: { color: \"#00C95030\" },\n+\t\t\t\t\tpointLabels: {\n+\t\t\t\t\t\tcolor: \"#00C950\",\n+\t\t\t\t\t\tfont: { family: \"Terminus\", size: 12, weight: \"bold\" },\n+\t\t\t\t\t},\n+\t\t\t\t\tticks: { display: false },\n+\t\t\t\t},\n+\t\t\t},\n+\t\t\tplugins: {\n+\t\t\t\tlegend: { display: false },\n+\t\t\t\ttooltip: {\n+\t\t\t\t\tenabled: true,\n+\t\t\t\t\tbackgroundColor: \"#000000\",\n+\t\t\t\t\tborderColor: \"#00C95050\",\n+\t\t\t\t\tborderWidth: 1,\n+\t\t\t\t\ttitleColor: \"#00C950\",\n+\t\t\t\t\ttitleFont: { family: \"Terminus\", size: 14},\n+\t\t\t\t\tbodyColor: \"#00C950\",\n+\t\t\t\t\tbodyFont: { family: \"Terminus\", size: 14},\n+\t\t\t\t\tdisplayColors: false,\n+\t\t\t\t},\n+\t\t\t},\n+\t\t},\n+\t});\n+</script>"
+      },
+      {
+        "sha": "ab0c4d81de40faf976c67c2e87665a8c4e45b1c2",
+        "filename": "src/pages/index.astro",
         "status": "modified",
-        "additions": 15,
-        "deletions": 17,
-        "changes": 32,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/f56ebc78fb999c8761382f15e3489519a04a0749/src%2Fcomponents%2FScrobble.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/f56ebc78fb999c8761382f15e3489519a04a0749/src%2Fcomponents%2FScrobble.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2FScrobble.astro?ref=f56ebc78fb999c8761382f15e3489519a04a0749",
-        "patch": "@@ -1,18 +1,12 @@\n ---\n-let lastfm;\n-try {\n-  lastfm = await (\n-    await fetch(\n-      `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=KeiCantRead&api_key=${process.env.LASTFM_API_KEY || import.meta.env.LASTFM_API_KEY}&format=json&limit=5`,\n-      {\n-        headers: { \"User-Agent\": \"Mozilla/5.0\" },\n-      },\n-    )\n-  ).json();\n-} catch (error) {\n-  console.error(error);\n-}\n-console.error(\"Test log stream error\");\n+const lastfm = await (\n+  await fetch(\n+    `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=KeiCantRead&api_key=${process.env.LASTFM_API_KEY || import.meta.env.LASTFM_API_KEY}&format=json&limit=5`,\n+    {\n+      headers: { \"User-Agent\": \"Mozilla/5.0\" },\n+    },\n+  )\n+).json();\n ---\n \n <!-- TODO: Implement realtime ajax-->\n@@ -21,12 +15,16 @@ console.error(\"Test log stream error\");\n >\n   NOW SCROBBLING\n </div>\n-<a class=\"flex flex-col md:flex-row cursor-pointer gap-5\" href={lastfm.recenttracks.track[0].url}>\n-  <div class=\"group relative md:w-30 w-full border border-green-500\">\n+<a\n+  class=\"flex cursor-pointer flex-col gap-5 md:flex-row\"\n+  href={lastfm.recenttracks.track[0].url}\n+  target=\"_blank\"\n+>\n+  <div class=\"group relative w-full border border-green-500 md:w-30\">\n     <img\n       src={lastfm.recenttracks.track[0].image[3][\"#text\"]}\n       alt={lastfm.recenttracks.track[0].album[\"#text\"]}\n-      class=\"h-full w-full object-cover brightness-90 contrast-125 grayscale transition group-hover:brightness-100 group-hover:contrast-100 group-hover:grayscale-0\"\n+      class=\"h-full w-full object-cover contrast-125 grayscale transition group-hover:contrast-100 group-hover:grayscale-0\"\n     />\n \n     <div"
+        "additions": 6,
+        "deletions": 91,
+        "changes": 97,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/19c7ef858905f99c833509713e453ea1bbdf486b/src%2Fpages%2Findex.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/19c7ef858905f99c833509713e453ea1bbdf486b/src%2Fpages%2Findex.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Findex.astro?ref=19c7ef858905f99c833509713e453ea1bbdf486b",
+        "patch": "@@ -3,6 +3,7 @@ import Layout from \"../layouts/Layout.astro\";\n import Container from \"../components/Container.astro\";\n import Button from \"../components/Button.astro\";\n import Ascii from \"../components/AsciiContainer.astro\";\n+import Radar from \"../components/Radar.astro\";\n import CommitLog from \"../components/CommitLog.astro\";\n import LastFM from \"../components/Scrobble.astro\";\n \n@@ -116,97 +117,11 @@ const socials = [\n       </Container>\n       <Container class=\"break-inside-avoid space-y-5\">\n         <p class=\"text-lg font-bold tracking-widest\">> STACK</p>\n-        <!-- TODO: This is pretty meaningless -->\n-        <canvas class=\"border-y border-green-500/30\" id=\"stackradar\"></canvas>\n-        <div class=\"grid grid-cols-3 place-items-center gap-4 md:grid-cols-5\">\n-          <div class=\"flex flex-col items-center gap-2\">\n-            <img\n-              class=\"h-10 w-10 object-contain\"\n-              src=\"icons/stack/javascript.svg\"\n-              loading=\"lazy\"\n-              alt=\"JavaScript\"\n-            />\n-            <p class=\"font-mono text-xs font-bold\">JavaScript</p>\n-          </div>\n-          <div class=\"flex flex-col items-center gap-2\">\n-            <img\n-              class=\"h-10 w-10 object-contain\"\n-              src=\"icons/stack/astro.svg\"\n-              loading=\"lazy\"\n-              alt=\"Astro\"\n-            />\n-            <p class=\"font-mono text-xs font-bold\">Astro</p>\n-          </div>\n-          <div class=\"flex flex-col items-center gap-2\">\n-            <img\n-              class=\"h-10 w-10 object-contain\"\n-              src=\"icons/stack/php.svg\"\n-              loading=\"lazy\"\n-              alt=\"PHP\"\n-            />\n-            <p class=\"font-mono text-xs font-bold\">PHP</p>\n-          </div>\n-          <div class=\"flex flex-col items-center gap-2\">\n-            <img\n-              class=\"h-10 w-10 object-contain\"\n-              src=\"icons/stack/react.svg\"\n-              loading=\"lazy\"\n-              alt=\"React\"\n-            />\n-            <p class=\"font-mono text-xs font-bold\">React</p>\n-          </div>\n-          <div class=\"flex flex-col items-center gap-2\">\n-            <img\n-              class=\"h-10 w-10 object-contain\"\n-              src=\"icons/stack/tailwindcss.svg\"\n-              loading=\"lazy\"\n-              alt=\"Tailwind CSS\"\n-            />\n-            <p class=\"font-mono text-xs font-bold\">Tailwind CSS</p>\n-          </div>\n-        </div>\n-        <script is:inline src=\"https://cdn.jsdelivr.net/npm/chart.js\"></script>\n-        <!-- TODO Move this huge ass jsob blob out of here -->\n-        <script is:inline>\n-          const ctx = document.getElementById(\"stackradar\");\n-          new Chart(ctx, {\n-            type: \"radar\",\n-            data: {\n-              labels: [\"Astro\", \"JavaScript\", \"PHP\", \"React\", \"CSS\"],\n-              datasets: [\n-                {\n-                  data: [5, 5, 8, 3, 9],\n-                  backgroundColor: \"rgba(0, 201, 80, 0.2)\",\n-                  borderColor: \"#00C950\",\n-                  borderWidth: 2,\n-                  pointBackgroundColor: \"#00C950\",\n-                  pointBorderColor: \"#00C950\",\n-                },\n-              ],\n-            },\n-            options: {\n-              responsive: true,\n-              maintainAspectRatio: true,\n-              scales: {\n-                r: {\n-                  min: 0,\n-                  max: 10,\n-                  angleLines: { color: \"#00C95050\" },\n-                  grid: { color: \"#00C95030\" },\n-                  pointLabels: {\n-                    color: \"#00C950\",\n-                    font: { family: \"monospace\", size: 12, weight: \"bold\" },\n-                  },\n-                  ticks: { display: false },\n-                },\n-              },\n-              plugins: {\n-                legend: { display: false },\n-                tooltip: { enabled: false },\n-              },\n-            },\n-          });\n-        </script>\n+        <hr class=\"border border-green-500/30\">\n+        <p class=\"font-mono text-sm text-green-600\">Stats pulled from my GitHub: languages ranked by total code size.</p>\n+        <canvas id=\"stackradar\"></canvas>\n+        <p class=\"text-xs font-mono text-right text-green-900\">made with chart.js</p>\n+        <Radar />\n       </Container>\n       <Container class=\"break-inside-avoid space-y-5\">\n         <p class=\"text-lg font-bold tracking-widest\">> COMMIT_LOG</p>"
+      }
+    ]
+  },
+  {
+    "sha": "19b158a9477167c3104cdcc12711ff77a65a00f9",
+    "node_id": "C_kwDORCOQn9oAKDE5YjE1OGE5NDc3MTY3YzMxMDRjZGNjMTI3MTFmZjc3YTY1YTAwZjk",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-02-11T09:59:42Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-02-11T09:59:42Z"
+      },
+      "message": "Refactor social links into mapped array\n\nReplace duplicated social link markup with a mapped render of anchor+img elements. Index now includes name labels for each social link and displays icon+text, while Layout uses the same array to render icon links.",
+      "tree": {
+        "sha": "62fc4591db41cfb6a133597d13ae87454c11010f",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/62fc4591db41cfb6a133597d13ae87454c11010f"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/19b158a9477167c3104cdcc12711ff77a65a00f9",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/19b158a9477167c3104cdcc12711ff77a65a00f9",
+    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/19b158a9477167c3104cdcc12711ff77a65a00f9",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/19b158a9477167c3104cdcc12711ff77a65a00f9/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1baf7624082a370f96b714bba6d5e68963310957",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/1baf7624082a370f96b714bba6d5e68963310957",
+        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/1baf7624082a370f96b714bba6d5e68963310957"
+      }
+    ],
+    "stats": {
+      "total": 171,
+      "additions": 105,
+      "deletions": 66
+    },
+    "files": [
+      {
+        "sha": "3257e8fb07d08e08044ca07f57cbefbe481c12d3",
+        "filename": "src/layouts/Layout.astro",
+        "status": "modified",
+        "additions": 29,
+        "deletions": 29,
+        "changes": 58,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/19b158a9477167c3104cdcc12711ff77a65a00f9/src%2Flayouts%2FLayout.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/19b158a9477167c3104cdcc12711ff77a65a00f9/src%2Flayouts%2FLayout.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Flayouts%2FLayout.astro?ref=19b158a9477167c3104cdcc12711ff77a65a00f9",
+        "patch": "@@ -8,8 +8,24 @@ interface Props {\n \n import \"../styles/global.css\";\n const { title, description = \"Default Description\", statusBar = true, footer = true} = Astro.props;\n-\n const latestCommit = await(await fetch('https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/jrwnnnn-me-commits.json')).json();\n+const socials = [\n+  {\n+    icon: \"icons/socials/github.svg\",\n+    href: \"https://github.com/jrwnnnn\",\n+\tname: \"Github\",\n+  },\n+  {\n+    icon: \"icons/socials/gmail.svg\",\n+    href: \"mailto:no_email_yet@gmail.com\",\n+\tname: \"Email\"\n+  },\n+  {\n+    icon: \"icons/socials/instagram.svg\",\n+    href: \"https://instagram.com/jrwnnn_\",\n+\tname: \"Instagram\"\n+  },\n+];\n ---\n \n <!DOCTYPE html>\n@@ -80,34 +96,18 @@ const latestCommit = await(await fetch('https://raw.githubusercontent.com/jrwnnn\n \t\t\t</div>\n \n \t\t\t<div class=\"flex items-center space-x-5\">\n-\t\t\t\t<a href=\"https://github.com/jrwnnnn\" target=\"_blank\" class=\"cursor-pointer\">\n-\t\t\t\t<img\n-\t\t\t\t\tclass=\"h-5 object-contain\"\n-\t\t\t\t\tsrc=\"icons/socials/github.svg\"\n-\t\t\t\t\tloading=\"lazy\"\n-\t\t\t\t\talt=\"GitHub Icon\"\n-\t\t\t\t/>\n-\t\t\t\t</a>\n-\t\t\t\t<a\n-\t\t\t\thref=\"mailto:im_not_adding_my_email_here_yet@gmail.com\"\n-\t\t\t\ttarget=\"_blank\"\n-\t\t\t\tclass=\"cursor-pointer\"\n-\t\t\t\t>\n-\t\t\t\t<img\n-\t\t\t\t\tclass=\"h-5 object-contain\"\n-\t\t\t\t\tsrc=\"icons/socials/gmail.svg\"\n-\t\t\t\t\tloading=\"lazy\"\n-\t\t\t\t\talt=\"Gmail Icon\"\n-\t\t\t\t/>\n-\t\t\t\t</a>\n-\t\t\t\t<a href=\"https://instagram.com/jrwnnn_\" target=\"_blank\" class=\"cursor-pointer\">\n-\t\t\t\t<img\n-\t\t\t\t\tclass=\"h-5 object-contain\"\n-\t\t\t\t\tsrc=\"icons/socials/instagram.svg\"\n-\t\t\t\t\tloading=\"lazy\"\n-\t\t\t\t\talt=\"Instagram Icon\"\n-\t\t\t\t/>\n-\t\t\t\t</a>\n+\t\t\t\t{\n+\t\t\t\t\tsocials.map((social) => (\n+\t\t\t\t\t\t<a href={social.href} target=\"_blank\" class=\"cursor-pointer\">\n+\t\t\t\t\t\t\t<img\n+\t\t\t\t\t\t\t\tclass=\"h-5 object-contain\"\n+\t\t\t\t\t\t\t\tsrc={social.icon}\n+\t\t\t\t\t\t\t\tloading=\"lazy\"\n+\t\t\t\t\t\t\t\talt=`${social.name} Icon`\n+\t\t\t\t\t\t\t/>\n+\t\t\t\t\t\t</a>\n+\t\t\t\t\t))\n+\t\t\t\t}\n \t\t\t</div>\n \t\t\t</footer>\n \t\t: null "
+      },
+      {
+        "sha": "5eb82ac1737549660c419e7124bc4516b83454c1",
+        "filename": "src/pages/index.astro",
+        "status": "modified",
+        "additions": 76,
+        "deletions": 37,
+        "changes": 113,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/19b158a9477167c3104cdcc12711ff77a65a00f9/src%2Fpages%2Findex.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/19b158a9477167c3104cdcc12711ff77a65a00f9/src%2Fpages%2Findex.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Findex.astro?ref=19b158a9477167c3104cdcc12711ff77a65a00f9",
+        "patch": "@@ -11,48 +11,87 @@ const asciiArt = await (\n   await fetch(\"https://pastebin.com/raw/2w7sZxex\")\n ).text();\n const js = await (await fetch(\"https://pastebin.com/raw/f3mNJJkE\")).text();\n+\n+const socials = [\n+  {\n+    icon: \"icons/socials/github.svg\",\n+    name: \"GitHub\",\n+    href: \"https://github.com/jrwnnnn\"\n+  },\n+  {\n+    icon: \"icons/socials/gmail.svg\",\n+    name: \"Email\",\n+    href: \"mailto:no_email_yet@gmail.com\"\n+  },\n+  {\n+    icon: \"icons/socials/instagram.svg\",\n+    name: \"Instagram\",\n+    href: \"https://instagram.com/jrwnnn_\"\n+  },\n+];\n ---\n \n <Layout title=\"BOOT\">\n   <main class=\"flex flex-col space-y-8\">\n-    <div class=\"mt-15 space-y-5 md:w-2/3\">\n-      <p class=\"text-5xl text-balance md:text-6xl\">Hello! It's Jerwin</p>\n-      <p class=\"font-mono md:text-lg\">\n-        I'm a student based in <strong>Manila, PH</strong>. I build things for\n-        the <strong>web</strong>. My code is held together by duct tape and\n-        prayers. I spend more time customizing my VS Code theme than actually\n-        coding. If you see a bug, no you didn't.\n-      </p>\n-    </div>\n-    <Container class=\"space-y-2\" onclick=\"location.href='blog?=latest'\">\n-      <p class=\"text-lg font-bold tracking-widest\">> LATEST_TRANSMISSION</p>\n-      <div class=\"flex items-center text-sm\">\n-        <span\n-          class=\"mr-2 bg-green-500 px-1 font-mono text-xs font-bold text-black\"\n-          >ENCRYPTED</span\n-        >\n-        <span\n-          id=\"latest_transmission\"\n-          class=\"line-clamp-2 cursor-pointer text-green-500 opacity-80\"\n-          >░█░█░▄▀▄░█░█░░░░░█▀▀░█▀▄░█▀▄░█▀█░█▀▄░░▀█░█/█░░▀█░░░░░█▀▀░█▀▄░█▀▄░█░█░█▀▄░░░▀░░▀░░░░▀░▀▀▀░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀</span\n-        >\n-        <script>\n-          const e = document.getElementById(\"latest_transmission\"),\n-            c = \"░█▓▒▀▄▌▐\",\n-            l = e!.innerText.length;\n-          setInterval(\n-            () =>\n-              (e!.innerText = [...Array(l)]\n-                .map(() => c[Math.floor(Math.random() * c.length)])\n-                .join(\"\")),\n-            100,\n-          );\n-        </script>\n+    <div class=\"space-y-15\">\n+      <div class=\"mt-15 space-y-5 md:w-2/3\">\n+        <p class=\"text-5xl text-balance md:text-6xl\">Hello! It's Jerwin</p>\n+        <p class=\"font-mono md:text-lg\">\n+          I'm a student based in <strong>Manila, PH</strong>. I build things for\n+          the <strong>web</strong>. My code is held together by duct tape and\n+          prayers. I spend more time customizing my VS Code theme than actually\n+          coding. If you see a bug, no you didn't.\n+        </p>\n+        <div class=\"flex cursor-pointer items-center space-x-9\">\n+          {\n+            socials.map((social) => (\n+              <a\n+                href={social.href}\n+                target=\"_blank\"\n+                class=\"flex items-center space-x-2 hover:brightness-125\"\n+              >\n+                <img\n+                  class=\"h-5 object-contain\"\n+                  src={social.icon}\n+                  loading=\"lazy\"\n+                  alt=`${social.name} Icon`\n+                />\n+                <p class=\"font-mono\">{social.name}</p>\n+              </a>\n+            ))\n+          }\n+        </div>\n       </div>\n-      <p class=\"font-mono text-xs text-green-700\">\n-        [ DATE RECIEVED: 2026-01-27 ]\n-      </p>\n-    </Container>\n+      <Container class=\"space-y-2\" onclick=\"location.href='blog?=latest'\">\n+        <p class=\"text-lg font-bold tracking-widest\">> LATEST_TRANSMISSION</p>\n+        <div class=\"flex items-center text-sm\">\n+          <span\n+            class=\"mr-2 bg-green-500 px-1 font-mono text-xs font-bold text-black\"\n+            >ENCRYPTED</span\n+          >\n+          <span\n+            id=\"latest_transmission\"\n+            class=\"line-clamp-2 cursor-pointer text-green-500 opacity-80\"\n+            >░█░█░▄▀▄░█░█░░░░░█▀▀░█▀▄░█▀▄░█▀█░█▀▄░░▀█░█/█░░▀█░░░░░█▀▀░█▀▄░█▀▄░█░█░█▀▄░░░▀░░▀░░░░▀░▀▀▀░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀</span\n+          >\n+          <script>\n+            const e = document.getElementById(\"latest_transmission\"),\n+              c = \"░█▓▒▀▄▌▐\",\n+              l = e!.innerText.length;\n+            setInterval(\n+              () =>\n+                (e!.innerText = [...Array(l)]\n+                  .map(() => c[Math.floor(Math.random() * c.length)])\n+                  .join(\"\")),\n+              100,\n+            );\n+          </script>\n+        </div>\n+        <p class=\"font-mono text-xs text-green-700\">\n+          [ DATE RECIEVED: 2026-01-27 ]\n+        </p>\n+      </Container>\n+    </div>\n     <hr class=\"border-green-500\" />\n     <div class=\"space-y-5\">\n       <h3 class=\"text-xl font-bold tracking-widest\">> MAIN_MENU</h3>"
       }
     ]
   }
