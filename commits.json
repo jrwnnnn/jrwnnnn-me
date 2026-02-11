@@ -1,5 +1,231 @@
 [
   {
+    "sha": "86eb964e02edcc4296ce6c868fc8dd00ef06f688",
+    "node_id": "C_kwDORCOQn9oAKDg2ZWI5NjRlMDJlZGNjNDI5NmNlNmM4NjhmYzhkZDAwZWYwNmY2ODg",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-02-11T13:06:16Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-02-11T13:06:16Z"
+      },
+      "message": "AJAX-ed Last.fm component\n\nReplace server-side Last.fm fetch in Scrobble.astro with a client-side widget that polls a new API route. This enables realtime updates in the UI and removes the build-time fetch from the component.",
+      "tree": {
+        "sha": "b73d9b12c93f2f7d0e20ddb41f5605e28cd2d75d",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/b73d9b12c93f2f7d0e20ddb41f5605e28cd2d75d"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/86eb964e02edcc4296ce6c868fc8dd00ef06f688",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/86eb964e02edcc4296ce6c868fc8dd00ef06f688",
+    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/86eb964e02edcc4296ce6c868fc8dd00ef06f688",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/86eb964e02edcc4296ce6c868fc8dd00ef06f688/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6fea3f3645e256e9ed8392572d73697c90b04896",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/6fea3f3645e256e9ed8392572d73697c90b04896",
+        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/6fea3f3645e256e9ed8392572d73697c90b04896"
+      }
+    ],
+    "stats": {
+      "total": 161,
+      "additions": 92,
+      "deletions": 69
+    },
+    "files": [
+      {
+        "sha": "01bcadcf1a03d45aa7b225475709952c8c62edfe",
+        "filename": "src/components/static/Scrobble.astro",
+        "status": "modified",
+        "additions": 82,
+        "deletions": 69,
+        "changes": 151,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/86eb964e02edcc4296ce6c868fc8dd00ef06f688/src%2Fcomponents%2Fstatic%2FScrobble.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/86eb964e02edcc4296ce6c868fc8dd00ef06f688/src%2Fcomponents%2Fstatic%2FScrobble.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2Fstatic%2FScrobble.astro?ref=86eb964e02edcc4296ce6c868fc8dd00ef06f688",
+        "patch": "@@ -1,75 +1,88 @@\n ---\n-const lastfm = await (\n-\tawait fetch(\n-\t\t`https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=KeiCantRead&api_key=${process.env.LASTFM_API_KEY || import.meta.env.LASTFM_API_KEY}&format=json&limit=5`,\n-\t\t{\n-\t\t\theaders: { \"User-Agent\": \"Mozilla/5.0\" },\n-\t\t},\n-\t)\n-).json();\n+\n ---\n \n-<!-- TODO: Implement realtime ajax-->\n-<div class=\"flex items-center justify-between\">\n-\t<p class=\"text-lg font-bold tracking-widest\">> LAST_FM</p>\n-\t<div\n-\t\tclass=`bg-green-500 px-3 py-px font-mono text-[12px] text-black ${lastfm.recenttracks.track[0]['@attr']?.nowplaying === 'true' ? '' : 'hidden'}`\n-\t>\n-\t\tLIVE\n-\t</div>\n+<div id=\"lastfm-widget\" class=\"animate-pulse space-y-5\">\n+\t<p class=\"text-lg font-bold tracking-widest\">> CONNECTING_TO_LAST_FM</p>\n </div>\n-<hr class=\"border border-green-500/30\" />\n-<a\n-\tclass=\"flex cursor-pointer flex-col gap-5 md:flex-row\"\n-\thref={lastfm.recenttracks.track[0].url}\n-\ttarget=\"_blank\"\n->\n-\t<div class=\"group relative w-full border border-green-500 md:w-30\">\n-\t\t<img\n-\t\t\tsrc={lastfm.recenttracks.track[0].image[3][\"#text\"]}\n-\t\t\talt={lastfm.recenttracks.track[0].album[\"#text\"]}\n-\t\t\tclass=\"h-full w-full object-cover contrast-125 grayscale transition group-hover:contrast-100 group-hover:grayscale-0\"\n-\t\t/>\n \n-\t\t<div\n-\t\t\tclass=\"pointer-events-none absolute inset-0 bg-green-500/90 mix-blend-multiply group-hover:hidden\"\n-\t\t>\n-\t\t</div>\n-\t</div>\n-\t<div>\n-\t\t<p class=\"text-lg font-bold\">\n-\t\t\t{lastfm.recenttracks.track[0].name}\n-\t\t</p>\n-\t\t<p class=\"font-mono text-sm text-green-600\">\n-\t\t\tArtist: {lastfm.recenttracks.track[0].artist[\"#text\"]}\n-\t\t</p>\n-\t\t<p class=\"font-mono text-sm text-green-600\">\n-\t\t\tAlbum: {lastfm.recenttracks.track[0].album[\"#text\"]}\n-\t\t</p>\n-\t</div>\n-</a>\n-<div>\n-\t<div class=\"mb-2 flex items-center gap-2\">\n-\t\t<hr class=\"grow border border-dashed border-green-900\" />\n-\t\t<p class=\"text-center font-mono text-xs tracking-widest text-green-900\">\n-\t\t\tRecent Tracks\n-\t\t</p>\n-\t\t<hr class=\"grow border border-dashed border-green-900\" />\n-\t</div>\n-\t<div>\n-\t\t<!--TODO: Fix responsiveness -->\n-\t\t{\n-\t\t\tlastfm.recenttracks.track.slice(1).map((track: any) => (\n-\t\t\t\t<a\n-\t\t\t\t\thref={track.url}\n-\t\t\t\t\tclass=\"mb-1 flex gap-5 font-mono text-sm md:mb-0 md:flex md:justify-between\"\n-\t\t\t\t>\n-\t\t\t\t\t<p class=\"line-clamp-1 text-green-600\">{track.name}</p>\n-\t\t\t\t\t<p class=\"line-clamp-1 text-left text-green-800\">\n-\t\t\t\t\t\t{track.artist[\"#text\"]}\n-\t\t\t\t\t</p>\n-\t\t\t\t</a>\n-\t\t\t))\n+<script>\n+\tinterface Interface {\n+\t\tname: string;\n+\t\tartist: { \"#text\": string };\n+\t\talbum: { \"#text\": string };\n+\t\timage: { \"#text\": string }[];\n+\t\turl: string;\n+\t\t\"@attr\"?: { nowplaying: string };\n+\t}\n+\n+\tconst widget = document.getElementById(\"lastfm-widget\");\n+\n+\tconst render = (tracks: Interface[]) => {\n+\t\tconst nowPlaying = tracks[0][\"@attr\"]?.nowplaying === \"true\";\n+\t\tconst recent = nowPlaying ? tracks.slice(1) : tracks;\n+\n+\t\treturn `\n+            <div class=\"flex items-center justify-between\">\n+                <p class=\"text-lg font-bold tracking-widest\">> LAST_FM</p>\n+                <div class=\"${nowPlaying ? \"bg-green-500\" : \"hidden\"} px-3 py-px font-mono text-[12px] text-black animate-pulse\">\n+                    LIVE\n+                </div>\n+            </div>\n+            <hr class=\"border border-green-500/30\" />\n+            \n+            <a class=\"flex cursor-pointer flex-col gap-5 md:flex-row\" ${nowPlaying ? `href=${tracks[0].url}` : \"\"} target=\"_blank\">\n+\t\t\t\t<div class=\"group relative w-full border border-green-500 md:w-30\">\n+\t\t\t\t\t<img\n+\t\t\t\t\t\tsrc=\"${nowPlaying ? tracks[0].image[3][\"#text\"] : \"https://www.last.fm/static/images/lastfm_avatar_twitter.52a5d69a85ac.png\"}\" \n+\t\t\t\t\t\talt=\"${nowPlaying ? tracks[0].album[\"#text\"] : \"LastFM\"}\" \n+\t\t\t\t\t\tclass=\"h-full w-full object-cover contrast-125 grayscale transition group-hover:contrast-100 group-hover:grayscale-0\"\n+\t\t\t\t\t/>\n+\t\t\t\t\t<div\n+\t\t\t\t\t\tclass=\"pointer-events-none absolute inset-0 bg-green-500/90 mix-blend-multiply group-hover:hidden\"\n+\t\t\t\t\t>\n+\t\t\t\t\t</div>\n+\t\t\t\t</div>\n+                <div>\n+                    <p class=\"text-lg font-bold tracking-wide\">${nowPlaying ? tracks[0].name : \"Nothing is currently being played...\"}</p>\n+                    <p class=\"font-mono text-sm text-green-600\">${nowPlaying ? `Artist: ${tracks[0].artist[\"#text\"]}` : \"Offline\"}</p>\n+                    <p class=\"font-mono text-sm text-green-600 ${!nowPlaying ? \"hidden\" : \"\"}\">Album: ${tracks[0].album[\"#text\"]}</p>\n+                </div>\n+            </a>\n+\n+            <div class=\"flex items-center gap-2\">\n+                <hr class=\"grow border border-dashed border-green-900\" />\n+                <p class=\"text-center font-mono text-xs tracking-widest text-green-900\">Recent Tracks</p>\n+                <hr class=\"grow border border-dashed border-green-900\" />\n+            </div>\n+            \n+            <div class=\"flex flex-col gap-1\">\n+                ${recent\n+\t\t\t\t\t\t\t\t\t.map(\n+\t\t\t\t\t\t\t\t\t\t(track) => `\n+                    <a href=\"${track.url}\" target=\"_blank\" class=\"flex gap-5 font-mono text-sm md:flex md:justify-between hover:text-green-400 transition-colors\">\n+                        <p class=\"line-clamp-1 text-green-600\">${track.name}</p>\n+                        <p class=\"line-clamp-1 text-left text-green-800 whitespace-nowrap\">${track.artist[\"#text\"]}</p>\n+                    </a>\n+                `,\n+\t\t\t\t\t\t\t\t\t)\n+\t\t\t\t\t\t\t\t\t.join(\"\")}\n+            </div>\n+        `;\n+\t};\n+\n+\tconst fetchAndRender = async () => {\n+\t\ttry {\n+\t\t\tconst data = await (await fetch(\"/api/lastfm-endpoint\")).json();\n+\t\t\tconst tracks = data.recenttracks.track as Interface[];\n+\n+\t\t\twidget!.innerHTML = render(tracks);\n+\t\t\twidget!.classList.remove(\"animate-pulse\");\n+\t\t} catch (e) {\n+\t\t\tconsole.error(e);\n \t\t}\n-\t</div>\n-</div>\n+\t};\n+\n+\tfetchAndRender();\n+\tsetInterval(fetchAndRender, 10000);\n+</script>"
+      },
+      {
+        "sha": "488ce0b333e7881ed115fb7cdd6077b62ac23716",
+        "filename": "src/pages/api/lastfm-endpoint.ts",
+        "status": "added",
+        "additions": 10,
+        "deletions": 0,
+        "changes": 10,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/86eb964e02edcc4296ce6c868fc8dd00ef06f688/src%2Fpages%2Fapi%2Flastfm-endpoint.ts",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/86eb964e02edcc4296ce6c868fc8dd00ef06f688/src%2Fpages%2Fapi%2Flastfm-endpoint.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Fapi%2Flastfm-endpoint.ts?ref=86eb964e02edcc4296ce6c868fc8dd00ef06f688",
+        "patch": "@@ -0,0 +1,10 @@\n+export const GET = async () => {\n+\tconst response = await fetch(\n+\t\t`https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=KeiCantRead&api_key=${process.env.LASTFM_API_KEY || import.meta.env.LASTFM_API_KEY}&format=json&limit=5`,\n+\t\t{ headers: { \"User-Agent\": \"Mozilla/5.0\" } },\n+\t);\n+\tconst data = await response.json();\n+\treturn new Response(JSON.stringify(data), {\n+\t\theaders: { \"Content-Type\": \"application/json\" },\n+\t});\n+};"
+      }
+    ]
+  },
+  {
+    "sha": "6fea3f3645e256e9ed8392572d73697c90b04896",
+    "node_id": "C_kwDORCOQn9oAKDZmZWEzZjM2NDVlMjU2ZTllZDgzOTI1NzJkNzM2OTdjOTBiMDQ4OTY",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-02-11T11:55:01Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-02-11T11:55:01Z"
+      },
+      "message": "Add GitHub contributions heatmap",
+      "tree": {
+        "sha": "7976638b7d8c2a9c49759f4d3595750ebe00d34f",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/7976638b7d8c2a9c49759f4d3595750ebe00d34f"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/6fea3f3645e256e9ed8392572d73697c90b04896",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/6fea3f3645e256e9ed8392572d73697c90b04896",
+    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/6fea3f3645e256e9ed8392572d73697c90b04896",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/6fea3f3645e256e9ed8392572d73697c90b04896/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f32afc00177af472d19726ef890674531bfa551c",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/f32afc00177af472d19726ef890674531bfa551c",
+        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/f32afc00177af472d19726ef890674531bfa551c"
+      }
+    ],
+    "stats": {
+      "total": 71,
+      "additions": 70,
+      "deletions": 1
+    },
+    "files": [
+      {
+        "sha": "1a19373b4fa4d6d717e3bc61d7df78172ae8f8cd",
+        "filename": "src/components/static/Heatmap.astro",
+        "status": "added",
+        "additions": 68,
+        "deletions": 0,
+        "changes": 68,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/6fea3f3645e256e9ed8392572d73697c90b04896/src%2Fcomponents%2Fstatic%2FHeatmap.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/6fea3f3645e256e9ed8392572d73697c90b04896/src%2Fcomponents%2Fstatic%2FHeatmap.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2Fstatic%2FHeatmap.astro?ref=6fea3f3645e256e9ed8392572d73697c90b04896",
+        "patch": "@@ -0,0 +1,68 @@\n+---\n+const response = await fetch(\"https://api.github.com/graphql\", {\n+\tmethod: \"POST\",\n+\theaders: {\n+\t\tAuthorization: `Bearer ${process.env.GITHUB_TOKEN || import.meta.env.GITHUB_TOKEN}`,\n+\t\t\"Content-Type\": \"application/json\",\n+\t},\n+\tbody: JSON.stringify({\n+\t\tquery: `\n+      query($userName:String!) {\n+        user(login: $userName) {\n+          contributionsCollection {\n+            contributionCalendar {\n+              totalContributions\n+              weeks {\n+                contributionDays {\n+                  contributionCount\n+                  date\n+                  color\n+                }\n+              }\n+            }\n+          }\n+        }\n+      }\n+    `,\n+\t\tvariables: { userName: \"jrwnnnn\" },\n+\t}),\n+});\n+\n+const json = await response.json();\n+const calendar = json.data?.user?.contributionsCollection?.contributionCalendar;\n+\n+function getColor(count: number) {\n+\tif (count === 0) return \"bg-black\";\n+\tif (count <= 3) return \"bg-green-500/20\";\n+\tif (count <= 6) return \"bg-green-500/50\";\n+\tif (count <= 9) return \"bg-green-500\";\n+\treturn \"bg-green-500\";\n+}\n+---\n+\n+<!-- TODO: Fix scroll wheel styling on Mozilla -->\n+<div\n+\tid=\"heatmap\"\n+\tclass=\"w-full overflow-x-auto pb-2 [&::-webkit-scrollbar]:h-1 [&::-webkit-scrollbar-thumb]:bg-transparent hover:[&::-webkit-scrollbar-thumb]:bg-green-600\"\n+>\n+\t<div class=\"flex gap-1\">\n+\t\t{\n+\t\t\tcalendar?.weeks.map((week: any) => (\n+\t\t\t\t<div class=\"flex flex-col gap-1\">\n+\t\t\t\t\t{week.contributionDays.map((day: any) => (\n+\t\t\t\t\t\t<div\n+\t\t\t\t\t\t\tclass={`h-3 w-3 ring-1 ring-green-500/10 transition-opacity ring-inset hover:opacity-80 ${getColor(day.contributionCount)}`}\n+\t\t\t\t\t\t\ttitle={`${day.contributionCount} contributions on ${day.date}`}\n+\t\t\t\t\t\t/>\n+\t\t\t\t\t))}\n+\t\t\t\t</div>\n+\t\t\t))\n+\t\t}\n+\t</div>\n+</div>\n+<script>\n+\tconst container = document.getElementById(\"heatmap\");\n+\tif (container) {\n+\t\tcontainer.scrollLeft = container.scrollWidth;\n+\t}\n+</script>"
+      },
+      {
+        "sha": "5a6b7d6da986d7f73aad75bfc7ec952bd05d234c",
+        "filename": "src/pages/index.astro",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/6fea3f3645e256e9ed8392572d73697c90b04896/src%2Fpages%2Findex.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/6fea3f3645e256e9ed8392572d73697c90b04896/src%2Fpages%2Findex.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Findex.astro?ref=6fea3f3645e256e9ed8392572d73697c90b04896",
+        "patch": "@@ -3,6 +3,7 @@ import Layout from \"../layouts/Layout.astro\";\n import Container from \"../components/Container.astro\";\n import Button from \"../components/Button.astro\";\n import CommitLog from \"../components/static/CommitLog.astro\";\n+import Heatmap from \"../components/static/Heatmap.astro\";\n import LastFM from \"../components/static/Scrobble.astro\";\n import Ascii from \"../components/AsciiContainer.astro\";\n \n@@ -142,7 +143,7 @@ const stack = [\n         <p class=\"text-lg font-bold tracking-widest\">> COMMIT_LOG</p>\n         <hr class=\"border border-green-500/30\" />\n         <CommitLog />\n-        <!-- TODO: Add heat map -->\n+          <Heatmap />\n       </Container>\n       <Container class=\"break-inside-avoid space-y-5\">\n         <LastFM />"
+      }
+    ]
+  },
+  {
     "sha": "f32afc00177af472d19726ef890674531bfa551c",
     "node_id": "C_kwDORCOQn9oAKGYzMmFmYzAwMTc3YWY0NzJkMTk3MjZlZjg5MDY3NDUzMWJmYTU1MWM",
     "commit": {
@@ -359,220 +585,6 @@
         "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/f607655b27cee1bda557defb12029c76185231bb/src%2Fcomponents%2FScrobble.astro",
         "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2FScrobble.astro?ref=f607655b27cee1bda557defb12029c76185231bb",
         "patch": "@@ -1,72 +1,75 @@\n ---\n const lastfm = await (\n-  await fetch(\n-    `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=KeiCantRead&api_key=${process.env.LASTFM_API_KEY || import.meta.env.LASTFM_API_KEY}&format=json&limit=5`,\n-    {\n-      headers: { \"User-Agent\": \"Mozilla/5.0\" },\n-    },\n-  )\n+\tawait fetch(\n+\t\t`https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=KeiCantRead&api_key=${process.env.LASTFM_API_KEY || import.meta.env.LASTFM_API_KEY}&format=json&limit=5`,\n+\t\t{\n+\t\t\theaders: { \"User-Agent\": \"Mozilla/5.0\" },\n+\t\t},\n+\t)\n ).json();\n ---\n \n <!-- TODO: Implement realtime ajax-->\n <div class=\"flex items-center justify-between\">\n-  <p class=\"text-lg font-bold tracking-widest\">> LAST_FM</p>\n-  <div\n-    class=`bg-green-500 px-3 py-px font-mono text-[12px] text-black ${lastfm.recenttracks.track[0]['@attr']?.nowplaying === 'true' ? '' : 'hidden'}`\n-  >\n-    LIVE\n-  </div>\n+\t<p class=\"text-lg font-bold tracking-widest\">> LAST_FM</p>\n+\t<div\n+\t\tclass=`bg-green-500 px-3 py-px font-mono text-[12px] text-black ${lastfm.recenttracks.track[0]['@attr']?.nowplaying === 'true' ? '' : 'hidden'}`\n+\t>\n+\t\tLIVE\n+\t</div>\n </div>\n <hr class=\"border border-green-500/30\" />\n <a\n-  class=\"flex cursor-pointer flex-col gap-5 md:flex-row\"\n-  href={lastfm.recenttracks.track[0].url}\n-  target=\"_blank\"\n+\tclass=\"flex cursor-pointer flex-col gap-5 md:flex-row\"\n+\thref={lastfm.recenttracks.track[0].url}\n+\ttarget=\"_blank\"\n >\n-  <div class=\"group relative w-full border border-green-500 md:w-30\">\n-    <img\n-      src={lastfm.recenttracks.track[0].image[3][\"#text\"]}\n-      alt={lastfm.recenttracks.track[0].album[\"#text\"]}\n-      class=\"h-full w-full object-cover contrast-125 grayscale transition group-hover:contrast-100 group-hover:grayscale-0\"\n-    />\n+\t<div class=\"group relative w-full border border-green-500 md:w-30\">\n+\t\t<img\n+\t\t\tsrc={lastfm.recenttracks.track[0].image[3][\"#text\"]}\n+\t\t\talt={lastfm.recenttracks.track[0].album[\"#text\"]}\n+\t\t\tclass=\"h-full w-full object-cover contrast-125 grayscale transition group-hover:contrast-100 group-hover:grayscale-0\"\n+\t\t/>\n \n-    <div\n-      class=\"pointer-events-none absolute inset-0 bg-green-500/90 mix-blend-multiply group-hover:hidden\"\n-    >\n-    </div>\n-  </div>\n-  <div>\n-    <p class=\"text-lg font-bold\">\n-      {lastfm.recenttracks.track[0].name}\n-    </p>\n-    <p class=\"font-mono text-sm text-green-600\">\n-      Artist: {lastfm.recenttracks.track[0].artist[\"#text\"]}\n-    </p>\n-    <p class=\"font-mono text-sm text-green-600\">\n-      Album: {lastfm.recenttracks.track[0].album[\"#text\"]}\n-    </p>\n-  </div>\n+\t\t<div\n+\t\t\tclass=\"pointer-events-none absolute inset-0 bg-green-500/90 mix-blend-multiply group-hover:hidden\"\n+\t\t>\n+\t\t</div>\n+\t</div>\n+\t<div>\n+\t\t<p class=\"text-lg font-bold\">\n+\t\t\t{lastfm.recenttracks.track[0].name}\n+\t\t</p>\n+\t\t<p class=\"font-mono text-sm text-green-600\">\n+\t\t\tArtist: {lastfm.recenttracks.track[0].artist[\"#text\"]}\n+\t\t</p>\n+\t\t<p class=\"font-mono text-sm text-green-600\">\n+\t\t\tAlbum: {lastfm.recenttracks.track[0].album[\"#text\"]}\n+\t\t</p>\n+\t</div>\n </a>\n <div>\n-  <div class=\"mb-2 flex items-center gap-2\">\n-    <hr class=\"grow border border-dashed border-green-900\" />\n-    <p class=\"text-center font-mono text-xs tracking-widest text-green-900\">\n-      Recent Tracks\n-    </p>\n-    <hr class=\"grow border border-dashed border-green-900\" />\n-  </div>\n-  <div>\n-    {\n-      lastfm.recenttracks.track.slice(1).map((track: any) => (\n-        <a\n-          href={track.url}\n-          class=\"mb-1 flex gap-3 font-mono text-sm md:mb-0 md:flex md:justify-between\"\n-        >\n-          <p class=\"line-clamp-1 text-green-600\">{track.name}</p>\n-          <p class=\"text-green-800\">{track.artist[\"#text\"]}</p>\n-        </a>\n-      ))\n-    }\n-  </div>\n+\t<div class=\"mb-2 flex items-center gap-2\">\n+\t\t<hr class=\"grow border border-dashed border-green-900\" />\n+\t\t<p class=\"text-center font-mono text-xs tracking-widest text-green-900\">\n+\t\t\tRecent Tracks\n+\t\t</p>\n+\t\t<hr class=\"grow border border-dashed border-green-900\" />\n+\t</div>\n+\t<div>\n+\t\t<!--TODO: Fix responsiveness -->\n+\t\t{\n+\t\t\tlastfm.recenttracks.track.slice(1).map((track: any) => (\n+\t\t\t\t<a\n+\t\t\t\t\thref={track.url}\n+\t\t\t\t\tclass=\"mb-1 flex gap-5 font-mono text-sm md:mb-0 md:flex md:justify-between\"\n+\t\t\t\t>\n+\t\t\t\t\t<p class=\"line-clamp-1 text-green-600\">{track.name}</p>\n+\t\t\t\t\t<p class=\"line-clamp-1 text-left text-green-800\">\n+\t\t\t\t\t\t{track.artist[\"#text\"]}\n+\t\t\t\t\t</p>\n+\t\t\t\t</a>\n+\t\t\t))\n+\t\t}\n+\t</div>\n </div>"
-      }
-    ]
-  },
-  {
-    "sha": "4963b94760ae9c657b4243708d2187070523d644",
-    "node_id": "C_kwDORCOQn9oAKDQ5NjNiOTQ3NjBhZTljNjU3YjQyNDM3MDhkMjE4NzA3MDUyM2Q2NDQ",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-11T10:46:52Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-11T10:46:52Z"
-      },
-      "message": "Update .prettierrc [skip deploy]\n\nAdd \"useTabs\": true to .prettierrc so Prettier formats code using tabs instead of spaces.",
-      "tree": {
-        "sha": "daff316bf6c04c55469ad69c01e9918f4a31809f",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/daff316bf6c04c55469ad69c01e9918f4a31809f"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/4963b94760ae9c657b4243708d2187070523d644",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/4963b94760ae9c657b4243708d2187070523d644",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/4963b94760ae9c657b4243708d2187070523d644",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/4963b94760ae9c657b4243708d2187070523d644/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "19c7ef858905f99c833509713e453ea1bbdf486b",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/19c7ef858905f99c833509713e453ea1bbdf486b",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/19c7ef858905f99c833509713e453ea1bbdf486b"
-      }
-    ],
-    "stats": {
-      "total": 1,
-      "additions": 1,
-      "deletions": 0
-    },
-    "files": [
-      {
-        "sha": "6be1e17afba223d132a791f1ec0d1085d4df3203",
-        "filename": ".prettierrc",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 0,
-        "changes": 1,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/4963b94760ae9c657b4243708d2187070523d644/.prettierrc",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/4963b94760ae9c657b4243708d2187070523d644/.prettierrc",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/.prettierrc?ref=4963b94760ae9c657b4243708d2187070523d644",
-        "patch": "@@ -1,5 +1,6 @@\n {\n   \"bracketSameLine\": false,\n+  \"useTabs\": true,\n   \"plugins\": [\"prettier-plugin-astro\", \"prettier-plugin-tailwindcss\"],\n   \"overrides\": [\n     {"
-      }
-    ]
-  },
-  {
-    "sha": "19c7ef858905f99c833509713e453ea1bbdf486b",
-    "node_id": "C_kwDORCOQn9oAKDE5YzdlZjg1ODkwNWY5OWM4MzM1MDk3MTNlNDUzZWExYmJkZjQ4NmI",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-11T10:45:20Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-11T10:45:20Z"
-      },
-      "message": "Moved Radar to a separate component",
-      "tree": {
-        "sha": "0af76fd57ec3a820c59cdc91af3cdef2204995fa",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/0af76fd57ec3a820c59cdc91af3cdef2204995fa"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/19c7ef858905f99c833509713e453ea1bbdf486b",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/19c7ef858905f99c833509713e453ea1bbdf486b",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/19c7ef858905f99c833509713e453ea1bbdf486b",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/19c7ef858905f99c833509713e453ea1bbdf486b/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "19b158a9477167c3104cdcc12711ff77a65a00f9",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/19b158a9477167c3104cdcc12711ff77a65a00f9",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/19b158a9477167c3104cdcc12711ff77a65a00f9"
-      }
-    ],
-    "stats": {
-      "total": 206,
-      "additions": 115,
-      "deletions": 91
-    },
-    "files": [
-      {
-        "sha": "d3420d4b4b3ca09f4fdc4523d65cfdcd63e5dc73",
-        "filename": "src/components/Radar.astro",
-        "status": "added",
-        "additions": 109,
-        "deletions": 0,
-        "changes": 109,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/19c7ef858905f99c833509713e453ea1bbdf486b/src%2Fcomponents%2FRadar.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/19c7ef858905f99c833509713e453ea1bbdf486b/src%2Fcomponents%2FRadar.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2FRadar.astro?ref=19c7ef858905f99c833509713e453ea1bbdf486b",
-        "patch": "@@ -0,0 +1,109 @@\n+---\n+const languages = (await (\n+\tawait fetch(\n+\t\t\"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/languages.json\",\n+\t)\n+).json()) as Record<string, Record<string, number>>;\n+\n+let stack: Record<string, number> = {};\n+let total = 0;\n+for (const lang of Object.values(languages)) {\n+\tfor (const [key, value] of Object.entries(lang)) {\n+\t\tstack[key] = (stack[key] || 0) + value;\n+\t\ttotal += value;\n+\t}\n+}\n+for (const lang in stack) {\n+\tstack[lang] = (stack[lang] / total) * 100;\n+}\n+\n+const stackIcons = [\n+\t{\n+\t\ticon: \"icons/stack/javascript.svg\",\n+\t\tname: \"JavaScript\",\n+\t},\n+\t{\n+\t\ticon: \"icons/stack/astro.svg\",\n+\t\tname: \"Astro\",\n+\t},\n+\t{\n+\t\ticon: \"icons/stack/php.svg\",\n+\t\tname: \"PHP\",\n+\t},\n+\t{\n+\t\ticon: \"icons/stack/react.svg\",\n+\t\tname: \"React\",\n+\t},\n+\t{\n+\t\ticon: \"icons/stack/tailwindcss.svg\",\n+\t\tname: \"Tailwind CSS\",\n+\t},\n+];\n+---\n+\n+<div class=\"grid grid-cols-3 place-items-center gap-4 md:grid-cols-5\">\n+\t{\n+\t\tstackIcons.map((language) => (\n+\t\t\t<div class=\"flex flex-col items-center gap-2\">\n+\t\t\t\t<img\n+\t\t\t\t\tclass=\"h-10 w-10 object-contain\"\n+\t\t\t\t\tsrc={language.icon}\n+\t\t\t\t\tloading=\"lazy\"\n+\t\t\t\t\talt={language.name}\n+\t\t\t\t/>\n+\t\t\t\t<p class=\"font-mono text-xs font-bold\">{language.name}</p>\n+\t\t\t</div>\n+\t\t))\n+\t}\n+</div>\n+<script is:inline src=\"https://cdn.jsdelivr.net/npm/chart.js\"></script>\n+<script is:inline define:vars={{ stack }}>\n+\tconst ctx = document.getElementById(\"stackradar\");\n+\tconst chartLabels = Object.keys(stack);\n+\tconst chartData = Object.values(stack);\n+\tnew Chart(ctx, {\n+\t\ttype: \"radar\",\n+\t\tdata: {\n+\t\t\tlabels: chartLabels,\n+\t\t\tdatasets: [\n+\t\t\t\t{\n+\t\t\t\t\tdata: chartData,\n+\t\t\t\t\tbackgroundColor: \"rgba(0, 201, 80, 0.2)\",\n+\t\t\t\t\tborderColor: \"#00C950\",\n+\t\t\t\t\tborderWidth: 2,\n+\t\t\t\t\tpointBackgroundColor: \"#00C950\",\n+\t\t\t\t\tpointBorderColor: \"#00C950\",\n+\t\t\t\t},\n+\t\t\t],\n+\t\t},\n+\t\toptions: {\n+\t\t\tresponsive: true,\n+\t\t\tmaintainAspectRatio: true,\n+\t\t\tscales: {\n+\t\t\t\tr: {\n+\t\t\t\t\tangleLines: { color: \"#00C95050\" },\n+\t\t\t\t\tgrid: { color: \"#00C95030\" },\n+\t\t\t\t\tpointLabels: {\n+\t\t\t\t\t\tcolor: \"#00C950\",\n+\t\t\t\t\t\tfont: { family: \"Terminus\", size: 12, weight: \"bold\" },\n+\t\t\t\t\t},\n+\t\t\t\t\tticks: { display: false },\n+\t\t\t\t},\n+\t\t\t},\n+\t\t\tplugins: {\n+\t\t\t\tlegend: { display: false },\n+\t\t\t\ttooltip: {\n+\t\t\t\t\tenabled: true,\n+\t\t\t\t\tbackgroundColor: \"#000000\",\n+\t\t\t\t\tborderColor: \"#00C95050\",\n+\t\t\t\t\tborderWidth: 1,\n+\t\t\t\t\ttitleColor: \"#00C950\",\n+\t\t\t\t\ttitleFont: { family: \"Terminus\", size: 14},\n+\t\t\t\t\tbodyColor: \"#00C950\",\n+\t\t\t\t\tbodyFont: { family: \"Terminus\", size: 14},\n+\t\t\t\t\tdisplayColors: false,\n+\t\t\t\t},\n+\t\t\t},\n+\t\t},\n+\t});\n+</script>"
-      },
-      {
-        "sha": "ab0c4d81de40faf976c67c2e87665a8c4e45b1c2",
-        "filename": "src/pages/index.astro",
-        "status": "modified",
-        "additions": 6,
-        "deletions": 91,
-        "changes": 97,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/19c7ef858905f99c833509713e453ea1bbdf486b/src%2Fpages%2Findex.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/19c7ef858905f99c833509713e453ea1bbdf486b/src%2Fpages%2Findex.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Findex.astro?ref=19c7ef858905f99c833509713e453ea1bbdf486b",
-        "patch": "@@ -3,6 +3,7 @@ import Layout from \"../layouts/Layout.astro\";\n import Container from \"../components/Container.astro\";\n import Button from \"../components/Button.astro\";\n import Ascii from \"../components/AsciiContainer.astro\";\n+import Radar from \"../components/Radar.astro\";\n import CommitLog from \"../components/CommitLog.astro\";\n import LastFM from \"../components/Scrobble.astro\";\n \n@@ -116,97 +117,11 @@ const socials = [\n       </Container>\n       <Container class=\"break-inside-avoid space-y-5\">\n         <p class=\"text-lg font-bold tracking-widest\">> STACK</p>\n-        <!-- TODO: This is pretty meaningless -->\n-        <canvas class=\"border-y border-green-500/30\" id=\"stackradar\"></canvas>\n-        <div class=\"grid grid-cols-3 place-items-center gap-4 md:grid-cols-5\">\n-          <div class=\"flex flex-col items-center gap-2\">\n-            <img\n-              class=\"h-10 w-10 object-contain\"\n-              src=\"icons/stack/javascript.svg\"\n-              loading=\"lazy\"\n-              alt=\"JavaScript\"\n-            />\n-            <p class=\"font-mono text-xs font-bold\">JavaScript</p>\n-          </div>\n-          <div class=\"flex flex-col items-center gap-2\">\n-            <img\n-              class=\"h-10 w-10 object-contain\"\n-              src=\"icons/stack/astro.svg\"\n-              loading=\"lazy\"\n-              alt=\"Astro\"\n-            />\n-            <p class=\"font-mono text-xs font-bold\">Astro</p>\n-          </div>\n-          <div class=\"flex flex-col items-center gap-2\">\n-            <img\n-              class=\"h-10 w-10 object-contain\"\n-              src=\"icons/stack/php.svg\"\n-              loading=\"lazy\"\n-              alt=\"PHP\"\n-            />\n-            <p class=\"font-mono text-xs font-bold\">PHP</p>\n-          </div>\n-          <div class=\"flex flex-col items-center gap-2\">\n-            <img\n-              class=\"h-10 w-10 object-contain\"\n-              src=\"icons/stack/react.svg\"\n-              loading=\"lazy\"\n-              alt=\"React\"\n-            />\n-            <p class=\"font-mono text-xs font-bold\">React</p>\n-          </div>\n-          <div class=\"flex flex-col items-center gap-2\">\n-            <img\n-              class=\"h-10 w-10 object-contain\"\n-              src=\"icons/stack/tailwindcss.svg\"\n-              loading=\"lazy\"\n-              alt=\"Tailwind CSS\"\n-            />\n-            <p class=\"font-mono text-xs font-bold\">Tailwind CSS</p>\n-          </div>\n-        </div>\n-        <script is:inline src=\"https://cdn.jsdelivr.net/npm/chart.js\"></script>\n-        <!-- TODO Move this huge ass jsob blob out of here -->\n-        <script is:inline>\n-          const ctx = document.getElementById(\"stackradar\");\n-          new Chart(ctx, {\n-            type: \"radar\",\n-            data: {\n-              labels: [\"Astro\", \"JavaScript\", \"PHP\", \"React\", \"CSS\"],\n-              datasets: [\n-                {\n-                  data: [5, 5, 8, 3, 9],\n-                  backgroundColor: \"rgba(0, 201, 80, 0.2)\",\n-                  borderColor: \"#00C950\",\n-                  borderWidth: 2,\n-                  pointBackgroundColor: \"#00C950\",\n-                  pointBorderColor: \"#00C950\",\n-                },\n-              ],\n-            },\n-            options: {\n-              responsive: true,\n-              maintainAspectRatio: true,\n-              scales: {\n-                r: {\n-                  min: 0,\n-                  max: 10,\n-                  angleLines: { color: \"#00C95050\" },\n-                  grid: { color: \"#00C95030\" },\n-                  pointLabels: {\n-                    color: \"#00C950\",\n-                    font: { family: \"monospace\", size: 12, weight: \"bold\" },\n-                  },\n-                  ticks: { display: false },\n-                },\n-              },\n-              plugins: {\n-                legend: { display: false },\n-                tooltip: { enabled: false },\n-              },\n-            },\n-          });\n-        </script>\n+        <hr class=\"border border-green-500/30\">\n+        <p class=\"font-mono text-sm text-green-600\">Stats pulled from my GitHub: languages ranked by total code size.</p>\n+        <canvas id=\"stackradar\"></canvas>\n+        <p class=\"text-xs font-mono text-right text-green-900\">made with chart.js</p>\n+        <Radar />\n       </Container>\n       <Container class=\"break-inside-avoid space-y-5\">\n         <p class=\"text-lg font-bold tracking-widest\">> COMMIT_LOG</p>"
       }
     ]
   }
