@@ -15,56 +15,41 @@ const js = await (await fetch("https://pastebin.com/raw/f3mNJJkE")).text();
 
 <Layout title="BOOT">
   <main class="flex flex-col space-y-8">
-    <div class="space-y-5">
-      <div class="md:max-w-2/3">
-        <!-- TODO: replace this with something else -->
-        <Ascii
-          ascii={title}
-          class="font-mono! text-[calc(180cqi/var(--cols))]! tracking-normal!"
-        />
-      </div>
-      <!-- TODO shorten and update this -->
-      <p>
-        Hello! I'm a computer science student here in the Philippines, and I've
-        been coding since the ripe old age of (wait for it) 14. My first
-        language? HTML, the basic building blocks of the internet (think
-        blinking text and questionable color schemes). Now I'm tackling Java and
-        Python, because frankly, web development is about as exciting as
-        watching paint dry. When I'm not meticulously crafting lines of code,
-        you can find me strategically demolishing virtual enemies, listening to
-        good music, trying to convince my pet dog to take over the world
-        (spoiler alert, he's not very interested) or perfecting the art of the
-        ceiling stare. The crazy part? I manage to ace my classes while being
-        this gloriously lazy. Don't worry though, I'm not here to brag (okay,
-        maybe a little).
+    <div class="mt-15 space-y-5 md:w-2/3">
+      <p class="text-5xl text-balance md:text-6xl">Ni Howdy! It's Jerwin</p>
+      <p class="text-md font-mono">
+        I'm a student based in <strong>Manila, PH</strong>. I build things for
+        the <strong>web</strong>. My code is held together by duct tape and
+        prayers. I spend more time customizing my VS Code theme than actually
+        coding. If you see a bug, no you didn't.
       </p>
-      <Container class="space-y-2" onclick="location.href='blog?=latest'">
-        <p class="text-lg font-bold tracking-widest">> LATEST_TRANSMISSION</p>
-        <div class="flex items-center font-mono text-sm">
-          <span class="mr-2 bg-green-500 px-1 text-xs font-bold text-black"
-            >ENCRYPTED</span
-          >
-          <span
-            id="latest_transmission"
-            class="line-clamp-2 cursor-pointer text-green-500 opacity-80"
-            >░█░█░▄▀▄░█░█░░░░░█▀▀░█▀▄░█▀▄░█▀█░█▀▄░░▀█░█/█░░▀█░░░░░█▀▀░█▀▄░█▀▄░█░█░█▀▄░░░▀░░▀░░░░▀░▀▀▀░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀</span
-          >
-          <script>
-            const e = document.getElementById("latest_transmission"),
-              c = "░█▓▒▀▄▌▐",
-              l = e!.innerText.length;
-            setInterval(
-              () =>
-                (e!.innerText = [...Array(l)]
-                  .map(() => c[Math.floor(Math.random() * c.length)])
-                  .join("")),
-              100,
-            );
-          </script>
-        </div>
-        <p class="font-mono text-xs font-bold">[ DATE RECIEVED: 2026-01-27 ]</p>
-      </Container>
     </div>
+    <Container class="space-y-2" onclick="location.href='blog?=latest'">
+      <p class="text-lg font-bold tracking-widest">> LATEST_TRANSMISSION</p>
+      <div class="flex items-center font-mono text-sm">
+        <span class="mr-2 bg-green-500 px-1 text-xs font-bold text-black"
+          >ENCRYPTED</span
+        >
+        <span
+          id="latest_transmission"
+          class="line-clamp-2 cursor-pointer text-green-500 opacity-80"
+          >░█░█░▄▀▄░█░█░░░░░█▀▀░█▀▄░█▀▄░█▀█░█▀▄░░▀█░█/█░░▀█░░░░░█▀▀░█▀▄░█▀▄░█░█░█▀▄░░░▀░░▀░░░░▀░▀▀▀░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀</span
+        >
+        <script>
+          const e = document.getElementById("latest_transmission"),
+            c = "░█▓▒▀▄▌▐",
+            l = e!.innerText.length;
+          setInterval(
+            () =>
+              (e!.innerText = [...Array(l)]
+                .map(() => c[Math.floor(Math.random() * c.length)])
+                .join("")),
+            100,
+          );
+        </script>
+      </div>
+      <p class="font-mono text-xs font-bold">[ DATE RECIEVED: 2026-01-27 ]</p>
+    </Container>
     <hr class="border-green-500" />
     <div class="space-y-5">
       <h3 class="text-xl font-bold tracking-widest">> MAIN_MENU</h3>
