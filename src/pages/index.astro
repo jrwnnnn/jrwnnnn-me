@@ -2,9 +2,9 @@
 import Layout from "../layouts/Layout.astro";
 import Container from "../components/Container.astro";
 import Button from "../components/Button.astro";
+import CommitLog from "../components/static/CommitLog.astro";
+import LastFM from "../components/static/Scrobble.astro";
 import Ascii from "../components/AsciiContainer.astro";
-import CommitLog from "../components/CommitLog.astro";
-import LastFM from "../components/Scrobble.astro";
 
 const title = await (await fetch("https://pastebin.com/raw/K1GufLfn")).text();
 const asciiArt = await (
