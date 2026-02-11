@@ -1,5 +1,142 @@
 [
   {
+    "sha": "f32afc00177af472d19726ef890674531bfa551c",
+    "node_id": "C_kwDORCOQn9oAKGYzMmFmYzAwMTc3YWY0NzJkMTk3MjZlZjg5MDY3NDUzMWJmYTU1MWM",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-02-11T11:53:32Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-02-11T11:53:32Z"
+      },
+      "message": "Move components into static/ and update imports\n\nMoved CommitLog, Radar, and Scrobble to src/components/static/ to group static UI components.",
+      "tree": {
+        "sha": "4a9ecac2b8c7b5186c8b799003d7dc5f78f29f1c",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/4a9ecac2b8c7b5186c8b799003d7dc5f78f29f1c"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/f32afc00177af472d19726ef890674531bfa551c",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/f32afc00177af472d19726ef890674531bfa551c",
+    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/f32afc00177af472d19726ef890674531bfa551c",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/f32afc00177af472d19726ef890674531bfa551c/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5cf4163f12a901258060dcef422eb7aadaa11917",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/5cf4163f12a901258060dcef422eb7aadaa11917",
+        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/5cf4163f12a901258060dcef422eb7aadaa11917"
+      }
+    ],
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2
+    },
+    "files": [
+      {
+        "sha": "812554f8aca9afd67a3042f70689b7aa5239014e",
+        "filename": "src/components/static/CommitLog.astro",
+        "status": "renamed",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/f32afc00177af472d19726ef890674531bfa551c/src%2Fcomponents%2Fstatic%2FCommitLog.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/f32afc00177af472d19726ef890674531bfa551c/src%2Fcomponents%2Fstatic%2FCommitLog.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2Fstatic%2FCommitLog.astro?ref=f32afc00177af472d19726ef890674531bfa551c",
+        "previous_filename": "src/components/CommitLog.astro"
+      },
+      {
+        "sha": "4b3367a05d1c741c1981a5aabfd2e2c89371f4b0",
+        "filename": "src/components/static/Radar.astro",
+        "status": "renamed",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/f32afc00177af472d19726ef890674531bfa551c/src%2Fcomponents%2Fstatic%2FRadar.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/f32afc00177af472d19726ef890674531bfa551c/src%2Fcomponents%2Fstatic%2FRadar.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2Fstatic%2FRadar.astro?ref=f32afc00177af472d19726ef890674531bfa551c",
+        "previous_filename": "src/components/Radar.astro"
+      },
+      {
+        "sha": "9c99a13140fae75eab20407fb2f58a966cc8715d",
+        "filename": "src/components/static/Scrobble.astro",
+        "status": "renamed",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/f32afc00177af472d19726ef890674531bfa551c/src%2Fcomponents%2Fstatic%2FScrobble.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/f32afc00177af472d19726ef890674531bfa551c/src%2Fcomponents%2Fstatic%2FScrobble.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2Fstatic%2FScrobble.astro?ref=f32afc00177af472d19726ef890674531bfa551c",
+        "previous_filename": "src/components/Scrobble.astro"
+      },
+      {
+        "sha": "460548deb55f7c2c5774ee446e333534db6cfccc",
+        "filename": "src/pages/index.astro",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/f32afc00177af472d19726ef890674531bfa551c/src%2Fpages%2Findex.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/f32afc00177af472d19726ef890674531bfa551c/src%2Fpages%2Findex.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Findex.astro?ref=f32afc00177af472d19726ef890674531bfa551c",
+        "patch": "@@ -2,9 +2,9 @@\n import Layout from \"../layouts/Layout.astro\";\n import Container from \"../components/Container.astro\";\n import Button from \"../components/Button.astro\";\n+import CommitLog from \"../components/static/CommitLog.astro\";\n+import LastFM from \"../components/static/Scrobble.astro\";\n import Ascii from \"../components/AsciiContainer.astro\";\n-import CommitLog from \"../components/CommitLog.astro\";\n-import LastFM from \"../components/Scrobble.astro\";\n \n const title = await (await fetch(\"https://pastebin.com/raw/K1GufLfn\")).text();\n const asciiArt = await ("
+      }
+    ]
+  },
+  {
     "sha": "5cf4163f12a901258060dcef422eb7aadaa11917",
     "node_id": "C_kwDORCOQn9oAKDVjZjQxNjNmMTJhOTAxMjU4MDYwZGNlZjQyMmViN2FhZGFhMTE5MTc",
     "commit": {
@@ -436,119 +573,6 @@
         "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/19c7ef858905f99c833509713e453ea1bbdf486b/src%2Fpages%2Findex.astro",
         "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Findex.astro?ref=19c7ef858905f99c833509713e453ea1bbdf486b",
         "patch": "@@ -3,6 +3,7 @@ import Layout from \"../layouts/Layout.astro\";\n import Container from \"../components/Container.astro\";\n import Button from \"../components/Button.astro\";\n import Ascii from \"../components/AsciiContainer.astro\";\n+import Radar from \"../components/Radar.astro\";\n import CommitLog from \"../components/CommitLog.astro\";\n import LastFM from \"../components/Scrobble.astro\";\n \n@@ -116,97 +117,11 @@ const socials = [\n       </Container>\n       <Container class=\"break-inside-avoid space-y-5\">\n         <p class=\"text-lg font-bold tracking-widest\">> STACK</p>\n-        <!-- TODO: This is pretty meaningless -->\n-        <canvas class=\"border-y border-green-500/30\" id=\"stackradar\"></canvas>\n-        <div class=\"grid grid-cols-3 place-items-center gap-4 md:grid-cols-5\">\n-          <div class=\"flex flex-col items-center gap-2\">\n-            <img\n-              class=\"h-10 w-10 object-contain\"\n-              src=\"icons/stack/javascript.svg\"\n-              loading=\"lazy\"\n-              alt=\"JavaScript\"\n-            />\n-            <p class=\"font-mono text-xs font-bold\">JavaScript</p>\n-          </div>\n-          <div class=\"flex flex-col items-center gap-2\">\n-            <img\n-              class=\"h-10 w-10 object-contain\"\n-              src=\"icons/stack/astro.svg\"\n-              loading=\"lazy\"\n-              alt=\"Astro\"\n-            />\n-            <p class=\"font-mono text-xs font-bold\">Astro</p>\n-          </div>\n-          <div class=\"flex flex-col items-center gap-2\">\n-            <img\n-              class=\"h-10 w-10 object-contain\"\n-              src=\"icons/stack/php.svg\"\n-              loading=\"lazy\"\n-              alt=\"PHP\"\n-            />\n-            <p class=\"font-mono text-xs font-bold\">PHP</p>\n-          </div>\n-          <div class=\"flex flex-col items-center gap-2\">\n-            <img\n-              class=\"h-10 w-10 object-contain\"\n-              src=\"icons/stack/react.svg\"\n-              loading=\"lazy\"\n-              alt=\"React\"\n-            />\n-            <p class=\"font-mono text-xs font-bold\">React</p>\n-          </div>\n-          <div class=\"flex flex-col items-center gap-2\">\n-            <img\n-              class=\"h-10 w-10 object-contain\"\n-              src=\"icons/stack/tailwindcss.svg\"\n-              loading=\"lazy\"\n-              alt=\"Tailwind CSS\"\n-            />\n-            <p class=\"font-mono text-xs font-bold\">Tailwind CSS</p>\n-          </div>\n-        </div>\n-        <script is:inline src=\"https://cdn.jsdelivr.net/npm/chart.js\"></script>\n-        <!-- TODO Move this huge ass jsob blob out of here -->\n-        <script is:inline>\n-          const ctx = document.getElementById(\"stackradar\");\n-          new Chart(ctx, {\n-            type: \"radar\",\n-            data: {\n-              labels: [\"Astro\", \"JavaScript\", \"PHP\", \"React\", \"CSS\"],\n-              datasets: [\n-                {\n-                  data: [5, 5, 8, 3, 9],\n-                  backgroundColor: \"rgba(0, 201, 80, 0.2)\",\n-                  borderColor: \"#00C950\",\n-                  borderWidth: 2,\n-                  pointBackgroundColor: \"#00C950\",\n-                  pointBorderColor: \"#00C950\",\n-                },\n-              ],\n-            },\n-            options: {\n-              responsive: true,\n-              maintainAspectRatio: true,\n-              scales: {\n-                r: {\n-                  min: 0,\n-                  max: 10,\n-                  angleLines: { color: \"#00C95050\" },\n-                  grid: { color: \"#00C95030\" },\n-                  pointLabels: {\n-                    color: \"#00C950\",\n-                    font: { family: \"monospace\", size: 12, weight: \"bold\" },\n-                  },\n-                  ticks: { display: false },\n-                },\n-              },\n-              plugins: {\n-                legend: { display: false },\n-                tooltip: { enabled: false },\n-              },\n-            },\n-          });\n-        </script>\n+        <hr class=\"border border-green-500/30\">\n+        <p class=\"font-mono text-sm text-green-600\">Stats pulled from my GitHub: languages ranked by total code size.</p>\n+        <canvas id=\"stackradar\"></canvas>\n+        <p class=\"text-xs font-mono text-right text-green-900\">made with chart.js</p>\n+        <Radar />\n       </Container>\n       <Container class=\"break-inside-avoid space-y-5\">\n         <p class=\"text-lg font-bold tracking-widest\">> COMMIT_LOG</p>"
-      }
-    ]
-  },
-  {
-    "sha": "19b158a9477167c3104cdcc12711ff77a65a00f9",
-    "node_id": "C_kwDORCOQn9oAKDE5YjE1OGE5NDc3MTY3YzMxMDRjZGNjMTI3MTFmZjc3YTY1YTAwZjk",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-11T09:59:42Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-11T09:59:42Z"
-      },
-      "message": "Refactor social links into mapped array\n\nReplace duplicated social link markup with a mapped render of anchor+img elements. Index now includes name labels for each social link and displays icon+text, while Layout uses the same array to render icon links.",
-      "tree": {
-        "sha": "62fc4591db41cfb6a133597d13ae87454c11010f",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/62fc4591db41cfb6a133597d13ae87454c11010f"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/19b158a9477167c3104cdcc12711ff77a65a00f9",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/19b158a9477167c3104cdcc12711ff77a65a00f9",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/19b158a9477167c3104cdcc12711ff77a65a00f9",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/19b158a9477167c3104cdcc12711ff77a65a00f9/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "1baf7624082a370f96b714bba6d5e68963310957",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/1baf7624082a370f96b714bba6d5e68963310957",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/1baf7624082a370f96b714bba6d5e68963310957"
-      }
-    ],
-    "stats": {
-      "total": 171,
-      "additions": 105,
-      "deletions": 66
-    },
-    "files": [
-      {
-        "sha": "3257e8fb07d08e08044ca07f57cbefbe481c12d3",
-        "filename": "src/layouts/Layout.astro",
-        "status": "modified",
-        "additions": 29,
-        "deletions": 29,
-        "changes": 58,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/19b158a9477167c3104cdcc12711ff77a65a00f9/src%2Flayouts%2FLayout.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/19b158a9477167c3104cdcc12711ff77a65a00f9/src%2Flayouts%2FLayout.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Flayouts%2FLayout.astro?ref=19b158a9477167c3104cdcc12711ff77a65a00f9",
-        "patch": "@@ -8,8 +8,24 @@ interface Props {\n \n import \"../styles/global.css\";\n const { title, description = \"Default Description\", statusBar = true, footer = true} = Astro.props;\n-\n const latestCommit = await(await fetch('https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/jrwnnnn-me-commits.json')).json();\n+const socials = [\n+  {\n+    icon: \"icons/socials/github.svg\",\n+    href: \"https://github.com/jrwnnnn\",\n+\tname: \"Github\",\n+  },\n+  {\n+    icon: \"icons/socials/gmail.svg\",\n+    href: \"mailto:no_email_yet@gmail.com\",\n+\tname: \"Email\"\n+  },\n+  {\n+    icon: \"icons/socials/instagram.svg\",\n+    href: \"https://instagram.com/jrwnnn_\",\n+\tname: \"Instagram\"\n+  },\n+];\n ---\n \n <!DOCTYPE html>\n@@ -80,34 +96,18 @@ const latestCommit = await(await fetch('https://raw.githubusercontent.com/jrwnnn\n \t\t\t</div>\n \n \t\t\t<div class=\"flex items-center space-x-5\">\n-\t\t\t\t<a href=\"https://github.com/jrwnnnn\" target=\"_blank\" class=\"cursor-pointer\">\n-\t\t\t\t<img\n-\t\t\t\t\tclass=\"h-5 object-contain\"\n-\t\t\t\t\tsrc=\"icons/socials/github.svg\"\n-\t\t\t\t\tloading=\"lazy\"\n-\t\t\t\t\talt=\"GitHub Icon\"\n-\t\t\t\t/>\n-\t\t\t\t</a>\n-\t\t\t\t<a\n-\t\t\t\thref=\"mailto:im_not_adding_my_email_here_yet@gmail.com\"\n-\t\t\t\ttarget=\"_blank\"\n-\t\t\t\tclass=\"cursor-pointer\"\n-\t\t\t\t>\n-\t\t\t\t<img\n-\t\t\t\t\tclass=\"h-5 object-contain\"\n-\t\t\t\t\tsrc=\"icons/socials/gmail.svg\"\n-\t\t\t\t\tloading=\"lazy\"\n-\t\t\t\t\talt=\"Gmail Icon\"\n-\t\t\t\t/>\n-\t\t\t\t</a>\n-\t\t\t\t<a href=\"https://instagram.com/jrwnnn_\" target=\"_blank\" class=\"cursor-pointer\">\n-\t\t\t\t<img\n-\t\t\t\t\tclass=\"h-5 object-contain\"\n-\t\t\t\t\tsrc=\"icons/socials/instagram.svg\"\n-\t\t\t\t\tloading=\"lazy\"\n-\t\t\t\t\talt=\"Instagram Icon\"\n-\t\t\t\t/>\n-\t\t\t\t</a>\n+\t\t\t\t{\n+\t\t\t\t\tsocials.map((social) => (\n+\t\t\t\t\t\t<a href={social.href} target=\"_blank\" class=\"cursor-pointer\">\n+\t\t\t\t\t\t\t<img\n+\t\t\t\t\t\t\t\tclass=\"h-5 object-contain\"\n+\t\t\t\t\t\t\t\tsrc={social.icon}\n+\t\t\t\t\t\t\t\tloading=\"lazy\"\n+\t\t\t\t\t\t\t\talt=`${social.name} Icon`\n+\t\t\t\t\t\t\t/>\n+\t\t\t\t\t\t</a>\n+\t\t\t\t\t))\n+\t\t\t\t}\n \t\t\t</div>\n \t\t\t</footer>\n \t\t: null "
-      },
-      {
-        "sha": "5eb82ac1737549660c419e7124bc4516b83454c1",
-        "filename": "src/pages/index.astro",
-        "status": "modified",
-        "additions": 76,
-        "deletions": 37,
-        "changes": 113,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/19b158a9477167c3104cdcc12711ff77a65a00f9/src%2Fpages%2Findex.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/19b158a9477167c3104cdcc12711ff77a65a00f9/src%2Fpages%2Findex.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Findex.astro?ref=19b158a9477167c3104cdcc12711ff77a65a00f9",
-        "patch": "@@ -11,48 +11,87 @@ const asciiArt = await (\n   await fetch(\"https://pastebin.com/raw/2w7sZxex\")\n ).text();\n const js = await (await fetch(\"https://pastebin.com/raw/f3mNJJkE\")).text();\n+\n+const socials = [\n+  {\n+    icon: \"icons/socials/github.svg\",\n+    name: \"GitHub\",\n+    href: \"https://github.com/jrwnnnn\"\n+  },\n+  {\n+    icon: \"icons/socials/gmail.svg\",\n+    name: \"Email\",\n+    href: \"mailto:no_email_yet@gmail.com\"\n+  },\n+  {\n+    icon: \"icons/socials/instagram.svg\",\n+    name: \"Instagram\",\n+    href: \"https://instagram.com/jrwnnn_\"\n+  },\n+];\n ---\n \n <Layout title=\"BOOT\">\n   <main class=\"flex flex-col space-y-8\">\n-    <div class=\"mt-15 space-y-5 md:w-2/3\">\n-      <p class=\"text-5xl text-balance md:text-6xl\">Hello! It's Jerwin</p>\n-      <p class=\"font-mono md:text-lg\">\n-        I'm a student based in <strong>Manila, PH</strong>. I build things for\n-        the <strong>web</strong>. My code is held together by duct tape and\n-        prayers. I spend more time customizing my VS Code theme than actually\n-        coding. If you see a bug, no you didn't.\n-      </p>\n-    </div>\n-    <Container class=\"space-y-2\" onclick=\"location.href='blog?=latest'\">\n-      <p class=\"text-lg font-bold tracking-widest\">> LATEST_TRANSMISSION</p>\n-      <div class=\"flex items-center text-sm\">\n-        <span\n-          class=\"mr-2 bg-green-500 px-1 font-mono text-xs font-bold text-black\"\n-          >ENCRYPTED</span\n-        >\n-        <span\n-          id=\"latest_transmission\"\n-          class=\"line-clamp-2 cursor-pointer text-green-500 opacity-80\"\n-          >░█░█░▄▀▄░█░█░░░░░█▀▀░█▀▄░█▀▄░█▀█░█▀▄░░▀█░█/█░░▀█░░░░░█▀▀░█▀▄░█▀▄░█░█░█▀▄░░░▀░░▀░░░░▀░▀▀▀░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀</span\n-        >\n-        <script>\n-          const e = document.getElementById(\"latest_transmission\"),\n-            c = \"░█▓▒▀▄▌▐\",\n-            l = e!.innerText.length;\n-          setInterval(\n-            () =>\n-              (e!.innerText = [...Array(l)]\n-                .map(() => c[Math.floor(Math.random() * c.length)])\n-                .join(\"\")),\n-            100,\n-          );\n-        </script>\n+    <div class=\"space-y-15\">\n+      <div class=\"mt-15 space-y-5 md:w-2/3\">\n+        <p class=\"text-5xl text-balance md:text-6xl\">Hello! It's Jerwin</p>\n+        <p class=\"font-mono md:text-lg\">\n+          I'm a student based in <strong>Manila, PH</strong>. I build things for\n+          the <strong>web</strong>. My code is held together by duct tape and\n+          prayers. I spend more time customizing my VS Code theme than actually\n+          coding. If you see a bug, no you didn't.\n+        </p>\n+        <div class=\"flex cursor-pointer items-center space-x-9\">\n+          {\n+            socials.map((social) => (\n+              <a\n+                href={social.href}\n+                target=\"_blank\"\n+                class=\"flex items-center space-x-2 hover:brightness-125\"\n+              >\n+                <img\n+                  class=\"h-5 object-contain\"\n+                  src={social.icon}\n+                  loading=\"lazy\"\n+                  alt=`${social.name} Icon`\n+                />\n+                <p class=\"font-mono\">{social.name}</p>\n+              </a>\n+            ))\n+          }\n+        </div>\n       </div>\n-      <p class=\"font-mono text-xs text-green-700\">\n-        [ DATE RECIEVED: 2026-01-27 ]\n-      </p>\n-    </Container>\n+      <Container class=\"space-y-2\" onclick=\"location.href='blog?=latest'\">\n+        <p class=\"text-lg font-bold tracking-widest\">> LATEST_TRANSMISSION</p>\n+        <div class=\"flex items-center text-sm\">\n+          <span\n+            class=\"mr-2 bg-green-500 px-1 font-mono text-xs font-bold text-black\"\n+            >ENCRYPTED</span\n+          >\n+          <span\n+            id=\"latest_transmission\"\n+            class=\"line-clamp-2 cursor-pointer text-green-500 opacity-80\"\n+            >░█░█░▄▀▄░█░█░░░░░█▀▀░█▀▄░█▀▄░█▀█░█▀▄░░▀█░█/█░░▀█░░░░░█▀▀░█▀▄░█▀▄░█░█░█▀▄░░░▀░░▀░░░░▀░▀▀▀░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀</span\n+          >\n+          <script>\n+            const e = document.getElementById(\"latest_transmission\"),\n+              c = \"░█▓▒▀▄▌▐\",\n+              l = e!.innerText.length;\n+            setInterval(\n+              () =>\n+                (e!.innerText = [...Array(l)]\n+                  .map(() => c[Math.floor(Math.random() * c.length)])\n+                  .join(\"\")),\n+              100,\n+            );\n+          </script>\n+        </div>\n+        <p class=\"font-mono text-xs text-green-700\">\n+          [ DATE RECIEVED: 2026-01-27 ]\n+        </p>\n+      </Container>\n+    </div>\n     <hr class=\"border-green-500\" />\n     <div class=\"space-y-5\">\n       <h3 class=\"text-xl font-bold tracking-widest\">> MAIN_MENU</h3>"
       }
     ]
   }
