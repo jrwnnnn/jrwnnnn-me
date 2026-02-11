@@ -16,46 +16,8 @@ for (const lang of Object.values(languages)) {
 for (const lang in stack) {
 	stack[lang] = (stack[lang] / total) * 100;
 }
-
-const stackIcons = [
-	{
-		icon: "icons/stack/javascript.svg",
-		name: "JavaScript",
-	},
-	{
-		icon: "icons/stack/astro.svg",
-		name: "Astro",
-	},
-	{
-		icon: "icons/stack/php.svg",
-		name: "PHP",
-	},
-	{
-		icon: "icons/stack/react.svg",
-		name: "React",
-	},
-	{
-		icon: "icons/stack/tailwindcss.svg",
-		name: "Tailwind CSS",
-	},
-];
 ---
 
-<div class="grid grid-cols-3 place-items-center gap-4 md:grid-cols-5">
-	{
-		stackIcons.map((language) => (
-			<div class="flex flex-col items-center gap-2">
-				<img
-					class="h-10 w-10 object-contain"
-					src={language.icon}
-					loading="lazy"
-					alt={language.name}
-				/>
-				<p class="font-mono text-xs font-bold">{language.name}</p>
-			</div>
-		))
-	}
-</div>
 <script is:inline src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script is:inline define:vars={{ stack }}>
 	const ctx = document.getElementById("stackradar");
