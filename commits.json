@@ -1,5 +1,187 @@
 [
   {
+    "sha": "1baf7624082a370f96b714bba6d5e68963310957",
+    "node_id": "C_kwDORCOQn9oAKDFiYWY3NjI0MDgyYTM3MGY5NmI3MTRiYmE2ZDVlNjg5NjMzMTA5NTc",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-02-11T09:27:06Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-02-11T09:27:06Z"
+      },
+      "message": "Update UI, fonts, and LastFM component\n\nAdd new assets and refine UI/typography: add two woff2 fonts (Terminus and ibm_vga_8x16), remove old TTF. Register fonts in global.css and set --font-mono to Terminus.",
+      "tree": {
+        "sha": "a1c86570b6df1c5caa2435a418575c3b5d059791",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/a1c86570b6df1c5caa2435a418575c3b5d059791"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/1baf7624082a370f96b714bba6d5e68963310957",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/1baf7624082a370f96b714bba6d5e68963310957",
+    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/1baf7624082a370f96b714bba6d5e68963310957",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/1baf7624082a370f96b714bba6d5e68963310957/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f69986ddf306fbea5eb9f3fcfc72393a917ab8b0",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0",
+        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0"
+      }
+    ],
+    "stats": {
+      "total": 84,
+      "additions": 53,
+      "deletions": 31
+    },
+    "files": [
+      {
+        "sha": "728475bda3426140f604f44da5b155011979eedf",
+        "filename": "src/assets/fonts/Terminus.woff2",
+        "status": "added",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/1baf7624082a370f96b714bba6d5e68963310957/src%2Fassets%2Ffonts%2FTerminus.woff2",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/1baf7624082a370f96b714bba6d5e68963310957/src%2Fassets%2Ffonts%2FTerminus.woff2",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fassets%2Ffonts%2FTerminus.woff2?ref=1baf7624082a370f96b714bba6d5e68963310957"
+      },
+      {
+        "sha": "34af64c2d8f783cb75501cd8d425a97d5e302c1e",
+        "filename": "src/assets/fonts/ibm_vga_8x16.ttf",
+        "status": "removed",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0/src%2Fassets%2Ffonts%2Fibm_vga_8x16.ttf",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0/src%2Fassets%2Ffonts%2Fibm_vga_8x16.ttf",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fassets%2Ffonts%2Fibm_vga_8x16.ttf?ref=f69986ddf306fbea5eb9f3fcfc72393a917ab8b0"
+      },
+      {
+        "sha": "196aa2752f8c0d5c16e970dcef8c1a658a7470f4",
+        "filename": "src/assets/fonts/ibm_vga_8x16.woff2",
+        "status": "added",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/1baf7624082a370f96b714bba6d5e68963310957/src%2Fassets%2Ffonts%2Fibm_vga_8x16.woff2",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/1baf7624082a370f96b714bba6d5e68963310957/src%2Fassets%2Ffonts%2Fibm_vga_8x16.woff2",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fassets%2Ffonts%2Fibm_vga_8x16.woff2?ref=1baf7624082a370f96b714bba6d5e68963310957"
+      },
+      {
+        "sha": "b2ad51c8697466776c13707464335cce79ea3781",
+        "filename": "src/components/Scrobble.astro",
+        "status": "modified",
+        "additions": 25,
+        "deletions": 16,
+        "changes": 41,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/1baf7624082a370f96b714bba6d5e68963310957/src%2Fcomponents%2FScrobble.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/1baf7624082a370f96b714bba6d5e68963310957/src%2Fcomponents%2FScrobble.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2FScrobble.astro?ref=1baf7624082a370f96b714bba6d5e68963310957",
+        "patch": "@@ -10,11 +10,15 @@ const lastfm = await (\n ---\n \n <!-- TODO: Implement realtime ajax-->\n-<div\n-  class=`bg-green-500 py-px px-2 font-mono text-[12px] font-bold text-black ${lastfm.recenttracks.track[0]['@attr']?.nowplaying === 'true' ? '' : 'hidden'}`\n->\n-  NOW SCROBBLING\n+<div class=\"flex items-center justify-between\">\n+  <p class=\"text-lg font-bold tracking-widest\">> LAST_FM</p>\n+  <div\n+    class=`bg-green-500 px-3 py-px font-mono text-[12px] text-black ${lastfm.recenttracks.track[0]['@attr']?.nowplaying === 'true' ? '' : 'hidden'}`\n+  >\n+    LIVE\n+  </div>\n </div>\n+<hr class=\"border border-green-500/30\" />\n <a\n   class=\"flex cursor-pointer flex-col gap-5 md:flex-row\"\n   href={lastfm.recenttracks.track[0].url}\n@@ -33,31 +37,36 @@ const lastfm = await (\n     </div>\n   </div>\n   <div>\n-    <p class=\"mb-2 text-xl font-bold tracking-normal\">\n+    <p class=\"text-lg font-bold\">\n       {lastfm.recenttracks.track[0].name}\n     </p>\n-    <p class=\"font-mono text-xs text-green-700\">\n+    <p class=\"font-mono text-sm text-green-600\">\n       Artist: {lastfm.recenttracks.track[0].artist[\"#text\"]}\n     </p>\n-    <p class=\"font-mono text-xs text-green-700\">\n+    <p class=\"font-mono text-sm text-green-600\">\n       Album: {lastfm.recenttracks.track[0].album[\"#text\"]}\n     </p>\n   </div>\n </a>\n <div>\n-  <div class=\"flex items-center gap-2\">\n+  <div class=\"mb-2 flex items-center gap-2\">\n     <hr class=\"grow border border-dashed border-green-900\" />\n     <p class=\"text-center font-mono text-xs tracking-widest text-green-900\">\n       Recent Tracks\n     </p>\n     <hr class=\"grow border border-dashed border-green-900\" />\n   </div>\n-  {\n-    lastfm.recenttracks.track.slice(1).map((track: any) => (\n-      <div class=\"flex items-center justify-between\">\n-        <p class=\"text-green-600\">{track.name}</p>\n-        <p class=\"font-mono text-xs text-green-700\">{track.artist[\"#text\"]}</p>\n-      </div>\n-    ))\n-  }\n+  <div>\n+    {\n+      lastfm.recenttracks.track.slice(1).map((track: any) => (\n+        <a\n+          href={track.url}\n+          class=\"mb-1 flex gap-3 font-mono text-sm md:mb-0 md:flex md:justify-between\"\n+        >\n+          <p class=\"line-clamp-1 text-green-600\">{track.name}</p>\n+          <p class=\"text-green-800\">{track.artist[\"#text\"]}</p>\n+        </a>\n+      ))\n+    }\n+  </div>\n </div>"
+      },
+      {
+        "sha": "2d42c02502115e804ec4c69d16b7aeaea6a0e467",
+        "filename": "src/pages/404.astro",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/1baf7624082a370f96b714bba6d5e68963310957/src%2Fpages%2F404.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/1baf7624082a370f96b714bba6d5e68963310957/src%2Fpages%2F404.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2F404.astro?ref=1baf7624082a370f96b714bba6d5e68963310957",
+        "patch": "@@ -11,13 +11,13 @@ import Layout from \"../layouts/Layout.astro\";\n         > 404_ERROR\n       </p>\n       <div class=\"space-y-5 font-mono text-sm text-green-500/80\">\n-        <p class=\"font-bold md:max-w-2/3\">\n+        <p class=\"md:max-w-2/3\">\n           > <span class=\"text-red-500\">FATAL EXCEPTION:</span> The requested frequency\n           is receiving static. The page you are looking for might have been moved,\n           deleted, or never existed in this timeline.\n         </p>\n       </div>\n     </div>\n-    <p class=\"self-end font-mono text-sm opacity-50\">&copy; jrwnnnn_</p>\n+    <p class=\"self-end font-mono text-sm text-green-800\">&copy; jrwnnnn_</p>\n   </main>\n </Layout>"
+      },
+      {
+        "sha": "5c064a23f344ee9ca1a7cfc45f65b126bdddf14c",
+        "filename": "src/pages/index.astro",
+        "status": "modified",
+        "additions": 14,
+        "deletions": 10,
+        "changes": 24,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/1baf7624082a370f96b714bba6d5e68963310957/src%2Fpages%2Findex.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/1baf7624082a370f96b714bba6d5e68963310957/src%2Fpages%2Findex.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Findex.astro?ref=1baf7624082a370f96b714bba6d5e68963310957",
+        "patch": "@@ -16,8 +16,8 @@ const js = await (await fetch(\"https://pastebin.com/raw/f3mNJJkE\")).text();\n <Layout title=\"BOOT\">\n   <main class=\"flex flex-col space-y-8\">\n     <div class=\"mt-15 space-y-5 md:w-2/3\">\n-      <p class=\"text-5xl text-balance md:text-6xl\">Ni Howdy! It's Jerwin</p>\n-      <p class=\"text-md font-mono\">\n+      <p class=\"text-5xl text-balance md:text-6xl\">Hello! It's Jerwin</p>\n+      <p class=\"font-mono md:text-lg\">\n         I'm a student based in <strong>Manila, PH</strong>. I build things for\n         the <strong>web</strong>. My code is held together by duct tape and\n         prayers. I spend more time customizing my VS Code theme than actually\n@@ -26,8 +26,9 @@ const js = await (await fetch(\"https://pastebin.com/raw/f3mNJJkE\")).text();\n     </div>\n     <Container class=\"space-y-2\" onclick=\"location.href='blog?=latest'\">\n       <p class=\"text-lg font-bold tracking-widest\">> LATEST_TRANSMISSION</p>\n-      <div class=\"flex items-center font-mono text-sm\">\n-        <span class=\"mr-2 bg-green-500 px-1 text-xs font-bold text-black\"\n+      <div class=\"flex items-center text-sm\">\n+        <span\n+          class=\"mr-2 bg-green-500 px-1 font-mono text-xs font-bold text-black\"\n           >ENCRYPTED</span\n         >\n         <span\n@@ -48,19 +49,24 @@ const js = await (await fetch(\"https://pastebin.com/raw/f3mNJJkE\")).text();\n           );\n         </script>\n       </div>\n-      <p class=\"font-mono text-xs font-bold\">[ DATE RECIEVED: 2026-01-27 ]</p>\n+      <p class=\"font-mono text-xs text-green-700\">\n+        [ DATE RECIEVED: 2026-01-27 ]\n+      </p>\n     </Container>\n     <hr class=\"border-green-500\" />\n     <div class=\"space-y-5\">\n       <h3 class=\"text-xl font-bold tracking-widest\">> MAIN_MENU</h3>\n-      <div class=\"grid grid-cols-1 gap-6 md:grid-cols-2\">\n+      <div class=\"grid grid-cols-1 gap-6 md:grid-cols-2 font-mono\">\n         <Button\n           class=\"group py-3! text-left\"\n           onclick=\"location.href='projects'\"\n         >\n           <span class=\"mr-2 group-hover:animate-ping\">></span> [ DIR ] PROJECTS\n         </Button>\n-        <Button class=\"group py-3! text-left\" onclick=\"location.href='blog'\">\n+        <Button \n+          class=\"group py-3! text-left\" \n+          onclick=\"location.href='blog'\"\n+        >\n           <span class=\"mr-2 group-hover:animate-ping\">></span> [ LOG ] BLOGS\n         </Button>\n       </div>\n@@ -169,9 +175,7 @@ const js = await (await fetch(\"https://pastebin.com/raw/f3mNJJkE\")).text();\n         <CommitLog />\n         <!-- TODO: Add heat map -->\n       </Container>\n-      <Container class=\"break-inside-avoid space-y-4\">\n-        <p class=\"text-lg font-bold tracking-widest\">> LAST_FM</p>\n-        <hr class=\"border border-green-500/30\" />\n+      <Container class=\"break-inside-avoid space-y-5\">\n         <LastFM />\n       </Container>\n     </div>"
+      },
+      {
+        "sha": "d830d8e75acf52b64ff5025b1284384de9822bb1",
+        "filename": "src/pages/projects.astro",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/1baf7624082a370f96b714bba6d5e68963310957/src%2Fpages%2Fprojects.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/1baf7624082a370f96b714bba6d5e68963310957/src%2Fpages%2Fprojects.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Fprojects.astro?ref=1baf7624082a370f96b714bba6d5e68963310957",
+        "patch": "@@ -84,7 +84,7 @@ for (const repo of Object.values(repositories) as Record<string, number>[]) {\n                   />\n                 </svg>\n               </div>\n-              <p class=\"line-clamp-2 text-xs opacity-70\">\n+              <p class=\"line-clamp-2 text-xs opacity-70 font-mono\">\n                 {repo.description ?? \"No description available.\"}\n               </p>\n "
+      },
+      {
+        "sha": "8911d1e245db9657a3ef05fa66f67b3fe2fca4a7",
+        "filename": "src/styles/global.css",
+        "status": "modified",
+        "additions": 11,
+        "deletions": 2,
+        "changes": 13,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/1baf7624082a370f96b714bba6d5e68963310957/src%2Fstyles%2Fglobal.css",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/1baf7624082a370f96b714bba6d5e68963310957/src%2Fstyles%2Fglobal.css",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fstyles%2Fglobal.css?ref=1baf7624082a370f96b714bba6d5e68963310957",
+        "patch": "@@ -1,8 +1,17 @@\n @import \"tailwindcss\";\n \n @font-face {\n-  font-family: ibm;\n-  src: url(../assets/fonts/ibm_vga_8x16.ttf);\n+  font-family: 'ibm';\n+  src: url(../assets/fonts/ibm_vga_8x16.woff2) format('woff2');\n+}\n+\n+@font-face {\n+  font-family: 'Terminus';\n+  src: url(../assets/fonts/Terminus.woff2) format('woff2');\n+}\n+\n+@theme {\n+  --font-mono: 'Terminus';\n }\n \n body {"
+      }
+    ]
+  },
+  {
     "sha": "f69986ddf306fbea5eb9f3fcfc72393a917ab8b0",
     "node_id": "C_kwDORCOQn9oAKGY2OTk4NmRkZjMwNmZiZWE1ZWI5ZjNmY2ZjNzIzOTNhOTE3YWI4YjA",
     "commit": {
@@ -472,179 +654,6 @@
         "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/f56ebc78fb999c8761382f15e3489519a04a0749/src%2Fcomponents%2FScrobble.astro",
         "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2FScrobble.astro?ref=f56ebc78fb999c8761382f15e3489519a04a0749",
         "patch": "@@ -1,18 +1,12 @@\n ---\n-let lastfm;\n-try {\n-  lastfm = await (\n-    await fetch(\n-      `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=KeiCantRead&api_key=${process.env.LASTFM_API_KEY || import.meta.env.LASTFM_API_KEY}&format=json&limit=5`,\n-      {\n-        headers: { \"User-Agent\": \"Mozilla/5.0\" },\n-      },\n-    )\n-  ).json();\n-} catch (error) {\n-  console.error(error);\n-}\n-console.error(\"Test log stream error\");\n+const lastfm = await (\n+  await fetch(\n+    `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=KeiCantRead&api_key=${process.env.LASTFM_API_KEY || import.meta.env.LASTFM_API_KEY}&format=json&limit=5`,\n+    {\n+      headers: { \"User-Agent\": \"Mozilla/5.0\" },\n+    },\n+  )\n+).json();\n ---\n \n <!-- TODO: Implement realtime ajax-->\n@@ -21,12 +15,16 @@ console.error(\"Test log stream error\");\n >\n   NOW SCROBBLING\n </div>\n-<a class=\"flex flex-col md:flex-row cursor-pointer gap-5\" href={lastfm.recenttracks.track[0].url}>\n-  <div class=\"group relative md:w-30 w-full border border-green-500\">\n+<a\n+  class=\"flex cursor-pointer flex-col gap-5 md:flex-row\"\n+  href={lastfm.recenttracks.track[0].url}\n+  target=\"_blank\"\n+>\n+  <div class=\"group relative w-full border border-green-500 md:w-30\">\n     <img\n       src={lastfm.recenttracks.track[0].image[3][\"#text\"]}\n       alt={lastfm.recenttracks.track[0].album[\"#text\"]}\n-      class=\"h-full w-full object-cover brightness-90 contrast-125 grayscale transition group-hover:brightness-100 group-hover:contrast-100 group-hover:grayscale-0\"\n+      class=\"h-full w-full object-cover contrast-125 grayscale transition group-hover:contrast-100 group-hover:grayscale-0\"\n     />\n \n     <div"
-      }
-    ]
-  },
-  {
-    "sha": "0734c53571aa5c80561e758d012f2f5f4a18f987",
-    "node_id": "C_kwDORCOQn9oAKDA3MzRjNTM1NzFhYTVjODA1NjFlNzU4ZDAxMmYyZjVmNGExOGY5ODc",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-11T07:34:39Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-11T07:34:39Z"
-      },
-      "message": "Move icons to icons/stack and update refs\n\nReorganize SVG assets by moving several icons into new folders. Also update references.",
-      "tree": {
-        "sha": "7f3cf9fae5a217651bda2eada6647dd828f94334",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/7f3cf9fae5a217651bda2eada6647dd828f94334"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/0734c53571aa5c80561e758d012f2f5f4a18f987",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/0734c53571aa5c80561e758d012f2f5f4a18f987",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/0734c53571aa5c80561e758d012f2f5f4a18f987",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/0734c53571aa5c80561e758d012f2f5f4a18f987/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "fa5252ddce13072e08bc95ca559281f1c257214d",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/fa5252ddce13072e08bc95ca559281f1c257214d",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/fa5252ddce13072e08bc95ca559281f1c257214d"
-      }
-    ],
-    "stats": {
-      "total": 10,
-      "additions": 5,
-      "deletions": 5
-    },
-    "files": [
-      {
-        "sha": "926f0728642d8af1ba168aa7665c8628e215cb2f",
-        "filename": "public/icons/stack/astro.svg",
-        "status": "renamed",
-        "additions": 0,
-        "deletions": 0,
-        "changes": 0,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/0734c53571aa5c80561e758d012f2f5f4a18f987/public%2Ficons%2Fstack%2Fastro.svg",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/0734c53571aa5c80561e758d012f2f5f4a18f987/public%2Ficons%2Fstack%2Fastro.svg",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ficons%2Fstack%2Fastro.svg?ref=0734c53571aa5c80561e758d012f2f5f4a18f987",
-        "previous_filename": "public/icons/astro.svg"
-      },
-      {
-        "sha": "bfd226e5e3da7353525813cf54cf7592a6b3ccd4",
-        "filename": "public/icons/stack/javascript.svg",
-        "status": "renamed",
-        "additions": 0,
-        "deletions": 0,
-        "changes": 0,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/0734c53571aa5c80561e758d012f2f5f4a18f987/public%2Ficons%2Fstack%2Fjavascript.svg",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/0734c53571aa5c80561e758d012f2f5f4a18f987/public%2Ficons%2Fstack%2Fjavascript.svg",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ficons%2Fstack%2Fjavascript.svg?ref=0734c53571aa5c80561e758d012f2f5f4a18f987",
-        "previous_filename": "public/icons/javascript.svg"
-      },
-      {
-        "sha": "911c305d39cbdc64ac2c1c482ceebee867feb0e5",
-        "filename": "public/icons/stack/mariadb.svg",
-        "status": "renamed",
-        "additions": 0,
-        "deletions": 0,
-        "changes": 0,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/0734c53571aa5c80561e758d012f2f5f4a18f987/public%2Ficons%2Fstack%2Fmariadb.svg",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/0734c53571aa5c80561e758d012f2f5f4a18f987/public%2Ficons%2Fstack%2Fmariadb.svg",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ficons%2Fstack%2Fmariadb.svg?ref=0734c53571aa5c80561e758d012f2f5f4a18f987",
-        "previous_filename": "public/icons/mariadb.svg"
-      },
-      {
-        "sha": "8814d3f7dd4f37aa58cdc7126638a056d78362d7",
-        "filename": "public/icons/stack/php.svg",
-        "status": "renamed",
-        "additions": 0,
-        "deletions": 0,
-        "changes": 0,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/0734c53571aa5c80561e758d012f2f5f4a18f987/public%2Ficons%2Fstack%2Fphp.svg",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/0734c53571aa5c80561e758d012f2f5f4a18f987/public%2Ficons%2Fstack%2Fphp.svg",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ficons%2Fstack%2Fphp.svg?ref=0734c53571aa5c80561e758d012f2f5f4a18f987",
-        "previous_filename": "public/icons/php.svg"
-      },
-      {
-        "sha": "048c82da28ee56af7bb4b117325d8ad653729c35",
-        "filename": "public/icons/stack/react.svg",
-        "status": "renamed",
-        "additions": 0,
-        "deletions": 0,
-        "changes": 0,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/0734c53571aa5c80561e758d012f2f5f4a18f987/public%2Ficons%2Fstack%2Freact.svg",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/0734c53571aa5c80561e758d012f2f5f4a18f987/public%2Ficons%2Fstack%2Freact.svg",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ficons%2Fstack%2Freact.svg?ref=0734c53571aa5c80561e758d012f2f5f4a18f987",
-        "previous_filename": "public/icons/react.svg"
-      },
-      {
-        "sha": "1430168f14056278162a4adf6679be9c07aa9942",
-        "filename": "public/icons/stack/tailwindcss.svg",
-        "status": "renamed",
-        "additions": 0,
-        "deletions": 0,
-        "changes": 0,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/0734c53571aa5c80561e758d012f2f5f4a18f987/public%2Ficons%2Fstack%2Ftailwindcss.svg",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/0734c53571aa5c80561e758d012f2f5f4a18f987/public%2Ficons%2Fstack%2Ftailwindcss.svg",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ficons%2Fstack%2Ftailwindcss.svg?ref=0734c53571aa5c80561e758d012f2f5f4a18f987",
-        "previous_filename": "public/icons/tailwindcss.svg"
-      },
-      {
-        "sha": "bb2fb855c9b30fd85b86c7818d52577f96fd4671",
-        "filename": "src/pages/index.astro",
-        "status": "modified",
-        "additions": 5,
-        "deletions": 5,
-        "changes": 10,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/0734c53571aa5c80561e758d012f2f5f4a18f987/src%2Fpages%2Findex.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/0734c53571aa5c80561e758d012f2f5f4a18f987/src%2Fpages%2Findex.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Findex.astro?ref=0734c53571aa5c80561e758d012f2f5f4a18f987",
-        "patch": "@@ -77,7 +77,7 @@ const js = await (await fetch(\"https://pastebin.com/raw/f3mNJJkE\")).text();\n           <div class=\"flex flex-col items-center gap-2\">\n             <img\n               class=\"h-10 w-10 object-contain\"\n-              src=\"icons/javascript.svg\"\n+              src=\"icons/stack/javascript.svg\"\n               loading=\"lazy\"\n               alt=\"JavaScript\"\n             />\n@@ -86,7 +86,7 @@ const js = await (await fetch(\"https://pastebin.com/raw/f3mNJJkE\")).text();\n           <div class=\"flex flex-col items-center gap-2\">\n             <img\n               class=\"h-10 w-10 object-contain\"\n-              src=\"icons/astro.svg\"\n+              src=\"icons/stack/astro.svg\"\n               loading=\"lazy\"\n               alt=\"Astro\"\n             />\n@@ -95,7 +95,7 @@ const js = await (await fetch(\"https://pastebin.com/raw/f3mNJJkE\")).text();\n           <div class=\"flex flex-col items-center gap-2\">\n             <img\n               class=\"h-10 w-10 object-contain\"\n-              src=\"icons/php.svg\"\n+              src=\"icons/stack/php.svg\"\n               loading=\"lazy\"\n               alt=\"PHP\"\n             />\n@@ -104,7 +104,7 @@ const js = await (await fetch(\"https://pastebin.com/raw/f3mNJJkE\")).text();\n           <div class=\"flex flex-col items-center gap-2\">\n             <img\n               class=\"h-10 w-10 object-contain\"\n-              src=\"icons/react.svg\"\n+              src=\"icons/stack/react.svg\"\n               loading=\"lazy\"\n               alt=\"React\"\n             />\n@@ -113,7 +113,7 @@ const js = await (await fetch(\"https://pastebin.com/raw/f3mNJJkE\")).text();\n           <div class=\"flex flex-col items-center gap-2\">\n             <img\n               class=\"h-10 w-10 object-contain\"\n-              src=\"icons/tailwindcss.svg\"\n+              src=\"icons/stack/tailwindcss.svg\"\n               loading=\"lazy\"\n               alt=\"Tailwind CSS\"\n             />"
       }
     ]
   }
