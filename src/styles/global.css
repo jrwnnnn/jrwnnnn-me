@@ -1,8 +1,17 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: ibm;
-  src: url(../assets/fonts/ibm_vga_8x16.ttf);
+  font-family: 'ibm';
+  src: url(../assets/fonts/ibm_vga_8x16.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Terminus';
+  src: url(../assets/fonts/Terminus.woff2) format('woff2');
+}
+
+@theme {
+  --font-mono: 'Terminus';
 }
 
 body {
