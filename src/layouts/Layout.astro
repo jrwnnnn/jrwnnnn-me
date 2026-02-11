@@ -8,8 +8,24 @@ interface Props {
 
 import "../styles/global.css";
 const { title, description = "Default Description", statusBar = true, footer = true} = Astro.props;
-
 const latestCommit = await(await fetch('https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/jrwnnnn-me-commits.json')).json();
+const socials = [
+  {
+    icon: "icons/socials/github.svg",
+    href: "https://github.com/jrwnnnn",
+	name: "Github",
+  },
+  {
+    icon: "icons/socials/gmail.svg",
+    href: "mailto:no_email_yet@gmail.com",
+	name: "Email"
+  },
+  {
+    icon: "icons/socials/instagram.svg",
+    href: "https://instagram.com/jrwnnn_",
+	name: "Instagram"
+  },
+];
 ---
 
 <!DOCTYPE html>
@@ -80,34 +96,18 @@ const latestCommit = await(await fetch('https://raw.githubusercontent.com/jrwnnn
 			</div>
 
 			<div class="flex items-center space-x-5">
-				<a href="https://github.com/jrwnnnn" target="_blank" class="cursor-pointer">
-				<img
-					class="h-5 object-contain"
-					src="icons/socials/github.svg"
-					loading="lazy"
-					alt="GitHub Icon"
-				/>
-				</a>
-				<a
-				href="mailto:im_not_adding_my_email_here_yet@gmail.com"
-				target="_blank"
-				class="cursor-pointer"
-				>
-				<img
-					class="h-5 object-contain"
-					src="icons/socials/gmail.svg"
-					loading="lazy"
-					alt="Gmail Icon"
-				/>
-				</a>
-				<a href="https://instagram.com/jrwnnn_" target="_blank" class="cursor-pointer">
-				<img
-					class="h-5 object-contain"
-					src="icons/socials/instagram.svg"
-					loading="lazy"
-					alt="Instagram Icon"
-				/>
-				</a>
+				{
+					socials.map((social) => (
+						<a href={social.href} target="_blank" class="cursor-pointer">
+							<img
+								class="h-5 object-contain"
+								src={social.icon}
+								loading="lazy"
+								alt=`${social.name} Icon`
+							/>
+						</a>
+					))
+				}
 			</div>
 			</footer>
 		: null 
