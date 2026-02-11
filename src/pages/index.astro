@@ -3,6 +3,7 @@ import Layout from "../layouts/Layout.astro";
 import Container from "../components/Container.astro";
 import Button from "../components/Button.astro";
 import CommitLog from "../components/static/CommitLog.astro";
+import Heatmap from "../components/static/Heatmap.astro";
 import LastFM from "../components/static/Scrobble.astro";
 import Ascii from "../components/AsciiContainer.astro";
 
@@ -142,7 +143,7 @@ const stack = [
         <p class="text-lg font-bold tracking-widest">> COMMIT_LOG</p>
         <hr class="border border-green-500/30" />
         <CommitLog />
-        <!-- TODO: Add heat map -->
+          <Heatmap />
       </Container>
       <Container class="break-inside-avoid space-y-5">
         <LastFM />

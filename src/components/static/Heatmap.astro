@@ -1,0 +1,68 @@
+---
+const response = await fetch("https://api.github.com/graphql", {
+	method: "POST",
+	headers: {
+		Authorization: `Bearer ${process.env.GITHUB_TOKEN || import.meta.env.GITHUB_TOKEN}`,
+		"Content-Type": "application/json",
+	},
+	body: JSON.stringify({
+		query: `
+      query($userName:String!) {
+        user(login: $userName) {
+          contributionsCollection {
+            contributionCalendar {
+              totalContributions
+              weeks {
+                contributionDays {
+                  contributionCount
+                  date
+                  color
+                }
+              }
+            }
+          }
+        }
+      }
+    `,
+		variables: { userName: "jrwnnnn" },
+	}),
+});
+
+const json = await response.json();
+const calendar = json.data?.user?.contributionsCollection?.contributionCalendar;
+
+function getColor(count: number) {
+	if (count === 0) return "bg-black";
+	if (count <= 3) return "bg-green-500/20";
+	if (count <= 6) return "bg-green-500/50";
+	if (count <= 9) return "bg-green-500";
+	return "bg-green-500";
+}
+---
+
+<!-- TODO: Fix scroll wheel styling on Mozilla -->
+<div
+	id="heatmap"
+	class="w-full overflow-x-auto pb-2 [&::-webkit-scrollbar]:h-1 [&::-webkit-scrollbar-thumb]:bg-transparent hover:[&::-webkit-scrollbar-thumb]:bg-green-600"
+>
+	<div class="flex gap-1">
+		{
+			calendar?.weeks.map((week: any) => (
+				<div class="flex flex-col gap-1">
+					{week.contributionDays.map((day: any) => (
+						<div
+							class={`h-3 w-3 ring-1 ring-green-500/10 transition-opacity ring-inset hover:opacity-80 ${getColor(day.contributionCount)}`}
+							title={`${day.contributionCount} contributions on ${day.date}`}
+						/>
+					))}
+				</div>
+			))
+		}
+	</div>
+</div>
+<script>
+	const container = document.getElementById("heatmap");
+	if (container) {
+		container.scrollLeft = container.scrollWidth;
+	}
+</script>
