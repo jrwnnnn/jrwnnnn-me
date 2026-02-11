@@ -1,0 +1,109 @@
+---
+const languages = (await (
+	await fetch(
+		"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/languages.json",
+	)
+).json()) as Record<string, Record<string, number>>;
+
+let stack: Record<string, number> = {};
+let total = 0;
+for (const lang of Object.values(languages)) {
+	for (const [key, value] of Object.entries(lang)) {
+		stack[key] = (stack[key] || 0) + value;
+		total += value;
+	}
+}
+for (const lang in stack) {
+	stack[lang] = (stack[lang] / total) * 100;
+}
+
+const stackIcons = [
+	{
+		icon: "icons/stack/javascript.svg",
+		name: "JavaScript",
+	},
+	{
+		icon: "icons/stack/astro.svg",
+		name: "Astro",
+	},
+	{
+		icon: "icons/stack/php.svg",
+		name: "PHP",
+	},
+	{
+		icon: "icons/stack/react.svg",
+		name: "React",
+	},
+	{
+		icon: "icons/stack/tailwindcss.svg",
+		name: "Tailwind CSS",
+	},
+];
+---
+
+<div class="grid grid-cols-3 place-items-center gap-4 md:grid-cols-5">
+	{
+		stackIcons.map((language) => (
+			<div class="flex flex-col items-center gap-2">
+				<img
+					class="h-10 w-10 object-contain"
+					src={language.icon}
+					loading="lazy"
+					alt={language.name}
+				/>
+				<p class="font-mono text-xs font-bold">{language.name}</p>
+			</div>
+		))
+	}
+</div>
+<script is:inline src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script is:inline define:vars={{ stack }}>
+	const ctx = document.getElementById("stackradar");
+	const chartLabels = Object.keys(stack);
+	const chartData = Object.values(stack);
+	new Chart(ctx, {
+		type: "radar",
+		data: {
+			labels: chartLabels,
+			datasets: [
+				{
+					data: chartData,
+					backgroundColor: "rgba(0, 201, 80, 0.2)",
+					borderColor: "#00C950",
+					borderWidth: 2,
+					pointBackgroundColor: "#00C950",
+					pointBorderColor: "#00C950",
+				},
+			],
+		},
+		options: {
+			responsive: true,
+			maintainAspectRatio: true,
+			scales: {
+				r: {
+					angleLines: { color: "#00C95050" },
+					grid: { color: "#00C95030" },
+					pointLabels: {
+						color: "#00C950",
+						font: { family: "Terminus", size: 12, weight: "bold" },
+					},
+					ticks: { display: false },
+				},
+			},
+			plugins: {
+				legend: { display: false },
+				tooltip: {
+					enabled: true,
+					backgroundColor: "#000000",
+					borderColor: "#00C95050",
+					borderWidth: 1,
+					titleColor: "#00C950",
+					titleFont: { family: "Terminus", size: 14},
+					bodyColor: "#00C950",
+					bodyFont: { family: "Terminus", size: 14},
+					displayColors: false,
+				},
+			},
+		},
+	});
+</script>
