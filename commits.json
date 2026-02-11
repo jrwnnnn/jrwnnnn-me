@@ -1,24 +1,24 @@
 [
   {
-    "sha": "13efc4f4ab0cfc24fe20c099b7ad82acecc0b70c",
-    "node_id": "C_kwDORCOQn9oAKDEzZWZjNGY0YWIwY2ZjMjRmZTIwYzA5OWI3YWQ4MmFjZWNjMGI3MGM",
+    "sha": "f69986ddf306fbea5eb9f3fcfc72393a917ab8b0",
+    "node_id": "C_kwDORCOQn9oAKGY2OTk4NmRkZjMwNmZiZWE1ZWI5ZjNmY2ZjNzIzOTNhOTE3YWI4YjA",
     "commit": {
       "author": {
         "name": "Mark Jerwin",
         "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-11T07:16:48Z"
+        "date": "2026-02-11T07:40:44Z"
       },
       "committer": {
         "name": "Mark Jerwin",
         "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-11T07:16:48Z"
+        "date": "2026-02-11T07:40:44Z"
       },
-      "message": "Add jrwnnnn-me-commits.json to git add\n\nUpdate the GitHub Actions workflow to stage the generated jrwnnnn-me-commits.json file before committing and pushing. Also fix the step indentation.",
+      "message": "Redesigned footer\n\nThe layout now fetches the latest commit JSON from the repo and displays a linked short SHA with a commit icon, plus social links and updated footer styling. Small props destructuring whitespace was also adjusted.",
       "tree": {
-        "sha": "c2628c7e60d9a9081b272c0bf7884e916d97358e",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/c2628c7e60d9a9081b272c0bf7884e916d97358e"
+        "sha": "546a9c228a1bb97172c5b1f4660f8fcba2b3cb78",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/546a9c228a1bb97172c5b1f4660f8fcba2b3cb78"
       },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/13efc4f4ab0cfc24fe20c099b7ad82acecc0b70c",
+      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0",
       "comment_count": 0,
       "verification": {
         "verified": false,
@@ -28,9 +28,9 @@
         "verified_at": null
       }
     },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/13efc4f4ab0cfc24fe20c099b7ad82acecc0b70c",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/13efc4f4ab0cfc24fe20c099b7ad82acecc0b70c",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/13efc4f4ab0cfc24fe20c099b7ad82acecc0b70c/comments",
+    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0",
+    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0/comments",
     "author": {
       "login": "jrwnnnn",
       "id": 136870415,
@@ -75,354 +75,99 @@
     },
     "parents": [
       {
-        "sha": "e17a120006b45724866ea6908bdc20141a83ed61",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/e17a120006b45724866ea6908bdc20141a83ed61",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/e17a120006b45724866ea6908bdc20141a83ed61"
+        "sha": "dcdca4f99c794b31348a4dc4b9f3f31c079f7e8f",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/dcdca4f99c794b31348a4dc4b9f3f31c079f7e8f",
+        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/dcdca4f99c794b31348a4dc4b9f3f31c079f7e8f"
       }
     ],
     "stats": {
-      "total": 4,
-      "additions": 2,
-      "deletions": 2
-    },
-    "files": [
-      {
-        "sha": "517edd72039b720ce9c8fe6a6f3c6cf581516124",
-        "filename": ".github/workflows/basic_chron.yml",
-        "status": "modified",
-        "additions": 2,
-        "deletions": 2,
-        "changes": 4,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/13efc4f4ab0cfc24fe20c099b7ad82acecc0b70c/.github%2Fworkflows%2Fbasic_chron.yml",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/13efc4f4ab0cfc24fe20c099b7ad82acecc0b70c/.github%2Fworkflows%2Fbasic_chron.yml",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/.github%2Fworkflows%2Fbasic_chron.yml?ref=13efc4f4ab0cfc24fe20c099b7ad82acecc0b70c",
-        "patch": "@@ -42,7 +42,7 @@ jobs:\n \n             fs.writeFileSync('commits.json', JSON.stringify(commits, null, 2));\n       \n-    - name: Fetch jrwnnnn/jrwnnnn-me Commits\n+      - name: Fetch jrwnnnn/jrwnnnn-me Commits\n         run: |\n           curl -s -H \"Authorization: token ${{ secrets.GITHUB_TOKEN }}\" \\\n           -H \"User-Agent: REST-API-Bot\" \\\n@@ -52,7 +52,7 @@ jobs:\n         run: |\n           git config --global user.name \"GitHub Actions\"\n           git config --global user.email \"actions@github.com\"\n-          git add profile.json repositories.json commits.json\n+          git add profile.json repositories.json commits.json jrwnnnn-me-commits.json\n           if [[ -n $(git status -s) ]]; then\n             git commit -m \"Update data [skip deploy]\"\n             git push origin data"
-      }
-    ]
-  },
-  {
-    "sha": "e17a120006b45724866ea6908bdc20141a83ed61",
-    "node_id": "C_kwDORCOQn9oAKGUxN2ExMjAwMDZiNDU3MjQ4NjZlYTY5MDhiZGMyMDE0MWE4M2VkNjE",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-11T07:14:24Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-11T07:14:24Z"
-      },
-      "message": "Add step to fetch jrwnnnn/jrwnnnn-me commits [skip deploy]\n\nInsert a workflow step to retrieve commits from the jrwnnnn/jrwnnnn-me repository and write them to jrwnnnn-me-commits.json.",
-      "tree": {
-        "sha": "2a4622176a0e158e252958cdc0c7364cec026400",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/2a4622176a0e158e252958cdc0c7364cec026400"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/e17a120006b45724866ea6908bdc20141a83ed61",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/e17a120006b45724866ea6908bdc20141a83ed61",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/e17a120006b45724866ea6908bdc20141a83ed61",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/e17a120006b45724866ea6908bdc20141a83ed61/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "4bef96ac21ffc3d002370f42d5da981bfdf15078",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/4bef96ac21ffc3d002370f42d5da981bfdf15078",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/4bef96ac21ffc3d002370f42d5da981bfdf15078"
-      }
-    ],
-    "stats": {
-      "total": 6,
-      "additions": 6,
-      "deletions": 0
-    },
-    "files": [
-      {
-        "sha": "1b889add6897bb216571e6a884f4b7ff31f3eae5",
-        "filename": ".github/workflows/basic_chron.yml",
-        "status": "modified",
-        "additions": 6,
-        "deletions": 0,
-        "changes": 6,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/e17a120006b45724866ea6908bdc20141a83ed61/.github%2Fworkflows%2Fbasic_chron.yml",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/e17a120006b45724866ea6908bdc20141a83ed61/.github%2Fworkflows%2Fbasic_chron.yml",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/.github%2Fworkflows%2Fbasic_chron.yml?ref=e17a120006b45724866ea6908bdc20141a83ed61",
-        "patch": "@@ -41,6 +41,12 @@ jobs:\n             }));\n \n             fs.writeFileSync('commits.json', JSON.stringify(commits, null, 2));\n+      \n+    - name: Fetch jrwnnnn/jrwnnnn-me Commits\n+        run: |\n+          curl -s -H \"Authorization: token ${{ secrets.GITHUB_TOKEN }}\" \\\n+          -H \"User-Agent: REST-API-Bot\" \\\n+          \"https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits\" > jrwnnnn-me-commits.json\n \n       - name: Commit and Push\n         run: |"
-      }
-    ]
-  },
-  {
-    "sha": "4bef96ac21ffc3d002370f42d5da981bfdf15078",
-    "node_id": "C_kwDORCOQn9oAKDRiZWY5NmFjMjFmZmMzZDAwMjM3MGY0MmQ1ZGE5ODFiZmRmMTUwNzg",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-10T15:24:09Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-10T15:24:09Z"
-      },
-      "message": "Responsive layout tweaks\n\nThe anchor now uses flex-col on small screens and md:flex-row on medium+, and the image container switches to full width on mobile (md:w-30 on larger screens). No functional behavior changes.",
-      "tree": {
-        "sha": "721c564941165c4e4fa3554cf99a4512dfe051c7",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/721c564941165c4e4fa3554cf99a4512dfe051c7"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/4bef96ac21ffc3d002370f42d5da981bfdf15078",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/4bef96ac21ffc3d002370f42d5da981bfdf15078",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/4bef96ac21ffc3d002370f42d5da981bfdf15078",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/4bef96ac21ffc3d002370f42d5da981bfdf15078/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "ea5be9a49cec23de13d0c10463798ee225b4dee8",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/ea5be9a49cec23de13d0c10463798ee225b4dee8",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/ea5be9a49cec23de13d0c10463798ee225b4dee8"
-      }
-    ],
-    "stats": {
-      "total": 5,
-      "additions": 3,
-      "deletions": 2
-    },
-    "files": [
-      {
-        "sha": "9deeb2db8a45045d17f31241585a39fffbe989a6",
-        "filename": "src/components/Scrobble.astro",
-        "status": "modified",
-        "additions": 3,
-        "deletions": 2,
-        "changes": 5,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/4bef96ac21ffc3d002370f42d5da981bfdf15078/src%2Fcomponents%2FScrobble.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/4bef96ac21ffc3d002370f42d5da981bfdf15078/src%2Fcomponents%2FScrobble.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2FScrobble.astro?ref=4bef96ac21ffc3d002370f42d5da981bfdf15078",
-        "patch": "@@ -12,6 +12,7 @@ try {\n } catch (error) {\n   console.error(error);\n }\n+console.error(\"Test log stream error\");\n ---\n \n <!-- TODO: Implement realtime ajax-->\n@@ -20,8 +21,8 @@ try {\n >\n   NOW SCROBBLING\n </div>\n-<a class=\"flex cursor-pointer gap-5\" href={lastfm.recenttracks.track[0].url}>\n-  <div class=\"group relative w-30 border border-green-500\">\n+<a class=\"flex flex-col md:flex-row cursor-pointer gap-5\" href={lastfm.recenttracks.track[0].url}>\n+  <div class=\"group relative md:w-30 w-full border border-green-500\">\n     <img\n       src={lastfm.recenttracks.track[0].image[3][\"#text\"]}\n       alt={lastfm.recenttracks.track[0].album[\"#text\"]}"
-      }
-    ]
-  },
-  {
-    "sha": "ea5be9a49cec23de13d0c10463798ee225b4dee8",
-    "node_id": "C_kwDORCOQn9oAKGVhNWJlOWE0OWNlYzIzZGUxM2QwYzEwNDYzNzk4ZWUyMjViNGRlZTg",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-10T15:14:50Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-10T15:14:50Z"
-      },
-      "message": "Fetch Last.fm scrobbles using env and UA header\n\nSupport process.env.LASTFM_API_KEY (with fallback to import.meta.env) and add a User-Agent header to the Last.fm fetch.",
-      "tree": {
-        "sha": "323f4446ec7729a43fe1aefd250fe4b56a5b0674",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/323f4446ec7729a43fe1aefd250fe4b56a5b0674"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/ea5be9a49cec23de13d0c10463798ee225b4dee8",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/ea5be9a49cec23de13d0c10463798ee225b4dee8",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/ea5be9a49cec23de13d0c10463798ee225b4dee8",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/ea5be9a49cec23de13d0c10463798ee225b4dee8/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "4c82fe915609fc104ee373cbf5382fa375a044b9",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/4c82fe915609fc104ee373cbf5382fa375a044b9",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/4c82fe915609fc104ee373cbf5382fa375a044b9"
-      }
-    ],
-    "stats": {
-      "total": 14,
-      "additions": 9,
+      "total": 66,
+      "additions": 61,
       "deletions": 5
     },
     "files": [
       {
-        "sha": "fc88a3fd80223771e0d2ba7e0bb237d941eac45d",
-        "filename": "src/components/Scrobble.astro",
+        "sha": "52cc6e7b4ffe9b9b92f67bd3dd9c3f4a031f011e",
+        "filename": "public/icons/git-commit.svg",
+        "status": "added",
+        "additions": 4,
+        "deletions": 0,
+        "changes": 4,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0/public%2Ficons%2Fgit-commit.svg",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0/public%2Ficons%2Fgit-commit.svg",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ficons%2Fgit-commit.svg?ref=f69986ddf306fbea5eb9f3fcfc72393a917ab8b0",
+        "patch": "@@ -0,0 +1,4 @@\n+<?xml version=\"1.0\" encoding=\"utf-8\"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->\n+<svg fill=\"#00C950\" width=\"800px\" height=\"800px\" viewBox=\"0 0 256 256\" id=\"Flat\" xmlns=\"http://www.w3.org/2000/svg\">\n+  <path d=\"M244.00293,116H190.8584a63.98856,63.98856,0,0,0-125.71094,0H12.00293a12,12,0,1,0,0,24H65.14746a63.98856,63.98856,0,0,0,125.71094,0h53.14453a12,12,0,0,0,0-24Zm-116,52a40,40,0,1,1,40-40A40.04552,40.04552,0,0,1,128.00293,168Z\"/>\n+</svg>\n\\ No newline at end of file"
+      },
+      {
+        "sha": "79cf0c076516491f1ae4e1d0b11c53e5fe8a9f7f",
+        "filename": "public/icons/socials/github.svg",
+        "status": "added",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0/public%2Ficons%2Fsocials%2Fgithub.svg",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0/public%2Ficons%2Fsocials%2Fgithub.svg",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ficons%2Fsocials%2Fgithub.svg?ref=f69986ddf306fbea5eb9f3fcfc72393a917ab8b0",
+        "patch": "@@ -0,0 +1 @@\n+<svg fill=\"#00C950\" role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><title>GitHub</title><path d=\"M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12\"/></svg>\n\\ No newline at end of file"
+      },
+      {
+        "sha": "211675f0cf87095fdbdd6ee55b51b271722056ec",
+        "filename": "public/icons/socials/gmail.svg",
+        "status": "added",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0/public%2Ficons%2Fsocials%2Fgmail.svg",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0/public%2Ficons%2Fsocials%2Fgmail.svg",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ficons%2Fsocials%2Fgmail.svg?ref=f69986ddf306fbea5eb9f3fcfc72393a917ab8b0",
+        "patch": "@@ -0,0 +1 @@\n+<svg fill=\"#00C950\" role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><title>Gmail</title><path d=\"M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z\"/></svg>\n\\ No newline at end of file"
+      },
+      {
+        "sha": "2f258d0b087390664d3dfd3c5799bf221cc57369",
+        "filename": "public/icons/socials/instagram.svg",
+        "status": "added",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0/public%2Ficons%2Fsocials%2Finstagram.svg",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0/public%2Ficons%2Fsocials%2Finstagram.svg",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ficons%2Fsocials%2Finstagram.svg?ref=f69986ddf306fbea5eb9f3fcfc72393a917ab8b0",
+        "patch": "@@ -0,0 +1 @@\n+<svg fill=\"#00C950\" role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><title>Instagram</title><path d=\"M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077\"/></svg>\n\\ No newline at end of file"
+      },
+      {
+        "sha": "0275417691891a45ccab2a804b134f04e03e38c6",
+        "filename": "src/layouts/Layout.astro",
         "status": "modified",
-        "additions": 9,
+        "additions": 54,
         "deletions": 5,
-        "changes": 14,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/ea5be9a49cec23de13d0c10463798ee225b4dee8/src%2Fcomponents%2FScrobble.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/ea5be9a49cec23de13d0c10463798ee225b4dee8/src%2Fcomponents%2FScrobble.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2FScrobble.astro?ref=ea5be9a49cec23de13d0c10463798ee225b4dee8",
-        "patch": "@@ -1,12 +1,16 @@\n ---\n let lastfm;\n try {\n-  const response = await fetch(\n-    `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=KeiCantRead&api_key=${import.meta.env.LASTFM_API_KEY}&format=json&limit=5`,\n-  );\n-  lastfm = await response.json();\n+  lastfm = await (\n+    await fetch(\n+      `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=KeiCantRead&api_key=${process.env.LASTFM_API_KEY || import.meta.env.LASTFM_API_KEY}&format=json&limit=5`,\n+      {\n+        headers: { \"User-Agent\": \"Mozilla/5.0\" },\n+      },\n+    )\n+  ).json();\n } catch (error) {\n-  console.log(error);\n+  console.error(error);\n }\n ---\n "
+        "changes": 59,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0/src%2Flayouts%2FLayout.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/f69986ddf306fbea5eb9f3fcfc72393a917ab8b0/src%2Flayouts%2FLayout.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Flayouts%2FLayout.astro?ref=f69986ddf306fbea5eb9f3fcfc72393a917ab8b0",
+        "patch": "@@ -7,7 +7,9 @@ interface Props {\n }\n \n import \"../styles/global.css\";\n-const { title, description = \"Default Description\", statusBar = true, footer = true } = Astro.props;\n+const { title, description = \"Default Description\", statusBar = true, footer = true} = Astro.props;\n+\n+const latestCommit = await(await fetch('https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/jrwnnnn-me-commits.json')).json();\n ---\n \n <!DOCTYPE html>\n@@ -55,11 +57,58 @@ const { title, description = \"Default Description\", statusBar = true, footer = t\n \t\t\t});\n \t\t</script>\n \n-\t\t<!-- TODO: Re-design footer -->\n \t\t{footer ?\n-\t\t\t<footer class=\"mt-20 mb-10 text-center text-green-500\">\n-\t\t\t\t<p>--- END OF LINE ---</p>\n-\t\t\t\t<p>&copy; 2026 JRWNNNN_</p>\n+\t\t\t<footer\n+\t\t\tclass=\"mt-20 flex items-center justify-between border-t border-green-900/30 bg-black px-5 py-8 text-xs md:px-30\"\n+\t\t\t>\n+\t\t\t<div class=\"flex flex-col space-x-5 md:flex-row\">\n+\t\t\t\t<p class=\"font-mono font-bold\">© 2026 Mark Jerwin</p>\n+\t\t\t\t<p class=\"hidden font-mono md:block\">-</p>\n+\t\t\t\t<a \n+\t\t\t\t\tclass=\"flex items-center gap-2 opacity-75 cursor-pointer hover:underline\" \n+\t\t\t\t\thref={latestCommit[0].html_url} \n+\t\t\t\t\ttarget=\"_blank\"\n+\t\t\t\t>\n+\t\t\t\t\t<img\n+\t\t\t\t\t\tclass=\"h-4 object-contain\"\n+\t\t\t\t\t\tsrc=\"icons/git-commit.svg\"\n+\t\t\t\t\t\tloading=\"lazy\"\n+\t\t\t\t\t\talt=\"Git Commit\"\n+\t\t\t\t\t/>\n+\t\t\t\t\t<p class=\"mt-0.5 font-mono\">{latestCommit[0].sha.slice(0, 7)}</p>\n+\t\t\t\t</a>\n+\t\t\t</div>\n+\n+\t\t\t<div class=\"flex items-center space-x-5\">\n+\t\t\t\t<a href=\"https://github.com/jrwnnnn\" target=\"_blank\" class=\"cursor-pointer\">\n+\t\t\t\t<img\n+\t\t\t\t\tclass=\"h-5 object-contain\"\n+\t\t\t\t\tsrc=\"icons/socials/github.svg\"\n+\t\t\t\t\tloading=\"lazy\"\n+\t\t\t\t\talt=\"GitHub Icon\"\n+\t\t\t\t/>\n+\t\t\t\t</a>\n+\t\t\t\t<a\n+\t\t\t\thref=\"mailto:im_not_adding_my_email_here_yet@gmail.com\"\n+\t\t\t\ttarget=\"_blank\"\n+\t\t\t\tclass=\"cursor-pointer\"\n+\t\t\t\t>\n+\t\t\t\t<img\n+\t\t\t\t\tclass=\"h-5 object-contain\"\n+\t\t\t\t\tsrc=\"icons/socials/gmail.svg\"\n+\t\t\t\t\tloading=\"lazy\"\n+\t\t\t\t\talt=\"Gmail Icon\"\n+\t\t\t\t/>\n+\t\t\t\t</a>\n+\t\t\t\t<a href=\"https://instagram.com/jrwnnn_\" target=\"_blank\" class=\"cursor-pointer\">\n+\t\t\t\t<img\n+\t\t\t\t\tclass=\"h-5 object-contain\"\n+\t\t\t\t\tsrc=\"icons/socials/instagram.svg\"\n+\t\t\t\t\tloading=\"lazy\"\n+\t\t\t\t\talt=\"Instagram Icon\"\n+\t\t\t\t/>\n+\t\t\t\t</a>\n+\t\t\t</div>\n \t\t\t</footer>\n \t\t: null \n \t\t}"
       }
     ]
   },
   {
-    "sha": "4c82fe915609fc104ee373cbf5382fa375a044b9",
-    "node_id": "C_kwDORCOQn9oAKDRjODJmZTkxNTYwOWZjMTA0ZWUzNzNjYmY1MzgyZmEzNzVhMDQ0Yjk",
+    "sha": "dcdca4f99c794b31348a4dc4b9f3f31c079f7e8f",
+    "node_id": "C_kwDORCOQn9oAKGRjZGNhNGY5OWM3OTRiMzEzNDhhNGRjNGI5ZjNmMzFjMDc5ZjdlOGY",
     "commit": {
       "author": {
         "name": "Mark Jerwin",
         "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-10T14:09:33Z"
+        "date": "2026-02-11T07:39:33Z"
       },
       "committer": {
         "name": "Mark Jerwin",
         "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-10T14:09:33Z"
+        "date": "2026-02-11T07:39:33Z"
       },
-      "message": "Add error handling for Last.fm fetch\n\nWrap the Last.fm API request in a try/catch and declare lastfm separately, so network or parse errors are caught and logged instead of throwing.",
+      "message": "Increase main horizontal padding to px-5\n\nChange the main selector's Tailwind @apply from px-4 to px-5 to slightly increase horizontal spacing. Responsive md:px-30 and other spacing remain unchanged.",
       "tree": {
-        "sha": "eca1cb281c7dab51a2e072e1cc8fb01749cf05ac",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/eca1cb281c7dab51a2e072e1cc8fb01749cf05ac"
+        "sha": "bf6a843a1f1ac385a9f8d0e90d786afec8875da5",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/bf6a843a1f1ac385a9f8d0e90d786afec8875da5"
       },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/4c82fe915609fc104ee373cbf5382fa375a044b9",
+      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/dcdca4f99c794b31348a4dc4b9f3f31c079f7e8f",
       "comment_count": 0,
       "verification": {
         "verified": false,
@@ -432,9 +177,9 @@
         "verified_at": null
       }
     },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/4c82fe915609fc104ee373cbf5382fa375a044b9",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/4c82fe915609fc104ee373cbf5382fa375a044b9",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/4c82fe915609fc104ee373cbf5382fa375a044b9/comments",
+    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/dcdca4f99c794b31348a4dc4b9f3f31c079f7e8f",
+    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/dcdca4f99c794b31348a4dc4b9f3f31c079f7e8f",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/dcdca4f99c794b31348a4dc4b9f3f31c079f7e8f/comments",
     "author": {
       "login": "jrwnnnn",
       "id": 136870415,
@@ -479,28 +224,427 @@
     },
     "parents": [
       {
-        "sha": "15c96e016bc9e86f8ec5f1bbb8b413c45151bdad",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/15c96e016bc9e86f8ec5f1bbb8b413c45151bdad",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/15c96e016bc9e86f8ec5f1bbb8b413c45151bdad"
+        "sha": "79740edf8f72e23e5e00b80f1fa976f629f41727",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/79740edf8f72e23e5e00b80f1fa976f629f41727",
+        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/79740edf8f72e23e5e00b80f1fa976f629f41727"
       }
     ],
     "stats": {
-      "total": 12,
-      "additions": 8,
-      "deletions": 4
+      "total": 2,
+      "additions": 1,
+      "deletions": 1
     },
     "files": [
       {
-        "sha": "bdeae58d84cb32907a9af4e569e0ab84037fb12a",
+        "sha": "a5361f23724232dd81c8c15e4bafcaea5199db59",
+        "filename": "src/styles/global.css",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/dcdca4f99c794b31348a4dc4b9f3f31c079f7e8f/src%2Fstyles%2Fglobal.css",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/dcdca4f99c794b31348a4dc4b9f3f31c079f7e8f/src%2Fstyles%2Fglobal.css",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fstyles%2Fglobal.css?ref=dcdca4f99c794b31348a4dc4b9f3f31c079f7e8f",
+        "patch": "@@ -33,7 +33,7 @@ body::before {\n }\n \n main {\n-  @apply grow px-4 py-20 md:px-30;\n+  @apply grow px-5 py-20 md:px-30;\n }\n \n @keyframes pop-in {"
+      }
+    ]
+  },
+  {
+    "sha": "79740edf8f72e23e5e00b80f1fa976f629f41727",
+    "node_id": "C_kwDORCOQn9oAKDc5NzQwZWRmOGY3MmUyM2U1ZTAwYjgwZjFmYTk3NmY2MjlmNDE3Mjc",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-02-11T07:36:36Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-02-11T07:36:36Z"
+      },
+      "message": "Add SVG favicons and reference in Layout.astro",
+      "tree": {
+        "sha": "d57099e458f683ba724a974fc868591b5b62fae5",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/d57099e458f683ba724a974fc868591b5b62fae5"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/79740edf8f72e23e5e00b80f1fa976f629f41727",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/79740edf8f72e23e5e00b80f1fa976f629f41727",
+    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/79740edf8f72e23e5e00b80f1fa976f629f41727",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/79740edf8f72e23e5e00b80f1fa976f629f41727/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f56ebc78fb999c8761382f15e3489519a04a0749",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/f56ebc78fb999c8761382f15e3489519a04a0749",
+        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/f56ebc78fb999c8761382f15e3489519a04a0749"
+      }
+    ],
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0
+    },
+    "files": [
+      {
+        "sha": "cfc6d7b4c6abc7d7ca4949057ec7ab072f03d7ed",
+        "filename": "public/favicon-wordmark.svg",
+        "status": "added",
+        "additions": 5,
+        "deletions": 0,
+        "changes": 5,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/79740edf8f72e23e5e00b80f1fa976f629f41727/public%2Ffavicon-wordmark.svg",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/79740edf8f72e23e5e00b80f1fa976f629f41727/public%2Ffavicon-wordmark.svg",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ffavicon-wordmark.svg?ref=79740edf8f72e23e5e00b80f1fa976f629f41727",
+        "patch": "@@ -0,0 +1,5 @@\n+<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\">\n+  <rect width=\"64\" height=\"64\" fill=\"#0C0C0C\"/>\n+  <path d=\"M42 16H22V24H28V40C28 42.2 26.2 44 24 44H20V52H24C30.6 52 36 46.6 36 40V24H42V16Z\" fill=\"#00FF41\"/>\n+  <rect x=\"44\" y=\"44\" width=\"10\" height=\"8\" fill=\"#00FF41\"/>\n+</svg>\n\\ No newline at end of file"
+      },
+      {
+        "sha": "72c776b4271b67c753a644f200ea9503f1eafb32",
+        "filename": "public/favicon.svg",
+        "status": "added",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/79740edf8f72e23e5e00b80f1fa976f629f41727/public%2Ffavicon.svg",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/79740edf8f72e23e5e00b80f1fa976f629f41727/public%2Ffavicon.svg",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ffavicon.svg?ref=79740edf8f72e23e5e00b80f1fa976f629f41727",
+        "patch": "@@ -0,0 +1 @@\n+<svg version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\"  width=\"600.000000pt\" height=\"600.000000pt\" viewBox=\"0 0 600.000000 600.000000\"  preserveAspectRatio=\"xMidYMid meet\"> <rect width=\"100%\" height=\"100%\" fill=\"#000000\"/> <g transform=\"translate(0.000000,600.000000) scale(0.100000,-0.100000)\" fill=\"#00C950\" stroke=\"none\"> <path d=\"M1345 5722 c-85 -48 -159 -99 -186 -128 -36 -39 -48 -81 -57 -204 -16 -209 12 -992 43 -1210 3 -19 21 -231 40 -470 20 -239 43 -500 51 -580 8 -80 19 -244 24 -365 5 -121 16 -254 24 -295 8 -41 20 -127 26 -190 6 -62 20 -166 31 -230 10 -63 28 -180 40 -260 35 -256 48 -323 79 -420 17 -52 44 -148 61 -213 24 -90 53 -162 121 -299 105 -214 139 -253 341 -392 154 -106 229 -141 407 -195 463 -138 773 -120 1157 69 253 123 396 229 482 354 47 68 96 177 156 351 67 192 89 275 110 420 93 643 112 729 235 1090 63 183 133 463 162 645 31 187 33 641 5 795 -58 310 -151 524 -336 771 -98 131 -134 164 -192 171 -86 12 -99 -38 -98 -382 1 -142 -4 -289 -10 -340 -28 -210 -104 -499 -187 -705 -51 -128 -179 -290 -286 -363 -85 -58 -155 -67 -450 -60 -172 4 -294 2 -400 -7 -199 -18 -384 -17 -473 3 -128 28 -157 38 -182 65 -14 15 -44 47 -68 72 -24 25 -58 70 -76 100 -57 99 -168 325 -189 385 -29 84 -116 423 -134 525 -8 47 -31 171 -50 275 -52 285 -85 571 -96 840 -10 247 -17 357 -26 388 -8 25 -41 21 -99 -11z m2512 -3962 c149 -64 219 -245 194 -499 -12 -128 -35 -200 -105 -335 -77 -149 -194 -261 -324 -309 -44 -16 -81 -21 -157 -22 -87 0 -106 3 -150 25 -60 30 -97 85 -121 180 -24 93 -15 341 16 460 67 260 232 462 420 515 71 19 161 14 227 -15z m-1673 -7 c111 -43 245 -166 317 -290 118 -204 146 -572 58 -764 -16 -35 -34 -54 -73 -77 -76 -47 -109 -55 -192 -50 -64 4 -89 12 -168 51 -128 64 -206 124 -256 196 -108 160 -182 437 -159 599 27 192 121 325 251 352 56 12 170 3 222 -17z\"/> </g> </svg>\n\\ No newline at end of file"
+      },
+      {
+        "sha": "6d3d5d4e5b0a5284ce072f06564232cf1cd613c8",
+        "filename": "src/layouts/Layout.astro",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/79740edf8f72e23e5e00b80f1fa976f629f41727/src%2Flayouts%2FLayout.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/79740edf8f72e23e5e00b80f1fa976f629f41727/src%2Flayouts%2FLayout.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Flayouts%2FLayout.astro?ref=79740edf8f72e23e5e00b80f1fa976f629f41727",
+        "patch": "@@ -15,6 +15,7 @@ const { title, description = \"Default Description\", statusBar = true, footer = t\n \t<head>\n \t\t<meta charset=\"UTF-8\" />\n \t\t<meta name=\"viewport\" content=\"width=device-width\" />\n+\t\t<link rel=\"icon\" type=\"image/x-icon\" href=\"/favicon.svg\">\n \t\t<!-- TODO: Favicon and Meta -->\n \t\t<title>Project jrwnnnn_ // {title}</title>\n \t</head>"
+      }
+    ]
+  },
+  {
+    "sha": "f56ebc78fb999c8761382f15e3489519a04a0749",
+    "node_id": "C_kwDORCOQn9oAKGY1NmViYzc4ZmI5OTljODc2MTM4MmYxNWUzNDg5NTE5YTA0YTA3NDk",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-02-11T07:35:56Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-02-11T07:35:56Z"
+      },
+      "message": "Refactor Scrobble.astro fetch and markup\n\nSimplify the Last.fm fetch by assigning the JSON response directly. The anchor and container classes were also reorganized.",
+      "tree": {
+        "sha": "fabe5f5061bea755a449c9e9e1576a05ef71518e",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/fabe5f5061bea755a449c9e9e1576a05ef71518e"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/f56ebc78fb999c8761382f15e3489519a04a0749",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/f56ebc78fb999c8761382f15e3489519a04a0749",
+    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/f56ebc78fb999c8761382f15e3489519a04a0749",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/f56ebc78fb999c8761382f15e3489519a04a0749/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0734c53571aa5c80561e758d012f2f5f4a18f987",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/0734c53571aa5c80561e758d012f2f5f4a18f987",
+        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/0734c53571aa5c80561e758d012f2f5f4a18f987"
+      }
+    ],
+    "stats": {
+      "total": 32,
+      "additions": 15,
+      "deletions": 17
+    },
+    "files": [
+      {
+        "sha": "2503ceeaba6f2297f930c8cc2ab3625502f496a8",
         "filename": "src/components/Scrobble.astro",
         "status": "modified",
-        "additions": 8,
-        "deletions": 4,
-        "changes": 12,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/4c82fe915609fc104ee373cbf5382fa375a044b9/src%2Fcomponents%2FScrobble.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/4c82fe915609fc104ee373cbf5382fa375a044b9/src%2Fcomponents%2FScrobble.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2FScrobble.astro?ref=4c82fe915609fc104ee373cbf5382fa375a044b9",
-        "patch": "@@ -1,9 +1,13 @@\n ---\n-const lastfm = await (\n-  await fetch(\n+let lastfm;\n+try {\n+  const response = await fetch(\n     `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=KeiCantRead&api_key=${import.meta.env.LASTFM_API_KEY}&format=json&limit=5`,\n-  )\n-).json();\n+  );\n+  lastfm = await response.json();\n+} catch (error) {\n+  console.log(error);\n+}\n ---\n \n <!-- TODO: Implement realtime ajax-->"
+        "additions": 15,
+        "deletions": 17,
+        "changes": 32,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/f56ebc78fb999c8761382f15e3489519a04a0749/src%2Fcomponents%2FScrobble.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/f56ebc78fb999c8761382f15e3489519a04a0749/src%2Fcomponents%2FScrobble.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2FScrobble.astro?ref=f56ebc78fb999c8761382f15e3489519a04a0749",
+        "patch": "@@ -1,18 +1,12 @@\n ---\n-let lastfm;\n-try {\n-  lastfm = await (\n-    await fetch(\n-      `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=KeiCantRead&api_key=${process.env.LASTFM_API_KEY || import.meta.env.LASTFM_API_KEY}&format=json&limit=5`,\n-      {\n-        headers: { \"User-Agent\": \"Mozilla/5.0\" },\n-      },\n-    )\n-  ).json();\n-} catch (error) {\n-  console.error(error);\n-}\n-console.error(\"Test log stream error\");\n+const lastfm = await (\n+  await fetch(\n+    `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=KeiCantRead&api_key=${process.env.LASTFM_API_KEY || import.meta.env.LASTFM_API_KEY}&format=json&limit=5`,\n+    {\n+      headers: { \"User-Agent\": \"Mozilla/5.0\" },\n+    },\n+  )\n+).json();\n ---\n \n <!-- TODO: Implement realtime ajax-->\n@@ -21,12 +15,16 @@ console.error(\"Test log stream error\");\n >\n   NOW SCROBBLING\n </div>\n-<a class=\"flex flex-col md:flex-row cursor-pointer gap-5\" href={lastfm.recenttracks.track[0].url}>\n-  <div class=\"group relative md:w-30 w-full border border-green-500\">\n+<a\n+  class=\"flex cursor-pointer flex-col gap-5 md:flex-row\"\n+  href={lastfm.recenttracks.track[0].url}\n+  target=\"_blank\"\n+>\n+  <div class=\"group relative w-full border border-green-500 md:w-30\">\n     <img\n       src={lastfm.recenttracks.track[0].image[3][\"#text\"]}\n       alt={lastfm.recenttracks.track[0].album[\"#text\"]}\n-      class=\"h-full w-full object-cover brightness-90 contrast-125 grayscale transition group-hover:brightness-100 group-hover:contrast-100 group-hover:grayscale-0\"\n+      class=\"h-full w-full object-cover contrast-125 grayscale transition group-hover:contrast-100 group-hover:grayscale-0\"\n     />\n \n     <div"
+      }
+    ]
+  },
+  {
+    "sha": "0734c53571aa5c80561e758d012f2f5f4a18f987",
+    "node_id": "C_kwDORCOQn9oAKDA3MzRjNTM1NzFhYTVjODA1NjFlNzU4ZDAxMmYyZjVmNGExOGY5ODc",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-02-11T07:34:39Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-02-11T07:34:39Z"
+      },
+      "message": "Move icons to icons/stack and update refs\n\nReorganize SVG assets by moving several icons into new folders. Also update references.",
+      "tree": {
+        "sha": "7f3cf9fae5a217651bda2eada6647dd828f94334",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/7f3cf9fae5a217651bda2eada6647dd828f94334"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/0734c53571aa5c80561e758d012f2f5f4a18f987",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/0734c53571aa5c80561e758d012f2f5f4a18f987",
+    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/0734c53571aa5c80561e758d012f2f5f4a18f987",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/0734c53571aa5c80561e758d012f2f5f4a18f987/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fa5252ddce13072e08bc95ca559281f1c257214d",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/fa5252ddce13072e08bc95ca559281f1c257214d",
+        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/fa5252ddce13072e08bc95ca559281f1c257214d"
+      }
+    ],
+    "stats": {
+      "total": 10,
+      "additions": 5,
+      "deletions": 5
+    },
+    "files": [
+      {
+        "sha": "926f0728642d8af1ba168aa7665c8628e215cb2f",
+        "filename": "public/icons/stack/astro.svg",
+        "status": "renamed",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/0734c53571aa5c80561e758d012f2f5f4a18f987/public%2Ficons%2Fstack%2Fastro.svg",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/0734c53571aa5c80561e758d012f2f5f4a18f987/public%2Ficons%2Fstack%2Fastro.svg",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ficons%2Fstack%2Fastro.svg?ref=0734c53571aa5c80561e758d012f2f5f4a18f987",
+        "previous_filename": "public/icons/astro.svg"
+      },
+      {
+        "sha": "bfd226e5e3da7353525813cf54cf7592a6b3ccd4",
+        "filename": "public/icons/stack/javascript.svg",
+        "status": "renamed",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/0734c53571aa5c80561e758d012f2f5f4a18f987/public%2Ficons%2Fstack%2Fjavascript.svg",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/0734c53571aa5c80561e758d012f2f5f4a18f987/public%2Ficons%2Fstack%2Fjavascript.svg",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ficons%2Fstack%2Fjavascript.svg?ref=0734c53571aa5c80561e758d012f2f5f4a18f987",
+        "previous_filename": "public/icons/javascript.svg"
+      },
+      {
+        "sha": "911c305d39cbdc64ac2c1c482ceebee867feb0e5",
+        "filename": "public/icons/stack/mariadb.svg",
+        "status": "renamed",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/0734c53571aa5c80561e758d012f2f5f4a18f987/public%2Ficons%2Fstack%2Fmariadb.svg",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/0734c53571aa5c80561e758d012f2f5f4a18f987/public%2Ficons%2Fstack%2Fmariadb.svg",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ficons%2Fstack%2Fmariadb.svg?ref=0734c53571aa5c80561e758d012f2f5f4a18f987",
+        "previous_filename": "public/icons/mariadb.svg"
+      },
+      {
+        "sha": "8814d3f7dd4f37aa58cdc7126638a056d78362d7",
+        "filename": "public/icons/stack/php.svg",
+        "status": "renamed",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/0734c53571aa5c80561e758d012f2f5f4a18f987/public%2Ficons%2Fstack%2Fphp.svg",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/0734c53571aa5c80561e758d012f2f5f4a18f987/public%2Ficons%2Fstack%2Fphp.svg",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ficons%2Fstack%2Fphp.svg?ref=0734c53571aa5c80561e758d012f2f5f4a18f987",
+        "previous_filename": "public/icons/php.svg"
+      },
+      {
+        "sha": "048c82da28ee56af7bb4b117325d8ad653729c35",
+        "filename": "public/icons/stack/react.svg",
+        "status": "renamed",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/0734c53571aa5c80561e758d012f2f5f4a18f987/public%2Ficons%2Fstack%2Freact.svg",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/0734c53571aa5c80561e758d012f2f5f4a18f987/public%2Ficons%2Fstack%2Freact.svg",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ficons%2Fstack%2Freact.svg?ref=0734c53571aa5c80561e758d012f2f5f4a18f987",
+        "previous_filename": "public/icons/react.svg"
+      },
+      {
+        "sha": "1430168f14056278162a4adf6679be9c07aa9942",
+        "filename": "public/icons/stack/tailwindcss.svg",
+        "status": "renamed",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/0734c53571aa5c80561e758d012f2f5f4a18f987/public%2Ficons%2Fstack%2Ftailwindcss.svg",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/0734c53571aa5c80561e758d012f2f5f4a18f987/public%2Ficons%2Fstack%2Ftailwindcss.svg",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ficons%2Fstack%2Ftailwindcss.svg?ref=0734c53571aa5c80561e758d012f2f5f4a18f987",
+        "previous_filename": "public/icons/tailwindcss.svg"
+      },
+      {
+        "sha": "bb2fb855c9b30fd85b86c7818d52577f96fd4671",
+        "filename": "src/pages/index.astro",
+        "status": "modified",
+        "additions": 5,
+        "deletions": 5,
+        "changes": 10,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/0734c53571aa5c80561e758d012f2f5f4a18f987/src%2Fpages%2Findex.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/0734c53571aa5c80561e758d012f2f5f4a18f987/src%2Fpages%2Findex.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Findex.astro?ref=0734c53571aa5c80561e758d012f2f5f4a18f987",
+        "patch": "@@ -77,7 +77,7 @@ const js = await (await fetch(\"https://pastebin.com/raw/f3mNJJkE\")).text();\n           <div class=\"flex flex-col items-center gap-2\">\n             <img\n               class=\"h-10 w-10 object-contain\"\n-              src=\"icons/javascript.svg\"\n+              src=\"icons/stack/javascript.svg\"\n               loading=\"lazy\"\n               alt=\"JavaScript\"\n             />\n@@ -86,7 +86,7 @@ const js = await (await fetch(\"https://pastebin.com/raw/f3mNJJkE\")).text();\n           <div class=\"flex flex-col items-center gap-2\">\n             <img\n               class=\"h-10 w-10 object-contain\"\n-              src=\"icons/astro.svg\"\n+              src=\"icons/stack/astro.svg\"\n               loading=\"lazy\"\n               alt=\"Astro\"\n             />\n@@ -95,7 +95,7 @@ const js = await (await fetch(\"https://pastebin.com/raw/f3mNJJkE\")).text();\n           <div class=\"flex flex-col items-center gap-2\">\n             <img\n               class=\"h-10 w-10 object-contain\"\n-              src=\"icons/php.svg\"\n+              src=\"icons/stack/php.svg\"\n               loading=\"lazy\"\n               alt=\"PHP\"\n             />\n@@ -104,7 +104,7 @@ const js = await (await fetch(\"https://pastebin.com/raw/f3mNJJkE\")).text();\n           <div class=\"flex flex-col items-center gap-2\">\n             <img\n               class=\"h-10 w-10 object-contain\"\n-              src=\"icons/react.svg\"\n+              src=\"icons/stack/react.svg\"\n               loading=\"lazy\"\n               alt=\"React\"\n             />\n@@ -113,7 +113,7 @@ const js = await (await fetch(\"https://pastebin.com/raw/f3mNJJkE\")).text();\n           <div class=\"flex flex-col items-center gap-2\">\n             <img\n               class=\"h-10 w-10 object-contain\"\n-              src=\"icons/tailwindcss.svg\"\n+              src=\"icons/stack/tailwindcss.svg\"\n               loading=\"lazy\"\n               alt=\"Tailwind CSS\"\n             />"
       }
     ]
   }
