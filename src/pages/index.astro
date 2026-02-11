@@ -3,6 +3,7 @@ import Layout from "../layouts/Layout.astro";
 import Container from "../components/Container.astro";
 import Button from "../components/Button.astro";
 import Ascii from "../components/AsciiContainer.astro";
+import Radar from "../components/Radar.astro";
 import CommitLog from "../components/CommitLog.astro";
 import LastFM from "../components/Scrobble.astro";
 
@@ -116,97 +117,11 @@ const socials = [
       </Container>
       <Container class="break-inside-avoid space-y-5">
         <p class="text-lg font-bold tracking-widest">> STACK</p>
-        <!-- TODO: This is pretty meaningless -->
-        <canvas class="border-y border-green-500/30" id="stackradar"></canvas>
-        <div class="grid grid-cols-3 place-items-center gap-4 md:grid-cols-5">
-          <div class="flex flex-col items-center gap-2">
-            <img
-              class="h-10 w-10 object-contain"
-              src="icons/stack/javascript.svg"
-              loading="lazy"
-              alt="JavaScript"
-            />
-            <p class="font-mono text-xs font-bold">JavaScript</p>
-          </div>
-          <div class="flex flex-col items-center gap-2">
-            <img
-              class="h-10 w-10 object-contain"
-              src="icons/stack/astro.svg"
-              loading="lazy"
-              alt="Astro"
-            />
-            <p class="font-mono text-xs font-bold">Astro</p>
-          </div>
-          <div class="flex flex-col items-center gap-2">
-            <img
-              class="h-10 w-10 object-contain"
-              src="icons/stack/php.svg"
-              loading="lazy"
-              alt="PHP"
-            />
-            <p class="font-mono text-xs font-bold">PHP</p>
-          </div>
-          <div class="flex flex-col items-center gap-2">
-            <img
-              class="h-10 w-10 object-contain"
-              src="icons/stack/react.svg"
-              loading="lazy"
-              alt="React"
-            />
-            <p class="font-mono text-xs font-bold">React</p>
-          </div>
-          <div class="flex flex-col items-center gap-2">
-            <img
-              class="h-10 w-10 object-contain"
-              src="icons/stack/tailwindcss.svg"
-              loading="lazy"
-              alt="Tailwind CSS"
-            />
-            <p class="font-mono text-xs font-bold">Tailwind CSS</p>
-          </div>
-        </div>
-        <script is:inline src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-        <!-- TODO Move this huge ass jsob blob out of here -->
-        <script is:inline>
-          const ctx = document.getElementById("stackradar");
-          new Chart(ctx, {
-            type: "radar",
-            data: {
-              labels: ["Astro", "JavaScript", "PHP", "React", "CSS"],
-              datasets: [
-                {
-                  data: [5, 5, 8, 3, 9],
-                  backgroundColor: "rgba(0, 201, 80, 0.2)",
-                  borderColor: "#00C950",
-                  borderWidth: 2,
-                  pointBackgroundColor: "#00C950",
-                  pointBorderColor: "#00C950",
-                },
-              ],
-            },
-            options: {
-              responsive: true,
-              maintainAspectRatio: true,
-              scales: {
-                r: {
-                  min: 0,
-                  max: 10,
-                  angleLines: { color: "#00C95050" },
-                  grid: { color: "#00C95030" },
-                  pointLabels: {
-                    color: "#00C950",
-                    font: { family: "monospace", size: 12, weight: "bold" },
-                  },
-                  ticks: { display: false },
-                },
-              },
-              plugins: {
-                legend: { display: false },
-                tooltip: { enabled: false },
-              },
-            },
-          });
-        </script>
+        <hr class="border border-green-500/30">
+        <p class="font-mono text-sm text-green-600">Stats pulled from my GitHub: languages ranked by total code size.</p>
+        <canvas id="stackradar"></canvas>
+        <p class="text-xs font-mono text-right text-green-900">made with chart.js</p>
+        <Radar />
       </Container>
       <Container class="break-inside-avoid space-y-5">
         <p class="text-lg font-bold tracking-widest">> COMMIT_LOG</p>
