@@ -33,7 +33,7 @@ body::before {
 }
 
 main {
-  @apply grow px-4 py-20 md:px-30;
+  @apply grow px-5 py-20 md:px-30;
 }
 
 @keyframes pop-in {
