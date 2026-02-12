@@ -51,9 +51,12 @@ main {
   isolation: isolate;
 }
 
-.line-clamp-1 {
-  display: -webkit-box;
-  -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+/* Phophor green filter for images */
+.phosphor-filter {
+  filter: url(#phosphor-overlay) contrast(1.2);
+  transition: filter 0.3s ease;
+}
+
+.phosphor-filter:hover {
+  filter: none;
 }
