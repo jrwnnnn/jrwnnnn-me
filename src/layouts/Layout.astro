@@ -34,7 +34,7 @@ const socials = [
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/x-icon" href="/favicon.svg">
-		<!-- TODO: Favicon and Meta -->
+		<!-- TODO: Metadata -->
 		<title>Project jrwnnnn_ // {title}</title>
 	</head>
 	<body>
@@ -63,15 +63,6 @@ const socials = [
 		<slot />
 
 		<script src="../scripts/glitchFX.ts"></script>
-		<script>
-			document.addEventListener("DOMContentLoaded", () => {
-				const mainElements = document.querySelectorAll("main > *") as NodeListOf<HTMLElement>;;
-				mainElements.forEach((elements, index) => {
-					elements.classList.add("animate-pop-in");
-					elements.style.animationDelay = `${index * 100}ms`;
-				});
-			});
-		</script>
 
 		{footer ?
 			<footer
