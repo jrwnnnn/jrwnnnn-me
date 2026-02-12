@@ -37,6 +37,7 @@ const stack = [
   { icon: "icons/stack/php.svg", name: "PHP", },
   { icon: "icons/stack/react.svg", name: "React", },
   { icon: "icons/stack/tailwindcss.svg", name: "Tailwind CSS", },
+  { icon: "icons/stack/mariadb.svg", name: "MariaDB", }
 ];
 ---
 
@@ -128,7 +129,7 @@ const stack = [
             stack.map((language) => (
               <div class="flex flex-col items-center gap-2">
                 <img
-                  class="h-10 w-10 object-contain"
+                  class="h-15 w-12 object-contain"
                   src={language.icon}
                   loading="lazy"
                   alt={language.name}
@@ -143,7 +144,7 @@ const stack = [
         <p class="text-lg font-bold tracking-widest">> COMMIT_LOG</p>
         <hr class="border border-green-500/30" />
         <CommitLog />
-          <Heatmap />
+        <Heatmap />
       </Container>
       <Container class="break-inside-avoid space-y-5">
         <LastFM />
@@ -154,3 +155,4 @@ const stack = [
     </div>
   </main>
 </Layout>
+
