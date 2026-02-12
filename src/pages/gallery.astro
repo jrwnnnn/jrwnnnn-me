@@ -1,0 +1,140 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { createClient } from "@libsql/client";
+
+const turso = createClient({
+	url: process.env.TURSO_DATABASE_URL || import.meta.env.TURSO_DATABASE_URL,
+	authToken: process.env.TURSO_AUTH_TOKEN || import.meta.env.TURSO_AUTH_TOKEN,
+});
+
+const images = await turso.execute({
+	sql: "SELECT id, image_data FROM gallery ORDER BY id DESC",
+});
+
+type GalleryRow = {
+	id: number | string;
+	image_data: string;
+};
+
+const galleryRows: GalleryRow[] = images.rows.map((row) => {
+	const typedRow = row as unknown as Partial<GalleryRow>;
+
+	return {
+		id: typedRow.id ?? "",
+		image_data: typedRow.image_data ?? "",
+	};
+});
+
+const total = await turso.execute({
+	sql: "SELECT COUNT(*) AS count FROM gallery",
+});
+---
+
+<Layout title="Mark Jerwin // Gallery">
+	<main class="flex flex-col space-y-8">
+		<div class="flex items-end justify-between">
+			<div>
+				<p class="text-xl font-bold tracking-widest">> GALLERY</p>
+				<p class="mt-1 font-mono text-sm opacity-70">
+					Found {total.rows[0].count} images in the database. Captured using a Samsung
+					A15 5G, Samsung A02s, or Samsung PL20.
+				</p>
+			</div>
+
+			<a href="/" class="group hidden text-sm tracking-widest md:block">
+				<span class="inline-block group-hover:-translate-x-1">&lt;</span> [ RETURN
+				]
+			</a>
+		</div>
+		<hr class="bg-green-500" />
+		<div class="columns-1 gap-6 space-y-6 lg:columns-3">
+			{
+				galleryRows.map((row, index) => (
+					<div class="break-inside-avoid">
+						<img
+							src={row.image_data}
+							alt={`Image ${row.id}`}
+							class="gallery-image w-full cursor-pointer border border-green-500/0 hover:border-green-500"
+							data-gallery-image
+							data-index={index}
+                            oncontextmenu="return false"
+						/>
+					</div>
+				))
+			}
+		</div>
+
+		<div
+			id="gallery-lightbox"
+			class="fixed inset-0 z-105 hidden items-center justify-center bg-black/90 p-4"
+		>
+			<button
+				type="button"
+				id="lightbox-close"
+				class="absolute top-4 right-6 cursor-pointer text-3xl font-bold hover:brightness-120"
+				aria-label="Close lightbox"
+			>
+				×
+			</button>
+
+			<img
+				id="lightbox-image"
+				src=""
+				alt=""
+				class="max-h-[90vh] max-w-[90vw] object-contain"
+                oncontextmenu="return false"
+			/>
+		</div>
+	</main>
+</Layout>
+
+<script>
+	const lightbox = document.getElementById("gallery-lightbox");
+	const lightboxImage = document.getElementById("lightbox-image");
+	const lightboxClose = document.getElementById("lightbox-close");
+	const galleryImages = Array.from(
+		document.querySelectorAll("[data-gallery-image]"),
+	);
+
+	let activeIndex = 0;
+
+	const updateLightbox = () => {
+		const activeImage = galleryImages[activeIndex];
+		if (!activeImage || !lightboxImage) return;
+
+		lightboxImage.setAttribute("src", activeImage.getAttribute("src") || "");
+		lightboxImage.setAttribute("alt", activeImage.getAttribute("alt") || "");
+	};
+
+	const openLightbox = (index: number) => {
+		if (!lightbox) return;
+		activeIndex = index;
+		updateLightbox();
+		lightbox.classList.remove("hidden");
+		lightbox.classList.add("flex");
+		document.body.style.overflow = "hidden";
+	};
+
+	const closeLightbox = () => {
+		if (!lightbox) return;
+		lightbox.classList.remove("flex");
+		lightbox.classList.add("hidden");
+		document.body.style.overflow = "";
+	};
+
+	galleryImages.forEach((image, index) => {
+		image.addEventListener("click", () => openLightbox(index));
+	});
+
+	lightboxClose?.addEventListener("click", closeLightbox);
+
+	lightbox?.addEventListener("click", (event) => {
+		if (event.target === lightbox) closeLightbox();
+	});
+
+	document.addEventListener("keydown", (event) => {
+		if (!lightbox || lightbox.classList.contains("hidden")) return;
+
+		if (event.key === "Escape") closeLightbox();
+	});
+</script>
