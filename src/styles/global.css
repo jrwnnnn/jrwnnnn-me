@@ -45,20 +45,7 @@ main {
   @apply grow px-5 py-20 md:px-30;
 }
 
-@keyframes pop-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.animate-pop-in {
-  opacity: 0;
-  animation: pop-in 0.2s steps(1) forwards;
-}
-
+/* Effects */
 .glitch {
   position: relative;
   isolation: isolate;
