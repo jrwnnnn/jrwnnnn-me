@@ -25,26 +25,20 @@
 		return `
             <div class="flex items-center justify-between">
                 <p class="text-lg font-bold tracking-widest">> LAST_FM</p>
-                <div class="${nowPlaying ? "bg-green-500" : "hidden"} px-3 py-px font-mono text-[12px] text-black animate-pulse">
-                    LIVE
+                <div class="${nowPlaying ? "bg-green-500" : "hidden"} font-bold px-3 py-px font-mono text-[12px] text-black animate-pulse">
+                    NOW PLAYING
                 </div>
             </div>
             <hr class="border border-green-500/30" />
             
-            <a class="flex cursor-pointer flex-col gap-5 md:flex-row" ${nowPlaying ? `href=${tracks[0].url}` : ""} target="_blank">
-				<div class="group relative w-full border border-green-500 md:w-30">
-					<img
-						src="${nowPlaying ? tracks[0].image[3]["#text"] : "https://www.last.fm/static/images/lastfm_avatar_twitter.52a5d69a85ac.png"}" 
-						alt="${nowPlaying ? tracks[0].album["#text"] : "LastFM"}" 
-						class="h-full w-full object-cover contrast-125 grayscale transition group-hover:contrast-100 group-hover:grayscale-0"
-					/>
-					<div
-						class="pointer-events-none absolute inset-0 bg-green-500/90 mix-blend-multiply group-hover:hidden"
-					>
-					</div>
-				</div>
-                <div>
-                    <p class="text-lg font-bold tracking-wide">${nowPlaying ? tracks[0].name : "Nothing is currently being played..."}</p>
+            <a class="flex cursor-pointer gap-5" ${nowPlaying ? `href=${tracks[0].url}` : ""} target="_blank">
+				<img
+					src="${nowPlaying ? tracks[0].image[3]["#text"] : "https://www.last.fm/static/images/lastfm_avatar_twitter.52a5d69a85ac.png"}" 
+					alt="${nowPlaying ? tracks[0].album["#text"] : "LastFM"}" 
+					class="phosphor-filter border-green-500 border w-30 h-full"
+				/>
+                <div class="hover:brightness-120">
+                    <p class="text-lg font-bold tracking-wide line-clamp-2">${nowPlaying ? tracks[0].name : "Nothing is currently being played..."}</p>
                     <p class="font-mono text-sm text-green-600">${nowPlaying ? `Artist: ${tracks[0].artist["#text"]}` : "Offline"}</p>
                     <p class="font-mono text-sm text-green-600 ${!nowPlaying ? "hidden" : ""}">Album: ${tracks[0].album["#text"]}</p>
                 </div>
@@ -60,9 +54,9 @@
                 ${recent
 									.map(
 										(track) => `
-                    <a href="${track.url}" target="_blank" class="flex gap-5 font-mono text-sm md:flex md:justify-between hover:text-green-400 transition-colors">
+                    <a href="${track.url}" target="_blank" class="grid grid-cols-[2fr_1fr] gap-1 font-mono text-sm hover:brightness-120">
                         <p class="line-clamp-1 text-green-600">${track.name}</p>
-                        <p class="line-clamp-1 text-left text-green-800 whitespace-nowrap">${track.artist["#text"]}</p>
+                        <p class="line-clamp-1 text-right text-green-800 whitespace-nowrap">${track.artist["#text"]}</p>
                     </a>
                 `,
 									)
