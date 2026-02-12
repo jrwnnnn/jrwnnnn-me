@@ -62,44 +62,51 @@ const socials = [
 
 		<slot />
 
-		<script src="../scripts/glitchFX.ts"></script>
-
 		{footer ?
-			<footer
-			class="mt-20 flex items-center justify-between border-t border-green-900/30 bg-black px-5 py-8 text-xs md:px-30"
-			>
-			<div class="flex flex-col space-x-5 md:flex-row">
-				<p class="font-mono font-bold">© 2026 Mark Jerwin</p>
-				<p class="hidden font-mono md:block">-</p>
-				<a 
-					class="flex items-center gap-2 opacity-75 cursor-pointer hover:underline" 
-					href={latestCommit[0].html_url} 
-					target="_blank"
-				>
-					<img
-						class="h-4 object-contain"
-						src="icons/git-commit.svg"
-						loading="lazy"
-						alt="Git Commit"
-					/>
-					<p class="mt-0.5 font-mono">{latestCommit[0].sha.slice(0, 7)}</p>
-				</a>
-			</div>
+			<footer class="mt-20">
+				<div class="flex justify-end px-5 md:px-30 z-0]">
+					<span 
+						class="relative md:top-5 bg-green-500 font-bold md:px-2 px-3 hover:top-0 transition-all cursor-pointer text-black" 
+						onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+					>
+						<span class="md:hidden text-2xl">↑</span>
+						<span class="hidden md:inline font-mono">Back to Top</span>
+					</span>
+				</div>
 
-			<div class="flex items-center space-x-5">
-				{
-					socials.map((social) => (
-						<a href={social.href} target="_blank" class="cursor-pointer">
+				<div class="flex items-center justify-between border-t border-green-900/30 bg-black px-5 py-8 text-xs md:px-30 relative z-1">
+					<div class="flex flex-col space-x-5 md:flex-row">
+						<p class="font-mono font-bold">© 2026 Mark Jerwin</p>
+						<p class="hidden font-mono md:block">-</p>
+						<a 
+							class="flex items-center gap-2 opacity-75 cursor-pointer hover:underline" 
+							href={latestCommit[0].html_url} 
+							target="_blank"
+						>
 							<img
-								class="h-5 object-contain"
-								src={social.icon}
+								class="h-4 object-contain"
+								src="icons/git-commit.svg"
 								loading="lazy"
-								alt=`${social.name} Icon`
+								alt="Git Commit"
 							/>
+							<p class="mt-0.5 font-mono">{latestCommit[0].sha.slice(0, 7)}</p>
 						</a>
-					))
-				}
-			</div>
+					</div>
+					<div class="flex items-center space-x-5">
+						{
+							socials.map((social) => (
+								<a href={social.href} target="_blank" class="cursor-pointer">
+									<img
+										class="h-5 object-contain"
+										src={social.icon}
+										loading="lazy"
+										alt=`${social.name} Icon`
+									/>
+								</a>
+							))
+						}
+					</div>
+				</div>
 			</footer>
 		: null 
 		}
@@ -109,9 +116,9 @@ const socials = [
 				<feColorMatrix
 					type="matrix"
 					values="0.33 0.33 0.33 0 0 
-															0.33 0.33 0.33 0 0 
-															0.33 0.33 0.33 0 0 
-															0 0 0 1 0"
+							0.33 0.33 0.33 0 0 
+							0.33 0.33 0.33 0 0 
+							0 0 0 1 0"
 				></feColorMatrix>
 				<feComponentTransfer>
 					<feFuncR type="linear" slope="0.13"></feFuncR>
@@ -121,5 +128,6 @@ const socials = [
 			</filter>
 		</svg>
 
+		<script src="../scripts/glitchFX.ts"></script>
 	</body>
 </html>
