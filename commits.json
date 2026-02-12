@@ -1,5 +1,166 @@
 [
   {
+    "sha": "d66cfce12ba3cf7e8d656829aa7529156f87f3a9",
+    "node_id": "C_kwDORCOQn9oAKGQ2NmNmY2UxMmJhM2NmN2U4ZDY1NjgyOWFhNzUyOTE1NmY4N2YzYTk",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-02-12T10:33:25Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-02-12T10:33:25Z"
+      },
+      "message": "Add gallery page that use @libsql/client\n\nMinor tweaks: normalize quoting/indentation in astro.config.mjs and reduce a pseudo-element z-index in src/styles/global.css.",
+      "tree": {
+        "sha": "ec4ae9fdc67e50cc0e0ba15a2f6b02b6680c927e",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/ec4ae9fdc67e50cc0e0ba15a2f6b02b6680c927e"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/d66cfce12ba3cf7e8d656829aa7529156f87f3a9",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/d66cfce12ba3cf7e8d656829aa7529156f87f3a9",
+    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/d66cfce12ba3cf7e8d656829aa7529156f87f3a9",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/d66cfce12ba3cf7e8d656829aa7529156f87f3a9/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "417816413cb9bcc2efbc593f0cb60cac4fae028b",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/417816413cb9bcc2efbc593f0cb60cac4fae028b",
+        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/417816413cb9bcc2efbc593f0cb60cac4fae028b"
+      }
+    ],
+    "stats": {
+      "total": 344,
+      "additions": 164,
+      "deletions": 180
+    },
+    "files": [
+      {
+        "sha": "8d8fb82538c63dc4c9739395e2e8af1bacfc79f0",
+        "filename": "astro.config.mjs",
+        "status": "modified",
+        "additions": 10,
+        "deletions": 10,
+        "changes": 20,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/d66cfce12ba3cf7e8d656829aa7529156f87f3a9/astro.config.mjs",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/d66cfce12ba3cf7e8d656829aa7529156f87f3a9/astro.config.mjs",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/astro.config.mjs?ref=d66cfce12ba3cf7e8d656829aa7529156f87f3a9",
+        "patch": "@@ -1,15 +1,15 @@\n // @ts-check\n-import { defineConfig } from 'astro/config';\n+import { defineConfig } from \"astro/config\";\n import tailwindcss from \"@tailwindcss/vite\";\n-import node from '@astrojs/node';\n+import node from \"@astrojs/node\";\n \n // https://astro.build/config\n export default defineConfig({\n-  vite: {\n-    plugins: [tailwindcss()],\n-  },\n-  adapter: node({\n-    mode: \"standalone\",\n-  }),\n-  output: \"server\",\n-});\n\\ No newline at end of file\n+\tvite: {\n+\t\tplugins: [tailwindcss()],\n+\t},\n+\tadapter: node({\n+\t\tmode: \"standalone\",\n+\t}),\n+\toutput: \"server\",\n+});"
+      },
+      {
+        "sha": "7558d7792dd3c634d1c5273f3ddd36d39fa3d0e6",
+        "filename": "package-lock.json",
+        "status": "modified",
+        "additions": 5,
+        "deletions": 167,
+        "changes": 172,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/d66cfce12ba3cf7e8d656829aa7529156f87f3a9/package-lock.json",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/d66cfce12ba3cf7e8d656829aa7529156f87f3a9/package-lock.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/package-lock.json?ref=d66cfce12ba3cf7e8d656829aa7529156f87f3a9",
+        "patch": "@@ -8,8 +8,8 @@\n       \"name\": \"jrwnnnn-me\",\n       \"version\": \"0.0.1\",\n       \"dependencies\": {\n-        \"@astrojs/db\": \"^0.19.0\",\n         \"@astrojs/node\": \"^9.5.2\",\n+        \"@libsql/client\": \"^0.17.0\",\n         \"@tailwindcss/vite\": \"^4.1.18\",\n         \"astro\": \"^5.17.1\",\n         \"prettier\": \"^3.8.1\",\n@@ -24,40 +24,6 @@\n       \"integrity\": \"sha512-mqVORhUJViA28fwHYaWmsXSzLO9osbdZ5ImUfxBarqsYdMlPbqAqGJCxsNzvppp1BEzc1mJNjOVvQqeDN8Vspw==\",\n       \"license\": \"MIT\"\n     },\n-    \"node_modules/@astrojs/db\": {\n-      \"version\": \"0.19.0\",\n-      \"resolved\": \"https://registry.npmjs.org/@astrojs/db/-/db-0.19.0.tgz\",\n-      \"integrity\": \"sha512-YrVsqxwODr6Bid4nRgzGsF9K8K8xSoFd7j8bAU+4CxN3tSBx/1kmTE3BClwfVH2xO74wFVsyr7ucBzw/yEsEBw==\",\n-      \"license\": \"MIT\",\n-      \"dependencies\": {\n-        \"@libsql/client\": \"^0.17.0\",\n-        \"deep-diff\": \"^1.0.2\",\n-        \"drizzle-orm\": \"^0.42.0\",\n-        \"nanoid\": \"^5.1.6\",\n-        \"piccolore\": \"^0.1.3\",\n-        \"prompts\": \"^2.4.2\",\n-        \"yargs-parser\": \"^21.1.1\",\n-        \"zod\": \"^3.25.76\"\n-      }\n-    },\n-    \"node_modules/@astrojs/db/node_modules/nanoid\": {\n-      \"version\": \"5.1.6\",\n-      \"resolved\": \"https://registry.npmjs.org/nanoid/-/nanoid-5.1.6.tgz\",\n-      \"integrity\": \"sha512-c7+7RQ+dMB5dPwwCp4ee1/iV/q2P6aK1mTZcfr1BTuVlyW9hJYiMPybJCcnBlQtuSmTIWNeazm/zqNoZSSElBg==\",\n-      \"funding\": [\n-        {\n-          \"type\": \"github\",\n-          \"url\": \"https://github.com/sponsors/ai\"\n-        }\n-      ],\n-      \"license\": \"MIT\",\n-      \"bin\": {\n-        \"nanoid\": \"bin/nanoid.js\"\n-      },\n-      \"engines\": {\n-        \"node\": \"^18 || >=20\"\n-      }\n-    },\n     \"node_modules/@astrojs/internal-helpers\": {\n       \"version\": \"0.7.5\",\n       \"resolved\": \"https://registry.npmjs.org/@astrojs/internal-helpers/-/internal-helpers-0.7.5.tgz\",\n@@ -1137,7 +1103,6 @@\n       \"resolved\": \"https://registry.npmjs.org/@libsql/client/-/client-0.17.0.tgz\",\n       \"integrity\": \"sha512-TLjSU9Otdpq0SpKHl1tD1Nc9MKhrsZbCFGot3EbCxRa8m1E5R1mMwoOjKMMM31IyF7fr+hPNHLpYfwbMKNusmg==\",\n       \"license\": \"MIT\",\n-      \"peer\": true,\n       \"dependencies\": {\n         \"@libsql/core\": \"^0.17.0\",\n         \"@libsql/hrana-client\": \"^0.9.0\",\n@@ -2032,10 +1997,11 @@\n       }\n     },\n     \"node_modules/@types/node\": {\n-      \"version\": \"25.2.0\",\n-      \"resolved\": \"https://registry.npmjs.org/@types/node/-/node-25.2.0.tgz\",\n-      \"integrity\": \"sha512-DZ8VwRFUNzuqJ5khrvwMXHmvPe+zGayJhr2CDNiKB1WBE1ST8Djl00D0IC4vvNmHMdj6DlbYRIaFE7WHjlDl5w==\",\n+      \"version\": \"25.2.3\",\n+      \"resolved\": \"https://registry.npmjs.org/@types/node/-/node-25.2.3.tgz\",\n+      \"integrity\": \"sha512-m0jEgYlYz+mDJZ2+F4v8D1AyQb+QzsNqRuI7xg1VQX/KlKS0qT9r1Mo16yo5F/MtifXFgaofIFsdFMox2SxIbQ==\",\n       \"license\": \"MIT\",\n+      \"peer\": true,\n       \"dependencies\": {\n         \"undici-types\": \"~7.16.0\"\n       }\n@@ -2659,13 +2625,6 @@\n         \"url\": \"https://github.com/sponsors/wooorm\"\n       }\n     },\n-    \"node_modules/deep-diff\": {\n-      \"version\": \"1.0.2\",\n-      \"resolved\": \"https://registry.npmjs.org/deep-diff/-/deep-diff-1.0.2.tgz\",\n-      \"integrity\": \"sha512-aWS3UIVH+NPGCD1kki+DCU9Dua032iSsO43LqQpcs4R3+dVv7tX0qBGjiVHJHjplsoUM2XRO/KB92glqc68awg==\",\n-      \"deprecated\": \"Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.\",\n-      \"license\": \"MIT\"\n-    },\n     \"node_modules/defu\": {\n       \"version\": \"6.1.4\",\n       \"resolved\": \"https://registry.npmjs.org/defu/-/defu-6.1.4.tgz\",\n@@ -2818,127 +2777,6 @@\n         \"url\": \"https://github.com/fb55/domutils?sponsor=1\"\n       }\n     },\n-    \"node_modules/drizzle-orm\": {\n-      \"version\": \"0.42.0\",\n-      \"resolved\": \"https://registry.npmjs.org/drizzle-orm/-/drizzle-orm-0.42.0.tgz\",\n-      \"integrity\": \"sha512-pS8nNJm2kBNZwrOjTHJfdKkaU+KuUQmV/vk5D57NojDq4FG+0uAYGMulXtYT///HfgsMF0hnFFvu1ezI3OwOkg==\",\n-      \"license\": \"Apache-2.0\",\n-      \"peerDependencies\": {\n-        \"@aws-sdk/client-rds-data\": \">=3\",\n-        \"@cloudflare/workers-types\": \">=4\",\n-        \"@electric-sql/pglite\": \">=0.2.0\",\n-        \"@libsql/client\": \">=0.10.0\",\n-        \"@libsql/client-wasm\": \">=0.10.0\",\n-        \"@neondatabase/serverless\": \">=0.10.0\",\n-        \"@op-engineering/op-sqlite\": \">=2\",\n-        \"@opentelemetry/api\": \"^1.4.1\",\n-        \"@planetscale/database\": \">=1.13\",\n-        \"@prisma/client\": \"*\",\n-        \"@tidbcloud/serverless\": \"*\",\n-        \"@types/better-sqlite3\": \"*\",\n-        \"@types/pg\": \"*\",\n-        \"@types/sql.js\": \"*\",\n-        \"@vercel/postgres\": \">=0.8.0\",\n-        \"@xata.io/client\": \"*\",\n-        \"better-sqlite3\": \">=7\",\n-        \"bun-types\": \"*\",\n-        \"expo-sqlite\": \">=14.0.0\",\n-        \"gel\": \">=2\",\n-        \"knex\": \"*\",\n-        \"kysely\": \"*\",\n-        \"mysql2\": \">=2\",\n-        \"pg\": \">=8\",\n-        \"postgres\": \">=3\",\n-        \"sql.js\": \">=1\",\n-        \"sqlite3\": \">=5\"\n-      },\n-      \"peerDependenciesMeta\": {\n-        \"@aws-sdk/client-rds-data\": {\n-          \"optional\": true\n-        },\n-        \"@cloudflare/workers-types\": {\n-          \"optional\": true\n-        },\n-        \"@electric-sql/pglite\": {\n-          \"optional\": true\n-        },\n-        \"@libsql/client\": {\n-          \"optional\": true\n-        },\n-        \"@libsql/client-wasm\": {\n-          \"optional\": true\n-        },\n-        \"@neondatabase/serverless\": {\n-          \"optional\": true\n-        },\n-        \"@op-engineering/op-sqlite\": {\n-          \"optional\": true\n-        },\n-        \"@opentelemetry/api\": {\n-          \"optional\": true\n-        },\n-        \"@planetscale/database\": {\n-          \"optional\": true\n-        },\n-        \"@prisma/client\": {\n-          \"optional\": true\n-        },\n-        \"@tidbcloud/serverless\": {\n-          \"optional\": true\n-        },\n-        \"@types/better-sqlite3\": {\n-          \"optional\": true\n-        },\n-        \"@types/pg\": {\n-          \"optional\": true\n-        },\n-        \"@types/sql.js\": {\n-          \"optional\": true\n-        },\n-        \"@vercel/postgres\": {\n-          \"optional\": true\n-        },\n-        \"@xata.io/client\": {\n-          \"optional\": true\n-        },\n-        \"better-sqlite3\": {\n-          \"optional\": true\n-        },\n-        \"bun-types\": {\n-          \"optional\": true\n-        },\n-        \"expo-sqlite\": {\n-          \"optional\": true\n-        },\n-        \"gel\": {\n-          \"optional\": true\n-        },\n-        \"knex\": {\n-          \"optional\": true\n-        },\n-        \"kysely\": {\n-          \"optional\": true\n-        },\n-        \"mysql2\": {\n-          \"optional\": true\n-        },\n-        \"pg\": {\n-          \"optional\": true\n-        },\n-        \"postgres\": {\n-          \"optional\": true\n-        },\n-        \"prisma\": {\n-          \"optional\": true\n-        },\n-        \"sql.js\": {\n-          \"optional\": true\n-        },\n-        \"sqlite3\": {\n-          \"optional\": true\n-        }\n-      }\n-    },\n     \"node_modules/dset\": {\n       \"version\": \"3.1.4\",\n       \"resolved\": \"https://registry.npmjs.org/dset/-/dset-3.1.4.tgz\","
+      },
+      {
+        "sha": "cda4b9ac4b002a5e5bd26349f85ab965954d319e",
+        "filename": "package.json",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/d66cfce12ba3cf7e8d656829aa7529156f87f3a9/package.json",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/d66cfce12ba3cf7e8d656829aa7529156f87f3a9/package.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/package.json?ref=d66cfce12ba3cf7e8d656829aa7529156f87f3a9",
+        "patch": "@@ -9,8 +9,8 @@\n     \"astro:preview\": \"astro preview\"\n   },\n   \"dependencies\": {\n-    \"@astrojs/db\": \"^0.19.0\",\n     \"@astrojs/node\": \"^9.5.2\",\n+    \"@libsql/client\": \"^0.17.0\",\n     \"@tailwindcss/vite\": \"^4.1.18\",\n     \"astro\": \"^5.17.1\",\n     \"prettier\": \"^3.8.1\","
+      },
+      {
+        "sha": "ec4a4972fa6ebfd9c45b0b6e3df243d49901ba76",
+        "filename": "src/pages/gallery.astro",
+        "status": "added",
+        "additions": 140,
+        "deletions": 0,
+        "changes": 140,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/d66cfce12ba3cf7e8d656829aa7529156f87f3a9/src%2Fpages%2Fgallery.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/d66cfce12ba3cf7e8d656829aa7529156f87f3a9/src%2Fpages%2Fgallery.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Fgallery.astro?ref=d66cfce12ba3cf7e8d656829aa7529156f87f3a9",
+        "patch": "@@ -0,0 +1,140 @@\n+---\n+import Layout from \"../layouts/Layout.astro\";\n+import { createClient } from \"@libsql/client\";\n+\n+const turso = createClient({\n+\turl: process.env.TURSO_DATABASE_URL || import.meta.env.TURSO_DATABASE_URL,\n+\tauthToken: process.env.TURSO_AUTH_TOKEN || import.meta.env.TURSO_AUTH_TOKEN,\n+});\n+\n+const images = await turso.execute({\n+\tsql: \"SELECT id, image_data FROM gallery ORDER BY id DESC\",\n+});\n+\n+type GalleryRow = {\n+\tid: number | string;\n+\timage_data: string;\n+};\n+\n+const galleryRows: GalleryRow[] = images.rows.map((row) => {\n+\tconst typedRow = row as unknown as Partial<GalleryRow>;\n+\n+\treturn {\n+\t\tid: typedRow.id ?? \"\",\n+\t\timage_data: typedRow.image_data ?? \"\",\n+\t};\n+});\n+\n+const total = await turso.execute({\n+\tsql: \"SELECT COUNT(*) AS count FROM gallery\",\n+});\n+---\n+\n+<Layout title=\"Mark Jerwin // Gallery\">\n+\t<main class=\"flex flex-col space-y-8\">\n+\t\t<div class=\"flex items-end justify-between\">\n+\t\t\t<div>\n+\t\t\t\t<p class=\"text-xl font-bold tracking-widest\">> GALLERY</p>\n+\t\t\t\t<p class=\"mt-1 font-mono text-sm opacity-70\">\n+\t\t\t\t\tFound {total.rows[0].count} images in the database. Captured using a Samsung\n+\t\t\t\t\tA15 5G, Samsung A02s, or Samsung PL20.\n+\t\t\t\t</p>\n+\t\t\t</div>\n+\n+\t\t\t<a href=\"/\" class=\"group hidden text-sm tracking-widest md:block\">\n+\t\t\t\t<span class=\"inline-block group-hover:-translate-x-1\">&lt;</span> [ RETURN\n+\t\t\t\t]\n+\t\t\t</a>\n+\t\t</div>\n+\t\t<hr class=\"bg-green-500\" />\n+\t\t<div class=\"columns-1 gap-6 space-y-6 lg:columns-3\">\n+\t\t\t{\n+\t\t\t\tgalleryRows.map((row, index) => (\n+\t\t\t\t\t<div class=\"break-inside-avoid\">\n+\t\t\t\t\t\t<img\n+\t\t\t\t\t\t\tsrc={row.image_data}\n+\t\t\t\t\t\t\talt={`Image ${row.id}`}\n+\t\t\t\t\t\t\tclass=\"gallery-image w-full cursor-pointer border border-green-500/0 hover:border-green-500\"\n+\t\t\t\t\t\t\tdata-gallery-image\n+\t\t\t\t\t\t\tdata-index={index}\n+                            oncontextmenu=\"return false\"\n+\t\t\t\t\t\t/>\n+\t\t\t\t\t</div>\n+\t\t\t\t))\n+\t\t\t}\n+\t\t</div>\n+\n+\t\t<div\n+\t\t\tid=\"gallery-lightbox\"\n+\t\t\tclass=\"fixed inset-0 z-105 hidden items-center justify-center bg-black/90 p-4\"\n+\t\t>\n+\t\t\t<button\n+\t\t\t\ttype=\"button\"\n+\t\t\t\tid=\"lightbox-close\"\n+\t\t\t\tclass=\"absolute top-4 right-6 cursor-pointer text-3xl font-bold hover:brightness-120\"\n+\t\t\t\taria-label=\"Close lightbox\"\n+\t\t\t>\n+\t\t\t\t×\n+\t\t\t</button>\n+\n+\t\t\t<img\n+\t\t\t\tid=\"lightbox-image\"\n+\t\t\t\tsrc=\"\"\n+\t\t\t\talt=\"\"\n+\t\t\t\tclass=\"max-h-[90vh] max-w-[90vw] object-contain\"\n+                oncontextmenu=\"return false\"\n+\t\t\t/>\n+\t\t</div>\n+\t</main>\n+</Layout>\n+\n+<script>\n+\tconst lightbox = document.getElementById(\"gallery-lightbox\");\n+\tconst lightboxImage = document.getElementById(\"lightbox-image\");\n+\tconst lightboxClose = document.getElementById(\"lightbox-close\");\n+\tconst galleryImages = Array.from(\n+\t\tdocument.querySelectorAll(\"[data-gallery-image]\"),\n+\t);\n+\n+\tlet activeIndex = 0;\n+\n+\tconst updateLightbox = () => {\n+\t\tconst activeImage = galleryImages[activeIndex];\n+\t\tif (!activeImage || !lightboxImage) return;\n+\n+\t\tlightboxImage.setAttribute(\"src\", activeImage.getAttribute(\"src\") || \"\");\n+\t\tlightboxImage.setAttribute(\"alt\", activeImage.getAttribute(\"alt\") || \"\");\n+\t};\n+\n+\tconst openLightbox = (index: number) => {\n+\t\tif (!lightbox) return;\n+\t\tactiveIndex = index;\n+\t\tupdateLightbox();\n+\t\tlightbox.classList.remove(\"hidden\");\n+\t\tlightbox.classList.add(\"flex\");\n+\t\tdocument.body.style.overflow = \"hidden\";\n+\t};\n+\n+\tconst closeLightbox = () => {\n+\t\tif (!lightbox) return;\n+\t\tlightbox.classList.remove(\"flex\");\n+\t\tlightbox.classList.add(\"hidden\");\n+\t\tdocument.body.style.overflow = \"\";\n+\t};\n+\n+\tgalleryImages.forEach((image, index) => {\n+\t\timage.addEventListener(\"click\", () => openLightbox(index));\n+\t});\n+\n+\tlightboxClose?.addEventListener(\"click\", closeLightbox);\n+\n+\tlightbox?.addEventListener(\"click\", (event) => {\n+\t\tif (event.target === lightbox) closeLightbox();\n+\t});\n+\n+\tdocument.addEventListener(\"keydown\", (event) => {\n+\t\tif (!lightbox || lightbox.classList.contains(\"hidden\")) return;\n+\n+\t\tif (event.key === \"Escape\") closeLightbox();\n+\t});\n+</script>"
+      },
+      {
+        "sha": "e07bfa0bcef76e68f19c8b3ec2f5492e7f2acf7f",
+        "filename": "src/pages/index.astro",
+        "status": "modified",
+        "additions": 7,
+        "deletions": 1,
+        "changes": 8,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/d66cfce12ba3cf7e8d656829aa7529156f87f3a9/src%2Fpages%2Findex.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/d66cfce12ba3cf7e8d656829aa7529156f87f3a9/src%2Fpages%2Findex.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Findex.astro?ref=d66cfce12ba3cf7e8d656829aa7529156f87f3a9",
+        "patch": "@@ -105,7 +105,7 @@ const stack = [\n     <hr class=\"border-green-500\" />\n     <div class=\"space-y-5\">\n       <h3 class=\"text-xl font-bold tracking-widest\">> MAIN_MENU</h3>\n-      <div class=\"grid grid-cols-1 gap-6 md:grid-cols-2 font-mono\">\n+      <div class=\"grid grid-cols-1 gap-6 md:grid-cols-3 font-mono\">\n         <Button\n           class=\"group py-3! text-left\"\n           onclick=\"location.href='projects'\"\n@@ -118,6 +118,12 @@ const stack = [\n         >\n           <span class=\"mr-2 group-hover:animate-ping\">></span> [ LOG ] BLOGS\n         </Button>\n+        <Button \n+          class=\"group py-3! text-left\" \n+          onclick=\"location.href='gallery'\"\n+        >\n+          <span class=\"mr-2 group-hover:animate-ping\">></span> [ PCX ] GALLERY\n+        </Button>\n       </div>\n     </div>\n     <div class=\"columns-1 gap-6 space-y-6 lg:columns-2\">"
+      },
+      {
+        "sha": "4fda7f88f9a5295a0b0a5b08aa43636de1fc7dde",
+        "filename": "src/styles/global.css",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/d66cfce12ba3cf7e8d656829aa7529156f87f3a9/src%2Fstyles%2Fglobal.css",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/d66cfce12ba3cf7e8d656829aa7529156f87f3a9/src%2Fstyles%2Fglobal.css",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fstyles%2Fglobal.css?ref=d66cfce12ba3cf7e8d656829aa7529156f87f3a9",
+        "patch": "@@ -37,7 +37,7 @@ body::before {\n     rgba(0, 0, 0, 0.25) 50%\n   );\n   background-size: 100% 4px;\n-  z-index: 9999;\n+  z-index: 100;\n   pointer-events: none;\n }\n "
+      }
+    ]
+  },
+  {
     "sha": "417816413cb9bcc2efbc593f0cb60cac4fae028b",
     "node_id": "C_kwDORCOQn9oAKDQxNzgxNjQxM2NiOWJjYzJlZmJjNTkzZjBjYjYwY2FjNGZhZTAyOGI",
     "commit": {
@@ -472,119 +633,6 @@
         "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/880259470434b422922203d0fa63fe334afea965/src%2Fstyles%2Fglobal.css",
         "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fstyles%2Fglobal.css?ref=880259470434b422922203d0fa63fe334afea965",
         "patch": "@@ -45,20 +45,7 @@ main {\n   @apply grow px-5 py-20 md:px-30;\n }\n \n-@keyframes pop-in {\n-  0% {\n-    opacity: 0;\n-  }\n-  100% {\n-    opacity: 1;\n-  }\n-}\n-\n-.animate-pop-in {\n-  opacity: 0;\n-  animation: pop-in 0.2s steps(1) forwards;\n-}\n-\n+/* Effects */\n .glitch {\n   position: relative;\n   isolation: isolate;"
-      }
-    ]
-  },
-  {
-    "sha": "86eb964e02edcc4296ce6c868fc8dd00ef06f688",
-    "node_id": "C_kwDORCOQn9oAKDg2ZWI5NjRlMDJlZGNjNDI5NmNlNmM4NjhmYzhkZDAwZWYwNmY2ODg",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-11T13:06:16Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-11T13:06:16Z"
-      },
-      "message": "AJAX-ed Last.fm component\n\nReplace server-side Last.fm fetch in Scrobble.astro with a client-side widget that polls a new API route. This enables realtime updates in the UI and removes the build-time fetch from the component.",
-      "tree": {
-        "sha": "b73d9b12c93f2f7d0e20ddb41f5605e28cd2d75d",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/b73d9b12c93f2f7d0e20ddb41f5605e28cd2d75d"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/86eb964e02edcc4296ce6c868fc8dd00ef06f688",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/86eb964e02edcc4296ce6c868fc8dd00ef06f688",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/86eb964e02edcc4296ce6c868fc8dd00ef06f688",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/86eb964e02edcc4296ce6c868fc8dd00ef06f688/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "6fea3f3645e256e9ed8392572d73697c90b04896",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/6fea3f3645e256e9ed8392572d73697c90b04896",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/6fea3f3645e256e9ed8392572d73697c90b04896"
-      }
-    ],
-    "stats": {
-      "total": 161,
-      "additions": 92,
-      "deletions": 69
-    },
-    "files": [
-      {
-        "sha": "01bcadcf1a03d45aa7b225475709952c8c62edfe",
-        "filename": "src/components/static/Scrobble.astro",
-        "status": "modified",
-        "additions": 82,
-        "deletions": 69,
-        "changes": 151,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/86eb964e02edcc4296ce6c868fc8dd00ef06f688/src%2Fcomponents%2Fstatic%2FScrobble.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/86eb964e02edcc4296ce6c868fc8dd00ef06f688/src%2Fcomponents%2Fstatic%2FScrobble.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2Fstatic%2FScrobble.astro?ref=86eb964e02edcc4296ce6c868fc8dd00ef06f688",
-        "patch": "@@ -1,75 +1,88 @@\n ---\n-const lastfm = await (\n-\tawait fetch(\n-\t\t`https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=KeiCantRead&api_key=${process.env.LASTFM_API_KEY || import.meta.env.LASTFM_API_KEY}&format=json&limit=5`,\n-\t\t{\n-\t\t\theaders: { \"User-Agent\": \"Mozilla/5.0\" },\n-\t\t},\n-\t)\n-).json();\n+\n ---\n \n-<!-- TODO: Implement realtime ajax-->\n-<div class=\"flex items-center justify-between\">\n-\t<p class=\"text-lg font-bold tracking-widest\">> LAST_FM</p>\n-\t<div\n-\t\tclass=`bg-green-500 px-3 py-px font-mono text-[12px] text-black ${lastfm.recenttracks.track[0]['@attr']?.nowplaying === 'true' ? '' : 'hidden'}`\n-\t>\n-\t\tLIVE\n-\t</div>\n+<div id=\"lastfm-widget\" class=\"animate-pulse space-y-5\">\n+\t<p class=\"text-lg font-bold tracking-widest\">> CONNECTING_TO_LAST_FM</p>\n </div>\n-<hr class=\"border border-green-500/30\" />\n-<a\n-\tclass=\"flex cursor-pointer flex-col gap-5 md:flex-row\"\n-\thref={lastfm.recenttracks.track[0].url}\n-\ttarget=\"_blank\"\n->\n-\t<div class=\"group relative w-full border border-green-500 md:w-30\">\n-\t\t<img\n-\t\t\tsrc={lastfm.recenttracks.track[0].image[3][\"#text\"]}\n-\t\t\talt={lastfm.recenttracks.track[0].album[\"#text\"]}\n-\t\t\tclass=\"h-full w-full object-cover contrast-125 grayscale transition group-hover:contrast-100 group-hover:grayscale-0\"\n-\t\t/>\n \n-\t\t<div\n-\t\t\tclass=\"pointer-events-none absolute inset-0 bg-green-500/90 mix-blend-multiply group-hover:hidden\"\n-\t\t>\n-\t\t</div>\n-\t</div>\n-\t<div>\n-\t\t<p class=\"text-lg font-bold\">\n-\t\t\t{lastfm.recenttracks.track[0].name}\n-\t\t</p>\n-\t\t<p class=\"font-mono text-sm text-green-600\">\n-\t\t\tArtist: {lastfm.recenttracks.track[0].artist[\"#text\"]}\n-\t\t</p>\n-\t\t<p class=\"font-mono text-sm text-green-600\">\n-\t\t\tAlbum: {lastfm.recenttracks.track[0].album[\"#text\"]}\n-\t\t</p>\n-\t</div>\n-</a>\n-<div>\n-\t<div class=\"mb-2 flex items-center gap-2\">\n-\t\t<hr class=\"grow border border-dashed border-green-900\" />\n-\t\t<p class=\"text-center font-mono text-xs tracking-widest text-green-900\">\n-\t\t\tRecent Tracks\n-\t\t</p>\n-\t\t<hr class=\"grow border border-dashed border-green-900\" />\n-\t</div>\n-\t<div>\n-\t\t<!--TODO: Fix responsiveness -->\n-\t\t{\n-\t\t\tlastfm.recenttracks.track.slice(1).map((track: any) => (\n-\t\t\t\t<a\n-\t\t\t\t\thref={track.url}\n-\t\t\t\t\tclass=\"mb-1 flex gap-5 font-mono text-sm md:mb-0 md:flex md:justify-between\"\n-\t\t\t\t>\n-\t\t\t\t\t<p class=\"line-clamp-1 text-green-600\">{track.name}</p>\n-\t\t\t\t\t<p class=\"line-clamp-1 text-left text-green-800\">\n-\t\t\t\t\t\t{track.artist[\"#text\"]}\n-\t\t\t\t\t</p>\n-\t\t\t\t</a>\n-\t\t\t))\n+<script>\n+\tinterface Interface {\n+\t\tname: string;\n+\t\tartist: { \"#text\": string };\n+\t\talbum: { \"#text\": string };\n+\t\timage: { \"#text\": string }[];\n+\t\turl: string;\n+\t\t\"@attr\"?: { nowplaying: string };\n+\t}\n+\n+\tconst widget = document.getElementById(\"lastfm-widget\");\n+\n+\tconst render = (tracks: Interface[]) => {\n+\t\tconst nowPlaying = tracks[0][\"@attr\"]?.nowplaying === \"true\";\n+\t\tconst recent = nowPlaying ? tracks.slice(1) : tracks;\n+\n+\t\treturn `\n+            <div class=\"flex items-center justify-between\">\n+                <p class=\"text-lg font-bold tracking-widest\">> LAST_FM</p>\n+                <div class=\"${nowPlaying ? \"bg-green-500\" : \"hidden\"} px-3 py-px font-mono text-[12px] text-black animate-pulse\">\n+                    LIVE\n+                </div>\n+            </div>\n+            <hr class=\"border border-green-500/30\" />\n+            \n+            <a class=\"flex cursor-pointer flex-col gap-5 md:flex-row\" ${nowPlaying ? `href=${tracks[0].url}` : \"\"} target=\"_blank\">\n+\t\t\t\t<div class=\"group relative w-full border border-green-500 md:w-30\">\n+\t\t\t\t\t<img\n+\t\t\t\t\t\tsrc=\"${nowPlaying ? tracks[0].image[3][\"#text\"] : \"https://www.last.fm/static/images/lastfm_avatar_twitter.52a5d69a85ac.png\"}\" \n+\t\t\t\t\t\talt=\"${nowPlaying ? tracks[0].album[\"#text\"] : \"LastFM\"}\" \n+\t\t\t\t\t\tclass=\"h-full w-full object-cover contrast-125 grayscale transition group-hover:contrast-100 group-hover:grayscale-0\"\n+\t\t\t\t\t/>\n+\t\t\t\t\t<div\n+\t\t\t\t\t\tclass=\"pointer-events-none absolute inset-0 bg-green-500/90 mix-blend-multiply group-hover:hidden\"\n+\t\t\t\t\t>\n+\t\t\t\t\t</div>\n+\t\t\t\t</div>\n+                <div>\n+                    <p class=\"text-lg font-bold tracking-wide\">${nowPlaying ? tracks[0].name : \"Nothing is currently being played...\"}</p>\n+                    <p class=\"font-mono text-sm text-green-600\">${nowPlaying ? `Artist: ${tracks[0].artist[\"#text\"]}` : \"Offline\"}</p>\n+                    <p class=\"font-mono text-sm text-green-600 ${!nowPlaying ? \"hidden\" : \"\"}\">Album: ${tracks[0].album[\"#text\"]}</p>\n+                </div>\n+            </a>\n+\n+            <div class=\"flex items-center gap-2\">\n+                <hr class=\"grow border border-dashed border-green-900\" />\n+                <p class=\"text-center font-mono text-xs tracking-widest text-green-900\">Recent Tracks</p>\n+                <hr class=\"grow border border-dashed border-green-900\" />\n+            </div>\n+            \n+            <div class=\"flex flex-col gap-1\">\n+                ${recent\n+\t\t\t\t\t\t\t\t\t.map(\n+\t\t\t\t\t\t\t\t\t\t(track) => `\n+                    <a href=\"${track.url}\" target=\"_blank\" class=\"flex gap-5 font-mono text-sm md:flex md:justify-between hover:text-green-400 transition-colors\">\n+                        <p class=\"line-clamp-1 text-green-600\">${track.name}</p>\n+                        <p class=\"line-clamp-1 text-left text-green-800 whitespace-nowrap\">${track.artist[\"#text\"]}</p>\n+                    </a>\n+                `,\n+\t\t\t\t\t\t\t\t\t)\n+\t\t\t\t\t\t\t\t\t.join(\"\")}\n+            </div>\n+        `;\n+\t};\n+\n+\tconst fetchAndRender = async () => {\n+\t\ttry {\n+\t\t\tconst data = await (await fetch(\"/api/lastfm-endpoint\")).json();\n+\t\t\tconst tracks = data.recenttracks.track as Interface[];\n+\n+\t\t\twidget!.innerHTML = render(tracks);\n+\t\t\twidget!.classList.remove(\"animate-pulse\");\n+\t\t} catch (e) {\n+\t\t\tconsole.error(e);\n \t\t}\n-\t</div>\n-</div>\n+\t};\n+\n+\tfetchAndRender();\n+\tsetInterval(fetchAndRender, 10000);\n+</script>"
-      },
-      {
-        "sha": "488ce0b333e7881ed115fb7cdd6077b62ac23716",
-        "filename": "src/pages/api/lastfm-endpoint.ts",
-        "status": "added",
-        "additions": 10,
-        "deletions": 0,
-        "changes": 10,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/86eb964e02edcc4296ce6c868fc8dd00ef06f688/src%2Fpages%2Fapi%2Flastfm-endpoint.ts",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/86eb964e02edcc4296ce6c868fc8dd00ef06f688/src%2Fpages%2Fapi%2Flastfm-endpoint.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Fapi%2Flastfm-endpoint.ts?ref=86eb964e02edcc4296ce6c868fc8dd00ef06f688",
-        "patch": "@@ -0,0 +1,10 @@\n+export const GET = async () => {\n+\tconst response = await fetch(\n+\t\t`https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=KeiCantRead&api_key=${process.env.LASTFM_API_KEY || import.meta.env.LASTFM_API_KEY}&format=json&limit=5`,\n+\t\t{ headers: { \"User-Agent\": \"Mozilla/5.0\" } },\n+\t);\n+\tconst data = await response.json();\n+\treturn new Response(JSON.stringify(data), {\n+\t\theaders: { \"Content-Type\": \"application/json\" },\n+\t});\n+};"
       }
     ]
   }
