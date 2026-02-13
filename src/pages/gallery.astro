@@ -41,7 +41,7 @@ const total = await turso.execute({
 				</p>
 			</div>
 
-			<a href="/" class="group hidden text-sm tracking-widest md:block">
+			<a href="/" class="group hidden text-sm tracking-widest lg:block">
 				<span class="inline-block group-hover:-translate-x-1">&lt;</span> [ RETURN
 				]
 			</a>
@@ -55,6 +55,7 @@ const total = await turso.execute({
 							src={row.image_data}
 							alt={`Image ${row.id}`}
 							class="gallery-image w-full cursor-pointer border border-green-500/0 hover:border-green-500"
+                            loading="lazy"
 							data-gallery-image
 							data-index={index}
                             oncontextmenu="return false"

@@ -42,7 +42,7 @@ body::before {
 }
 
 main {
-  @apply grow px-5 py-20 md:px-30;
+  @apply grow px-5 py-20 md:px-20 lg:px-30;
 }
 
 /* Effects */
