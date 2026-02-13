@@ -24,13 +24,13 @@ for (const repo of Object.values(repositories) as Record<string, number>[]) {
     <div class="flex items-end justify-between">
       <div>
         <p class="text-xl font-bold tracking-widest">> PROJECT_DATABASE</p>
-        <p class="mt-1 text-sm opacity-70">
+        <p class="mt-1 font-mono text-sm opacity-70">
           Found {repositories.length} records in local storage. Total size: {
             total
           } B
         </p>
       </div>
-      <a href="/" class="group hidden text-sm md:block">
+      <a href="/" class="group hidden text-sm lg:block">
         <span class="inline-block group-hover:-translate-x-1">&lt;</span> [ RETURN
         ]
       </a>
