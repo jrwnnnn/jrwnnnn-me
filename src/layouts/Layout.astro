@@ -1,4 +1,7 @@
 ---
+import "../styles/global.css";
+import socials from "../data/socials.json";
+
 interface Props {
 	title: string;
 	description?: string;
@@ -6,35 +9,30 @@ interface Props {
 	footer?: boolean;
 }
 
-import "../styles/global.css";
 const {
 	title,
 	description = "Default Description",
 	statusBar = true,
 	footer = true,
 } = Astro.props;
-const latestCommit = await (
-	await fetch(
-		"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/jrwnnnn-me-commits.json",
+
+let errorPayload;
+const latestCommit = await fetch(
+	"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/jrwnnnn-me-commits.json",
+)
+	.then((r) =>
+		r.ok
+			? r.json()
+			: Promise.reject(
+					new Error(
+						`Failed to load page's latest commit returned status ${r.status}`,
+					),
+				),
 	)
-).json();
-const socials = [
-	{
-		icon: "icons/socials/github.svg",
-		href: "https://github.com/jrwnnnn",
-		name: "Github",
-	},
-	{
-		icon: "icons/socials/gmail.svg",
-		href: "mailto:no_email_yet@gmail.com",
-		name: "Email",
-	},
-	{
-		icon: "icons/socials/instagram.svg",
-		href: "https://instagram.com/jrwnnn_",
-		name: "Instagram",
-	},
-];
+	.catch((e) => {
+		errorPayload = e;
+		return [];
+	});
 ---
 
 <!doctype html>
@@ -91,22 +89,26 @@ const socials = [
 					<div class="relative z-1 flex items-center justify-between border-t border-green-900/30 bg-black px-5 py-8 text-xs md:px-20 lg:px-30">
 						<div class="flex flex-col space-x-5 md:flex-row">
 							<p class="font-mono font-bold">© 2026 Mark Jerwin</p>
-							<p class="hidden font-mono md:block">-</p>
-							<a
-								class="flex cursor-pointer items-center gap-2 opacity-75 hover:underline"
-								href={latestCommit[0].html_url}
-								target="_blank"
-							>
-								<img
-									class="h-4 object-contain"
-									src="icons/git-commit.svg"
-									loading="lazy"
-									alt="Git Commit"
-								/>
-								<p class="mt-0.5 font-mono">
-									{latestCommit[0].sha.slice(0, 7)}
-								</p>
-							</a>
+							{!errorPayload && (
+								<>
+									<p class="hidden font-mono md:block">-</p>
+									<a
+										class="flex cursor-pointer items-center gap-2 opacity-75 hover:underline"
+										href={latestCommit[0].html_url}
+										target="_blank"
+									>
+										<img
+											class="h-4 object-contain"
+											src="icons/git-commit.svg"
+											loading="lazy"
+											alt="Git Commit"
+										/>
+										<p class="mt-0.5 font-mono">
+											{latestCommit[0].sha.slice(0, 7)}
+										</p>
+									</a>
+								</>
+							)}
 						</div>
 						<div class="flex items-center space-x-5">
 							{socials.map((social) => (

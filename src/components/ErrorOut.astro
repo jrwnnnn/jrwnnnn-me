@@ -1,0 +1,25 @@
+---
+interface Props {
+	error?: Error;
+}
+const { error = null } = Astro.props;
+const errorMessage = error?.message || "Unknown error";
+const errorTrace = error?.stack || "";
+---
+
+<script define:vars={{ errorTrace }}>
+	console.error(errorTrace);
+</script>
+
+<div class="space-y-2 font-mono">
+	<details>
+		<summary class="cursor-pointer font-bold text-red-500"
+			>{errorMessage}</summary
+		>
+		<p
+			class="mt-1 max-h-40 overflow-y-auto text-sm text-green-700 [&::-webkit-scrollbar]:w-1 [&::-webkit-scrollbar-thumb]:bg-transparent hover:[&::-webkit-scrollbar-thumb]:bg-green-600"
+		>
+			<strong>Stack Trace</strong> // {errorTrace}
+		</p>
+	</details>
+</div>

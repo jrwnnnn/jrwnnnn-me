@@ -1,62 +1,74 @@
 ---
+import ErrorOut from "../ErrorOut.astro";
+
 interface Commit {
-  sha: string;
-  url: string;
-  commit: {
-    author: {
-      date: string;
-    };
-    message: string;
-  };
-  html_url: string;
-  stats: {
-    additions: number;
-    deletions: number;
-    total: number;
-  };
-  files: {
-    filename: string;
-  }[];
+	sha: string;
+	url: string;
+	commit: {
+		author: {
+			date: string;
+		};
+		message: string;
+	};
+	html_url: string;
+	stats: {
+		additions: number;
+		deletions: number;
+	};
 }
 
-const commits: Commit[] = await (
-  await fetch(
-    "https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/commits.json",
-  )
-).json();
+let errorPayload: Error | null = null;
+const commits: Commit[] = await fetch(
+	"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/commits.json",
+)
+	.then((r) =>
+		r.ok
+			? r.json()
+			: Promise.reject(
+					new Error(`Failed to fetch commits returned status ${r.status}`),
+				),
+	)
+	.catch((e) => {
+		errorPayload = e instanceof Error ? e : new Error("Unknown fetch error");
+		return [];
+	});
 ---
 
-<div class="space-y-4 font-mono text-sm">
-  {
-    commits.map((commit) => (
-      <a
-        href={commit.html_url}
-        target="_blank"
-        class="block space-y-1 border-l-3 border-green-500/40 pl-5 transition hover:border-green-500 group"
-      >
-        <div class="flex items-start justify-between gap-5">
-          <p class="mb-1 line-clamp-2">
-            <strong>{commit.url.split("/")[5]}</strong> /{" "}
-            {commit.commit.message}
-          </p>
-        </div>
-        <div class="flex items-start gap-2 text-green-800 group-hover:brightness-120">
-          <p class="text-xs">
-            {new Date(commit.commit.author.date).toLocaleDateString("en-GB", {
-              day: "2-digit",
-              month: "2-digit",
-              year: "numeric",
-            })}
-          </p>
-          <p> | </p>
-          <div class="flex space-x-3 text-xs">
-            <span>+{commit.stats.additions}</span>
-            <span>-{commit.stats.deletions}</span>
-          </div>
-          <p> | </p>
-          <p class="text-xs">{commit.sha.substring(0, 7)}</p>
-        </div>
-      </a>
-    ))
-  }
-</div>
+{
+	errorPayload ? (
+		<ErrorOut error={errorPayload} />
+	) : (
+		<div class="space-y-4 font-mono text-sm">
+			{commits.map((commit) => (
+				<a
+					href={commit.html_url}
+					target="_blank"
+					class="group block space-y-1 border-l-3 border-green-500/40 pl-5 transition hover:border-green-500"
+				>
+					<div class="flex items-start justify-between gap-5">
+						<p class="mb-1 line-clamp-2">
+							<strong>{commit.url.split("/")[5]}</strong> /{" "}
+							{commit.commit.message}
+						</p>
+					</div>
+					<div class="flex items-start gap-2 text-green-800 group-hover:brightness-120">
+						<p class="text-xs">
+							{new Date(commit.commit.author.date).toLocaleDateString("en-GB", {
+								day: "2-digit",
+								month: "2-digit",
+								year: "numeric",
+							})}
+						</p>
+						<p> | </p>
+						<div class="flex space-x-3 text-xs">
+							<span>+{commit.stats.additions}</span>
+							<span>-{commit.stats.deletions}</span>
+						</div>
+						<p> | </p>
+						<p class="text-xs">{commit.sha.substring(0, 7)}</p>
+					</div>
+				</a>
+			))}
+		</div>
+	)
+}

@@ -3,29 +3,25 @@ import Layout from "../layouts/Layout.astro";
 import Container from "../components/Container.astro";
 import Button from "../components/Button.astro";
 import CommitLog from "../components/static/CommitLog.astro";
+import socials from "../data/socials.json";
 import Heatmap from "../components/static/Heatmap.astro";
 import LastFM from "../components/static/Scrobble.jsx";
 import Ascii from "../components/AsciiContainer.astro";
+import ErrorOut from "../components/ErrorOut.astro";
 
-const asciiArt = await (await fetch("https://pastebin.com/raw/2w7sZxex")).text();
-
-const socials = [
-	{
-		icon: "icons/socials/github.svg",
-		name: "GitHub",
-		href: "https://github.com/jrwnnnn",
-	},
-	{
-		icon: "icons/socials/gmail.svg",
-		name: "Email",
-		href: "mailto:no_email_yet@gmail.com",
-	},
-	{
-		icon: "icons/socials/instagram.svg",
-		name: "Instagram",
-		href: "https://instagram.com/jrwnnn_",
-	},
-];
+let errorPayload;
+const asciiArt = await fetch("https://pastebin.com/raw/2w7sZxex")
+	.then((r) =>
+		r.ok
+			? r.text()
+			: Promise.reject(
+					new Error(`Failed to load ASCII Art returned status ${r.status}`),
+				),
+	)
+	.catch((e) => {
+		errorPayload = e;
+		return "";
+	});
 
 const stack = [
 	{ icon: "icons/stack/javascript.svg", name: "JavaScript" },
@@ -39,7 +35,7 @@ const stack = [
 
 <Layout title="BOOT">
 	<main class="flex flex-col space-y-8">
-		<div class="space-y-15">
+		<section class="space-y-15">
 			<div class="mt-15 space-y-5 lg:w-2/3">
 				<p class="text-5xl text-balance md:text-6xl">Hello! It's Jerwin</p>
 				<p class="font-mono md:text-lg">
@@ -97,9 +93,9 @@ const stack = [
 					[ DATE RECIEVED: 2026-01-27 ]
 				</p>
 			</Container>
-		</div>
+		</section>
 		<hr class="border-green-500" />
-		<div class="space-y-5">
+		<section class="space-y-5">
 			<h3 class="text-xl font-bold tracking-widest">> MAIN_MENU</h3>
 			<div class="grid grid-cols-1 gap-6 font-mono font-bold lg:grid-cols-3">
 				<Button
@@ -115,12 +111,14 @@ const stack = [
 					<span class="mr-2 group-hover:animate-ping">></span> [ PCX ] GALLERY
 				</Button>
 			</div>
-		</div>
-		<div class="columns-1 gap-6 space-y-6 lg:columns-2">
+		</section>
+		<section class="columns-1 gap-6 space-y-6 lg:columns-2">
 			<Container class="break-inside-avoid space-y-5">
 				<p class="text-lg font-bold tracking-widest">> STACK</p>
 				<hr class="border border-green-500/30" />
-				<div class="grid grid-cols-3 place-items-center gap-4 md:grid-cols-5">
+				<div
+					class="grid grid-cols-3 place-items-center gap-4 brightness-90 md:grid-cols-5"
+				>
 					{
 						stack.map((language) => (
 							<div class="flex flex-col items-center gap-2">
@@ -139,15 +137,21 @@ const stack = [
 			<Container class="break-inside-avoid space-y-5">
 				<p class="text-lg font-bold tracking-widest">> COMMIT_LOG</p>
 				<hr class="border border-green-500/30" />
-				<CommitLog client:visible />
+				<CommitLog />
 				<Heatmap />
 			</Container>
 			<Container class="break-inside-avoid space-y-5">
 				<LastFM client:idle />
 			</Container>
 			<Container class="break-inside-avoid space-y-5">
-				<Ascii ascii={asciiArt} class="glitch opacity-90" />
+				{
+					errorPayload ? (
+						<ErrorOut error={errorPayload} />
+					) : (
+						<Ascii ascii={asciiArt} class="glitch opacity-90" />
+					)
+				}
 			</Container>
-		</div>
+		</section>
 	</main>
 </Layout>
