@@ -67,6 +67,7 @@ function Scrobble() {
 					}
 					alt={nowPlaying ? tracks[0]?.album?.["#text"] || "LastFM" : "LastFM"}
 					className="phosphor-filter h-full w-30 border border-green-500"
+					loading="lazy"
 				/>
 				<div className="hover:brightness-120">
 					<p className="line-clamp-2 text-lg font-bold tracking-wide">
