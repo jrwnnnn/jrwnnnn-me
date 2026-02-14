@@ -1,5 +1,106 @@
 [
   {
+    "sha": "1b9e1465a229a7b1dc45e96d2bcef98baf51da37",
+    "node_id": "C_kwDORCOQn9oAKDFiOWUxNDY1YTIyOWE3YjFkYzQ1ZTk2ZDJiY2VmOThiYWY1MWRhMzc",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-02-14T06:06:17Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-02-14T06:06:17Z"
+      },
+      "message": "Refactor Layout.astro based of Prettier [skip deploy]",
+      "tree": {
+        "sha": "55037f36a14a141537eefab11e021066831c2a79",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/55037f36a14a141537eefab11e021066831c2a79"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/1b9e1465a229a7b1dc45e96d2bcef98baf51da37",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/1b9e1465a229a7b1dc45e96d2bcef98baf51da37",
+    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/1b9e1465a229a7b1dc45e96d2bcef98baf51da37",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/1b9e1465a229a7b1dc45e96d2bcef98baf51da37/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e80bf389244e1657b4c92dc0a188c61c83574cff",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/e80bf389244e1657b4c92dc0a188c61c83574cff",
+        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/e80bf389244e1657b4c92dc0a188c61c83574cff"
+      }
+    ],
+    "stats": {
+      "total": 166,
+      "additions": 90,
+      "deletions": 76
+    },
+    "files": [
+      {
+        "sha": "0e820e7d7da9ca15602382464ce4fd2193597366",
+        "filename": "src/layouts/Layout.astro",
+        "status": "modified",
+        "additions": 90,
+        "deletions": 76,
+        "changes": 166,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/1b9e1465a229a7b1dc45e96d2bcef98baf51da37/src%2Flayouts%2FLayout.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/1b9e1465a229a7b1dc45e96d2bcef98baf51da37/src%2Flayouts%2FLayout.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Flayouts%2FLayout.astro?ref=1b9e1465a229a7b1dc45e96d2bcef98baf51da37",
+        "patch": "@@ -7,108 +7,122 @@ interface Props {\n }\n \n import \"../styles/global.css\";\n-const { title, description = \"Default Description\", statusBar = true, footer = true} = Astro.props;\n-const latestCommit = await(await fetch('https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/jrwnnnn-me-commits.json')).json();\n+const {\n+\ttitle,\n+\tdescription = \"Default Description\",\n+\tstatusBar = true,\n+\tfooter = true,\n+} = Astro.props;\n+const latestCommit = await (\n+\tawait fetch(\n+\t\t\"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/jrwnnnn-me-commits.json\",\n+\t)\n+).json();\n const socials = [\n-  {\n-    icon: \"icons/socials/github.svg\",\n-    href: \"https://github.com/jrwnnnn\",\n-\tname: \"Github\",\n-  },\n-  {\n-    icon: \"icons/socials/gmail.svg\",\n-    href: \"mailto:no_email_yet@gmail.com\",\n-\tname: \"Email\"\n-  },\n-  {\n-    icon: \"icons/socials/instagram.svg\",\n-    href: \"https://instagram.com/jrwnnn_\",\n-\tname: \"Instagram\"\n-  },\n+\t{\n+\t\ticon: \"icons/socials/github.svg\",\n+\t\thref: \"https://github.com/jrwnnnn\",\n+\t\tname: \"Github\",\n+\t},\n+\t{\n+\t\ticon: \"icons/socials/gmail.svg\",\n+\t\thref: \"mailto:no_email_yet@gmail.com\",\n+\t\tname: \"Email\",\n+\t},\n+\t{\n+\t\ticon: \"icons/socials/instagram.svg\",\n+\t\thref: \"https://instagram.com/jrwnnn_\",\n+\t\tname: \"Instagram\",\n+\t},\n ];\n ---\n \n-<!DOCTYPE html>\n+<!doctype html>\n <html lang=\"en\">\n \t<head>\n \t\t<meta charset=\"UTF-8\" />\n \t\t<meta name=\"viewport\" content=\"width=device-width\" />\n-\t\t<link rel=\"icon\" type=\"image/x-icon\" href=\"/favicon.svg\">\n+\t\t<link rel=\"icon\" type=\"image/x-icon\" href=\"/favicon.svg\" />\n \t\t<!-- TODO: Metadata -->\n \t\t<title>Mark Jerwin // {title}</title>\n \t</head>\n \t<body>\n-\t\t{statusBar ?\n-\t\t\t<div class=\"flex fixed top-0 left-0 z-40 justify-between items-center py-1 px-5 w-full text-xs border-b border-green-800 bg-green-900/20 backdrop-blur-sm\">\n-\t\t\t\t<div class=\"flex gap-4\">\n-\t\t\t\t\t<span>[ CONNECTED ]</span>\n-\t\t\t\t\t<span>USER: GUEST</span>\n-\t\t\t\t</div>\n-\t\t\t\t<div>\n-\t\t\t\t\t<span id=\"live-clock\"></span>\n-\t\t\t\t\t<script>\n-\t\t\t\t\t\tfunction updateTime() {\n-\t\t\t\t\t\t\tconst now = new Date();\n-\t\t\t\t\t\t\tconst timeString = now.toLocaleTimeString([], { hour12: false });\n-\t\t\t\t\t\t\tdocument.getElementById('live-clock')!.textContent = timeString;\n-\t\t\t\t\t\t}\n-\t\t\t\t\t\tupdateTime();\n-\t\t\t\t\t\tsetInterval(updateTime, 1000);\n-\t\t\t\t\t</script>\n+\t\t{\n+\t\t\tstatusBar ? (\n+\t\t\t\t<div class=\"fixed top-0 left-0 z-40 flex w-full items-center justify-between border-b border-green-800 bg-green-900/20 px-5 py-1 text-xs backdrop-blur-sm\">\n+\t\t\t\t\t<div class=\"flex gap-4\">\n+\t\t\t\t\t\t<span>[ CONNECTED ]</span>\n+\t\t\t\t\t\t<span>USER: GUEST</span>\n+\t\t\t\t\t</div>\n+\t\t\t\t\t<div>\n+\t\t\t\t\t\t<span id=\"live-clock\" />\n+\t\t\t\t\t</div>\n \t\t\t\t</div>\n-\t\t\t</div>\n-\t\t\t: null\n+\t\t\t) : null\n \t\t}\n \n-\t\t<slot />\n+\t\t<script>\n+\t\t\tfunction updateTime() {\n+\t\t\t\tconst liveClock = document.getElementById(\"live-clock\");\n+\t\t\t\tif (!liveClock) return;\n+\t\t\t\tconst now = new Date();\n+\t\t\t\tconst timeString = now.toLocaleTimeString([], { hour12: false });\n+\t\t\t\tliveClock.textContent = timeString;\n+\t\t\t}\n+\t\t\tupdateTime();\n+\t\t\tsetInterval(updateTime, 1000);\n+\t\t</script>\n \n-\t\t{footer ?\n-\t\t\t<footer class=\"mt-20\">\n-\t\t\t\t<div class=\"flex justify-end px-5 md:px-20 lg:px-30 z-0]\">\n-\t\t\t\t\t<span \n-\t\t\t\t\t\tclass=\"relative lg:top-5 bg-green-500 font-bold md:px-2 px-3 hover:top-0 transition-all cursor-pointer text-black\" \n-\t\t\t\t\t\tonclick=\"window.scrollTo({ top: 0, behavior: 'smooth' })\"\n-\t\t\t\t\t>\n-\t\t\t\t\t\t<span class=\"lg:hidden text-2xl\">↑</span>\n-\t\t\t\t\t\t<span class=\"hidden lg:inline font-mono\">Back to Top</span>\n-\t\t\t\t\t</span>\n-\t\t\t\t</div>\n+\t\t<slot />\n \n-\t\t\t\t<div class=\"flex items-center justify-between border-t border-green-900/30 bg-black px-5 py-8 text-xs md:px-20 lg:px-30 relative z-1\">\n-\t\t\t\t\t<div class=\"flex flex-col space-x-5 md:flex-row\">\n-\t\t\t\t\t\t<p class=\"font-mono font-bold\">© 2026 Mark Jerwin</p>\n-\t\t\t\t\t\t<p class=\"hidden font-mono md:block\">-</p>\n-\t\t\t\t\t\t<a \n-\t\t\t\t\t\t\tclass=\"flex items-center gap-2 opacity-75 cursor-pointer hover:underline\" \n-\t\t\t\t\t\t\thref={latestCommit[0].html_url} \n-\t\t\t\t\t\t\ttarget=\"_blank\"\n+\t\t{\n+\t\t\tfooter ? (\n+\t\t\t\t<footer class=\"mt-20\">\n+\t\t\t\t\t<div class=\"z-0] flex justify-end px-5 md:px-20 lg:px-30\">\n+\t\t\t\t\t\t<span\n+\t\t\t\t\t\t\tclass=\"relative cursor-pointer bg-green-500 px-3 font-bold text-black transition-all hover:top-0 md:px-2 lg:top-5\"\n+\t\t\t\t\t\t\tonclick=\"window.scrollTo({ top: 0, behavior: 'smooth' })\"\n \t\t\t\t\t\t>\n-\t\t\t\t\t\t\t<img\n-\t\t\t\t\t\t\t\tclass=\"h-4 object-contain\"\n-\t\t\t\t\t\t\t\tsrc=\"icons/git-commit.svg\"\n-\t\t\t\t\t\t\t\tloading=\"lazy\"\n-\t\t\t\t\t\t\t\talt=\"Git Commit\"\n-\t\t\t\t\t\t\t/>\n-\t\t\t\t\t\t\t<p class=\"mt-0.5 font-mono\">{latestCommit[0].sha.slice(0, 7)}</p>\n-\t\t\t\t\t\t</a>\n+\t\t\t\t\t\t\t<span class=\"text-2xl lg:hidden\">↑</span>\n+\t\t\t\t\t\t\t<span class=\"hidden font-mono lg:inline\">Back to Top</span>\n+\t\t\t\t\t\t</span>\n \t\t\t\t\t</div>\n-\t\t\t\t\t<div class=\"flex items-center space-x-5\">\n-\t\t\t\t\t\t{\n-\t\t\t\t\t\t\tsocials.map((social) => (\n+\n+\t\t\t\t\t<div class=\"relative z-1 flex items-center justify-between border-t border-green-900/30 bg-black px-5 py-8 text-xs md:px-20 lg:px-30\">\n+\t\t\t\t\t\t<div class=\"flex flex-col space-x-5 md:flex-row\">\n+\t\t\t\t\t\t\t<p class=\"font-mono font-bold\">© 2026 Mark Jerwin</p>\n+\t\t\t\t\t\t\t<p class=\"hidden font-mono md:block\">-</p>\n+\t\t\t\t\t\t\t<a\n+\t\t\t\t\t\t\t\tclass=\"flex cursor-pointer items-center gap-2 opacity-75 hover:underline\"\n+\t\t\t\t\t\t\t\thref={latestCommit[0].html_url}\n+\t\t\t\t\t\t\t\ttarget=\"_blank\"\n+\t\t\t\t\t\t\t>\n+\t\t\t\t\t\t\t\t<img\n+\t\t\t\t\t\t\t\t\tclass=\"h-4 object-contain\"\n+\t\t\t\t\t\t\t\t\tsrc=\"icons/git-commit.svg\"\n+\t\t\t\t\t\t\t\t\tloading=\"lazy\"\n+\t\t\t\t\t\t\t\t\talt=\"Git Commit\"\n+\t\t\t\t\t\t\t\t/>\n+\t\t\t\t\t\t\t\t<p class=\"mt-0.5 font-mono\">\n+\t\t\t\t\t\t\t\t\t{latestCommit[0].sha.slice(0, 7)}\n+\t\t\t\t\t\t\t\t</p>\n+\t\t\t\t\t\t\t</a>\n+\t\t\t\t\t\t</div>\n+\t\t\t\t\t\t<div class=\"flex items-center space-x-5\">\n+\t\t\t\t\t\t\t{socials.map((social) => (\n \t\t\t\t\t\t\t\t<a href={social.href} target=\"_blank\" class=\"cursor-pointer\">\n \t\t\t\t\t\t\t\t\t<img\n \t\t\t\t\t\t\t\t\t\tclass=\"h-5 object-contain\"\n \t\t\t\t\t\t\t\t\t\tsrc={social.icon}\n \t\t\t\t\t\t\t\t\t\tloading=\"lazy\"\n-\t\t\t\t\t\t\t\t\t\talt=`${social.name} Icon`\n+\t\t\t\t\t\t\t\t\t\talt={social.name + \" Icon\"}\n \t\t\t\t\t\t\t\t\t/>\n \t\t\t\t\t\t\t\t</a>\n-\t\t\t\t\t\t\t))\n-\t\t\t\t\t\t}\n+\t\t\t\t\t\t\t))}\n+\t\t\t\t\t\t</div>\n \t\t\t\t\t</div>\n-\t\t\t\t</div>\n-\t\t\t</footer>\n-\t\t: null \n+\t\t\t\t</footer>\n+\t\t\t) : null\n \t\t}\n \n \t\t<svg class=\"hidden\">\n@@ -130,4 +144,4 @@ const socials = [\n \n \t\t<script src=\"../scripts/glitchFX.ts\"></script>\n \t</body>\n-</html>\n\\ No newline at end of file\n+</html>"
+      }
+    ]
+  },
+  {
     "sha": "e80bf389244e1657b4c92dc0a188c61c83574cff",
     "node_id": "C_kwDORCOQn9oAKGU4MGJmMzg5MjQ0ZTE2NTdiNGM5MmRjMGExODhjNjFjODM1NzRjZmY",
     "commit": {
@@ -580,107 +681,6 @@
         "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/d66cfce12ba3cf7e8d656829aa7529156f87f3a9/src%2Fstyles%2Fglobal.css",
         "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fstyles%2Fglobal.css?ref=d66cfce12ba3cf7e8d656829aa7529156f87f3a9",
         "patch": "@@ -37,7 +37,7 @@ body::before {\n     rgba(0, 0, 0, 0.25) 50%\n   );\n   background-size: 100% 4px;\n-  z-index: 9999;\n+  z-index: 100;\n   pointer-events: none;\n }\n "
-      }
-    ]
-  },
-  {
-    "sha": "417816413cb9bcc2efbc593f0cb60cac4fae028b",
-    "node_id": "C_kwDORCOQn9oAKDQxNzgxNjQxM2NiOWJjYzJlZmJjNTkzZjBjYjYwY2FjNGZhZTAyOGI",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-12T07:08:14Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-12T07:08:14Z"
-      },
-      "message": "Add Back to Top button to footer",
-      "tree": {
-        "sha": "9f7be2f20a1f0aa73ebe63c0fb7838dfcc608d4f",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/9f7be2f20a1f0aa73ebe63c0fb7838dfcc608d4f"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/417816413cb9bcc2efbc593f0cb60cac4fae028b",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/417816413cb9bcc2efbc593f0cb60cac4fae028b",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/417816413cb9bcc2efbc593f0cb60cac4fae028b",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/417816413cb9bcc2efbc593f0cb60cac4fae028b/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "d5a379f6e07198124eaaa88a8137d3a97d13196a",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/d5a379f6e07198124eaaa88a8137d3a97d13196a",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/d5a379f6e07198124eaaa88a8137d3a97d13196a"
-      }
-    ],
-    "stats": {
-      "total": 78,
-      "additions": 43,
-      "deletions": 35
-    },
-    "files": [
-      {
-        "sha": "c4f85a151526427a7ef150f37861269b8b73b2c8",
-        "filename": "src/layouts/Layout.astro",
-        "status": "modified",
-        "additions": 43,
-        "deletions": 35,
-        "changes": 78,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/417816413cb9bcc2efbc593f0cb60cac4fae028b/src%2Flayouts%2FLayout.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/417816413cb9bcc2efbc593f0cb60cac4fae028b/src%2Flayouts%2FLayout.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Flayouts%2FLayout.astro?ref=417816413cb9bcc2efbc593f0cb60cac4fae028b",
-        "patch": "@@ -62,44 +62,51 @@ const socials = [\n \n \t\t<slot />\n \n-\t\t<script src=\"../scripts/glitchFX.ts\"></script>\n-\n \t\t{footer ?\n-\t\t\t<footer\n-\t\t\tclass=\"mt-20 flex items-center justify-between border-t border-green-900/30 bg-black px-5 py-8 text-xs md:px-30\"\n-\t\t\t>\n-\t\t\t<div class=\"flex flex-col space-x-5 md:flex-row\">\n-\t\t\t\t<p class=\"font-mono font-bold\">© 2026 Mark Jerwin</p>\n-\t\t\t\t<p class=\"hidden font-mono md:block\">-</p>\n-\t\t\t\t<a \n-\t\t\t\t\tclass=\"flex items-center gap-2 opacity-75 cursor-pointer hover:underline\" \n-\t\t\t\t\thref={latestCommit[0].html_url} \n-\t\t\t\t\ttarget=\"_blank\"\n-\t\t\t\t>\n-\t\t\t\t\t<img\n-\t\t\t\t\t\tclass=\"h-4 object-contain\"\n-\t\t\t\t\t\tsrc=\"icons/git-commit.svg\"\n-\t\t\t\t\t\tloading=\"lazy\"\n-\t\t\t\t\t\talt=\"Git Commit\"\n-\t\t\t\t\t/>\n-\t\t\t\t\t<p class=\"mt-0.5 font-mono\">{latestCommit[0].sha.slice(0, 7)}</p>\n-\t\t\t\t</a>\n-\t\t\t</div>\n+\t\t\t<footer class=\"mt-20\">\n+\t\t\t\t<div class=\"flex justify-end px-5 md:px-30 z-0]\">\n+\t\t\t\t\t<span \n+\t\t\t\t\t\tclass=\"relative md:top-5 bg-green-500 font-bold md:px-2 px-3 hover:top-0 transition-all cursor-pointer text-black\" \n+\t\t\t\t\t\tonclick=\"window.scrollTo({ top: 0, behavior: 'smooth' })\"\n+\t\t\t\t\t>\n+\t\t\t\t\t\t<span class=\"md:hidden text-2xl\">↑</span>\n+\t\t\t\t\t\t<span class=\"hidden md:inline font-mono\">Back to Top</span>\n+\t\t\t\t\t</span>\n+\t\t\t\t</div>\n \n-\t\t\t<div class=\"flex items-center space-x-5\">\n-\t\t\t\t{\n-\t\t\t\t\tsocials.map((social) => (\n-\t\t\t\t\t\t<a href={social.href} target=\"_blank\" class=\"cursor-pointer\">\n+\t\t\t\t<div class=\"flex items-center justify-between border-t border-green-900/30 bg-black px-5 py-8 text-xs md:px-30 relative z-1\">\n+\t\t\t\t\t<div class=\"flex flex-col space-x-5 md:flex-row\">\n+\t\t\t\t\t\t<p class=\"font-mono font-bold\">© 2026 Mark Jerwin</p>\n+\t\t\t\t\t\t<p class=\"hidden font-mono md:block\">-</p>\n+\t\t\t\t\t\t<a \n+\t\t\t\t\t\t\tclass=\"flex items-center gap-2 opacity-75 cursor-pointer hover:underline\" \n+\t\t\t\t\t\t\thref={latestCommit[0].html_url} \n+\t\t\t\t\t\t\ttarget=\"_blank\"\n+\t\t\t\t\t\t>\n \t\t\t\t\t\t\t<img\n-\t\t\t\t\t\t\t\tclass=\"h-5 object-contain\"\n-\t\t\t\t\t\t\t\tsrc={social.icon}\n+\t\t\t\t\t\t\t\tclass=\"h-4 object-contain\"\n+\t\t\t\t\t\t\t\tsrc=\"icons/git-commit.svg\"\n \t\t\t\t\t\t\t\tloading=\"lazy\"\n-\t\t\t\t\t\t\t\talt=`${social.name} Icon`\n+\t\t\t\t\t\t\t\talt=\"Git Commit\"\n \t\t\t\t\t\t\t/>\n+\t\t\t\t\t\t\t<p class=\"mt-0.5 font-mono\">{latestCommit[0].sha.slice(0, 7)}</p>\n \t\t\t\t\t\t</a>\n-\t\t\t\t\t))\n-\t\t\t\t}\n-\t\t\t</div>\n+\t\t\t\t\t</div>\n+\t\t\t\t\t<div class=\"flex items-center space-x-5\">\n+\t\t\t\t\t\t{\n+\t\t\t\t\t\t\tsocials.map((social) => (\n+\t\t\t\t\t\t\t\t<a href={social.href} target=\"_blank\" class=\"cursor-pointer\">\n+\t\t\t\t\t\t\t\t\t<img\n+\t\t\t\t\t\t\t\t\t\tclass=\"h-5 object-contain\"\n+\t\t\t\t\t\t\t\t\t\tsrc={social.icon}\n+\t\t\t\t\t\t\t\t\t\tloading=\"lazy\"\n+\t\t\t\t\t\t\t\t\t\talt=`${social.name} Icon`\n+\t\t\t\t\t\t\t\t\t/>\n+\t\t\t\t\t\t\t\t</a>\n+\t\t\t\t\t\t\t))\n+\t\t\t\t\t\t}\n+\t\t\t\t\t</div>\n+\t\t\t\t</div>\n \t\t\t</footer>\n \t\t: null \n \t\t}\n@@ -109,9 +116,9 @@ const socials = [\n \t\t\t\t<feColorMatrix\n \t\t\t\t\ttype=\"matrix\"\n \t\t\t\t\tvalues=\"0.33 0.33 0.33 0 0 \n-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t0.33 0.33 0.33 0 0 \n-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t0.33 0.33 0.33 0 0 \n-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t0 0 0 1 0\"\n+\t\t\t\t\t\t\t0.33 0.33 0.33 0 0 \n+\t\t\t\t\t\t\t0.33 0.33 0.33 0 0 \n+\t\t\t\t\t\t\t0 0 0 1 0\"\n \t\t\t\t></feColorMatrix>\n \t\t\t\t<feComponentTransfer>\n \t\t\t\t\t<feFuncR type=\"linear\" slope=\"0.13\"></feFuncR>\n@@ -121,5 +128,6 @@ const socials = [\n \t\t\t</filter>\n \t\t</svg>\n \n+\t\t<script src=\"../scripts/glitchFX.ts\"></script>\n \t</body>\n </html>\n\\ No newline at end of file"
       }
     ]
   }
