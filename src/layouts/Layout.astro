@@ -5,13 +5,19 @@ import socials from "../data/socials.json";
 interface Props {
 	title: string;
 	description?: string;
+	robots?: string;
+	ogType?: string;
+	image?: string;
 	statusBar?: boolean;
 	footer?: boolean;
 }
 
 const {
-	title,
-	description = "Default Description",
+	title, 
+	description = "Hello! It's Jerwin! I'm a student based in Manila, PH. I build things for the web. My code is held together by duct tape and prayers. I spend more time customizing my VS Code theme than actually coding. If you see a bug, no you didn't.",
+	robots = "index, follow",
+	ogType = "website",
+	image = "https://jrwnnnn.me/meta/meta-image.png",
 	statusBar = true,
 	footer = true,
 } = Astro.props;
@@ -39,10 +45,23 @@ const latestCommit = await fetch(
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="canonical" href={Astro.url} />
+
+		<title>{title}</title>
+		<meta name="description" content={description} />
+		<meta name="robots" content={robots} />
+
+		<meta property="og:type" content={ogType} />
+		<meta property="og:url" content={Astro.url} />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:image" content={image} />
+
+		<meta name="twitter:card" content="summary_large_image" />
+
+		<meta name="theme-color" content="#000000" />
 		<link rel="icon" type="image/x-icon" href="/favicon.svg" />
-		<!-- TODO: Metadata -->
-		<title>Mark Jerwin // {title}</title>
 	</head>
 	<body>
 		{
