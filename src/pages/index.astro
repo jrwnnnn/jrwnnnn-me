@@ -19,7 +19,7 @@ const turso = createClient({
 });
 
 const art = await turso.execute(
-	"SELECT value FROM site_settings WHERE id = 'index.art'",
+	"SELECT value FROM site_settings WHERE key = 'index.art'",
 );
 
 let errorPayload, asciiArt = "";
