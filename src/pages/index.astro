@@ -1,27 +1,44 @@
 ---
+import { createClient } from "@libsql/client";
+
 import Layout from "../layouts/Layout.astro";
+import ErrorOut from "../components/ErrorOut.astro";
 import Container from "../components/Container.astro";
 import Button from "../components/Button.astro";
-import CommitLog from "../components/static/CommitLog.astro";
-import socials from "../data/socials.json";
-import Heatmap from "../components/static/Heatmap.astro";
-import LastFM from "../components/static/Scrobble.jsx";
 import Ascii from "../components/AsciiContainer.astro";
-import ErrorOut from "../components/ErrorOut.astro";
 
-let errorPayload;
-const asciiArt = await fetch("https://pastebin.com/raw/2w7sZxex")
-	.then((r) =>
-		r.ok
-			? r.text()
-			: Promise.reject(
-					new Error(`Failed to load ASCII Art returned status ${r.status}`),
-				),
-	)
-	.catch((e) => {
-		errorPayload = e;
-		return "";
-	});
+import CommitLog from "../components/modules/CommitLog.astro";
+import Heatmap from "../components/modules/Heatmap.astro";
+import LastFM from "../components/modules/Scrobble.jsx";
+
+import socials from "../data/socials.json";
+
+const turso = createClient({
+	url: process.env.TURSO_DATABASE_URL || import.meta.env.TURSO_DATABASE_URL,
+	authToken: process.env.TURSO_AUTH_TOKEN || import.meta.env.TURSO_AUTH_TOKEN,
+});
+
+const art = await turso.execute(
+	"SELECT value FROM site_settings WHERE id = 'index.art'",
+);
+
+let errorPayload, asciiArt = "";
+if (typeof art.rows[0].value === "string") {
+	asciiArt = await fetch(art.rows[0].value)
+		.then((r) =>
+			r.ok
+				? r.text()
+				: Promise.reject(
+						new Error(`Failed to load ASCII Art returned status ${r.status}`),
+					),
+		)
+		.catch((e) => {
+			errorPayload = e;
+			return "";
+		});
+} else {
+	errorPayload = new Error("Failed to load ASCII Art returned status: Invalid");
+}
 
 const stack = [
 	{ icon: "icons/stack/javascript.svg", name: "JavaScript" },
@@ -33,7 +50,7 @@ const stack = [
 ];
 ---
 
-<Layout title="BOOT">
+<Layout title="Mark Jerwin // BOOT">
 	<main class="flex flex-col space-y-8">
 		<section class="space-y-15">
 			<div class="mt-15 space-y-5 lg:w-2/3">
