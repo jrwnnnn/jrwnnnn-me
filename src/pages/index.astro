@@ -18,26 +18,14 @@ const turso = createClient({
 	authToken: process.env.TURSO_AUTH_TOKEN || import.meta.env.TURSO_AUTH_TOKEN,
 });
 
-const art = await turso.execute(
-	"SELECT value FROM site_settings WHERE key = 'index.art'",
-);
-
-let errorPayload, asciiArt = "";
-if (typeof art.rows[0].value === "string") {
-	asciiArt = await fetch(art.rows[0].value)
-		.then((r) =>
-			r.ok
-				? r.text()
-				: Promise.reject(
-						new Error(`Failed to load ASCII Art returned status ${r.status}`),
-					),
-		)
-		.catch((e) => {
-			errorPayload = e;
-			return "";
-		});
-} else {
-	errorPayload = new Error("Failed to load ASCII Art returned status: Invalid");
+let errorPayload, art;
+try {
+	const result = await turso.execute(
+		"SELECT value FROM site_settings WHERE key = 'index.art'",
+	);
+	art = result.rows[0].value;
+} catch (e) {
+	errorPayload = e instanceof Error ? e : new Error("Unknown fetch error");
 }
 
 const stack = [
@@ -165,7 +153,7 @@ const stack = [
 					errorPayload ? (
 						<ErrorOut error={errorPayload} />
 					) : (
-						<Ascii ascii={asciiArt} class="glitch opacity-90" />
+						<Ascii ascii={art as string} class="glitch opacity-90" />
 					)
 				}
 			</Container>
