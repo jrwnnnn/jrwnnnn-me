@@ -99,8 +99,7 @@ for (const repo of repositories) {
 							>
 								<div class="flex justify-between font-mono text-[.7rem] opacity-60">
 									<div>
-										0x
-										{createHash("md5")
+										0x{createHash("md5")
 											.update(repo.name)
 											.digest("hex")
 											.substring(0, 6)}
