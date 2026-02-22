@@ -13,7 +13,7 @@ interface Props {
 }
 
 const {
-	title, 
+	title,
 	description = "Hello! It's Jerwin! I'm a student based in Manila, PH. I build things for the web. My code is held together by duct tape and prayers. I spend more time customizing my VS Code theme than actually coding. If you see a bug, no you didn't.",
 	robots = "index, follow",
 	ogType = "website",
@@ -66,7 +66,7 @@ const latestCommit = await fetch(
 	<body>
 		{
 			statusBar ? (
-				<div class="fixed top-0 left-0 z-40 flex w-full items-center justify-between border-b border-green-800 bg-green-900/20 px-5 py-1 text-xs backdrop-blur-sm">
+				<header class="fixed top-0 left-0 z-40 flex w-full items-center justify-between border-b border-green-800 bg-green-900/20 px-5 py-1 text-xs backdrop-blur-sm">
 					<div class="flex gap-4">
 						<span>[ CONNECTED ]</span>
 						<span>USER: GUEST</span>
@@ -74,7 +74,7 @@ const latestCommit = await fetch(
 					<div>
 						<span id="live-clock" />
 					</div>
-				</div>
+				</header>
 			) : null
 		}
 
