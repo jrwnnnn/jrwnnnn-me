@@ -19,7 +19,6 @@ const turso = createClient({
 const { data: result, error: error } = await safeAsync(
 	turso.execute("SELECT id, image_data FROM gallery ORDER BY id DESC"),
 );
-console.log(result, error);
 const images = (result?.rows ?? []) as unknown as Row[];
 ---
 
