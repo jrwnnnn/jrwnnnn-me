@@ -1,5 +1,8 @@
 ---
+import { safeAsync } from "@utils/safeAsync";
 import { createClient } from "@libsql/client";
+
+import ErrorOut from "../components/ErrorOut.astro";
 
 import Layout from "../layouts/Layout.astro";
 
@@ -13,11 +16,11 @@ const turso = createClient({
 	authToken: process.env.TURSO_AUTH_TOKEN || import.meta.env.TURSO_AUTH_TOKEN,
 });
 
-const { rows } = await turso.execute(
-	"SELECT id, image_data FROM gallery ORDER BY id DESC",
+const { data: result, error: error } = await safeAsync(
+	turso.execute("SELECT id, image_data FROM gallery ORDER BY id DESC"),
 );
-const images = rows as unknown as Row[];
-const total = images.length;
+console.log(result, error);
+const images = (result?.rows ?? []) as unknown as Row[];
 ---
 
 <Layout title="Mark Jerwin // GALLERY">
@@ -26,7 +29,7 @@ const total = images.length;
 			<div>
 				<p class="text-xl font-bold tracking-widest">> GALLERY</p>
 				<p class="mt-1 font-mono text-sm opacity-70">
-					Found {total} images in the database. Captured using a Samsung A15 5G, Samsung
+					Found {images.length} images in the database. Captured using a Samsung A15 5G, Samsung
 					A02s, or Samsung PL20.
 				</p>
 			</div>
@@ -39,17 +42,21 @@ const total = images.length;
 		<hr class="bg-green-500" />
 		<div class="columns-1 gap-6 space-y-6 lg:columns-3">
 			{
-				images.map((row: Row) => (
-					<div class="break-inside-avoid">
-						<img
-							src={row.image_data}
-							alt={`Image ${row.id}`}
-							class="gallery-image w-full cursor-pointer border border-green-500/0 hover:border-green-500"
-							loading="lazy"
-							oncontextmenu="return false"
-						/>
-					</div>
-				))
+				error ? (
+					<ErrorOut error={error as Error} />
+				) : (
+					images.map((row: Row) => (
+						<div class="break-inside-avoid">
+							<img
+								src={row.image_data}
+								alt={`Image ${row.id}`}
+								class="gallery-image w-full cursor-pointer border border-green-500/0 hover:border-green-500 phosphor-filter"
+								loading="lazy"
+								oncontextmenu="return false"
+							/>
+						</div>
+					))
+				)
 			}
 		</div>
 	</main>
