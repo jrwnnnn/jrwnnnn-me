@@ -1,62 +1,62 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: 'ibm';
-  src: url(../assets/fonts/ibm_vga_8x16.woff2) format('woff2');
+	font-family: "ibm";
+	src: url(../assets/fonts/ibm_vga_8x16.woff2) format("woff2");
 }
 
 @font-face {
-  font-family: 'Terminus';
-  src: url(../assets/fonts/Terminus.woff2) format('woff2');
+	font-family: "Terminus";
+	src: url(../assets/fonts/Terminus.woff2) format("woff2");
 }
 
 @theme {
-  --font-mono: 'Terminus';
+	--font-mono: "Terminus";
 }
 
 body {
-  @apply flex min-h-dvh flex-col overflow-x-hidden bg-black text-green-500;
-  font-family: ibm;
-  background-image:
-    linear-gradient(rgba(34, 197, 94, 0.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(34, 197, 94, 0.05) 1px, transparent 1px);
-  background-size: 20px 20px;
+	@apply flex min-h-dvh flex-col overflow-x-hidden bg-black text-green-500;
+	font-family: ibm;
+	background-image:
+		linear-gradient(rgba(34, 197, 94, 0.05) 1px, transparent 1px),
+		linear-gradient(90deg, rgba(34, 197, 94, 0.05) 1px, transparent 1px);
+	background-size: 20px 20px;
 }
 
 body::before {
-  content: " ";
-  display: block;
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: linear-gradient(
-    to bottom,
-    rgba(18, 16, 16, 0) 50%,
-    rgba(0, 0, 0, 0.25) 50%
-  );
-  background-size: 100% 4px;
-  z-index: 100;
-  pointer-events: none;
+	content: " ";
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: linear-gradient(
+		to bottom,
+		rgba(18, 16, 16, 0) 50%,
+		rgba(0, 0, 0, 0.25) 50%
+	);
+	background-size: 100% 4px;
+	z-index: 100;
+	pointer-events: none;
 }
 
 main {
-  @apply grow px-5 py-20 md:px-20 lg:px-30;
+	@apply grow px-5 py-20 md:px-20 lg:px-30;
 }
 
 /* Effects */
 .glitch {
-  position: relative;
-  isolation: isolate;
+	position: relative;
+	isolation: isolate;
 }
 
 /* Phophor green filter for images */
 .phosphor-filter {
-  filter: url(#phosphor-overlay) contrast(1.2);
-  transition: filter 0.3s ease;
+	filter: url(#phosphor-overlay) contrast(1.2);
+	transition: filter 0.3s ease;
 }
 
 .phosphor-filter:hover {
-  filter: none;
+	filter: none;
 }
