@@ -42,7 +42,7 @@ const stack = [
 	<main class="flex flex-col space-y-8">
 		<section class="space-y-15">
 			<div class="mt-15 space-y-5 lg:w-2/3">
-				<p class="text-5xl text-balance md:text-6xl">Hello! It's Jerwin</p>
+				<p class="text-5xl text-balance md:text-6xl uppercase tracking-wider">Hello! It's Jerwin</p>
 				<p class="font-mono md:text-lg">
 					I'm a student based in <strong>Manila, PH</strong>. I build things for
 					the <strong>web</strong>. My code is held together by duct tape and
@@ -72,7 +72,7 @@ const stack = [
 			{
 				r_latestTransmission?.rows[0] ? (
 					<Container
-						onclick={`location.href='/posts/${r_latestTransmission?.rows[0].slug}'`}
+						onclick={`location.href='/transmission/${r_latestTransmission?.rows[0].slug}'`}
 					>
 						<p class="font-mono text-lg font-bold tracking-widest uppercase">
 							{r_latestTransmission?.rows[0].title}
@@ -86,7 +86,7 @@ const stack = [
 									month: "short",
 									day: "numeric",
 								})}
-							</span>{" "}
+							</span>
 							- {r_latestTransmission?.rows[0].subtitle}
 						</p>
 					</Container>
@@ -107,8 +107,8 @@ const stack = [
 				>
 					<span class="mr-2 group-hover:animate-ping">></span> [ DIR ] PROJECTS
 				</Button>
-				<Button class="group py-3! text-left" onclick="location.href='posts'">
-					<span class="mr-2 group-hover:animate-ping">></span> [ LOG ] POSTS
+				<Button class="group py-3! text-left" onclick="location.href='transmission'">
+					<span class="mr-2 group-hover:animate-ping">></span> [ LOG ] TRANSMISSION_LOG
 				</Button>
 				<Button class="group py-3! text-left" onclick="location.href='gallery'">
 					<span class="mr-2 group-hover:animate-ping">></span> [ PCX ] GALLERY

@@ -40,8 +40,11 @@
 .prose ul li {
 	@apply my-2 list-disc;
 }
-.prose li {
+.prose ol li {
 	@apply my-2 list-decimal;
+}
+.prose ul li input {
+	@apply h-3 w-3 appearance-none border border-green-500 checked:bg-green-500;
 }
 .prose table {
 	@apply my-4 block w-full max-w-full overflow-x-auto border border-green-800 whitespace-nowrap md:table md:whitespace-normal;

@@ -2,6 +2,7 @@
 import { createHash } from "node:crypto";
 
 import Layout from "../layouts/Layout.astro";
+import Header from "../layouts/Header.astro";
 import ErrorOut from "../components/ErrorOut.astro";
 
 interface Repositories {
@@ -56,20 +57,16 @@ for (const repo of repositories) {
 
 <Layout title="Mark Jerwin // PROJECTS">
 	<main class="flex flex-col space-y-8">
-		<div class="flex items-end justify-between">
-			<div>
-				<p class="text-xl font-bold tracking-widest">> PROJECT_DATABASE</p>
-				<p class="mt-1 font-mono text-sm opacity-70">
-					Found {repositories.length} records in local storage. Total size: {
-						total
-					} B
-				</p>
+		<Header heading="PROJECT_DATABASE">
+			<div class="flex items-center gap-3 font-mono text-sm opacity-80">
+				<span class="flex items-center gap-1.5">
+					{repositories.length} RECORDS
+				</span>
+					<span class="text-green-500/50">/</span>
+					<span>VOL: {total} B</span>
+				</div>
 			</div>
-			<a href="/" class="group hidden text-sm lg:block">
-				<span class="inline-block group-hover:-translate-x-1">&lt;</span> [ RETURN
-				]
-			</a>
-		</div>
+		</Header>
 		<hr class="bg-green-500" />
 		<div class="flex flex-wrap gap-2">
 			{
@@ -81,7 +78,7 @@ for (const repo of repositories) {
 							(60 + Math.floor(Math.min(repo.size ?? 0, 100000) / 2500)) / 4;
 						const statusClass = repo.archived
 							? "border-green-500 bg-green-900/5 opacity-50 hover:opacity-100 focus:opacity-100"
-							: "border-green-500 bg-green-900/10  hover:bg-green-500 hover:text-black focus:bg-green-500 focus:text-black";
+							: "border-green-500 bg-green-900/10  hover:bg-green-800/20 focus:bg-green-500 focus:text-black";
 
 						const stats =
 							participation[repo.name]?.all ?? new Array(52).fill(0);
@@ -98,16 +95,16 @@ for (const repo of repositories) {
 								class={`${statusClass} flex w-full flex-col justify-between space-y-2 border p-4 md:w-(--w)`}
 							>
 								<div class="flex justify-between font-mono text-[.7rem] opacity-60">
+									{/* prettier-ignore */}
 									<div>
-										0x{createHash("md5")
-											.update(repo.name)
-											.digest("hex")
-											.substring(0, 6)}
+										0x{createHash("md5").update(repo.name).digest("hex").substring(0, 6)}
 									</div>
 									<div>{repo.size} B</div>
 								</div>
 								<div class="flex items-center">
-									<p class="truncate text-lg uppercase">{repo.name}</p>
+									<p class="truncate font-mono text-lg font-bold uppercase">
+										{repo.name}
+									</p>
 									<svg
 										class="ml-1 inline-block h-3.5 w-3.5"
 										fill="none"
@@ -130,7 +127,7 @@ for (const repo of repositories) {
 								{/* Activity Graph */}
 								<svg
 									viewBox="0 0 102 25"
-									class="h-8 w-full opacity-60 hover:opacity-100"
+									class="h-8 w-full opacity-60"
 									preserveAspectRatio="none"
 								>
 									<polyline
@@ -145,7 +142,7 @@ for (const repo of repositories) {
 								</svg>
 
 								<div class="mt-2 flex items-end justify-between">
-									<div class="flex items-center gap-2 text-xs tracking-wider uppercase">
+									<div class="flex items-center gap-2 font-mono text-xs uppercase opacity-80">
 										<div class="border px-2 py-0.5">
 											{repo.language ?? "RAW"}
 										</div>
