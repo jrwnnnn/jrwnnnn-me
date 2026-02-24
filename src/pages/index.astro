@@ -1,5 +1,6 @@
 ---
 import { createClient } from "@libsql/client";
+import { safeAsync } from "@utils/safeAsync";
 
 import Layout from "../layouts/Layout.astro";
 import ErrorOut from "../components/ErrorOut.astro";
@@ -18,15 +19,14 @@ const turso = createClient({
 	authToken: process.env.TURSO_AUTH_TOKEN || import.meta.env.TURSO_AUTH_TOKEN,
 });
 
-let errorPayload, art;
-try {
-	const result = await turso.execute(
-		"SELECT value FROM site_settings WHERE key = 'index.art'",
+const { data: r_latestTransmission, error: e_latestTransmission } =
+	await safeAsync(
+		turso.execute("SELECT * FROM articles ORDER BY date_created DESC LIMIT 1"),
 	);
-	art = result.rows[0].value;
-} catch (e) {
-	errorPayload = e instanceof Error ? e : new Error("Unknown fetch error");
-}
+
+const { data: r_siteSettings, error: e_SiteSetting } = await safeAsync(
+	turso.execute("SELECT * FROM site_settings"),
+);
 
 const stack = [
 	{ icon: "icons/stack/javascript.svg", name: "JavaScript" },
@@ -69,35 +69,33 @@ const stack = [
 					}
 				</div>
 			</div>
-			<Container class="space-y-2" onclick="location.href='blog?=latest'">
-				<p class="text-lg font-bold tracking-widest">> LATEST_TRANSMISSION</p>
-				<div class="flex items-center text-sm">
-					<span
-						class="mr-2 bg-green-500 px-1 font-mono text-xs font-bold text-black"
-						>ENCRYPTED</span
+			{
+				r_latestTransmission?.rows[0] ? (
+					<Container
+						onclick={`location.href='/posts/${r_latestTransmission?.rows[0].slug}'`}
 					>
-					<span
-						id="latest_transmission"
-						class="line-clamp-2 cursor-pointer text-green-500 opacity-80"
-						>░█░█░▄▀▄░█░█░░░░░█▀▀░█▀▄░█▀▄░█▀█░█▀▄░░▀█░█/█░░▀█░░░░░█▀▀░█▀▄░█▀▄░█░█░█▀▄░░░▀░░▀░░░░▀░▀▀▀░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀</span
-					>
-					<script>
-						const e = document.getElementById("latest_transmission"),
-							c = "░█▓▒▀▄▌▐",
-							l = e!.innerText.length;
-						setInterval(
-							() =>
-								(e!.innerText = [...Array(l)]
-									.map(() => c[Math.floor(Math.random() * c.length)])
-									.join("")),
-							100,
-						);
-					</script>
-				</div>
-				<p class="font-mono text-xs text-green-700">
-					[ DATE RECIEVED: 2026-01-27 ]
-				</p>
-			</Container>
+						<p class="font-mono text-lg font-bold tracking-widest uppercase">
+							{r_latestTransmission?.rows[0].title}
+						</p>
+						<p class="line-clamp-1 font-mono text-green-600">
+							<span>
+								{new Date(
+									r_latestTransmission?.rows[0].date_created as string,
+								).toLocaleDateString("en-US", {
+									year: "numeric",
+									month: "short",
+									day: "numeric",
+								})}
+							</span>{" "}
+							- {r_latestTransmission?.rows[0].subtitle}
+						</p>
+					</Container>
+				) : (
+					<Container>
+						<ErrorOut error={e_latestTransmission as Error} />
+					</Container>
+				)
+			}
 		</section>
 		<hr class="border-green-500" />
 		<section class="space-y-5">
@@ -109,8 +107,8 @@ const stack = [
 				>
 					<span class="mr-2 group-hover:animate-ping">></span> [ DIR ] PROJECTS
 				</Button>
-				<Button class="group py-3! text-left" onclick="location.href='blog'">
-					<span class="mr-2 group-hover:animate-ping">></span> [ LOG ] BLOGS
+				<Button class="group py-3! text-left" onclick="location.href='posts'">
+					<span class="mr-2 group-hover:animate-ping">></span> [ LOG ] POSTS
 				</Button>
 				<Button class="group py-3! text-left" onclick="location.href='gallery'">
 					<span class="mr-2 group-hover:animate-ping">></span> [ PCX ] GALLERY
@@ -150,10 +148,19 @@ const stack = [
 			</Container>
 			<Container class="break-inside-avoid space-y-5">
 				{
-					errorPayload ? (
-						<ErrorOut error={errorPayload} />
+					e_SiteSetting ? (
+						<ErrorOut error={e_SiteSetting as Error} />
 					) : (
-						<Ascii ascii={art as string} class="glitch opacity-90" />
+						<>
+							<Ascii
+								ascii={r_siteSettings?.rows[0]?.value as string}
+								class="glitch opacity-90"
+							/>
+							<hr class="border border-green-500/30" />
+							<p class="text-center font-mono text-sm italic">
+								{r_siteSettings?.rows[1]?.value}
+							</p>
+						</>
 					)
 				}
 			</Container>
