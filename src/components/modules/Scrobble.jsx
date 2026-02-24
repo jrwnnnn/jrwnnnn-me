@@ -66,7 +66,7 @@ function Scrobble() {
 							: "https://www.last.fm/static/images/lastfm_avatar_twitter.52a5d69a85ac.png"
 					}
 					alt={nowPlaying ? tracks[0]?.album?.["#text"] || "LastFM" : "LastFM"}
-					className="phosphor-filter h-full w-30 border border-green-500"
+					className="phosphor-filter h-full w-30 border border-green-500 hover:filter-none!"
 					loading="lazy"
 				/>
 				<div className="hover:brightness-120">
@@ -80,7 +80,9 @@ function Scrobble() {
 					<p className="font-mono text-sm text-green-600">
 						{nowPlaying
 							? `Artist: ${tracks[0]?.artist?.["#text"] || ""}`
-							: loading ? "Connecting to Last.FM" : "Offline"}
+							: loading
+								? "Connecting to Last.FM"
+								: "Offline"}
 					</p>
 					<p
 						className={`font-mono text-sm text-green-600 ${!nowPlaying ? "hidden" : ""}`}

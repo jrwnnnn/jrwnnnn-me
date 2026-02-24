@@ -1,0 +1,98 @@
+---
+import "../../styles/marked.css";
+import { createClient } from "@libsql/client";
+import { safeAsync } from "@utils/safeAsync";
+import { createHash } from "node:crypto";
+import { marked } from "marked";
+
+import Layout from "../../layouts/Layout.astro";
+
+const turso = createClient({
+	url: process.env.TURSO_DATABASE_URL || import.meta.env.TURSO_DATABASE_URL,
+	authToken: process.env.TURSO_AUTH_TOKEN || import.meta.env.TURSO_AUTH_TOKEN,
+});
+
+// const action = Astro.url.searchParams.get("action") ?? null;
+
+const { data: result, error } = await safeAsync(
+	turso.execute(
+		"UPDATE articles SET views = views + 1 WHERE slug = ? RETURNING *",
+		[Astro.params.slug as string],
+	),
+);
+
+if (error || result?.rows.length === 0) {
+	return Astro.rewrite("/404");
+}
+
+const article = result?.rows[0];
+---
+
+{
+	article && (
+		<Layout
+			title={article.title as string}
+			robots="noindex, nofollow"
+			description={article.subtitle as string}
+		>
+			<main class="flex flex-col items-center justify-center space-y-10">
+				<div class="w-full font-mono md:w-[60vw]">
+					<statusbar class="flex items-center justify-between border border-b-0 border-green-800 bg-green-900/20 px-4 py-2 text-xs tracking-widest uppercase">
+						<span>
+							ID:{" "}
+							{createHash("md5")
+								.update(article.slug as string)
+								.digest("hex")
+								.substring(0, 10)}
+						</span>
+						<time datetime={new Date().toISOString()}>
+							{new Date(article.date_created as string).toLocaleDateString(
+								"en-US",
+								{
+									year: "numeric",
+									month: "short",
+									day: "numeric",
+								},
+							)}
+						</time>
+					</statusbar>
+
+					<div class="flex flex-col space-y-5 border border-green-800 bg-black p-6 md:p-12">
+						<p class="w-full rounded-none text-4xl leading-none font-bold uppercase outline-none md:text-5xl">
+							{article!.title}
+						</p>
+						<p class="w-full text-lg text-green-600 outline-none">
+							{article.subtitle}
+						</p>
+
+						<hr class="border-b border-green-900/50" />
+
+						<div
+							class="prose"
+							set:html={marked.parse(article.content as string)}
+						/>
+
+						<hr class="border-b border-green-900/50" />
+						<div>
+							{" "}
+							<p class="text-center text-sm text-green-800 italic">
+								{" "}
+								END OF TRANSMISSION{" "}
+							</p>
+							<p class="text-center text-sm text-green-800 italic">
+								{" "}
+								Transmission ID:
+								<span class="tracking-wide uppercase">
+									{createHash("md5")
+										.update(article.slug as string)
+										.digest("hex")
+										.substring(0, 20)}
+								</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</main>
+		</Layout>
+	)
+}

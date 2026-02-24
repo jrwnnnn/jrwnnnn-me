@@ -56,7 +56,3 @@ main {
 	filter: url(#phosphor-overlay) contrast(1.2);
 	transition: filter 0.3s ease;
 }
-
-.phosphor-filter:hover {
-	filter: none;
-}
