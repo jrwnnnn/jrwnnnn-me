@@ -2,9 +2,10 @@
 import { safeAsync } from "@utils/safeAsync";
 import { createClient } from "@libsql/client";
 
-import ErrorOut from "../components/ErrorOut.astro";
-
+import Header from "../layouts/Header.astro";
 import Layout from "../layouts/Layout.astro";
+
+import ErrorOut from "../components/ErrorOut.astro";
 
 interface Row {
 	id: number;
@@ -24,20 +25,12 @@ const images = (result?.rows ?? []) as unknown as Row[];
 
 <Layout title="Mark Jerwin // GALLERY">
 	<main class="flex flex-col space-y-8">
-		<div class="flex items-end justify-between">
-			<div>
-				<p class="text-xl font-bold tracking-widest">> GALLERY</p>
-				<p class="mt-1 font-mono text-sm opacity-70">
-					Found {images.length} images in the database. Captured using a Samsung A15 5G, Samsung
-					A02s, or Samsung PL20.
-				</p>
-			</div>
-
-			<a href="/" class="group hidden text-sm tracking-widest lg:block">
-				<span class="inline-block group-hover:-translate-x-1">&lt;</span> [ RETURN
-				]
-			</a>
-		</div>
+		<Header heading="GALLERY">
+			<p class="font-mono text-sm opacity-80">
+				Found {images.length} images in the database. Captured using a Samsung A15
+				5G, Samsung A02s, or Samsung PL20.
+			</p>
+		</Header>
 		<hr class="bg-green-500" />
 		<div class="columns-1 gap-6 space-y-6 lg:columns-3">
 			{
@@ -49,7 +42,7 @@ const images = (result?.rows ?? []) as unknown as Row[];
 							<img
 								src={row.image_data}
 								alt={`Image ${row.id}`}
-								class="gallery-image w-full cursor-pointer border border-green-500/0 hover:border-green-500 phosphor-filter"
+								class="gallery-image phosphor-filter w-full cursor-pointer border border-green-500/0 hover:border-green-500 hover:filter-none!"
 								loading="lazy"
 								oncontextmenu="return false"
 							/>
