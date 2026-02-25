@@ -42,7 +42,9 @@ const stack = [
 	<main class="flex flex-col space-y-8">
 		<section class="space-y-15">
 			<div class="mt-15 space-y-5 lg:w-2/3">
-				<p class="text-5xl text-balance md:text-6xl uppercase tracking-wider">Hello! It's Jerwin</p>
+				<p class="text-5xl tracking-wider text-balance md:text-6xl">
+					Hello! It's Jerwin
+				</p>
 				<p class="font-mono md:text-lg">
 					I'm a student based in <strong>Manila, PH</strong>. I build things for
 					the <strong>web</strong>. My code is held together by duct tape and
@@ -107,7 +109,10 @@ const stack = [
 				>
 					<span class="mr-2 group-hover:animate-ping">></span> [ DIR ] PROJECTS
 				</Button>
-				<Button class="group py-3! text-left" onclick="location.href='transmission'">
+				<Button
+					class="group py-3! text-left"
+					onclick="location.href='transmission'"
+				>
 					<span class="mr-2 group-hover:animate-ping">></span> [ LOG ] TRANSMISSION_LOG
 				</Button>
 				<Button class="group py-3! text-left" onclick="location.href='gallery'">
@@ -116,7 +121,7 @@ const stack = [
 			</div>
 		</section>
 		<section class="columns-1 gap-6 space-y-6 lg:columns-2">
-			<Container class="break-inside-avoid space-y-5">
+			<Container class="break-inside-avoid space-y-5 bg-black!">
 				<p class="text-lg font-bold tracking-widest">> STACK</p>
 				<hr class="border border-green-500/30" />
 				<div
@@ -124,26 +129,28 @@ const stack = [
 				>
 					{
 						stack.map((language) => (
-							<div class="flex flex-col items-center gap-2">
+							<div class="group flex cursor-pointer flex-col items-center gap-2">
 								<img
-									class="lag:w-13 h-10 w-10 object-contain lg:h-13"
+									class="lg:w-13 h-10 w-10 object-contain transition-all duration-300 ease-out group-hover:scale-110 group-hover:drop-shadow-[0_0_20px_rgba(34,197,94,0.8)] lg:h-13"
 									src={language.icon}
 									loading="lazy"
 									alt={language.name}
 								/>
-								<p class="font-mono text-xs font-bold">{language.name}</p>
+								<p class="font-mono text-xs font-bold transition-colors duration-300 group-hover:text-green-400">
+									{language.name}
+								</p>
 							</div>
 						))
 					}
 				</div>
 			</Container>
-			<Container class="break-inside-avoid space-y-5">
+			<Container class="break-inside-avoid space-y-5 bg-black!">
 				<p class="text-lg font-bold tracking-widest">> COMMIT_LOG</p>
 				<hr class="border border-green-500/30" />
 				<CommitLog />
 				<Heatmap />
 			</Container>
-			<Container class="break-inside-avoid space-y-5">
+			<Container class="break-inside-avoid space-y-5 bg-black!">
 				<LastFM client:idle />
 			</Container>
 			<Container class="break-inside-avoid space-y-5">
