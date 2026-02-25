@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css";
 import socials from "../data/socials.json";
+import { safeAsync } from "@utils/safeAsync";
 
 interface Props {
 	title: string;
@@ -23,22 +24,12 @@ const {
 } = Astro.props;
 
 let errorPayload;
-const latestCommit = await fetch(
-	"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/jrwnnnn-me-commits.json",
-)
-	.then((r) =>
-		r.ok
-			? r.json()
-			: Promise.reject(
-					new Error(
-						`Failed to load page's latest commit returned status ${r.status}`,
-					),
-				),
-	)
-	.catch((e) => {
-		errorPayload = e;
-		return [];
-	});
+const latestCommit = await safeAsync(
+	fetch(
+		"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/jrwnnnn-me-commits.json",
+	).then((res) => res.json()),
+);
+console.log(latestCommit);
 ---
 
 <!doctype html>
@@ -66,13 +57,36 @@ const latestCommit = await fetch(
 	<body>
 		{
 			statusBar ? (
-				<header class="fixed top-0 left-0 z-40 flex w-full items-center justify-between border-b border-green-800 bg-green-900/20 px-5 py-1 text-xs backdrop-blur-sm">
-					<div class="flex gap-4">
-						<span>[ CONNECTED ]</span>
-						<span>USER: GUEST</span>
-					</div>
+				<header class="fixed top-0 left-0 z-40 flex w-full items-center justify-between border-b border-green-900/30 bg-black px-5 py-1 font-mono text-sm">
+					<nav class="flex items-center font-bold">
+						<span class="text-green-700">./</span>
+
+						{Astro.url.pathname === "/" ? (
+							<a href="/" class="px-1">
+								root
+							</a>
+						) : (
+							Astro.url.pathname
+								.split("/")
+								.filter(Boolean)
+								.map((part, index, arr) => (
+									<span class="flex items-center">
+										<a
+											href={`/${arr.slice(0, index + 1).join("/")}`}
+											class="px-1"
+										>
+											{part}
+										</a>
+										{index < arr.length - 1 && (
+											<span class="mx-0.5 text-green-800">/</span>
+										)}
+									</span>
+								))
+						)}
+					</nav>
+
 					<div>
-						<span id="live-clock" />
+						<span id="live-clock" class="font-bold text-green-500" />
 					</div>
 				</header>
 			) : null
@@ -95,7 +109,7 @@ const latestCommit = await fetch(
 		{
 			footer ? (
 				<footer class="mt-10">
-					<div class="z-0] flex justify-end px-5 md:px-20 lg:px-30">
+					<div class="flex justify-end px-5 md:px-20 lg:px-30">
 						<span
 							class="relative cursor-pointer bg-green-500 px-3 font-bold text-black transition-all hover:top-0 md:px-2 lg:top-5"
 							onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
@@ -108,12 +122,12 @@ const latestCommit = await fetch(
 					<div class="relative z-1 flex items-center justify-between border-t border-green-900/30 bg-black px-5 py-8 text-xs md:px-20 lg:px-30">
 						<div class="flex flex-col space-x-5 md:flex-row">
 							<p class="font-mono font-bold">© 2026 Mark Jerwin</p>
-							{!errorPayload && (
+							{latestCommit.data && (
 								<>
 									<p class="hidden font-mono md:block">-</p>
 									<a
 										class="flex cursor-pointer items-center gap-2 opacity-75 hover:underline"
-										href={latestCommit[0].html_url}
+										href={latestCommit.data[0].html_url}
 										target="_blank"
 									>
 										<img
@@ -123,7 +137,7 @@ const latestCommit = await fetch(
 											alt="Git Commit"
 										/>
 										<p class="mt-0.5 font-mono">
-											{latestCommit[0].sha.slice(0, 7)}
+											{latestCommit.data[0].sha.slice(0, 7)}
 										</p>
 									</a>
 								</>
