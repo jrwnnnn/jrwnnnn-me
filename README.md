@@ -1,6 +1,6 @@
-<h1 align="center">Project jrwnnnn_</h1>
+<h1 align="center">jrwnnnn-me : terminal-folio</h1>
 
-<p align="center"><i>My personal portfolio site built with Astro, wrapped in a green-on-black ASCII/CRT vibe.</i></p>
+<p align="center"><i>My personal slice of the web. Built with Astro, wrapped in a phosphor green-on-black theme.</i></p>
 
 <div align="center">
    <!-- FIND PREMADE BADGES HERE: https://github.com/Ileriayo/markdown-badges -->
