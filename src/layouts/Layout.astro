@@ -59,7 +59,9 @@ console.log(latestCommit);
 			statusBar ? (
 				<header class="fixed top-0 left-0 z-40 flex w-full items-center justify-between border-b border-green-900/30 bg-black px-5 py-1 font-mono text-sm">
 					<nav class="flex items-center font-bold">
-						<span class="text-green-700">./</span>
+						<a href="/">
+							<span class="text-green-700">./</span>
+						</a>
 
 						{Astro.url.pathname === "/" ? (
 							<a href="/" class="px-1">
