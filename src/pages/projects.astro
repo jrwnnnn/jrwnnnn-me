@@ -12,9 +12,7 @@ interface Repositories {
 	language: string;
 	archived: boolean;
 	html_url: string;
-	license: {
-		spdx_id: string;
-	};
+	stargazers_count: number;
 }
 
 interface Participation {
@@ -62,9 +60,8 @@ for (const repo of repositories) {
 				<span class="flex items-center gap-1.5">
 					{repositories.length} RECORDS
 				</span>
-					<span class="text-green-500/50">/</span>
-					<span>VOL: {total} B</span>
-				</div>
+				<span class="text-green-500/50">/</span>
+				<span>VOL: {total} KB</span>
 			</div>
 		</Header>
 		<hr class="bg-green-500" />
@@ -75,7 +72,7 @@ for (const repo of repositories) {
 				) : (
 					repositories.map((repo) => {
 						const width =
-							(60 + Math.floor(Math.min(repo.size ?? 0, 100000) / 2500)) / 4;
+							(70 + Math.floor(Math.min(repo.size ?? 0, 100000) / 2500)) / 4;
 						const statusClass = repo.archived
 							? "border-green-500 bg-green-900/5 opacity-50 hover:opacity-100 focus:opacity-100"
 							: "border-green-500 bg-green-900/10  hover:bg-green-800/20 focus:bg-green-500 focus:text-black";
@@ -99,7 +96,7 @@ for (const repo of repositories) {
 									<div>
 										0x{createHash("md5").update(repo.name).digest("hex").substring(0, 6)}
 									</div>
-									<div>{repo.size} B</div>
+									<div>{repo.size} KB</div>
 								</div>
 								<div class="flex items-center">
 									<p class="truncate font-mono text-lg font-bold uppercase">
@@ -146,8 +143,11 @@ for (const repo of repositories) {
 										<div class="border px-2 py-0.5">
 											{repo.language ?? "RAW"}
 										</div>
-										<div class="border px-2 py-0.5">
-											{repo.license?.spdx_id ?? "N/A"}
+										<div
+											class="border px-2 py-0.5"
+											title={`${repo.stargazers_count} Stargazers`}
+										>
+											★ {repo.stargazers_count}
 										</div>
 									</div>
 									<div
