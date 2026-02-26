@@ -10,6 +10,10 @@
    <a href="https://github.com/jrwnnnn/jrwnnnn-me"><img src="https://img.shields.io/github/stars/jrwnnnn/jrwnnnn-me?style=for-the-badge"></a>
 </div>
 
+<br>
+
+![preview](.github/README/preview.png)
+
 ## License
 
 Distributed under the MIT License.
