@@ -1,5 +1,118 @@
 [
   {
+    "sha": "2de2084454516d402aadf5773d50aea7d11564ba",
+    "node_id": "C_kwDORCOQn9oAKDJkZTIwODQ0NTQ1MTZkNDAyYWFkZjU3NzNkNTBhZWE3ZDExNTY0YmE",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-02-26T03:32:50Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-02-26T03:32:50Z"
+      },
+      "message": "Move @types and prettier to devDependencies",
+      "tree": {
+        "sha": "b6695df53652e74afbf3f74165cce4e92dd1971f",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/b6695df53652e74afbf3f74165cce4e92dd1971f"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/2de2084454516d402aadf5773d50aea7d11564ba",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/2de2084454516d402aadf5773d50aea7d11564ba",
+    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/2de2084454516d402aadf5773d50aea7d11564ba",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/2de2084454516d402aadf5773d50aea7d11564ba/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ae80a4913844e7e3e4f1bc862c168dd8ecd30a10",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/ae80a4913844e7e3e4f1bc862c168dd8ecd30a10",
+        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/ae80a4913844e7e3e4f1bc862c168dd8ecd30a10"
+      }
+    ],
+    "stats": {
+      "total": 30,
+      "additions": 20,
+      "deletions": 10
+    },
+    "files": [
+      {
+        "sha": "aaf30e0a91afb6aa6c1d5146e2e647465814f137",
+        "filename": "package-lock.json",
+        "status": "modified",
+        "additions": 13,
+        "deletions": 5,
+        "changes": 18,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/2de2084454516d402aadf5773d50aea7d11564ba/package-lock.json",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/2de2084454516d402aadf5773d50aea7d11564ba/package-lock.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/package-lock.json?ref=2de2084454516d402aadf5773d50aea7d11564ba",
+        "patch": "@@ -12,16 +12,18 @@\n         \"@astrojs/react\": \"^4.4.2\",\n         \"@libsql/client\": \"^0.17.0\",\n         \"@tailwindcss/vite\": \"^4.1.18\",\n-        \"@types/react\": \"^19.2.14\",\n-        \"@types/react-dom\": \"^19.2.3\",\n         \"astro\": \"^5.17.1\",\n         \"marked\": \"^17.0.3\",\n-        \"prettier\": \"^3.8.1\",\n-        \"prettier-plugin-astro\": \"^0.14.1\",\n-        \"prettier-plugin-tailwindcss\": \"^0.7.2\",\n         \"react\": \"^19.2.4\",\n         \"react-dom\": \"^19.2.4\",\n         \"tailwindcss\": \"^4.1.18\"\n+      },\n+      \"devDependencies\": {\n+        \"@types/react\": \"^19.2.14\",\n+        \"@types/react-dom\": \"^19.2.3\",\n+        \"prettier\": \"^3.8.1\",\n+        \"prettier-plugin-astro\": \"^0.14.1\",\n+        \"prettier-plugin-tailwindcss\": \"^0.7.2\"\n       }\n     },\n     \"node_modules/@astrojs/compiler\": {\n@@ -5391,6 +5393,7 @@\n       \"version\": \"3.8.1\",\n       \"resolved\": \"https://registry.npmjs.org/prettier/-/prettier-3.8.1.tgz\",\n       \"integrity\": \"sha512-UOnG6LftzbdaHZcKoPFtOcCKztrQ57WkHDeRD9t/PTQtmT0NHSeWWepj6pS0z/N7+08BHFDQVUrfmfMRcZwbMg==\",\n+      \"dev\": true,\n       \"license\": \"MIT\",\n       \"peer\": true,\n       \"bin\": {\n@@ -5407,6 +5410,7 @@\n       \"version\": \"0.14.1\",\n       \"resolved\": \"https://registry.npmjs.org/prettier-plugin-astro/-/prettier-plugin-astro-0.14.1.tgz\",\n       \"integrity\": \"sha512-RiBETaaP9veVstE4vUwSIcdATj6dKmXljouXc/DDNwBSPTp8FRkLGDSGFClKsAFeeg+13SB0Z1JZvbD76bigJw==\",\n+      \"dev\": true,\n       \"license\": \"MIT\",\n       \"peer\": true,\n       \"dependencies\": {\n@@ -5422,6 +5426,7 @@\n       \"version\": \"0.7.2\",\n       \"resolved\": \"https://registry.npmjs.org/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.7.2.tgz\",\n       \"integrity\": \"sha512-LkphyK3Fw+q2HdMOoiEHWf93fNtYJwfamoKPl7UwtjFQdei/iIBoX11G6j706FzN3ymX9mPVi97qIY8328vdnA==\",\n+      \"dev\": true,\n       \"license\": \"MIT\",\n       \"engines\": {\n         \"node\": \">=20.19\"\n@@ -5870,12 +5875,14 @@\n       \"version\": \"0.0.15\",\n       \"resolved\": \"https://registry.npmjs.org/s.color/-/s.color-0.0.15.tgz\",\n       \"integrity\": \"sha512-AUNrbEUHeKY8XsYr/DYpl+qk5+aM+DChopnWOPEzn8YKzOhv4l2zH6LzZms3tOZP3wwdOyc0RmTciyi46HLIuA==\",\n+      \"dev\": true,\n       \"license\": \"MIT\"\n     },\n     \"node_modules/sass-formatter\": {\n       \"version\": \"0.7.9\",\n       \"resolved\": \"https://registry.npmjs.org/sass-formatter/-/sass-formatter-0.7.9.tgz\",\n       \"integrity\": \"sha512-CWZ8XiSim+fJVG0cFLStwDvft1VI7uvXdCNJYXhDvowiv+DsbD1nXLiQ4zrE5UBvj5DWZJ93cwN0NX5PMsr1Pw==\",\n+      \"dev\": true,\n       \"license\": \"MIT\",\n       \"dependencies\": {\n         \"suf-log\": \"^2.5.3\"\n@@ -6103,6 +6110,7 @@\n       \"version\": \"2.5.3\",\n       \"resolved\": \"https://registry.npmjs.org/suf-log/-/suf-log-2.5.3.tgz\",\n       \"integrity\": \"sha512-KvC8OPjzdNOe+xQ4XWJV2whQA0aM1kGVczMQ8+dStAO6KfEB140JEVQ9dE76ONZ0/Ylf67ni4tILPJB41U0eow==\",\n+      \"dev\": true,\n       \"license\": \"MIT\",\n       \"dependencies\": {\n         \"s.color\": \"0.0.15\""
+      },
+      {
+        "sha": "1e8a388f45bd04e64c2c81bfc82f2f465ef8e43f",
+        "filename": "package.json",
+        "status": "modified",
+        "additions": 7,
+        "deletions": 5,
+        "changes": 12,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/2de2084454516d402aadf5773d50aea7d11564ba/package.json",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/2de2084454516d402aadf5773d50aea7d11564ba/package.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/package.json?ref=2de2084454516d402aadf5773d50aea7d11564ba",
+        "patch": "@@ -13,15 +13,17 @@\n     \"@astrojs/react\": \"^4.4.2\",\n     \"@libsql/client\": \"^0.17.0\",\n     \"@tailwindcss/vite\": \"^4.1.18\",\n-    \"@types/react\": \"^19.2.14\",\n-    \"@types/react-dom\": \"^19.2.3\",\n     \"astro\": \"^5.17.1\",\n     \"marked\": \"^17.0.3\",\n-    \"prettier\": \"^3.8.1\",\n-    \"prettier-plugin-astro\": \"^0.14.1\",\n-    \"prettier-plugin-tailwindcss\": \"^0.7.2\",\n     \"react\": \"^19.2.4\",\n     \"react-dom\": \"^19.2.4\",\n     \"tailwindcss\": \"^4.1.18\"\n+  },\n+  \"devDependencies\": {\n+    \"@types/react\": \"^19.2.14\",\n+    \"@types/react-dom\": \"^19.2.3\",\n+    \"prettier\": \"^3.8.1\",\n+    \"prettier-plugin-astro\": \"^0.14.1\",\n+    \"prettier-plugin-tailwindcss\": \"^0.7.2\"\n   }\n }"
+      }
+    ]
+  },
+  {
     "sha": "ae80a4913844e7e3e4f1bc862c168dd8ecd30a10",
     "node_id": "C_kwDORCOQn9oAKGFlODBhNDkxMzg0NGU3ZTNlNGYxYmM4NjJjMTY4ZGQ4ZWNkMzBhMTA",
     "commit": {
@@ -486,203 +599,6 @@
         "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/c8b49766ad34e957ed3cc0ec61c8d2df296fdb77/src%2Fstyles%2Fmarked.css",
         "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fstyles%2Fmarked.css?ref=c8b49766ad34e957ed3cc0ec61c8d2df296fdb77",
         "patch": "@@ -40,9 +40,12 @@\n .prose ul li {\n \t@apply my-2 list-disc;\n }\n-.prose li {\n+.prose ol li {\n \t@apply my-2 list-decimal;\n }\n+.prose ul li input {\n+\t@apply h-3 w-3 appearance-none border border-green-500 checked:bg-green-500;\n+}\n .prose table {\n \t@apply my-4 block w-full max-w-full overflow-x-auto border border-green-800 whitespace-nowrap md:table md:whitespace-normal;\n }"
-      }
-    ]
-  },
-  {
-    "sha": "b1ed9f504b04a88d63818078a051038cdcd410e4",
-    "node_id": "C_kwDORCOQn9oAKGIxZWQ5ZjUwNGIwNGE4OGQ2MzgxODA3OGEwNTEwMzhjZGNkNDEwZTQ",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-24T02:20:00Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-24T02:20:00Z"
-      },
-      "message": "Add full blog-like system and tweaked phosphor filter css class",
-      "tree": {
-        "sha": "0b9ae609d90a16347110a4182fc05eea49172950",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/0b9ae609d90a16347110a4182fc05eea49172950"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/b1ed9f504b04a88d63818078a051038cdcd410e4",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/b1ed9f504b04a88d63818078a051038cdcd410e4",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/b1ed9f504b04a88d63818078a051038cdcd410e4",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/b1ed9f504b04a88d63818078a051038cdcd410e4/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "addec49f74b0963a0562ea70da21218a0b4a6344",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/addec49f74b0963a0562ea70da21218a0b4a6344",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/addec49f74b0963a0562ea70da21218a0b4a6344"
-      }
-    ],
-    "stats": {
-      "total": 445,
-      "additions": 396,
-      "deletions": 49
-    },
-    "files": [
-      {
-        "sha": "22cfcf844dfc0a3bc77f68f75d8769d0fa988a3c",
-        "filename": ".gitignore",
-        "status": "modified",
-        "additions": 2,
-        "deletions": 2,
-        "changes": 4,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/b1ed9f504b04a88d63818078a051038cdcd410e4/.gitignore",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/b1ed9f504b04a88d63818078a051038cdcd410e4/.gitignore",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/.gitignore?ref=b1ed9f504b04a88d63818078a051038cdcd410e4",
-        "patch": "@@ -23,10 +23,10 @@ pnpm-debug.log*\n # jetbrains setting folder\n .idea/\n \n-# Windows\n+# windows\n Thumbs.db\n ehthumbs.db\n Desktop.ini\n \n-# Test Files\n+# test Files\n test*\n\\ No newline at end of file"
-      },
-      {
-        "sha": "31b87c292ddd931f7c8c0a479ee78b09593234c8",
-        "filename": "src/components/Timestamp.astro",
-        "status": "added",
-        "additions": 19,
-        "deletions": 0,
-        "changes": 19,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/b1ed9f504b04a88d63818078a051038cdcd410e4/src%2Fcomponents%2FTimestamp.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/b1ed9f504b04a88d63818078a051038cdcd410e4/src%2Fcomponents%2FTimestamp.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2FTimestamp.astro?ref=b1ed9f504b04a88d63818078a051038cdcd410e4",
-        "patch": "@@ -0,0 +1,19 @@\n+---\n+interface Props {\n+\ttimestamp: string;\n+}\n+\n+const { timestamp } = Astro.props as Props;\n+---\n+\n+<time class=\"font-mono text-sm tracking-wide text-green-700 italic\">\n+\t[{\" \"}\n+\t{\n+\t\tnew Date(timestamp).toLocaleDateString(\"en-US\", {\n+\t\t\tyear: \"numeric\",\n+\t\t\tmonth: \"short\",\n+\t\t\tday: \"numeric\",\n+\t\t})\n+\t}{\" \"}\n+\t]\n+</time>"
-      },
-      {
-        "sha": "8e2741a3ac404bf333bb06bacc952540a4235ae6",
-        "filename": "src/components/modules/Scrobble.jsx",
-        "status": "modified",
-        "additions": 4,
-        "deletions": 2,
-        "changes": 6,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/b1ed9f504b04a88d63818078a051038cdcd410e4/src%2Fcomponents%2Fmodules%2FScrobble.jsx",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/b1ed9f504b04a88d63818078a051038cdcd410e4/src%2Fcomponents%2Fmodules%2FScrobble.jsx",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2Fmodules%2FScrobble.jsx?ref=b1ed9f504b04a88d63818078a051038cdcd410e4",
-        "patch": "@@ -66,7 +66,7 @@ function Scrobble() {\n \t\t\t\t\t\t\t: \"https://www.last.fm/static/images/lastfm_avatar_twitter.52a5d69a85ac.png\"\n \t\t\t\t\t}\n \t\t\t\t\talt={nowPlaying ? tracks[0]?.album?.[\"#text\"] || \"LastFM\" : \"LastFM\"}\n-\t\t\t\t\tclassName=\"phosphor-filter h-full w-30 border border-green-500\"\n+\t\t\t\t\tclassName=\"phosphor-filter h-full w-30 border border-green-500 hover:filter-none!\"\n \t\t\t\t\tloading=\"lazy\"\n \t\t\t\t/>\n \t\t\t\t<div className=\"hover:brightness-120\">\n@@ -80,7 +80,9 @@ function Scrobble() {\n \t\t\t\t\t<p className=\"font-mono text-sm text-green-600\">\n \t\t\t\t\t\t{nowPlaying\n \t\t\t\t\t\t\t? `Artist: ${tracks[0]?.artist?.[\"#text\"] || \"\"}`\n-\t\t\t\t\t\t\t: loading ? \"Connecting to Last.FM\" : \"Offline\"}\n+\t\t\t\t\t\t\t: loading\n+\t\t\t\t\t\t\t\t? \"Connecting to Last.FM\"\n+\t\t\t\t\t\t\t\t: \"Offline\"}\n \t\t\t\t\t</p>\n \t\t\t\t\t<p\n \t\t\t\t\t\tclassName={`font-mono text-sm text-green-600 ${!nowPlaying ? \"hidden\" : \"\"}`}"
-      },
-      {
-        "sha": "778ce1baf423290d8f8a6aaaf76eb437be3074ad",
-        "filename": "src/pages/index.astro",
-        "status": "modified",
-        "additions": 48,
-        "deletions": 41,
-        "changes": 89,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/b1ed9f504b04a88d63818078a051038cdcd410e4/src%2Fpages%2Findex.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/b1ed9f504b04a88d63818078a051038cdcd410e4/src%2Fpages%2Findex.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Findex.astro?ref=b1ed9f504b04a88d63818078a051038cdcd410e4",
-        "patch": "@@ -1,5 +1,6 @@\n ---\n import { createClient } from \"@libsql/client\";\n+import { safeAsync } from \"@utils/safeAsync\";\n \n import Layout from \"../layouts/Layout.astro\";\n import ErrorOut from \"../components/ErrorOut.astro\";\n@@ -18,15 +19,14 @@ const turso = createClient({\n \tauthToken: process.env.TURSO_AUTH_TOKEN || import.meta.env.TURSO_AUTH_TOKEN,\n });\n \n-let errorPayload, art;\n-try {\n-\tconst result = await turso.execute(\n-\t\t\"SELECT value FROM site_settings WHERE key = 'index.art'\",\n+const { data: r_latestTransmission, error: e_latestTransmission } =\n+\tawait safeAsync(\n+\t\tturso.execute(\"SELECT * FROM articles ORDER BY date_created DESC LIMIT 1\"),\n \t);\n-\tart = result.rows[0].value;\n-} catch (e) {\n-\terrorPayload = e instanceof Error ? e : new Error(\"Unknown fetch error\");\n-}\n+\n+const { data: r_siteSettings, error: e_SiteSetting } = await safeAsync(\n+\tturso.execute(\"SELECT * FROM site_settings\"),\n+);\n \n const stack = [\n \t{ icon: \"icons/stack/javascript.svg\", name: \"JavaScript\" },\n@@ -69,35 +69,33 @@ const stack = [\n \t\t\t\t\t}\n \t\t\t\t</div>\n \t\t\t</div>\n-\t\t\t<Container class=\"space-y-2\" onclick=\"location.href='blog?=latest'\">\n-\t\t\t\t<p class=\"text-lg font-bold tracking-widest\">> LATEST_TRANSMISSION</p>\n-\t\t\t\t<div class=\"flex items-center text-sm\">\n-\t\t\t\t\t<span\n-\t\t\t\t\t\tclass=\"mr-2 bg-green-500 px-1 font-mono text-xs font-bold text-black\"\n-\t\t\t\t\t\t>ENCRYPTED</span\n-\t\t\t\t\t>\n-\t\t\t\t\t<span\n-\t\t\t\t\t\tid=\"latest_transmission\"\n-\t\t\t\t\t\tclass=\"line-clamp-2 cursor-pointer text-green-500 opacity-80\"\n-\t\t\t\t\t\t>░█░█░▄▀▄░█░█░░░░░█▀▀░█▀▄░█▀▄░█▀█░█▀▄░░▀█░█/█░░▀█░░░░░█▀▀░█▀▄░█▀▄░█░█░█▀▄░░░▀░░▀░░░░▀░▀▀▀░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀</span\n+\t\t\t{\n+\t\t\t\tr_latestTransmission?.rows[0] ? (\n+\t\t\t\t\t<Container\n+\t\t\t\t\t\tonclick={`location.href='/posts/${r_latestTransmission?.rows[0].slug}'`}\n \t\t\t\t\t>\n-\t\t\t\t\t<script>\n-\t\t\t\t\t\tconst e = document.getElementById(\"latest_transmission\"),\n-\t\t\t\t\t\t\tc = \"░█▓▒▀▄▌▐\",\n-\t\t\t\t\t\t\tl = e!.innerText.length;\n-\t\t\t\t\t\tsetInterval(\n-\t\t\t\t\t\t\t() =>\n-\t\t\t\t\t\t\t\t(e!.innerText = [...Array(l)]\n-\t\t\t\t\t\t\t\t\t.map(() => c[Math.floor(Math.random() * c.length)])\n-\t\t\t\t\t\t\t\t\t.join(\"\")),\n-\t\t\t\t\t\t\t100,\n-\t\t\t\t\t\t);\n-\t\t\t\t\t</script>\n-\t\t\t\t</div>\n-\t\t\t\t<p class=\"font-mono text-xs text-green-700\">\n-\t\t\t\t\t[ DATE RECIEVED: 2026-01-27 ]\n-\t\t\t\t</p>\n-\t\t\t</Container>\n+\t\t\t\t\t\t<p class=\"font-mono text-lg font-bold tracking-widest uppercase\">\n+\t\t\t\t\t\t\t{r_latestTransmission?.rows[0].title}\n+\t\t\t\t\t\t</p>\n+\t\t\t\t\t\t<p class=\"line-clamp-1 font-mono text-green-600\">\n+\t\t\t\t\t\t\t<span>\n+\t\t\t\t\t\t\t\t{new Date(\n+\t\t\t\t\t\t\t\t\tr_latestTransmission?.rows[0].date_created as string,\n+\t\t\t\t\t\t\t\t).toLocaleDateString(\"en-US\", {\n+\t\t\t\t\t\t\t\t\tyear: \"numeric\",\n+\t\t\t\t\t\t\t\t\tmonth: \"short\",\n+\t\t\t\t\t\t\t\t\tday: \"numeric\",\n+\t\t\t\t\t\t\t\t})}\n+\t\t\t\t\t\t\t</span>{\" \"}\n+\t\t\t\t\t\t\t- {r_latestTransmission?.rows[0].subtitle}\n+\t\t\t\t\t\t</p>\n+\t\t\t\t\t</Container>\n+\t\t\t\t) : (\n+\t\t\t\t\t<Container>\n+\t\t\t\t\t\t<ErrorOut error={e_latestTransmission as Error} />\n+\t\t\t\t\t</Container>\n+\t\t\t\t)\n+\t\t\t}\n \t\t</section>\n \t\t<hr class=\"border-green-500\" />\n \t\t<section class=\"space-y-5\">\n@@ -109,8 +107,8 @@ const stack = [\n \t\t\t\t>\n \t\t\t\t\t<span class=\"mr-2 group-hover:animate-ping\">></span> [ DIR ] PROJECTS\n \t\t\t\t</Button>\n-\t\t\t\t<Button class=\"group py-3! text-left\" onclick=\"location.href='blog'\">\n-\t\t\t\t\t<span class=\"mr-2 group-hover:animate-ping\">></span> [ LOG ] BLOGS\n+\t\t\t\t<Button class=\"group py-3! text-left\" onclick=\"location.href='posts'\">\n+\t\t\t\t\t<span class=\"mr-2 group-hover:animate-ping\">></span> [ LOG ] POSTS\n \t\t\t\t</Button>\n \t\t\t\t<Button class=\"group py-3! text-left\" onclick=\"location.href='gallery'\">\n \t\t\t\t\t<span class=\"mr-2 group-hover:animate-ping\">></span> [ PCX ] GALLERY\n@@ -150,10 +148,19 @@ const stack = [\n \t\t\t</Container>\n \t\t\t<Container class=\"break-inside-avoid space-y-5\">\n \t\t\t\t{\n-\t\t\t\t\terrorPayload ? (\n-\t\t\t\t\t\t<ErrorOut error={errorPayload} />\n+\t\t\t\t\te_SiteSetting ? (\n+\t\t\t\t\t\t<ErrorOut error={e_SiteSetting as Error} />\n \t\t\t\t\t) : (\n-\t\t\t\t\t\t<Ascii ascii={art as string} class=\"glitch opacity-90\" />\n+\t\t\t\t\t\t<>\n+\t\t\t\t\t\t\t<Ascii\n+\t\t\t\t\t\t\t\tascii={r_siteSettings?.rows[0]?.value as string}\n+\t\t\t\t\t\t\t\tclass=\"glitch opacity-90\"\n+\t\t\t\t\t\t\t/>\n+\t\t\t\t\t\t\t<hr class=\"border border-green-500/30\" />\n+\t\t\t\t\t\t\t<p class=\"text-center font-mono text-sm italic\">\n+\t\t\t\t\t\t\t\t{r_siteSettings?.rows[1]?.value}\n+\t\t\t\t\t\t\t</p>\n+\t\t\t\t\t\t</>\n \t\t\t\t\t)\n \t\t\t\t}\n \t\t\t</Container>"
-      },
-      {
-        "sha": "9b2f9a6abdcbaf16d54c38acf8b70148eaa32c36",
-        "filename": "src/pages/posts.astro",
-        "status": "added",
-        "additions": 160,
-        "deletions": 0,
-        "changes": 160,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/b1ed9f504b04a88d63818078a051038cdcd410e4/src%2Fpages%2Fposts.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/b1ed9f504b04a88d63818078a051038cdcd410e4/src%2Fpages%2Fposts.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Fposts.astro?ref=b1ed9f504b04a88d63818078a051038cdcd410e4",
-        "patch": "@@ -0,0 +1,160 @@\n+---\n+import { createClient } from \"@libsql/client\";\n+import { safeAsync } from \"@utils/safeAsync\";\n+import Layout from \"../layouts/Layout.astro\";\n+import Timestamp from \"../components/Timestamp.astro\";\n+import Ascii from \"../components/AsciiContainer.astro\";\n+\n+interface Post {\n+\ttype: \"rating\" | \"article\";\n+\ttitle: string;\n+\tsubtitle?: string;\n+\tnotes?: string;\n+\trating: number;\n+\tcover?: string;\n+\turl: string;\n+\tdate_created: string;\n+}\n+\n+const turso = createClient({\n+\turl: process.env.TURSO_DATABASE_URL || import.meta.env.TURSO_DATABASE_URL,\n+\tauthToken: process.env.TURSO_AUTH_TOKEN || import.meta.env.TURSO_AUTH_TOKEN,\n+});\n+\n+const sql = `\n+\tSELECT \n+\t\t'article' AS type,\n+\t\ttitle, \n+\t\tsubtitle, \n+\t\tcontent AS body,\n+\t\tNULL AS notes, \n+\t\tNULL AS rating, \n+\t\tart AS cover, \n+\t\t'/posts/' || slug AS url,\n+\t\tdate_created\n+\tFROM articles\n+\n+\tUNION ALL\n+\n+\tSELECT \n+\t\t'rating' AS type,\n+\t\ttitle, \n+\t\tNULL AS subtitle, \n+\t\tNULL AS body,\n+\t\tnotes, \n+\t\trating, \n+\t\tart AS cover, \n+\t\turl, \n+\t\tdate_created\n+\tFROM idx\n+\n+\tORDER BY date_created DESC\n+`;\n+\n+const { data: result, error } = await safeAsync(turso.execute(sql));\n+const posts = (result?.rows ?? []) as unknown as Post[];\n+---\n+\n+<Layout title=\"Mark Jerwin // SYSTEM_LOG\">\n+\t<main class=\"mx-auto flex max-w-5xl flex-col space-y-8\">\n+\t\t<div class=\"flex items-end justify-between\">\n+\t\t\t<div>\n+\t\t\t\t<p class=\"text-xl font-bold tracking-widest\">> SYSTEM_LOG</p>\n+\t\t\t\t<p class=\"mt-1 font-mono text-sm opacity-70\">\n+\t\t\t\t\tParsing {posts.length} transmission records... [OK]\n+\t\t\t\t</p>\n+\t\t\t</div>\n+\n+\t\t\t<a href=\"/\" class=\"group hidden text-sm tracking-widest lg:block\">\n+\t\t\t\t<span class=\"inline-block group-hover:-translate-x-1\">&lt;</span> [ RETURN\n+\t\t\t\t]\n+\t\t\t</a>\n+\t\t</div>\n+\n+\t\t<hr class=\"border-green-900/50\" />\n+\n+\t\t<div class=\"flex flex-col space-y-5\">\n+\t\t\t{\n+\t\t\t\tposts.map((post) => {\n+\t\t\t\t\tif (post.type === \"article\") {\n+\t\t\t\t\t\treturn (\n+\t\t\t\t\t\t\t<div class=\"space-y-3\">\n+\t\t\t\t\t\t\t\t<Timestamp timestamp={post.date_created} />\n+\t\t\t\t\t\t\t\t<a href={post.url}>\n+\t\t\t\t\t\t\t\t\t<div class=\"space-y-5 border border-green-900/50 bg-black p-6 font-mono hover:border-green-500\">\n+\t\t\t\t\t\t\t\t\t\t<div class=\"\">\n+\t\t\t\t\t\t\t\t\t\t\t<p class=\"text-2xl font-bold uppercase md:text-3xl\">\n+\t\t\t\t\t\t\t\t\t\t\t\t{post.title}\n+\t\t\t\t\t\t\t\t\t\t\t</p>\n+\t\t\t\t\t\t\t\t\t\t\t{post.subtitle && (\n+\t\t\t\t\t\t\t\t\t\t\t\t<p class=\"text-sm text-green-600 opacity-90\">\n+\t\t\t\t\t\t\t\t\t\t\t\t\t{\">\"} {post.subtitle}\n+\t\t\t\t\t\t\t\t\t\t\t\t</p>\n+\t\t\t\t\t\t\t\t\t\t\t)}\n+\t\t\t\t\t\t\t\t\t\t</div>\n+\t\t\t\t\t\t\t\t\t</div>\n+\t\t\t\t\t\t\t\t</a>\n+\t\t\t\t\t\t\t</div>\n+\t\t\t\t\t\t);\n+\t\t\t\t\t}\n+\n+\t\t\t\t\tif (post.type === \"rating\") {\n+\t\t\t\t\t\treturn (\n+\t\t\t\t\t\t\t<div class=\"space-y-3\">\n+\t\t\t\t\t\t\t\t<Timestamp timestamp={post.date_created} />\n+\t\t\t\t\t\t\t\t<a href={post.url} target=\"_blank\" rel=\"noopener noreferrer\">\n+\t\t\t\t\t\t\t\t\t<div class=\"group flex flex-col border border-green-900/50 bg-black font-mono hover:border-green-500 hover:bg-green-900/10 md:flex-row\">\n+\t\t\t\t\t\t\t\t\t\t{post.cover && (\n+\t\t\t\t\t\t\t\t\t\t\t<div class=\"aspect-square shrink-0 overflow-clip md:h-40 md:w-40\">\n+\t\t\t\t\t\t\t\t\t\t\t\t<Ascii ascii={post.cover} />\n+\t\t\t\t\t\t\t\t\t\t\t</div>\n+\t\t\t\t\t\t\t\t\t\t)}\n+\t\t\t\t\t\t\t\t\t\t<div class=\"flex w-full flex-col justify-between gap-3 p-5\">\n+\t\t\t\t\t\t\t\t\t\t\t<div class=\"space-y-3\">\n+\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"flex items-start justify-between gap-4\">\n+\t\t\t\t\t\t\t\t\t\t\t\t\t<p class=\"line-clamp-2 text-xl leading-tight font-bold uppercase\">\n+\t\t\t\t\t\t\t\t\t\t\t\t\t\t{post.title}\n+\t\t\t\t\t\t\t\t\t\t\t\t\t</p>\n+\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"mb-1 shrink bg-green-500 px-2 py-0.25 text-sm font-bold text-black\">\n+\t\t\t\t\t\t\t\t\t\t\t\t\t\t{post.rating}/10\n+\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n+\t\t\t\t\t\t\t\t\t\t\t\t</div>\n+\t\t\t\t\t\t\t\t\t\t\t\t{post.notes && (\n+\t\t\t\t\t\t\t\t\t\t\t\t\t<p class=\"text-balance line-clamp-3 border-l-2 border-green-500 pl-5 text-sm italic opacity-80\">\n+\t\t\t\t\t\t\t\t\t\t\t\t\t\t{post.notes}\n+\t\t\t\t\t\t\t\t\t\t\t\t\t</p>\n+\t\t\t\t\t\t\t\t\t\t\t\t)}\n+\t\t\t\t\t\t\t\t\t\t\t</div>\n+\n+\t\t\t\t\t\t\t\t\t\t\t<div class=\"flex items-end justify-end opacity-50 transition-opacity group-hover:opacity-100\">\n+\t\t\t\t\t\t\t\t\t\t\t\t<svg\n+\t\t\t\t\t\t\t\t\t\t\t\t\tversion=\"1.0\"\n+\t\t\t\t\t\t\t\t\t\t\t\t\txmlns=\"http://www.w3.org/2000/svg\"\n+\t\t\t\t\t\t\t\t\t\t\t\t\twidth=\"512pt\"\n+\t\t\t\t\t\t\t\t\t\t\t\t\theight=\"512pt\"\n+\t\t\t\t\t\t\t\t\t\t\t\t\tviewBox=\"0 0 512 512\"\n+\t\t\t\t\t\t\t\t\t\t\t\t\tpreserveAspectRatio=\"xMidYMid meet\"\n+\t\t\t\t\t\t\t\t\t\t\t\t\tfill=\"currentColor\"\n+\t\t\t\t\t\t\t\t\t\t\t\t\tclass=\"h-4 w-4\"\n+\t\t\t\t\t\t\t\t\t\t\t\t>\n+\t\t\t\t\t\t\t\t\t\t\t\t\t<g\n+\t\t\t\t\t\t\t\t\t\t\t\t\t\ttransform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\"\n+\t\t\t\t\t\t\t\t\t\t\t\t\t\tstroke=\"none\"\n+\t\t\t\t\t\t\t\t\t\t\t\t\t>\n+\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path d=\"M1244 4465 c-261 -57 -483 -258 -572 -520 l-27 -80 0 -1305 0 -1305 27 -80 c93 -271 329 -479 599 -525 45 -8 439 -10 1329 -8 l1265 3 80 28 c244 86 416 258 502 502 l28 80 3 555 c3 623 4 619 -63 685 -98 99 -261 78 -332 -43 l-28 -47 -6 -535 c-3 -338 -9 -546 -16 -565 -45 -130 -125 -199 -258 -225 -44 -8 -387 -10 -1250 -8 -1144 3 -1192 4 -1243 22 -102 37 -176 127 -201 244 -16 75 -16 2369 0 2444 25 118 99 207 201 244 49 17 97 19 588 24 l535 5 47 28 c84 49 124 150 98 245 -15 56 -80 123 -136 140 -61 18 -1085 16 -1170 -3z\" />{\" \"}\n+\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path d=\"M3120 4464 c-46 -20 -87 -60 -112 -108 -16 -31 -19 -53 -16 -102 5 -78 41 -136 108 -174 45 -25 46 -25 344 -28 l300 -3 -787 -787 c-551 -551 -791 -798 -802 -824 -38 -93 -6 -206 73 -262 49 -35 136 -46 198 -26 32 10 190 163 831 803 l792 791 3 -300 c3 -284 4 -301 25 -339 41 -77 105 -115 193 -115 84 0 161 53 194 132 14 32 16 115 16 606 0 399 -3 579 -11 603 -19 56 -59 100 -113 125 l-51 24 -575 0 c-491 -1 -580 -3 -610 -16z\" />{\" \"}\n+\t\t\t\t\t\t\t\t\t\t\t\t\t</g>{\" \"}\n+\t\t\t\t\t\t\t\t\t\t\t\t</svg>\n+\t\t\t\t\t\t\t\t\t\t\t</div>\n+\t\t\t\t\t\t\t\t\t\t</div>\n+\t\t\t\t\t\t\t\t\t</div>\n+\t\t\t\t\t\t\t\t</a>\n+\t\t\t\t\t\t\t</div>\n+\t\t\t\t\t\t);\n+\t\t\t\t\t}\n+\t\t\t\t\treturn null;\n+\t\t\t\t})\n+\t\t\t}\n+\t\t</div>\n+\t</main>\n+</Layout>"
-      },
-      {
-        "sha": "995c44f3cddcbb2f66b19d49a77a83f1f913656d",
-        "filename": "src/pages/posts/[slug].astro",
-        "status": "added",
-        "additions": 98,
-        "deletions": 0,
-        "changes": 98,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/b1ed9f504b04a88d63818078a051038cdcd410e4/src%2Fpages%2Fposts%2F%5Bslug%5D.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/b1ed9f504b04a88d63818078a051038cdcd410e4/src%2Fpages%2Fposts%2F%5Bslug%5D.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Fposts%2F%5Bslug%5D.astro?ref=b1ed9f504b04a88d63818078a051038cdcd410e4",
-        "patch": "@@ -0,0 +1,98 @@\n+---\n+import \"../../styles/marked.css\";\n+import { createClient } from \"@libsql/client\";\n+import { safeAsync } from \"@utils/safeAsync\";\n+import { createHash } from \"node:crypto\";\n+import { marked } from \"marked\";\n+\n+import Layout from \"../../layouts/Layout.astro\";\n+\n+const turso = createClient({\n+\turl: process.env.TURSO_DATABASE_URL || import.meta.env.TURSO_DATABASE_URL,\n+\tauthToken: process.env.TURSO_AUTH_TOKEN || import.meta.env.TURSO_AUTH_TOKEN,\n+});\n+\n+// const action = Astro.url.searchParams.get(\"action\") ?? null;\n+\n+const { data: result, error } = await safeAsync(\n+\tturso.execute(\n+\t\t\"UPDATE articles SET views = views + 1 WHERE slug = ? RETURNING *\",\n+\t\t[Astro.params.slug as string],\n+\t),\n+);\n+\n+if (error || result?.rows.length === 0) {\n+\treturn Astro.rewrite(\"/404\");\n+}\n+\n+const article = result?.rows[0];\n+---\n+\n+{\n+\tarticle && (\n+\t\t<Layout\n+\t\t\ttitle={article.title as string}\n+\t\t\trobots=\"noindex, nofollow\"\n+\t\t\tdescription={article.subtitle as string}\n+\t\t>\n+\t\t\t<main class=\"flex flex-col items-center justify-center space-y-10\">\n+\t\t\t\t<div class=\"w-full font-mono md:w-[60vw]\">\n+\t\t\t\t\t<statusbar class=\"flex items-center justify-between border border-b-0 border-green-800 bg-green-900/20 px-4 py-2 text-xs tracking-widest uppercase\">\n+\t\t\t\t\t\t<span>\n+\t\t\t\t\t\t\tID:{\" \"}\n+\t\t\t\t\t\t\t{createHash(\"md5\")\n+\t\t\t\t\t\t\t\t.update(article.slug as string)\n+\t\t\t\t\t\t\t\t.digest(\"hex\")\n+\t\t\t\t\t\t\t\t.substring(0, 10)}\n+\t\t\t\t\t\t</span>\n+\t\t\t\t\t\t<time datetime={new Date().toISOString()}>\n+\t\t\t\t\t\t\t{new Date(article.date_created as string).toLocaleDateString(\n+\t\t\t\t\t\t\t\t\"en-US\",\n+\t\t\t\t\t\t\t\t{\n+\t\t\t\t\t\t\t\t\tyear: \"numeric\",\n+\t\t\t\t\t\t\t\t\tmonth: \"short\",\n+\t\t\t\t\t\t\t\t\tday: \"numeric\",\n+\t\t\t\t\t\t\t\t},\n+\t\t\t\t\t\t\t)}\n+\t\t\t\t\t\t</time>\n+\t\t\t\t\t</statusbar>\n+\n+\t\t\t\t\t<div class=\"flex flex-col space-y-5 border border-green-800 bg-black p-6 md:p-12\">\n+\t\t\t\t\t\t<p class=\"w-full rounded-none text-4xl leading-none font-bold uppercase outline-none md:text-5xl\">\n+\t\t\t\t\t\t\t{article!.title}\n+\t\t\t\t\t\t</p>\n+\t\t\t\t\t\t<p class=\"w-full text-lg text-green-600 outline-none\">\n+\t\t\t\t\t\t\t{article.subtitle}\n+\t\t\t\t\t\t</p>\n+\n+\t\t\t\t\t\t<hr class=\"border-b border-green-900/50\" />\n+\n+\t\t\t\t\t\t<div\n+\t\t\t\t\t\t\tclass=\"prose\"\n+\t\t\t\t\t\t\tset:html={marked.parse(article.content as string)}\n+\t\t\t\t\t\t/>\n+\n+\t\t\t\t\t\t<hr class=\"border-b border-green-900/50\" />\n+\t\t\t\t\t\t<div>\n+\t\t\t\t\t\t\t{\" \"}\n+\t\t\t\t\t\t\t<p class=\"text-center text-sm text-green-800 italic\">\n+\t\t\t\t\t\t\t\t{\" \"}\n+\t\t\t\t\t\t\t\tEND OF TRANSMISSION{\" \"}\n+\t\t\t\t\t\t\t</p>\n+\t\t\t\t\t\t\t<p class=\"text-center text-sm text-green-800 italic\">\n+\t\t\t\t\t\t\t\t{\" \"}\n+\t\t\t\t\t\t\t\tTransmission ID:\n+\t\t\t\t\t\t\t\t<span class=\"tracking-wide uppercase\">\n+\t\t\t\t\t\t\t\t\t{createHash(\"md5\")\n+\t\t\t\t\t\t\t\t\t\t.update(article.slug as string)\n+\t\t\t\t\t\t\t\t\t\t.digest(\"hex\")\n+\t\t\t\t\t\t\t\t\t\t.substring(0, 20)}\n+\t\t\t\t\t\t\t\t</span>\n+\t\t\t\t\t\t\t</p>\n+\t\t\t\t\t\t</div>\n+\t\t\t\t\t</div>\n+\t\t\t\t</div>\n+\t\t\t</main>\n+\t\t</Layout>\n+\t)\n+}"
-      },
-      {
-        "sha": "14a483d654fdb5d2798b69712ee890ef53b5c4eb",
-        "filename": "src/styles/global.css",
-        "status": "modified",
-        "additions": 0,
-        "deletions": 4,
-        "changes": 4,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/b1ed9f504b04a88d63818078a051038cdcd410e4/src%2Fstyles%2Fglobal.css",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/b1ed9f504b04a88d63818078a051038cdcd410e4/src%2Fstyles%2Fglobal.css",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fstyles%2Fglobal.css?ref=b1ed9f504b04a88d63818078a051038cdcd410e4",
-        "patch": "@@ -56,7 +56,3 @@ main {\n \tfilter: url(#phosphor-overlay) contrast(1.2);\n \ttransition: filter 0.3s ease;\n }\n-\n-.phosphor-filter:hover {\n-\tfilter: none;\n-}"
-      },
-      {
-        "sha": "9e67c191db584f5d1952d964d01bd3d1b5a5db21",
-        "filename": "src/styles/marked.css",
-        "status": "added",
-        "additions": 54,
-        "deletions": 0,
-        "changes": 54,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/b1ed9f504b04a88d63818078a051038cdcd410e4/src%2Fstyles%2Fmarked.css",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/b1ed9f504b04a88d63818078a051038cdcd410e4/src%2Fstyles%2Fmarked.css",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fstyles%2Fmarked.css?ref=b1ed9f504b04a88d63818078a051038cdcd410e4",
-        "patch": "@@ -0,0 +1,54 @@\n+@reference \"../styles/global.css\";\n+\n+.prose {\n+\t@apply leading-7 text-green-500;\n+}\n+.prose h1 {\n+\t@apply mt-10 mb-4 text-3xl font-bold;\n+}\n+.prose h2 {\n+\t@apply mt-8 mb-3 text-2xl font-semibold;\n+}\n+.prose h3 {\n+\t@apply mt-6 mb-2 text-xl font-semibold;\n+}\n+.prose p {\n+\t@apply mb-4;\n+}\n+.prose a {\n+\t@apply underline underline-offset-4;\n+}\n+.prose hr {\n+\t@apply my-6 border border-green-800;\n+}\n+.prose code {\n+\t@apply border border-green-500/10 bg-green-900/30 px-1 py-0.5 text-sm;\n+}\n+.prose pre {\n+\t@apply my-4 max-w-full overflow-x-auto border border-green-500 bg-green-900/20 p-4 text-sm text-green-500;\n+}\n+.prose pre code {\n+\t@apply border-none bg-transparent p-0;\n+}\n+.prose blockquote {\n+\t@apply my-4 border-l-4 border-green-800 pl-4 text-green-500 italic;\n+}\n+.prose ul,\n+.prose ol {\n+\t@apply my-4 ml-6;\n+}\n+.prose ul li {\n+\t@apply my-2 list-disc;\n+}\n+.prose li {\n+\t@apply my-2 list-decimal;\n+}\n+.prose table {\n+\t@apply my-4 block w-full max-w-full overflow-x-auto border border-green-800 whitespace-nowrap md:table md:whitespace-normal;\n+}\n+.prose td {\n+\t@apply border border-green-800 px-4 py-2;\n+}\n+.prose img {\n+\t@apply mx-auto my-4 max-w-full;\n+}"
-      },
-      {
-        "sha": "2f318439d9b63b490f692fef3fd460e4ccb656c8",
-        "filename": "src/utils/createSlug.ts",
-        "status": "added",
-        "additions": 11,
-        "deletions": 0,
-        "changes": 11,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/b1ed9f504b04a88d63818078a051038cdcd410e4/src%2Futils%2FcreateSlug.ts",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/b1ed9f504b04a88d63818078a051038cdcd410e4/src%2Futils%2FcreateSlug.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Futils%2FcreateSlug.ts?ref=b1ed9f504b04a88d63818078a051038cdcd410e4",
-        "patch": "@@ -0,0 +1,11 @@\n+export function createSlug(text: string) {\n+\ttext\n+\t\t.toString()\n+\t\t.toLowerCase()\n+\t\t.normalize(\"NFD\")\n+\t\t.replace(/[\\u0300-\\u036f]/g, \"\")\n+\t\t.replace(/[^a-z0-9]+/g, \"-\")\n+\t\t.replace(/^-+|-+$/g, \"\");\n+\n+\treturn text;\n+}"
       }
     ]
   }
