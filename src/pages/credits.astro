@@ -1,0 +1,61 @@
+---
+import Layout from "../layouts/Layout.astro";
+import data from "../data/credits.json";
+
+interface Credits {
+	title: string;
+	body: string;
+	source?: string;
+}
+---
+
+<Layout title="Mark Jerwin // CREDITS" robots="nindex, nofollow">
+	<main>
+		<div class="space-y-8">
+			<p
+				class="glitch animate-pulse text-5xl font-bold tracking-widest text-green-500"
+			>
+				> CREDITS
+			</p>
+			<div>
+				<p class="font-mono">
+					© 2026 Mark Jerwin (@jrwnnnn). All rights reserved. <br />
+					Unless otherwise stated, all content, code, design, and assets on this website
+					are the property of the copyright holder.
+				</p>
+			</div>
+			<div class="space-y-8 font-mono lg:columns-2">
+				{
+					Object.entries(data).map(([category, items]) => (
+						<div class="break-inside-avoid">
+							<p class="mb-3 text-xl font-bold tracking-wide uppercase">
+								{category}
+							</p>
+							<ul class="ml-5 list-disc space-y-4 text-green-600">
+								{(items as Credits[]).map((credit) => (
+									<li>
+										<p class="font-bold">{credit.title}</p>
+										<p>{credit.body}</p>
+										{credit.source && (
+											<p>
+												Source:
+												<a
+													href={credit.source}
+													target="_blank"
+													rel="noopener noreferrer"
+													class="hover:underline"
+												>
+													{credit.source}
+												</a>
+											</p>
+										)}
+									</li>
+								))}
+							</ul>
+						</div>
+					))
+				}
+			</div>
+		</div>
+	</main>
+</Layout>
