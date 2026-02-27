@@ -102,7 +102,7 @@ const transmissions = (result?.rows ?? []) as unknown as Post[];
 								>
 									<div class="group flex flex-col border border-green-900/50 bg-black font-mono hover:border-green-500 hover:bg-green-900/10 md:flex-row">
 										{transmission.cover && (
-											<div class="aspect-square h-50 shrink-0 overflow-clip md:h-40 md:w-40">
+											<div class="aspect-square shrink-0 overflow-clip md:h-40 md:w-40">
 												<Ascii ascii={transmission.cover} />
 											</div>
 										)}

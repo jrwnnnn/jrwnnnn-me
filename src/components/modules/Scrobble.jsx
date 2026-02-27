@@ -110,7 +110,7 @@ function Scrobble() {
 								rel="noreferrer"
 								className="grid grid-cols-[2fr_1fr] gap-1 font-mono text-sm hover:brightness-120"
 							>
-								<p className="line-clamp-1 text-green-600">{track?.name}</p>
+								<p className="line-clamp-1 text-green-500">{track?.name}</p>
 								<p className="line-clamp-1 text-right whitespace-nowrap text-green-800">
 									{track?.artist?.["#text"]}
 								</p>
