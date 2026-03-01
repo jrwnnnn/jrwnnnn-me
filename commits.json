@@ -1,24 +1,24 @@
 [
   {
-    "sha": "f1f0af6641e67e625c900df5c59492992b779a7f",
-    "node_id": "C_kwDORCOQn9oAKGYxZjBhZjY2NDFlNjdlNjI1YzkwMGRmNWM1OTQ5Mjk5MmI3NzlhN2Y",
+    "sha": "20c5d539ec17615f02c85f76cfd78aea4c4b935b",
+    "node_id": "C_kwDORbfyj9oAKDIwYzVkNTM5ZWMxNzYxNWYwMmM4NWY3NmNmZDc4YWVhNGM0YjkzNWI",
     "commit": {
       "author": {
         "name": "Mark Jerwin",
         "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-27T01:23:45Z"
+        "date": "2026-03-01T06:28:45Z"
       },
       "committer": {
         "name": "Mark Jerwin",
         "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-27T01:23:45Z"
+        "date": "2026-03-01T06:28:45Z"
       },
-      "message": "Use [skip deploy] in scheduled workflow commits",
+      "message": "Add star catalog data and utilities",
       "tree": {
-        "sha": "96f48111ee7525261507eb27f522ae1e32687566",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/96f48111ee7525261507eb27f522ae1e32687566"
+        "sha": "518fb8d437dd98d3b1ccc139236be4a74b4eaee1",
+        "url": "https://api.github.com/repos/jrwnnnn/still-we-shine/git/trees/518fb8d437dd98d3b1ccc139236be4a74b4eaee1"
       },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/f1f0af6641e67e625c900df5c59492992b779a7f",
+      "url": "https://api.github.com/repos/jrwnnnn/still-we-shine/git/commits/20c5d539ec17615f02c85f76cfd78aea4c4b935b",
       "comment_count": 0,
       "verification": {
         "verified": false,
@@ -28,9 +28,9 @@
         "verified_at": null
       }
     },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/f1f0af6641e67e625c900df5c59492992b779a7f",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/f1f0af6641e67e625c900df5c59492992b779a7f",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/f1f0af6641e67e625c900df5c59492992b779a7f/comments",
+    "url": "https://api.github.com/repos/jrwnnnn/still-we-shine/commits/20c5d539ec17615f02c85f76cfd78aea4c4b935b",
+    "html_url": "https://github.com/jrwnnnn/still-we-shine/commit/20c5d539ec17615f02c85f76cfd78aea4c4b935b",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/still-we-shine/commits/20c5d539ec17615f02c85f76cfd78aea4c4b935b/comments",
     "author": {
       "login": "jrwnnnn",
       "id": 136870415,
@@ -75,272 +75,187 @@
     },
     "parents": [
       {
-        "sha": "0587941537e067ef06363aa85c7c5575c8d42bcc",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/0587941537e067ef06363aa85c7c5575c8d42bcc",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/0587941537e067ef06363aa85c7c5575c8d42bcc"
+        "sha": "458dbc1b1a9410b783315e72efe8ce9c1d9703eb",
+        "url": "https://api.github.com/repos/jrwnnnn/still-we-shine/commits/458dbc1b1a9410b783315e72efe8ce9c1d9703eb",
+        "html_url": "https://github.com/jrwnnnn/still-we-shine/commit/458dbc1b1a9410b783315e72efe8ce9c1d9703eb"
       }
     ],
     "stats": {
-      "total": 4,
-      "additions": 2,
+      "total": 109915,
+      "additions": 109909,
+      "deletions": 6
+    },
+    "files": [
+      {
+        "sha": "f80e169570a20eb4d8046871c1f710d5560d33dd",
+        "filename": "src/data/star-catalog.json",
+        "status": "added",
+        "additions": 109818,
+        "deletions": 0,
+        "changes": 109818,
+        "blob_url": "https://github.com/jrwnnnn/still-we-shine/blob/20c5d539ec17615f02c85f76cfd78aea4c4b935b/src%2Fdata%2Fstar-catalog.json",
+        "raw_url": "https://github.com/jrwnnnn/still-we-shine/raw/20c5d539ec17615f02c85f76cfd78aea4c4b935b/src%2Fdata%2Fstar-catalog.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/still-we-shine/contents/src%2Fdata%2Fstar-catalog.json?ref=20c5d539ec17615f02c85f76cfd78aea4c4b935b"
+      },
+      {
+        "sha": "329c4e57b277a8de1303dda3aca97c2c99687733",
+        "filename": "src/pages/index.astro",
+        "status": "modified",
+        "additions": 61,
+        "deletions": 3,
+        "changes": 64,
+        "blob_url": "https://github.com/jrwnnnn/still-we-shine/blob/20c5d539ec17615f02c85f76cfd78aea4c4b935b/src%2Fpages%2Findex.astro",
+        "raw_url": "https://github.com/jrwnnnn/still-we-shine/raw/20c5d539ec17615f02c85f76cfd78aea4c4b935b/src%2Fpages%2Findex.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/still-we-shine/contents/src%2Fpages%2Findex.astro?ref=20c5d539ec17615f02c85f76cfd78aea4c4b935b",
+        "patch": "@@ -1,9 +1,67 @@\n ---\n-import Layout from '../layouts/Layout.astro';\n+import { createClient } from \"@libsql/client\";\n+import { getRandomStar, getChromaticity } from \"@utils/starCatalog\";\n \n-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build\n-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.\n+import Layout from \"../layouts/Layout.astro\";\n+\n+import starData from \"../data/star-catalog.json\";\n+\n+const starByHR = Object.fromEntries(starData.map((s) => [s.HR, s]));\n+\n+const turso = createClient({\n+\turl: import.meta.env.TURSO_DATABASE_URL,\n+\tauthToken: import.meta.env.TURSO_AUTH_TOKEN,\n+});\n+\n+if (Astro.request.method === \"POST\") {\n+\tconst formData = await Astro.request.formData();\n+\tconst star = getRandomStar();\n+\tconst name = formData.get(\"name\") as string;\n+\tconst birthYear = formData.get(\"birth_year\") as string;\n+\tconst deathYear = formData.get(\"death_year\") as string;\n+\n+\tawait turso.execute(\n+\t\t\"INSERT INTO stars (star_hr, name, birth_year, death_year) VALUES (?, ?, ?, ?)\",\n+\t\t[star.HR, name, birthYear, deathYear],\n+\t);\n+\treturn Astro.redirect(\"/\");\n+}\n+\n+const entries = await turso.execute(\"SELECT * FROM stars\");\n ---\n \n <Layout>\n+\t<form method=\"post\" class=\"flex flex-col\">\n+\t\t<label for=\"name\">Name:</label>\n+\t\t<input name=\"name\" type=\"text\" required />\n+\t\t<label for=\"birth_year\">Birth Year:</label>\n+\t\t<input name=\"birth_year\" type=\"text\" />\n+\t\t<label for=\"death_year\">Death Year:</label>\n+\t\t<input name=\"death_year\" type=\"text\" required />\n+\t\t<button type=\"submit\">Submit</button>\n+\t</form>\n+\t<div class=\"\">\n+\t\t<h2>Stars</h2>\n+\t\t<div>\n+\t\t\t{\n+\t\t\t\tentries.rows.map((row) => {\n+\t\t\t\t\tconst star = starByHR[row.star_hr as string];\n+\t\t\t\t\tconst color = getChromaticity(star[\"Sp Type\"]);\n+\t\t\t\t\treturn (\n+\t\t\t\t\t\t<div>\n+\t\t\t\t\t\t\t{row.name} - Born: {row.birth_year}, Died: {row.death_year}\n+\t\t\t\t\t\t\t{star && (\n+\t\t\t\t\t\t\t\t<details>\n+\t\t\t\t\t\t\t\t\t<summary>Star Details</summary>\n+\t\t\t\t\t\t\t\t\t<p>Name: {star.Name || star.ID}</p>\n+\t\t\t\t\t\t\t\t\t<p>Color: {color}</p>\n+\t\t\t\t\t\t\t\t\t<p>Magnitude: {star.Vmag}</p>\n+\t\t\t\t\t\t\t\t</details>\n+\t\t\t\t\t\t\t)}\n+\t\t\t\t\t\t</div>\n+\t\t\t\t\t);\n+\t\t\t\t})\n+\t\t\t}\n+\t\t</div>\n+\t</div>\n </Layout>"
+      },
+      {
+        "sha": "8858424709c14a7a38fa5b3b750306f9ebb48c6c",
+        "filename": "src/utils/starCatalog.ts",
+        "status": "added",
+        "additions": 22,
+        "deletions": 0,
+        "changes": 22,
+        "blob_url": "https://github.com/jrwnnnn/still-we-shine/blob/20c5d539ec17615f02c85f76cfd78aea4c4b935b/src%2Futils%2FstarCatalog.ts",
+        "raw_url": "https://github.com/jrwnnnn/still-we-shine/raw/20c5d539ec17615f02c85f76cfd78aea4c4b935b/src%2Futils%2FstarCatalog.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/still-we-shine/contents/src%2Futils%2FstarCatalog.ts?ref=20c5d539ec17615f02c85f76cfd78aea4c4b935b",
+        "patch": "@@ -0,0 +1,22 @@\n+import starCatalog from \"../data/star-catalog.json\";\n+\n+export type Star = (typeof starCatalog)[number];\n+\n+export function getRandomStar(): Star {\n+\tconst index = Math.floor(Math.random() * starCatalog.length);\n+\treturn starCatalog[index];\n+}\n+\n+export function getChromaticity(spectralType: string): string {\n+\tconst starClass = spectralType[0];\n+\tconst colorMap: Record<string, string> = {\n+\t\tO: \"blue\",\n+\t\tB: \"bluish white\",\n+\t\tA: \"white\",\n+\t\tF: \"yellowish white\",\n+\t\tG: \"yellow\",\n+\t\tK: \"light orange\",\n+\t\tH: \"light orangish red\",\n+\t};\n+\treturn colorMap[starClass] || \"unknown\";\n+}"
+      },
+      {
+        "sha": "21014ce14c6adaa1627c92d538872ee684b71fa1",
+        "filename": "tsconfig.json",
+        "status": "modified",
+        "additions": 8,
+        "deletions": 3,
+        "changes": 11,
+        "blob_url": "https://github.com/jrwnnnn/still-we-shine/blob/20c5d539ec17615f02c85f76cfd78aea4c4b935b/tsconfig.json",
+        "raw_url": "https://github.com/jrwnnnn/still-we-shine/raw/20c5d539ec17615f02c85f76cfd78aea4c4b935b/tsconfig.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/still-we-shine/contents/tsconfig.json?ref=20c5d539ec17615f02c85f76cfd78aea4c4b935b",
+        "patch": "@@ -1,5 +1,10 @@\n {\n-  \"extends\": \"astro/tsconfigs/strict\",\n-  \"include\": [\".astro/types.d.ts\", \"**/*\"],\n-  \"exclude\": [\"dist\"]\n+\t\"extends\": \"astro/tsconfigs/strict\",\n+\t\"include\": [\".astro/types.d.ts\", \"**/*\"],\n+\t\"exclude\": [\"dist\"],\n+\t\"compilerOptions\": {\n+\t\t\"paths\": {\n+\t\t\t\"@utils/*\": [\"./src/utils/*\"]\n+\t\t}\n+\t}\n }"
+      }
+    ]
+  },
+  {
+    "sha": "458dbc1b1a9410b783315e72efe8ce9c1d9703eb",
+    "node_id": "C_kwDORbfyj9oAKDQ1OGRiYzFiMWE5NDEwYjc4MzMxNWU3MmVmZThjZTljMWQ5NzAzZWI",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-03-01T06:27:40Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-03-01T06:27:40Z"
+      },
+      "message": "Delete .env.example",
+      "tree": {
+        "sha": "ea47b624198aa8a9973f0980a6bf60591c1bda18",
+        "url": "https://api.github.com/repos/jrwnnnn/still-we-shine/git/trees/ea47b624198aa8a9973f0980a6bf60591c1bda18"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/still-we-shine/git/commits/458dbc1b1a9410b783315e72efe8ce9c1d9703eb",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/still-we-shine/commits/458dbc1b1a9410b783315e72efe8ce9c1d9703eb",
+    "html_url": "https://github.com/jrwnnnn/still-we-shine/commit/458dbc1b1a9410b783315e72efe8ce9c1d9703eb",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/still-we-shine/commits/458dbc1b1a9410b783315e72efe8ce9c1d9703eb/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0e4b3753216f0462af36a4daf3c11bbb856c351d",
+        "url": "https://api.github.com/repos/jrwnnnn/still-we-shine/commits/0e4b3753216f0462af36a4daf3c11bbb856c351d",
+        "html_url": "https://github.com/jrwnnnn/still-we-shine/commit/0e4b3753216f0462af36a4daf3c11bbb856c351d"
+      }
+    ],
+    "stats": {
+      "total": 2,
+      "additions": 0,
       "deletions": 2
     },
     "files": [
       {
-        "sha": "25368ea8701ece9bd24cca4351282cf953986c51",
-        "filename": ".github/workflows/languages_chron.yml",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/f1f0af6641e67e625c900df5c59492992b779a7f/.github%2Fworkflows%2Flanguages_chron.yml",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/f1f0af6641e67e625c900df5c59492992b779a7f/.github%2Fworkflows%2Flanguages_chron.yml",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/.github%2Fworkflows%2Flanguages_chron.yml?ref=f1f0af6641e67e625c900df5c59492992b779a7f",
-        "patch": "@@ -31,4 +31,4 @@ jobs:\n           git config --global user.name \"GitHub Actions\"\n           git config --global user.email \"actions@github.com\"\n           git add languages.json\n-          git diff --staged --quiet || (git commit -m \"Update languages.json [skip ci]\" && git push origin data)\n+          git diff --staged --quiet || (git commit -m \"Update languages.json [skip deploy]\" && git push origin data)"
-      },
-      {
-        "sha": "0644ae3a3cb4c3e19da8c85086db1d267ea72f61",
-        "filename": ".github/workflows/participation_chron.yml",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/f1f0af6641e67e625c900df5c59492992b779a7f/.github%2Fworkflows%2Fparticipation_chron.yml",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/f1f0af6641e67e625c900df5c59492992b779a7f/.github%2Fworkflows%2Fparticipation_chron.yml",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/.github%2Fworkflows%2Fparticipation_chron.yml?ref=f1f0af6641e67e625c900df5c59492992b779a7f",
-        "patch": "@@ -32,4 +32,4 @@ jobs:\n           git config --global user.name \"GitHub Actions\"\n           git config --global user.email \"actions@github.com\"\n           git add participation.json\n-          git diff --staged --quiet || (git commit -m \"Update participation.json [skip ci]\" && git push origin data)\n+          git diff --staged --quiet || (git commit -m \"Update participation.json [skip deploy]\" && git push origin data)"
-      }
-    ]
-  },
-  {
-    "sha": "0587941537e067ef06363aa85c7c5575c8d42bcc",
-    "node_id": "C_kwDORCOQn9oAKDA1ODc5NDE1MzdlMDY3ZWYwNjM2M2FhODVjN2M1NTc1YzhkNDJiY2M",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-27T01:14:18Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-27T01:14:18Z"
-      },
-      "message": "Add credits page; reorganize fonts & licenses",
-      "tree": {
-        "sha": "84fea53e7d254820a309c0fbc4a2fef7b9aa7cf6",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/84fea53e7d254820a309c0fbc4a2fef7b9aa7cf6"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/0587941537e067ef06363aa85c7c5575c8d42bcc",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/0587941537e067ef06363aa85c7c5575c8d42bcc",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/0587941537e067ef06363aa85c7c5575c8d42bcc",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/0587941537e067ef06363aa85c7c5575c8d42bcc/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "bad62d2359eb6716b441f19bca081c8fc971df30",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/bad62d2359eb6716b441f19bca081c8fc971df30",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/bad62d2359eb6716b441f19bca081c8fc971df30"
-      }
-    ],
-    "stats": {
-      "total": 630,
-      "additions": 599,
-      "deletions": 31
-    },
-    "files": [
-      {
-        "sha": "43dbf8d66df86108df5fc08ad3b457adde54a782",
-        "filename": "LICENSE",
+        "sha": "95b83dc7d5a4af89809b47f920c5a642a7a40754",
+        "filename": ".env.example",
         "status": "removed",
         "additions": 0,
-        "deletions": 21,
-        "changes": 21,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/bad62d2359eb6716b441f19bca081c8fc971df30/LICENSE",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/bad62d2359eb6716b441f19bca081c8fc971df30/LICENSE",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/LICENSE?ref=bad62d2359eb6716b441f19bca081c8fc971df30",
-        "patch": "@@ -1,21 +0,0 @@\n-MIT License\n-\n-Copyright (c) 2026 Mark Jerwin\n-\n-Permission is hereby granted, free of charge, to any person obtaining a copy\n-of this software and associated documentation files (the \"Software\"), to deal\n-in the Software without restriction, including without limitation the rights\n-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n-copies of the Software, and to permit persons to whom the Software is\n-furnished to do so, subject to the following conditions:\n-\n-The above copyright notice and this permission notice shall be included in all\n-copies or substantial portions of the Software.\n-\n-THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n-SOFTWARE."
-      },
-      {
-        "sha": "63b1d49baaa9911fe3242d09a6b7f8bd788e1d5c",
-        "filename": "README.md",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 7,
-        "changes": 8,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/0587941537e067ef06363aa85c7c5575c8d42bcc/README.md",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/0587941537e067ef06363aa85c7c5575c8d42bcc/README.md",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/README.md?ref=0587941537e067ef06363aa85c7c5575c8d42bcc",
-        "patch": "@@ -6,7 +6,6 @@\n    <!-- FIND PREMADE BADGES HERE: https://github.com/Ileriayo/markdown-badges -->\n    <a href=\"https://astro.build\"><img src=\"https://img.shields.io/badge/astro-%232C2052.svg?style=for-the-badge&logo=astro&logoColor=white\"></a>\n    <a href=\"https://tailwindcss.com\"><img src=\"https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white\"></a>\n-   <a href=\"https://opensource.org/license/mit\"><img src=\"https://img.shields.io/badge/MIT-green?style=for-the-badge\"></a>\n    <a href=\"https://github.com/jrwnnnn/jrwnnnn-me\"><img src=\"https://img.shields.io/github/stars/jrwnnnn/jrwnnnn-me?style=for-the-badge\"></a>\n </div>\n \n@@ -16,14 +15,9 @@\n \n ## License\n \n-Distributed under the MIT License.\n Copyright (c) 2026 Mark Jerwin(@jrwnnnn). All rights reserved.\n \n-See the See the [LICENSE](LICENSE) file for full details.\n-\n-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n-\n-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n+No permission is granted to any person to copy, modify, merge, publish, distribute, sublicense, sell, or create derivative works based on this software, in whole or in part, without prior explicit written consent from the copyright holder.\n \n <br>\n <br>"
-      },
-      {
-        "sha": "a5c2627a14a253fdc4cc4f700c9faea70d22b893",
-        "filename": "src/assets/fonts/terminus/LICENSE",
-        "status": "added",
-        "additions": 94,
-        "deletions": 0,
-        "changes": 94,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/0587941537e067ef06363aa85c7c5575c8d42bcc/src%2Fassets%2Ffonts%2Fterminus%2FLICENSE",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/0587941537e067ef06363aa85c7c5575c8d42bcc/src%2Fassets%2Ffonts%2Fterminus%2FLICENSE",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fassets%2Ffonts%2Fterminus%2FLICENSE?ref=0587941537e067ef06363aa85c7c5575c8d42bcc",
-        "patch": "@@ -0,0 +1,94 @@\n+Copyright (C) 2020 Dimitar Toshkov Zhekov,\n+with Reserved Font Name \"Terminus Font\".\n+\n+This Font Software is licensed under the SIL Open Font License, Version 1.1.\n+This license is copied below, and is also available with a FAQ at:\n+http://scripts.sil.org/OFL\n+\n+\n+-----------------------------------------------------------\n+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007\n+-----------------------------------------------------------\n+\n+PREAMBLE\n+The goals of the Open Font License (OFL) are to stimulate worldwide\n+development of collaborative font projects, to support the font creation\n+efforts of academic and linguistic communities, and to provide a free and\n+open framework in which fonts may be shared and improved in partnership\n+with others.\n+\n+The OFL allows the licensed fonts to be used, studied, modified and\n+redistributed freely as long as they are not sold by themselves. The\n+fonts, including any derivative works, can be bundled, embedded,\n+redistributed and/or sold with any software provided that any reserved\n+names are not used by derivative works. The fonts and derivatives,\n+however, cannot be released under any other type of license. The\n+requirement for fonts to remain under this license does not apply\n+to any document created using the fonts or their derivatives.\n+\n+DEFINITIONS\n+\"Font Software\" refers to the set of files released by the Copyright\n+Holder(s) under this license and clearly marked as such. This may\n+include source files, build scripts and documentation.\n+\n+\"Reserved Font Name\" refers to any names specified as such after the\n+copyright statement(s).\n+\n+\"Original Version\" refers to the collection of Font Software components as\n+distributed by the Copyright Holder(s).\n+\n+\"Modified Version\" refers to any derivative made by adding to, deleting,\n+or substituting -- in part or in whole -- any of the components of the\n+Original Version, by changing formats or by porting the Font Software to a\n+new environment.\n+\n+\"Author\" refers to any designer, engineer, programmer, technical\n+writer or other person who contributed to the Font Software.\n+\n+PERMISSION & CONDITIONS\n+Permission is hereby granted, free of charge, to any person obtaining\n+a copy of the Font Software, to use, study, copy, merge, embed, modify,\n+redistribute, and sell modified and unmodified copies of the Font\n+Software, subject to the following conditions:\n+\n+1) Neither the Font Software nor any of its individual components,\n+in Original or Modified Versions, may be sold by itself.\n+\n+2) Original or Modified Versions of the Font Software may be bundled,\n+redistributed and/or sold with any software, provided that each copy\n+contains the above copyright notice and this license. These can be\n+included either as stand-alone text files, human-readable headers or\n+in the appropriate machine-readable metadata fields within text or\n+binary files as long as those fields can be easily viewed by the user.\n+\n+3) No Modified Version of the Font Software may use the Reserved Font\n+Name(s) unless explicit written permission is granted by the corresponding\n+Copyright Holder. This restriction only applies to the primary font name as\n+presented to the users.\n+\n+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font\n+Software shall not be used to promote, endorse or advertise any\n+Modified Version, except to acknowledge the contribution(s) of the\n+Copyright Holder(s) and the Author(s) or with their explicit written\n+permission.\n+\n+5) The Font Software, modified or unmodified, in part or in whole,\n+must be distributed entirely under this license, and must not be\n+distributed under any other license. The requirement for fonts to\n+remain under this license does not apply to any document created\n+using the Font Software.\n+\n+TERMINATION\n+This license becomes null and void if any of the above conditions are\n+not met.\n+\n+DISCLAIMER\n+THE FONT SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF\n+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\n+OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE\n+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\n+INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\n+DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\n+FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\n+OTHER DEALINGS IN THE FONT SOFTWARE."
-      },
-      {
-        "sha": "728475bda3426140f604f44da5b155011979eedf",
-        "filename": "src/assets/fonts/terminus/Terminus.woff2",
-        "status": "renamed",
-        "additions": 0,
-        "deletions": 0,
-        "changes": 0,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/0587941537e067ef06363aa85c7c5575c8d42bcc/src%2Fassets%2Ffonts%2Fterminus%2FTerminus.woff2",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/0587941537e067ef06363aa85c7c5575c8d42bcc/src%2Fassets%2Ffonts%2Fterminus%2FTerminus.woff2",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fassets%2Ffonts%2Fterminus%2FTerminus.woff2?ref=0587941537e067ef06363aa85c7c5575c8d42bcc",
-        "previous_filename": "src/assets/fonts/Terminus.woff2"
-      },
-      {
-        "sha": "7d4f96c54aa155a17387e64501c50b6a0469932c",
-        "filename": "src/assets/fonts/vile-r/LICENSE",
-        "status": "added",
-        "additions": 427,
-        "deletions": 0,
-        "changes": 427,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/0587941537e067ef06363aa85c7c5575c8d42bcc/src%2Fassets%2Ffonts%2Fvile-r%2FLICENSE",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/0587941537e067ef06363aa85c7c5575c8d42bcc/src%2Fassets%2Ffonts%2Fvile-r%2FLICENSE",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fassets%2Ffonts%2Fvile-r%2FLICENSE?ref=0587941537e067ef06363aa85c7c5575c8d42bcc",
-        "patch": "@@ -0,0 +1,427 @@\n+Attribution-ShareAlike 4.0 International\n+\n+=======================================================================\n+\n+Creative Commons Corporation (\"Creative Commons\") is not a law firm and\n+does not provide legal services or legal advice. Distribution of\n+Creative Commons public licenses does not create a lawyer-client or\n+other relationship. Creative Commons makes its licenses and related\n+information available on an \"as-is\" basis. Creative Commons gives no\n+warranties regarding its licenses, any material licensed under their\n+terms and conditions, or any related information. Creative Commons\n+disclaims all liability for damages resulting from their use to the\n+fullest extent possible.\n+\n+Using Creative Commons Public Licenses\n+\n+Creative Commons public licenses provide a standard set of terms and\n+conditions that creators and other rights holders may use to share\n+original works of authorship and other material subject to copyright\n+and certain other rights specified in the public license below. The\n+following considerations are for informational purposes only, are not\n+exhaustive, and do not form part of our licenses.\n+\n+     Considerations for licensors: Our public licenses are\n+     intended for use by those authorized to give the public\n+     permission to use material in ways otherwise restricted by\n+     copyright and certain other rights. Our licenses are\n+     irrevocable. Licensors should read and understand the terms\n+     and conditions of the license they choose before applying it.\n+     Licensors should also secure all rights necessary before\n+     applying our licenses so that the public can reuse the\n+     material as expected. Licensors should clearly mark any\n+     material not subject to the license. This includes other CC-\n+     licensed material, or material used under an exception or\n+     limitation to copyright. More considerations for licensors:\n+    wiki.creativecommons.org/Considerations_for_licensors\n+\n+     Considerations for the public: By using one of our public\n+     licenses, a licensor grants the public permission to use the\n+     licensed material under specified terms and conditions. If\n+     the licensor's permission is not necessary for any reason--for\n+     example, because of any applicable exception or limitation to\n+     copyright--then that use is not regulated by the license. Our\n+     licenses grant only permissions under copyright and certain\n+     other rights that a licensor has authority to grant. Use of\n+     the licensed material may still be restricted for other\n+     reasons, including because others have copyright or other\n+     rights in the material. A licensor may make special requests,\n+     such as asking that all changes be marked or described.\n+     Although not required by our licenses, you are encouraged to\n+     respect those requests where reasonable. More considerations\n+     for the public:\n+    wiki.creativecommons.org/Considerations_for_licensees\n+\n+=======================================================================\n+\n+Creative Commons Attribution-ShareAlike 4.0 International Public\n+License\n+\n+By exercising the Licensed Rights (defined below), You accept and agree\n+to be bound by the terms and conditions of this Creative Commons\n+Attribution-ShareAlike 4.0 International Public License (\"Public\n+License\"). To the extent this Public License may be interpreted as a\n+contract, You are granted the Licensed Rights in consideration of Your\n+acceptance of these terms and conditions, and the Licensor grants You\n+such rights in consideration of benefits the Licensor receives from\n+making the Licensed Material available under these terms and\n+conditions.\n+\n+\n+Section 1 -- Definitions.\n+\n+  a. Adapted Material means material subject to Copyright and Similar\n+     Rights that is derived from or based upon the Licensed Material\n+     and in which the Licensed Material is translated, altered,\n+     arranged, transformed, or otherwise modified in a manner requiring\n+     permission under the Copyright and Similar Rights held by the\n+     Licensor. For purposes of this Public License, where the Licensed\n+     Material is a musical work, performance, or sound recording,\n+     Adapted Material is always produced where the Licensed Material is\n+     synched in timed relation with a moving image.\n+\n+  b. Adapter's License means the license You apply to Your Copyright\n+     and Similar Rights in Your contributions to Adapted Material in\n+     accordance with the terms and conditions of this Public License.\n+\n+  c. BY-SA Compatible License means a license listed at\n+     creativecommons.org/compatiblelicenses, approved by Creative\n+     Commons as essentially the equivalent of this Public License.\n+\n+  d. Copyright and Similar Rights means copyright and/or similar rights\n+     closely related to copyright including, without limitation,\n+     performance, broadcast, sound recording, and Sui Generis Database\n+     Rights, without regard to how the rights are labeled or\n+     categorized. For purposes of this Public License, the rights\n+     specified in Section 2(b)(1)-(2) are not Copyright and Similar\n+     Rights.\n+\n+  e. Effective Technological Measures means those measures that, in the\n+     absence of proper authority, may not be circumvented under laws\n+     fulfilling obligations under Article 11 of the WIPO Copyright\n+     Treaty adopted on December 20, 1996, and/or similar international\n+     agreements.\n+\n+  f. Exceptions and Limitations means fair use, fair dealing, and/or\n+     any other exception or limitation to Copyright and Similar Rights\n+     that applies to Your use of the Licensed Material.\n+\n+  g. License Elements means the license attributes listed in the name\n+     of a Creative Commons Public License. The License Elements of this\n+     Public License are Attribution and ShareAlike.\n+\n+  h. Licensed Material means the artistic or literary work, database,\n+     or other material to which the Licensor applied this Public\n+     License.\n+\n+  i. Licensed Rights means the rights granted to You subject to the\n+     terms and conditions of this Public License, which are limited to\n+     all Copyright and Similar Rights that apply to Your use of the\n+     Licensed Material and that the Licensor has authority to license.\n+\n+  j. Licensor means the individual(s) or entity(ies) granting rights\n+     under this Public License.\n+\n+  k. Share means to provide material to the public by any means or\n+     process that requires permission under the Licensed Rights, such\n+     as reproduction, public display, public performance, distribution,\n+     dissemination, communication, or importation, and to make material\n+     available to the public including in ways that members of the\n+     public may access the material from a place and at a time\n+     individually chosen by them.\n+\n+  l. Sui Generis Database Rights means rights other than copyright\n+     resulting from Directive 96/9/EC of the European Parliament and of\n+     the Council of 11 March 1996 on the legal protection of databases,\n+     as amended and/or succeeded, as well as other essentially\n+     equivalent rights anywhere in the world.\n+\n+  m. You means the individual or entity exercising the Licensed Rights\n+     under this Public License. Your has a corresponding meaning.\n+\n+\n+Section 2 -- Scope.\n+\n+  a. License grant.\n+\n+       1. Subject to the terms and conditions of this Public License,\n+          the Licensor hereby grants You a worldwide, royalty-free,\n+          non-sublicensable, non-exclusive, irrevocable license to\n+          exercise the Licensed Rights in the Licensed Material to:\n+\n+            a. reproduce and Share the Licensed Material, in whole or\n+               in part; and\n+\n+            b. produce, reproduce, and Share Adapted Material.\n+\n+       2. Exceptions and Limitations. For the avoidance of doubt, where\n+          Exceptions and Limitations apply to Your use, this Public\n+          License does not apply, and You do not need to comply with\n+          its terms and conditions.\n+\n+       3. Term. The term of this Public License is specified in Section\n+          6(a).\n+\n+       4. Media and formats; technical modifications allowed. The\n+          Licensor authorizes You to exercise the Licensed Rights in\n+          all media and formats whether now known or hereafter created,\n+          and to make technical modifications necessary to do so. The\n+          Licensor waives and/or agrees not to assert any right or\n+          authority to forbid You from making technical modifications\n+          necessary to exercise the Licensed Rights, including\n+          technical modifications necessary to circumvent Effective\n+          Technological Measures. For purposes of this Public License,\n+          simply making modifications authorized by this Section 2(a)\n+          (4) never produces Adapted Material.\n+\n+       5. Downstream recipients.\n+\n+            a. Offer from the Licensor -- Licensed Material. Every\n+               recipient of the Licensed Material automatically\n+               receives an offer from the Licensor to exercise the\n+               Licensed Rights under the terms and conditions of this\n+               Public License.\n+\n+            b. Additional offer from the Licensor -- Adapted Material.\n+               Every recipient of Adapted Material from You\n+               automatically receives an offer from the Licensor to\n+               exercise the Licensed Rights in the Adapted Material\n+               under the conditions of the Adapter's License You apply.\n+\n+            c. No downstream restrictions. You may not offer or impose\n+               any additional or different terms or conditions on, or\n+               apply any Effective Technological Measures to, the\n+               Licensed Material if doing so restricts exercise of the\n+               Licensed Rights by any recipient of the Licensed\n+               Material.\n+\n+       6. No endorsement. Nothing in this Public License constitutes or\n+          may be construed as permission to assert or imply that You\n+          are, or that Your use of the Licensed Material is, connected\n+          with, or sponsored, endorsed, or granted official status by,\n+          the Licensor or others designated to receive attribution as\n+          provided in Section 3(a)(1)(A)(i).\n+\n+  b. Other rights.\n+\n+       1. Moral rights, such as the right of integrity, are not\n+          licensed under this Public License, nor are publicity,\n+          privacy, and/or other similar personality rights; however, to\n+          the extent possible, the Licensor waives and/or agrees not to\n+          assert any such rights held by the Licensor to the limited\n+          extent necessary to allow You to exercise the Licensed\n+          Rights, but not otherwise.\n+\n+       2. Patent and trademark rights are not licensed under this\n+          Public License.\n+\n+       3. To the extent possible, the Licensor waives any right to\n+          collect royalties from You for the exercise of the Licensed\n+          Rights, whether directly or through a collecting society\n+          under any voluntary or waivable statutory or compulsory\n+          licensing scheme. In all other cases the Licensor expressly\n+          reserves any right to collect such royalties.\n+\n+\n+Section 3 -- License Conditions.\n+\n+Your exercise of the Licensed Rights is expressly made subject to the\n+following conditions.\n+\n+  a. Attribution.\n+\n+       1. If You Share the Licensed Material (including in modified\n+          form), You must:\n+\n+            a. retain the following if it is supplied by the Licensor\n+               with the Licensed Material:\n+\n+                 i. identification of the creator(s) of the Licensed\n+                    Material and any others designated to receive\n+                    attribution, in any reasonable manner requested by\n+                    the Licensor (including by pseudonym if\n+                    designated);\n+\n+                ii. a copyright notice;\n+\n+               iii. a notice that refers to this Public License;\n+\n+                iv. a notice that refers to the disclaimer of\n+                    warranties;\n+\n+                 v. a URI or hyperlink to the Licensed Material to the\n+                    extent reasonably practicable;\n+\n+            b. indicate if You modified the Licensed Material and\n+               retain an indication of any previous modifications; and\n+\n+            c. indicate the Licensed Material is licensed under this\n+               Public License, and include the text of, or the URI or\n+               hyperlink to, this Public License.\n+\n+       2. You may satisfy the conditions in Section 3(a)(1) in any\n+          reasonable manner based on the medium, means, and context in\n+          which You Share the Licensed Material. For example, it may be\n+          reasonable to satisfy the conditions by providing a URI or\n+          hyperlink to a resource that includes the required\n+          information.\n+\n+       3. If requested by the Licensor, You must remove any of the\n+          information required by Section 3(a)(1)(A) to the extent\n+          reasonably practicable.\n+\n+  b. ShareAlike.\n+\n+     In addition to the conditions in Section 3(a), if You Share\n+     Adapted Material You produce, the following conditions also apply.\n+\n+       1. The Adapter's License You apply must be a Creative Commons\n+          license with the same License Elements, this version or\n+          later, or a BY-SA Compatible License.\n+\n+       2. You must include the text of, or the URI or hyperlink to, the\n+          Adapter's License You apply. You may satisfy this condition\n+          in any reasonable manner based on the medium, means, and\n+          context in which You Share Adapted Material.\n+\n+       3. You may not offer or impose any additional or different terms\n+          or conditions on, or apply any Effective Technological\n+          Measures to, Adapted Material that restrict exercise of the\n+          rights granted under the Adapter's License You apply.\n+\n+\n+Section 4 -- Sui Generis Database Rights.\n+\n+Where the Licensed Rights include Sui Generis Database Rights that\n+apply to Your use of the Licensed Material:\n+\n+  a. for the avoidance of doubt, Section 2(a)(1) grants You the right\n+     to extract, reuse, reproduce, and Share all or a substantial\n+     portion of the contents of the database;\n+\n+  b. if You include all or a substantial portion of the database\n+     contents in a database in which You have Sui Generis Database\n+     Rights, then the database in which You have Sui Generis Database\n+     Rights (but not its individual contents) is Adapted Material,\n+     including for purposes of Section 3(b); and\n+\n+  c. You must comply with the conditions in Section 3(a) if You Share\n+     all or a substantial portion of the contents of the database.\n+\n+For the avoidance of doubt, this Section 4 supplements and does not\n+replace Your obligations under this Public License where the Licensed\n+Rights include other Copyright and Similar Rights.\n+\n+\n+Section 5 -- Disclaimer of Warranties and Limitation of Liability.\n+\n+  a. UNLESS OTHERWISE SEPARATELY UNDERTAKEN BY THE LICENSOR, TO THE\n+     EXTENT POSSIBLE, THE LICENSOR OFFERS THE LICENSED MATERIAL AS-IS\n+     AND AS-AVAILABLE, AND MAKES NO REPRESENTATIONS OR WARRANTIES OF\n+     ANY KIND CONCERNING THE LICENSED MATERIAL, WHETHER EXPRESS,\n+     IMPLIED, STATUTORY, OR OTHER. THIS INCLUDES, WITHOUT LIMITATION,\n+     WARRANTIES OF TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR\n+     PURPOSE, NON-INFRINGEMENT, ABSENCE OF LATENT OR OTHER DEFECTS,\n+     ACCURACY, OR THE PRESENCE OR ABSENCE OF ERRORS, WHETHER OR NOT\n+     KNOWN OR DISCOVERABLE. WHERE DISCLAIMERS OF WARRANTIES ARE NOT\n+     ALLOWED IN FULL OR IN PART, THIS DISCLAIMER MAY NOT APPLY TO YOU.\n+\n+  b. TO THE EXTENT POSSIBLE, IN NO EVENT WILL THE LICENSOR BE LIABLE\n+     TO YOU ON ANY LEGAL THEORY (INCLUDING, WITHOUT LIMITATION,\n+     NEGLIGENCE) OR OTHERWISE FOR ANY DIRECT, SPECIAL, INDIRECT,\n+     INCIDENTAL, CONSEQUENTIAL, PUNITIVE, EXEMPLARY, OR OTHER LOSSES,\n+     COSTS, EXPENSES, OR DAMAGES ARISING OUT OF THIS PUBLIC LICENSE OR\n+     USE OF THE LICENSED MATERIAL, EVEN IF THE LICENSOR HAS BEEN\n+     ADVISED OF THE POSSIBILITY OF SUCH LOSSES, COSTS, EXPENSES, OR\n+     DAMAGES. WHERE A LIMITATION OF LIABILITY IS NOT ALLOWED IN FULL OR\n+     IN PART, THIS LIMITATION MAY NOT APPLY TO YOU.\n+\n+  c. The disclaimer of warranties and limitation of liability provided\n+     above shall be interpreted in a manner that, to the extent\n+     possible, most closely approximates an absolute disclaimer and\n+     waiver of all liability.\n+\n+\n+Section 6 -- Term and Termination.\n+\n+  a. This Public License applies for the term of the Copyright and\n+     Similar Rights licensed here. However, if You fail to comply with\n+     this Public License, then Your rights under this Public License\n+     terminate automatically.\n+\n+  b. Where Your right to use the Licensed Material has terminated under\n+     Section 6(a), it reinstates:\n+\n+       1. automatically as of the date the violation is cured, provided\n+          it is cured within 30 days of Your discovery of the\n+          violation; or\n+\n+       2. upon express reinstatement by the Licensor.\n+\n+     For the avoidance of doubt, this Section 6(b) does not affect any\n+     right the Licensor may have to seek remedies for Your violations\n+     of this Public License.\n+\n+  c. For the avoidance of doubt, the Licensor may also offer the\n+     Licensed Material under separate terms or conditions or stop\n+     distributing the Licensed Material at any time; however, doing so\n+     will not terminate this Public License.\n+\n+  d. Sections 1, 5, 6, 7, and 8 survive termination of this Public\n+     License.\n+\n+\n+Section 7 -- Other Terms and Conditions.\n+\n+  a. The Licensor shall not be bound by any additional or different\n+     terms or conditions communicated by You unless expressly agreed.\n+\n+  b. Any arrangements, understandings, or agreements regarding the\n+     Licensed Material not stated herein are separate from and\n+     independent of the terms and conditions of this Public License.\n+\n+\n+Section 8 -- Interpretation.\n+\n+  a. For the avoidance of doubt, this Public License does not, and\n+     shall not be interpreted to, reduce, limit, restrict, or impose\n+     conditions on any use of the Licensed Material that could lawfully\n+     be made without permission under this Public License.\n+\n+  b. To the extent possible, if any provision of this Public License is\n+     deemed unenforceable, it shall be automatically reformed to the\n+     minimum extent necessary to make it enforceable. If the provision\n+     cannot be reformed, it shall be severed from this Public License\n+     without affecting the enforceability of the remaining terms and\n+     conditions.\n+\n+  c. No term or condition of this Public License will be waived and no\n+     failure to comply consented to unless expressly agreed to by the\n+     Licensor.\n+\n+  d. Nothing in this Public License constitutes or may be interpreted\n+     as a limitation upon, or waiver of, any privileges and immunities\n+     that apply to the Licensor or You, including from the legal\n+     processes of any jurisdiction or authority.\n+\n+\n+=======================================================================\n+\n+Creative Commons is not a party to its public\n+licenses. Notwithstanding, Creative Commons may elect to apply one of\n+its public licenses to material it publishes and in those instances\n+will be considered the “Licensor.” The text of the Creative Commons\n+public licenses is dedicated to the public domain under the CC0 Public\n+Domain Dedication. Except for the limited purpose of indicating that\n+material is shared under a Creative Commons public license or as\n+otherwise permitted by the Creative Commons policies published at\n+creativecommons.org/policies, Creative Commons does not authorize the\n+use of the trademark \"Creative Commons\" or any other trademark or logo\n+of Creative Commons without its prior written consent including,\n+without limitation, in connection with any unauthorized modifications\n+to any of its public licenses or any other arrangements,\n+understandings, or agreements concerning use of licensed material. For\n+the avoidance of doubt, this paragraph does not form part of the\n+public licenses.\n+\n+Creative Commons may be contacted at creativecommons.org."
-      },
-      {
-        "sha": "196aa2752f8c0d5c16e970dcef8c1a658a7470f4",
-        "filename": "src/assets/fonts/vile-r/ibm-vga-8x16.woff2",
-        "status": "renamed",
-        "additions": 0,
-        "deletions": 0,
-        "changes": 0,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/0587941537e067ef06363aa85c7c5575c8d42bcc/src%2Fassets%2Ffonts%2Fvile-r%2Fibm-vga-8x16.woff2",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/0587941537e067ef06363aa85c7c5575c8d42bcc/src%2Fassets%2Ffonts%2Fvile-r%2Fibm-vga-8x16.woff2",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fassets%2Ffonts%2Fvile-r%2Fibm-vga-8x16.woff2?ref=0587941537e067ef06363aa85c7c5575c8d42bcc",
-        "previous_filename": "src/assets/fonts/ibm_vga_8x16.woff2"
-      },
-      {
-        "sha": "c597beb8fad19cc24c1e9c6ab3c9314d6bb192db",
-        "filename": "src/data/credits.json",
-        "status": "added",
-        "additions": 13,
-        "deletions": 0,
-        "changes": 13,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/0587941537e067ef06363aa85c7c5575c8d42bcc/src%2Fdata%2Fcredits.json",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/0587941537e067ef06363aa85c7c5575c8d42bcc/src%2Fdata%2Fcredits.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fdata%2Fcredits.json?ref=0587941537e067ef06363aa85c7c5575c8d42bcc",
-        "patch": "@@ -0,0 +1,13 @@\n+{\n+\t\"fonts\": [\n+\t\t{\n+\t\t\t\"title\": \"Terminus\",\n+\t\t\t\"body\": \"Licensed under SIL Open Font License 1.1.\"\n+\t\t},\n+\t\t{\n+\t\t\t\"title\": \"IBM VGA 8x16 Font by VileR\",\n+\t\t\t\"body\": \"Licensed under CC BY-SA 4.0.\",\n+\t\t\t\"source\": \"https://int10h.org/\"\n+\t\t}\n+\t]\n+}"
-      },
-      {
-        "sha": "89df8315c0cc28363a2f209b3b4e31d13baf10d5",
-        "filename": "src/layouts/Layout.astro",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/0587941537e067ef06363aa85c7c5575c8d42bcc/src%2Flayouts%2FLayout.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/0587941537e067ef06363aa85c7c5575c8d42bcc/src%2Flayouts%2FLayout.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Flayouts%2FLayout.astro?ref=0587941537e067ef06363aa85c7c5575c8d42bcc",
-        "patch": "@@ -122,7 +122,7 @@ const latestCommit = await safeAsync(\n \n \t\t\t\t\t<div class=\"relative z-1 flex items-center justify-between border-t border-green-900/30 bg-black px-5 py-8 text-xs md:px-20 lg:px-30\">\n \t\t\t\t\t\t<div class=\"flex flex-col space-x-5 md:flex-row\">\n-\t\t\t\t\t\t\t<p class=\"font-mono font-bold\">© 2026 Mark Jerwin</p>\n+\t\t\t\t\t\t\t<a href=\"credits\" class=\"font-mono font-bold\">© 2026 Mark Jerwin</a>\n \t\t\t\t\t\t\t{latestCommit.data && (\n \t\t\t\t\t\t\t\t<>\n \t\t\t\t\t\t\t\t\t<p class=\"hidden font-mono md:block\">-</p>"
-      },
-      {
-        "sha": "fa1aa18f28a8bd4bca010f15ef3f6d02333905cc",
-        "filename": "src/pages/credits.astro",
-        "status": "added",
-        "additions": 61,
-        "deletions": 0,
-        "changes": 61,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/0587941537e067ef06363aa85c7c5575c8d42bcc/src%2Fpages%2Fcredits.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/0587941537e067ef06363aa85c7c5575c8d42bcc/src%2Fpages%2Fcredits.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Fcredits.astro?ref=0587941537e067ef06363aa85c7c5575c8d42bcc",
-        "patch": "@@ -0,0 +1,61 @@\n+---\n+import Layout from \"../layouts/Layout.astro\";\n+import data from \"../data/credits.json\";\n+\n+interface Credits {\n+\ttitle: string;\n+\tbody: string;\n+\tsource?: string;\n+}\n+---\n+\n+<Layout title=\"Mark Jerwin // CREDITS\" robots=\"nindex, nofollow\">\n+\t<main>\n+\t\t<div class=\"space-y-8\">\n+\t\t\t<p\n+\t\t\t\tclass=\"glitch animate-pulse text-5xl font-bold tracking-widest text-green-500\"\n+\t\t\t>\n+\t\t\t\t> CREDITS\n+\t\t\t</p>\n+\t\t\t<div>\n+\t\t\t\t<p class=\"font-mono\">\n+\t\t\t\t\t© 2026 Mark Jerwin (@jrwnnnn). All rights reserved. <br />\n+\t\t\t\t\tUnless otherwise stated, all content, code, design, and assets on this website\n+\t\t\t\t\tare the property of the copyright holder.\n+\t\t\t\t</p>\n+\t\t\t</div>\n+\t\t\t<div class=\"space-y-8 font-mono lg:columns-2\">\n+\t\t\t\t{\n+\t\t\t\t\tObject.entries(data).map(([category, items]) => (\n+\t\t\t\t\t\t<div class=\"break-inside-avoid\">\n+\t\t\t\t\t\t\t<p class=\"mb-3 text-xl font-bold tracking-wide uppercase\">\n+\t\t\t\t\t\t\t\t{category}\n+\t\t\t\t\t\t\t</p>\n+\t\t\t\t\t\t\t<ul class=\"ml-5 list-disc space-y-4 text-green-600\">\n+\t\t\t\t\t\t\t\t{(items as Credits[]).map((credit) => (\n+\t\t\t\t\t\t\t\t\t<li>\n+\t\t\t\t\t\t\t\t\t\t<p class=\"font-bold\">{credit.title}</p>\n+\t\t\t\t\t\t\t\t\t\t<p>{credit.body}</p>\n+\t\t\t\t\t\t\t\t\t\t{credit.source && (\n+\t\t\t\t\t\t\t\t\t\t\t<p>\n+\t\t\t\t\t\t\t\t\t\t\t\tSource:\n+\t\t\t\t\t\t\t\t\t\t\t\t<a\n+\t\t\t\t\t\t\t\t\t\t\t\t\thref={credit.source}\n+\t\t\t\t\t\t\t\t\t\t\t\t\ttarget=\"_blank\"\n+\t\t\t\t\t\t\t\t\t\t\t\t\trel=\"noopener noreferrer\"\n+\t\t\t\t\t\t\t\t\t\t\t\t\tclass=\"hover:underline\"\n+\t\t\t\t\t\t\t\t\t\t\t\t>\n+\t\t\t\t\t\t\t\t\t\t\t\t\t{credit.source}\n+\t\t\t\t\t\t\t\t\t\t\t\t</a>\n+\t\t\t\t\t\t\t\t\t\t\t</p>\n+\t\t\t\t\t\t\t\t\t\t)}\n+\t\t\t\t\t\t\t\t\t</li>\n+\t\t\t\t\t\t\t\t))}\n+\t\t\t\t\t\t\t</ul>\n+\t\t\t\t\t\t</div>\n+\t\t\t\t\t))\n+\t\t\t\t}\n+\t\t\t</div>\n+\t\t</div>\n+\t</main>\n+</Layout>"
-      },
-      {
-        "sha": "1113239e45ce38bad9f21c5d5a0f0ac99cb3626d",
-        "filename": "src/styles/global.css",
-        "status": "modified",
-        "additions": 2,
         "deletions": 2,
-        "changes": 4,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/0587941537e067ef06363aa85c7c5575c8d42bcc/src%2Fstyles%2Fglobal.css",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/0587941537e067ef06363aa85c7c5575c8d42bcc/src%2Fstyles%2Fglobal.css",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fstyles%2Fglobal.css?ref=0587941537e067ef06363aa85c7c5575c8d42bcc",
-        "patch": "@@ -2,12 +2,12 @@\n \n @font-face {\n \tfont-family: \"ibm\";\n-\tsrc: url(../assets/fonts/ibm_vga_8x16.woff2) format(\"woff2\");\n+\tsrc: url(../assets/fonts/vile-r/ibm-vga-8x16.woff2) format(\"woff2\");\n }\n \n @font-face {\n \tfont-family: \"Terminus\";\n-\tsrc: url(../assets/fonts/Terminus.woff2) format(\"woff2\");\n+\tsrc: url(../assets/fonts/terminus/Terminus.woff2) format(\"woff2\");\n }\n \n @theme {"
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/still-we-shine/blob/0e4b3753216f0462af36a4daf3c11bbb856c351d/.env.example",
+        "raw_url": "https://github.com/jrwnnnn/still-we-shine/raw/0e4b3753216f0462af36a4daf3c11bbb856c351d/.env.example",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/still-we-shine/contents/.env.example?ref=0e4b3753216f0462af36a4daf3c11bbb856c351d",
+        "patch": "@@ -1,2 +0,0 @@\n-ASTRO_DB_REMOTE_URL=\"libsql://my-db-name-user.turso.io\"\n-ASTRO_DB_APP_TOKEN=\"ey...\"\n\\ No newline at end of file"
       }
     ]
   },
   {
-    "sha": "bad62d2359eb6716b441f19bca081c8fc971df30",
-    "node_id": "C_kwDORCOQn9oAKGJhZDYyZDIzNTllYjY3MTZiNDQxZjE5YmNhMDgxYzhmYzk3MWRmMzA",
+    "sha": "0e4b3753216f0462af36a4daf3c11bbb856c351d",
+    "node_id": "C_kwDORbfyj9oAKDBlNGIzNzUzMjE2ZjA0NjJhZjM2YTRkYWYzYzExYmJiODU2YzM1MWQ",
     "commit": {
       "author": {
         "name": "Mark Jerwin",
         "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-27T00:35:59Z"
+        "date": "2026-03-01T06:27:38Z"
       },
       "committer": {
         "name": "Mark Jerwin",
         "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-27T00:35:59Z"
+        "date": "2026-03-01T06:27:38Z"
       },
-      "message": "Move scrollbar styles to global; minor UI fixes",
+      "message": "Update astro.config.mjs",
       "tree": {
-        "sha": "8b09705afb42ff0627c75da68ae2453983ddd3ef",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/8b09705afb42ff0627c75da68ae2453983ddd3ef"
+        "sha": "9fb44b4a0f0120487fa1348c26be44f47ca641f8",
+        "url": "https://api.github.com/repos/jrwnnnn/still-we-shine/git/trees/9fb44b4a0f0120487fa1348c26be44f47ca641f8"
       },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/bad62d2359eb6716b441f19bca081c8fc971df30",
+      "url": "https://api.github.com/repos/jrwnnnn/still-we-shine/git/commits/0e4b3753216f0462af36a4daf3c11bbb856c351d",
       "comment_count": 0,
       "verification": {
         "verified": false,
@@ -350,9 +265,9 @@
         "verified_at": null
       }
     },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/bad62d2359eb6716b441f19bca081c8fc971df30",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/bad62d2359eb6716b441f19bca081c8fc971df30",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/bad62d2359eb6716b441f19bca081c8fc971df30/comments",
+    "url": "https://api.github.com/repos/jrwnnnn/still-we-shine/commits/0e4b3753216f0462af36a4daf3c11bbb856c351d",
+    "html_url": "https://github.com/jrwnnnn/still-we-shine/commit/0e4b3753216f0462af36a4daf3c11bbb856c351d",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/still-we-shine/commits/0e4b3753216f0462af36a4daf3c11bbb856c351d/comments",
     "author": {
       "login": "jrwnnnn",
       "id": 136870415,
@@ -397,199 +312,51 @@
     },
     "parents": [
       {
-        "sha": "bdee92706a5fc23519bfad219682b4e840b849dd",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/bdee92706a5fc23519bfad219682b4e840b849dd",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/bdee92706a5fc23519bfad219682b4e840b849dd"
+        "sha": "656d0a78b4e42f0ac43f7f89fbc1596c7017279c",
+        "url": "https://api.github.com/repos/jrwnnnn/still-we-shine/commits/656d0a78b4e42f0ac43f7f89fbc1596c7017279c",
+        "html_url": "https://github.com/jrwnnnn/still-we-shine/commit/656d0a78b4e42f0ac43f7f89fbc1596c7017279c"
       }
     ],
     "stats": {
-      "total": 22,
-      "additions": 19,
-      "deletions": 3
+      "total": 2,
+      "additions": 0,
+      "deletions": 2
     },
     "files": [
       {
-        "sha": "21ce29177a30a2b94d95ce59558f8b71a59f5bd1",
-        "filename": "src/components/modules/Heatmap.astro",
+        "sha": "31ddd1abfa7bc1dabe3ea458065e872ec88ab23e",
+        "filename": "astro.config.mjs",
         "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/bad62d2359eb6716b441f19bca081c8fc971df30/src%2Fcomponents%2Fmodules%2FHeatmap.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/bad62d2359eb6716b441f19bca081c8fc971df30/src%2Fcomponents%2Fmodules%2FHeatmap.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2Fmodules%2FHeatmap.astro?ref=bad62d2359eb6716b441f19bca081c8fc971df30",
-        "patch": "@@ -60,7 +60,7 @@ function getColor(count: number) {\n \t) : (\n \t\t<div\n \t\t\tid=\"heatmap\"\n-\t\t\tclass=\"w-full cursor-pointer overflow-x-auto pb-2 [&::-webkit-scrollbar]:h-1 [&::-webkit-scrollbar-thumb]:bg-transparent hover:[&::-webkit-scrollbar-thumb]:bg-green-600\"\n+\t\t\tclass=\"w-full cursor-pointer overflow-x-auto pb-2\"\n \t\t>\n \t\t\t<div class=\"flex gap-1\">\n \t\t\t\t{calendar?.weeks.map((week: any) => ("
-      },
-      {
-        "sha": "667c37999e1a58c7ee58386079e5fb9525fa33da",
-        "filename": "src/components/modules/Scrobble.jsx",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/bad62d2359eb6716b441f19bca081c8fc971df30/src%2Fcomponents%2Fmodules%2FScrobble.jsx",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/bad62d2359eb6716b441f19bca081c8fc971df30/src%2Fcomponents%2Fmodules%2FScrobble.jsx",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2Fmodules%2FScrobble.jsx?ref=bad62d2359eb6716b441f19bca081c8fc971df30",
-        "patch": "@@ -110,7 +110,7 @@ function Scrobble() {\n \t\t\t\t\t\t\t\trel=\"noreferrer\"\n \t\t\t\t\t\t\t\tclassName=\"grid grid-cols-[2fr_1fr] gap-1 font-mono text-sm hover:brightness-120\"\n \t\t\t\t\t\t\t>\n-\t\t\t\t\t\t\t\t<p className=\"line-clamp-1 text-green-600\">{track?.name}</p>\n+\t\t\t\t\t\t\t\t<p className=\"line-clamp-1 text-green-500\">{track?.name}</p>\n \t\t\t\t\t\t\t\t<p className=\"line-clamp-1 text-right whitespace-nowrap text-green-800\">\n \t\t\t\t\t\t\t\t\t{track?.artist?.[\"#text\"]}\n \t\t\t\t\t\t\t\t</p>"
-      },
-      {
-        "sha": "7b833bf37f68a39a7537a1be5f237b11b37474ce",
-        "filename": "src/pages/transmission/index.astro",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/bad62d2359eb6716b441f19bca081c8fc971df30/src%2Fpages%2Ftransmission%2Findex.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/bad62d2359eb6716b441f19bca081c8fc971df30/src%2Fpages%2Ftransmission%2Findex.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Ftransmission%2Findex.astro?ref=bad62d2359eb6716b441f19bca081c8fc971df30",
-        "patch": "@@ -102,7 +102,7 @@ const transmissions = (result?.rows ?? []) as unknown as Post[];\n \t\t\t\t\t\t\t\t>\n \t\t\t\t\t\t\t\t\t<div class=\"group flex flex-col border border-green-900/50 bg-black font-mono hover:border-green-500 hover:bg-green-900/10 md:flex-row\">\n \t\t\t\t\t\t\t\t\t\t{transmission.cover && (\n-\t\t\t\t\t\t\t\t\t\t\t<div class=\"aspect-square h-50 shrink-0 overflow-clip md:h-40 md:w-40\">\n+\t\t\t\t\t\t\t\t\t\t\t<div class=\"aspect-square shrink-0 overflow-clip md:h-40 md:w-40\">\n \t\t\t\t\t\t\t\t\t\t\t\t<Ascii ascii={transmission.cover} />\n \t\t\t\t\t\t\t\t\t\t\t</div>\n \t\t\t\t\t\t\t\t\t\t)}"
-      },
-      {
-        "sha": "a5129d9a07df11e1d4c813109cd891b2ed5edf54",
-        "filename": "src/styles/global.css",
-        "status": "modified",
-        "additions": 16,
-        "deletions": 0,
-        "changes": 16,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/bad62d2359eb6716b441f19bca081c8fc971df30/src%2Fstyles%2Fglobal.css",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/bad62d2359eb6716b441f19bca081c8fc971df30/src%2Fstyles%2Fglobal.css",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fstyles%2Fglobal.css?ref=bad62d2359eb6716b441f19bca081c8fc971df30",
-        "patch": "@@ -14,6 +14,22 @@\n \t--font-mono: \"Terminus\";\n }\n \n+html {\n+\t::-webkit-scrollbar {\n+\t\twidth: 3px;\n+\t}\n+\t::-webkit-scrollbar-track {\n+\t\t@apply bg-black;\n+\t}\n+\t::-webkit-scrollbar-thumb {\n+\t\t@apply bg-green-500;\n+\t}\n+\n+\t/* Mozilla ahhhhhh special */\n+\tscrollbar-width: thin;\n+\tscrollbar-color: theme(\"colors.green.500\") theme(\"colors.black\");\n+}\n+\n body {\n \t@apply flex min-h-dvh flex-col overflow-x-hidden bg-black text-green-500;\n \tfont-family: ibm;"
-      }
-    ]
-  },
-  {
-    "sha": "bdee92706a5fc23519bfad219682b4e840b849dd",
-    "node_id": "C_kwDORCOQn9oAKGJkZWU5MjcwNmE1ZmMyMzUxOWJmYWQyMTk2ODJiNGU4NDBiODQ5ZGQ",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-26T08:22:11Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-26T08:22:11Z"
-      },
-      "message": "Add README preview image [skip deploy]",
-      "tree": {
-        "sha": "95f5cbf6c5c76b22a98013672f0f4a83b82f21f4",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/95f5cbf6c5c76b22a98013672f0f4a83b82f21f4"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/bdee92706a5fc23519bfad219682b4e840b849dd",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/bdee92706a5fc23519bfad219682b4e840b849dd",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/bdee92706a5fc23519bfad219682b4e840b849dd",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/bdee92706a5fc23519bfad219682b4e840b849dd/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "452e8f4ceca1e2e6a3ce069ac416bbe17dec1414",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/452e8f4ceca1e2e6a3ce069ac416bbe17dec1414",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/452e8f4ceca1e2e6a3ce069ac416bbe17dec1414"
-      }
-    ],
-    "stats": {
-      "total": 6,
-      "additions": 5,
-      "deletions": 1
-    },
-    "files": [
-      {
-        "sha": "732e70f1dceb969f0c9999c1f73b2d831ca8b235",
-        "filename": ".github/README/preview.png",
-        "status": "added",
         "additions": 0,
-        "deletions": 0,
-        "changes": 0,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/bdee92706a5fc23519bfad219682b4e840b849dd/.github%2FREADME%2Fpreview.png",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/bdee92706a5fc23519bfad219682b4e840b849dd/.github%2FREADME%2Fpreview.png",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/.github%2FREADME%2Fpreview.png?ref=bdee92706a5fc23519bfad219682b4e840b849dd"
-      },
-      {
-        "sha": "79a6e70e65e3062e4382e6ada769b94b73ec3b86",
-        "filename": "README.md",
-        "status": "modified",
-        "additions": 5,
-        "deletions": 1,
-        "changes": 6,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/bdee92706a5fc23519bfad219682b4e840b849dd/README.md",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/bdee92706a5fc23519bfad219682b4e840b849dd/README.md",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/README.md?ref=bdee92706a5fc23519bfad219682b4e840b849dd",
-        "patch": "@@ -10,6 +10,10 @@\n    <a href=\"https://github.com/jrwnnnn/jrwnnnn-me\"><img src=\"https://img.shields.io/github/stars/jrwnnnn/jrwnnnn-me?style=for-the-badge\"></a>\n </div>\n \n+<br>\n+\n+![preview](.github/README/preview.png)\n+\n ## License\n \n Distributed under the MIT License.\n@@ -24,4 +28,4 @@ The above copyright notice and this permission notice shall be included in all c\n <br>\n <br>\n \n-<img src=\"https://forthebadge.com/images/badges/built-with-love.svg\">\n\\ No newline at end of file\n+<img src=\"https://forthebadge.com/images/badges/built-with-love.svg\">"
+        "deletions": 2,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/still-we-shine/blob/0e4b3753216f0462af36a4daf3c11bbb856c351d/astro.config.mjs",
+        "raw_url": "https://github.com/jrwnnnn/still-we-shine/raw/0e4b3753216f0462af36a4daf3c11bbb856c351d/astro.config.mjs",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/still-we-shine/contents/astro.config.mjs?ref=0e4b3753216f0462af36a4daf3c11bbb856c351d",
+        "patch": "@@ -2,15 +2,13 @@\n // This is an AstroDB via Turso, deployment ready via adapter-node Astro scaffold.\n import { defineConfig } from 'astro/config';\n import tailwindcss from \"@tailwindcss/vite\";\n-import db from \"@astrojs/db\";\n import node from \"@astrojs/node\";\n \n // https://astro.build/config\n export default defineConfig({\n   vite: {\n     plugins: [tailwindcss()],\n   },\n-  integrations: [db()],\n   output: 'server',\n   adapter: node({\n     mode: \"standalone\""
       }
     ]
   },
   {
-    "sha": "452e8f4ceca1e2e6a3ce069ac416bbe17dec1414",
-    "node_id": "C_kwDORCOQn9oAKDQ1MmU4ZjRjZWNhMWUyZTZhM2NlMDY5YWM0MTZiYmUxN2RlYzE0MTQ",
+    "sha": "656d0a78b4e42f0ac43f7f89fbc1596c7017279c",
+    "node_id": "C_kwDORbfyj9oAKDY1NmQwYTc4YjRlNDJmMGFjNDNmN2Y4OWZiYzE1OTZjNzAxNzI3OWM",
     "commit": {
       "author": {
         "name": "Mark Jerwin",
         "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-26T07:56:49Z"
+        "date": "2026-03-01T06:27:32Z"
       },
       "committer": {
         "name": "Mark Jerwin",
         "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-02-26T07:56:49Z"
+        "date": "2026-03-01T06:27:32Z"
       },
-      "message": "Add transmit-preview page; adjust cover height",
+      "message": "Update dependencides",
       "tree": {
-        "sha": "915335194403bd2a4b27d7d242bc9d2a66dac9f6",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/915335194403bd2a4b27d7d242bc9d2a66dac9f6"
+        "sha": "ac5d6533907c7d86abca87f44879e243fe56b670",
+        "url": "https://api.github.com/repos/jrwnnnn/still-we-shine/git/trees/ac5d6533907c7d86abca87f44879e243fe56b670"
       },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/452e8f4ceca1e2e6a3ce069ac416bbe17dec1414",
+      "url": "https://api.github.com/repos/jrwnnnn/still-we-shine/git/commits/656d0a78b4e42f0ac43f7f89fbc1596c7017279c",
       "comment_count": 0,
       "verification": {
         "verified": false,
@@ -599,9 +366,9 @@
         "verified_at": null
       }
     },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/452e8f4ceca1e2e6a3ce069ac416bbe17dec1414",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/452e8f4ceca1e2e6a3ce069ac416bbe17dec1414",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/452e8f4ceca1e2e6a3ce069ac416bbe17dec1414/comments",
+    "url": "https://api.github.com/repos/jrwnnnn/still-we-shine/commits/656d0a78b4e42f0ac43f7f89fbc1596c7017279c",
+    "html_url": "https://github.com/jrwnnnn/still-we-shine/commit/656d0a78b4e42f0ac43f7f89fbc1596c7017279c",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/still-we-shine/commits/656d0a78b4e42f0ac43f7f89fbc1596c7017279c/comments",
     "author": {
       "login": "jrwnnnn",
       "id": 136870415,
@@ -646,40 +413,140 @@
     },
     "parents": [
       {
-        "sha": "f8e4315946f3917cb3f718f6e87e0f59f637b73d",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/f8e4315946f3917cb3f718f6e87e0f59f637b73d",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/f8e4315946f3917cb3f718f6e87e0f59f637b73d"
+        "sha": "cb639c5c0474ecd3504ab4aaca64bea960f010b9",
+        "url": "https://api.github.com/repos/jrwnnnn/still-we-shine/commits/cb639c5c0474ecd3504ab4aaca64bea960f010b9",
+        "html_url": "https://github.com/jrwnnnn/still-we-shine/commit/cb639c5c0474ecd3504ab4aaca64bea960f010b9"
       }
     ],
     "stats": {
-      "total": 145,
-      "additions": 144,
-      "deletions": 1
+      "total": 1302,
+      "additions": 630,
+      "deletions": 672
     },
     "files": [
       {
-        "sha": "82bbad0c4992216c2f592b23bcb722ed2d2e9056",
-        "filename": "src/pages/transmission/index.astro",
+        "sha": "719298b8346209df7da64641534bcbca6b37111b",
+        "filename": "package-lock.json",
         "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/452e8f4ceca1e2e6a3ce069ac416bbe17dec1414/src%2Fpages%2Ftransmission%2Findex.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/452e8f4ceca1e2e6a3ce069ac416bbe17dec1414/src%2Fpages%2Ftransmission%2Findex.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Ftransmission%2Findex.astro?ref=452e8f4ceca1e2e6a3ce069ac416bbe17dec1414",
-        "patch": "@@ -102,7 +102,7 @@ const transmissions = (result?.rows ?? []) as unknown as Post[];\n \t\t\t\t\t\t\t\t>\n \t\t\t\t\t\t\t\t\t<div class=\"group flex flex-col border border-green-900/50 bg-black font-mono hover:border-green-500 hover:bg-green-900/10 md:flex-row\">\n \t\t\t\t\t\t\t\t\t\t{transmission.cover && (\n-\t\t\t\t\t\t\t\t\t\t\t<div class=\"aspect-square shrink-0 overflow-clip md:h-40 md:w-40\">\n+\t\t\t\t\t\t\t\t\t\t\t<div class=\"aspect-square h-50 shrink-0 overflow-clip md:h-40 md:w-40\">\n \t\t\t\t\t\t\t\t\t\t\t\t<Ascii ascii={transmission.cover} />\n \t\t\t\t\t\t\t\t\t\t\t</div>\n \t\t\t\t\t\t\t\t\t\t)}"
+        "additions": 627,
+        "deletions": 672,
+        "changes": 1299,
+        "blob_url": "https://github.com/jrwnnnn/still-we-shine/blob/656d0a78b4e42f0ac43f7f89fbc1596c7017279c/package-lock.json",
+        "raw_url": "https://github.com/jrwnnnn/still-we-shine/raw/656d0a78b4e42f0ac43f7f89fbc1596c7017279c/package-lock.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/still-we-shine/contents/package-lock.json?ref=656d0a78b4e42f0ac43f7f89fbc1596c7017279c"
       },
       {
-        "sha": "742536ae440cb41fcba11a71a92facd73f86aa5c",
-        "filename": "src/pages/transmission/transmit-preview.astro",
-        "status": "added",
-        "additions": 143,
+        "sha": "b53daac14e267090ffdfe162575319f874403a7f",
+        "filename": "package.json",
+        "status": "modified",
+        "additions": 3,
         "deletions": 0,
-        "changes": 143,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/452e8f4ceca1e2e6a3ce069ac416bbe17dec1414/src%2Fpages%2Ftransmission%2Ftransmit-preview.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/452e8f4ceca1e2e6a3ce069ac416bbe17dec1414/src%2Fpages%2Ftransmission%2Ftransmit-preview.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Ftransmission%2Ftransmit-preview.astro?ref=452e8f4ceca1e2e6a3ce069ac416bbe17dec1414",
-        "patch": "@@ -0,0 +1,143 @@\n+---\n+import \"../../styles/marked.css\";\n+// import { createClient } from \"@libsql/client\";\n+// import { createSlug } from \"@utils/createSlug\";\n+\n+import Layout from \"../../layouts/Layout.astro\";\n+\n+// ILL BE IMPLEMENTING THIS SOON, JUST WANT A PLACEHOLDER FOR NOW\n+// const turso = createClient({\n+// \turl: process.env.TURSO_DATABASE_URL || import.meta.env.TURSO_DATABASE_URL,\n+\n+// \tauthToken: process.env.TURSO_AUTH_TOKEN || import.meta.env.TURSO_AUTH_TOKEN,\n+// });\n+\n+// let message = \"\";\n+\n+// if (Astro.request.method === \"POST\") {\n+// \ttry {\n+// \t\tconst data = await Astro.request.formData();\n+// \t\tconst title = data.get(\"title\")?.toString() ?? \"\";\n+// \t\tconst subtitle = data.get(\"subtitle\")?.toString() ?? null;\n+// \t\tconst content = data.get(\"content\")?.toString() ?? \"\";\n+// \t\t// TODO: Prevent duplicate slugs by appending a number if the slug already exists\n+// \t\tconst slug = createSlug(title);\n+\n+// \t\tif (title) {\n+// \t\t\tawait turso.execute(\n+// \t\t\t\t\"INSERT INTO articles (title, subtitle, content, date_created, slug) VALUES (?, ?, ?, ?, ?)\",\n+// \t\t\t\t[title, subtitle, content, new Date().toISOString(), slug],\n+// \t\t\t);\n+// \t\t\tmessage = \"Record inserted successfully.\";\n+// \t\t\treturn new Response(null, {\n+// \t\t\t\tstatus: 301,\n+// \t\t\t\theaders: { Location: `/transmission/${slug}` }\n+// \t\t\t});\n+// \t\t}\n+// \t} catch (error) {\n+// \t\tmessage = `Insertion failed: ${error instanceof Error ? error.message : \"Unknown error\"}`;\n+// \t}\n+// }\n+---\n+\n+<Layout title=\"Mark Jerwin // TRANSMIT\" robots=\"noindex, nofollow\">\n+\t<main class=\"flex flex-col items-center justify-center\">\n+\t\t<svg\n+\t\t\tid=\"preview-toggle\"\n+\t\t\txmlns=\"http://www.w3.org/2000/svg\"\n+\t\t\tviewBox=\"0 0 24 24\"\n+\t\t\tfill=\"#000\"\n+\t\t\tstroke=\"#00c951\"\n+\t\t\twidth=\"30\"\n+\t\t\theight=\"30\"\n+\t\t\tclass=\"mb-10 cursor-pointer\"\n+\t\t>\n+\t\t\t<path\n+\t\t\t\td=\"M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z\"\n+\t\t\t></path>\n+\t\t</svg>\n+\n+\t\t<div class=\"w-full font-mono md:w-[60vw]\">\n+\t\t\t<statusbar\n+\t\t\t\tclass=\"flex items-center justify-between border border-b-0 border-green-800 bg-green-900/20 px-4 py-2 text-xs tracking-widest uppercase\"\n+\t\t\t>\n+\t\t\t\t<span>PREVIEW</span>\n+\n+\t\t\t\t<time datetime={new Date().toISOString()}>\n+\t\t\t\t\t{\n+\t\t\t\t\t\tnew Date().toLocaleDateString(\"en-US\", {\n+\t\t\t\t\t\t\tyear: \"numeric\",\n+\t\t\t\t\t\t\tmonth: \"short\",\n+\t\t\t\t\t\t\tday: \"numeric\",\n+\t\t\t\t\t\t})\n+\t\t\t\t\t}\n+\t\t\t\t</time>\n+\t\t\t</statusbar>\n+\n+\t\t\t<form\n+\t\t\t\tmethod=\"POST\"\n+\t\t\t\tclass=\"flex flex-col space-y-5 border border-green-800 bg-black p-6 md:p-12\"\n+\t\t\t>\n+\t\t\t\t<textarea\n+\t\t\t\t\tclass=\"w-full rounded-none text-4xl leading-none font-bold uppercase outline-none md:text-5xl\"\n+\t\t\t\t\tname=\"title\"\n+\t\t\t\t\tplaceholder=\"Title\"\n+\t\t\t\t\trows=\"1\"\n+\t\t\t\t\toninput=\"this.style.height = ''; this.style.height = this.scrollHeight + 'px'\"\n+\t\t\t\t\trequired></textarea>\n+\n+\t\t\t\t<textarea\n+\t\t\t\t\tclass=\"w-full text-lg text-green-600 outline-none\"\n+\t\t\t\t\tname=\"subtitle\"\n+\t\t\t\t\tplaceholder=\"Subtitle\"\n+\t\t\t\t\trows=\"2\"\n+\t\t\t\t\toninput=\"this.style.height = ''; this.style.height = this.scrollHeight + 'px'\"\n+\t\t\t\t></textarea>\n+\n+\t\t\t\t<hr class=\"border border-green-900/50\" />\n+\n+\t\t\t\t<textarea\n+\t\t\t\t\tid=\"content-input\"\n+\t\t\t\t\tclass=\"h-full min-h-30 w-full resize-none overflow-hidden outline-none\"\n+\t\t\t\t\tname=\"content\"\n+\t\t\t\t\tplaceholder=\"Start typing here...\"\n+\t\t\t\t\toninput=\"this.style.height = ''; this.style.height = this.scrollHeight + 'px'\"\n+\t\t\t\t\trequired></textarea>\n+\n+\t\t\t\t<div id=\"preview\" class=\"prose hidden min-h-30\"></div>\n+\n+\t\t\t\t<hr class=\"border border-green-900/50\" />\n+\n+\t\t\t\t<p class=\"text-center text-sm text-green-800 italic\">\n+\t\t\t\t\tEND OF TRANSMISSION\n+\t\t\t\t</p>\n+\n+\t\t\t\t<!-- <button\n+\t\t\t\t\ttype=\"submit\"\n+\t\t\t\t\tclass=\"cursor-pointer self-end px-3 py-2 text-sm font-bold tracking-widest hover:bg-green-500 hover:text-black hover:brightness-110\"\n+\t\t\t\t>\n+\t\t\t\t\t[ TRANSMIT ]\n+\t\t\t\t</button> -->\n+\t\t\t</form>\n+\t\t</div>\n+\t</main>\n+</Layout>\n+\n+<script>\n+\timport { marked } from \"marked\";\n+\tconst toggle = document.getElementById(\"preview-toggle\");\n+\tconst input = document.getElementById(\"content-input\") as HTMLTextAreaElement;\n+\tconst preview = document.getElementById(\"preview\");\n+\n+\tif (toggle && input && preview) {\n+\t\ttoggle.addEventListener(\"click\", async () => {\n+\t\t\tconst isEditing = !input.classList.contains(\"hidden\");\n+\n+\t\t\tif (isEditing) preview.innerHTML = await marked.parse(input.value);\n+\t\t\tinput.classList.toggle(\"hidden\", isEditing);\n+\t\t\tpreview.classList.toggle(\"hidden\", !isEditing);\n+\t\t\ttoggle.setAttribute(\"fill\", isEditing ? \"#00c951\" : \"#000\");\n+\t\t\ttoggle.setAttribute(\"stroke\", isEditing ? \"#000\" : \"#00c951\");\n+\t\t});\n+\t}\n+</script>"
+        "changes": 3,
+        "blob_url": "https://github.com/jrwnnnn/still-we-shine/blob/656d0a78b4e42f0ac43f7f89fbc1596c7017279c/package.json",
+        "raw_url": "https://github.com/jrwnnnn/still-we-shine/raw/656d0a78b4e42f0ac43f7f89fbc1596c7017279c/package.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/still-we-shine/contents/package.json?ref=656d0a78b4e42f0ac43f7f89fbc1596c7017279c",
+        "patch": "@@ -13,6 +13,9 @@\n     \"@libsql/client\": \"^0.17.0\",\n     \"@tailwindcss/vite\": \"^4.1.18\",\n     \"astro\": \"^5.17.1\",\n+    \"prettier\": \"^3.8.1\",\n+    \"prettier-plugin-astro\": \"^0.14.1\",\n+    \"prettier-plugin-tailwindcss\": \"^0.7.2\",\n     \"tailwindcss\": \"^4.1.18\"\n   }\n }"
+      }
+    ]
+  },
+  {
+    "sha": "cb639c5c0474ecd3504ab4aaca64bea960f010b9",
+    "node_id": "C_kwDORbfyj9oAKGNiNjM5YzVjMDQ3NGVjZDM1MDRhYjRhYWNhNjRiZWE5NjBmMDEwYjk",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-03-01T06:27:14Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-03-01T06:27:14Z"
+      },
+      "message": "Update .prettierrc",
+      "tree": {
+        "sha": "93dca7763edabdbdd4ecf27b7caad942c7545a22",
+        "url": "https://api.github.com/repos/jrwnnnn/still-we-shine/git/trees/93dca7763edabdbdd4ecf27b7caad942c7545a22"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/still-we-shine/git/commits/cb639c5c0474ecd3504ab4aaca64bea960f010b9",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/still-we-shine/commits/cb639c5c0474ecd3504ab4aaca64bea960f010b9",
+    "html_url": "https://github.com/jrwnnnn/still-we-shine/commit/cb639c5c0474ecd3504ab4aaca64bea960f010b9",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/still-we-shine/commits/cb639c5c0474ecd3504ab4aaca64bea960f010b9/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4bfe2ff5ccc5a4d668afe7925b0eb6b439b5aaec",
+        "url": "https://api.github.com/repos/jrwnnnn/still-we-shine/commits/4bfe2ff5ccc5a4d668afe7925b0eb6b439b5aaec",
+        "html_url": "https://github.com/jrwnnnn/still-we-shine/commit/4bfe2ff5ccc5a4d668afe7925b0eb6b439b5aaec"
+      }
+    ],
+    "stats": {
+      "total": 1,
+      "additions": 1,
+      "deletions": 0
+    },
+    "files": [
+      {
+        "sha": "6be1e17afba223d132a791f1ec0d1085d4df3203",
+        "filename": ".prettierrc",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "blob_url": "https://github.com/jrwnnnn/still-we-shine/blob/cb639c5c0474ecd3504ab4aaca64bea960f010b9/.prettierrc",
+        "raw_url": "https://github.com/jrwnnnn/still-we-shine/raw/cb639c5c0474ecd3504ab4aaca64bea960f010b9/.prettierrc",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/still-we-shine/contents/.prettierrc?ref=cb639c5c0474ecd3504ab4aaca64bea960f010b9",
+        "patch": "@@ -1,5 +1,6 @@\n {\n   \"bracketSameLine\": false,\n+  \"useTabs\": true,\n   \"plugins\": [\"prettier-plugin-astro\", \"prettier-plugin-tailwindcss\"],\n   \"overrides\": [\n     {"
       }
     ]
   }
