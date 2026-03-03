@@ -1,5 +1,219 @@
 [
   {
+    "sha": "6c71c69f39f5232aa724239c769a2722b8e3470c",
+    "node_id": "C_kwDORbfyj9oAKDZjNzFjNjlmMzlmNTIzMmFhNzI0MjM5Yzc2OWEyNzIyYjhlMzQ3MGM",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-03-03T02:36:06Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-03-03T02:36:06Z"
+      },
+      "message": "Add focusStar util and update star/modal markup",
+      "tree": {
+        "sha": "ecb620c98e0d4938e9b4513c8bf99d7a8b4d3fda",
+        "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/git/trees/ecb620c98e0d4938e9b4513c8bf99d7a8b4d3fda"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/git/commits/6c71c69f39f5232aa724239c769a2722b8e3470c",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/6c71c69f39f5232aa724239c769a2722b8e3470c",
+    "html_url": "https://github.com/jrwnnnn/still-they-shine/commit/6c71c69f39f5232aa724239c769a2722b8e3470c",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/6c71c69f39f5232aa724239c769a2722b8e3470c/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "66a6250d7ecc5eb7f9d07f9fc70273077c6e7de8",
+        "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/66a6250d7ecc5eb7f9d07f9fc70273077c6e7de8",
+        "html_url": "https://github.com/jrwnnnn/still-they-shine/commit/66a6250d7ecc5eb7f9d07f9fc70273077c6e7de8"
+      }
+    ],
+    "stats": {
+      "total": 145,
+      "additions": 92,
+      "deletions": 53
+    },
+    "files": [
+      {
+        "sha": "9b6c913d22bd7c7dc716ff3c8a1438c4a035f8f0",
+        "filename": "src/pages/index.astro",
+        "status": "modified",
+        "additions": 63,
+        "deletions": 53,
+        "changes": 116,
+        "blob_url": "https://github.com/jrwnnnn/still-they-shine/blob/6c71c69f39f5232aa724239c769a2722b8e3470c/src%2Fpages%2Findex.astro",
+        "raw_url": "https://github.com/jrwnnnn/still-they-shine/raw/6c71c69f39f5232aa724239c769a2722b8e3470c/src%2Fpages%2Findex.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/contents/src%2Fpages%2Findex.astro?ref=6c71c69f39f5232aa724239c769a2722b8e3470c",
+        "patch": "@@ -56,6 +56,7 @@ const stars = entries.rows\n \t\tconst pos = setPosition(seed);\n \n \t\treturn {\n+\t\t\tid: row.id,\n \t\t\t...visual,\n \t\t\tx: 35 + pos.x * 0.3,\n \t\t\ty: 35 + pos.y * 0.3,\n@@ -85,7 +86,7 @@ const stars = entries.rows\n \t\t\t\t\t\tclass=\"absolute flex flex-col items-center\"\n \t\t\t\t\t\tstyle={`left:${s.x}%;top:${s.y}%;transform:translate(-50%,-50%);`}\n \t\t\t\t\t>\n-\t\t\t\t\t\t<div class=\"peer\">\n+\t\t\t\t\t\t<div class=\"peer\" id={s.id as string}>\n \t\t\t\t\t\t\t<Star\n \t\t\t\t\t\t\t\tcolor={s.color}\n \t\t\t\t\t\t\t\tsize={s.size}\n@@ -96,7 +97,7 @@ const stars = entries.rows\n \t\t\t\t\t\t\t/>\n \t\t\t\t\t\t</div>\n \n-\t\t\t\t\t\t<div class=\"pointer-events-none z-25 mt-2 text-center text-[0.8rem] leading-snug whitespace-nowrap opacity-0 transition-opacity peer-hover:opacity-100\">\n+\t\t\t\t\t\t<div class=\"focused:opacity-100 pointer-events-none z-25 mt-2 text-center text-[0.8rem] leading-snug whitespace-nowrap opacity-0 transition-opacity peer-hover:opacity-100\">\n \t\t\t\t\t\t\t<p class=\"text-white/50\">{s.starName}</p>\n \t\t\t\t\t\t\t<p class=\"text-sm! font-medium\" style={`color:${s.color};`}>\n \t\t\t\t\t\t\t\t{s.name}\n@@ -120,7 +121,7 @@ const stars = entries.rows\n \t\t\t>\n \t\t\t\tStill, They Shine\n \t\t\t</a>\n-\t\t\t<p class=\"text-xs opacity-50\">{stars.length} companions in the sky</p>\n+\t\t\t<p class=\"text-xs opacity-50\">♫ The Museum - Andrew Prahlow</p>\n \t\t</div>\n \t\t<div class=\"self-end\">\n \t\t\t<audio id=\"ambient\" autoplay loop>\n@@ -140,58 +141,62 @@ const stars = entries.rows\n \t\t\t</button>\n \t\t</div>\n \t</div>\n+</Layout>\n+<div\n+\tid=\"formModal\"\n+\tclass=\"fixed inset-0 z-100 hidden h-full w-full items-center justify-center p-5\"\n+>\n+\t<div id=\"formBackdrop\" class=\"fixed inset-0 backdrop-blur-sm pointer-events-auto\"></div>\n \t<div\n-\t\tid=\"formModal\"\n-\t\tclass=\"fixed inset-0 z-100 hidden h-full items-center justify-center backdrop-blur-sm\"\n+\t\tclass=\"bg-sky-dark/70 flex w-full flex-col space-y-6 rounded-2xl p-8 shadow-xl shadow-black/30 backdrop-blur-md md:max-w-md\"\n \t>\n-\t\t<div\n-\t\t\tclass=\"bg-sky-dark/70 mx-5 flex max-w-md flex-col space-y-6 rounded-2xl p-8 shadow-xl shadow-black/30 backdrop-blur-md\"\n-\t\t>\n-\t\t\t<div>\n-\t\t\t\t<div class=\"mb-4 flex justify-between\">\n-\t\t\t\t\t<p\n-\t\t\t\t\t\tclass=\"text-xl text-indigo-200/50 [text-shadow:0_0_12px_rgba(199,210,254,0.4)]\"\n-\t\t\t\t\t>\n-\t\t\t\t\t\t✦\n-\t\t\t\t\t</p>\n-\t\t\t\t\t<button\n-\t\t\t\t\t\tid=\"exitBtn\"\n-\t\t\t\t\t\tclass=\"cursor-pointer text-2xl text-white/40 transition hover:text-white\"\n-\t\t\t\t\t>\n-\t\t\t\t\t\t&times;\n-\t\t\t\t\t</button>\n-\t\t\t\t</div>\n-\t\t\t\t<h1 class=\"mb-2 text-2xl font-medium tracking-tight text-white\">\n-\t\t\t\t\tPlace a Star\n-\t\t\t\t</h1>\n-\t\t\t\t<p class=\"text-sm leading-relaxed text-white/45\">\n-\t\t\t\t\tDedicate a star in the sky to a companion you want to remember.\n+\t\t<div>\n+\t\t\t<div class=\"mb-4 flex justify-between\">\n+\t\t\t\t<p\n+\t\t\t\t\tclass=\"text-xl text-indigo-200/50 [text-shadow:0_0_12px_rgba(199,210,254,0.4)]\"\n+\t\t\t\t>\n+\t\t\t\t\t✦\n \t\t\t\t</p>\n+\t\t\t\t<button\n+\t\t\t\t\tid=\"exitBtn\"\n+\t\t\t\t\tclass=\"cursor-pointer text-2xl text-white/40 transition hover:text-white\"\n+\t\t\t\t>\n+\t\t\t\t\t&times;\n+\t\t\t\t</button>\n \t\t\t</div>\n+\t\t\t<h1 class=\"mb-2 text-2xl font-medium tracking-tight text-white\">\n+\t\t\t\tPlace a Star\n+\t\t\t</h1>\n+\t\t\t<p class=\"text-sm leading-relaxed text-white/45\">\n+\t\t\t\tDedicate a star in the sky to a companion you want to remember.\n+\t\t\t</p>\n+\t\t</div>\n \n-\t\t\t{\n-\t\t\t\terror && (\n-\t\t\t\t\t<div class=\"flex gap-3 rounded-xl border border-red-400/15 bg-red-500/8 px-4 py-3 text-sm text-red-300/90\">\n-\t\t\t\t\t\t<span class=\"mt-px shrink-0 text-red-400/70\">⚠</span>\n-\t\t\t\t\t\t<span>{error}</span>\n-\t\t\t\t\t</div>\n-\t\t\t\t)\n-\t\t\t}\n+\t\t{\n+\t\t\terror && (\n+\t\t\t\t<div class=\"flex gap-3 rounded-xl border border-red-400/15 bg-red-500/8 px-4 py-3 text-sm text-red-300/90\">\n+\t\t\t\t\t<span class=\"mt-px shrink-0 text-red-400/70\">⚠</span>\n+\t\t\t\t\t<span>{error}</span>\n+\t\t\t\t</div>\n+\t\t\t)\n+\t\t}\n \n-\t\t\t<Form />\n+\t\t<Form />\n \n-\t\t\t<a\n-\t\t\t\thref=\"/\"\n-\t\t\t\tclass=\"self-center text-xs tracking-wider text-white/40 hover:underline\"\n-\t\t\t>\n-\t\t\t\tPrivacy Policy\n-\t\t\t</a>\n-\t\t</div>\n+\t\t<a\n+\t\t\thref=\"/\"\n+\t\t\tclass=\"self-center text-xs tracking-wider text-white/40 hover:underline\"\n+\t\t>\n+\t\t\tPrivacy Policy\n+\t\t</a>\n \t</div>\n-</Layout>\n+</div>\n \n <script>\n \timport Panzoom from \"@panzoom/panzoom\";\n+\timport { focusStar } from \"@utils/focusStar\";\n+\n+\t(window as any).focusStar = (id: string | number) => focusStar(panzoom, id);\n \n \tconst canvas = document.getElementById(\"canvas\")!;\n \tconst viewport = document.getElementById(\"viewport\")!;\n@@ -212,18 +217,23 @@ const stars = entries.rows\n \t});\n \n \tconst formModal = document.getElementById(\"formModal\")!;\n+\tconst formBackdrop = document.getElementById(\"formBackdrop\")!;\n \tconst openBtn = document.getElementById(\"openBtn\")!;\n \tconst closeBtn = document.getElementById(\"exitBtn\")!;\n \n-\topenBtn.addEventListener(\"click\", () => {\n-\t\tformModal.classList.remove(\"hidden\");\n-\t\tformModal.classList.add(\"flex\");\n-\t\topenBtn.setAttribute(\"disabled\", \"\");\n-\t});\n+\tfunction toggleForm() {\n+\t\tif (formModal.classList.contains(\"hidden\")) {\n+\t\t\tformModal.classList.remove(\"hidden\");\n+\t\t\tformModal.classList.add(\"flex\");\n+\t\t\topenBtn.setAttribute(\"disabled\", \"\");\n+\t\t} else {\n+\t\t\tformModal.classList.add(\"hidden\");\n+\t\t\tformModal.classList.remove(\"flex\");\n+\t\t\topenBtn.removeAttribute(\"disabled\");\n+\t\t}\n+\t}\n \n-\tcloseBtn.addEventListener(\"click\", () => {\n-\t\tformModal.classList.add(\"hidden\");\n-\t\tformModal.classList.remove(\"flex\");\n-\t\topenBtn.removeAttribute(\"disabled\");\n+\t[openBtn, closeBtn, formBackdrop].forEach(el => {\n+\t\tel.addEventListener(\"click\", toggleForm);\n \t});\n </script>"
+      },
+      {
+        "sha": "28fe067fdffa2f07d137237b8139a9c49a7db3d3",
+        "filename": "src/utils/focusStar.ts",
+        "status": "added",
+        "additions": 29,
+        "deletions": 0,
+        "changes": 29,
+        "blob_url": "https://github.com/jrwnnnn/still-they-shine/blob/6c71c69f39f5232aa724239c769a2722b8e3470c/src%2Futils%2FfocusStar.ts",
+        "raw_url": "https://github.com/jrwnnnn/still-they-shine/raw/6c71c69f39f5232aa724239c769a2722b8e3470c/src%2Futils%2FfocusStar.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/contents/src%2Futils%2FfocusStar.ts?ref=6c71c69f39f5232aa724239c769a2722b8e3470c",
+        "patch": "@@ -0,0 +1,29 @@\n+// !FIX Buggy zoom\n+\n+import type { PanzoomObject } from \"@panzoom/panzoom\";\n+\n+export function focusStar(panzoom: PanzoomObject, starId: string | number) {\n+\tconst wrapper = document.getElementById(String(starId))?.parentElement;\n+\tif (!wrapper) return;\n+\n+\tconst scale = 1;\n+\tconst canvas = wrapper.parentElement!;\n+\n+\tconst panX =\n+\t\t(window.innerWidth / 2 - canvas.offsetWidth / 2) / scale -\n+\t\twrapper.offsetLeft +\n+\t\tcanvas.offsetWidth / 2;\n+\tconst panY =\n+\t\t(window.innerHeight / 2 - canvas.offsetHeight / 2) / scale -\n+\t\twrapper.offsetTop +\n+\t\tcanvas.offsetHeight / 2;\n+\n+\tpanzoom.setOptions({ contain: undefined });\n+\n+\tpanzoom.zoom(scale, { animate: true, duration: 500 });\n+\tpanzoom.pan(panX, panY, { animate: true, duration: 500, force: true });\n+\n+\tsetTimeout(() => {\n+\t\tpanzoom.setOptions({ contain: \"outside\" });\n+\t}, 500);\n+}"
+      }
+    ]
+  },
+  {
+    "sha": "66a6250d7ecc5eb7f9d07f9fc70273077c6e7de8",
+    "node_id": "C_kwDORbfyj9oAKDY2YTYyNTBkN2VjYzVlYjdmOWQwN2Y5ZmM3MDI3MzA3N2M2ZTdkZTg",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-03-03T01:17:14Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-03-03T01:17:14Z"
+      },
+      "message": "Reduce star glow mid-point opacity",
+      "tree": {
+        "sha": "c152426be2b3011f3d2c4c306ffb4a29994e9532",
+        "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/git/trees/c152426be2b3011f3d2c4c306ffb4a29994e9532"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/git/commits/66a6250d7ecc5eb7f9d07f9fc70273077c6e7de8",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/66a6250d7ecc5eb7f9d07f9fc70273077c6e7de8",
+    "html_url": "https://github.com/jrwnnnn/still-they-shine/commit/66a6250d7ecc5eb7f9d07f9fc70273077c6e7de8",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/66a6250d7ecc5eb7f9d07f9fc70273077c6e7de8/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b8456ecd3c9328f4ffe08b3b3248854b2734a26e",
+        "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/b8456ecd3c9328f4ffe08b3b3248854b2734a26e",
+        "html_url": "https://github.com/jrwnnnn/still-they-shine/commit/b8456ecd3c9328f4ffe08b3b3248854b2734a26e"
+      }
+    ],
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1
+    },
+    "files": [
+      {
+        "sha": "8e8664d1e1505d07845a9ec0cf49d7938f522118",
+        "filename": "src/components/Star.astro",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/still-they-shine/blob/66a6250d7ecc5eb7f9d07f9fc70273077c6e7de8/src%2Fcomponents%2FStar.astro",
+        "raw_url": "https://github.com/jrwnnnn/still-they-shine/raw/66a6250d7ecc5eb7f9d07f9fc70273077c6e7de8/src%2Fcomponents%2FStar.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/contents/src%2Fcomponents%2FStar.astro?ref=66a6250d7ecc5eb7f9d07f9fc70273077c6e7de8",
+        "patch": "@@ -129,7 +129,7 @@ const { color, size, glow, beamLen, beamW, pulseDelay } = Astro.props;\n \t\t\topacity: var(--glow);\n \t\t}\n \t\t50% {\n-\t\t\topacity: calc(var(--glow) * 0.7);\n+\t\t\topacity: calc(var(--glow) * 0.6);\n \t\t}\n \t}\n </style>"
+      }
+    ]
+  },
+  {
     "sha": "b8456ecd3c9328f4ffe08b3b3248854b2734a26e",
     "node_id": "C_kwDORbfyj9oAKGI4NDU2ZWNkM2M5MzI4ZjRmZmUwOGIzYjMyNDg4NTRiMjczNGEyNmU",
     "commit": {
@@ -310,220 +524,6 @@
         "raw_url": "https://github.com/jrwnnnn/still-they-shine/raw/bb5193f1f34d24ea6fdae72903079a482cd25bff/src%2Fstyles%2Fglobal.css",
         "contents_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/contents/src%2Fstyles%2Fglobal.css?ref=bb5193f1f34d24ea6fdae72903079a482cd25bff",
         "patch": "@@ -17,7 +17,7 @@\n }\n \n body {\n-\t@apply bg-sky-dark text-gray-300 font-['Outfit'];\n+\t@apply bg-sky-dark font-['Outfit'] text-gray-300;\n }\n \n main {"
-      }
-    ]
-  },
-  {
-    "sha": "cfc7d1123f3558d5e5a92456f61779f730d8be3d",
-    "node_id": "C_kwDORbfyj9oAKGNmYzdkMTEyM2YzNTU4ZDVlNWE5MjQ1NmY2MTc3OWY3MzBkOGJlM2Q",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-03-02T17:27:58Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-03-02T17:27:58Z"
-      },
-      "message": "Remove privacy policy link",
-      "tree": {
-        "sha": "ab12ee94beb34426276f061f55b80b50a846f3a8",
-        "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/git/trees/ab12ee94beb34426276f061f55b80b50a846f3a8"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/git/commits/cfc7d1123f3558d5e5a92456f61779f730d8be3d",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/cfc7d1123f3558d5e5a92456f61779f730d8be3d",
-    "html_url": "https://github.com/jrwnnnn/still-they-shine/commit/cfc7d1123f3558d5e5a92456f61779f730d8be3d",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/cfc7d1123f3558d5e5a92456f61779f730d8be3d/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "495033558561b5ca4fa0b20426e3e2a446f618c1",
-        "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/495033558561b5ca4fa0b20426e3e2a446f618c1",
-        "html_url": "https://github.com/jrwnnnn/still-they-shine/commit/495033558561b5ca4fa0b20426e3e2a446f618c1"
-      }
-    ],
-    "stats": {
-      "total": 57,
-      "additions": 27,
-      "deletions": 30
-    },
-    "files": [
-      {
-        "sha": "6c3ac504466b4a54aa6f4e8fced10583a9915248",
-        "filename": "src/pages/about.astro",
-        "status": "modified",
-        "additions": 27,
-        "deletions": 30,
-        "changes": 57,
-        "blob_url": "https://github.com/jrwnnnn/still-they-shine/blob/cfc7d1123f3558d5e5a92456f61779f730d8be3d/src%2Fpages%2Fabout.astro",
-        "raw_url": "https://github.com/jrwnnnn/still-they-shine/raw/cfc7d1123f3558d5e5a92456f61779f730d8be3d/src%2Fpages%2Fabout.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/contents/src%2Fpages%2Fabout.astro?ref=cfc7d1123f3558d5e5a92456f61779f730d8be3d",
-        "patch": "@@ -41,36 +41,33 @@ const stars = generateStaticStars(seeds);\n \t\t\t\t\t</p>\n \t\t\t\t</div>\n \t\t\t</div>\n-\t\t\t<div class=\"flex items-end justify-between\">\n-\t\t\t\t<div class=\"flex items-center gap-5\">\n-\t\t\t\t\t<a\n-\t\t\t\t\t\thref=\"https://github.com/jrwnnnn/graveyard-of-stars\"\n-\t\t\t\t\t\ttarget=\"_blank\"\n-\t\t\t\t\t\trel=\"noopener noreferrer\"\n-\t\t\t\t\t\tclass=\"hover:underline\"\n-\t\t\t\t\t>\n-\t\t\t\t\t\t<img\n-\t\t\t\t\t\t\tclass=\"h-6 object-contain invert\"\n-\t\t\t\t\t\t\tsrc=\"/icons/github.svg\"\n-\t\t\t\t\t\t\tloading=\"lazy\"\n-\t\t\t\t\t\t\talt=\"GitHub Icon\"\n-\t\t\t\t\t\t/>\n-\t\t\t\t\t</a>\n-\t\t\t\t\t<a\n-\t\t\t\t\t\thref=\"https://jrwnnnn.me\"\n-\t\t\t\t\t\ttarget=\"_blank\"\n-\t\t\t\t\t\trel=\"noopener noreferrer\"\n-\t\t\t\t\t\tclass=\"hover:underline\"\n-\t\t\t\t\t>\n-\t\t\t\t\t\t<img\n-\t\t\t\t\t\t\tclass=\"h-7 object-contain\"\n-\t\t\t\t\t\t\tsrc=\"/icons/jrwnnnn.svg\"\n-\t\t\t\t\t\t\tloading=\"lazy\"\n-\t\t\t\t\t\t\talt=\"Website Icon\"\n-\t\t\t\t\t\t/>\n-\t\t\t\t\t</a>\n-\t\t\t\t</div>\n-\t\t\t\t<a href=\"/\" class=\"text-sm hover:underline italic\"> Privacy Policy </a>\n+\t\t\t<div class=\"flex items-center gap-5\">\n+\t\t\t\t<a\n+\t\t\t\t\thref=\"https://github.com/jrwnnnn/graveyard-of-stars\"\n+\t\t\t\t\ttarget=\"_blank\"\n+\t\t\t\t\trel=\"noopener noreferrer\"\n+\t\t\t\t\tclass=\"hover:underline\"\n+\t\t\t\t>\n+\t\t\t\t\t<img\n+\t\t\t\t\t\tclass=\"h-6 object-contain invert\"\n+\t\t\t\t\t\tsrc=\"/icons/github.svg\"\n+\t\t\t\t\t\tloading=\"lazy\"\n+\t\t\t\t\t\talt=\"GitHub Icon\"\n+\t\t\t\t\t/>\n+\t\t\t\t</a>\n+\t\t\t\t<a\n+\t\t\t\t\thref=\"https://jrwnnnn.me\"\n+\t\t\t\t\ttarget=\"_blank\"\n+\t\t\t\t\trel=\"noopener noreferrer\"\n+\t\t\t\t\tclass=\"hover:underline\"\n+\t\t\t\t>\n+\t\t\t\t\t<img\n+\t\t\t\t\t\tclass=\"h-7 object-contain\"\n+\t\t\t\t\t\tsrc=\"/icons/jrwnnnn.svg\"\n+\t\t\t\t\t\tloading=\"lazy\"\n+\t\t\t\t\t\talt=\"Website Icon\"\n+\t\t\t\t\t/>\n+\t\t\t\t</a>\n \t\t\t</div>\n \t\t</div>\n \t</main>"
-      }
-    ]
-  },
-  {
-    "sha": "495033558561b5ca4fa0b20426e3e2a446f618c1",
-    "node_id": "C_kwDORbfyj9oAKDQ5NTAzMzU1ODU2MWI1Y2E0ZmEwYjIwNDI2ZTNlMmE0NDZmNjE4YzE",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-03-02T17:27:26Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-03-02T17:27:26Z"
-      },
-      "message": "Add star placement form and modal",
-      "tree": {
-        "sha": "9035adedfbb61c1b7850cd2ec3a7b2cbeef7994e",
-        "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/git/trees/9035adedfbb61c1b7850cd2ec3a7b2cbeef7994e"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/git/commits/495033558561b5ca4fa0b20426e3e2a446f618c1",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/495033558561b5ca4fa0b20426e3e2a446f618c1",
-    "html_url": "https://github.com/jrwnnnn/still-they-shine/commit/495033558561b5ca4fa0b20426e3e2a446f618c1",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/495033558561b5ca4fa0b20426e3e2a446f618c1/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "c2ad92d5c0a24bdbd588d573f457631d10d13577",
-        "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/c2ad92d5c0a24bdbd588d573f457631d10d13577",
-        "html_url": "https://github.com/jrwnnnn/still-they-shine/commit/c2ad92d5c0a24bdbd588d573f457631d10d13577"
-      }
-    ],
-    "stats": {
-      "total": 179,
-      "additions": 173,
-      "deletions": 6
-    },
-    "files": [
-      {
-        "sha": "4c9398a42ce3ae94f30e05469f57eabc08af7e10",
-        "filename": "src/components/Form.astro",
-        "status": "added",
-        "additions": 61,
-        "deletions": 0,
-        "changes": 61,
-        "blob_url": "https://github.com/jrwnnnn/still-they-shine/blob/495033558561b5ca4fa0b20426e3e2a446f618c1/src%2Fcomponents%2FForm.astro",
-        "raw_url": "https://github.com/jrwnnnn/still-they-shine/raw/495033558561b5ca4fa0b20426e3e2a446f618c1/src%2Fcomponents%2FForm.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/contents/src%2Fcomponents%2FForm.astro?ref=495033558561b5ca4fa0b20426e3e2a446f618c1",
-        "patch": "@@ -0,0 +1,61 @@\n+<form method=\"POST\" class=\"space-y-5\">\n+\t<div>\n+\t\t<label for=\"name\" class=\"form-label\">Name</label>\n+\t\t<input\n+\t\t\ttype=\"text\"\n+\t\t\tid=\"name\"\n+\t\t\tname=\"name\"\n+\t\t\trequired\n+\t\t\tautocomplete=\"off\"\n+\t\t\tplaceholder=\"Their name\"\n+\t\t\tclass=\"form-input\"\n+\t\t/>\n+\t</div>\n+\n+\t<div class=\"grid grid-cols-2 gap-3\">\n+\t\t<div>\n+\t\t\t<label for=\"birth_year\" class=\"form-label\">Born</label>\n+\t\t\t<input\n+\t\t\t\ttype=\"number\"\n+\t\t\t\tid=\"birth_year\"\n+\t\t\t\tname=\"birth_year\"\n+\t\t\t\trequired\n+\t\t\t\tautocomplete=\"off\"\n+\t\t\t\tplaceholder=\"2013\"\n+\t\t\t\tclass=\"form-input\"\n+\t\t\t/>\n+\t\t</div>\n+\t\t<div>\n+\t\t\t<label for=\"death_year\" class=\"form-label\">Passed</label>\n+\t\t\t<input\n+\t\t\t\ttype=\"number\"\n+\t\t\t\tid=\"death_year\"\n+\t\t\t\tname=\"death_year\"\n+\t\t\t\trequired\n+\t\t\t\tautocomplete=\"off\"\n+\t\t\t\tplaceholder=\"2026\"\n+\t\t\t\tclass=\"form-input\"\n+\t\t\t/>\n+\t\t</div>\n+\t</div>\n+\n+\t<div class=\"pt-1\">\n+\t\t<button\n+\t\t\ttype=\"submit\"\n+\t\t\tclass=\"w-full cursor-pointer rounded-xl border border-white/10 bg-white/6 px-5 py-3 text-sm font-medium text-white/75 transition-all duration-200 hover:border-white/20 hover:bg-white/10 hover:text-white hover:shadow-[0_0_24px_rgba(255,255,255,0.05)]\"\n+\t\t>\n+\t\t\tSubmit\n+\t\t</button>\n+\t</div>\n+</form>\n+\n+<style is:global>\n+\t@reference \"../styles/global.css\";\n+\n+\t.form-label {\n+\t\t@apply mb-1.5 block text-xs font-medium tracking-widest text-white/40 uppercase;\n+\t}\n+\t.form-input {\n+\t\t@apply w-full rounded-xl border border-white/8 bg-white/4 px-4 py-2.5 text-sm text-white transition-shadow duration-200 outline-none placeholder:text-white/20 focus:border-indigo-200/25 [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none;\n+\t}\n+</style>"
-      },
-      {
-        "sha": "df3bfb5de5656b671a86201c456ac35faa699f32",
-        "filename": "src/pages/index.astro",
-        "status": "modified",
-        "additions": 112,
-        "deletions": 6,
-        "changes": 118,
-        "blob_url": "https://github.com/jrwnnnn/still-they-shine/blob/495033558561b5ca4fa0b20426e3e2a446f618c1/src%2Fpages%2Findex.astro",
-        "raw_url": "https://github.com/jrwnnnn/still-they-shine/raw/495033558561b5ca4fa0b20426e3e2a446f618c1/src%2Fpages%2Findex.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/contents/src%2Fpages%2Findex.astro?ref=495033558561b5ca4fa0b20426e3e2a446f618c1",
-        "patch": "@@ -2,17 +2,43 @@\n import { createClient } from \"@libsql/client\";\n import { setPosition } from \"@utils/setPosition\";\n import { hashSeed } from \"@utils/random\";\n+import { getRandomStar } from \"@utils/star\";\n import renderStar from \"@utils/renderStar\";\n import Layout from \"@layouts/Layout.astro\";\n import Star from \"@components/Star.astro\";\n import Sky from \"@components/Sky.astro\";\n+import Form from \"@components/Form.astro\";\n import starCatalog from \"../data/star-catalog.json\";\n \n const turso = createClient({\n \turl: import.meta.env.TURSO_DATABASE_URL,\n \tauthToken: import.meta.env.TURSO_AUTH_TOKEN,\n });\n \n+let error = \"\";\n+\n+if (Astro.request.method === \"POST\") {\n+\tconst formData = await Astro.request.formData();\n+\tconst name = (formData.get(\"name\") as string)?.trim();\n+\tconst birthYear = (formData.get(\"birth_year\") as string)?.trim();\n+\tconst deathYear = (formData.get(\"death_year\") as string)?.trim();\n+\tconst star = getRandomStar();\n+\n+\tif (!name) {\n+\t\terror = \"Please enter a name.\";\n+\t} else if (!birthYear || !deathYear) {\n+\t\terror = \"Please enter both birth and death year.\";\n+\t} else if (parseInt(birthYear) > parseInt(deathYear)) {\n+\t\terror = \"Birth year must be before death year.\";\n+\t} else {\n+\t\tawait turso.execute(\n+\t\t\t\"INSERT INTO stars (star_hr, name, birth_year, death_year) VALUES (?, ?, ?, ?)\",\n+\t\t\t[star.HR, name, birthYear, deathYear],\n+\t\t);\n+\t\treturn Astro.redirect(\"/\");\n+\t}\n+}\n+\n const entries = await turso.execute(\"SELECT * FROM stars\");\n const starByHR = Object.fromEntries(starCatalog.map((s) => [s.HR, s]));\n \n@@ -42,8 +68,15 @@ const stars = entries.rows\n \t.filter((s): s is NonNullable<typeof s> => s !== null);\n ---\n \n+<!-- TODO: \n+- Form to submit new stars, which adds to the database and generates a new star on the sky. \n+- A page to view individual star data\n+- A function to zoom to a specific star by database ID.\n+- Add an optional background music.\n+- Constellations?\n+- Refactor: Convert the viewport to canvas. -->\n <Layout>\n-\t<div id=\"viewport\" class=\"bg-sky-dark fixed inset-0 z-10 overflow-hidden\">\n+\t<div id=\"viewport\" class=\"bg-sky-dark fixed inset-0 overflow-hidden\">\n \t\t<div id=\"canvas\" class=\"absolute h-[375vmax] w-[375vmax] origin-center\">\n \t\t\t<Sky star_intensity=\"4000\" />\n \t\t\t{\n@@ -63,9 +96,9 @@ const stars = entries.rows\n \t\t\t\t\t\t\t/>\n \t\t\t\t\t\t</div>\n \n-\t\t\t\t\t\t<div class=\"pointer-events-none mt-2 text-center text-[0.6rem] leading-snug whitespace-nowrap opacity-0 transition-opacity peer-hover:opacity-100\">\n-\t\t\t\t\t\t\t<p class=\"text-[0.5rem] text-white/50\">{s.starName}</p>\n-\t\t\t\t\t\t\t<p class=\"font-medium\" style={`color:${s.color};`}>\n+\t\t\t\t\t\t<div class=\"pointer-events-none z-25 mt-2 text-center text-[0.8rem] leading-snug whitespace-nowrap opacity-0 transition-opacity peer-hover:opacity-100\">\n+\t\t\t\t\t\t\t<p class=\"text-white/50\">{s.starName}</p>\n+\t\t\t\t\t\t\t<p class=\"text-sm! font-medium\" style={`color:${s.color};`}>\n \t\t\t\t\t\t\t\t{s.name}\n \t\t\t\t\t\t\t</p>\n \t\t\t\t\t\t\t<p class=\"text-white/40\">\n@@ -77,16 +110,73 @@ const stars = entries.rows\n \t\t\t}\n \t\t</div>\n \t</div>\n-\t<div class=\"pointer-events-none fixed inset-0 z-50 flex h-full flex-col p-10\">\n+\t<div\n+\t\tclass=\"pointer-events-none fixed inset-0 z-50 flex h-full flex-col justify-between p-10\"\n+\t>\n \t\t<div space-y-2>\n \t\t\t<a\n \t\t\t\thref=\"about\"\n-\t\t\t\tclass=\"pointer-events-auto cursor-pointer text-lg tracking-[5px] font-bold uppercase\"\n+\t\t\t\tclass=\"pointer-events-auto cursor-pointer text-xl font-bold tracking-[5px] uppercase\"\n \t\t\t>\n \t\t\t\tStill, They Shine\n \t\t\t</a>\n \t\t\t<p class=\"text-xs opacity-50\">{stars.length} companions in the sky</p>\n \t\t</div>\n+\n+\t\t<button\n+\t\t\tid=\"openBtn\"\n+\t\t\tclass=\"pointer-events-auto cursor-pointer self-end rounded-full bg-white/5 px-4 py-2 text-white hover:bg-white/10\"\n+\t\t>\n+\t\t\t<span class=\"mr-1.25\">✦</span>Place a Star\n+\t\t</button>\n+\t</div>\n+\t<div\n+\t\tid=\"formModal\"\n+\t\tclass=\"fixed inset-0 z-100 hidden h-full items-center justify-center backdrop-blur-sm\"\n+\t>\n+\t\t<div\n+\t\t\tclass=\"mx-5 flex max-w-md flex-col space-y-6 rounded-2xl bg-sky-dark/70 p-8 shadow-xl shadow-black/30 backdrop-blur-md\"\n+\t\t>\n+\t\t\t<div>\n+\t\t\t\t<div class=\"mb-4 flex justify-between\">\n+\t\t\t\t\t<p\n+\t\t\t\t\t\tclass=\"text-xl text-indigo-200/50 [text-shadow:0_0_12px_rgba(199,210,254,0.4)]\"\n+\t\t\t\t\t>\n+\t\t\t\t\t\t✦\n+\t\t\t\t\t</p>\n+\t\t\t\t\t<button\n+\t\t\t\t\t\tid=\"exitBtn\"\n+\t\t\t\t\t\tclass=\"cursor-pointer text-2xl text-white/40 transition hover:text-white\"\n+\t\t\t\t\t>\n+\t\t\t\t\t\t&times;\n+\t\t\t\t\t</button>\n+\t\t\t\t</div>\n+\t\t\t\t<h1 class=\"mb-2 text-2xl font-medium tracking-tight text-white\">\n+\t\t\t\t\tPlace a Star\n+\t\t\t\t</h1>\n+\t\t\t\t<p class=\"text-sm leading-relaxed text-white/45\">\n+\t\t\t\t\tDedicate a star in the sky to a companion you want to remember.\n+\t\t\t\t</p>\n+\t\t\t</div>\n+\n+\t\t\t{\n+\t\t\t\terror && (\n+\t\t\t\t\t<div class=\"flex gap-3 rounded-xl border border-red-400/15 bg-red-500/8 px-4 py-3 text-sm text-red-300/90\">\n+\t\t\t\t\t\t<span class=\"mt-px shrink-0 text-red-400/70\">⚠</span>\n+\t\t\t\t\t\t<span>{error}</span>\n+\t\t\t\t\t</div>\n+\t\t\t\t)\n+\t\t\t}\n+\n+\t\t\t<Form />\n+\n+\t\t\t<a\n+\t\t\t\thref=\"/\"\n+\t\t\t\tclass=\"self-center text-xs tracking-wider text-white/40 hover:underline\"\n+\t\t\t>\n+\t\t\t\tPrivacy Policy\n+\t\t\t</a>\n+\t\t</div>\n \t</div>\n </Layout>\n \n@@ -110,4 +200,20 @@ const stars = entries.rows\n \tviewport.addEventListener(\"wheel\", panzoom.zoomWithWheel, {\n \t\tpassive: false,\n \t});\n+\n+\tconst formModal = document.getElementById(\"formModal\")!;\n+\tconst openBtn = document.getElementById(\"openBtn\")!;\n+\tconst closeBtn = document.getElementById(\"exitBtn\")!;\n+\n+\topenBtn.addEventListener(\"click\", () => {\n+\t\tformModal.classList.remove(\"hidden\");\n+\t\tformModal.classList.add(\"flex\");\n+\t\topenBtn.setAttribute(\"disabled\", \"\");\n+\t});\n+\n+\tcloseBtn.addEventListener(\"click\", () => {\n+\t\tformModal.classList.add(\"hidden\");\n+\t\tformModal.classList.remove(\"flex\");\n+\t\topenBtn.removeAttribute(\"disabled\");\n+\t});\n </script>"
       }
     ]
   }
