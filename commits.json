@@ -1,5 +1,166 @@
 [
   {
+    "sha": "262a5bf49a826b3112d60e2da13ec2d2c52b5f99",
+    "node_id": "C_kwDORbfyj9oAKDI2MmE1YmY0OWE4MjZiMzExMmQ2MGUyZGExM2VjMmQyYzUyYjVmOTk",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-03-03T08:37:03Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-03-03T08:37:03Z"
+      },
+      "message": "Adjust sky effects, focus behavior, and star creation\n\nTidy up visuals and navigation: refine meteor animation (use rotate+translateY for consistent paths), adjust meteor counts per page (about:0, index:10, star:2), and lower star/nebula intensity on the star page. Improve star creation flow by capturing INSERT result and redirecting to the newly created star (use result.lastInsertRowid) and include row.timestamp in the seed so generated positions are unique. Pan/zoom and focus: import and expose focusStar, set initial panzoom startScale to 0.2, add URL ?focus handling, and simplify focusStar to perform non-animated zoom/pan and restore 'contain' immediately to avoid buggy long animations. Misc: reduce ambient audio volume and delay playback to 30s.",
+      "tree": {
+        "sha": "0ea3d30371145e488279a78af20c132b414e9fdf",
+        "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/git/trees/0ea3d30371145e488279a78af20c132b414e9fdf"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/git/commits/262a5bf49a826b3112d60e2da13ec2d2c52b5f99",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/262a5bf49a826b3112d60e2da13ec2d2c52b5f99",
+    "html_url": "https://github.com/jrwnnnn/still-they-shine/commit/262a5bf49a826b3112d60e2da13ec2d2c52b5f99",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/262a5bf49a826b3112d60e2da13ec2d2c52b5f99/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "dba1efb17d39711e37b3d0b9cd40ff9ca990a427",
+        "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/dba1efb17d39711e37b3d0b9cd40ff9ca990a427",
+        "html_url": "https://github.com/jrwnnnn/still-they-shine/commit/dba1efb17d39711e37b3d0b9cd40ff9ca990a427"
+      }
+    ],
+    "stats": {
+      "total": 55,
+      "additions": 29,
+      "deletions": 26
+    },
+    "files": [
+      {
+        "sha": "cdc90a3df241721950f69d0c1b37ec2eea85d604",
+        "filename": "src/components/Sky.astro",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/jrwnnnn/still-they-shine/blob/262a5bf49a826b3112d60e2da13ec2d2c52b5f99/src%2Fcomponents%2FSky.astro",
+        "raw_url": "https://github.com/jrwnnnn/still-they-shine/raw/262a5bf49a826b3112d60e2da13ec2d2c52b5f99/src%2Fcomponents%2FSky.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/contents/src%2Fcomponents%2FSky.astro?ref=262a5bf49a826b3112d60e2da13ec2d2c52b5f99",
+        "patch": "@@ -93,8 +93,8 @@ const bgMeteors = Array.from({ length: meteor_count }, (_, i) => {\n     }\n \n     @keyframes meteor {\n-        0% { transform: translate(0, 0) rotate(60deg); opacity: 1; }\n-        20% { transform: translate(-50vw, 50vh) rotate(60deg); opacity: 0; }\n+        0% { transform: rotate(60deg) translateY(0); opacity: 1; }\n+        20% { transform: rotate(60deg) translateY(100vmax); opacity: 0; }\n         100% { opacity: 0; }\n     }\n </style>\n\\ No newline at end of file"
+      },
+      {
+        "sha": "7e6309179fe482f74af6371b8443340067af332f",
+        "filename": "src/pages/about.astro",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/still-they-shine/blob/262a5bf49a826b3112d60e2da13ec2d2c52b5f99/src%2Fpages%2Fabout.astro",
+        "raw_url": "https://github.com/jrwnnnn/still-they-shine/raw/262a5bf49a826b3112d60e2da13ec2d2c52b5f99/src%2Fpages%2Fabout.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/contents/src%2Fpages%2Fabout.astro?ref=262a5bf49a826b3112d60e2da13ec2d2c52b5f99",
+        "patch": "@@ -11,7 +11,7 @@ const stars = generateStaticStars(seeds);\n <Layout>\n \t<main>\n \t\t<div class=\"relative mb-15 h-[50vh] w-full\">\n-\t\t\t<Sky star_intensity=\"50\" />\n+\t\t\t<Sky star_intensity=\"50\" meteor_count=\"0\"/>\n \t\t\t{\n \t\t\t\tstars.map((s) => (\n \t\t\t\t\t<div class=\"absolute\" style={`left:${s.x}%;top:${s.y}%;`}>"
+      },
+      {
+        "sha": "0484b6e12c4f11f5428a50b1e2205a55fd593bc0",
+        "filename": "src/pages/index.astro",
+        "status": "modified",
+        "additions": 18,
+        "deletions": 9,
+        "changes": 27,
+        "blob_url": "https://github.com/jrwnnnn/still-they-shine/blob/262a5bf49a826b3112d60e2da13ec2d2c52b5f99/src%2Fpages%2Findex.astro",
+        "raw_url": "https://github.com/jrwnnnn/still-they-shine/raw/262a5bf49a826b3112d60e2da13ec2d2c52b5f99/src%2Fpages%2Findex.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/contents/src%2Fpages%2Findex.astro?ref=262a5bf49a826b3112d60e2da13ec2d2c52b5f99",
+        "patch": "@@ -3,6 +3,7 @@ import { createClient } from \"@libsql/client\";\n import { setPosition } from \"@utils/setPosition\";\n import { hashSeed } from \"@utils/random\";\n import { getRandomStar } from \"@utils/star\";\n+import { focusStar } from \"@utils/focusStar\";\n import renderStar from \"@utils/renderStar\";\n import Layout from \"@layouts/Layout.astro\";\n import Star from \"@components/Star.astro\";\n@@ -31,11 +32,12 @@ if (Astro.request.method === \"POST\") {\n \t} else if (parseInt(birthYear) > parseInt(deathYear)) {\n \t\terror = \"Birth year must be before death year.\";\n \t} else {\n-\t\tawait turso.execute(\n+\t\tconst result = await turso.execute(\n \t\t\t\"INSERT INTO stars (star_hr, name, birth_year, death_year) VALUES (?, ?, ?, ?)\",\n \t\t\t[star.HR, name, birthYear, deathYear],\n \t\t);\n-\t\treturn Astro.redirect(\"/\");\n+\n+\t\treturn Astro.redirect(\"/star/\" + result.lastInsertRowid);\n \t}\n }\n \n@@ -51,7 +53,7 @@ const stars = entries.rows\n \t\tif (!visual) return null;\n \n \t\tconst seed = hashSeed(\n-\t\t\t`${row.star_hr}-${row.name}-${row.birth_year}-${row.death_year}`,\n+\t\t\t`${row.star_hr}-${row.name}-${row.birth_year}-${row.death_year}-${row.timestamp}`,\n \t\t);\n \t\tconst pos = setPosition(seed);\n \n@@ -70,17 +72,15 @@ const stars = entries.rows\n ---\n \n <!-- TODO: \n-- A function to zoom to a specific star by database ID.\n-- Add an optional background music.\n - Constellations?\n - Refactor: Convert the viewport to canvas. -->\n <Layout>\n \t<div id=\"viewport\" class=\"bg-sky-dark fixed inset-0 overflow-hidden\">\n \t\t<div\n \t\t\tid=\"canvas\"\n-\t\t\tclass=\"absolute h-[375vmax] w-[375vmax] origin-center md:h-[187.5vmax]\"\n+\t\t\tclass=\"absolute h-[375vmax] w-[375vmax] md:h-[187.5vmax]\"\n \t\t>\n-\t\t\t<Sky star_intensity=\"1000\" meteor_count=\"5\" />\n+\t\t\t<Sky star_intensity=\"1000\" meteor_count=\"10\" />\n \t\t\t{\n \t\t\t\tstars.map((s) => (\n \t\t\t\t\t<a\n@@ -213,7 +213,8 @@ const stars = entries.rows\n \timport Panzoom from \"@panzoom/panzoom\";\n \timport { focusStar } from \"@utils/focusStar\";\n \n-\t(window as any).focusStar = (id: string | number) => focusStar(panzoom, id);\n+\t(window as any).focusStar = (id: string | number) =>\n+\t\tfocusStar(panzoom, id);\n \n \tconst canvas = document.getElementById(\"canvas\")!;\n \tconst viewport = document.getElementById(\"viewport\")!;\n@@ -224,7 +225,7 @@ const stars = entries.rows\n \t\tcontain: \"outside\",\n \t\tcanvas: true,\n \t\tcursor: \"arrow\",\n-\t\tstartScale: 1,\n+\t\tstartScale: 0.2,\n \t\tstartX: -(canvas.offsetWidth - window.innerWidth) / 2,\n \t\tstartY: -(canvas.offsetHeight - window.innerHeight) / 2,\n \t});\n@@ -253,4 +254,12 @@ const stars = entries.rows\n \t[openBtn, closeBtn, formBackdrop].forEach((el) => {\n \t\tel.addEventListener(\"click\", toggleForm);\n \t});\n+\n+\tconst urlParams = new URLSearchParams(window.location.search);\n+\tif (urlParams.get(\"focus\")) {\n+\t\tsetTimeout(\n+\t\t\t() => focusStar(panzoom, urlParams.get(\"focus\") as string),\n+\t\t\t100,\n+\t\t);\n+\t}\n </script>"
+      },
+      {
+        "sha": "1288c919d56b43244536e60733738c5c33769622",
+        "filename": "src/pages/star/[id].astro",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/still-they-shine/blob/262a5bf49a826b3112d60e2da13ec2d2c52b5f99/src%2Fpages%2Fstar%2F%5Bid%5D.astro",
+        "raw_url": "https://github.com/jrwnnnn/still-they-shine/raw/262a5bf49a826b3112d60e2da13ec2d2c52b5f99/src%2Fpages%2Fstar%2F%5Bid%5D.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/contents/src%2Fpages%2Fstar%2F%5Bid%5D.astro?ref=262a5bf49a826b3112d60e2da13ec2d2c52b5f99",
+        "patch": "@@ -37,7 +37,7 @@ const stars = generateStaticStars(seeds);\n \n <Layout>\n \t<div class=\"fixed inset-0 overflow-hidden\">\n-\t\t<Sky star_intensity=\"100\" nebula={false} />\n+\t\t<Sky star_intensity=\"50\" nebula={false} meteor_count=\"2\"/>\n \t\t{\n \t\t\tstars.map((s) => (\n \t\t\t\t<div class=\"absolute scale-[0.3]\" style={`left:${s.x}%;top:${s.y}%;`}>"
+      },
+      {
+        "sha": "b9e288e5bd3f35039c9dbb2226417a0c6d20f378",
+        "filename": "src/utils/ambientSound.ts",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/jrwnnnn/still-they-shine/blob/262a5bf49a826b3112d60e2da13ec2d2c52b5f99/src%2Futils%2FambientSound.ts",
+        "raw_url": "https://github.com/jrwnnnn/still-they-shine/raw/262a5bf49a826b3112d60e2da13ec2d2c52b5f99/src%2Futils%2FambientSound.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/contents/src%2Futils%2FambientSound.ts?ref=262a5bf49a826b3112d60e2da13ec2d2c52b5f99",
+        "patch": "@@ -1,6 +1,6 @@\n const ambient = document.getElementById(\"ambient\") as HTMLAudioElement | null;\n \n if (ambient) {\n-\tambient.volume = 0.1;\n-\tsetTimeout(() => ambient.play(), 5000);\n+\tambient.volume = 0.05;\n+\tsetTimeout(() => ambient.play(), 30000);\n }"
+      },
+      {
+        "sha": "13bf08cf0164b68ff501ffde3387f30ad03dafb7",
+        "filename": "src/utils/focusStar.ts",
+        "status": "modified",
+        "additions": 5,
+        "deletions": 11,
+        "changes": 16,
+        "blob_url": "https://github.com/jrwnnnn/still-they-shine/blob/262a5bf49a826b3112d60e2da13ec2d2c52b5f99/src%2Futils%2FfocusStar.ts",
+        "raw_url": "https://github.com/jrwnnnn/still-they-shine/raw/262a5bf49a826b3112d60e2da13ec2d2c52b5f99/src%2Futils%2FfocusStar.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/contents/src%2Futils%2FfocusStar.ts?ref=262a5bf49a826b3112d60e2da13ec2d2c52b5f99",
+        "patch": "@@ -1,13 +1,11 @@\n-// !FIX Buggy zoom\n-\n import type { PanzoomObject } from \"@panzoom/panzoom\";\n \n export function focusStar(panzoom: PanzoomObject, starId: string | number) {\n \tconst wrapper = document.getElementById(String(starId))?.parentElement;\n \tif (!wrapper) return;\n \n-\tconst scale = 1;\n \tconst canvas = wrapper.parentElement!;\n+\tconst scale = 1;\n \n \tconst panX =\n \t\t(window.innerWidth / 2 - canvas.offsetWidth / 2) / scale -\n@@ -19,11 +17,7 @@ export function focusStar(panzoom: PanzoomObject, starId: string | number) {\n \t\tcanvas.offsetHeight / 2;\n \n \tpanzoom.setOptions({ contain: undefined });\n-\n-\tpanzoom.zoom(scale, { animate: true, duration: 20000 });\n-\tpanzoom.pan(panX, panY, { animate: true, duration: 20000, force: true });\n-\n-\tsetTimeout(() => {\n-\t\tpanzoom.setOptions({ contain: \"outside\" });\n-\t}, 500);\n-}\n+\tpanzoom.zoom(scale, { animate: false });\n+\tpanzoom.pan(panX, panY, { animate: false, force: true });\n+\tpanzoom.setOptions({ contain: \"outside\" });\n+}\n\\ No newline at end of file"
+      }
+    ]
+  },
+  {
     "sha": "dba1efb17d39711e37b3d0b9cd40ff9ca990a427",
     "node_id": "C_kwDORbfyj9oAKGRiYTFlZmIxN2QzOTcxMWUzN2IzZDBiOWNkNDBmZjljYTk5MGE0Mjc",
     "commit": {
@@ -531,118 +692,6 @@
         "raw_url": "https://github.com/jrwnnnn/still-they-shine/raw/b8456ecd3c9328f4ffe08b3b3248854b2734a26e/src%2Fcomponents%2FStar.astro",
         "contents_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/contents/src%2Fcomponents%2FStar.astro?ref=b8456ecd3c9328f4ffe08b3b3248854b2734a26e",
         "patch": "@@ -129,7 +129,7 @@ const { color, size, glow, beamLen, beamW, pulseDelay } = Astro.props;\n \t\t\topacity: var(--glow);\n \t\t}\n \t\t50% {\n-\t\t\topacity: calc(var(--glow) * 0.8);\n+\t\t\topacity: calc(var(--glow) * 0.7);\n \t\t}\n \t}\n </style>"
-      }
-    ]
-  },
-  {
-    "sha": "0cd1a47b9d6cc0c0af2e3467ec13cbbb60060d19",
-    "node_id": "C_kwDORbfyj9oAKDBjZDFhNDdiOWQ2Y2MwYzBhZjJlMzQ2N2VjMTNjYmJiNjAwNjBkMTk",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-03-02T17:51:16Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-03-02T17:51:16Z"
-      },
-      "message": "Add ambient background audio\n\nAdd MP3 asset and embed an autoplaying, looping ambient audio element (public/sounds/The Museum - Andrew Prahlow.mp3) with initial volume set to 0.2.",
-      "tree": {
-        "sha": "3de89d75a57c4975ddcdffee3c1f067a6413bbf8",
-        "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/git/trees/3de89d75a57c4975ddcdffee3c1f067a6413bbf8"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/git/commits/0cd1a47b9d6cc0c0af2e3467ec13cbbb60060d19",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/0cd1a47b9d6cc0c0af2e3467ec13cbbb60060d19",
-    "html_url": "https://github.com/jrwnnnn/still-they-shine/commit/0cd1a47b9d6cc0c0af2e3467ec13cbbb60060d19",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/0cd1a47b9d6cc0c0af2e3467ec13cbbb60060d19/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "bb5193f1f34d24ea6fdae72903079a482cd25bff",
-        "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/bb5193f1f34d24ea6fdae72903079a482cd25bff",
-        "html_url": "https://github.com/jrwnnnn/still-they-shine/commit/bb5193f1f34d24ea6fdae72903079a482cd25bff"
-      }
-    ],
-    "stats": {
-      "total": 26,
-      "additions": 18,
-      "deletions": 8
-    },
-    "files": [
-      {
-        "sha": "a4e1451d7694acd258caeb95597b369d57195ff9",
-        "filename": "public/sounds/The Museum - Andrew Prahlow.mp3",
-        "status": "added",
-        "additions": 0,
-        "deletions": 0,
-        "changes": 0,
-        "blob_url": "https://github.com/jrwnnnn/still-they-shine/blob/0cd1a47b9d6cc0c0af2e3467ec13cbbb60060d19/public%2Fsounds%2FThe%20Museum%20-%20Andrew%20Prahlow.mp3",
-        "raw_url": "https://github.com/jrwnnnn/still-they-shine/raw/0cd1a47b9d6cc0c0af2e3467ec13cbbb60060d19/public%2Fsounds%2FThe%20Museum%20-%20Andrew%20Prahlow.mp3",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/contents/public%2Fsounds%2FThe%20Museum%20-%20Andrew%20Prahlow.mp3?ref=0cd1a47b9d6cc0c0af2e3467ec13cbbb60060d19"
-      },
-      {
-        "sha": "2b1ba9c5f04995d3ac6815df57473cd4a5f9689a",
-        "filename": "src/pages/index.astro",
-        "status": "modified",
-        "additions": 18,
-        "deletions": 8,
-        "changes": 26,
-        "blob_url": "https://github.com/jrwnnnn/still-they-shine/blob/0cd1a47b9d6cc0c0af2e3467ec13cbbb60060d19/src%2Fpages%2Findex.astro",
-        "raw_url": "https://github.com/jrwnnnn/still-they-shine/raw/0cd1a47b9d6cc0c0af2e3467ec13cbbb60060d19/src%2Fpages%2Findex.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/contents/src%2Fpages%2Findex.astro?ref=0cd1a47b9d6cc0c0af2e3467ec13cbbb60060d19",
-        "patch": "@@ -122,20 +122,30 @@ const stars = entries.rows\n \t\t\t</a>\n \t\t\t<p class=\"text-xs opacity-50\">{stars.length} companions in the sky</p>\n \t\t</div>\n-\n-\t\t<button\n-\t\t\tid=\"openBtn\"\n-\t\t\tclass=\"pointer-events-auto cursor-pointer self-end rounded-full bg-white/5 px-4 py-2 text-white hover:bg-white/10\"\n-\t\t>\n-\t\t\t<span class=\"mr-1.25\">✦</span>Place a Star\n-\t\t</button>\n+\t\t<div class=\"self-end\">\n+\t\t\t<audio id=\"ambient\" autoplay loop>\n+\t\t\t\t<source\n+\t\t\t\t\tsrc=\"sounds/The Museum - Andrew Prahlow.mp3\"\n+\t\t\t\t\ttype=\"audio/mpeg\"\n+\t\t\t\t/>\n+\t\t\t</audio>\n+\t\t\t<script>\n+\t\t\t\t(document.getElementById(\"ambient\") as HTMLAudioElement).volume = 0.2;\n+\t\t\t</script>\n+\t\t\t<button\n+\t\t\t\tid=\"openBtn\"\n+\t\t\t\tclass=\"pointer-events-auto cursor-pointer rounded-full bg-white/5 px-4 py-2 text-white hover:bg-white/10\"\n+\t\t\t>\n+\t\t\t\t<span class=\"mr-1.25\">✦</span>Place a Star\n+\t\t\t</button>\n+\t\t</div>\n \t</div>\n \t<div\n \t\tid=\"formModal\"\n \t\tclass=\"fixed inset-0 z-100 hidden h-full items-center justify-center backdrop-blur-sm\"\n \t>\n \t\t<div\n-\t\t\tclass=\"mx-5 flex max-w-md flex-col space-y-6 rounded-2xl bg-sky-dark/70 p-8 shadow-xl shadow-black/30 backdrop-blur-md\"\n+\t\t\tclass=\"bg-sky-dark/70 mx-5 flex max-w-md flex-col space-y-6 rounded-2xl p-8 shadow-xl shadow-black/30 backdrop-blur-md\"\n \t\t>\n \t\t\t<div>\n \t\t\t\t<div class=\"mb-4 flex justify-between\">"
       }
     ]
   }
