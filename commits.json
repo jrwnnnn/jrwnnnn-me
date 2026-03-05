@@ -1,5 +1,142 @@
 [
   {
+    "sha": "c84b27bbc338599f2c52e6b8823f088153dcbdec",
+    "node_id": "C_kwDORbfyj9oAKGM4NGIyN2JiYzMzODU5OWYyYzUyZTZiODgyM2YwODgxNTNkY2JkZWM",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-03-05T13:33:04Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-03-05T13:33:04Z"
+      },
+      "message": "Refactor form submission, add basic rate limits",
+      "tree": {
+        "sha": "4fc970759c3f9b18ba4f6a30ed42a47ebc93c366",
+        "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/git/trees/4fc970759c3f9b18ba4f6a30ed42a47ebc93c366"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/git/commits/c84b27bbc338599f2c52e6b8823f088153dcbdec",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/c84b27bbc338599f2c52e6b8823f088153dcbdec",
+    "html_url": "https://github.com/jrwnnnn/still-they-shine/commit/c84b27bbc338599f2c52e6b8823f088153dcbdec",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/c84b27bbc338599f2c52e6b8823f088153dcbdec/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b842ddc9d4af937ad80f79430943b2f732a8399d",
+        "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/b842ddc9d4af937ad80f79430943b2f732a8399d",
+        "html_url": "https://github.com/jrwnnnn/still-they-shine/commit/b842ddc9d4af937ad80f79430943b2f732a8399d"
+      }
+    ],
+    "stats": {
+      "total": 183,
+      "additions": 124,
+      "deletions": 59
+    },
+    "files": [
+      {
+        "sha": "6d3715588fa978fb00e42bb01e65f9dae376135d",
+        "filename": "src/components/Form.astro",
+        "status": "modified",
+        "additions": 14,
+        "deletions": 2,
+        "changes": 16,
+        "blob_url": "https://github.com/jrwnnnn/still-they-shine/blob/c84b27bbc338599f2c52e6b8823f088153dcbdec/src%2Fcomponents%2FForm.astro",
+        "raw_url": "https://github.com/jrwnnnn/still-they-shine/raw/c84b27bbc338599f2c52e6b8823f088153dcbdec/src%2Fcomponents%2FForm.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/contents/src%2Fcomponents%2FForm.astro?ref=c84b27bbc338599f2c52e6b8823f088153dcbdec",
+        "patch": "@@ -1,5 +1,5 @@\n ---\n-const { error } = Astro.props;\n+const { error, isBlocked } = Astro.props;\n ---\n \n <div\n@@ -46,6 +46,7 @@ const { error } = Astro.props;\n \t\t\trequired\n \t\t\tautocomplete=\"off\"\n \t\t\tclass=\"form-input\"\n+\t\t\tdisabled={isBlocked}\n \t\t/>\n \n \t\t<div class=\"grid grid-cols-2 gap-3\">\n@@ -56,7 +57,10 @@ const { error } = Astro.props;\n \t\t\t\t\tname=\"birth_year\"\n \t\t\t\t\trequired\n \t\t\t\t\tautocomplete=\"off\"\n+\t\t\t\t\tmin=\"1900\"\n+\t\t\t\t\tmax={new Date().getFullYear()}\n \t\t\t\t\tclass=\"form-input\"\n+\t\t\t\t\tdisabled={isBlocked}\n \t\t\t\t/>\n \t\t\t</div>\n \t\t\t<div>\n@@ -66,7 +70,10 @@ const { error } = Astro.props;\n \t\t\t\t\tname=\"death_year\"\n \t\t\t\t\trequired\n \t\t\t\t\tautocomplete=\"off\"\n+\t\t\t\t\tmin=\"1900\"\n+\t\t\t\t\tmax={new Date().getFullYear()}\n \t\t\t\t\tclass=\"form-input\"\n+\t\t\t\t\tdisabled={isBlocked}\n \t\t\t\t/>\n \t\t\t</div>\n \t\t</div>\n@@ -76,19 +83,24 @@ const { error } = Astro.props;\n \t\t\tname=\"message\"\n \t\t\tautocomplete=\"off\"\n \t\t\tclass=\"form-input\"\n-\t\t\tmaxlength=\"200\"></textarea>\n+\t\t\tmaxlength=\"500\"\n+\t\t\tdisabled={isBlocked}\n+\t\t></textarea>\n \n \t\t<input\n \t\t\ttype=\"file\"\n \t\t\tname=\"image\"\n \t\t\taccept=\"image/png,image/jpeg,image/jpg,image/webp\"\n \t\t\tclass=\"w-full cursor-pointer text-sm text-white/40 file:mr-4 file:cursor-pointer file:rounded-xl file:border file:border-white/10 file:bg-white/6 file:px-4 file:py-2 file:text-sm file:font-medium file:text-white/75 file:transition-all hover:file:bg-white/10 hover:file:text-white\"\n+\t\t\tdisabled={isBlocked}\t\n+\t\t\n \t\t/>\n \n \t\t<div class=\"pt-1\">\n \t\t\t<button\n \t\t\t\ttype=\"submit\"\n \t\t\t\tclass=\"w-full cursor-pointer rounded-xl border border-white/10 bg-white/6 px-5 py-3 text-sm font-medium text-white/75 transition-all duration-200 hover:border-white/20 hover:bg-white/10 hover:text-white hover:shadow-[0_0_24px_rgba(255,255,255,0.05)]\"\n+\t\t\t\tdisabled={isBlocked}\n \t\t\t>\n \t\t\t\tSubmit\n \t\t\t</button>"
+      },
+      {
+        "sha": "19f276aeea1985ca56f10b4aa42cae7401fde09b",
+        "filename": "src/pages/index.astro",
+        "status": "modified",
+        "additions": 20,
+        "deletions": 57,
+        "changes": 77,
+        "blob_url": "https://github.com/jrwnnnn/still-they-shine/blob/c84b27bbc338599f2c52e6b8823f088153dcbdec/src%2Fpages%2Findex.astro",
+        "raw_url": "https://github.com/jrwnnnn/still-they-shine/raw/c84b27bbc338599f2c52e6b8823f088153dcbdec/src%2Fpages%2Findex.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/contents/src%2Fpages%2Findex.astro?ref=c84b27bbc338599f2c52e6b8823f088153dcbdec",
+        "patch": "@@ -1,10 +1,9 @@\n ---\n import { createClient } from \"@libsql/client\";\n-import sharp from \"sharp\";\n-import { BlobServiceClient } from \"@azure/storage-blob\";\n-import { setPosition } from \"../utils/algorithm/perlin\";\n+import { validateSubmission, isRateLimited } from \"@utils/validateForm\";\n+import { uploadImage } from \"@utils/azure\";\n import { hashSeed } from \"@utils/random\";\n-import { getRandomStar } from \"@utils/star\";\n+import { setPosition } from \"../utils/algorithm/perlin\";\n import renderStar from \"@utils/renderStar\";\n import Layout from \"@layouts/Layout.astro\";\n import Star from \"@components/Star.astro\";\n@@ -21,66 +20,30 @@ let error = \"\";\n \n if (Astro.request.method === \"POST\") {\n \tconst formData = await Astro.request.formData();\n+\tconst result = await validateSubmission(formData, Astro.clientAddress);\n \n-\tconst token = formData.get(\"recaptcha_token\");\n-\tconst recaptchaVerify = await fetch(\n-\t\t`https://www.google.com/recaptcha/api/siteverify?secret=${import.meta.env.RECAPTCHA_SECRET_KEY || process.env.RECAPTCHA_SECRET_KEY}&response=${token}`,\n-\t\t{\n-\t\t\tmethod: \"POST\",\n-\t\t},\n-\t);\n-\tconst recaptchaData = await recaptchaVerify.json();\n-\n-\tconst name = (formData.get(\"name\") as string)?.trim();\n-\tconst birthYear = (formData.get(\"birth_year\") as string)?.trim();\n-\tconst deathYear = (formData.get(\"death_year\") as string)?.trim();\n-\tconst message = (formData.get(\"message\") as string)?.trim();\n-\tconst image = formData.get(\"image\") as File;\n-\tconst star = getRandomStar();\n-\n-\tif (\n-\t\t!recaptchaData.success ||\n-\t\trecaptchaData.score < 0.5 ||\n-\t\trecaptchaData.action !== \"submit\"\n-\t) {\n-\t\terror = \"Security check failed. Please try again.\";\n-\t} else if (image && image.size > 5 * 1024 * 1024) {\n-\t\terror = \"Image must be under 5MB.\";\n-\t} else if (parseInt(birthYear) > parseInt(deathYear)) {\n-\t\terror = \"Birth year must be before death year.\";\n+\tif (typeof result === \"string\") {\n+\t\terror = result;\n \t} else {\n \t\tlet imageUrl = null;\n-\n-\t\tif (image && image.size > 0) {\n-\t\t\ttry {\n-\t\t\t\tconst blobService = BlobServiceClient.fromConnectionString(\n-\t\t\t\t\timport.meta.env.AZURE_CONNECTION_STRING ||\n-\t\t\t\t\t\tprocess.env.AZURE_CONNECTION_STRING,\n-\t\t\t\t);\n-\t\t\t\tconst containerClient = blobService.getContainerClient(\"images\");\n-\t\t\t\tconst fileName = `${Date.now()}-${image.name.replace(/\\s+/g, \"-\")}`;\n-\t\t\t\tconst blobClient = containerClient.getBlockBlobClient(fileName);\n-\n-\t\t\t\tconst arrayBuffer = await image.arrayBuffer();\n-\t\t\t\tconst cleanImageBuffer = await sharp(Buffer.from(arrayBuffer))\n-\t\t\t\t\t.rotate()\n-\t\t\t\t\t.toBuffer();\n-\t\t\t\tawait blobClient.uploadData(cleanImageBuffer, {\n-\t\t\t\t\tblobHTTPHeaders: { blobContentType: image.type },\n-\t\t\t\t});\n-\t\t\t\timageUrl = blobClient.url;\n-\t\t\t} catch (e) {\n-\t\t\t\terror = \"Failed to upload image.\";\n-\t\t\t}\n+\t\tif (result.image && result.image.size > 0) {\n+\t\t\timageUrl = await uploadImage(result.image);\n+\t\t\tif (!imageUrl) error = \"Failed to upload image.\";\n \t\t}\n \n \t\tif (!error) {\n-\t\t\tconst result = await turso.execute({\n+\t\t\tconst insert = await turso.execute({\n \t\t\t\tsql: \"INSERT INTO stars (star_hr, name, birth_year, death_year, message, image_url) VALUES (?, ?, ?, ?, ?, ?)\",\n-\t\t\t\targs: [star.HR, name, birthYear, deathYear, message, imageUrl],\n+\t\t\t\targs: [\n+\t\t\t\t\tresult.star.HR,\n+\t\t\t\t\tresult.name,\n+\t\t\t\t\tresult.birthYear,\n+\t\t\t\t\tresult.deathYear,\n+\t\t\t\t\tresult.message,\n+\t\t\t\t\timageUrl,\n+\t\t\t\t],\n \t\t\t});\n-\n-\t\t\treturn Astro.redirect(\"/?focus=\" + result.lastInsertRowid);\n+\t\t\treturn Astro.redirect(\"/?focus=\" + insert.lastInsertRowid);\n \t\t}\n \t}\n }\n@@ -194,7 +157,7 @@ const stars = entries.rows\n \t\t>\n \t\t</div>\n \n-\t\t<Form error={error} />\n+\t\t<Form error={error} isBlocked={isRateLimited(Astro.clientAddress, true)} />\n \t</div>\n </Layout>\n "
+      },
+      {
+        "sha": "d571460668ed8e656469565b620d0c890b5ee43e",
+        "filename": "src/utils/azure.ts",
+        "status": "added",
+        "additions": 28,
+        "deletions": 0,
+        "changes": 28,
+        "blob_url": "https://github.com/jrwnnnn/still-they-shine/blob/c84b27bbc338599f2c52e6b8823f088153dcbdec/src%2Futils%2Fazure.ts",
+        "raw_url": "https://github.com/jrwnnnn/still-they-shine/raw/c84b27bbc338599f2c52e6b8823f088153dcbdec/src%2Futils%2Fazure.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/contents/src%2Futils%2Fazure.ts?ref=c84b27bbc338599f2c52e6b8823f088153dcbdec",
+        "patch": "@@ -0,0 +1,28 @@\n+import { BlobServiceClient } from \"@azure/storage-blob\";\n+import sharp from \"sharp\";\n+\n+export async function uploadImage(image: File): Promise<string | null> {\n+\ttry {\n+\t\tconst connectionString =\n+\t\t\timport.meta.env.AZURE_CONNECTION_STRING ||\n+\t\t\tprocess.env.AZURE_CONNECTION_STRING;\n+\t\tconst blobService =\n+\t\t\tBlobServiceClient.fromConnectionString(connectionString);\n+\t\tconst container = blobService.getContainerClient(\"images\");\n+\n+\t\tconst fileName = `${Date.now()}-${image.name.replace(/\\s+/g, \"-\")}`;\n+\t\tconst buffer = await sharp(Buffer.from(await image.arrayBuffer()))\n+\t\t\t.rotate()\n+\t\t\t.toBuffer();\n+\n+\t\tconst blobClient = container.getBlockBlobClient(fileName);\n+\t\tawait blobClient.uploadData(buffer, {\n+\t\t\tblobHTTPHeaders: { blobContentType: image.type },\n+\t\t});\n+\n+\t\treturn blobClient.url;\n+\t} catch (e) {\n+\t\tconsole.error(\"Upload error:\", e);\n+\t\treturn null;\n+\t}\n+}"
+      },
+      {
+        "sha": "2a09ac4d5766b23b64810d45151e58b9b2a280c1",
+        "filename": "src/utils/validateForm.ts",
+        "status": "added",
+        "additions": 62,
+        "deletions": 0,
+        "changes": 62,
+        "blob_url": "https://github.com/jrwnnnn/still-they-shine/blob/c84b27bbc338599f2c52e6b8823f088153dcbdec/src%2Futils%2FvalidateForm.ts",
+        "raw_url": "https://github.com/jrwnnnn/still-they-shine/raw/c84b27bbc338599f2c52e6b8823f088153dcbdec/src%2Futils%2FvalidateForm.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/contents/src%2Futils%2FvalidateForm.ts?ref=c84b27bbc338599f2c52e6b8823f088153dcbdec",
+        "patch": "@@ -0,0 +1,62 @@\n+import { getRandomStar } from \"./star\";\n+\n+const ipCache = new Map<string, { count: number; lastReset: number }>();\n+const WINDOW = 5 * 60 * 1000;\n+const MAX_STARS = 5;\n+const VALID_TYPES = [\"image/jpeg\", \"image/png\", \"image/webp\", \"image/jpg\"];\n+\n+export function isRateLimited(ip: string, peek = false): boolean {\n+\tconst now = Date.now();\n+\tlet user = ipCache.get(ip);\n+\n+\tconsole.log(ipCache)\n+\tif (!user || now - user.lastReset > WINDOW) {\n+\t\tuser = { count: 0, lastReset: now };\n+\t\tipCache.set(ip, user);\n+\t}\n+\n+\tif (user.count >= MAX_STARS) return true;\n+\n+\tif (!peek) {\n+\t\tuser.count++;\n+\t}\n+\n+\treturn false;\n+}\n+\n+async function isBot(token: string | null): Promise<boolean> {\n+\tif (!token) return true;\n+\tconst res = await fetch(\n+\t\t`https://www.google.com/recaptcha/api/siteverify?secret=${import.meta.env.RECAPTCHA_SECRET_KEY || process.env.RECAPTCHA_SECRET_KEY}&response=${token}`,\n+\t\t{ method: \"POST\" },\n+\t);\n+\tconst data = await res.json();\n+\treturn !data.success || data.score < 0.5;\n+}\n+\n+export async function validateSubmission(formData: FormData, ip: string) {\n+\tif (isRateLimited(ip)) return \"Too many requests.\";\n+\tif (await isBot(formData.get(\"recaptcha_token\") as string))\n+\t\treturn \"Security check failed. Please try again.\";\n+\n+\tconst name = (formData.get(\"name\") as string)?.trim();\n+\tconst birthYear = parseInt(formData.get(\"birth_year\") as string);\n+\tconst deathYear = parseInt(formData.get(\"death_year\") as string);\n+\tconst message = formData.get(\"message\") as string;\n+\tconst image = formData.get(\"image\") as File;\n+\n+\tif (!name) return \"Pet name is required.\";\n+\tif (birthYear > deathYear) return \"Birth year must be before death year.\";\n+\tif (image?.size > 5 * 1024 * 1024) return \"Image must be under 5MB.\";\n+\tif (image?.size > 0 && !VALID_TYPES.includes(image.type))\n+\t\treturn \"Invalid image format.\";\n+\n+\treturn {\n+\t\tname,\n+\t\tbirthYear,\n+\t\tdeathYear,\n+\t\tmessage: (formData.get(\"message\") as string)?.trim(),\n+\t\timage,\n+\t\tstar: getRandomStar(),\n+\t};\n+}"
+      }
+    ]
+  },
+  {
     "sha": "b842ddc9d4af937ad80f79430943b2f732a8399d",
     "node_id": "C_kwDORbfyj9oAKGI4NDJkZGM5ZDRhZjkzN2FkODBmNzk0MzA5NDNiMmY3MzJhODM5OWQ",
     "commit": {
@@ -412,107 +549,6 @@
         "raw_url": "https://github.com/jrwnnnn/still-they-shine/raw/a378e4adb98f99a3ca68862fe1fea46341739a31/src%2Fcomponents%2FForm.astro",
         "contents_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/contents/src%2Fcomponents%2FForm.astro?ref=a378e4adb98f99a3ca68862fe1fea46341739a31",
         "patch": "@@ -104,7 +104,7 @@ const { error } = Astro.props;\n \n <script\n \tis:inline\n-\tsrc={`https://www.google.com/recaptcha/api.js?render=${import.meta.env.PUBLIC_RECAPTCHA_SITE_KEY || process.env.PUBLIC_RECAPTCHA_SITE_KEY}`}\n+\tsrc={`https://www.google.com/recaptcha/api.js?render=${import.meta.env.PUBLIC_RECAPTCHA_SITE_KEY}`}\n ></script>\n <script>\n \tinterface Window {\n@@ -123,7 +123,7 @@ const { error } = Astro.props;\n \n \t\t\tgrecaptcha.ready(() => {\n \t\t\t\tgrecaptcha\n-\t\t\t\t\t.execute(import.meta.env.PUBLIC_RECAPTCHA_SITE_KEY || process.env.PUBLIC_RECAPTCHA_SITE_KEY, {\n+\t\t\t\t\t.execute(import.meta.env.PUBLIC_RECAPTCHA_SITE_KEY, {\n \t\t\t\t\t\taction: \"submit\",\n \t\t\t\t\t})\n \t\t\t\t\t.then((token: string) => {"
-      }
-    ]
-  },
-  {
-    "sha": "f9ed50dde6cede232fb0d9b7aa22a11c6ba0c47e",
-    "node_id": "C_kwDORbfyj9oAKGY5ZWQ1MGRkZTZjZWRlMjMyZmIwZDliN2FhMjJhMTFjNmJhMGM0N2U",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-03-05T08:14:01Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-03-05T08:14:01Z"
-      },
-      "message": "Simplify deploy workflow name [skip deploy]",
-      "tree": {
-        "sha": "950a32f52cfb86c0c2992e843edbb064297e8202",
-        "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/git/trees/950a32f52cfb86c0c2992e843edbb064297e8202"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/git/commits/f9ed50dde6cede232fb0d9b7aa22a11c6ba0c47e",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/f9ed50dde6cede232fb0d9b7aa22a11c6ba0c47e",
-    "html_url": "https://github.com/jrwnnnn/still-they-shine/commit/f9ed50dde6cede232fb0d9b7aa22a11c6ba0c47e",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/f9ed50dde6cede232fb0d9b7aa22a11c6ba0c47e/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "c7d593bf45cba1108aa6243d1d878b1cc9a9bd82",
-        "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/c7d593bf45cba1108aa6243d1d878b1cc9a9bd82",
-        "html_url": "https://github.com/jrwnnnn/still-they-shine/commit/c7d593bf45cba1108aa6243d1d878b1cc9a9bd82"
-      }
-    ],
-    "stats": {
-      "total": 2,
-      "additions": 1,
-      "deletions": 1
-    },
-    "files": [
-      {
-        "sha": "ea14f2db5c106b9ddffcb489365dc6c47a6e3dad",
-        "filename": ".github/workflows/deploy.yml",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/still-they-shine/blob/f9ed50dde6cede232fb0d9b7aa22a11c6ba0c47e/.github%2Fworkflows%2Fdeploy.yml",
-        "raw_url": "https://github.com/jrwnnnn/still-they-shine/raw/f9ed50dde6cede232fb0d9b7aa22a11c6ba0c47e/.github%2Fworkflows%2Fdeploy.yml",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/contents/.github%2Fworkflows%2Fdeploy.yml?ref=f9ed50dde6cede232fb0d9b7aa22a11c6ba0c47e",
-        "patch": "@@ -1,7 +1,7 @@\n # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy\n # More GitHub Actions for Azure: https://github.com/Azure/actions\n \n-name: Build and deploy Node.js app to Azure Web App - still-they-shine\n+name: Build and deploy\n \n on:\n   push:"
       }
     ]
   }
