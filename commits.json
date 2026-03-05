@@ -1,5 +1,218 @@
 [
   {
+    "sha": "c7d593bf45cba1108aa6243d1d878b1cc9a9bd82",
+    "node_id": "C_kwDORbfyj9oAKGM3ZDU5M2JmNDVjYmExMTA4YWE2MjQzZDFkODc4YjFjYzlhOWJkODI",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-03-05T08:11:02Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-03-05T08:11:02Z"
+      },
+      "message": "Remove placeholders from form inputs",
+      "tree": {
+        "sha": "2f3a2b0155e75d6a801f7443647fb0de87378cf5",
+        "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/git/trees/2f3a2b0155e75d6a801f7443647fb0de87378cf5"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/git/commits/c7d593bf45cba1108aa6243d1d878b1cc9a9bd82",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/c7d593bf45cba1108aa6243d1d878b1cc9a9bd82",
+    "html_url": "https://github.com/jrwnnnn/still-they-shine/commit/c7d593bf45cba1108aa6243d1d878b1cc9a9bd82",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/c7d593bf45cba1108aa6243d1d878b1cc9a9bd82/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ea05e23f744038af2f5dd7db3cb94c2f45e9c630",
+        "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/ea05e23f744038af2f5dd7db3cb94c2f45e9c630",
+        "html_url": "https://github.com/jrwnnnn/still-they-shine/commit/ea05e23f744038af2f5dd7db3cb94c2f45e9c630"
+      }
+    ],
+    "stats": {
+      "total": 3,
+      "additions": 0,
+      "deletions": 3
+    },
+    "files": [
+      {
+        "sha": "3f639c86f5da857755a9d114c7e769671bc7c406",
+        "filename": "src/components/Form.astro",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 3,
+        "changes": 3,
+        "blob_url": "https://github.com/jrwnnnn/still-they-shine/blob/c7d593bf45cba1108aa6243d1d878b1cc9a9bd82/src%2Fcomponents%2FForm.astro",
+        "raw_url": "https://github.com/jrwnnnn/still-they-shine/raw/c7d593bf45cba1108aa6243d1d878b1cc9a9bd82/src%2Fcomponents%2FForm.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/contents/src%2Fcomponents%2FForm.astro?ref=c7d593bf45cba1108aa6243d1d878b1cc9a9bd82",
+        "patch": "@@ -45,7 +45,6 @@ const { error } = Astro.props;\n \t\t\tname=\"name\"\n \t\t\trequired\n \t\t\tautocomplete=\"off\"\n-\t\t\tplaceholder=\"Their name\"\n \t\t\tclass=\"form-input\"\n \t\t/>\n \n@@ -57,7 +56,6 @@ const { error } = Astro.props;\n \t\t\t\t\tname=\"birth_year\"\n \t\t\t\t\trequired\n \t\t\t\t\tautocomplete=\"off\"\n-\t\t\t\t\tplaceholder=\"2013\"\n \t\t\t\t\tclass=\"form-input\"\n \t\t\t\t/>\n \t\t\t</div>\n@@ -68,7 +66,6 @@ const { error } = Astro.props;\n \t\t\t\t\tname=\"death_year\"\n \t\t\t\t\trequired\n \t\t\t\t\tautocomplete=\"off\"\n-\t\t\t\t\tplaceholder=\"2026\"\n \t\t\t\t\tclass=\"form-input\"\n \t\t\t\t/>\n \t\t\t</div>"
+      }
+    ]
+  },
+  {
+    "sha": "ea05e23f744038af2f5dd7db3cb94c2f45e9c630",
+    "node_id": "C_kwDORbfyj9oAKGVhMDVlMjNmNzQ0MDM4YWYyZjVkZDdkYjNjYjk0YzJmNDVlOWM2MzA",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-03-05T08:05:56Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-03-05T08:05:56Z"
+      },
+      "message": "Update README.md",
+      "tree": {
+        "sha": "886f83e2fe13217754d6b07705b8c8f45fcf23c0",
+        "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/git/trees/886f83e2fe13217754d6b07705b8c8f45fcf23c0"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/git/commits/ea05e23f744038af2f5dd7db3cb94c2f45e9c630",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/ea05e23f744038af2f5dd7db3cb94c2f45e9c630",
+    "html_url": "https://github.com/jrwnnnn/still-they-shine/commit/ea05e23f744038af2f5dd7db3cb94c2f45e9c630",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/ea05e23f744038af2f5dd7db3cb94c2f45e9c630/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5918754796022fb707cdbd601b9845c88e140325",
+        "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/5918754796022fb707cdbd601b9845c88e140325",
+        "html_url": "https://github.com/jrwnnnn/still-they-shine/commit/5918754796022fb707cdbd601b9845c88e140325"
+      }
+    ],
+    "stats": {
+      "total": 16,
+      "additions": 12,
+      "deletions": 4
+    },
+    "files": [
+      {
+        "sha": "d145bea056b51ace35f2f7233bcb7594004eb7f1",
+        "filename": ".github/README/img1.png",
+        "status": "added",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/still-they-shine/blob/ea05e23f744038af2f5dd7db3cb94c2f45e9c630/.github%2FREADME%2Fimg1.png",
+        "raw_url": "https://github.com/jrwnnnn/still-they-shine/raw/ea05e23f744038af2f5dd7db3cb94c2f45e9c630/.github%2FREADME%2Fimg1.png",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/contents/.github%2FREADME%2Fimg1.png?ref=ea05e23f744038af2f5dd7db3cb94c2f45e9c630"
+      },
+      {
+        "sha": "0d8e5dbddc808843906684223143ee6069145b23",
+        "filename": "README.md",
+        "status": "modified",
+        "additions": 12,
+        "deletions": 4,
+        "changes": 16,
+        "blob_url": "https://github.com/jrwnnnn/still-they-shine/blob/ea05e23f744038af2f5dd7db3cb94c2f45e9c630/README.md",
+        "raw_url": "https://github.com/jrwnnnn/still-they-shine/raw/ea05e23f744038af2f5dd7db3cb94c2f45e9c630/README.md",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/contents/README.md?ref=ea05e23f744038af2f5dd7db3cb94c2f45e9c630",
+        "patch": "@@ -1,14 +1,22 @@\n <h1 align=\"center\">Still, They Shine</h1>\n \n-<p align=\"center\"><i>Quick one-liner about what this project does.</i></p>\n+<p align=\"center\"><i>A small space on the internet dedicated to remembering our companions who have traveled onward.</i></p>\n \n <div align=\"center\">\n    <!-- FIND PREMADE BADGES HERE: https://github.com/Ileriayo/markdown-badges -->\n+\n+   <a href=\"https://astro.build\"><img src=\"https://img.shields.io/badge/astro-%232C2052.svg?style=for-the-badge&logo=astro&logoColor=white\"></a>\n+   <a href=\"https://tailwindcss.com\"><img src=\"https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white\"></a>\n+   <a href=\"https://typescriptlang.org\"><img src=\"https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white\"></a>\n    <a href=\"https://opensource.org/license/mit\"><img src=\"https://img.shields.io/badge/MIT-green?style=for-the-badge\"></a>\n    <a href=\"https://github.com/jrwnnnn/still-they-shine\"><img src=\"https://img.shields.io/github/stars/jrwnnnn/still-they-shine?style=for-the-badge\"></a>\n </div>\n \n-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n+Still, They Shine is a webapp where anyone can place a star in a shared night sky to honor a beloved pet that has passed away. Each star made is tied to a real star in the night sky, giving every companion a small, lasting place among the stars.\n+\n+Built with Astro, Tailwind CSS, and TypeScript. Using Node.js 24 LTS for web deployment.\n+\n+<img src=\".github/README/img1.png\" align=\"center\">\n \n ## Prerequisites\n \n@@ -21,13 +29,13 @@ Make sure the following are installed:\n ```bash\n #Clone the repository\n git clone https://github.com/jrwnnnn/still-they-shine.git\n-cd scaffold\n+cd still-they-shine\n \n #Install the required dependencies\n npm install\n \n #Run the program\n-npm run dev\n+npm run astro:dev\n ```\n \n ## License"
+      }
+    ]
+  },
+  {
     "sha": "5918754796022fb707cdbd601b9845c88e140325",
     "node_id": "C_kwDORbfyj9oAKDU5MTg3NTQ3OTYwMjJmYjcwN2NkYmQ2MDFiOTg0NWM4OGUxNDAzMjU",
     "commit": {
@@ -324,244 +537,6 @@
         "raw_url": "https://github.com/jrwnnnn/still-they-shine/raw/052f0635328835b71cf25a8bb1d804e46216c4a0/src%2Fpages%2Fstar%2F%5Bid%5D.astro",
         "contents_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/contents/src%2Fpages%2Fstar%2F%5Bid%5D.astro?ref=052f0635328835b71cf25a8bb1d804e46216c4a0",
         "patch": "@@ -9,8 +9,8 @@ import starCatalog from \"../../data/star-catalog.json\";\n import constellations from \"../../data/constellations.json\";\n \n const turso = createClient({\n-\turl: import.meta.env.TURSO_DATABASE_URL,\n-\tauthToken: import.meta.env.TURSO_AUTH_TOKEN,\n+\turl: import.meta.env.TURSO_DATABASE_URL || process.env.TURSO_DATABASE_URL,\n+\tauthToken: import.meta.env.TURSO_AUTH_TOKEN || process.env.TURSO_AUTH_TOKEN,\n });\n \n const id = Astro.params.id as string;"
-      }
-    ]
-  },
-  {
-    "sha": "d47adce6f071db6be72761c8384a265c3c170eeb",
-    "node_id": "C_kwDORbfyj9oAKGQ0N2FkY2U2ZjA3MWRiNmJlNzI3NjFjODM4NGEyNjVjM2MxNzBlZWI",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-03-05T06:52:39Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-03-05T06:52:39Z"
-      },
-      "message": "UI Tweaks",
-      "tree": {
-        "sha": "f1b87f3165bf0cde761cecbf74d9c263461dd047",
-        "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/git/trees/f1b87f3165bf0cde761cecbf74d9c263461dd047"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/git/commits/d47adce6f071db6be72761c8384a265c3c170eeb",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/d47adce6f071db6be72761c8384a265c3c170eeb",
-    "html_url": "https://github.com/jrwnnnn/still-they-shine/commit/d47adce6f071db6be72761c8384a265c3c170eeb",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/d47adce6f071db6be72761c8384a265c3c170eeb/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "ad08ed2422b396f449428de908148783e6dcb8e9",
-        "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/ad08ed2422b396f449428de908148783e6dcb8e9",
-        "html_url": "https://github.com/jrwnnnn/still-they-shine/commit/ad08ed2422b396f449428de908148783e6dcb8e9"
-      }
-    ],
-    "stats": {
-      "total": 5,
-      "additions": 4,
-      "deletions": 1
-    },
-    "files": [
-      {
-        "sha": "421d6cf49de27a67b98e0db8ca5e1dfad1209963",
-        "filename": "src/pages/about.astro",
-        "status": "modified",
-        "additions": 3,
-        "deletions": 0,
-        "changes": 3,
-        "blob_url": "https://github.com/jrwnnnn/still-they-shine/blob/d47adce6f071db6be72761c8384a265c3c170eeb/src%2Fpages%2Fabout.astro",
-        "raw_url": "https://github.com/jrwnnnn/still-they-shine/raw/d47adce6f071db6be72761c8384a265c3c170eeb/src%2Fpages%2Fabout.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/contents/src%2Fpages%2Fabout.astro?ref=d47adce6f071db6be72761c8384a265c3c170eeb",
-        "patch": "@@ -39,6 +39,9 @@ const stars = generateStaticStars(seeds);\n \t\t\t\t\treal star in the night sky. It is a simple, way to honor their\n \t\t\t\t\tjourney, keeping their light shining above us so they are never truly\n \t\t\t\t\tgone.\n+\t\t\t\t\t<br />\n+\t\t\t\t\t<br />\n+\t\t\t\t\tdeveloped by <a href=\"https://jrwnnnn.me\">Jerwin</a> x ⋆｡°✩\n \t\t\t\t</p>\n \t\t\t</div>\n \t\t\t<div class=\"flex items-center gap-5\">"
-      },
-      {
-        "sha": "8447fc4d1e7ec45663648160b7a0d7d096629260",
-        "filename": "src/pages/index.astro",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/still-they-shine/blob/d47adce6f071db6be72761c8384a265c3c170eeb/src%2Fpages%2Findex.astro",
-        "raw_url": "https://github.com/jrwnnnn/still-they-shine/raw/d47adce6f071db6be72761c8384a265c3c170eeb/src%2Fpages%2Findex.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/contents/src%2Fpages%2Findex.astro?ref=d47adce6f071db6be72761c8384a265c3c170eeb",
-        "patch": "@@ -166,7 +166,7 @@ const stars = entries.rows\n \t\t\t\thref=\"about\"\n \t\t\t\tclass=\"pointer-events-auto cursor-pointer text-xl font-bold tracking-[5px] uppercase\"\n \t\t\t>\n-\t\t\t\tStill, They Shine\n+\t\t\t\tStill, They Shine ᯓ✦\n \t\t\t</a>\n \t\t\t<p class=\"text-xs opacity-50\">\n \t\t\t\t{stars.length} companions watching from above"
-      }
-    ]
-  },
-  {
-    "sha": "ad08ed2422b396f449428de908148783e6dcb8e9",
-    "node_id": "C_kwDORbfyj9oAKGFkMDhlZDI0MjJiMzk2ZjQ0OTQyOGRlOTA4MTQ4NzgzZTZkY2I4ZTk",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-03-05T06:52:27Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-03-05T06:52:27Z"
-      },
-      "message": "Add sharp and raise image upload limit\n\nAdds sharp as a dependency and integrates it into src/pages/index.astro to auto-rotate and normalize uploaded images (convert to a cleaned Buffer) before uploading to Azure Blob Storage.",
-      "tree": {
-        "sha": "11a2c58419b1f919cb5ce3d81a6e905ed91dc445",
-        "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/git/trees/11a2c58419b1f919cb5ce3d81a6e905ed91dc445"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/git/commits/ad08ed2422b396f449428de908148783e6dcb8e9",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/ad08ed2422b396f449428de908148783e6dcb8e9",
-    "html_url": "https://github.com/jrwnnnn/still-they-shine/commit/ad08ed2422b396f449428de908148783e6dcb8e9",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/ad08ed2422b396f449428de908148783e6dcb8e9/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "cd4b5bf884b246ccfc54b93986b7c0acb1042944",
-        "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/cd4b5bf884b246ccfc54b93986b7c0acb1042944",
-        "html_url": "https://github.com/jrwnnnn/still-they-shine/commit/cd4b5bf884b246ccfc54b93986b7c0acb1042944"
-      }
-    ],
-    "stats": {
-      "total": 16,
-      "additions": 11,
-      "deletions": 5
-    },
-    "files": [
-      {
-        "sha": "634548e2ee6c2f85c41afe322a0d9207858473c5",
-        "filename": "package-lock.json",
-        "status": "modified",
-        "additions": 3,
-        "deletions": 2,
-        "changes": 5,
-        "blob_url": "https://github.com/jrwnnnn/still-they-shine/blob/ad08ed2422b396f449428de908148783e6dcb8e9/package-lock.json",
-        "raw_url": "https://github.com/jrwnnnn/still-they-shine/raw/ad08ed2422b396f449428de908148783e6dcb8e9/package-lock.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/contents/package-lock.json?ref=ad08ed2422b396f449428de908148783e6dcb8e9",
-        "patch": "@@ -17,6 +17,7 @@\n         \"prettier\": \"^3.8.1\",\n         \"prettier-plugin-astro\": \"^0.14.1\",\n         \"prettier-plugin-tailwindcss\": \"^0.7.2\",\n+        \"sharp\": \"^0.34.5\",\n         \"tailwindcss\": \"^4.1.18\"\n       },\n       \"devDependencies\": {\n@@ -774,7 +775,6 @@\n     \"node_modules/@img/colour\": {\n       \"version\": \"1.0.0\",\n       \"license\": \"MIT\",\n-      \"optional\": true,\n       \"engines\": {\n         \"node\": \">=18\"\n       }\n@@ -5182,9 +5182,10 @@\n     },\n     \"node_modules/sharp\": {\n       \"version\": \"0.34.5\",\n+      \"resolved\": \"https://registry.npmjs.org/sharp/-/sharp-0.34.5.tgz\",\n+      \"integrity\": \"sha512-Ou9I5Ft9WNcCbXrU9cMgPBcCK8LiwLqcbywW3t4oDV37n1pzpuNLsYiAV8eODnjbtQlSDwZ2cUEeQz4E54Hltg==\",\n       \"hasInstallScript\": true,\n       \"license\": \"Apache-2.0\",\n-      \"optional\": true,\n       \"dependencies\": {\n         \"@img/colour\": \"^1.0.0\",\n         \"detect-libc\": \"^2.1.2\","
-      },
-      {
-        "sha": "b8e10050735381b3c61d7a1c0ac57a4cfb8d7296",
-        "filename": "package.json",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 0,
-        "changes": 1,
-        "blob_url": "https://github.com/jrwnnnn/still-they-shine/blob/ad08ed2422b396f449428de908148783e6dcb8e9/package.json",
-        "raw_url": "https://github.com/jrwnnnn/still-they-shine/raw/ad08ed2422b396f449428de908148783e6dcb8e9/package.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/contents/package.json?ref=ad08ed2422b396f449428de908148783e6dcb8e9",
-        "patch": "@@ -19,6 +19,7 @@\n     \"prettier\": \"^3.8.1\",\n     \"prettier-plugin-astro\": \"^0.14.1\",\n     \"prettier-plugin-tailwindcss\": \"^0.7.2\",\n+    \"sharp\": \"^0.34.5\",\n     \"tailwindcss\": \"^4.1.18\"\n   },\n   \"devDependencies\": {"
-      },
-      {
-        "sha": "3d9f189ac715cfeb93be01fc13e1b57e0606bce9",
-        "filename": "src/pages/index.astro",
-        "status": "modified",
-        "additions": 7,
-        "deletions": 3,
-        "changes": 10,
-        "blob_url": "https://github.com/jrwnnnn/still-they-shine/blob/ad08ed2422b396f449428de908148783e6dcb8e9/src%2Fpages%2Findex.astro",
-        "raw_url": "https://github.com/jrwnnnn/still-they-shine/raw/ad08ed2422b396f449428de908148783e6dcb8e9/src%2Fpages%2Findex.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/contents/src%2Fpages%2Findex.astro?ref=ad08ed2422b396f449428de908148783e6dcb8e9",
-        "patch": "@@ -1,5 +1,6 @@\n ---\n import { createClient } from \"@libsql/client\";\n+import sharp from \"sharp\";\n import { BlobServiceClient } from \"@azure/storage-blob\";\n import { setPosition } from \"../utils/algorithm/perlin\";\n import { hashSeed } from \"@utils/random\";\n@@ -43,8 +44,8 @@ if (Astro.request.method === \"POST\") {\n \t\trecaptchaData.action !== \"submit\"\n \t) {\n \t\terror = \"Security check failed. Please try again.\";\n-\t} else if (image && image.size > 2 * 1024 * 1024) {\n-\t\terror = \"Image must be under 2MB.\";\n+\t} else if (image && image.size > 5 * 1024 * 1024) {\n+\t\terror = \"Image must be under 5MB.\";\n \t} else if (parseInt(birthYear) > parseInt(deathYear)) {\n \t\terror = \"Birth year must be before death year.\";\n \t} else {\n@@ -60,7 +61,10 @@ if (Astro.request.method === \"POST\") {\n \t\t\t\tconst blobClient = containerClient.getBlockBlobClient(fileName);\n \n \t\t\t\tconst arrayBuffer = await image.arrayBuffer();\n-\t\t\t\tawait blobClient.uploadData(arrayBuffer, {\n+\t\t\t\tconst cleanImageBuffer = await sharp(Buffer.from(arrayBuffer))\n+\t\t\t\t\t.rotate()\n+\t\t\t\t\t.toBuffer();\n+\t\t\t\tawait blobClient.uploadData(cleanImageBuffer, {\n \t\t\t\t\tblobHTTPHeaders: { blobContentType: image.type },\n \t\t\t\t});\n \t\t\t\timageUrl = blobClient.url;"
       }
     ]
   }
