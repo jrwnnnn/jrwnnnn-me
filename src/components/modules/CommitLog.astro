@@ -1,5 +1,6 @@
 ---
 import ErrorOut from "../ErrorOut.astro";
+import { safeAsync } from "@utils/safeAsync";
 
 interface Commit {
 	sha: string;
@@ -17,29 +18,18 @@ interface Commit {
 	};
 }
 
-let errorPayload: Error | null = null;
-const commits: Commit[] = await fetch(
-	"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/commits.json",
-)
-	.then((r) =>
-		r.ok
-			? r.json()
-			: Promise.reject(
-					new Error(`Failed to fetch commits returned status ${r.status}`),
-				),
-	)
-	.catch((e) => {
-		errorPayload = e instanceof Error ? e : new Error("Unknown fetch error");
-		return [];
-	});
+const result = await safeAsync(
+	fetch(
+		"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/commits.json",
+	),
+);
+const commits = await result.data!.json();
 ---
 
 {
-	errorPayload ? (
-		<ErrorOut error={errorPayload} />
-	) : (
+	result.data ? (
 		<div class="space-y-4 font-mono text-sm">
-			{commits.map((commit) => (
+			{commits.map((commit: Commit) => (
 				<a
 					href={commit.html_url}
 					target="_blank"
@@ -70,5 +60,7 @@ const commits: Commit[] = await fetch(
 				</a>
 			))}
 		</div>
+	) : (
+		<ErrorOut error={result.error as Error} />
 	)
 }

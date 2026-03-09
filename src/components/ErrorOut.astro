@@ -7,7 +7,7 @@ const errorMessage = error?.message || "Unknown error";
 const errorTrace = error?.stack || "";
 ---
 
-<script define:vars={{ errorTrace }}>
+<script is:inline define:vars={{ errorTrace }}>
 	console.error(errorTrace);
 </script>
 
