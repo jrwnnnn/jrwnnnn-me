@@ -23,7 +23,6 @@ const {
 	footer = true,
 } = Astro.props;
 
-let errorPayload;
 const latestCommit = await safeAsync(
 	fetch(
 		"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/jrwnnnn-me-commits.json",

@@ -4,7 +4,6 @@ import { createClient } from "@libsql/client";
 import { safeAsync } from "@utils/safeAsync";
 import { createHash } from "node:crypto";
 import { marked } from "marked";
-
 import Layout from "../../layouts/Layout.astro";
 
 const turso = createClient({
@@ -12,27 +11,23 @@ const turso = createClient({
 	authToken: process.env.TURSO_AUTH_TOKEN || import.meta.env.TURSO_AUTH_TOKEN,
 });
 
-const action = Astro.url.searchParams.get("action") ?? null;
-
-const { data: result, error } = await safeAsync(
+const article = await safeAsync(
 	turso.execute(
 		"UPDATE articles SET views = views + 1 WHERE slug = ? RETURNING *",
 		[Astro.params.slug as string],
 	),
 );
 
-if (error || result?.rows.length === 0) {
+if (article.error || article.data?.rows.length === 0) {
 	return Astro.rewrite("/404");
 }
-
-const article = result?.rows[0];
 ---
 
 {
-	article && (
+	article.data ? (
 		<Layout
-			title={article.title as string}
-			description={article.subtitle as string}
+			title={article.data.rows[0].title as string}
+			description={article.data.rows[0].subtitle as string}
 		>
 			<main class="flex flex-col items-center justify-center">
 				<div class="w-full font-mono lg:w-[60vw]">
@@ -40,35 +35,34 @@ const article = result?.rows[0];
 						<span>
 							ID:{" "}
 							{createHash("md5")
-								.update(article.slug as string)
+								.update(article.data.rows[0].slug as string)
 								.digest("hex")
 								.substring(0, 10)}
 						</span>
 						<time datetime={new Date().toISOString()}>
-							{new Date(article.date_created as string).toLocaleDateString(
-								"en-US",
-								{
-									year: "numeric",
-									month: "short",
-									day: "numeric",
-								},
-							)}
+							{new Date(
+								article.data.rows[0].date_created as string,
+							).toLocaleDateString("en-US", {
+								year: "numeric",
+								month: "short",
+								day: "numeric",
+							})}
 						</time>
 					</statusbar>
 
 					<div class="flex flex-col space-y-5 border border-green-800 bg-black p-6 md:p-12">
 						<p class="w-full rounded-none text-4xl leading-none font-bold uppercase outline-none md:text-5xl">
-							{article.title}
+							{article.data.rows[0].title as string}
 						</p>
 						<p class="w-full text-lg text-green-600 outline-none">
-							{article.subtitle}
+							{article.data.rows[0].subtitle as string}
 						</p>
 
 						<hr class="border border-green-900/50" />
 
 						<div
 							class="prose"
-							set:html={marked.parse(article.content as string)}
+							set:html={marked.parse(article.data.rows[0].content as string)}
 						/>
 
 						<hr class="border border-green-900/50" />
@@ -81,7 +75,7 @@ const article = result?.rows[0];
 								Transmission ID:
 								<span class="tracking-wide uppercase">
 									{createHash("md5")
-										.update(article.slug as string)
+										.update(article.data.rows[0].slug as string)
 										.digest("hex")
 										.substring(0, 20)}
 								</span>
@@ -91,5 +85,5 @@ const article = result?.rows[0];
 				</div>
 			</main>
 		</Layout>
-	)
+	) : null
 }
