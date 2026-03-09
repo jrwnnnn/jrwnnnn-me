@@ -19,12 +19,11 @@ const turso = createClient({
 	authToken: process.env.TURSO_AUTH_TOKEN || import.meta.env.TURSO_AUTH_TOKEN,
 });
 
-const { data: r_latestTransmission, error: e_latestTransmission } =
-	await safeAsync(
-		turso.execute("SELECT * FROM articles ORDER BY date_created DESC LIMIT 1"),
-	);
+const latestTransmission = await safeAsync(
+	turso.execute("SELECT * FROM articles ORDER BY date_created DESC LIMIT 1"),
+);
 
-const { data: r_siteSettings, error: e_SiteSetting } = await safeAsync(
+const siteSettings = await safeAsync(
 	turso.execute("SELECT * FROM site_settings"),
 );
 
@@ -72,57 +71,57 @@ const stack = [
 				</div>
 			</div>
 			{
-				r_latestTransmission?.rows[0] ? (
+				latestTransmission.data ? (
 					<Container
-						onclick={`location.href='/transmission/${r_latestTransmission?.rows[0].slug}'`}
+						onclick={`location.href='/transmission/${latestTransmission.data.rows[0].slug}'`}
 					>
 						<p class="font-mono text-lg font-bold tracking-widest uppercase">
-							{r_latestTransmission?.rows[0].title}
+							{latestTransmission.data.rows[0].title}
 						</p>
 						<p class="line-clamp-1 font-mono text-green-600">
 							<span>
 								{new Date(
-									r_latestTransmission?.rows[0].date_created as string,
+									latestTransmission.data.rows[0].date_created as string,
 								).toLocaleDateString("en-US", {
 									year: "numeric",
 									month: "short",
 									day: "numeric",
 								})}
 							</span>
-							- {r_latestTransmission?.rows[0].subtitle}
+							- {latestTransmission.data.rows[0].subtitle}
 						</p>
 					</Container>
 				) : (
 					<Container>
-						<ErrorOut error={e_latestTransmission as Error} />
+						<ErrorOut error={latestTransmission.error as Error} />
 					</Container>
 				)
 			}
 		</section>
 		<hr class="border-green-500" />
 		<section class="space-y-5">
-			<h3 class="text-xl font-bold tracking-widest">> MAIN_MENU</h3>
+			<h3 class="text-xl font-bold tracking-widest">&gt; MAIN_MENU</h3>
 			<div class="grid grid-cols-1 gap-6 font-mono font-bold lg:grid-cols-3">
 				<Button
 					class="group py-3! text-left"
 					onclick="location.href='projects'"
 				>
-					<span class="mr-2 group-hover:animate-ping">></span> [ DIR ] PROJECTS
+					<span class="mr-2 group-hover:animate-ping">&gt; </span> [ DIR ] PROJECTS
 				</Button>
 				<Button
 					class="group py-3! text-left"
 					onclick="location.href='transmission'"
 				>
-					<span class="mr-2 group-hover:animate-ping">></span> [ LOG ] TRANSMISSION_LOG
+					<span class="mr-2 group-hover:animate-ping">&gt; </span> [ LOG ] TRANSMISSION_LOG
 				</Button>
 				<Button class="group py-3! text-left" onclick="location.href='gallery'">
-					<span class="mr-2 group-hover:animate-ping">></span> [ PCX ] GALLERY
+					<span class="mr-2 group-hover:animate-ping">&gt; </span> [ PCX ] GALLERY
 				</Button>
 			</div>
 		</section>
 		<section class="columns-1 gap-6 space-y-6 lg:columns-2">
 			<Container class="break-inside-avoid space-y-5 bg-black!">
-				<p class="text-lg font-bold tracking-widest">> STACK</p>
+				<p class="text-lg font-bold tracking-widest">&gt; STACK</p>
 				<hr class="border border-green-500/30" />
 				<div
 					class="grid grid-cols-3 place-items-center gap-4 brightness-90 md:grid-cols-5"
@@ -145,7 +144,7 @@ const stack = [
 				</div>
 			</Container>
 			<Container class="break-inside-avoid space-y-5 bg-black!">
-				<p class="text-lg font-bold tracking-widest">> COMMIT_LOG</p>
+				<p class="text-lg font-bold tracking-widest">&gt; COMMIT_LOG</p>
 				<hr class="border border-green-500/30" />
 				<CommitLog />
 				<Heatmap />
@@ -155,19 +154,19 @@ const stack = [
 			</Container>
 			<Container class="break-inside-avoid space-y-5">
 				{
-					e_SiteSetting ? (
-						<ErrorOut error={e_SiteSetting as Error} />
-					) : (
+					siteSettings.data ? (
 						<>
 							<Ascii
-								ascii={r_siteSettings?.rows[0]?.value as string}
+								ascii={siteSettings.data.rows[0].value as string}
 								class="glitch opacity-90"
 							/>
 							<hr class="border border-green-500/30" />
 							<p class="text-center font-mono text-sm italic">
-								{r_siteSettings?.rows[1]?.value}
+								{siteSettings.data.rows[1].value}
 							</p>
 						</>
+					) : (
+						<ErrorOut error={siteSettings.error as Error} />
 					)
 				}
 			</Container>

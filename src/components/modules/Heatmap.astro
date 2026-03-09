@@ -1,15 +1,39 @@
 ---
 import ErrorOut from "../ErrorOut.astro";
+import { safeAsync } from "@utils/safeAsync";
 
-let errorPayload;
-const graphql = await fetch("https://api.github.com/graphql", {
-	method: "POST",
-	headers: {
-		Authorization: `Bearer ${process.env.GITHUB_TOKEN || import.meta.env.GITHUB_TOKEN}`,
-		"Content-Type": "application/json",
-	},
-	body: JSON.stringify({
-		query: `
+interface ContributionDay {
+	contributionCount: number;
+	date: string;
+	color: string;
+}
+
+interface Week {
+	contributionDays: ContributionDay[];
+}
+
+interface GraphQL {
+	data: {
+		user: {
+			contributionsCollection: {
+				contributionCalendar: {
+					totalContributions: number;
+					weeks: Week[];
+				};
+			};
+		};
+	};
+}
+
+const response = await safeAsync(
+	fetch("https://api.github.com/graphql", {
+		method: "POST",
+		headers: {
+			Authorization: `Bearer ${process.env.GITHUB_TOKEN || import.meta.env.GITHUB_TOKEN}`,
+			"Content-Type": "application/json",
+		},
+		body: JSON.stringify({
+			query: `
 	  query($userName:String!) {
 		user(login: $userName) {
 		  contributionsCollection {
@@ -27,23 +51,11 @@ const graphql = await fetch("https://api.github.com/graphql", {
 		}
 	  }
 	`,
-		variables: { userName: "jrwnnnn" },
+			variables: { userName: "jrwnnnn" },
+		}),
 	}),
-})
-	.then((r) =>
-		r.ok
-			? r.json()
-			: Promise.reject(
-					new Error(`Failed to fetch heatmap data returned status ${r.status}`),
-				),
-	)
-	.catch((e) => {
-		errorPayload = e;
-		return [];
-	});
-
-const calendar =
-	graphql.data?.user?.contributionsCollection?.contributionCalendar;
+);
+const graphql = (await response.data!.json()) as GraphQL;
 
 function getColor(count: number) {
 	if (count === 0) return "bg-black";
@@ -55,28 +67,28 @@ function getColor(count: number) {
 ---
 
 {
-	errorPayload ? (
-		<ErrorOut error={errorPayload} />
-	) : (
-		<div
-			id="heatmap"
-			class="w-full cursor-pointer overflow-x-auto pb-2"
-		>
+	response.data ? (
+		<div id="heatmap" class="w-full cursor-pointer overflow-x-auto pb-2">
 			<div class="flex gap-1">
-				{calendar?.weeks.map((week: any) => (
-					<div class="flex flex-col gap-1">
-						{week.contributionDays.map((day: any) => (
-							<div
-								class={`h-3 w-3 ring-1 ring-green-500/10 transition-opacity ring-inset hover:opacity-80 ${getColor(day.contributionCount)}`}
-								title={`${day.contributionCount} contributions on ${day.date}`}
-							/>
-						))}
-					</div>
-				))}
+				{graphql.data.user.contributionsCollection?.contributionCalendar.weeks.map(
+					(week: Week) => (
+						<div class="flex flex-col gap-1">
+							{week.contributionDays.map((day: ContributionDay) => (
+								<div
+									class={`h-3 w-3 ring-1 ring-green-500/10 transition-opacity ring-inset hover:opacity-80 ${getColor(day.contributionCount)}`}
+									title={`${day.contributionCount} contributions on ${day.date}`}
+								/>
+							))}
+						</div>
+					),
+				)}
 			</div>
 		</div>
+	) : (
+		<ErrorOut error={response.error as Error} />
 	)
 }
+
 <script>
 	const container = document.getElementById("heatmap");
 	if (container) {
