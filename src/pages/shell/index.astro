@@ -1,0 +1,74 @@
+---
+import Layout from "../../layouts/Layout.astro";
+---
+
+<Layout title="Mark Jerwin // SHELL" footer={false}>
+	<main>
+		<div id="output" class="font-mono">
+			<p>Welcome to the shell. Type "help" for a list of commands.</p>
+		</div>
+		<form id="input-form" class="flex gap-2 font-mono">
+			<p>user@host:~$</p>
+			<textarea
+				id="input"
+				class="w-full resize-none overflow-hidden font-mono leading-6 outline-none"
+				autocomplete="off"
+				rows="1"
+				oninput="this.style.height = ''; this.style.height = this.scrollHeight + 'px'"
+				autocorrect="off"
+				autocapitalize="off"
+				spellcheck="false"></textarea>
+		</form>
+	</main>
+</Layout>
+
+<script>
+	import { echo, help, ping, sudo } from "../../lib/shell/common.ts";
+	import { open } from "../../lib/shell/open.ts";
+
+	const output = document.getElementById("output");
+	const form = document.getElementById("input-form");
+	const input = document.getElementById("input") as HTMLTextAreaElement;
+
+	const handlers: Record<
+		string,
+		(args: string[]) => HTMLElement | Promise<HTMLElement>
+	> = {
+		echo,
+		help,
+		open,
+		ping,
+		sudo,
+	};
+
+	function appendCommand(command: string) {
+		const p = document.createElement("p");
+		p.textContent = `user@host:~$ ${command}`;
+		output!.appendChild(p);
+	}
+
+	function notFound(command: string): HTMLElement {
+		const p = document.createElement("p");
+		p.textContent = `Unknown command '${command}'`;
+		p.classList.add("text-red-500");
+		return p;
+	}
+
+	input.addEventListener("keydown", async (e) => {
+		if (e.key === "Enter" && !e.shiftKey) {
+			e.preventDefault();
+			form!.classList.toggle("hidden");
+			const raw = input.value.trim();
+			input.value = "";
+			if (!raw) return;
+			appendCommand(raw);
+			const [cmd, ...args] = raw.split(" ");
+			const handler = handlers[cmd];
+			const result = await (handler ? handler(args) : notFound(cmd));
+			setTimeout(() => {
+				output!.appendChild(result);
+				form!.classList.toggle("hidden");
+			}, 400);
+		}
+	});
+</script>
