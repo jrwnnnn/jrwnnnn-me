@@ -18,7 +18,7 @@ function Scrobble() {
 		let mounted = true;
 		const fetchAndRender = async () => {
 			try {
-				const data = await (await fetch("/api/lastfm-endpoint")).json();
+				const data = await (await fetch("/api/lastfm")).json();
 				const api = data?.recenttracks?.track ?? [];
 
 				if (!mounted) return;
