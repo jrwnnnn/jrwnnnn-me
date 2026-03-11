@@ -11,24 +11,25 @@ import Layout from "../../layouts/Layout.astro";
 			<p>user@host:~$</p>
 			<textarea
 				id="input"
-				class="w-full resize-none overflow-hidden font-mono leading-6 outline-none"
-				autocomplete="off"
-				rows="1"
-				oninput="this.style.height = ''; this.style.height = this.scrollHeight + 'px'"
-				autocorrect="off"
 				autocapitalize="off"
+				autocomplete="off"
+				autocorrect="off"
+				autofocus
+				class="w-full resize-none overflow-hidden leading-6 outline-none"
+				oninput="this.style.height = ''; this.style.height = this.scrollHeight + 'px'"
+				rows="1"
 				spellcheck="false"></textarea>
 		</form>
 	</main>
 </Layout>
 
 <script>
-	import { echo, help, ping, sudo } from "../../lib/shell/common.ts";
-	import { open } from "../../lib/shell/open.ts";
-
 	const output = document.getElementById("output");
 	const form = document.getElementById("input-form");
 	const input = document.getElementById("input") as HTMLTextAreaElement;
+
+	import { echo, help, ping, sudo } from "../../lib/shell/common.ts";
+	import { cd } from "../../lib/shell/cd.ts";
 
 	const handlers: Record<
 		string,
@@ -36,7 +37,7 @@ import Layout from "../../layouts/Layout.astro";
 	> = {
 		echo,
 		help,
-		open,
+		cd,
 		ping,
 		sudo,
 	};
@@ -57,10 +58,10 @@ import Layout from "../../layouts/Layout.astro";
 	input.addEventListener("keydown", async (e) => {
 		if (e.key === "Enter" && !e.shiftKey) {
 			e.preventDefault();
-			form!.classList.toggle("hidden");
 			const raw = input.value.trim();
-			input.value = "";
 			if (!raw) return;
+			input.value = "";
+			form!.classList.toggle("hidden");
 			appendCommand(raw);
 			const [cmd, ...args] = raw.split(" ");
 			const handler = handlers[cmd];

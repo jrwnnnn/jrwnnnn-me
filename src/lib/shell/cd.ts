@@ -1,4 +1,4 @@
-export async function open(args: string[]): Promise<HTMLElement> {
+export async function cd(args: string[]): Promise<HTMLElement> {
 	const path = args[0];
 	const p = document.createElement("p");
 
@@ -8,7 +8,7 @@ export async function open(args: string[]): Promise<HTMLElement> {
 	}
 
 	const url = `${window.location.origin}/${path}`;
-	p.textContent = `Opening ${url}...`;
+	p.textContent = `Opening ./${path}...`;
 	setTimeout(() => {
 		window.open(url, "_parent");
 	}, 1000);
