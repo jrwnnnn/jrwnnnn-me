@@ -1,14 +1,35 @@
 ---
+import { createClient } from "@libsql/client";
+import { safeAsync } from "@utils/safeAsync";
 import Layout from "../../layouts/Layout.astro";
+
+const turso = createClient({
+	url: import.meta.env.TURSO_DATABASE_URL || process.env.TURSO_DATABASE_URL,
+	authToken: import.meta.env.TURSO_AUTH_TOKEN || process.env.TURSO_AUTH_TOKEN,
+});
+
+const sessionId = Astro.cookies.get("admin_session")?.value;
+let isAdmin = false;
+
+if (sessionId) {
+	const result = await safeAsync(
+		turso.execute({
+			sql: "SELECT * FROM site_settings WHERE key = 'admin.session' AND value = ?",
+			args: [sessionId],
+		}),
+	);
+	console.log(result);
+	isAdmin = result.data!.rows.length > 0 ? true : false;
+}
 ---
 
 <Layout title="Mark Jerwin // SHELL" footer={false}>
-	<main>
+	<main data-is-admin={isAdmin.toString()}>
 		<div id="output" class="font-mono">
 			<p>Welcome to the shell. Type "help" for a list of commands.</p>
 		</div>
 		<form id="input-form" class="flex gap-2 font-mono">
-			<p>user@host:~$</p>
+			<p>{isAdmin ? "admin" : "user"}@host:~$</p>
 			<textarea
 				id="input"
 				autocapitalize="off"
@@ -27,24 +48,29 @@ import Layout from "../../layouts/Layout.astro";
 	const output = document.getElementById("output");
 	const form = document.getElementById("input-form");
 	const input = document.getElementById("input") as HTMLTextAreaElement;
+	const isAdmin = document.querySelector("main")?.dataset.isAdmin === "true";
 
 	import { echo, help, ping, sudo } from "../../lib/shell/common.ts";
 	import { cd } from "../../lib/shell/cd.ts";
+	import { login } from "../../lib/shell/login.ts";
+	import { logout } from "../../lib/shell/logout.ts";
 
 	const handlers: Record<
 		string,
 		(args: string[]) => HTMLElement | Promise<HTMLElement>
 	> = {
-		echo,
 		help,
 		cd,
+		echo,
+		login,
+		logout,
 		ping,
 		sudo,
 	};
 
 	function appendCommand(command: string) {
 		const p = document.createElement("p");
-		p.textContent = `user@host:~$ ${command}`;
+		p.textContent = `${isAdmin ? "admin" : "user"}@host:~$ ${command}`;
 		output!.appendChild(p);
 	}
 
