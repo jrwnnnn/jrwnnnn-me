@@ -1,14 +1,12 @@
 ---
 import { createClient } from "@libsql/client";
 import { safeAsync } from "@utils/safeAsync";
-
 import Layout from "../layouts/Layout.astro";
-import ErrorOut from "../components/ErrorOut.astro";
-import Container from "../components/Container.astro";
-import Button from "../components/Button.astro";
 import Ascii from "../components/AsciiContainer.astro";
-
+import Button from "../components/Button.astro";
 import CommitLog from "../components/modules/CommitLog.astro";
+import Container from "../components/Container.astro";
+import ErrorOut from "../components/ErrorOut.astro";
 import Heatmap from "../components/modules/Heatmap.astro";
 import LastFM from "../components/modules/Scrobble.jsx";
 
@@ -118,6 +116,12 @@ const stack = [
 					<span class="mr-2 group-hover:animate-ping">&gt; </span> [ PCX ] GALLERY
 				</Button>
 			</div>
+			<Button
+				class="group w-full py-3! text-left font-mono font-bold"
+				onclick="location.href='shell'"
+			>
+				<span class="mr-2 group-hover:animate-ping">&gt; </span> [ CLI ] CONSOLE
+			</Button>
 		</section>
 		<section class="columns-1 gap-6 space-y-6 lg:columns-2">
 			<Container class="break-inside-avoid space-y-5 bg-black!">
