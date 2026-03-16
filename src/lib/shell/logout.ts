@@ -1,7 +1,13 @@
 export async function logout(): Promise<HTMLElement> {
 	const p = document.createElement("p");
 
-	const res = await fetch("/api/logout", { method: "POST" });
+	const res = await fetch("/api/logout", {
+		method: "POST",
+		headers: {
+			"Content-Type": "application/json",
+		},
+		body: JSON.stringify({}),
+	});
 
 	if (res.ok) {
 		p.textContent = "Logged out.";
