@@ -10,34 +10,30 @@
 		"typecheck": "astro check && tsc --noEmit"
 	},
 	"dependencies": {
-		"@astrojs/check": "^0.9.8",
-		"@astrojs/node": "^9.5.4",
-		"@astrojs/react": "^4.4.2",
-		"@astrojs/vercel": "^9.0.4",
-		"@eslint/js": "^10.0.1",
+		"@astrojs/node": "^10.0.4",
+		"@astrojs/react": "^5.0.2",
+		"@astrojs/vercel": "^10.0.3",
 		"@libsql/client": "^0.17.0",
 		"@tailwindcss/vite": "^4.2.1",
-		"astro": "^5.18.0",
+		"astro": "^6.1.1",
 		"bcrypt": "^6.0.0",
-		"eslint": "^10.0.3",
-		"eslint-plugin-astro": "^1.6.0",
 		"marked": "^17.0.4",
 		"react": "^19.2.4",
 		"react-dom": "^19.2.4",
-		"tailwindcss": "^4.2.1",
-		"typescript": "^5.9.3",
-		"typescript-eslint": "^8.57.0"
+		"tailwindcss": "^4.2.1"
 	},
 	"devDependencies": {
+		"@astrojs/check": "^0.9.8",
+		"@eslint/js": "^10.0.1",
 		"@types/bcrypt": "^6.0.0",
 		"@types/react": "^19.2.14",
 		"@types/react-dom": "^19.2.3",
+		"eslint": "^10.0.3",
+		"eslint-plugin-astro": "^1.6.0",
 		"prettier": "^3.8.1",
 		"prettier-plugin-astro": "^0.14.1",
-		"prettier-plugin-tailwindcss": "^0.7.2"
-	},
-	"overrides": {
-		"lodash": "^4.17.23",
-		"path-to-regexp": "6.3.0"
+		"prettier-plugin-tailwindcss": "^0.7.2",
+		"typescript": "^5.9.3",
+		"typescript-eslint": "^8.57.0"
 	}
 }
