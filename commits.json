@@ -1,5 +1,111 @@
 [
   {
+    "sha": "736f12186dbd1e71ba1533377fdac2b4bf583ea7",
+    "node_id": "C_kwDORJTOeNoAKDczNmYxMjE4NmRiZDFlNzFiYTE1MzMzNzdmZGFjMmI0YmY1ODNlYTc",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-03-29T14:35:27Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-03-29T14:35:27Z"
+      },
+      "message": "Merge pull request #18 from jrwnnnn/Issue-#17\n\nfix: Implicit publishing triggered by CI detection.",
+      "tree": {
+        "sha": "ac02b7d812dd0a88e6d38f22dd8c220ddd58c8ac",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/ac02b7d812dd0a88e6d38f22dd8c220ddd58c8ac"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/736f12186dbd1e71ba1533377fdac2b4bf583ea7",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpyTivCRC1aQ7uu5UhlAAAUOkQAAESPf1D4wdDXBv8lrHVWsH1\nw5+NHVBov9hCdBlPX20B9KETvMz5MIhaBKBt22YXtK7e5Sip2vwtuwAHGVoZpxrU\npAgaSUT/g009iGnOvscvH0I6PHAIPa3QlgSI1sidVfSBf67ozir71gKtidW+s1QG\nVhmUmW8K+mlf7QJSaUjoXycP814dsGxRd+7G+6fJRM2TI9e6pI3IuTBvps3oTtWD\np9CXu91ChZtZVYH8SY2uEqZZl2T7mFJlHQ8zQzEUESCMecycrqCLA1J84n7pZdAs\nHvHeoqfDUwVH58lfW+SOpuquHvTeJwVeX3qR1fXpPxgr04iDsoCJxf3SmoRuLvuv\nkkr58PXSvxdVPtqsj5M3JBb7nBW5gU28NkSJKxDL4NCLKfH0y0w+ZOSj31+H3r0J\nAywRL0pwo4UPJtV/GW3fi1mJe7LxNsm9zOX22h1OJYZ3biW+oMK9QAoi6bNousYV\nFlWV4ojkKb0WypW7HIO+mFXny0yLpLVxzrAkLnmMC6KmsZ42SsEP7mPRB1lZYDO/\n2JV3TfDLC6sq9AHIcLP8n2E6E8nZBu7VhetLF7Mj5ON2vy7AQjEFz2OSsW7IxO8M\nsF3Bg5+KDHTnCmRpBg//1jBEnDOf3oQeliiFf5v5iPe4wQt/Q3yQbtPTjoiNG5yF\nUL0cM2/vQ3EJlVV9iIFv\n=F3PM\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree ac02b7d812dd0a88e6d38f22dd8c220ddd58c8ac\nparent 741efde04f25d911b26027106a615949069b1d48\nparent 78791af84c1aaedc8af4c54384728e9024f65994\nauthor Mark Jerwin <136870415+jrwnnnn@users.noreply.github.com> 1774794927 +0800\ncommitter GitHub <noreply@github.com> 1774794927 +0800\n\nMerge pull request #18 from jrwnnnn/Issue-#17\n\nfix: Implicit publishing triggered by CI detection.",
+        "verified_at": "2026-03-29T14:35:27Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/736f12186dbd1e71ba1533377fdac2b4bf583ea7",
+    "html_url": "https://github.com/jrwnnnn/re-color/commit/736f12186dbd1e71ba1533377fdac2b4bf583ea7",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/736f12186dbd1e71ba1533377fdac2b4bf583ea7/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "741efde04f25d911b26027106a615949069b1d48",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/741efde04f25d911b26027106a615949069b1d48",
+        "html_url": "https://github.com/jrwnnnn/re-color/commit/741efde04f25d911b26027106a615949069b1d48"
+      },
+      {
+        "sha": "78791af84c1aaedc8af4c54384728e9024f65994",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/78791af84c1aaedc8af4c54384728e9024f65994",
+        "html_url": "https://github.com/jrwnnnn/re-color/commit/78791af84c1aaedc8af4c54384728e9024f65994"
+      }
+    ],
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1
+    },
+    "files": [
+      {
+        "sha": "ff9fd8817ba7e4308e6e4f5a56d787dd42b04822",
+        "filename": "package.json",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/736f12186dbd1e71ba1533377fdac2b4bf583ea7/package.json",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/736f12186dbd1e71ba1533377fdac2b4bf583ea7/package.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/package.json?ref=736f12186dbd1e71ba1533377fdac2b4bf583ea7",
+        "patch": "@@ -11,7 +11,7 @@\n     \"astro:build\": \"astro build\",\n     \"astro:preview\": \"astro preview\",\n     \"electron:dev\": \"concurrently \\\"astro dev\\\" \\\"wait-on http://localhost:4321 && electron .\\\"\",\n-    \"electron:build\": \"astro build && electron-builder\",\n+    \"electron:build\": \"astro build && electron-builder --publish never\",\n     \"lint\": \"eslint .\",\n     \"typecheck\": \"astro check && tsc --noEmit\"\n   },"
+      }
+    ]
+  },
+  {
     "sha": "0f4ab48dda0c1139e4f4486c8ba6ce6033eccd17",
     "node_id": "C_kwDORyV409oAKDBmNGFiNDhkZGEwYzExMzllNGY0NDg2YzhiYTZjZTYwMzNlY2NkMTc",
     "commit": {
@@ -414,111 +520,5 @@
       "deletions": 0
     },
     "files": []
-  },
-  {
-    "sha": "c3fb08632658098f1f2ceae186c16ebf2308ffee",
-    "node_id": "C_kwDORbfyj9oAKGMzZmIwODYzMjY1ODA5OGYxZjJjZWFlMTg2YzE2ZWJmMjMwOGZmZWU",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-03-28T00:56:22Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-03-28T00:56:22Z"
-      },
-      "message": "Merge pull request #44 from jrwnnnn/dependabot/npm_and_yarn/brace-expansion-5.0.5\n\nBump brace-expansion from 5.0.4 to 5.0.5",
-      "tree": {
-        "sha": "b6ec5cfbd59d77d28fe14dd2f8e24b5b7b14017c",
-        "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/git/trees/b6ec5cfbd59d77d28fe14dd2f8e24b5b7b14017c"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/git/commits/c3fb08632658098f1f2ceae186c16ebf2308ffee",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpxyc2CRC1aQ7uu5UhlAAAsrcQAFGVSQbpC4iLLeI01jzymBs3\nRvSvtH/txHDGq7+s8Exn65CmROMdYyJ1ZDEY/h4b9UVnhgdACzm+mhF4lkGWAK/q\ndUfLSxXB4r5wuXg5Of3WULrX1CN9d5nsgu7RdsvR5K3SPgXl0QmrmD6ueUG5DwA8\nYL2Z25XqaLYK8SkXkyd2BUvYGt0JDc2fy427I4w7YANxxby+a0gGT95mChHjkZhR\n/51f7TbXrVh6oWOyAHNXuqHSZSl/I3KtwtoGbRO6Zk1atyIcoMoEobdMbZz375d8\nKT+LF5wK+k2r633t4grtel4yw6/sUfa1xnu4s1p8Vj3jpWSb5Dvxyy57yrQC3BMO\n4QbBw8vTg4ufIoF0ul2w3RutKlX574xcbvdaKic6dD0rxvGmuZ+0pHcUPikoFeC8\nXF/Zh3PhiCDgH9fpnJFjHHLSn0q6Tg3JF01MPSw4RwlgzS9/KFJtln5sbA/NHhtd\n9pzltaBNaUMUKrK3GbHVlkrq8XYpWqpsHFv1ZVef5TXPer9cO93cAbPGQApi936d\n83DCPxDCFJBsnGTjP60qYDohn023gsDWOSnd+gBpqQQhnSyk8svYCmP6g5/BkuUd\ntUDk7lDQ4CmFJqPJoh2Py556CeZkBzgL8nYQdefJW9fBJl1rHrW+7PE/fx7U2Z0c\nIX/EyUAVsX/VYYarjwdA\n=MN9k\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree b6ec5cfbd59d77d28fe14dd2f8e24b5b7b14017c\nparent bda0276d94448e5913c5d2ec48ffe76dbb2a4a79\nparent f86578647ea2a03fe00c4c588da89e7ca3a9c0f4\nauthor Mark Jerwin <136870415+jrwnnnn@users.noreply.github.com> 1774659382 +0800\ncommitter GitHub <noreply@github.com> 1774659382 +0800\n\nMerge pull request #44 from jrwnnnn/dependabot/npm_and_yarn/brace-expansion-5.0.5\n\nBump brace-expansion from 5.0.4 to 5.0.5",
-        "verified_at": "2026-03-28T00:56:22Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/c3fb08632658098f1f2ceae186c16ebf2308ffee",
-    "html_url": "https://github.com/jrwnnnn/still-they-shine/commit/c3fb08632658098f1f2ceae186c16ebf2308ffee",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/c3fb08632658098f1f2ceae186c16ebf2308ffee/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "bda0276d94448e5913c5d2ec48ffe76dbb2a4a79",
-        "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/bda0276d94448e5913c5d2ec48ffe76dbb2a4a79",
-        "html_url": "https://github.com/jrwnnnn/still-they-shine/commit/bda0276d94448e5913c5d2ec48ffe76dbb2a4a79"
-      },
-      {
-        "sha": "f86578647ea2a03fe00c4c588da89e7ca3a9c0f4",
-        "url": "https://api.github.com/repos/jrwnnnn/still-they-shine/commits/f86578647ea2a03fe00c4c588da89e7ca3a9c0f4",
-        "html_url": "https://github.com/jrwnnnn/still-they-shine/commit/f86578647ea2a03fe00c4c588da89e7ca3a9c0f4"
-      }
-    ],
-    "stats": {
-      "total": 6,
-      "additions": 3,
-      "deletions": 3
-    },
-    "files": [
-      {
-        "sha": "d02322f33c1e80a9d53ff7618574f6ae136021d6",
-        "filename": "package-lock.json",
-        "status": "modified",
-        "additions": 3,
-        "deletions": 3,
-        "changes": 6,
-        "blob_url": "https://github.com/jrwnnnn/still-they-shine/blob/c3fb08632658098f1f2ceae186c16ebf2308ffee/package-lock.json",
-        "raw_url": "https://github.com/jrwnnnn/still-they-shine/raw/c3fb08632658098f1f2ceae186c16ebf2308ffee/package-lock.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/still-they-shine/contents/package-lock.json?ref=c3fb08632658098f1f2ceae186c16ebf2308ffee",
-        "patch": "@@ -3629,9 +3629,9 @@\n \t\t\t\"license\": \"ISC\"\n \t\t},\n \t\t\"node_modules/brace-expansion\": {\n-\t\t\t\"version\": \"5.0.4\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/brace-expansion/-/brace-expansion-5.0.4.tgz\",\n-\t\t\t\"integrity\": \"sha512-h+DEnpVvxmfVefa4jFbCf5HdH5YMDXRsmKflpf1pILZWRFlTbJpxeU55nJl4Smt5HQaGzg1o6RHFPJaOqnmBDg==\",\n+\t\t\t\"version\": \"5.0.5\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/brace-expansion/-/brace-expansion-5.0.5.tgz\",\n+\t\t\t\"integrity\": \"sha512-VZznLgtwhn+Mact9tfiwx64fA9erHH/MCXEUfB/0bX/6Fz6ny5EGTXYltMocqg4xFAQZtnO3DHWWXi8RiuN7cQ==\",\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"dependencies\": {\n \t\t\t\t\"balanced-match\": \"^4.0.2\""
-      }
-    ]
   }
 ]
