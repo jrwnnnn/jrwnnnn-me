@@ -1,36 +1,36 @@
 [
   {
-    "sha": "d332f330808e6866c9846d7d85962c58a790f683",
-    "node_id": "C_kwDORz-DOdoAKGQzMzJmMzMwODA4ZTY4NjZjOTg0NmQ3ZDg1OTYyYzU4YTc5MGY2ODM",
+    "sha": "5122691d3a35567f76b8cafca8ffb5366e0466f8",
+    "node_id": "C_kwDORz-DOdoAKDUxMjI2OTFkM2EzNTU2N2Y3NmI4Y2FmY2E4ZmZiNTM2NmUwNDY2Zjg",
     "commit": {
       "author": {
         "name": "Mark Jerwin",
         "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-04-14T06:35:17Z"
+        "date": "2026-04-14T09:59:50Z"
       },
       "committer": {
         "name": "GitHub",
         "email": "noreply@github.com",
-        "date": "2026-04-14T06:35:17Z"
+        "date": "2026-04-14T09:59:50Z"
       },
-      "message": "Merge pull request #27 from jrwnnnn/migration\n\nCloudFlare migration",
+      "message": "Merge pull request #22 from jrwnnnn/populate-pdfs\n\nfeat: Added remarks population; enabled criteria inputs",
       "tree": {
-        "sha": "f1364563593e97ca551e72c4eab10557ffa1bae0",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/f1364563593e97ca551e72c4eab10557ffa1bae0"
+        "sha": "acacdc9c232e6537e6bf522ff44844b930b07b1c",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/acacdc9c232e6537e6bf522ff44844b930b07b1c"
       },
-      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/d332f330808e6866c9846d7d85962c58a790f683",
+      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/5122691d3a35567f76b8cafca8ffb5366e0466f8",
       "comment_count": 0,
       "verification": {
         "verified": true,
         "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp3eAlCRC1aQ7uu5UhlAAAi90QAEVf8FQUFMlkVX9GJR2ZmYS8\nKADxWC/Nfp9re5gjaGafWaswU1WCX66Jrf786qIFLY2331HPmJwOOLwqEHt9zscC\nEVezTAt7fBot1kCIWC0oO7SYe44jQ3eVmDnPbEX8djXUI3Z/TYiRMsDHW6oeiaEH\nlaUzpDzE8g812BhfLxyjah88twU17ocbA8bxDvx3fHzgBJPJ+HLC5/QgS5F0MqX9\ntGZi+FdWz+OmqDei9tXwyz7WBxqWGVw3IsIXc59YjRPl4t+5p3bS9GpcuQP771OJ\nyRpQZkt/fyqD24dqgYKcwLSheBw+UE8ZXUFgV4/1ja3S+6qsLOeXacyAQn/iYh0V\nbk80QPg3pLj+cloolRW8d28b86sReal8e/RIG1O0fV18NO8C//ugq7+2c9tCRTO4\nzkZsx38ia41yhDvExSv/4/dgXtVNUcshA2z5FE8pGHTSK3ckTSKkOAXdxNvy7+0c\nmqHMRBIRbJm80XVAEdMAJRRsPy+6rRXP9e/4wuPo9VSYmTHiaIM/GOEIPSnn5WgE\nWsMGed0Cr32GW7TVhQnL0ODDZ1TkBOHjD9oi1HDtq2NKVtztemBWLBViZ28oTBWG\nq9vWtH/i5DvwecwVHuQvf1JuX5JZx5iCVxoeQMol24cm0HgJEiLe4u5kdPnHd5dS\nszhio9KrAqBihrpYvsS0\n=psOW\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree f1364563593e97ca551e72c4eab10557ffa1bae0\nparent b8d67ab31eec2fbef12e868f90195c3ca5d0fda2\nparent f424dc6a16bafa24584a8856b5733bff5a0bd1a8\nauthor Mark Jerwin <136870415+jrwnnnn@users.noreply.github.com> 1776148517 +0800\ncommitter GitHub <noreply@github.com> 1776148517 +0800\n\nMerge pull request #27 from jrwnnnn/migration\n\nCloudFlare migration",
-        "verified_at": "2026-04-14T06:35:18Z"
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp3hAWCRC1aQ7uu5UhlAAAMq0QALHay9U/xyfjo4CipPqudCkc\nsceBBTU/esoTBmCxm1JeHRCH0uPCUcjUWMxMPj8c16aml1LQSNl4RoUjqt4e3bQW\n78mX44bRiVCdOTvBvY1UNen3SKSaw53rfuWDuEYyAZKVYFIibquJReVp5Tt9wFv0\nyii6EHQgMrD133dqwF1Ak9DISMFwDtgt2KFibikzIBBn5HY5AcHufyDIqxUUtGHg\nhNrgOcfwCGoOkwAgPmvcNbaLPU55Pz40CJ2jPH8zh+gsF9MpC9q4WcGldU0XFCXv\npDWRb8rAABQG7bi9bqdlMR5y+yveq1gmvmBznRe2LlIGhGacQ7N8hM1V/eGv9B/P\nNejEPa/hY30y+OsKtScvfaGbqBrwHTU8V5mxoc63k7PbWRAbZFCjwXBlDYwv3nrS\nbmxGh1xV8/tgaZG1rGkOlWaS1BXWpd0vNRFUU2+SRyDf09ZIcObkh72x/OTpzQTe\nJja8pPUAyE7cYcKljP6hNZx91DTai7+CLc639r8XikdRH10heZX6MSqVByt7FzZ2\nJ1EbX41LfgCZoyNAE47JzUGlE/6oQ0euv7yNAkaMpi6Xkwocl2VI/VMozCf9HrIn\nq+f9W2fn2wuJ6qy7HI2VhCD99dk5pTZvRQdgwrg1iZkbnZHEO4UIwI78yIvwlMLN\n57A1FE9wGOoahtl414zG\n=C2wJ\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree acacdc9c232e6537e6bf522ff44844b930b07b1c\nparent d332f330808e6866c9846d7d85962c58a790f683\nparent 34523890d6a4941efb65f7d36e4b1aea8b081f76\nauthor Mark Jerwin <136870415+jrwnnnn@users.noreply.github.com> 1776160790 +0800\ncommitter GitHub <noreply@github.com> 1776160790 +0800\n\nMerge pull request #22 from jrwnnnn/populate-pdfs\n\nfeat: Added remarks population; enabled criteria inputs",
+        "verified_at": "2026-04-14T09:59:51Z"
       }
     },
-    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/d332f330808e6866c9846d7d85962c58a790f683",
-    "html_url": "https://github.com/jrwnnnn/rekord/commit/d332f330808e6866c9846d7d85962c58a790f683",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/d332f330808e6866c9846d7d85962c58a790f683/comments",
+    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/5122691d3a35567f76b8cafca8ffb5366e0466f8",
+    "html_url": "https://github.com/jrwnnnn/rekord/commit/5122691d3a35567f76b8cafca8ffb5366e0466f8",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/5122691d3a35567f76b8cafca8ffb5366e0466f8/comments",
     "author": {
       "login": "jrwnnnn",
       "id": 136870415,
@@ -75,456 +75,186 @@
     },
     "parents": [
       {
-        "sha": "b8d67ab31eec2fbef12e868f90195c3ca5d0fda2",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/b8d67ab31eec2fbef12e868f90195c3ca5d0fda2",
-        "html_url": "https://github.com/jrwnnnn/rekord/commit/b8d67ab31eec2fbef12e868f90195c3ca5d0fda2"
+        "sha": "d332f330808e6866c9846d7d85962c58a790f683",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/d332f330808e6866c9846d7d85962c58a790f683",
+        "html_url": "https://github.com/jrwnnnn/rekord/commit/d332f330808e6866c9846d7d85962c58a790f683"
       },
       {
-        "sha": "f424dc6a16bafa24584a8856b5733bff5a0bd1a8",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/f424dc6a16bafa24584a8856b5733bff5a0bd1a8",
-        "html_url": "https://github.com/jrwnnnn/rekord/commit/f424dc6a16bafa24584a8856b5733bff5a0bd1a8"
+        "sha": "34523890d6a4941efb65f7d36e4b1aea8b081f76",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/34523890d6a4941efb65f7d36e4b1aea8b081f76",
+        "html_url": "https://github.com/jrwnnnn/rekord/commit/34523890d6a4941efb65f7d36e4b1aea8b081f76"
       }
     ],
     "stats": {
-      "total": 1391,
-      "additions": 938,
-      "deletions": 453
+      "total": 29,
+      "additions": 26,
+      "deletions": 3
     },
     "files": [
       {
-        "sha": "3c478e97ce62ad3f4e078bb34b83d36d0cc04029",
-        "filename": ".gitignore",
+        "sha": "b2ef7f639a5983ca7f0ceacce1e8c6d708e8616d",
+        "filename": "src/lib/populateFields.ts",
         "status": "modified",
-        "additions": 3,
+        "additions": 25,
         "deletions": 0,
-        "changes": 3,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/d332f330808e6866c9846d7d85962c58a790f683/.gitignore",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/d332f330808e6866c9846d7d85962c58a790f683/.gitignore",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/.gitignore?ref=d332f330808e6866c9846d7d85962c58a790f683",
-        "patch": "@@ -7,6 +7,9 @@ dist/\n # Vercel build cache\n .vercel/\n \n+# Wrangeler configs\n+.wrangler/\n+\n # dependencies\n node_modules/\n "
+        "changes": 25,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/5122691d3a35567f76b8cafca8ffb5366e0466f8/src%2Flib%2FpopulateFields.ts",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/5122691d3a35567f76b8cafca8ffb5366e0466f8/src%2Flib%2FpopulateFields.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Flib%2FpopulateFields.ts?ref=5122691d3a35567f76b8cafca8ffb5366e0466f8",
+        "patch": "@@ -48,6 +48,20 @@ export async function populateFields(\n \t\t\tcontinue;\n \t\t}\n \n+\t\t// Handle remarks field based on final_rating\n+\t\tif (pdfFieldName.startsWith(`record_${gradeLevel}.final_rating.`)) {\n+\t\t\tconst subjectCode = pdfFieldName.slice(\n+\t\t\t\t`record_${gradeLevel}.final_rating.`.length,\n+\t\t\t);\n+\t\t\tform\n+\t\t\t\t.getTextField(`record_${gradeLevel}.remarks.${subjectCode}`)\n+\t\t\t\t.setText(\n+\t\t\t\t\tNumber(value) >= Number(htmlFormValues.passing_criteria)\n+\t\t\t\t\t\t? \"Passed\"\n+\t\t\t\t\t\t: \"Failed\",\n+\t\t\t\t);\n+\t\t}\n+\n \t\tform.getTextField(pdfFieldName).setText(\n \t\t\t// For fields in the \"learner.\" namespace, convert to uppercase.\n \t\t\tpdfFieldName.includes(\"learner.\")\n@@ -56,9 +70,18 @@ export async function populateFields(\n \t\t);\n \t}\n \n+\t// Handle special cases for school_id and general_remark\n \tform\n \t\t.getTextField(\"enrollment.school_id\")\n \t\t.setText(csvRow[\"learner.lrn\"]?.slice(0, 6) || \"\");\n+\tform\n+\t\t.getTextField(`record_${gradeLevel}.general_remark`)\n+\t\t.setText(\n+\t\t\tNumber(csvRow[`record_${gradeLevel}.general_average`]) >=\n+\t\t\t\tNumber(htmlFormValues.promotion_criteria)\n+\t\t\t\t? \"Promoted\"\n+\t\t\t\t: \"Retained\",\n+\t\t);\n \n \t// Scrape /AP and seed missing /DA for all text fields, then apply styling\n \tfor (const field of form.getFields()) {\n@@ -70,3 +93,5 @@ export async function populateFields(\n \t\tstyleField(field, fonts, field.getName());\n \t}\n }\n+\n+// feat: Populate "
       },
       {
-        "sha": "9d01a3003945200f4c5562c4b5e1bc5e13b22e6f",
-        "filename": "astro.config.mjs",
+        "sha": "1fbf312858dc13111c1997dad9d4ee2e233a12e5",
+        "filename": "src/pages/index.astro",
         "status": "modified",
-        "additions": 4,
+        "additions": 1,
         "deletions": 3,
-        "changes": 7,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/d332f330808e6866c9846d7d85962c58a790f683/astro.config.mjs",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/d332f330808e6866c9846d7d85962c58a790f683/astro.config.mjs",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/astro.config.mjs?ref=d332f330808e6866c9846d7d85962c58a790f683",
-        "patch": "@@ -1,14 +1,15 @@\n // @ts-check\n import { defineConfig } from \"astro/config\";\n import tailwindcss from \"@tailwindcss/vite\";\n-import vercel from \"@astrojs/vercel\";\n+import cloudflare from \"@astrojs/cloudflare\";\n \n // https://astro.build/config\n export default defineConfig({\n-\tsite: \"https://sf10.vercel.app\",\n+\tsite: \"https://rekord.jrwnnnn.me\",\n \tvite: {\n \t\tplugins: [tailwindcss()],\n \t},\n+\n \toutput: \"static\",\n-\tadapter: vercel({}),\n+\tadapter: cloudflare(),\n });"
-      },
-      {
-        "sha": "33146d8353058a4b2ebb3ae0fdc2d32913e2ee40",
-        "filename": "package-lock.json",
-        "status": "modified",
-        "additions": 873,
-        "deletions": 410,
-        "changes": 1283,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/d332f330808e6866c9846d7d85962c58a790f683/package-lock.json",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/d332f330808e6866c9846d7d85962c58a790f683/package-lock.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/package-lock.json?ref=d332f330808e6866c9846d7d85962c58a790f683",
-        "patch": "@@ -8,15 +8,16 @@\n \t\t\t\"name\": \"jrwnnnn\",\n \t\t\t\"version\": \"0.0.1\",\n \t\t\t\"dependencies\": {\n-\t\t\t\t\"@astrojs/vercel\": \"^10.0.3\",\n+\t\t\t\t\"@astrojs/cloudflare\": \"^13.1.9\",\n \t\t\t\t\"@pdf-lib/fontkit\": \"^1.1.1\",\n \t\t\t\t\"@tailwindcss/vite\": \"^4.1.18\",\n \t\t\t\t\"astro\": \"^6.1.1\",\n \t\t\t\t\"file-saver\": \"^2.0.5\",\n \t\t\t\t\"jszip\": \"^3.10.1\",\n \t\t\t\t\"papaparse\": \"^5.5.3\",\n \t\t\t\t\"pdf-lib\": \"^1.17.1\",\n-\t\t\t\t\"tailwindcss\": \"^4.1.18\"\n+\t\t\t\t\"tailwindcss\": \"^4.1.18\",\n+\t\t\t\t\"wrangler\": \"^4.82.2\"\n \t\t\t},\n \t\t\t\"devDependencies\": {\n \t\t\t\t\"@astrojs/check\": \"^0.9.8\",\n@@ -65,14 +66,6 @@\n \t\t\t\t\"url\": \"https://paulmillr.com/funding/\"\n \t\t\t}\n \t\t},\n-\t\t\"node_modules/@astrojs/check/node_modules/kleur\": {\n-\t\t\t\"version\": \"4.1.5\",\n-\t\t\t\"dev\": true,\n-\t\t\t\"license\": \"MIT\",\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \">=6\"\n-\t\t\t}\n-\t\t},\n \t\t\"node_modules/@astrojs/check/node_modules/readdirp\": {\n \t\t\t\"version\": \"4.1.2\",\n \t\t\t\"dev\": true,\n@@ -85,12 +78,31 @@\n \t\t\t\t\"url\": \"https://paulmillr.com/funding/\"\n \t\t\t}\n \t\t},\n+\t\t\"node_modules/@astrojs/cloudflare\": {\n+\t\t\t\"version\": \"13.1.9\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@astrojs/cloudflare/-/cloudflare-13.1.9.tgz\",\n+\t\t\t\"integrity\": \"sha512-CExzMpP0GOT8Tb9mlJ1kGXv30fN/bRurf4F/sTt+wn7A2T1lROjLqgxceavzvt07kVd9XpSXyDVDCkhM1N7m5g==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"dependencies\": {\n+\t\t\t\t\"@astrojs/internal-helpers\": \"0.8.0\",\n+\t\t\t\t\"@astrojs/underscore-redirects\": \"1.0.3\",\n+\t\t\t\t\"@cloudflare/vite-plugin\": \"^1.25.6\",\n+\t\t\t\t\"piccolore\": \"^0.1.3\",\n+\t\t\t\t\"tinyglobby\": \"^0.2.15\",\n+\t\t\t\t\"vite\": \"^7.3.1\"\n+\t\t\t},\n+\t\t\t\"peerDependencies\": {\n+\t\t\t\t\"astro\": \"^6.0.0\",\n+\t\t\t\t\"wrangler\": \"^4.61.1\"\n+\t\t\t}\n+\t\t},\n \t\t\"node_modules/@astrojs/compiler\": {\n \t\t\t\"version\": \"2.13.1\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@astrojs/compiler/-/compiler-2.13.1.tgz\",\n \t\t\t\"integrity\": \"sha512-f3FN83d2G/v32ipNClRKgYv30onQlMZX1vCeZMjPsMMPl1mDpmbl0+N5BYo4S/ofzqJyS5hvwacEo0CCVDn/Qg==\",\n \t\t\t\"dev\": true,\n-\t\t\t\"license\": \"MIT\"\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true\n \t\t},\n \t\t\"node_modules/@astrojs/internal-helpers\": {\n \t\t\t\"version\": \"0.8.0\",\n@@ -202,61 +214,11 @@\n \t\t\t\t\"node\": \"18.20.8 || ^20.3.0 || >=22.0.0\"\n \t\t\t}\n \t\t},\n-\t\t\"node_modules/@astrojs/vercel\": {\n-\t\t\t\"version\": \"10.0.3\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/@astrojs/vercel/-/vercel-10.0.3.tgz\",\n-\t\t\t\"integrity\": \"sha512-4eJDFhTBnu6X19iKD1GOmhbGEkrws29aWt9eEtJjwMqNbbXoX95c0s115FXBYq5wLcERt19rLfimkU1vjgIdBw==\",\n-\t\t\t\"license\": \"MIT\",\n-\t\t\t\"dependencies\": {\n-\t\t\t\t\"@astrojs/internal-helpers\": \"0.8.0\",\n-\t\t\t\t\"@vercel/analytics\": \"^1.6.1\",\n-\t\t\t\t\"@vercel/functions\": \"^3.4.3\",\n-\t\t\t\t\"@vercel/nft\": \"^1.3.2\",\n-\t\t\t\t\"@vercel/routing-utils\": \"^5.3.3\",\n-\t\t\t\t\"esbuild\": \"^0.27.3\",\n-\t\t\t\t\"tinyglobby\": \"^0.2.15\"\n-\t\t\t},\n-\t\t\t\"peerDependencies\": {\n-\t\t\t\t\"astro\": \"^6.0.0\"\n-\t\t\t}\n-\t\t},\n-\t\t\"node_modules/@astrojs/vercel/node_modules/@vercel/analytics\": {\n-\t\t\t\"version\": \"1.6.1\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/@vercel/analytics/-/analytics-1.6.1.tgz\",\n-\t\t\t\"integrity\": \"sha512-oH9He/bEM+6oKlv3chWuOOcp8Y6fo6/PSro8hEkgCW3pu9/OiCXiUpRUogDh3Fs3LH2sosDrx8CxeOLBEE+afg==\",\n-\t\t\t\"license\": \"MPL-2.0\",\n-\t\t\t\"peerDependencies\": {\n-\t\t\t\t\"@remix-run/react\": \"^2\",\n-\t\t\t\t\"@sveltejs/kit\": \"^1 || ^2\",\n-\t\t\t\t\"next\": \">= 13\",\n-\t\t\t\t\"react\": \"^18 || ^19 || ^19.0.0-rc\",\n-\t\t\t\t\"svelte\": \">= 4\",\n-\t\t\t\t\"vue\": \"^3\",\n-\t\t\t\t\"vue-router\": \"^4\"\n-\t\t\t},\n-\t\t\t\"peerDependenciesMeta\": {\n-\t\t\t\t\"@remix-run/react\": {\n-\t\t\t\t\t\"optional\": true\n-\t\t\t\t},\n-\t\t\t\t\"@sveltejs/kit\": {\n-\t\t\t\t\t\"optional\": true\n-\t\t\t\t},\n-\t\t\t\t\"next\": {\n-\t\t\t\t\t\"optional\": true\n-\t\t\t\t},\n-\t\t\t\t\"react\": {\n-\t\t\t\t\t\"optional\": true\n-\t\t\t\t},\n-\t\t\t\t\"svelte\": {\n-\t\t\t\t\t\"optional\": true\n-\t\t\t\t},\n-\t\t\t\t\"vue\": {\n-\t\t\t\t\t\"optional\": true\n-\t\t\t\t},\n-\t\t\t\t\"vue-router\": {\n-\t\t\t\t\t\"optional\": true\n-\t\t\t\t}\n-\t\t\t}\n+\t\t\"node_modules/@astrojs/underscore-redirects\": {\n+\t\t\t\"version\": \"1.0.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@astrojs/underscore-redirects/-/underscore-redirects-1.0.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-cxnGSw+sJigBLdX4TMSZKkzV6C3gMLJMucDk2W+n281Xhie68T2/9f1+1NMNDCZsc5i0FED7Qt5I10g2O9wtZg==\",\n+\t\t\t\"license\": \"MIT\"\n \t\t},\n \t\t\"node_modules/@astrojs/yaml2ts\": {\n \t\t\t\"version\": \"0.2.3\",\n@@ -345,6 +307,149 @@\n \t\t\t\t\"sisteransi\": \"^1.0.5\"\n \t\t\t}\n \t\t},\n+\t\t\"node_modules/@cloudflare/kv-asset-handler\": {\n+\t\t\t\"version\": \"0.4.2\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@cloudflare/kv-asset-handler/-/kv-asset-handler-0.4.2.tgz\",\n+\t\t\t\"integrity\": \"sha512-SIOD2DxrRRwQ+jgzlXCqoEFiKOFqaPjhnNTGKXSRLvp1HiOvapLaFG2kEr9dYQTYe8rKrd9uvDUzmAITeNyaHQ==\",\n+\t\t\t\"license\": \"MIT OR Apache-2.0\",\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18.0.0\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/@cloudflare/unenv-preset\": {\n+\t\t\t\"version\": \"2.16.0\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@cloudflare/unenv-preset/-/unenv-preset-2.16.0.tgz\",\n+\t\t\t\"integrity\": \"sha512-8ovsRpwzPoEqPUzoErAYVv8l3FMZNeBVQfJTvtzP4AgLSRGZISRfuChFxHWUQd3n6cnrwkuTGxT+2cGo8EsyYg==\",\n+\t\t\t\"license\": \"MIT OR Apache-2.0\",\n+\t\t\t\"peerDependencies\": {\n+\t\t\t\t\"unenv\": \"2.0.0-rc.24\",\n+\t\t\t\t\"workerd\": \"1.20260301.1 || ~1.20260302.1 || ~1.20260303.1 || ~1.20260304.1 || >1.20260305.0 <2.0.0-0\"\n+\t\t\t},\n+\t\t\t\"peerDependenciesMeta\": {\n+\t\t\t\t\"workerd\": {\n+\t\t\t\t\t\"optional\": true\n+\t\t\t\t}\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/@cloudflare/vite-plugin\": {\n+\t\t\t\"version\": \"1.32.2\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@cloudflare/vite-plugin/-/vite-plugin-1.32.2.tgz\",\n+\t\t\t\"integrity\": \"sha512-sEI/jusfDvzHIL4oiBBV5iUxAXfTRvguecIDWQ/AxBgEjGO1ZslHOEy4rlxfgqrdRWtq0TM9m3oC+hT32hajEg==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"dependencies\": {\n+\t\t\t\t\"@cloudflare/unenv-preset\": \"2.16.0\",\n+\t\t\t\t\"miniflare\": \"4.20260410.0\",\n+\t\t\t\t\"unenv\": \"2.0.0-rc.24\",\n+\t\t\t\t\"wrangler\": \"4.82.2\",\n+\t\t\t\t\"ws\": \"8.18.0\"\n+\t\t\t},\n+\t\t\t\"peerDependencies\": {\n+\t\t\t\t\"vite\": \"^6.1.0 || ^7.0.0 || ^8.0.0\",\n+\t\t\t\t\"wrangler\": \"^4.82.2\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/@cloudflare/workerd-darwin-64\": {\n+\t\t\t\"version\": \"1.20260410.1\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@cloudflare/workerd-darwin-64/-/workerd-darwin-64-1.20260410.1.tgz\",\n+\t\t\t\"integrity\": \"sha512-0sh6xPmCKUfv/lUklP1dfyeKxCuEZGS0HeduxnucL8ECxSgAdWTOD42h/lQTwZCIiWtyHB+ZNB9hsS2Mlf0tMQ==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"x64\"\n+\t\t\t],\n+\t\t\t\"license\": \"Apache-2.0\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"darwin\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=16\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/@cloudflare/workerd-darwin-arm64\": {\n+\t\t\t\"version\": \"1.20260410.1\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@cloudflare/workerd-darwin-arm64/-/workerd-darwin-arm64-1.20260410.1.tgz\",\n+\t\t\t\"integrity\": \"sha512-r2On29gPvlk/eiH/OpeUT23xoB8W8D1PHr8lul5nyxElLqvh3yNxZUnJWrbcOl+ubfrvw7+jFwgopMe17xyf0g==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"arm64\"\n+\t\t\t],\n+\t\t\t\"license\": \"Apache-2.0\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"darwin\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=16\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/@cloudflare/workerd-linux-64\": {\n+\t\t\t\"version\": \"1.20260410.1\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@cloudflare/workerd-linux-64/-/workerd-linux-64-1.20260410.1.tgz\",\n+\t\t\t\"integrity\": \"sha512-qWORRcAzPZeHJjrcYBNZTN6Y9l+iZQUz4KBdWbNrM6My4CpNrXS5kErPR373vG//5QPaDGwMXgBqyn9xfzarJQ==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"x64\"\n+\t\t\t],\n+\t\t\t\"license\": \"Apache-2.0\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"linux\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=16\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/@cloudflare/workerd-linux-arm64\": {\n+\t\t\t\"version\": \"1.20260410.1\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@cloudflare/workerd-linux-arm64/-/workerd-linux-arm64-1.20260410.1.tgz\",\n+\t\t\t\"integrity\": \"sha512-jQfuHL4mnGDFyomSS3JNs9TpTvCu6Vzz2QSNCfJRstMzTICUFLMc4Vp/xKK+M5xkb0PoAu/G0hHx7jrxB2j+OQ==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"arm64\"\n+\t\t\t],\n+\t\t\t\"license\": \"Apache-2.0\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"linux\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=16\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/@cloudflare/workerd-windows-64\": {\n+\t\t\t\"version\": \"1.20260410.1\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@cloudflare/workerd-windows-64/-/workerd-windows-64-1.20260410.1.tgz\",\n+\t\t\t\"integrity\": \"sha512-h8q/nbheDqpknY7AAOz19MuQkZAR1/bnoZnKipyeUPXt5No+y6HlTtva9Bohx5Fhc1MW2CX2MQVdb55qtkkqZQ==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"x64\"\n+\t\t\t],\n+\t\t\t\"license\": \"Apache-2.0\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"win32\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=16\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/@cspotcode/source-map-support\": {\n+\t\t\t\"version\": \"0.8.1\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@cspotcode/source-map-support/-/source-map-support-0.8.1.tgz\",\n+\t\t\t\"integrity\": \"sha512-IchNf6dN4tHoMFIn/7OE8LWZ19Y6q/67Bmf6vnGREv8RSbBVb9LPJxEcnwrcwX6ixSvaiGoomAUvu4YSxXrVgw==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"dependencies\": {\n+\t\t\t\t\"@jridgewell/trace-mapping\": \"0.3.9\"\n+\t\t\t},\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=12\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/@cspotcode/source-map-support/node_modules/@jridgewell/trace-mapping\": {\n+\t\t\t\"version\": \"0.3.9\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.9.tgz\",\n+\t\t\t\"integrity\": \"sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"dependencies\": {\n+\t\t\t\t\"@jridgewell/resolve-uri\": \"^3.0.3\",\n+\t\t\t\t\"@jridgewell/sourcemap-codec\": \"^1.4.10\"\n+\t\t\t}\n+\t\t},\n \t\t\"node_modules/@emmetio/abbreviation\": {\n \t\t\t\"version\": \"2.3.3\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@emmetio/abbreviation/-/abbreviation-2.3.3.tgz\",\n@@ -992,7 +1097,6 @@\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@img/colour/-/colour-1.1.0.tgz\",\n \t\t\t\"integrity\": \"sha512-Td76q7j57o/tLVdgS746cYARfSyxk8iEfRxewL9h4OMzYhbW4TAcppl0mT4eyqXddh6L/jwoM75mo7ixa/pCeQ==\",\n \t\t\t\"license\": \"MIT\",\n-\t\t\t\"optional\": true,\n \t\t\t\"engines\": {\n \t\t\t\t\"node\": \">=18\"\n \t\t\t}\n@@ -1453,18 +1557,6 @@\n \t\t\t\t\"url\": \"https://opencollective.com/libvips\"\n \t\t\t}\n \t\t},\n-\t\t\"node_modules/@isaacs/fs-minipass\": {\n-\t\t\t\"version\": \"4.0.1\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/@isaacs/fs-minipass/-/fs-minipass-4.0.1.tgz\",\n-\t\t\t\"integrity\": \"sha512-wgm9Ehl2jpeqP3zw/7mo3kRHFp5MEDhqAdwy1fTGkHAwnkGOVsgpvQhL8B5n1qlb01jV3n/bI0ZfZp5lWA1k4w==\",\n-\t\t\t\"license\": \"ISC\",\n-\t\t\t\"dependencies\": {\n-\t\t\t\t\"minipass\": \"^7.0.4\"\n-\t\t\t},\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \">=18.0.0\"\n-\t\t\t}\n-\t\t},\n \t\t\"node_modules/@jridgewell/gen-mapping\": {\n \t\t\t\"version\": \"0.3.13\",\n \t\t\t\"license\": \"MIT\",\n@@ -1500,47 +1592,6 @@\n \t\t\t\t\"@jridgewell/sourcemap-codec\": \"^1.4.14\"\n \t\t\t}\n \t\t},\n-\t\t\"node_modules/@mapbox/node-pre-gyp\": {\n-\t\t\t\"version\": \"2.0.3\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/@mapbox/node-pre-gyp/-/node-pre-gyp-2.0.3.tgz\",\n-\t\t\t\"integrity\": \"sha512-uwPAhccfFJlsfCxMYTwOdVfOz3xqyj8xYL3zJj8f0pb30tLohnnFPhLuqp4/qoEz8sNxe4SESZedcBojRefIzg==\",\n-\t\t\t\"license\": \"BSD-3-Clause\",\n-\t\t\t\"dependencies\": {\n-\t\t\t\t\"consola\": \"^3.2.3\",\n-\t\t\t\t\"detect-libc\": \"^2.0.0\",\n-\t\t\t\t\"https-proxy-agent\": \"^7.0.5\",\n-\t\t\t\t\"node-fetch\": \"^2.6.7\",\n-\t\t\t\t\"nopt\": \"^8.0.0\",\n-\t\t\t\t\"semver\": \"^7.5.3\",\n-\t\t\t\t\"tar\": \"^7.4.0\"\n-\t\t\t},\n-\t\t\t\"bin\": {\n-\t\t\t\t\"node-pre-gyp\": \"bin/node-pre-gyp\"\n-\t\t\t},\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \">=18\"\n-\t\t\t}\n-\t\t},\n-\t\t\"node_modules/@mapbox/node-pre-gyp/node_modules/node-fetch\": {\n-\t\t\t\"version\": \"2.7.0\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/node-fetch/-/node-fetch-2.7.0.tgz\",\n-\t\t\t\"integrity\": \"sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==\",\n-\t\t\t\"license\": \"MIT\",\n-\t\t\t\"dependencies\": {\n-\t\t\t\t\"whatwg-url\": \"^5.0.0\"\n-\t\t\t},\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \"4.x || >=6.0.0\"\n-\t\t\t},\n-\t\t\t\"peerDependencies\": {\n-\t\t\t\t\"encoding\": \"^0.1.0\"\n-\t\t\t},\n-\t\t\t\"peerDependenciesMeta\": {\n-\t\t\t\t\"encoding\": {\n-\t\t\t\t\t\"optional\": true\n-\t\t\t\t}\n-\t\t\t}\n-\t\t},\n \t\t\"node_modules/@nodelib/fs.scandir\": {\n \t\t\t\"version\": \"2.1.5\",\n \t\t\t\"dev\": true,\n@@ -1617,6 +1668,32 @@\n \t\t\t\t\"url\": \"https://opencollective.com/pkgr\"\n \t\t\t}\n \t\t},\n+\t\t\"node_modules/@poppinss/colors\": {\n+\t\t\t\"version\": \"4.1.6\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@poppinss/colors/-/colors-4.1.6.tgz\",\n+\t\t\t\"integrity\": \"sha512-H9xkIdFswbS8n1d6vmRd8+c10t2Qe+rZITbbDHHkQixH5+2x1FDGmi/0K+WgWiqQFKPSlIYB7jlH6Kpfn6Fleg==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"dependencies\": {\n+\t\t\t\t\"kleur\": \"^4.1.5\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/@poppinss/dumper\": {\n+\t\t\t\"version\": \"0.6.5\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@poppinss/dumper/-/dumper-0.6.5.tgz\",\n+\t\t\t\"integrity\": \"sha512-NBdYIb90J7LfOI32dOewKI1r7wnkiH6m920puQ3qHUeZkxNkQiFnXVWoE6YtFSv6QOiPPf7ys6i+HWWecDz7sw==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"dependencies\": {\n+\t\t\t\t\"@poppinss/colors\": \"^4.1.5\",\n+\t\t\t\t\"@sindresorhus/is\": \"^7.0.2\",\n+\t\t\t\t\"supports-color\": \"^10.0.0\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/@poppinss/exception\": {\n+\t\t\t\"version\": \"1.2.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@poppinss/exception/-/exception-1.2.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-dCED+QRChTVatE9ibtoaxc+WkdzOSjYTKi/+uacHWIsfodVfpsueo3+DKpgU5Px8qXjgmXkSvhXvSCz3fnP9lw==\",\n+\t\t\t\"license\": \"MIT\"\n+\t\t},\n \t\t\"node_modules/@rollup/pluginutils\": {\n \t\t\t\"version\": \"5.3.0\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@rollup/pluginutils/-/pluginutils-5.3.0.tgz\",\n@@ -2064,6 +2141,24 @@\n \t\t\t\"integrity\": \"sha512-83yeghZ2xxin3Nj8z1NMd/NCuca+gsYXswywDy5bHvwlWL8tpTQmzGeUuHd9FC3E/SBEMvzJRwWEOz5gGes9Qg==\",\n \t\t\t\"license\": \"MIT\"\n \t\t},\n+\t\t\"node_modules/@sindresorhus/is\": {\n+\t\t\t\"version\": \"7.2.0\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@sindresorhus/is/-/is-7.2.0.tgz\",\n+\t\t\t\"integrity\": \"sha512-P1Cz1dWaFfR4IR+U13mqqiGsLFf1KbayybWwdd2vfctdV6hDpUkgCY0nKOLLTMSoRd/jJNjtbqzf13K8DCCXQw==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t},\n+\t\t\t\"funding\": {\n+\t\t\t\t\"url\": \"https://github.com/sindresorhus/is?sponsor=1\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/@speed-highlight/core\": {\n+\t\t\t\"version\": \"1.2.15\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@speed-highlight/core/-/core-1.2.15.tgz\",\n+\t\t\t\"integrity\": \"sha512-BMq1K3DsElxDWawkX6eLg9+CKJrTVGCBAWVuHXVUV2u0s2711qiChLSId6ikYPfxhdYocLNt3wWwSvDiTvFabw==\",\n+\t\t\t\"license\": \"CC0-1.0\"\n+\t\t},\n \t\t\"node_modules/@tailwindcss/node\": {\n \t\t\t\"version\": \"4.1.18\",\n \t\t\t\"license\": \"MIT\",\n@@ -2436,6 +2531,7 @@\n \t\t\t\"integrity\": \"sha512-jp2P3tQMSxWugkCUKLRPVUpGaL5MVFwF8RDuSRztfwgN1wmqJeMSbKlnEtQqU8UrhTmzEmZdu2I6v2dpp7XIxw==\",\n \t\t\t\"devOptional\": true,\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"undici-types\": \"~7.18.0\"\n \t\t\t}\n@@ -2501,6 +2597,7 @@\n \t\t\t\"integrity\": \"sha512-klQbnPAAiGYFyI02+znpBRLyjL4/BrBd0nyWkdC0s/6xFLkXYQ8OoRrSkqacS1ddVxf/LDyODIKbQ5TgKAf/Fg==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@typescript-eslint/scope-manager\": \"8.56.1\",\n \t\t\t\t\"@typescript-eslint/types\": \"8.56.1\",\n@@ -2686,74 +2783,6 @@\n \t\t\t\"integrity\": \"sha512-WmoN8qaIAo7WTYWbAZuG8PYEhn5fkz7dZrqTBZ7dtt//lL2Gwms1IcnQ5yHqjDfX8Ft5j4YzDM23f87zBfDe9g==\",\n \t\t\t\"license\": \"ISC\"\n \t\t},\n-\t\t\"node_modules/@vercel/functions\": {\n-\t\t\t\"version\": \"3.4.3\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/@vercel/functions/-/functions-3.4.3.tgz\",\n-\t\t\t\"integrity\": \"sha512-kA14KIUVgAY6VXbhZ5jjY+s0883cV3cZqIU3WhrSRxuJ9KvxatMjtmzl0K23HK59oOUjYl7HaE/eYMmhmqpZzw==\",\n-\t\t\t\"license\": \"Apache-2.0\",\n-\t\t\t\"dependencies\": {\n-\t\t\t\t\"@vercel/oidc\": \"3.2.0\"\n-\t\t\t},\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \">= 20\"\n-\t\t\t},\n-\t\t\t\"peerDependencies\": {\n-\t\t\t\t\"@aws-sdk/credential-provider-web-identity\": \"*\"\n-\t\t\t},\n-\t\t\t\"peerDependenciesMeta\": {\n-\t\t\t\t\"@aws-sdk/credential-provider-web-identity\": {\n-\t\t\t\t\t\"optional\": true\n-\t\t\t\t}\n-\t\t\t}\n-\t\t},\n-\t\t\"node_modules/@vercel/nft\": {\n-\t\t\t\"version\": \"1.5.0\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/@vercel/nft/-/nft-1.5.0.tgz\",\n-\t\t\t\"integrity\": \"sha512-IWTDeIoWhQ7ZtRO/JRKH+jhmeQvZYhtGPmzw/QGDY+wDCQqfm25P9yIdoAFagu4fWsK4IwZXDFIjrmp5rRm/sA==\",\n-\t\t\t\"license\": \"MIT\",\n-\t\t\t\"dependencies\": {\n-\t\t\t\t\"@mapbox/node-pre-gyp\": \"^2.0.0\",\n-\t\t\t\t\"@rollup/pluginutils\": \"^5.1.3\",\n-\t\t\t\t\"acorn\": \"^8.6.0\",\n-\t\t\t\t\"acorn-import-attributes\": \"^1.9.5\",\n-\t\t\t\t\"async-sema\": \"^3.1.1\",\n-\t\t\t\t\"bindings\": \"^1.4.0\",\n-\t\t\t\t\"estree-walker\": \"2.0.2\",\n-\t\t\t\t\"glob\": \"^13.0.0\",\n-\t\t\t\t\"graceful-fs\": \"^4.2.9\",\n-\t\t\t\t\"node-gyp-build\": \"^4.2.2\",\n-\t\t\t\t\"picomatch\": \"^4.0.2\",\n-\t\t\t\t\"resolve-from\": \"^5.0.0\"\n-\t\t\t},\n-\t\t\t\"bin\": {\n-\t\t\t\t\"nft\": \"out/cli.js\"\n-\t\t\t},\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \">=20\"\n-\t\t\t}\n-\t\t},\n-\t\t\"node_modules/@vercel/oidc\": {\n-\t\t\t\"version\": \"3.2.0\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/@vercel/oidc/-/oidc-3.2.0.tgz\",\n-\t\t\t\"integrity\": \"sha512-UycprH3T6n3jH0k44NHMa7pnFHGu/N05MjojYr+Mc6I7obkoLIJujSWwin1pCvdy/eOxrI/l3uDLQsmcrOb4ug==\",\n-\t\t\t\"license\": \"Apache-2.0\",\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \">= 20\"\n-\t\t\t}\n-\t\t},\n-\t\t\"node_modules/@vercel/routing-utils\": {\n-\t\t\t\"version\": \"5.3.3\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/@vercel/routing-utils/-/routing-utils-5.3.3.tgz\",\n-\t\t\t\"integrity\": \"sha512-KYm2sLNUD48gDScv8ob4ejc3Gww2jcJyW80hTdYlenAPz/5BQar1Gyh38xrUuZ532TUwSb5mV1uRbAuiykq0EQ==\",\n-\t\t\t\"license\": \"Apache-2.0\",\n-\t\t\t\"dependencies\": {\n-\t\t\t\t\"path-to-regexp\": \"6.1.0\",\n-\t\t\t\t\"path-to-regexp-updated\": \"npm:path-to-regexp@6.3.0\"\n-\t\t\t},\n-\t\t\t\"optionalDependencies\": {\n-\t\t\t\t\"ajv\": \"^6.12.3\"\n-\t\t\t}\n-\t\t},\n \t\t\"node_modules/@volar/kit\": {\n \t\t\t\"version\": \"2.4.28\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@volar/kit/-/kit-2.4.28.tgz\",\n@@ -2852,34 +2881,18 @@\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\"\n \t\t},\n-\t\t\"node_modules/abbrev\": {\n-\t\t\t\"version\": \"3.0.1\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/abbrev/-/abbrev-3.0.1.tgz\",\n-\t\t\t\"integrity\": \"sha512-AO2ac6pjRB3SJmGJo+v5/aK6Omggp6fsLrs6wN9bd35ulu4cCwaAU9+7ZhXjeqHVkaHThLuzH0nZr0YpCDhygg==\",\n-\t\t\t\"license\": \"ISC\",\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \"^18.17.0 || >=20.5.0\"\n-\t\t\t}\n-\t\t},\n \t\t\"node_modules/acorn\": {\n \t\t\t\"version\": \"8.16.0\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"bin\": {\n \t\t\t\t\"acorn\": \"bin/acorn\"\n \t\t\t},\n \t\t\t\"engines\": {\n \t\t\t\t\"node\": \">=0.4.0\"\n \t\t\t}\n \t\t},\n-\t\t\"node_modules/acorn-import-attributes\": {\n-\t\t\t\"version\": \"1.9.5\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/acorn-import-attributes/-/acorn-import-attributes-1.9.5.tgz\",\n-\t\t\t\"integrity\": \"sha512-n02Vykv5uA3eHGM/Z2dQrcD56kL8TyDb2p1+0P83PClMnC/nc+anbQRhIOWnSq4Ke/KvDPrY3C9hDtC/A3eHnQ==\",\n-\t\t\t\"license\": \"MIT\",\n-\t\t\t\"peerDependencies\": {\n-\t\t\t\t\"acorn\": \"^8\"\n-\t\t\t}\n-\t\t},\n \t\t\"node_modules/acorn-jsx\": {\n \t\t\t\"version\": \"5.3.2\",\n \t\t\t\"dev\": true,\n@@ -2888,18 +2901,9 @@\n \t\t\t\t\"acorn\": \"^6.0.0 || ^7.0.0 || ^8.0.0\"\n \t\t\t}\n \t\t},\n-\t\t\"node_modules/agent-base\": {\n-\t\t\t\"version\": \"7.1.4\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/agent-base/-/agent-base-7.1.4.tgz\",\n-\t\t\t\"integrity\": \"sha512-MnA+YT8fwfJPgBx3m60MNqakm30XOkyIoH1y6huTQvC0PwZG7ki8NacLBcrPbNoo8vEZy7Jpuk7+jMO+CUovTQ==\",\n-\t\t\t\"license\": \"MIT\",\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \">= 14\"\n-\t\t\t}\n-\t\t},\n \t\t\"node_modules/ajv\": {\n \t\t\t\"version\": \"6.14.0\",\n-\t\t\t\"devOptional\": true,\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"dependencies\": {\n \t\t\t\t\"fast-deep-equal\": \"^3.1.1\",\n@@ -3139,12 +3143,6 @@\n \t\t\t\t\"@astrojs/compiler\": \">=0.27.0\"\n \t\t\t}\n \t\t},\n-\t\t\"node_modules/async-sema\": {\n-\t\t\t\"version\": \"3.1.1\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/async-sema/-/async-sema-3.1.1.tgz\",\n-\t\t\t\"integrity\": \"sha512-tLRNUXati5MFePdAk8dw7Qt7DpxPB60ofAgn8WRhW6a2rcimZnYBP9oxHiv0OHy+Wz7kPMG+t4LGdt31+4EmGg==\",\n-\t\t\t\"license\": \"MIT\"\n-\t\t},\n \t\t\"node_modules/axobject-query\": {\n \t\t\t\"version\": \"4.1.0\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/axobject-query/-/axobject-query-4.1.0.tgz\",\n@@ -3166,19 +3164,17 @@\n \t\t},\n \t\t\"node_modules/balanced-match\": {\n \t\t\t\"version\": \"4.0.4\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"engines\": {\n \t\t\t\t\"node\": \"18 || 20 || >=22\"\n \t\t\t}\n \t\t},\n-\t\t\"node_modules/bindings\": {\n-\t\t\t\"version\": \"1.5.0\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/bindings/-/bindings-1.5.0.tgz\",\n-\t\t\t\"integrity\": \"sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==\",\n-\t\t\t\"license\": \"MIT\",\n-\t\t\t\"dependencies\": {\n-\t\t\t\t\"file-uri-to-path\": \"1.0.0\"\n-\t\t\t}\n+\t\t\"node_modules/blake3-wasm\": {\n+\t\t\t\"version\": \"2.1.5\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/blake3-wasm/-/blake3-wasm-2.1.5.tgz\",\n+\t\t\t\"integrity\": \"sha512-F1+K8EbfOZE49dtoPtmxUQrpXaBIl3ICvasLh+nJta0xkz+9kF/7uet9fLnwKqhDrmj6g+6K3Tw9yQPUg2ka5g==\",\n+\t\t\t\"license\": \"MIT\"\n \t\t},\n \t\t\"node_modules/boolbase\": {\n \t\t\t\"version\": \"1.0.0\",\n@@ -3190,6 +3186,7 @@\n \t\t\t\"version\": \"5.0.5\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/brace-expansion/-/brace-expansion-5.0.5.tgz\",\n \t\t\t\"integrity\": \"sha512-VZznLgtwhn+Mact9tfiwx64fA9erHH/MCXEUfB/0bX/6Fz6ny5EGTXYltMocqg4xFAQZtnO3DHWWXi8RiuN7cQ==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"dependencies\": {\n \t\t\t\t\"balanced-match\": \"^4.0.2\"\n@@ -3264,15 +3261,6 @@\n \t\t\t\t\"url\": \"https://paulmillr.com/funding/\"\n \t\t\t}\n \t\t},\n-\t\t\"node_modules/chownr\": {\n-\t\t\t\"version\": \"3.0.0\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/chownr/-/chownr-3.0.0.tgz\",\n-\t\t\t\"integrity\": \"sha512-+IxzY9BZOQd/XuYPRmrvEVjF/nqj5kgT4kEq7VofrDoM1MxoRjEWkrCC3EtLi59TVawxTAn+orJwFQcrqEN1+g==\",\n-\t\t\t\"license\": \"BlueOak-1.0.0\",\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \">=18\"\n-\t\t\t}\n-\t\t},\n \t\t\"node_modules/ci-info\": {\n \t\t\t\"version\": \"4.4.0\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/ci-info/-/ci-info-4.4.0.tgz\",\n@@ -3421,15 +3409,6 @@\n \t\t\t\t\"node\": \">= 18\"\n \t\t\t}\n \t\t},\n-\t\t\"node_modules/consola\": {\n-\t\t\t\"version\": \"3.4.2\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/consola/-/consola-3.4.2.tgz\",\n-\t\t\t\"integrity\": \"sha512-5IKcdX0nnYavi6G7TtOhwkYzyjfJlatbjMjuLSfE2kYT5pMDOilZ4OvMhi637CcDICTmz3wARPoyhqyX1Y+XvA==\",\n-\t\t\t\"license\": \"MIT\",\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \"^14.18.0 || >=16.10.0\"\n-\t\t\t}\n-\t\t},\n \t\t\"node_modules/cookie\": {\n \t\t\t\"version\": \"1.1.1\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/cookie/-/cookie-1.1.1.tgz\",\n@@ -3771,6 +3750,15 @@\n \t\t\t\t\"url\": \"https://github.com/fb55/entities?sponsor=1\"\n \t\t\t}\n \t\t},\n+\t\t\"node_modules/error-stack-parser-es\": {\n+\t\t\t\"version\": \"1.0.5\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/error-stack-parser-es/-/error-stack-parser-es-1.0.5.tgz\",\n+\t\t\t\"integrity\": \"sha512-5qucVt2XcuGMcEGgWI7i+yZpmpByQ8J1lHhcL7PwqCwu9FPP3VUXzT4ltHe5i2z9dePwEHcDVOAfSnHsOlCXRA==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"funding\": {\n+\t\t\t\t\"url\": \"https://github.com/sponsors/antfu\"\n+\t\t\t}\n+\t\t},\n \t\t\"node_modules/es-module-lexer\": {\n \t\t\t\"version\": \"2.0.0\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/es-module-lexer/-/es-module-lexer-2.0.0.tgz\",\n@@ -3842,6 +3830,7 @@\n \t\t\t\"version\": \"10.0.2\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@eslint-community/eslint-utils\": \"^4.8.0\",\n \t\t\t\t\"@eslint-community/regexpp\": \"^4.12.2\",\n@@ -4043,7 +4032,7 @@\n \t\t},\n \t\t\"node_modules/fast-deep-equal\": {\n \t\t\t\"version\": \"3.1.3\",\n-\t\t\t\"devOptional\": true,\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\"\n \t\t},\n \t\t\"node_modules/fast-glob\": {\n@@ -4074,7 +4063,7 @@\n \t\t},\n \t\t\"node_modules/fast-json-stable-stringify\": {\n \t\t\t\"version\": \"2.1.0\",\n-\t\t\t\"devOptional\": true,\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\"\n \t\t},\n \t\t\"node_modules/fast-levenshtein\": {\n@@ -4139,12 +4128,6 @@\n \t\t\t\"integrity\": \"sha512-P9bmyZ3h/PRG+Nzga+rbdI4OEpNDzAVyy74uVO9ATgzLK6VtAsYybF/+TOCvrc0MO793d6+42lLyZTw7/ArVzA==\",\n \t\t\t\"license\": \"MIT\"\n \t\t},\n-\t\t\"node_modules/file-uri-to-path\": {\n-\t\t\t\"version\": \"1.0.0\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/file-uri-to-path/-/file-uri-to-path-1.0.0.tgz\",\n-\t\t\t\"integrity\": \"sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==\",\n-\t\t\t\"license\": \"MIT\"\n-\t\t},\n \t\t\"node_modules/fill-range\": {\n \t\t\t\"version\": \"7.1.1\",\n \t\t\t\"dev\": true,\n@@ -4248,23 +4231,6 @@\n \t\t\t\"integrity\": \"sha512-IaOQ9puYtjrkq7Y0Ygl9KDZnrf/aiUJYUpVf89y8kyaxbRG7Y1SrX/jaumrv81vc61+kiMempujsM3Yw7w5qcw==\",\n \t\t\t\"license\": \"ISC\"\n \t\t},\n-\t\t\"node_modules/glob\": {\n-\t\t\t\"version\": \"13.0.6\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/glob/-/glob-13.0.6.tgz\",\n-\t\t\t\"integrity\": \"sha512-Wjlyrolmm8uDpm/ogGyXZXb1Z+Ca2B8NbJwqBVg0axK9GbBeoS7yGV6vjXnYdGm6X53iehEuxxbyiKp8QmN4Vw==\",\n-\t\t\t\"license\": \"BlueOak-1.0.0\",\n-\t\t\t\"dependencies\": {\n-\t\t\t\t\"minimatch\": \"^10.2.2\",\n-\t\t\t\t\"minipass\": \"^7.1.3\",\n-\t\t\t\t\"path-scurry\": \"^2.0.2\"\n-\t\t\t},\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \"18 || 20 || >=22\"\n-\t\t\t},\n-\t\t\t\"funding\": {\n-\t\t\t\t\"url\": \"https://github.com/sponsors/isaacs\"\n-\t\t\t}\n-\t\t},\n \t\t\"node_modules/glob-parent\": {\n \t\t\t\"version\": \"6.0.2\",\n \t\t\t\"dev\": true,\n@@ -4507,19 +4473,6 @@\n \t\t\t\"integrity\": \"sha512-dTxcvPXqPvXBQpq5dUr6mEMJX4oIEFv6bwom3FDwKRDsuIjjJGANqhBuoAn9c1RQJIdAKav33ED65E2ys+87QQ==\",\n \t\t\t\"license\": \"BSD-2-Clause\"\n \t\t},\n-\t\t\"node_modules/https-proxy-agent\": {\n-\t\t\t\"version\": \"7.0.6\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-7.0.6.tgz\",\n-\t\t\t\"integrity\": \"sha512-vK9P5/iUfdl95AI+JVyUuIcVtd4ofvtrOr3HNtM2yxC9bnMbEdp3x01OhQNnjb8IJYi38VlTE3mBXwcfvywuSw==\",\n-\t\t\t\"license\": \"MIT\",\n-\t\t\t\"dependencies\": {\n-\t\t\t\t\"agent-base\": \"^7.1.2\",\n-\t\t\t\t\"debug\": \"4\"\n-\t\t\t},\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \">= 14\"\n-\t\t\t}\n-\t\t},\n \t\t\"node_modules/ignore\": {\n \t\t\t\"version\": \"5.3.2\",\n \t\t\t\"dev\": true,\n@@ -4689,7 +4642,7 @@\n \t\t},\n \t\t\"node_modules/json-schema-traverse\": {\n \t\t\t\"version\": \"0.4.1\",\n-\t\t\t\"devOptional\": true,\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\"\n \t\t},\n \t\t\"node_modules/json-stable-stringify-without-jsonify\": {\n@@ -4724,6 +4677,15 @@\n \t\t\t\t\"json-buffer\": \"3.0.1\"\n \t\t\t}\n \t\t},\n+\t\t\"node_modules/kleur\": {\n+\t\t\t\"version\": \"4.1.5\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/kleur/-/kleur-4.1.5.tgz\",\n+\t\t\t\"integrity\": \"sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=6\"\n+\t\t\t}\n+\t\t},\n \t\t\"node_modules/levn\": {\n \t\t\t\"version\": \"0.4.1\",\n \t\t\t\"dev\": true,\n@@ -5878,8 +5840,29 @@\n \t\t\t\t\"url\": \"https://github.com/sponsors/jonschlinkert\"\n \t\t\t}\n \t\t},\n+\t\t\"node_modules/miniflare\": {\n+\t\t\t\"version\": \"4.20260410.0\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/miniflare/-/miniflare-4.20260410.0.tgz\",\n+\t\t\t\"integrity\": \"sha512-94LEU8d+XPVGp18eW4+bu1v7Tnq7srhqWMIsrx2jhSkdbTnGqg1I613R0GKY4eygBYl9MbqXEhzK/bczJb6uMg==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"dependencies\": {\n+\t\t\t\t\"@cspotcode/source-map-support\": \"0.8.1\",\n+\t\t\t\t\"sharp\": \"^0.34.5\",\n+\t\t\t\t\"undici\": \"7.24.4\",\n+\t\t\t\t\"workerd\": \"1.20260410.1\",\n+\t\t\t\t\"ws\": \"8.18.0\",\n+\t\t\t\t\"youch\": \"4.1.0-beta.10\"\n+\t\t\t},\n+\t\t\t\"bin\": {\n+\t\t\t\t\"miniflare\": \"bootstrap.js\"\n+\t\t\t},\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18.0.0\"\n+\t\t\t}\n+\t\t},\n \t\t\"node_modules/minimatch\": {\n \t\t\t\"version\": \"10.2.4\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"BlueOak-1.0.0\",\n \t\t\t\"dependencies\": {\n \t\t\t\t\"brace-expansion\": \"^5.0.2\"\n@@ -5891,27 +5874,6 @@\n \t\t\t\t\"url\": \"https://github.com/sponsors/isaacs\"\n \t\t\t}\n \t\t},\n-\t\t\"node_modules/minipass\": {\n-\t\t\t\"version\": \"7.1.3\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/minipass/-/minipass-7.1.3.tgz\",\n-\t\t\t\"integrity\": \"sha512-tEBHqDnIoM/1rXME1zgka9g6Q2lcoCkxHLuc7ODJ5BxbP5d4c2Z5cGgtXAku59200Cx7diuHTOYfSBD8n6mm8A==\",\n-\t\t\t\"license\": \"BlueOak-1.0.0\",\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \">=16 || 14 >=14.17\"\n-\t\t\t}\n-\t\t},\n-\t\t\"node_modules/minizlib\": {\n-\t\t\t\"version\": \"3.1.0\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/minizlib/-/minizlib-3.1.0.tgz\",\n-\t\t\t\"integrity\": \"sha512-KZxYo1BUkWD2TVFLr0MQoM8vUUigWD3LlD83a/75BqC+4qE0Hb1Vo5v1FgcfaNXvfXzr+5EhQ6ing/CaBijTlw==\",\n-\t\t\t\"license\": \"MIT\",\n-\t\t\t\"dependencies\": {\n-\t\t\t\t\"minipass\": \"^7.1.2\"\n-\t\t\t},\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \">= 18\"\n-\t\t\t}\n-\t\t},\n \t\t\"node_modules/mrmime\": {\n \t\t\t\"version\": \"2.0.1\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/mrmime/-/mrmime-2.0.1.tgz\",\n@@ -5981,38 +5943,12 @@\n \t\t\t\"integrity\": \"sha512-g9yhqoedzIUm0nTnTqAQvueMPVOuIY16bqgAJJC8XOOubYFNwz6IER9qs0Gq2Xd0+CecCKFjtdDTMA4u4xG06Q==\",\n \t\t\t\"license\": \"MIT\"\n \t\t},\n-\t\t\"node_modules/node-gyp-build\": {\n-\t\t\t\"version\": \"4.8.4\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/node-gyp-build/-/node-gyp-build-4.8.4.tgz\",\n-\t\t\t\"integrity\": \"sha512-LA4ZjwlnUblHVgq0oBF3Jl/6h/Nvs5fzBLwdEF4nuxnFdsfajde4WfxtJr3CaiH+F6ewcIB/q4jQ4UzPyid+CQ==\",\n-\t\t\t\"license\": \"MIT\",\n-\t\t\t\"bin\": {\n-\t\t\t\t\"node-gyp-build\": \"bin.js\",\n-\t\t\t\t\"node-gyp-build-optional\": \"optional.js\",\n-\t\t\t\t\"node-gyp-build-test\": \"build-test.js\"\n-\t\t\t}\n-\t\t},\n \t\t\"node_modules/node-mock-http\": {\n \t\t\t\"version\": \"1.0.4\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/node-mock-http/-/node-mock-http-1.0.4.tgz\",\n \t\t\t\"integrity\": \"sha512-8DY+kFsDkNXy1sJglUfuODx1/opAGJGyrTuFqEoN90oRc2Vk0ZbD4K2qmKXBBEhZQzdKHIVfEJpDU8Ak2NJEvQ==\",\n \t\t\t\"license\": \"MIT\"\n \t\t},\n-\t\t\"node_modules/nopt\": {\n-\t\t\t\"version\": \"8.1.0\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/nopt/-/nopt-8.1.0.tgz\",\n-\t\t\t\"integrity\": \"sha512-ieGu42u/Qsa4TFktmaKEwM6MQH0pOWnaB3htzh0JRtx84+Mebc0cbZYN5bC+6WTZ4+77xrL9Pn5m7CV6VIkV7A==\",\n-\t\t\t\"license\": \"ISC\",\n-\t\t\t\"dependencies\": {\n-\t\t\t\t\"abbrev\": \"^3.0.0\"\n-\t\t\t},\n-\t\t\t\"bin\": {\n-\t\t\t\t\"nopt\": \"bin/nopt.js\"\n-\t\t\t},\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \"^18.17.0 || >=20.5.0\"\n-\t\t\t}\n-\t\t},\n \t\t\"node_modules/normalize-path\": {\n \t\t\t\"version\": \"3.0.0\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz\",\n@@ -6247,35 +6183,18 @@\n \t\t\t\t\"node\": \">=8\"\n \t\t\t}\n \t\t},\n-\t\t\"node_modules/path-scurry\": {\n-\t\t\t\"version\": \"2.0.2\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/path-scurry/-/path-scurry-2.0.2.tgz\",\n-\t\t\t\"integrity\": \"sha512-3O/iVVsJAPsOnpwWIeD+d6z/7PmqApyQePUtCndjatj/9I5LylHvt5qluFaBT3I5h3r1ejfR056c+FCv+NnNXg==\",\n-\t\t\t\"license\": \"BlueOak-1.0.0\",\n-\t\t\t\"dependencies\": {\n-\t\t\t\t\"lru-cache\": \"^11.0.0\",\n-\t\t\t\t\"minipass\": \"^7.1.2\"\n-\t\t\t},\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \"18 || 20 || >=22\"\n-\t\t\t},\n-\t\t\t\"funding\": {\n-\t\t\t\t\"url\": \"https://github.com/sponsors/isaacs\"\n-\t\t\t}\n-\t\t},\n \t\t\"node_modules/path-to-regexp\": {\n-\t\t\t\"version\": \"6.1.0\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-6.1.0.tgz\",\n-\t\t\t\"integrity\": \"sha512-h9DqehX3zZZDCEm+xbfU0ZmwCGFCAAraPJWMXJ4+v32NjZJilVg3k1TcKsRgIb8IQ/izZSaydDc1OhJCZvs2Dw==\",\n-\t\t\t\"license\": \"MIT\"\n-\t\t},\n-\t\t\"node_modules/path-to-regexp-updated\": {\n-\t\t\t\"name\": \"path-to-regexp\",\n \t\t\t\"version\": \"6.3.0\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-6.3.0.tgz\",\n \t\t\t\"integrity\": \"sha512-Yhpw4T9C6hPpgPeA28us07OJeqZ5EzQTkbfwuhsUg0c237RomFoETJgmp2sa3F/41gfLE6G5cqcYwznmeEeOlQ==\",\n \t\t\t\"license\": \"MIT\"\n \t\t},\n+\t\t\"node_modules/pathe\": {\n+\t\t\t\"version\": \"2.0.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/pathe/-/pathe-2.0.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-WUjGcAqP1gQacoQe+OBJsFA7Ld4DyXuUIjZ5cc75cLHvJ7dtNsTugphxIADwspS+AraAUePCKrSVtPLFj/F88w==\",\n+\t\t\t\"license\": \"MIT\"\n+\t\t},\n \t\t\"node_modules/pdf-lib\": {\n \t\t\t\"version\": \"1.17.1\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/pdf-lib/-/pdf-lib-1.17.1.tgz\",\n@@ -6366,6 +6285,7 @@\n \t\t\t\"version\": \"3.8.1\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"bin\": {\n \t\t\t\t\"prettier\": \"bin/prettier.cjs\"\n \t\t\t},\n@@ -6380,6 +6300,7 @@\n \t\t\t\"version\": \"0.14.1\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@astrojs/compiler\": \"^2.9.1\",\n \t\t\t\t\"prettier\": \"^3.0.0\",\n@@ -6493,7 +6414,7 @@\n \t\t},\n \t\t\"node_modules/punycode\": {\n \t\t\t\"version\": \"2.3.1\",\n-\t\t\t\"devOptional\": true,\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"engines\": {\n \t\t\t\t\"node\": \">=6\"\n@@ -6743,15 +6664,6 @@\n \t\t\t\t\"node\": \">=0.10.0\"\n \t\t\t}\n \t\t},\n-\t\t\"node_modules/resolve-from\": {\n-\t\t\t\"version\": \"5.0.0\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/resolve-from/-/resolve-from-5.0.0.tgz\",\n-\t\t\t\"integrity\": \"sha512-qYg9KP24dD5qka9J47d0aVky0N+b4fTU89LN9iDnjB5waksiC49rvMB0PrUJQGoTmH50XPiqOvAjDfaijGxYZw==\",\n-\t\t\t\"license\": \"MIT\",\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \">=8\"\n-\t\t\t}\n-\t\t},\n \t\t\"node_modules/retext\": {\n \t\t\t\"version\": \"9.0.0\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/retext/-/retext-9.0.0.tgz\",\n@@ -6827,6 +6739,7 @@\n \t\t\t\"resolved\": \"https://registry.npmjs.org/rollup/-/rollup-4.60.0.tgz\",\n \t\t\t\"integrity\": \"sha512-yqjxruMGBQJ2gG4HtjZtAfXArHomazDHoFwFFmZZl0r7Pdo7qCIXKqKHZc8yeoMgzJJ+pO6pEEHa+V7uzWlrAQ==\",\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@types/estree\": \"1.0.8\"\n \t\t\t},\n@@ -6940,7 +6853,6 @@\n \t\t\t\"integrity\": \"sha512-Ou9I5Ft9WNcCbXrU9cMgPBcCK8LiwLqcbywW3t4oDV37n1pzpuNLsYiAV8eODnjbtQlSDwZ2cUEeQz4E54Hltg==\",\n \t\t\t\"hasInstallScript\": true,\n \t\t\t\"license\": \"Apache-2.0\",\n-\t\t\t\"optional\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@img/colour\": \"^1.0.0\",\n \t\t\t\t\"detect-libc\": \"^2.1.2\",\n@@ -7083,6 +6995,18 @@\n \t\t\t\t\"s.color\": \"0.0.15\"\n \t\t\t}\n \t\t},\n+\t\t\"node_modules/supports-color\": {\n+\t\t\t\"version\": \"10.2.2\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/supports-color/-/supports-color-10.2.2.tgz\",\n+\t\t\t\"integrity\": \"sha512-SS+jx45GF1QjgEXQx4NJZV9ImqmO2NPz5FNsIHrsDjh2YsHnawpan7SNQ1o8NuhrbHZy9AZhIoCUiCeaW/C80g==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t},\n+\t\t\t\"funding\": {\n+\t\t\t\t\"url\": \"https://github.com/chalk/supports-color?sponsor=1\"\n+\t\t\t}\n+\t\t},\n \t\t\"node_modules/svgo\": {\n \t\t\t\"version\": \"4.0.1\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/svgo/-/svgo-4.0.1.tgz\",\n@@ -7137,22 +7061,6 @@\n \t\t\t\t\"url\": \"https://opencollective.com/webpack\"\n \t\t\t}\n \t\t},\n-\t\t\"node_modules/tar\": {\n-\t\t\t\"version\": \"7.5.13\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/tar/-/tar-7.5.13.tgz\",\n-\t\t\t\"integrity\": \"sha512-tOG/7GyXpFevhXVh8jOPJrmtRpOTsYqUIkVdVooZYJS/z8WhfQUX8RJILmeuJNinGAMSu1veBr4asSHFt5/hng==\",\n-\t\t\t\"license\": \"BlueOak-1.0.0\",\n-\t\t\t\"dependencies\": {\n-\t\t\t\t\"@isaacs/fs-minipass\": \"^4.0.0\",\n-\t\t\t\t\"chownr\": \"^3.0.0\",\n-\t\t\t\t\"minipass\": \"^7.1.2\",\n-\t\t\t\t\"minizlib\": \"^3.1.0\",\n-\t\t\t\t\"yallist\": \"^5.0.0\"\n-\t\t\t},\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \">=18\"\n-\t\t\t}\n-\t\t},\n \t\t\"node_modules/tiny-inflate\": {\n \t\t\t\"version\": \"1.0.3\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/tiny-inflate/-/tiny-inflate-1.0.3.tgz\",\n@@ -7202,10 +7110,6 @@\n \t\t\t\t\"node\": \">=8.0\"\n \t\t\t}\n \t\t},\n-\t\t\"node_modules/tr46\": {\n-\t\t\t\"version\": \"0.0.3\",\n-\t\t\t\"license\": \"MIT\"\n-\t\t},\n \t\t\"node_modules/trim-lines\": {\n \t\t\t\"version\": \"3.0.1\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/trim-lines/-/trim-lines-3.0.1.tgz\",\n@@ -7286,6 +7190,7 @@\n \t\t\t\"version\": \"5.9.3\",\n \t\t\t\"devOptional\": true,\n \t\t\t\"license\": \"Apache-2.0\",\n+\t\t\t\"peer\": true,\n \t\t\t\"bin\": {\n \t\t\t\t\"tsc\": \"bin/tsc\",\n \t\t\t\t\"tsserver\": \"bin/tsserver\"\n@@ -7346,13 +7251,32 @@\n \t\t\t\"integrity\": \"sha512-Ql87qFHB3s/De2ClA9e0gsnS6zXG27SkTiSJwjCc9MebbfapQfuPzumMIUMi38ezPZVNFcHI9sUIepeQfw8J8Q==\",\n \t\t\t\"license\": \"MIT\"\n \t\t},\n+\t\t\"node_modules/undici\": {\n+\t\t\t\"version\": \"7.24.4\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/undici/-/undici-7.24.4.tgz\",\n+\t\t\t\"integrity\": \"sha512-BM/JzwwaRXxrLdElV2Uo6cTLEjhSb3WXboncJamZ15NgUURmvlXvxa6xkwIOILIjPNo9i8ku136ZvWV0Uly8+w==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=20.18.1\"\n+\t\t\t}\n+\t\t},\n \t\t\"node_modules/undici-types\": {\n \t\t\t\"version\": \"7.18.2\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/undici-types/-/undici-types-7.18.2.tgz\",\n \t\t\t\"integrity\": \"sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w==\",\n \t\t\t\"devOptional\": true,\n \t\t\t\"license\": \"MIT\"\n \t\t},\n+\t\t\"node_modules/unenv\": {\n+\t\t\t\"version\": \"2.0.0-rc.24\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/unenv/-/unenv-2.0.0-rc.24.tgz\",\n+\t\t\t\"integrity\": \"sha512-i7qRCmY42zmCwnYlh9H2SvLEypEFGye5iRmEMKjcGi7zk9UquigRjFtTLz0TYqr0ZGLZhaMHl/foy1bZR+Cwlw==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n+\t\t\t\"dependencies\": {\n+\t\t\t\t\"pathe\": \"^2.0.3\"\n+\t\t\t}\n+\t\t},\n \t\t\"node_modules/unified\": {\n \t\t\t\"version\": \"11.0.5\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/unified/-/unified-11.0.5.tgz\",\n@@ -7604,7 +7528,7 @@\n \t\t},\n \t\t\"node_modules/uri-js\": {\n \t\t\t\"version\": \"4.4.1\",\n-\t\t\t\"devOptional\": true,\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"BSD-2-Clause\",\n \t\t\t\"dependencies\": {\n \t\t\t\t\"punycode\": \"^2.1.0\"\n@@ -7661,6 +7585,7 @@\n \t\t\t\"resolved\": \"https://registry.npmjs.org/vite/-/vite-7.3.2.tgz\",\n \t\t\t\"integrity\": \"sha512-Bby3NOsna2jsjfLVOHKes8sGwgl4TT0E6vvpYgnAYDIF/tie7MRaFthmKuHx1NSXjiTueXH3do80FMQgvEktRg==\",\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"esbuild\": \"^0.27.0\",\n \t\t\t\t\"fdir\": \"^6.5.0\",\n@@ -8014,18 +7939,6 @@\n \t\t\t\t\"url\": \"https://github.com/sponsors/wooorm\"\n \t\t\t}\n \t\t},\n-\t\t\"node_modules/webidl-conversions\": {\n-\t\t\t\"version\": \"3.0.1\",\n-\t\t\t\"license\": \"BSD-2-Clause\"\n-\t\t},\n-\t\t\"node_modules/whatwg-url\": {\n-\t\t\t\"version\": \"5.0.0\",\n-\t\t\t\"license\": \"MIT\",\n-\t\t\t\"dependencies\": {\n-\t\t\t\t\"tr46\": \"~0.0.3\",\n-\t\t\t\t\"webidl-conversions\": \"^3.0.0\"\n-\t\t\t}\n-\t\t},\n \t\t\"node_modules/which\": {\n \t\t\t\"version\": \"2.0.2\",\n \t\t\t\"dev\": true,\n@@ -8057,6 +7970,540 @@\n \t\t\t\t\"node\": \">=0.10.0\"\n \t\t\t}\n \t\t},\n+\t\t\"node_modules/workerd\": {\n+\t\t\t\"version\": \"1.20260410.1\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/workerd/-/workerd-1.20260410.1.tgz\",\n+\t\t\t\"integrity\": \"sha512-T/GRD6Y5vN9g4CnGmOlfST1w7bj+1IjRFvX0K7CodZPJuPVPNPGhz8Wppah0WdT6A7I8Kad3zgZ2OkDdWtENrg==\",\n+\t\t\t\"hasInstallScript\": true,\n+\t\t\t\"license\": \"Apache-2.0\",\n+\t\t\t\"peer\": true,\n+\t\t\t\"bin\": {\n+\t\t\t\t\"workerd\": \"bin/workerd\"\n+\t\t\t},\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=16\"\n+\t\t\t},\n+\t\t\t\"optionalDependencies\": {\n+\t\t\t\t\"@cloudflare/workerd-darwin-64\": \"1.20260410.1\",\n+\t\t\t\t\"@cloudflare/workerd-darwin-arm64\": \"1.20260410.1\",\n+\t\t\t\t\"@cloudflare/workerd-linux-64\": \"1.20260410.1\",\n+\t\t\t\t\"@cloudflare/workerd-linux-arm64\": \"1.20260410.1\",\n+\t\t\t\t\"@cloudflare/workerd-windows-64\": \"1.20260410.1\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler\": {\n+\t\t\t\"version\": \"4.82.2\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/wrangler/-/wrangler-4.82.2.tgz\",\n+\t\t\t\"integrity\": \"sha512-SKfW21sTJUkM/Qd8zc9oc8TBkAWHRsXuTxE6XdToC55Ct84pR+IfRdaTjCTuC0dL+KYvauSvSn2rtqS2Ae+Dcw==\",\n+\t\t\t\"license\": \"MIT OR Apache-2.0\",\n+\t\t\t\"peer\": true,\n+\t\t\t\"dependencies\": {\n+\t\t\t\t\"@cloudflare/kv-asset-handler\": \"0.4.2\",\n+\t\t\t\t\"@cloudflare/unenv-preset\": \"2.16.0\",\n+\t\t\t\t\"blake3-wasm\": \"2.1.5\",\n+\t\t\t\t\"esbuild\": \"0.27.3\",\n+\t\t\t\t\"miniflare\": \"4.20260410.0\",\n+\t\t\t\t\"path-to-regexp\": \"6.3.0\",\n+\t\t\t\t\"unenv\": \"2.0.0-rc.24\",\n+\t\t\t\t\"workerd\": \"1.20260410.1\"\n+\t\t\t},\n+\t\t\t\"bin\": {\n+\t\t\t\t\"wrangler\": \"bin/wrangler.js\",\n+\t\t\t\t\"wrangler2\": \"bin/wrangler.js\"\n+\t\t\t},\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=20.3.0\"\n+\t\t\t},\n+\t\t\t\"optionalDependencies\": {\n+\t\t\t\t\"fsevents\": \"~2.3.2\"\n+\t\t\t},\n+\t\t\t\"peerDependencies\": {\n+\t\t\t\t\"@cloudflare/workers-types\": \"^4.20260410.1\"\n+\t\t\t},\n+\t\t\t\"peerDependenciesMeta\": {\n+\t\t\t\t\"@cloudflare/workers-types\": {\n+\t\t\t\t\t\"optional\": true\n+\t\t\t\t}\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/aix-ppc64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/aix-ppc64/-/aix-ppc64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-9fJMTNFTWZMh5qwrBItuziu834eOCUcEqymSH7pY+zoMVEZg3gcPuBNxH1EvfVYe9h0x/Ptw8KBzv7qxb7l8dg==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"ppc64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"aix\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/android-arm\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/android-arm/-/android-arm-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-i5D1hPY7GIQmXlXhs2w8AWHhenb00+GxjxRncS2ZM7YNVGNfaMxgzSGuO8o8SJzRc/oZwU2bcScvVERk03QhzA==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"arm\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"android\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/android-arm64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/android-arm64/-/android-arm64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-YdghPYUmj/FX2SYKJ0OZxf+iaKgMsKHVPF1MAq/P8WirnSpCStzKJFjOjzsW0QQ7oIAiccHdcqjbHmJxRb/dmg==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"arm64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"android\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/android-x64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/android-x64/-/android-x64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-IN/0BNTkHtk8lkOM8JWAYFg4ORxBkZQf9zXiEOfERX/CzxW3Vg1ewAhU7QSWQpVIzTW+b8Xy+lGzdYXV6UZObQ==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"x64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"android\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/darwin-arm64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-Re491k7ByTVRy0t3EKWajdLIr0gz2kKKfzafkth4Q8A5n1xTHrkqZgLLjFEHVD+AXdUGgQMq+Godfq45mGpCKg==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"arm64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"darwin\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/darwin-x64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/darwin-x64/-/darwin-x64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-vHk/hA7/1AckjGzRqi6wbo+jaShzRowYip6rt6q7VYEDX4LEy1pZfDpdxCBnGtl+A5zq8iXDcyuxwtv3hNtHFg==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"x64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"darwin\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/freebsd-arm64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/freebsd-arm64/-/freebsd-arm64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-ipTYM2fjt3kQAYOvo6vcxJx3nBYAzPjgTCk7QEgZG8AUO3ydUhvelmhrbOheMnGOlaSFUoHXB6un+A7q4ygY9w==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"arm64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"freebsd\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/freebsd-x64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/freebsd-x64/-/freebsd-x64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-dDk0X87T7mI6U3K9VjWtHOXqwAMJBNN2r7bejDsc+j03SEjtD9HrOl8gVFByeM0aJksoUuUVU9TBaZa2rgj0oA==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"x64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"freebsd\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/linux-arm\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/linux-arm/-/linux-arm-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-s6nPv2QkSupJwLYyfS+gwdirm0ukyTFNl3KTgZEAiJDd+iHZcbTPPcWCcRYH+WlNbwChgH2QkE9NSlNrMT8Gfw==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"arm\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"linux\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/linux-arm64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/linux-arm64/-/linux-arm64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-sZOuFz/xWnZ4KH3YfFrKCf1WyPZHakVzTiqji3WDc0BCl2kBwiJLCXpzLzUBLgmp4veFZdvN5ChW4Eq/8Fc2Fg==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"arm64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"linux\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/linux-ia32\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/linux-ia32/-/linux-ia32-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-yGlQYjdxtLdh0a3jHjuwOrxQjOZYD/C9PfdbgJJF3TIZWnm/tMd/RcNiLngiu4iwcBAOezdnSLAwQDPqTmtTYg==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"ia32\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"linux\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/linux-loong64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/linux-loong64/-/linux-loong64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-WO60Sn8ly3gtzhyjATDgieJNet/KqsDlX5nRC5Y3oTFcS1l0KWba+SEa9Ja1GfDqSF1z6hif/SkpQJbL63cgOA==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"loong64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"linux\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/linux-mips64el\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/linux-mips64el/-/linux-mips64el-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-APsymYA6sGcZ4pD6k+UxbDjOFSvPWyZhjaiPyl/f79xKxwTnrn5QUnXR5prvetuaSMsb4jgeHewIDCIWljrSxw==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"mips64el\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"linux\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/linux-ppc64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/linux-ppc64/-/linux-ppc64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-eizBnTeBefojtDb9nSh4vvVQ3V9Qf9Df01PfawPcRzJH4gFSgrObw+LveUyDoKU3kxi5+9RJTCWlj4FjYXVPEA==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"ppc64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"linux\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/linux-riscv64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/linux-riscv64/-/linux-riscv64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-3Emwh0r5wmfm3ssTWRQSyVhbOHvqegUDRd0WhmXKX2mkHJe1SFCMJhagUleMq+Uci34wLSipf8Lagt4LlpRFWQ==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"riscv64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"linux\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/linux-s390x\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/linux-s390x/-/linux-s390x-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-pBHUx9LzXWBc7MFIEEL0yD/ZVtNgLytvx60gES28GcWMqil8ElCYR4kvbV2BDqsHOvVDRrOxGySBM9Fcv744hw==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"s390x\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"linux\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/linux-x64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-Czi8yzXUWIQYAtL/2y6vogER8pvcsOsk5cpwL4Gk5nJqH5UZiVByIY8Eorm5R13gq+DQKYg0+JyQoytLQas4dA==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"x64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"linux\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/netbsd-arm64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/netbsd-arm64/-/netbsd-arm64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-sDpk0RgmTCR/5HguIZa9n9u+HVKf40fbEUt+iTzSnCaGvY9kFP0YKBWZtJaraonFnqef5SlJ8/TiPAxzyS+UoA==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"arm64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"netbsd\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/netbsd-x64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/netbsd-x64/-/netbsd-x64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-P14lFKJl/DdaE00LItAukUdZO5iqNH7+PjoBm+fLQjtxfcfFE20Xf5CrLsmZdq5LFFZzb5JMZ9grUwvtVYzjiA==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"x64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"netbsd\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/openbsd-arm64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/openbsd-arm64/-/openbsd-arm64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-AIcMP77AvirGbRl/UZFTq5hjXK+2wC7qFRGoHSDrZ5v5b8DK/GYpXW3CPRL53NkvDqb9D+alBiC/dV0Fb7eJcw==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"arm64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"openbsd\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/openbsd-x64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/openbsd-x64/-/openbsd-x64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-DnW2sRrBzA+YnE70LKqnM3P+z8vehfJWHXECbwBmH/CU51z6FiqTQTHFenPlHmo3a8UgpLyH3PT+87OViOh1AQ==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"x64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"openbsd\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/openharmony-arm64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/openharmony-arm64/-/openharmony-arm64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-NinAEgr/etERPTsZJ7aEZQvvg/A6IsZG/LgZy+81wON2huV7SrK3e63dU0XhyZP4RKGyTm7aOgmQk0bGp0fy2g==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"arm64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"openharmony\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/sunos-x64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/sunos-x64/-/sunos-x64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-PanZ+nEz+eWoBJ8/f8HKxTTD172SKwdXebZ0ndd953gt1HRBbhMsaNqjTyYLGLPdoWHy4zLU7bDVJztF5f3BHA==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"x64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"sunos\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/win32-arm64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/win32-arm64/-/win32-arm64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-B2t59lWWYrbRDw/tjiWOuzSsFh1Y/E95ofKz7rIVYSQkUYBjfSgf6oeYPNWHToFRr2zx52JKApIcAS/D5TUBnA==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"arm64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"win32\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/win32-ia32\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/win32-ia32/-/win32-ia32-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-QLKSFeXNS8+tHW7tZpMtjlNb7HKau0QDpwm49u0vUp9y1WOF+PEzkU84y9GqYaAVW8aH8f3GcBck26jh54cX4Q==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"ia32\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"win32\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/win32-x64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-4uJGhsxuptu3OcpVAzli+/gWusVGwZZHTlS63hh++ehExkVT8SgiEf7/uC/PclrPPkLhZqGgCTjd0VWLo6xMqA==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"x64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"win32\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/esbuild\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/esbuild/-/esbuild-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-8VwMnyGCONIs6cWue2IdpHxHnAjzxnw2Zr7MkVxB2vjmQ2ivqGFb4LEG3SMnv0Gb2F/G/2yA8zUaiL1gywDCCg==\",\n+\t\t\t\"hasInstallScript\": true,\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"bin\": {\n+\t\t\t\t\"esbuild\": \"bin/esbuild\"\n+\t\t\t},\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t},\n+\t\t\t\"optionalDependencies\": {\n+\t\t\t\t\"@esbuild/aix-ppc64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/android-arm\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/android-arm64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/android-x64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/darwin-arm64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/darwin-x64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/freebsd-arm64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/freebsd-x64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/linux-arm\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/linux-arm64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/linux-ia32\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/linux-loong64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/linux-mips64el\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/linux-ppc64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/linux-riscv64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/linux-s390x\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/linux-x64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/netbsd-arm64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/netbsd-x64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/openbsd-arm64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/openbsd-x64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/openharmony-arm64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/sunos-x64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/win32-arm64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/win32-ia32\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/win32-x64\": \"0.27.3\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/ws\": {\n+\t\t\t\"version\": \"8.18.0\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/ws/-/ws-8.18.0.tgz\",\n+\t\t\t\"integrity\": \"sha512-8VbfWfHLbbwu3+N6OKsOMpBdT4kXPDDB9cJk2bJ6mh9ucxdlnNvH1e+roYkKmN9Nxw2yjz7VzeO9oOz2zJ04Pw==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=10.0.0\"\n+\t\t\t},\n+\t\t\t\"peerDependencies\": {\n+\t\t\t\t\"bufferutil\": \"^4.0.1\",\n+\t\t\t\t\"utf-8-validate\": \">=5.0.2\"\n+\t\t\t},\n+\t\t\t\"peerDependenciesMeta\": {\n+\t\t\t\t\"bufferutil\": {\n+\t\t\t\t\t\"optional\": true\n+\t\t\t\t},\n+\t\t\t\t\"utf-8-validate\": {\n+\t\t\t\t\t\"optional\": true\n+\t\t\t\t}\n+\t\t\t}\n+\t\t},\n \t\t\"node_modules/xxhash-wasm\": {\n \t\t\t\"version\": \"1.1.0\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/xxhash-wasm/-/xxhash-wasm-1.1.0.tgz\",\n@@ -8071,21 +8518,13 @@\n \t\t\t\t\"node\": \">=10\"\n \t\t\t}\n \t\t},\n-\t\t\"node_modules/yallist\": {\n-\t\t\t\"version\": \"5.0.0\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/yallist/-/yallist-5.0.0.tgz\",\n-\t\t\t\"integrity\": \"sha512-YgvUTfwqyc7UXVMrB+SImsVYSmTS8X/tSrtdNZMImM+n7+QTriRXyXim0mBrTXNeqzVF0KWGgHPeiyViFFrNDw==\",\n-\t\t\t\"license\": \"BlueOak-1.0.0\",\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \">=18\"\n-\t\t\t}\n-\t\t},\n \t\t\"node_modules/yaml\": {\n \t\t\t\"version\": \"2.8.3\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/yaml/-/yaml-2.8.3.tgz\",\n \t\t\t\"integrity\": \"sha512-AvbaCLOO2Otw/lW5bmh9d/WEdcDFdQp2Z2ZUH3pX9U2ihyUY0nvLv7J6TrWowklRGPYbB/IuIMfYgxaCPg5Bpg==\",\n \t\t\t\"devOptional\": true,\n \t\t\t\"license\": \"ISC\",\n+\t\t\t\"peer\": true,\n \t\t\t\"bin\": {\n \t\t\t\t\"yaml\": \"bin.mjs\"\n \t\t\t},\n@@ -8125,6 +8564,7 @@\n \t\t\t\"integrity\": \"sha512-PlXPeEWMXMZ7sPYOHqmDyCJzcfNrUr3fGNKtezX14ykXOEIvyK81d+qydx89KY5O71FKMPaQ2vBfBFI5NHR63A==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"fast-deep-equal\": \"^3.1.3\",\n \t\t\t\t\"fast-uri\": \"^3.0.1\",\n@@ -8252,6 +8692,29 @@\n \t\t\t\t\"url\": \"https://github.com/sponsors/sindresorhus\"\n \t\t\t}\n \t\t},\n+\t\t\"node_modules/youch\": {\n+\t\t\t\"version\": \"4.1.0-beta.10\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/youch/-/youch-4.1.0-beta.10.tgz\",\n+\t\t\t\"integrity\": \"sha512-rLfVLB4FgQneDr0dv1oddCVZmKjcJ6yX6mS4pU82Mq/Dt9a3cLZQ62pDBL4AUO+uVrCvtWz3ZFUL2HFAFJ/BXQ==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"dependencies\": {\n+\t\t\t\t\"@poppinss/colors\": \"^4.1.5\",\n+\t\t\t\t\"@poppinss/dumper\": \"^0.6.4\",\n+\t\t\t\t\"@speed-highlight/core\": \"^1.2.7\",\n+\t\t\t\t\"cookie\": \"^1.0.2\",\n+\t\t\t\t\"youch-core\": \"^0.3.3\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/youch-core\": {\n+\t\t\t\"version\": \"0.3.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/youch-core/-/youch-core-0.3.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-ho7XuGjLaJ2hWHoK8yFnsUGy2Y5uDpqSTq1FkHLK4/oqKtyUU1AFbOOxY4IpC9f0fTLjwYbslUz0Po5BpD1wrA==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"dependencies\": {\n+\t\t\t\t\"@poppinss/exception\": \"^1.2.2\",\n+\t\t\t\t\"error-stack-parser-es\": \"^1.0.5\"\n+\t\t\t}\n+\t\t},\n \t\t\"node_modules/zod\": {\n \t\t\t\"version\": \"4.3.6\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/zod/-/zod-4.3.6.tgz\","
-      },
-      {
-        "sha": "c628aa5f6555cf9fdcf8dbdcf26b741fc20a609d",
-        "filename": "package.json",
-        "status": "modified",
-        "additions": 41,
-        "deletions": 36,
-        "changes": 77,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/d332f330808e6866c9846d7d85962c58a790f683/package.json",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/d332f330808e6866c9846d7d85962c58a790f683/package.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/package.json?ref=d332f330808e6866c9846d7d85962c58a790f683",
-        "patch": "@@ -1,37 +1,42 @@\n {\n-\t\"name\": \"jrwnnnn\",\n-\t\"type\": \"module\",\n-\t\"version\": \"0.0.1\",\n-\t\"scripts\": {\n-\t\t\"astro:dev\": \"astro dev\",\n-\t\t\"astro:build\": \"astro build\",\n-\t\t\"astro:preview\": \"astro preview\",\n-\t\t\"lint\": \"eslint .\",\n-\t\t\"typecheck\": \"astro check\",\n-\t\t\"test\": \"npm run lint && npm run typecheck && npm run astro:build\"\n-\t},\n-\t\"dependencies\": {\n-\t\t\"@astrojs/vercel\": \"^10.0.3\",\n-\t\t\"@pdf-lib/fontkit\": \"^1.1.1\",\n-\t\t\"@tailwindcss/vite\": \"^4.1.18\",\n-\t\t\"astro\": \"^6.1.1\",\n-\t\t\"file-saver\": \"^2.0.5\",\n-\t\t\"jszip\": \"^3.10.1\",\n-\t\t\"papaparse\": \"^5.5.3\",\n-\t\t\"pdf-lib\": \"^1.17.1\",\n-\t\t\"tailwindcss\": \"^4.1.18\"\n-\t},\n-\t\"devDependencies\": {\n-\t\t\"@astrojs/check\": \"^0.9.8\",\n-\t\t\"@eslint/js\": \"^10.0.1\",\n-\t\t\"@types/file-saver\": \"^2.0.7\",\n-\t\t\"@types/papaparse\": \"^5.5.2\",\n-\t\t\"eslint\": \"^10.0.2\",\n-\t\t\"eslint-plugin-astro\": \"^1.6.0\",\n-\t\t\"prettier\": \"^3.8.1\",\n-\t\t\"prettier-plugin-astro\": \"^0.14.1\",\n-\t\t\"prettier-plugin-tailwindcss\": \"^0.7.2\",\n-\t\t\"typescript\": \"^5.9.3\",\n-\t\t\"typescript-eslint\": \"^8.56.1\"\n-\t}\n-}\n+  \"name\": \"rekord\",\n+  \"type\": \"module\",\n+  \"version\": \"0.0.1\",\n+  \"scripts\": {\n+    \"astro:dev\": \"astro dev\",\n+    \"astro:build\": \"astro build\",\n+    \"astro:preview\": \"astro preview\",\n+    \"lint\": \"eslint .\",\n+    \"typecheck\": \"astro check\",\n+    \"test\": \"npm run lint && npm run typecheck && npm run astro:build\",\n+    \"generate-types\": \"wrangler types\"\n+  },\n+  \"dependencies\": {\n+    \"@astrojs/cloudflare\": \"^13.1.9\",\n+    \"@pdf-lib/fontkit\": \"^1.1.1\",\n+    \"@tailwindcss/vite\": \"^4.1.18\",\n+    \"astro\": \"^6.1.1\",\n+    \"file-saver\": \"^2.0.5\",\n+    \"jszip\": \"^3.10.1\",\n+    \"papaparse\": \"^5.5.3\",\n+    \"pdf-lib\": \"^1.17.1\",\n+    \"tailwindcss\": \"^4.1.18\",\n+    \"wrangler\": \"^4.82.2\"\n+  },\n+  \"devDependencies\": {\n+    \"@astrojs/check\": \"^0.9.8\",\n+    \"@eslint/js\": \"^10.0.1\",\n+    \"@types/file-saver\": \"^2.0.7\",\n+    \"@types/papaparse\": \"^5.5.2\",\n+    \"eslint\": \"^10.0.2\",\n+    \"eslint-plugin-astro\": \"^1.6.0\",\n+    \"prettier\": \"^3.8.1\",\n+    \"prettier-plugin-astro\": \"^0.14.1\",\n+    \"prettier-plugin-tailwindcss\": \"^0.7.2\",\n+    \"typescript\": \"^5.9.3\",\n+    \"typescript-eslint\": \"^8.56.1\"\n+  },\n+  \"overrides\": {\n+    \"vite\": \"^7\"\n+  }\n+}\n\\ No newline at end of file"
-      },
-      {
-        "sha": "9f8edda4187b7221e4389484b7110f42c6ec2c96",
-        "filename": "tsconfig.json",
-        "status": "modified",
-        "additions": 4,
-        "deletions": 4,
-        "changes": 8,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/d332f330808e6866c9846d7d85962c58a790f683/tsconfig.json",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/d332f330808e6866c9846d7d85962c58a790f683/tsconfig.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/tsconfig.json?ref=d332f330808e6866c9846d7d85962c58a790f683",
-        "patch": "@@ -1,8 +1,8 @@\n {\n-  \"extends\": \"astro/tsconfigs/strict\",\n-  \"include\": [\".astro/types.d.ts\", \"**/*\"],\n-  \"exclude\": [\"dist\"],\n-  \"compilerOptions\": {\n+\t\"extends\": \"astro/tsconfigs/strict\",\n+\t\"include\": [\".astro/types.d.ts\", \"**/*\", \"./worker-configuration.d.ts\"],\n+\t\"exclude\": [\"dist\"],\n+\t\"compilerOptions\": {\n \t\t\"paths\": {\n \t\t\t\"@utils/*\": [\"./src/utils/*\"],\n \t\t\t\"@lib/*\": [\"./src/lib/*\"]"
-      },
-      {
-        "sha": "9cf0fef47d07725c48e4f3b6737e7df325b616bd",
-        "filename": "wrangler.json",
-        "status": "added",
-        "additions": 13,
-        "deletions": 0,
-        "changes": 13,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/d332f330808e6866c9846d7d85962c58a790f683/wrangler.json",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/d332f330808e6866c9846d7d85962c58a790f683/wrangler.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/wrangler.json?ref=d332f330808e6866c9846d7d85962c58a790f683",
-        "patch": "@@ -0,0 +1,13 @@\n+{\n+\t\"compatibility_date\": \"2026-04-01\",\n+\t\"compatibility_flags\": [\"global_fetch_strictly_public\"],\n+\t\"name\": \"rekord\",\n+\t\"main\": \"@astrojs/cloudflare/entrypoints/server\",\n+\t\"assets\": {\n+\t\t\"directory\": \"./dist\",\n+\t\t\"binding\": \"ASSETS\"\n+\t},\n+\t\"observability\": {\n+\t\t\"enabled\": true\n+\t}\n+}"
-      }
-    ]
-  },
-  {
-    "sha": "f424dc6a16bafa24584a8856b5733bff5a0bd1a8",
-    "node_id": "C_kwDORz-DOdoAKGY0MjRkYzZhMTZiYWZhMjQ1ODRhODg1NmI1NzMzYmZmNWEwYmQxYTg",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-04-14T06:29:57Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-04-14T06:29:57Z"
-      },
-      "message": "chore: Updated site URL and package name",
-      "tree": {
-        "sha": "f1364563593e97ca551e72c4eab10557ffa1bae0",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/f1364563593e97ca551e72c4eab10557ffa1bae0"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/f424dc6a16bafa24584a8856b5733bff5a0bd1a8",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQLYAQgvP9PWBYolwNEXDBPpXuDNRVFAJAqkrYuSVAH9oTaPrQVZ9FikF9AIRCkt9ij\nbkCQ3im4LZbfH75LR0+A8=\n-----END SSH SIGNATURE-----",
-        "payload": "tree f1364563593e97ca551e72c4eab10557ffa1bae0\nparent 51309066f3e9f9233ea96db45d8c27033a7eda58\nauthor Mark Jerwin <136870415+jrwnnnn@users.noreply.github.com> 1776148197 +0800\ncommitter Mark Jerwin <136870415+jrwnnnn@users.noreply.github.com> 1776148197 +0800\n\nchore: Updated site URL and package name\n",
-        "verified_at": "2026-04-14T06:30:00Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/f424dc6a16bafa24584a8856b5733bff5a0bd1a8",
-    "html_url": "https://github.com/jrwnnnn/rekord/commit/f424dc6a16bafa24584a8856b5733bff5a0bd1a8",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/f424dc6a16bafa24584a8856b5733bff5a0bd1a8/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "51309066f3e9f9233ea96db45d8c27033a7eda58",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/51309066f3e9f9233ea96db45d8c27033a7eda58",
-        "html_url": "https://github.com/jrwnnnn/rekord/commit/51309066f3e9f9233ea96db45d8c27033a7eda58"
-      }
-    ],
-    "stats": {
-      "total": 4,
-      "additions": 2,
-      "deletions": 2
-    },
-    "files": [
-      {
-        "sha": "9d01a3003945200f4c5562c4b5e1bc5e13b22e6f",
-        "filename": "astro.config.mjs",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/f424dc6a16bafa24584a8856b5733bff5a0bd1a8/astro.config.mjs",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/f424dc6a16bafa24584a8856b5733bff5a0bd1a8/astro.config.mjs",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/astro.config.mjs?ref=f424dc6a16bafa24584a8856b5733bff5a0bd1a8",
-        "patch": "@@ -5,7 +5,7 @@ import cloudflare from \"@astrojs/cloudflare\";\n \n // https://astro.build/config\n export default defineConfig({\n-  site: \"https://jrwnnnn.me\",\n+\tsite: \"https://rekord.jrwnnnn.me\",\n \tvite: {\n \t\tplugins: [tailwindcss()],\n \t},"
-      },
-      {
-        "sha": "c628aa5f6555cf9fdcf8dbdcf26b741fc20a609d",
-        "filename": "package.json",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/f424dc6a16bafa24584a8856b5733bff5a0bd1a8/package.json",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/f424dc6a16bafa24584a8856b5733bff5a0bd1a8/package.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/package.json?ref=f424dc6a16bafa24584a8856b5733bff5a0bd1a8",
-        "patch": "@@ -1,5 +1,5 @@\n {\n-  \"name\": \"jrwnnnn\",\n+  \"name\": \"rekord\",\n   \"type\": \"module\",\n   \"version\": \"0.0.1\",\n   \"scripts\": {"
-      }
-    ]
-  },
-  {
-    "sha": "51309066f3e9f9233ea96db45d8c27033a7eda58",
-    "node_id": "C_kwDORz-DOdoAKDUxMzA5MDY2ZjNlOWY5MjMzZWE5NmRiNDVkOGMyNzAzM2E3ZWRhNTg",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-04-14T06:28:30Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-04-14T06:28:30Z"
-      },
-      "message": "style: Prettier code format",
-      "tree": {
-        "sha": "43fdb0ac780865266641e29077ff314a4ff8c404",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/43fdb0ac780865266641e29077ff314a4ff8c404"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/51309066f3e9f9233ea96db45d8c27033a7eda58",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQDswt+OEvOc6fz8AqF9bwg967D15/oZHQjOuDOmR0b2csMA5Lc0zZcByPeyn85ITDI\n3ga2Hk2xp5fpztSB0q1w4=\n-----END SSH SIGNATURE-----",
-        "payload": "tree 43fdb0ac780865266641e29077ff314a4ff8c404\nparent ec10999922e584d1f6458a52c289e9e255e63a29\nauthor Mark Jerwin <136870415+jrwnnnn@users.noreply.github.com> 1776148110 +0800\ncommitter Mark Jerwin <136870415+jrwnnnn@users.noreply.github.com> 1776148110 +0800\n\nstyle: Prettier code format\n",
-        "verified_at": "2026-04-14T06:30:00Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/51309066f3e9f9233ea96db45d8c27033a7eda58",
-    "html_url": "https://github.com/jrwnnnn/rekord/commit/51309066f3e9f9233ea96db45d8c27033a7eda58",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/51309066f3e9f9233ea96db45d8c27033a7eda58/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "ec10999922e584d1f6458a52c289e9e255e63a29",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/ec10999922e584d1f6458a52c289e9e255e63a29",
-        "html_url": "https://github.com/jrwnnnn/rekord/commit/ec10999922e584d1f6458a52c289e9e255e63a29"
-      }
-    ],
-    "stats": {
-      "total": 42,
-      "additions": 15,
-      "deletions": 27
-    },
-    "files": [
-      {
-        "sha": "dadfd2f932f7659ee625d67c2e0cd4669d056c9c",
-        "filename": "astro.config.mjs",
-        "status": "modified",
-        "additions": 5,
-        "deletions": 7,
-        "changes": 12,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/51309066f3e9f9233ea96db45d8c27033a7eda58/astro.config.mjs",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/51309066f3e9f9233ea96db45d8c27033a7eda58/astro.config.mjs",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/astro.config.mjs?ref=51309066f3e9f9233ea96db45d8c27033a7eda58",
-        "patch": "@@ -1,17 +1,15 @@\n // @ts-check\n import { defineConfig } from \"astro/config\";\n import tailwindcss from \"@tailwindcss/vite\";\n-\n import cloudflare from \"@astrojs/cloudflare\";\n \n // https://astro.build/config\n export default defineConfig({\n   site: \"https://jrwnnnn.me\",\n-\n-  vite: {\n-      plugins: [tailwindcss()],\n+\tvite: {\n+\t\tplugins: [tailwindcss()],\n \t},\n \n-  output: \"static\",\n-  adapter: cloudflare(),\n-});\n\\ No newline at end of file\n+\toutput: \"static\",\n+\tadapter: cloudflare(),\n+});"
-      },
-      {
-        "sha": "9f8edda4187b7221e4389484b7110f42c6ec2c96",
-        "filename": "tsconfig.json",
-        "status": "modified",
-        "additions": 10,
-        "deletions": 20,
-        "changes": 30,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/51309066f3e9f9233ea96db45d8c27033a7eda58/tsconfig.json",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/51309066f3e9f9233ea96db45d8c27033a7eda58/tsconfig.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/tsconfig.json?ref=51309066f3e9f9233ea96db45d8c27033a7eda58",
-        "patch": "@@ -1,21 +1,11 @@\n {\n-  \"extends\": \"astro/tsconfigs/strict\",\n-  \"include\": [\n-    \".astro/types.d.ts\",\n-    \"**/*\",\n-    \"./worker-configuration.d.ts\"\n-  ],\n-  \"exclude\": [\n-    \"dist\"\n-  ],\n-  \"compilerOptions\": {\n-    \"paths\": {\n-      \"@utils/*\": [\n-        \"./src/utils/*\"\n-      ],\n-      \"@lib/*\": [\n-        \"./src/lib/*\"\n-      ]\n-    }\n-  }\n-}\n\\ No newline at end of file\n+\t\"extends\": \"astro/tsconfigs/strict\",\n+\t\"include\": [\".astro/types.d.ts\", \"**/*\", \"./worker-configuration.d.ts\"],\n+\t\"exclude\": [\"dist\"],\n+\t\"compilerOptions\": {\n+\t\t\"paths\": {\n+\t\t\t\"@utils/*\": [\"./src/utils/*\"],\n+\t\t\t\"@lib/*\": [\"./src/lib/*\"]\n+\t\t}\n+\t}\n+}"
-      }
-    ]
-  },
-  {
-    "sha": "ec10999922e584d1f6458a52c289e9e255e63a29",
-    "node_id": "C_kwDORz-DOdoAKGVjMTA5OTk5MjJlNTg0ZDFmNjQ1OGE1MmMyODllOWUyNTVlNjNhMjk",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-04-14T06:26:34Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-04-14T06:26:34Z"
-      },
-      "message": "chore: Renamed wrangler.jsonc to wrangler.json",
-      "tree": {
-        "sha": "72230ea5a6927f8e37c67eb4edeb9246b9acb81f",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/72230ea5a6927f8e37c67eb4edeb9246b9acb81f"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/ec10999922e584d1f6458a52c289e9e255e63a29",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQGETca0y5eJMXUhE4omEWh/EbMRC+sJEeaNEdI090NyqvLcdNqoDlIlV+vLeyUNfNC\n/hK3U8Cim9kGxTPdp93ww=\n-----END SSH SIGNATURE-----",
-        "payload": "tree 72230ea5a6927f8e37c67eb4edeb9246b9acb81f\nparent ee34a2fdcdc7a8972123676af29630c6df4ea2f6\nauthor Mark Jerwin <136870415+jrwnnnn@users.noreply.github.com> 1776147994 +0800\ncommitter Mark Jerwin <136870415+jrwnnnn@users.noreply.github.com> 1776147994 +0800\n\nchore: Renamed wrangler.jsonc to wrangler.json\n",
-        "verified_at": "2026-04-14T06:30:00Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/ec10999922e584d1f6458a52c289e9e255e63a29",
-    "html_url": "https://github.com/jrwnnnn/rekord/commit/ec10999922e584d1f6458a52c289e9e255e63a29",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/ec10999922e584d1f6458a52c289e9e255e63a29/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "ee34a2fdcdc7a8972123676af29630c6df4ea2f6",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/ee34a2fdcdc7a8972123676af29630c6df4ea2f6",
-        "html_url": "https://github.com/jrwnnnn/rekord/commit/ee34a2fdcdc7a8972123676af29630c6df4ea2f6"
-      }
-    ],
-    "stats": {
-      "total": 4,
-      "additions": 2,
-      "deletions": 2
-    },
-    "files": [
-      {
-        "sha": "9cf0fef47d07725c48e4f3b6737e7df325b616bd",
-        "filename": "wrangler.json",
-        "status": "renamed",
-        "additions": 2,
-        "deletions": 2,
         "changes": 4,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/ec10999922e584d1f6458a52c289e9e255e63a29/wrangler.json",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/ec10999922e584d1f6458a52c289e9e255e63a29/wrangler.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/wrangler.json?ref=ec10999922e584d1f6458a52c289e9e255e63a29",
-        "patch": "@@ -1,7 +1,7 @@\n {\n \t\"compatibility_date\": \"2026-04-01\",\n \t\"compatibility_flags\": [\"global_fetch_strictly_public\"],\n-\t\"name\": \"jrwnnnn\",\n+\t\"name\": \"rekord\",\n \t\"main\": \"@astrojs/cloudflare/entrypoints/server\",\n \t\"assets\": {\n \t\t\"directory\": \"./dist\",\n@@ -10,4 +10,4 @@\n \t\"observability\": {\n \t\t\"enabled\": true\n \t}\n-}\n\\ No newline at end of file\n+}",
-        "previous_filename": "wrangler.jsonc"
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/5122691d3a35567f76b8cafca8ffb5366e0466f8/src%2Fpages%2Findex.astro",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/5122691d3a35567f76b8cafca8ffb5366e0466f8/src%2Fpages%2Findex.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Fpages%2Findex.astro?ref=5122691d3a35567f76b8cafca8ffb5366e0466f8",
+        "patch": "@@ -84,7 +84,7 @@ import htmlFields from \"../data/htmlFields.json\";\n \t\t\t\t</div>\n \t\t\t</div>\n \n-\t\t\t<div class=\"space-y-2 opacity-50\">\n+\t\t\t<div class=\"space-y-2\">\n \t\t\t\t<h2 class=\"font-bold\">4. Define Passing Criteria</h2>\n \t\t\t\t<div class=\"flex flex-wrap space-y-4\">\n \t\t\t\t\t<p class=\"text-sm text-gray-700\">\n@@ -96,7 +96,6 @@ import htmlFields from \"../data/htmlFields.json\";\n \t\t\t\t\t\t\tname=\"passing_criteria\"\n \t\t\t\t\t\t\tvalue=\"75\"\n \t\t\t\t\t\t\tclass=\"w-10 border-b border-gray-700 px-2 py-px text-sm font-bold focus:border-b-2 focus:border-blue-600 focus:outline-none\"\n-\t\t\t\t\t\t\tdisabled\n \t\t\t\t\t\t/>. Otherwise, mark as <strong>\"Failed\"</strong>.\n \t\t\t\t\t</p>\n \n@@ -108,7 +107,6 @@ import htmlFields from \"../data/htmlFields.json\";\n \t\t\t\t\t\t\tname=\"promotion_criteria\"\n \t\t\t\t\t\t\tvalue=\"75\"\n \t\t\t\t\t\t\tclass=\"w-10 border-b border-gray-700 px-2 py-px text-sm font-bold focus:border-b-2 focus:border-blue-600 focus:outline-none\"\n-\t\t\t\t\t\t\tdisabled\n \t\t\t\t\t\t/>. Otherwise, mark as <strong>\"Retained\"</strong>.\n \t\t\t\t\t</p>\n \t\t\t\t</div>"
       }
     ]
   },
   {
-    "sha": "ee34a2fdcdc7a8972123676af29630c6df4ea2f6",
-    "node_id": "C_kwDORz-DOdoAKGVlMzRhMmZkY2RjN2E4OTcyMTIzNjc2YWYyOTYzMGM2ZGY0ZWEyZjY",
+    "sha": "2115193c06f4e38e553e88d8057033163e9fbdea",
+    "node_id": "C_kwDORJSDNtoAKDIxMTUxOTNjMDZmNGUzOGU1NTNlODhkODA1NzAzMzE2M2U5ZmJkZWE",
     "commit": {
       "author": {
         "name": "Mark Jerwin",
         "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-04-14T05:57:34Z"
+        "date": "2026-04-14T09:58:36Z"
       },
       "committer": {
-        "name": "Mark Jerwin",
-        "email": "136870415+jrwnnnn@users.noreply.github.com",
-        "date": "2026-04-14T05:57:34Z"
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-04-14T09:58:36Z"
       },
-      "message": "chore: Add Cloudflare adapter and Wrangler",
+      "message": "Merge pull request #20 from jrwnnnn/update_worker_name_to_scaffold\n\nUpdate name in Wrangler configuration file to match deployed Worker",
       "tree": {
-        "sha": "5d83bf07f74f26b6c8bc8f3454d42cda9164fd95",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/5d83bf07f74f26b6c8bc8f3454d42cda9164fd95"
+        "sha": "2439975b7d0fd0774b3029afb58b7dffa799daee",
+        "url": "https://api.github.com/repos/jrwnnnn/scaffold/git/trees/2439975b7d0fd0774b3029afb58b7dffa799daee"
       },
-      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/ee34a2fdcdc7a8972123676af29630c6df4ea2f6",
+      "url": "https://api.github.com/repos/jrwnnnn/scaffold/git/commits/2115193c06f4e38e553e88d8057033163e9fbdea",
       "comment_count": 0,
       "verification": {
         "verified": true,
         "reason": "valid",
-        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQFhsqlK8ncZvakLK97SbJSFq04t4VeR2zmY5SUOTt085WYMMpnfa3bjpO01ztDNTZt\nEJ0tBN4GlFoSHotfebUgw=\n-----END SSH SIGNATURE-----",
-        "payload": "tree 5d83bf07f74f26b6c8bc8f3454d42cda9164fd95\nparent 35c27459a90acb4ed426f6735c06caf44480381e\nauthor Mark Jerwin <136870415+jrwnnnn@users.noreply.github.com> 1776146254 +0800\ncommitter Mark Jerwin <136870415+jrwnnnn@users.noreply.github.com> 1776146254 +0800\n\nchore: Add Cloudflare adapter and Wrangler\n",
-        "verified_at": "2026-04-14T05:57:38Z"
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp3g/MCRC1aQ7uu5UhlAAAyIoQABLwi6E5TrVsVSw7rCe/5IAz\nb4fCXwxbC2wytigqwA0pCDWj+UPhVGsq5rQdkcyh44LZx2mKXRQfmLgKwqcFwK9e\nyUX54Icf56FU3UsoskROCMQAQrKuv2jM3YCbhCaifqbt81FtmFbAA9E4cKJ6O3iE\n/++0rxLAAV/6DyAMrlOzFsjIRJlzQAzHXEg38EecFM7g1IW/rEqfhJf4c21mTViW\nlr1SBDqWC/sdNr6yKifOTQQixXp86EC/PA+aF0zNncfPvDRxXhWS1BI89wadiSbV\nmu3QyqIBLFeVyMNCl5ZroKTONnmr2i9WLa/qlKrbU9kXI1Bqg9AsAZRXZ6uaSBKb\n63oytYEilgXxEmB2YAjfOWUnVGSJCV9B2KPIautG0TDoxIOVQYrqdWGvFaxataZP\nmHIDBuNXayWoVI4jScCgX+HGVYBqRPzBwerEyOTE/azdxedVJ5fw5i5YXUWhRaKY\nFNXKpPjYxIQBaVUxjWjBTqgXmJH7PDI3fs8QG2pNDywl6XKSHEsztBIX7fa+P+pC\nIINcFgYorVFn/L/HQB7xmNWJcIrMTbDNXwxnsBt5BIIfLbIqdxpOpK6oAzHOsajC\nOTycPdfNfCMTDR6wsRHRdD6CjH4jXYMnN53LXIzSkN2uzGYsldtnFqbEqNzYNsku\n/+/ksw9DpXFHJLnPIFds\n=3/98\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 2439975b7d0fd0774b3029afb58b7dffa799daee\nparent fff5152d4c865bf296d083fe9b2c2fa6de0cf3b0\nparent 964e3436f50e9919ee30929a2554982c18117be4\nauthor Mark Jerwin <136870415+jrwnnnn@users.noreply.github.com> 1776160716 +0800\ncommitter GitHub <noreply@github.com> 1776160716 +0800\n\nMerge pull request #20 from jrwnnnn/update_worker_name_to_scaffold\n\nUpdate name in Wrangler configuration file to match deployed Worker",
+        "verified_at": "2026-04-14T09:58:37Z"
       }
     },
-    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/ee34a2fdcdc7a8972123676af29630c6df4ea2f6",
-    "html_url": "https://github.com/jrwnnnn/rekord/commit/ee34a2fdcdc7a8972123676af29630c6df4ea2f6",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/ee34a2fdcdc7a8972123676af29630c6df4ea2f6/comments",
+    "url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/2115193c06f4e38e553e88d8057033163e9fbdea",
+    "html_url": "https://github.com/jrwnnnn/scaffold/commit/2115193c06f4e38e553e88d8057033163e9fbdea",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/2115193c06f4e38e553e88d8057033163e9fbdea/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fff5152d4c865bf296d083fe9b2c2fa6de0cf3b0",
+        "url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/fff5152d4c865bf296d083fe9b2c2fa6de0cf3b0",
+        "html_url": "https://github.com/jrwnnnn/scaffold/commit/fff5152d4c865bf296d083fe9b2c2fa6de0cf3b0"
+      },
+      {
+        "sha": "964e3436f50e9919ee30929a2554982c18117be4",
+        "url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/964e3436f50e9919ee30929a2554982c18117be4",
+        "html_url": "https://github.com/jrwnnnn/scaffold/commit/964e3436f50e9919ee30929a2554982c18117be4"
+      }
+    ],
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1
+    },
+    "files": [
+      {
+        "sha": "664eb070d84e22777cc698048b65268939d4ccfa",
+        "filename": "wrangler.json",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/2115193c06f4e38e553e88d8057033163e9fbdea/wrangler.json",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/2115193c06f4e38e553e88d8057033163e9fbdea/wrangler.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/wrangler.json?ref=2115193c06f4e38e553e88d8057033163e9fbdea",
+        "patch": "@@ -1,7 +1,7 @@\n {\n \t\"compatibility_date\": \"2026-04-01\",\n \t\"compatibility_flags\": [\"global_fetch_strictly_public\"],\n-\t\"name\": \"jrwnnnn\",\n+\t\"name\": \"scaffold\",\n \t\"main\": \"@astrojs/cloudflare/entrypoints/server\",\n \t\"assets\": {\n \t\t\"directory\": \"./dist\","
+      }
+    ]
+  },
+  {
+    "sha": "fff5152d4c865bf296d083fe9b2c2fa6de0cf3b0",
+    "node_id": "C_kwDORJSDNtoAKGZmZjUxNTJkNGM4NjViZjI5NmQwODNmZTliMmMyZmE2ZGUwY2YzYjA",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-04-14T09:56:22Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-04-14T09:56:22Z"
+      },
+      "message": "feat: Add Hello World",
+      "tree": {
+        "sha": "fcdc7d7371660988a831436f3f7e5762679155a8",
+        "url": "https://api.github.com/repos/jrwnnnn/scaffold/git/trees/fcdc7d7371660988a831436f3f7e5762679155a8"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/scaffold/git/commits/fff5152d4c865bf296d083fe9b2c2fa6de0cf3b0",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQH3/dX77Qz7E6Hjk19FSgSLXi8pyLW9UR478/6QR94p1H+5Tb5UM2HoXJDSKEXJh0y\nUjTWJqJfTc2e2YoFFmEgA=\n-----END SSH SIGNATURE-----",
+        "payload": "tree fcdc7d7371660988a831436f3f7e5762679155a8\nparent e69abab702e4043e9e65312afe1e9837d407623c\nauthor Mark Jerwin <136870415+jrwnnnn@users.noreply.github.com> 1776160582 +0800\ncommitter Mark Jerwin <136870415+jrwnnnn@users.noreply.github.com> 1776160582 +0800\n\nfeat: Add Hello World\n",
+        "verified_at": "2026-04-14T09:56:26Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/fff5152d4c865bf296d083fe9b2c2fa6de0cf3b0",
+    "html_url": "https://github.com/jrwnnnn/scaffold/commit/fff5152d4c865bf296d083fe9b2c2fa6de0cf3b0",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/fff5152d4c865bf296d083fe9b2c2fa6de0cf3b0/comments",
     "author": {
       "login": "jrwnnnn",
       "id": 136870415,
@@ -569,87 +299,341 @@
     },
     "parents": [
       {
-        "sha": "35c27459a90acb4ed426f6735c06caf44480381e",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/35c27459a90acb4ed426f6735c06caf44480381e",
-        "html_url": "https://github.com/jrwnnnn/rekord/commit/35c27459a90acb4ed426f6735c06caf44480381e"
+        "sha": "e69abab702e4043e9e65312afe1e9837d407623c",
+        "url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/e69abab702e4043e9e65312afe1e9837d407623c",
+        "html_url": "https://github.com/jrwnnnn/scaffold/commit/e69abab702e4043e9e65312afe1e9837d407623c"
       }
     ],
     "stats": {
-      "total": 1108,
-      "additions": 991,
-      "deletions": 117
+      "total": 2,
+      "additions": 1,
+      "deletions": 1
     },
     "files": [
       {
-        "sha": "3c478e97ce62ad3f4e078bb34b83d36d0cc04029",
+        "sha": "8f01fe2e2c6833f869d69aa088d22cf030c7b2dc",
+        "filename": "src/pages/index.astro",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/fff5152d4c865bf296d083fe9b2c2fa6de0cf3b0/src%2Fpages%2Findex.astro",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/fff5152d4c865bf296d083fe9b2c2fa6de0cf3b0/src%2Fpages%2Findex.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/src%2Fpages%2Findex.astro?ref=fff5152d4c865bf296d083fe9b2c2fa6de0cf3b0",
+        "patch": "@@ -4,5 +4,5 @@ import Layout from \"../layouts/Layout.astro\";\n ---\n \n <Layout title=\"Astro Scaffold\">\n-\t<main></main>\n+\t<main>Hello World</main>\n </Layout>"
+      }
+    ]
+  },
+  {
+    "sha": "e69abab702e4043e9e65312afe1e9837d407623c",
+    "node_id": "C_kwDORJSDNtoAKGU2OWFiYWI3MDJlNDA0M2U5ZTY1MzEyYWZlMWU5ODM3ZDQwNzYyM2M",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-04-14T09:55:54Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-04-14T09:55:54Z"
+      },
+      "message": "fix: Use absolute URL for meta image",
+      "tree": {
+        "sha": "02059ca9f1f1f8202d3fed0398a69fddfa3ccebe",
+        "url": "https://api.github.com/repos/jrwnnnn/scaffold/git/trees/02059ca9f1f1f8202d3fed0398a69fddfa3ccebe"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/scaffold/git/commits/e69abab702e4043e9e65312afe1e9837d407623c",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQPObUqlcI8IL9GRpV8yjvVa5u3LtR8fbykaFXaiHCZGF0Sbi4rMvhNa+4ZS7//rlq0\nw7QkuhYY1aDM9OmC53qAc=\n-----END SSH SIGNATURE-----",
+        "payload": "tree 02059ca9f1f1f8202d3fed0398a69fddfa3ccebe\nparent a954591f9fe4607b2ea15d4cadd94035b70f6fbf\nauthor Mark Jerwin <136870415+jrwnnnn@users.noreply.github.com> 1776160554 +0800\ncommitter Mark Jerwin <136870415+jrwnnnn@users.noreply.github.com> 1776160554 +0800\n\nfix: Use absolute URL for meta image\n",
+        "verified_at": "2026-04-14T09:56:26Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/e69abab702e4043e9e65312afe1e9837d407623c",
+    "html_url": "https://github.com/jrwnnnn/scaffold/commit/e69abab702e4043e9e65312afe1e9837d407623c",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/e69abab702e4043e9e65312afe1e9837d407623c/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a954591f9fe4607b2ea15d4cadd94035b70f6fbf",
+        "url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/a954591f9fe4607b2ea15d4cadd94035b70f6fbf",
+        "html_url": "https://github.com/jrwnnnn/scaffold/commit/a954591f9fe4607b2ea15d4cadd94035b70f6fbf"
+      }
+    ],
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1
+    },
+    "files": [
+      {
+        "sha": "f20b871ddfcc6d74733b4f6ce62b49f26c9168b0",
+        "filename": "src/layouts/Layout.astro",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/e69abab702e4043e9e65312afe1e9837d407623c/src%2Flayouts%2FLayout.astro",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/e69abab702e4043e9e65312afe1e9837d407623c/src%2Flayouts%2FLayout.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/src%2Flayouts%2FLayout.astro?ref=e69abab702e4043e9e65312afe1e9837d407623c",
+        "patch": "@@ -6,7 +6,7 @@ const {\n \tdescription = \"Hello! It's Jerwin! I'm a student based in Manila, PH. I build things for the web. My code is held together by duct tape and prayers. I spend more time customizing my VS Code theme than actually coding. If you see a bug, no you didn't.\",\n \trobots = \"index, follow\",\n \togType = \"website\",\n-\timage = \"meta/meta-image.jpg\"\n+\timage = \"https://scaffold.main-973.workers.dev/meta/meta-image.jpg\"\n } = Astro.props;\n ---\n "
+      }
+    ]
+  },
+  {
+    "sha": "a954591f9fe4607b2ea15d4cadd94035b70f6fbf",
+    "node_id": "C_kwDORJSDNtoAKGE5NTQ1OTFmOWZlNDYwN2IyZWExNWQ0Y2FkZDk0MDM1YjcwZjZmYmY",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "136870415+jrwnnnn@users.noreply.github.com",
+        "date": "2026-04-14T09:39:19Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-04-14T09:39:19Z"
+      },
+      "message": "Merge pull request #19 from jrwnnnn/adapter-migration\n\nAdapter migration",
+      "tree": {
+        "sha": "25a9a62ee7b4c179ca6d09868a9b645bb2e31f88",
+        "url": "https://api.github.com/repos/jrwnnnn/scaffold/git/trees/25a9a62ee7b4c179ca6d09868a9b645bb2e31f88"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/scaffold/git/commits/a954591f9fe4607b2ea15d4cadd94035b70f6fbf",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp3gtHCRC1aQ7uu5UhlAAAOCcQAKp01mf58kgRpcHzGJH3KV6o\n6PmCsBuubZjPCX+yOXjIjJWlDkXFNh0QZbgJuImGZrzTNKEIB4cq5w6DDv5qbhrM\nmaU6rKa3Qzxyy8Smr2b5DxVdEY1MUtvWmxbtJq12WVNHSj2SSwuyqINhQpLwmot/\n/8vxvrQJG/8qTPtNtlFeL8M73g+hIHIslDe3qVVR3kfOYy6NTMcRIK+JQf4dyI/6\nYyaQoiTTxl2OKfSvLuhEreiJeJvtb7M5ORhnyxxePQQH0XyDJkuZN5HwG9WR9xhB\nt9HSiHh7k+H5jrWHTB/MLGMexFHcG/xGv1QvaJi+my3Rmpxgw9qtpHyei0EOyb0U\nml7FhI0Dht+Sy+51m+rKK6mvaUE+NC7SI2+Nm6Znlmjh4Z0rWeaAVHzCHHrxaenc\nXplPc5wdAMlAxRGr5NJLIM6EX5/hKCSyeK8EZnT+F+qelHlVuGDIT45zT3tXaMko\nko99mrHBhGYc1U0gvrXoUAKEAbMjA7m1xXdb5PLoRON5TVFKNEozfkiPGcbtTGPs\nJLxtAOc1KaVgAa/rhTCydUcU+NVw4aywUZyxUVpXZrdv144tESI0b9IYBJq83H6I\npXRoM8FI95WnqpsKXu62o3C9Ks6A+ppGsZdNzfLb+up3PzsOhyfCDZfgY7gM+0ub\nV/Rr9BDY1uOE/KB5MpWS\n=spJc\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 25a9a62ee7b4c179ca6d09868a9b645bb2e31f88\nparent ffc11d7d945053a5c7514a50bfe2844d4592db92\nparent 2764956ad31d20c181e2abe4a37b9f8e0b010ce2\nauthor Mark Jerwin <136870415+jrwnnnn@users.noreply.github.com> 1776159559 +0800\ncommitter GitHub <noreply@github.com> 1776159559 +0800\n\nMerge pull request #19 from jrwnnnn/adapter-migration\n\nAdapter migration",
+        "verified_at": "2026-04-14T09:39:20Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/a954591f9fe4607b2ea15d4cadd94035b70f6fbf",
+    "html_url": "https://github.com/jrwnnnn/scaffold/commit/a954591f9fe4607b2ea15d4cadd94035b70f6fbf",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/a954591f9fe4607b2ea15d4cadd94035b70f6fbf/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ffc11d7d945053a5c7514a50bfe2844d4592db92",
+        "url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/ffc11d7d945053a5c7514a50bfe2844d4592db92",
+        "html_url": "https://github.com/jrwnnnn/scaffold/commit/ffc11d7d945053a5c7514a50bfe2844d4592db92"
+      },
+      {
+        "sha": "2764956ad31d20c181e2abe4a37b9f8e0b010ce2",
+        "url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/2764956ad31d20c181e2abe4a37b9f8e0b010ce2",
+        "html_url": "https://github.com/jrwnnnn/scaffold/commit/2764956ad31d20c181e2abe4a37b9f8e0b010ce2"
+      }
+    ],
+    "stats": {
+      "total": 17323,
+      "additions": 8673,
+      "deletions": 8650
+    },
+    "files": [
+      {
+        "sha": "47db2ad4a4b72381c88f4c84e4a2c2c38843f3f3",
+        "filename": ".dev.vars.example",
+        "status": "renamed",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/a954591f9fe4607b2ea15d4cadd94035b70f6fbf/.dev.vars.example",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/a954591f9fe4607b2ea15d4cadd94035b70f6fbf/.dev.vars.example",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/.dev.vars.example?ref=a954591f9fe4607b2ea15d4cadd94035b70f6fbf",
+        "previous_filename": ".env.example"
+      },
+      {
+        "sha": "f0ffd5eebdc527795dec988c98e00b8e9349b353",
+        "filename": ".github/workflows/main.yml",
+        "status": "modified",
+        "additions": 14,
+        "deletions": 14,
+        "changes": 28,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/a954591f9fe4607b2ea15d4cadd94035b70f6fbf/.github%2Fworkflows%2Fmain.yml",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/a954591f9fe4607b2ea15d4cadd94035b70f6fbf/.github%2Fworkflows%2Fmain.yml",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/.github%2Fworkflows%2Fmain.yml?ref=a954591f9fe4607b2ea15d4cadd94035b70f6fbf",
+        "patch": "@@ -29,22 +29,22 @@ jobs:\n       - run: npm ci\n       - run: npm run typecheck\n \n-  # codeql:\n-  #   runs-on: ubuntu-latest\n-  #   permissions:\n-  #     security-events: write\n-  #     actions: read\n-  #     contents: read\n-  #   steps:\n-  #     - uses: actions/checkout@v4\n+  codeql:\n+    runs-on: ubuntu-latest\n+    permissions:\n+      security-events: write\n+      actions: read\n+      contents: read\n+    steps:\n+      - uses: actions/checkout@v4\n \n-  #     - name: Initialize CodeQL\n-  #       uses: github/codeql-action/init@v4\n-  #       with:\n-  #         languages: javascript-typescript\n+      - name: Initialize CodeQL\n+        uses: github/codeql-action/init@v4\n+        with:\n+          languages: javascript-typescript\n \n-  #     - name: Perform Analysis\n-  #       uses: github/codeql-action/analyze@v4\n+      - name: Perform Analysis\n+        uses: github/codeql-action/analyze@v4\n \n   build:\n     needs: [lint, typecheck]"
+      },
+      {
+        "sha": "d2b7a2ce43b218c6c34ee0b01b0922dafa2b9c89",
         "filename": ".gitignore",
         "status": "modified",
-        "additions": 3,
+        "additions": 4,
         "deletions": 0,
-        "changes": 3,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/ee34a2fdcdc7a8972123676af29630c6df4ea2f6/.gitignore",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/ee34a2fdcdc7a8972123676af29630c6df4ea2f6/.gitignore",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/.gitignore?ref=ee34a2fdcdc7a8972123676af29630c6df4ea2f6",
-        "patch": "@@ -7,6 +7,9 @@ dist/\n # Vercel build cache\n .vercel/\n \n+# Wrangeler configs\n+.wrangler/\n+\n # dependencies\n node_modules/\n "
+        "changes": 4,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/a954591f9fe4607b2ea15d4cadd94035b70f6fbf/.gitignore",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/a954591f9fe4607b2ea15d4cadd94035b70f6fbf/.gitignore",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/.gitignore?ref=a954591f9fe4607b2ea15d4cadd94035b70f6fbf",
+        "patch": "@@ -4,6 +4,9 @@ dist/\n # generated types\n .astro/\n \n+# wrangler files\n+.wrangler/\n+\n # dependencies\n node_modules/\n \n@@ -19,6 +22,7 @@ pnpm-debug.log*\n # environment variables\n .env\n .env.production\n+.dev.vars\n \n # private keys and certificates\n *.key"
       },
       {
-        "sha": "d996b89a397581e7b7e0c65d5faac0ca55629b9d",
+        "sha": "62e5b8fc2fc7251ca7acdf15d37412e427f91fb1",
         "filename": "astro.config.mjs",
         "status": "modified",
-        "additions": 10,
-        "deletions": 5,
-        "changes": 15,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/ee34a2fdcdc7a8972123676af29630c6df4ea2f6/astro.config.mjs",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/ee34a2fdcdc7a8972123676af29630c6df4ea2f6/astro.config.mjs",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/astro.config.mjs?ref=ee34a2fdcdc7a8972123676af29630c6df4ea2f6",
-        "patch": "@@ -2,11 +2,16 @@\n import { defineConfig } from \"astro/config\";\n import tailwindcss from \"@tailwindcss/vite\";\n \n+import cloudflare from \"@astrojs/cloudflare\";\n+\n // https://astro.build/config\n export default defineConfig({\n-\tsite: \"https://jrwnnnn.me\",\n-\tvite: {\n-\t\tplugins: [tailwindcss()],\n+  site: \"https://jrwnnnn.me\",\n+\n+  vite: {\n+      plugins: [tailwindcss()],\n \t},\n-\toutput: \"static\",\n-});\n+\n+  output: \"static\",\n+  adapter: cloudflare(),\n+});\n\\ No newline at end of file"
+        "additions": 9,
+        "deletions": 16,
+        "changes": 25,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/a954591f9fe4607b2ea15d4cadd94035b70f6fbf/astro.config.mjs",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/a954591f9fe4607b2ea15d4cadd94035b70f6fbf/astro.config.mjs",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/astro.config.mjs?ref=a954591f9fe4607b2ea15d4cadd94035b70f6fbf",
+        "patch": "@@ -1,20 +1,13 @@\n // @ts-check\n-import { defineConfig } from 'astro/config';\n+import { defineConfig } from \"astro/config\";\n import tailwindcss from \"@tailwindcss/vite\";\n-import node from \"@astrojs/node\";\n-import vercel from \"@astrojs/vercel\";\n+import cloudflare from \"@astrojs/cloudflare\";\n \n-// https://astro.build/config\n export default defineConfig({\n-  site: \"https://jrwnnnn.me\",\n-  vite: {\n-    plugins: [tailwindcss()],\n-  },\n-  output: 'server',\n-  adapter:\n-\t\tprocess.env.VERCEL === \"1\"\n-\t\t\t? vercel({})\n-\t\t\t: node({\n-\t\t\t\t\tmode: \"standalone\",\n-\t\t\t\t}),\n-});\n\\ No newline at end of file\n+\tsite: \"https://jrwnnnn.me\",\n+\tvite: {\n+\t\tplugins: [tailwindcss()],\n+\t},\n+\toutput: \"server\",\n+\tadapter: cloudflare(),\n+});"
       },
       {
-        "sha": "33146d8353058a4b2ebb3ae0fdc2d32913e2ee40",
+        "sha": "dc28f3ebeb06633808d6cd86b27f01e6b8c8f486",
         "filename": "package-lock.json",
         "status": "modified",
-        "additions": 906,
-        "deletions": 69,
-        "changes": 975,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/ee34a2fdcdc7a8972123676af29630c6df4ea2f6/package-lock.json",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/ee34a2fdcdc7a8972123676af29630c6df4ea2f6/package-lock.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/package-lock.json?ref=ee34a2fdcdc7a8972123676af29630c6df4ea2f6",
-        "patch": "@@ -8,14 +8,16 @@\n \t\t\t\"name\": \"jrwnnnn\",\n \t\t\t\"version\": \"0.0.1\",\n \t\t\t\"dependencies\": {\n+\t\t\t\t\"@astrojs/cloudflare\": \"^13.1.9\",\n \t\t\t\t\"@pdf-lib/fontkit\": \"^1.1.1\",\n \t\t\t\t\"@tailwindcss/vite\": \"^4.1.18\",\n \t\t\t\t\"astro\": \"^6.1.1\",\n \t\t\t\t\"file-saver\": \"^2.0.5\",\n \t\t\t\t\"jszip\": \"^3.10.1\",\n \t\t\t\t\"papaparse\": \"^5.5.3\",\n \t\t\t\t\"pdf-lib\": \"^1.17.1\",\n-\t\t\t\t\"tailwindcss\": \"^4.1.18\"\n+\t\t\t\t\"tailwindcss\": \"^4.1.18\",\n+\t\t\t\t\"wrangler\": \"^4.82.2\"\n \t\t\t},\n \t\t\t\"devDependencies\": {\n \t\t\t\t\"@astrojs/check\": \"^0.9.8\",\n@@ -64,14 +66,6 @@\n \t\t\t\t\"url\": \"https://paulmillr.com/funding/\"\n \t\t\t}\n \t\t},\n-\t\t\"node_modules/@astrojs/check/node_modules/kleur\": {\n-\t\t\t\"version\": \"4.1.5\",\n-\t\t\t\"dev\": true,\n-\t\t\t\"license\": \"MIT\",\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \">=6\"\n-\t\t\t}\n-\t\t},\n \t\t\"node_modules/@astrojs/check/node_modules/readdirp\": {\n \t\t\t\"version\": \"4.1.2\",\n \t\t\t\"dev\": true,\n@@ -84,6 +78,24 @@\n \t\t\t\t\"url\": \"https://paulmillr.com/funding/\"\n \t\t\t}\n \t\t},\n+\t\t\"node_modules/@astrojs/cloudflare\": {\n+\t\t\t\"version\": \"13.1.9\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@astrojs/cloudflare/-/cloudflare-13.1.9.tgz\",\n+\t\t\t\"integrity\": \"sha512-CExzMpP0GOT8Tb9mlJ1kGXv30fN/bRurf4F/sTt+wn7A2T1lROjLqgxceavzvt07kVd9XpSXyDVDCkhM1N7m5g==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"dependencies\": {\n+\t\t\t\t\"@astrojs/internal-helpers\": \"0.8.0\",\n+\t\t\t\t\"@astrojs/underscore-redirects\": \"1.0.3\",\n+\t\t\t\t\"@cloudflare/vite-plugin\": \"^1.25.6\",\n+\t\t\t\t\"piccolore\": \"^0.1.3\",\n+\t\t\t\t\"tinyglobby\": \"^0.2.15\",\n+\t\t\t\t\"vite\": \"^7.3.1\"\n+\t\t\t},\n+\t\t\t\"peerDependencies\": {\n+\t\t\t\t\"astro\": \"^6.0.0\",\n+\t\t\t\t\"wrangler\": \"^4.61.1\"\n+\t\t\t}\n+\t\t},\n \t\t\"node_modules/@astrojs/compiler\": {\n \t\t\t\"version\": \"2.13.1\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@astrojs/compiler/-/compiler-2.13.1.tgz\",\n@@ -202,6 +214,12 @@\n \t\t\t\t\"node\": \"18.20.8 || ^20.3.0 || >=22.0.0\"\n \t\t\t}\n \t\t},\n+\t\t\"node_modules/@astrojs/underscore-redirects\": {\n+\t\t\t\"version\": \"1.0.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@astrojs/underscore-redirects/-/underscore-redirects-1.0.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-cxnGSw+sJigBLdX4TMSZKkzV6C3gMLJMucDk2W+n281Xhie68T2/9f1+1NMNDCZsc5i0FED7Qt5I10g2O9wtZg==\",\n+\t\t\t\"license\": \"MIT\"\n+\t\t},\n \t\t\"node_modules/@astrojs/yaml2ts\": {\n \t\t\t\"version\": \"0.2.3\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@astrojs/yaml2ts/-/yaml2ts-0.2.3.tgz\",\n@@ -289,6 +307,149 @@\n \t\t\t\t\"sisteransi\": \"^1.0.5\"\n \t\t\t}\n \t\t},\n+\t\t\"node_modules/@cloudflare/kv-asset-handler\": {\n+\t\t\t\"version\": \"0.4.2\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@cloudflare/kv-asset-handler/-/kv-asset-handler-0.4.2.tgz\",\n+\t\t\t\"integrity\": \"sha512-SIOD2DxrRRwQ+jgzlXCqoEFiKOFqaPjhnNTGKXSRLvp1HiOvapLaFG2kEr9dYQTYe8rKrd9uvDUzmAITeNyaHQ==\",\n+\t\t\t\"license\": \"MIT OR Apache-2.0\",\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18.0.0\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/@cloudflare/unenv-preset\": {\n+\t\t\t\"version\": \"2.16.0\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@cloudflare/unenv-preset/-/unenv-preset-2.16.0.tgz\",\n+\t\t\t\"integrity\": \"sha512-8ovsRpwzPoEqPUzoErAYVv8l3FMZNeBVQfJTvtzP4AgLSRGZISRfuChFxHWUQd3n6cnrwkuTGxT+2cGo8EsyYg==\",\n+\t\t\t\"license\": \"MIT OR Apache-2.0\",\n+\t\t\t\"peerDependencies\": {\n+\t\t\t\t\"unenv\": \"2.0.0-rc.24\",\n+\t\t\t\t\"workerd\": \"1.20260301.1 || ~1.20260302.1 || ~1.20260303.1 || ~1.20260304.1 || >1.20260305.0 <2.0.0-0\"\n+\t\t\t},\n+\t\t\t\"peerDependenciesMeta\": {\n+\t\t\t\t\"workerd\": {\n+\t\t\t\t\t\"optional\": true\n+\t\t\t\t}\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/@cloudflare/vite-plugin\": {\n+\t\t\t\"version\": \"1.32.2\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@cloudflare/vite-plugin/-/vite-plugin-1.32.2.tgz\",\n+\t\t\t\"integrity\": \"sha512-sEI/jusfDvzHIL4oiBBV5iUxAXfTRvguecIDWQ/AxBgEjGO1ZslHOEy4rlxfgqrdRWtq0TM9m3oC+hT32hajEg==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"dependencies\": {\n+\t\t\t\t\"@cloudflare/unenv-preset\": \"2.16.0\",\n+\t\t\t\t\"miniflare\": \"4.20260410.0\",\n+\t\t\t\t\"unenv\": \"2.0.0-rc.24\",\n+\t\t\t\t\"wrangler\": \"4.82.2\",\n+\t\t\t\t\"ws\": \"8.18.0\"\n+\t\t\t},\n+\t\t\t\"peerDependencies\": {\n+\t\t\t\t\"vite\": \"^6.1.0 || ^7.0.0 || ^8.0.0\",\n+\t\t\t\t\"wrangler\": \"^4.82.2\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/@cloudflare/workerd-darwin-64\": {\n+\t\t\t\"version\": \"1.20260410.1\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@cloudflare/workerd-darwin-64/-/workerd-darwin-64-1.20260410.1.tgz\",\n+\t\t\t\"integrity\": \"sha512-0sh6xPmCKUfv/lUklP1dfyeKxCuEZGS0HeduxnucL8ECxSgAdWTOD42h/lQTwZCIiWtyHB+ZNB9hsS2Mlf0tMQ==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"x64\"\n+\t\t\t],\n+\t\t\t\"license\": \"Apache-2.0\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"darwin\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=16\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/@cloudflare/workerd-darwin-arm64\": {\n+\t\t\t\"version\": \"1.20260410.1\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@cloudflare/workerd-darwin-arm64/-/workerd-darwin-arm64-1.20260410.1.tgz\",\n+\t\t\t\"integrity\": \"sha512-r2On29gPvlk/eiH/OpeUT23xoB8W8D1PHr8lul5nyxElLqvh3yNxZUnJWrbcOl+ubfrvw7+jFwgopMe17xyf0g==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"arm64\"\n+\t\t\t],\n+\t\t\t\"license\": \"Apache-2.0\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"darwin\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=16\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/@cloudflare/workerd-linux-64\": {\n+\t\t\t\"version\": \"1.20260410.1\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@cloudflare/workerd-linux-64/-/workerd-linux-64-1.20260410.1.tgz\",\n+\t\t\t\"integrity\": \"sha512-qWORRcAzPZeHJjrcYBNZTN6Y9l+iZQUz4KBdWbNrM6My4CpNrXS5kErPR373vG//5QPaDGwMXgBqyn9xfzarJQ==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"x64\"\n+\t\t\t],\n+\t\t\t\"license\": \"Apache-2.0\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"linux\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=16\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/@cloudflare/workerd-linux-arm64\": {\n+\t\t\t\"version\": \"1.20260410.1\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@cloudflare/workerd-linux-arm64/-/workerd-linux-arm64-1.20260410.1.tgz\",\n+\t\t\t\"integrity\": \"sha512-jQfuHL4mnGDFyomSS3JNs9TpTvCu6Vzz2QSNCfJRstMzTICUFLMc4Vp/xKK+M5xkb0PoAu/G0hHx7jrxB2j+OQ==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"arm64\"\n+\t\t\t],\n+\t\t\t\"license\": \"Apache-2.0\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"linux\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=16\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/@cloudflare/workerd-windows-64\": {\n+\t\t\t\"version\": \"1.20260410.1\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@cloudflare/workerd-windows-64/-/workerd-windows-64-1.20260410.1.tgz\",\n+\t\t\t\"integrity\": \"sha512-h8q/nbheDqpknY7AAOz19MuQkZAR1/bnoZnKipyeUPXt5No+y6HlTtva9Bohx5Fhc1MW2CX2MQVdb55qtkkqZQ==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"x64\"\n+\t\t\t],\n+\t\t\t\"license\": \"Apache-2.0\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"win32\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=16\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/@cspotcode/source-map-support\": {\n+\t\t\t\"version\": \"0.8.1\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@cspotcode/source-map-support/-/source-map-support-0.8.1.tgz\",\n+\t\t\t\"integrity\": \"sha512-IchNf6dN4tHoMFIn/7OE8LWZ19Y6q/67Bmf6vnGREv8RSbBVb9LPJxEcnwrcwX6ixSvaiGoomAUvu4YSxXrVgw==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"dependencies\": {\n+\t\t\t\t\"@jridgewell/trace-mapping\": \"0.3.9\"\n+\t\t\t},\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=12\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/@cspotcode/source-map-support/node_modules/@jridgewell/trace-mapping\": {\n+\t\t\t\"version\": \"0.3.9\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.9.tgz\",\n+\t\t\t\"integrity\": \"sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"dependencies\": {\n+\t\t\t\t\"@jridgewell/resolve-uri\": \"^3.0.3\",\n+\t\t\t\t\"@jridgewell/sourcemap-codec\": \"^1.4.10\"\n+\t\t\t}\n+\t\t},\n \t\t\"node_modules/@emmetio/abbreviation\": {\n \t\t\t\"version\": \"2.3.3\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@emmetio/abbreviation/-/abbreviation-2.3.3.tgz\",\n@@ -936,7 +1097,6 @@\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@img/colour/-/colour-1.1.0.tgz\",\n \t\t\t\"integrity\": \"sha512-Td76q7j57o/tLVdgS746cYARfSyxk8iEfRxewL9h4OMzYhbW4TAcppl0mT4eyqXddh6L/jwoM75mo7ixa/pCeQ==\",\n \t\t\t\"license\": \"MIT\",\n-\t\t\t\"optional\": true,\n \t\t\t\"engines\": {\n \t\t\t\t\"node\": \">=18\"\n \t\t\t}\n@@ -1508,6 +1668,32 @@\n \t\t\t\t\"url\": \"https://opencollective.com/pkgr\"\n \t\t\t}\n \t\t},\n+\t\t\"node_modules/@poppinss/colors\": {\n+\t\t\t\"version\": \"4.1.6\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@poppinss/colors/-/colors-4.1.6.tgz\",\n+\t\t\t\"integrity\": \"sha512-H9xkIdFswbS8n1d6vmRd8+c10t2Qe+rZITbbDHHkQixH5+2x1FDGmi/0K+WgWiqQFKPSlIYB7jlH6Kpfn6Fleg==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"dependencies\": {\n+\t\t\t\t\"kleur\": \"^4.1.5\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/@poppinss/dumper\": {\n+\t\t\t\"version\": \"0.6.5\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@poppinss/dumper/-/dumper-0.6.5.tgz\",\n+\t\t\t\"integrity\": \"sha512-NBdYIb90J7LfOI32dOewKI1r7wnkiH6m920puQ3qHUeZkxNkQiFnXVWoE6YtFSv6QOiPPf7ys6i+HWWecDz7sw==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"dependencies\": {\n+\t\t\t\t\"@poppinss/colors\": \"^4.1.5\",\n+\t\t\t\t\"@sindresorhus/is\": \"^7.0.2\",\n+\t\t\t\t\"supports-color\": \"^10.0.0\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/@poppinss/exception\": {\n+\t\t\t\"version\": \"1.2.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@poppinss/exception/-/exception-1.2.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-dCED+QRChTVatE9ibtoaxc+WkdzOSjYTKi/+uacHWIsfodVfpsueo3+DKpgU5Px8qXjgmXkSvhXvSCz3fnP9lw==\",\n+\t\t\t\"license\": \"MIT\"\n+\t\t},\n \t\t\"node_modules/@rollup/pluginutils\": {\n \t\t\t\"version\": \"5.3.0\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@rollup/pluginutils/-/pluginutils-5.3.0.tgz\",\n@@ -1955,6 +2141,24 @@\n \t\t\t\"integrity\": \"sha512-83yeghZ2xxin3Nj8z1NMd/NCuca+gsYXswywDy5bHvwlWL8tpTQmzGeUuHd9FC3E/SBEMvzJRwWEOz5gGes9Qg==\",\n \t\t\t\"license\": \"MIT\"\n \t\t},\n+\t\t\"node_modules/@sindresorhus/is\": {\n+\t\t\t\"version\": \"7.2.0\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@sindresorhus/is/-/is-7.2.0.tgz\",\n+\t\t\t\"integrity\": \"sha512-P1Cz1dWaFfR4IR+U13mqqiGsLFf1KbayybWwdd2vfctdV6hDpUkgCY0nKOLLTMSoRd/jJNjtbqzf13K8DCCXQw==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t},\n+\t\t\t\"funding\": {\n+\t\t\t\t\"url\": \"https://github.com/sindresorhus/is?sponsor=1\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/@speed-highlight/core\": {\n+\t\t\t\"version\": \"1.2.15\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@speed-highlight/core/-/core-1.2.15.tgz\",\n+\t\t\t\"integrity\": \"sha512-BMq1K3DsElxDWawkX6eLg9+CKJrTVGCBAWVuHXVUV2u0s2711qiChLSId6ikYPfxhdYocLNt3wWwSvDiTvFabw==\",\n+\t\t\t\"license\": \"CC0-1.0\"\n+\t\t},\n \t\t\"node_modules/@tailwindcss/node\": {\n \t\t\t\"version\": \"4.1.18\",\n \t\t\t\"license\": \"MIT\",\n@@ -2579,16 +2783,6 @@\n \t\t\t\"integrity\": \"sha512-WmoN8qaIAo7WTYWbAZuG8PYEhn5fkz7dZrqTBZ7dtt//lL2Gwms1IcnQ5yHqjDfX8Ft5j4YzDM23f87zBfDe9g==\",\n \t\t\t\"license\": \"ISC\"\n \t\t},\n-\t\t\"node_modules/@vercel/oidc\": {\n-\t\t\t\"version\": \"3.2.0\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/@vercel/oidc/-/oidc-3.2.0.tgz\",\n-\t\t\t\"integrity\": \"sha512-UycprH3T6n3jH0k44NHMa7pnFHGu/N05MjojYr+Mc6I7obkoLIJujSWwin1pCvdy/eOxrI/l3uDLQsmcrOb4ug==\",\n-\t\t\t\"license\": \"Apache-2.0\",\n-\t\t\t\"optional\": true,\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \">= 20\"\n-\t\t\t}\n-\t\t},\n \t\t\"node_modules/@volar/kit\": {\n \t\t\t\"version\": \"2.4.28\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@volar/kit/-/kit-2.4.28.tgz\",\n@@ -2976,6 +3170,12 @@\n \t\t\t\t\"node\": \"18 || 20 || >=22\"\n \t\t\t}\n \t\t},\n+\t\t\"node_modules/blake3-wasm\": {\n+\t\t\t\"version\": \"2.1.5\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/blake3-wasm/-/blake3-wasm-2.1.5.tgz\",\n+\t\t\t\"integrity\": \"sha512-F1+K8EbfOZE49dtoPtmxUQrpXaBIl3ICvasLh+nJta0xkz+9kF/7uet9fLnwKqhDrmj6g+6K3Tw9yQPUg2ka5g==\",\n+\t\t\t\"license\": \"MIT\"\n+\t\t},\n \t\t\"node_modules/boolbase\": {\n \t\t\t\"version\": \"1.0.0\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/boolbase/-/boolbase-1.0.0.tgz\",\n@@ -3550,6 +3750,15 @@\n \t\t\t\t\"url\": \"https://github.com/fb55/entities?sponsor=1\"\n \t\t\t}\n \t\t},\n+\t\t\"node_modules/error-stack-parser-es\": {\n+\t\t\t\"version\": \"1.0.5\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/error-stack-parser-es/-/error-stack-parser-es-1.0.5.tgz\",\n+\t\t\t\"integrity\": \"sha512-5qucVt2XcuGMcEGgWI7i+yZpmpByQ8J1lHhcL7PwqCwu9FPP3VUXzT4ltHe5i2z9dePwEHcDVOAfSnHsOlCXRA==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"funding\": {\n+\t\t\t\t\"url\": \"https://github.com/sponsors/antfu\"\n+\t\t\t}\n+\t\t},\n \t\t\"node_modules/es-module-lexer\": {\n \t\t\t\"version\": \"2.0.0\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/es-module-lexer/-/es-module-lexer-2.0.0.tgz\",\n@@ -4468,6 +4677,15 @@\n \t\t\t\t\"json-buffer\": \"3.0.1\"\n \t\t\t}\n \t\t},\n+\t\t\"node_modules/kleur\": {\n+\t\t\t\"version\": \"4.1.5\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/kleur/-/kleur-4.1.5.tgz\",\n+\t\t\t\"integrity\": \"sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=6\"\n+\t\t\t}\n+\t\t},\n \t\t\"node_modules/levn\": {\n \t\t\t\"version\": \"0.4.1\",\n \t\t\t\"dev\": true,\n@@ -5622,6 +5840,26 @@\n \t\t\t\t\"url\": \"https://github.com/sponsors/jonschlinkert\"\n \t\t\t}\n \t\t},\n+\t\t\"node_modules/miniflare\": {\n+\t\t\t\"version\": \"4.20260410.0\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/miniflare/-/miniflare-4.20260410.0.tgz\",\n+\t\t\t\"integrity\": \"sha512-94LEU8d+XPVGp18eW4+bu1v7Tnq7srhqWMIsrx2jhSkdbTnGqg1I613R0GKY4eygBYl9MbqXEhzK/bczJb6uMg==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"dependencies\": {\n+\t\t\t\t\"@cspotcode/source-map-support\": \"0.8.1\",\n+\t\t\t\t\"sharp\": \"^0.34.5\",\n+\t\t\t\t\"undici\": \"7.24.4\",\n+\t\t\t\t\"workerd\": \"1.20260410.1\",\n+\t\t\t\t\"ws\": \"8.18.0\",\n+\t\t\t\t\"youch\": \"4.1.0-beta.10\"\n+\t\t\t},\n+\t\t\t\"bin\": {\n+\t\t\t\t\"miniflare\": \"bootstrap.js\"\n+\t\t\t},\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18.0.0\"\n+\t\t\t}\n+\t\t},\n \t\t\"node_modules/minimatch\": {\n \t\t\t\"version\": \"10.2.4\",\n \t\t\t\"dev\": true,\n@@ -5945,6 +6183,18 @@\n \t\t\t\t\"node\": \">=8\"\n \t\t\t}\n \t\t},\n+\t\t\"node_modules/path-to-regexp\": {\n+\t\t\t\"version\": \"6.3.0\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-6.3.0.tgz\",\n+\t\t\t\"integrity\": \"sha512-Yhpw4T9C6hPpgPeA28us07OJeqZ5EzQTkbfwuhsUg0c237RomFoETJgmp2sa3F/41gfLE6G5cqcYwznmeEeOlQ==\",\n+\t\t\t\"license\": \"MIT\"\n+\t\t},\n+\t\t\"node_modules/pathe\": {\n+\t\t\t\"version\": \"2.0.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/pathe/-/pathe-2.0.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-WUjGcAqP1gQacoQe+OBJsFA7Ld4DyXuUIjZ5cc75cLHvJ7dtNsTugphxIADwspS+AraAUePCKrSVtPLFj/F88w==\",\n+\t\t\t\"license\": \"MIT\"\n+\t\t},\n \t\t\"node_modules/pdf-lib\": {\n \t\t\t\"version\": \"1.17.1\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/pdf-lib/-/pdf-lib-1.17.1.tgz\",\n@@ -6603,7 +6853,6 @@\n \t\t\t\"integrity\": \"sha512-Ou9I5Ft9WNcCbXrU9cMgPBcCK8LiwLqcbywW3t4oDV37n1pzpuNLsYiAV8eODnjbtQlSDwZ2cUEeQz4E54Hltg==\",\n \t\t\t\"hasInstallScript\": true,\n \t\t\t\"license\": \"Apache-2.0\",\n-\t\t\t\"optional\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@img/colour\": \"^1.0.0\",\n \t\t\t\t\"detect-libc\": \"^2.1.2\",\n@@ -6746,6 +6995,18 @@\n \t\t\t\t\"s.color\": \"0.0.15\"\n \t\t\t}\n \t\t},\n+\t\t\"node_modules/supports-color\": {\n+\t\t\t\"version\": \"10.2.2\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/supports-color/-/supports-color-10.2.2.tgz\",\n+\t\t\t\"integrity\": \"sha512-SS+jx45GF1QjgEXQx4NJZV9ImqmO2NPz5FNsIHrsDjh2YsHnawpan7SNQ1o8NuhrbHZy9AZhIoCUiCeaW/C80g==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t},\n+\t\t\t\"funding\": {\n+\t\t\t\t\"url\": \"https://github.com/chalk/supports-color?sponsor=1\"\n+\t\t\t}\n+\t\t},\n \t\t\"node_modules/svgo\": {\n \t\t\t\"version\": \"4.0.1\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/svgo/-/svgo-4.0.1.tgz\",\n@@ -6990,13 +7251,32 @@\n \t\t\t\"integrity\": \"sha512-Ql87qFHB3s/De2ClA9e0gsnS6zXG27SkTiSJwjCc9MebbfapQfuPzumMIUMi38ezPZVNFcHI9sUIepeQfw8J8Q==\",\n \t\t\t\"license\": \"MIT\"\n \t\t},\n+\t\t\"node_modules/undici\": {\n+\t\t\t\"version\": \"7.24.4\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/undici/-/undici-7.24.4.tgz\",\n+\t\t\t\"integrity\": \"sha512-BM/JzwwaRXxrLdElV2Uo6cTLEjhSb3WXboncJamZ15NgUURmvlXvxa6xkwIOILIjPNo9i8ku136ZvWV0Uly8+w==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=20.18.1\"\n+\t\t\t}\n+\t\t},\n \t\t\"node_modules/undici-types\": {\n \t\t\t\"version\": \"7.18.2\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/undici-types/-/undici-types-7.18.2.tgz\",\n \t\t\t\"integrity\": \"sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w==\",\n \t\t\t\"devOptional\": true,\n \t\t\t\"license\": \"MIT\"\n \t\t},\n+\t\t\"node_modules/unenv\": {\n+\t\t\t\"version\": \"2.0.0-rc.24\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/unenv/-/unenv-2.0.0-rc.24.tgz\",\n+\t\t\t\"integrity\": \"sha512-i7qRCmY42zmCwnYlh9H2SvLEypEFGye5iRmEMKjcGi7zk9UquigRjFtTLz0TYqr0ZGLZhaMHl/foy1bZR+Cwlw==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n+\t\t\t\"dependencies\": {\n+\t\t\t\t\"pathe\": \"^2.0.3\"\n+\t\t\t}\n+\t\t},\n \t\t\"node_modules/unified\": {\n \t\t\t\"version\": \"11.0.5\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/unified/-/unified-11.0.5.tgz\",\n@@ -7690,65 +7970,599 @@\n \t\t\t\t\"node\": \">=0.10.0\"\n \t\t\t}\n \t\t},\n-\t\t\"node_modules/xxhash-wasm\": {\n-\t\t\t\"version\": \"1.1.0\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/xxhash-wasm/-/xxhash-wasm-1.1.0.tgz\",\n-\t\t\t\"integrity\": \"sha512-147y/6YNh+tlp6nd/2pWq38i9h6mz/EuQ6njIrmW8D1BS5nCqs0P6DG+m6zTGnNz5I+uhZ0SHxBs9BsPrwcKDA==\",\n-\t\t\t\"license\": \"MIT\"\n-\t\t},\n-\t\t\"node_modules/y18n\": {\n-\t\t\t\"version\": \"5.0.8\",\n-\t\t\t\"dev\": true,\n-\t\t\t\"license\": \"ISC\",\n+\t\t\"node_modules/workerd\": {\n+\t\t\t\"version\": \"1.20260410.1\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/workerd/-/workerd-1.20260410.1.tgz\",\n+\t\t\t\"integrity\": \"sha512-T/GRD6Y5vN9g4CnGmOlfST1w7bj+1IjRFvX0K7CodZPJuPVPNPGhz8Wppah0WdT6A7I8Kad3zgZ2OkDdWtENrg==\",\n+\t\t\t\"hasInstallScript\": true,\n+\t\t\t\"license\": \"Apache-2.0\",\n+\t\t\t\"peer\": true,\n+\t\t\t\"bin\": {\n+\t\t\t\t\"workerd\": \"bin/workerd\"\n+\t\t\t},\n \t\t\t\"engines\": {\n-\t\t\t\t\"node\": \">=10\"\n-\t\t\t}\n-\t\t},\n-\t\t\"node_modules/yaml\": {\n-\t\t\t\"version\": \"2.8.3\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/yaml/-/yaml-2.8.3.tgz\",\n-\t\t\t\"integrity\": \"sha512-AvbaCLOO2Otw/lW5bmh9d/WEdcDFdQp2Z2ZUH3pX9U2ihyUY0nvLv7J6TrWowklRGPYbB/IuIMfYgxaCPg5Bpg==\",\n-\t\t\t\"devOptional\": true,\n-\t\t\t\"license\": \"ISC\",\n+\t\t\t\t\"node\": \">=16\"\n+\t\t\t},\n+\t\t\t\"optionalDependencies\": {\n+\t\t\t\t\"@cloudflare/workerd-darwin-64\": \"1.20260410.1\",\n+\t\t\t\t\"@cloudflare/workerd-darwin-arm64\": \"1.20260410.1\",\n+\t\t\t\t\"@cloudflare/workerd-linux-64\": \"1.20260410.1\",\n+\t\t\t\t\"@cloudflare/workerd-linux-arm64\": \"1.20260410.1\",\n+\t\t\t\t\"@cloudflare/workerd-windows-64\": \"1.20260410.1\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler\": {\n+\t\t\t\"version\": \"4.82.2\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/wrangler/-/wrangler-4.82.2.tgz\",\n+\t\t\t\"integrity\": \"sha512-SKfW21sTJUkM/Qd8zc9oc8TBkAWHRsXuTxE6XdToC55Ct84pR+IfRdaTjCTuC0dL+KYvauSvSn2rtqS2Ae+Dcw==\",\n+\t\t\t\"license\": \"MIT OR Apache-2.0\",\n \t\t\t\"peer\": true,\n+\t\t\t\"dependencies\": {\n+\t\t\t\t\"@cloudflare/kv-asset-handler\": \"0.4.2\",\n+\t\t\t\t\"@cloudflare/unenv-preset\": \"2.16.0\",\n+\t\t\t\t\"blake3-wasm\": \"2.1.5\",\n+\t\t\t\t\"esbuild\": \"0.27.3\",\n+\t\t\t\t\"miniflare\": \"4.20260410.0\",\n+\t\t\t\t\"path-to-regexp\": \"6.3.0\",\n+\t\t\t\t\"unenv\": \"2.0.0-rc.24\",\n+\t\t\t\t\"workerd\": \"1.20260410.1\"\n+\t\t\t},\n \t\t\t\"bin\": {\n-\t\t\t\t\"yaml\": \"bin.mjs\"\n+\t\t\t\t\"wrangler\": \"bin/wrangler.js\",\n+\t\t\t\t\"wrangler2\": \"bin/wrangler.js\"\n \t\t\t},\n \t\t\t\"engines\": {\n-\t\t\t\t\"node\": \">= 14.6\"\n+\t\t\t\t\"node\": \">=20.3.0\"\n \t\t\t},\n-\t\t\t\"funding\": {\n-\t\t\t\t\"url\": \"https://github.com/sponsors/eemeli\"\n+\t\t\t\"optionalDependencies\": {\n+\t\t\t\t\"fsevents\": \"~2.3.2\"\n+\t\t\t},\n+\t\t\t\"peerDependencies\": {\n+\t\t\t\t\"@cloudflare/workers-types\": \"^4.20260410.1\"\n+\t\t\t},\n+\t\t\t\"peerDependenciesMeta\": {\n+\t\t\t\t\"@cloudflare/workers-types\": {\n+\t\t\t\t\t\"optional\": true\n+\t\t\t\t}\n \t\t\t}\n \t\t},\n-\t\t\"node_modules/yaml-language-server\": {\n-\t\t\t\"version\": \"1.20.0\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/yaml-language-server/-/yaml-language-server-1.20.0.tgz\",\n-\t\t\t\"integrity\": \"sha512-qhjK/bzSRZ6HtTvgeFvjNPJGWdZ0+x5NREV/9XZWFjIGezew2b4r5JPy66IfOhd5OA7KeFwk1JfmEbnTvev0cA==\",\n-\t\t\t\"dev\": true,\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/aix-ppc64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/aix-ppc64/-/aix-ppc64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-9fJMTNFTWZMh5qwrBItuziu834eOCUcEqymSH7pY+zoMVEZg3gcPuBNxH1EvfVYe9h0x/Ptw8KBzv7qxb7l8dg==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"ppc64\"\n+\t\t\t],\n \t\t\t\"license\": \"MIT\",\n-\t\t\t\"dependencies\": {\n-\t\t\t\t\"@vscode/l10n\": \"^0.0.18\",\n-\t\t\t\t\"ajv\": \"^8.17.1\",\n-\t\t\t\t\"ajv-draft-04\": \"^1.0.0\",\n-\t\t\t\t\"prettier\": \"^3.5.0\",\n-\t\t\t\t\"request-light\": \"^0.5.7\",\n-\t\t\t\t\"vscode-json-languageservice\": \"4.1.8\",\n-\t\t\t\t\"vscode-languageserver\": \"^9.0.0\",\n-\t\t\t\t\"vscode-languageserver-textdocument\": \"^1.0.1\",\n-\t\t\t\t\"vscode-languageserver-types\": \"^3.16.0\",\n-\t\t\t\t\"vscode-uri\": \"^3.0.2\",\n-\t\t\t\t\"yaml\": \"2.7.1\"\n-\t\t\t},\n-\t\t\t\"bin\": {\n-\t\t\t\t\"yaml-language-server\": \"bin/yaml-language-server\"\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"aix\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n \t\t\t}\n \t\t},\n-\t\t\"node_modules/yaml-language-server/node_modules/ajv\": {\n-\t\t\t\"version\": \"8.18.0\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/ajv/-/ajv-8.18.0.tgz\",\n-\t\t\t\"integrity\": \"sha512-PlXPeEWMXMZ7sPYOHqmDyCJzcfNrUr3fGNKtezX14ykXOEIvyK81d+qydx89KY5O71FKMPaQ2vBfBFI5NHR63A==\",\n-\t\t\t\"dev\": true,\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/android-arm\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/android-arm/-/android-arm-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-i5D1hPY7GIQmXlXhs2w8AWHhenb00+GxjxRncS2ZM7YNVGNfaMxgzSGuO8o8SJzRc/oZwU2bcScvVERk03QhzA==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"arm\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"android\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/android-arm64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/android-arm64/-/android-arm64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-YdghPYUmj/FX2SYKJ0OZxf+iaKgMsKHVPF1MAq/P8WirnSpCStzKJFjOjzsW0QQ7oIAiccHdcqjbHmJxRb/dmg==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"arm64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"android\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/android-x64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/android-x64/-/android-x64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-IN/0BNTkHtk8lkOM8JWAYFg4ORxBkZQf9zXiEOfERX/CzxW3Vg1ewAhU7QSWQpVIzTW+b8Xy+lGzdYXV6UZObQ==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"x64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"android\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/darwin-arm64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-Re491k7ByTVRy0t3EKWajdLIr0gz2kKKfzafkth4Q8A5n1xTHrkqZgLLjFEHVD+AXdUGgQMq+Godfq45mGpCKg==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"arm64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"darwin\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/darwin-x64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/darwin-x64/-/darwin-x64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-vHk/hA7/1AckjGzRqi6wbo+jaShzRowYip6rt6q7VYEDX4LEy1pZfDpdxCBnGtl+A5zq8iXDcyuxwtv3hNtHFg==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"x64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"darwin\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/freebsd-arm64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/freebsd-arm64/-/freebsd-arm64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-ipTYM2fjt3kQAYOvo6vcxJx3nBYAzPjgTCk7QEgZG8AUO3ydUhvelmhrbOheMnGOlaSFUoHXB6un+A7q4ygY9w==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"arm64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"freebsd\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/freebsd-x64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/freebsd-x64/-/freebsd-x64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-dDk0X87T7mI6U3K9VjWtHOXqwAMJBNN2r7bejDsc+j03SEjtD9HrOl8gVFByeM0aJksoUuUVU9TBaZa2rgj0oA==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"x64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"freebsd\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/linux-arm\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/linux-arm/-/linux-arm-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-s6nPv2QkSupJwLYyfS+gwdirm0ukyTFNl3KTgZEAiJDd+iHZcbTPPcWCcRYH+WlNbwChgH2QkE9NSlNrMT8Gfw==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"arm\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"linux\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/linux-arm64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/linux-arm64/-/linux-arm64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-sZOuFz/xWnZ4KH3YfFrKCf1WyPZHakVzTiqji3WDc0BCl2kBwiJLCXpzLzUBLgmp4veFZdvN5ChW4Eq/8Fc2Fg==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"arm64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"linux\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/linux-ia32\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/linux-ia32/-/linux-ia32-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-yGlQYjdxtLdh0a3jHjuwOrxQjOZYD/C9PfdbgJJF3TIZWnm/tMd/RcNiLngiu4iwcBAOezdnSLAwQDPqTmtTYg==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"ia32\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"linux\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/linux-loong64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/linux-loong64/-/linux-loong64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-WO60Sn8ly3gtzhyjATDgieJNet/KqsDlX5nRC5Y3oTFcS1l0KWba+SEa9Ja1GfDqSF1z6hif/SkpQJbL63cgOA==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"loong64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"linux\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/linux-mips64el\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/linux-mips64el/-/linux-mips64el-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-APsymYA6sGcZ4pD6k+UxbDjOFSvPWyZhjaiPyl/f79xKxwTnrn5QUnXR5prvetuaSMsb4jgeHewIDCIWljrSxw==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"mips64el\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"linux\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/linux-ppc64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/linux-ppc64/-/linux-ppc64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-eizBnTeBefojtDb9nSh4vvVQ3V9Qf9Df01PfawPcRzJH4gFSgrObw+LveUyDoKU3kxi5+9RJTCWlj4FjYXVPEA==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"ppc64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"linux\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/linux-riscv64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/linux-riscv64/-/linux-riscv64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-3Emwh0r5wmfm3ssTWRQSyVhbOHvqegUDRd0WhmXKX2mkHJe1SFCMJhagUleMq+Uci34wLSipf8Lagt4LlpRFWQ==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"riscv64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"linux\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/linux-s390x\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/linux-s390x/-/linux-s390x-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-pBHUx9LzXWBc7MFIEEL0yD/ZVtNgLytvx60gES28GcWMqil8ElCYR4kvbV2BDqsHOvVDRrOxGySBM9Fcv744hw==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"s390x\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"linux\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/linux-x64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-Czi8yzXUWIQYAtL/2y6vogER8pvcsOsk5cpwL4Gk5nJqH5UZiVByIY8Eorm5R13gq+DQKYg0+JyQoytLQas4dA==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"x64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"linux\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/netbsd-arm64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/netbsd-arm64/-/netbsd-arm64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-sDpk0RgmTCR/5HguIZa9n9u+HVKf40fbEUt+iTzSnCaGvY9kFP0YKBWZtJaraonFnqef5SlJ8/TiPAxzyS+UoA==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"arm64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"netbsd\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/netbsd-x64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/netbsd-x64/-/netbsd-x64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-P14lFKJl/DdaE00LItAukUdZO5iqNH7+PjoBm+fLQjtxfcfFE20Xf5CrLsmZdq5LFFZzb5JMZ9grUwvtVYzjiA==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"x64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"netbsd\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/openbsd-arm64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/openbsd-arm64/-/openbsd-arm64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-AIcMP77AvirGbRl/UZFTq5hjXK+2wC7qFRGoHSDrZ5v5b8DK/GYpXW3CPRL53NkvDqb9D+alBiC/dV0Fb7eJcw==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"arm64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"openbsd\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/openbsd-x64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/openbsd-x64/-/openbsd-x64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-DnW2sRrBzA+YnE70LKqnM3P+z8vehfJWHXECbwBmH/CU51z6FiqTQTHFenPlHmo3a8UgpLyH3PT+87OViOh1AQ==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"x64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"openbsd\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/openharmony-arm64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/openharmony-arm64/-/openharmony-arm64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-NinAEgr/etERPTsZJ7aEZQvvg/A6IsZG/LgZy+81wON2huV7SrK3e63dU0XhyZP4RKGyTm7aOgmQk0bGp0fy2g==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"arm64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"openharmony\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/sunos-x64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/sunos-x64/-/sunos-x64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-PanZ+nEz+eWoBJ8/f8HKxTTD172SKwdXebZ0ndd953gt1HRBbhMsaNqjTyYLGLPdoWHy4zLU7bDVJztF5f3BHA==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"x64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"sunos\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/win32-arm64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/win32-arm64/-/win32-arm64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-B2t59lWWYrbRDw/tjiWOuzSsFh1Y/E95ofKz7rIVYSQkUYBjfSgf6oeYPNWHToFRr2zx52JKApIcAS/D5TUBnA==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"arm64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"win32\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/win32-ia32\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/win32-ia32/-/win32-ia32-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-QLKSFeXNS8+tHW7tZpMtjlNb7HKau0QDpwm49u0vUp9y1WOF+PEzkU84y9GqYaAVW8aH8f3GcBck26jh54cX4Q==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"ia32\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"win32\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/@esbuild/win32-x64\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-4uJGhsxuptu3OcpVAzli+/gWusVGwZZHTlS63hh++ehExkVT8SgiEf7/uC/PclrPPkLhZqGgCTjd0VWLo6xMqA==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"x64\"\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"win32\"\n+\t\t\t],\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/wrangler/node_modules/esbuild\": {\n+\t\t\t\"version\": \"0.27.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/esbuild/-/esbuild-0.27.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-8VwMnyGCONIs6cWue2IdpHxHnAjzxnw2Zr7MkVxB2vjmQ2ivqGFb4LEG3SMnv0Gb2F/G/2yA8zUaiL1gywDCCg==\",\n+\t\t\t\"hasInstallScript\": true,\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"bin\": {\n+\t\t\t\t\"esbuild\": \"bin/esbuild\"\n+\t\t\t},\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=18\"\n+\t\t\t},\n+\t\t\t\"optionalDependencies\": {\n+\t\t\t\t\"@esbuild/aix-ppc64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/android-arm\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/android-arm64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/android-x64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/darwin-arm64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/darwin-x64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/freebsd-arm64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/freebsd-x64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/linux-arm\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/linux-arm64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/linux-ia32\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/linux-loong64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/linux-mips64el\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/linux-ppc64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/linux-riscv64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/linux-s390x\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/linux-x64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/netbsd-arm64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/netbsd-x64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/openbsd-arm64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/openbsd-x64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/openharmony-arm64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/sunos-x64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/win32-arm64\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/win32-ia32\": \"0.27.3\",\n+\t\t\t\t\"@esbuild/win32-x64\": \"0.27.3\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/ws\": {\n+\t\t\t\"version\": \"8.18.0\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/ws/-/ws-8.18.0.tgz\",\n+\t\t\t\"integrity\": \"sha512-8VbfWfHLbbwu3+N6OKsOMpBdT4kXPDDB9cJk2bJ6mh9ucxdlnNvH1e+roYkKmN9Nxw2yjz7VzeO9oOz2zJ04Pw==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=10.0.0\"\n+\t\t\t},\n+\t\t\t\"peerDependencies\": {\n+\t\t\t\t\"bufferutil\": \"^4.0.1\",\n+\t\t\t\t\"utf-8-validate\": \">=5.0.2\"\n+\t\t\t},\n+\t\t\t\"peerDependenciesMeta\": {\n+\t\t\t\t\"bufferutil\": {\n+\t\t\t\t\t\"optional\": true\n+\t\t\t\t},\n+\t\t\t\t\"utf-8-validate\": {\n+\t\t\t\t\t\"optional\": true\n+\t\t\t\t}\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/xxhash-wasm\": {\n+\t\t\t\"version\": \"1.1.0\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/xxhash-wasm/-/xxhash-wasm-1.1.0.tgz\",\n+\t\t\t\"integrity\": \"sha512-147y/6YNh+tlp6nd/2pWq38i9h6mz/EuQ6njIrmW8D1BS5nCqs0P6DG+m6zTGnNz5I+uhZ0SHxBs9BsPrwcKDA==\",\n+\t\t\t\"license\": \"MIT\"\n+\t\t},\n+\t\t\"node_modules/y18n\": {\n+\t\t\t\"version\": \"5.0.8\",\n+\t\t\t\"dev\": true,\n+\t\t\t\"license\": \"ISC\",\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=10\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/yaml\": {\n+\t\t\t\"version\": \"2.8.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/yaml/-/yaml-2.8.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-AvbaCLOO2Otw/lW5bmh9d/WEdcDFdQp2Z2ZUH3pX9U2ihyUY0nvLv7J6TrWowklRGPYbB/IuIMfYgxaCPg5Bpg==\",\n+\t\t\t\"devOptional\": true,\n+\t\t\t\"license\": \"ISC\",\n+\t\t\t\"peer\": true,\n+\t\t\t\"bin\": {\n+\t\t\t\t\"yaml\": \"bin.mjs\"\n+\t\t\t},\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">= 14.6\"\n+\t\t\t},\n+\t\t\t\"funding\": {\n+\t\t\t\t\"url\": \"https://github.com/sponsors/eemeli\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/yaml-language-server\": {\n+\t\t\t\"version\": \"1.20.0\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/yaml-language-server/-/yaml-language-server-1.20.0.tgz\",\n+\t\t\t\"integrity\": \"sha512-qhjK/bzSRZ6HtTvgeFvjNPJGWdZ0+x5NREV/9XZWFjIGezew2b4r5JPy66IfOhd5OA7KeFwk1JfmEbnTvev0cA==\",\n+\t\t\t\"dev\": true,\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"dependencies\": {\n+\t\t\t\t\"@vscode/l10n\": \"^0.0.18\",\n+\t\t\t\t\"ajv\": \"^8.17.1\",\n+\t\t\t\t\"ajv-draft-04\": \"^1.0.0\",\n+\t\t\t\t\"prettier\": \"^3.5.0\",\n+\t\t\t\t\"request-light\": \"^0.5.7\",\n+\t\t\t\t\"vscode-json-languageservice\": \"4.1.8\",\n+\t\t\t\t\"vscode-languageserver\": \"^9.0.0\",\n+\t\t\t\t\"vscode-languageserver-textdocument\": \"^1.0.1\",\n+\t\t\t\t\"vscode-languageserver-types\": \"^3.16.0\",\n+\t\t\t\t\"vscode-uri\": \"^3.0.2\",\n+\t\t\t\t\"yaml\": \"2.7.1\"\n+\t\t\t},\n+\t\t\t\"bin\": {\n+\t\t\t\t\"yaml-language-server\": \"bin/yaml-language-server\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/yaml-language-server/node_modules/ajv\": {\n+\t\t\t\"version\": \"8.18.0\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/ajv/-/ajv-8.18.0.tgz\",\n+\t\t\t\"integrity\": \"sha512-PlXPeEWMXMZ7sPYOHqmDyCJzcfNrUr3fGNKtezX14ykXOEIvyK81d+qydx89KY5O71FKMPaQ2vBfBFI5NHR63A==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n@@ -7878,6 +8692,29 @@\n \t\t\t\t\"url\": \"https://github.com/sponsors/sindresorhus\"\n \t\t\t}\n \t\t},\n+\t\t\"node_modules/youch\": {\n+\t\t\t\"version\": \"4.1.0-beta.10\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/youch/-/youch-4.1.0-beta.10.tgz\",\n+\t\t\t\"integrity\": \"sha512-rLfVLB4FgQneDr0dv1oddCVZmKjcJ6yX6mS4pU82Mq/Dt9a3cLZQ62pDBL4AUO+uVrCvtWz3ZFUL2HFAFJ/BXQ==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"dependencies\": {\n+\t\t\t\t\"@poppinss/colors\": \"^4.1.5\",\n+\t\t\t\t\"@poppinss/dumper\": \"^0.6.4\",\n+\t\t\t\t\"@speed-highlight/core\": \"^1.2.7\",\n+\t\t\t\t\"cookie\": \"^1.0.2\",\n+\t\t\t\t\"youch-core\": \"^0.3.3\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/youch-core\": {\n+\t\t\t\"version\": \"0.3.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/youch-core/-/youch-core-0.3.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-ho7XuGjLaJ2hWHoK8yFnsUGy2Y5uDpqSTq1FkHLK4/oqKtyUU1AFbOOxY4IpC9f0fTLjwYbslUz0Po5BpD1wrA==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"dependencies\": {\n+\t\t\t\t\"@poppinss/exception\": \"^1.2.2\",\n+\t\t\t\t\"error-stack-parser-es\": \"^1.0.5\"\n+\t\t\t}\n+\t\t},\n \t\t\"node_modules/zod\": {\n \t\t\t\"version\": \"4.3.6\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/zod/-/zod-4.3.6.tgz\","
+        "additions": 8583,
+        "deletions": 8581,
+        "changes": 17164,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/a954591f9fe4607b2ea15d4cadd94035b70f6fbf/package-lock.json",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/a954591f9fe4607b2ea15d4cadd94035b70f6fbf/package-lock.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/package-lock.json?ref=a954591f9fe4607b2ea15d4cadd94035b70f6fbf"
       },
       {
-        "sha": "291f75cf2d2d942fd42b347f9a264c62c2a8e381",
+        "sha": "95b0f1b6428cc207be8d355ba77cd25e202f0f77",
         "filename": "package.json",
         "status": "modified",
-        "additions": 41,
-        "deletions": 35,
-        "changes": 76,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/ee34a2fdcdc7a8972123676af29630c6df4ea2f6/package.json",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/ee34a2fdcdc7a8972123676af29630c6df4ea2f6/package.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/package.json?ref=ee34a2fdcdc7a8972123676af29630c6df4ea2f6",
-        "patch": "@@ -1,36 +1,42 @@\n {\n-\t\"name\": \"jrwnnnn\",\n-\t\"type\": \"module\",\n-\t\"version\": \"0.0.1\",\n-\t\"scripts\": {\n-\t\t\"astro:dev\": \"astro dev\",\n-\t\t\"astro:build\": \"astro build\",\n-\t\t\"astro:preview\": \"astro preview\",\n-\t\t\"lint\": \"eslint .\",\n-\t\t\"typecheck\": \"astro check\",\n-\t\t\"test\": \"npm run lint && npm run typecheck && npm run astro:build\"\n-\t},\n-\t\"dependencies\": {\n-\t\t\"@pdf-lib/fontkit\": \"^1.1.1\",\n-\t\t\"@tailwindcss/vite\": \"^4.1.18\",\n-\t\t\"astro\": \"^6.1.1\",\n-\t\t\"file-saver\": \"^2.0.5\",\n-\t\t\"jszip\": \"^3.10.1\",\n-\t\t\"papaparse\": \"^5.5.3\",\n-\t\t\"pdf-lib\": \"^1.17.1\",\n-\t\t\"tailwindcss\": \"^4.1.18\"\n-\t},\n-\t\"devDependencies\": {\n-\t\t\"@astrojs/check\": \"^0.9.8\",\n-\t\t\"@eslint/js\": \"^10.0.1\",\n-\t\t\"@types/file-saver\": \"^2.0.7\",\n-\t\t\"@types/papaparse\": \"^5.5.2\",\n-\t\t\"eslint\": \"^10.0.2\",\n-\t\t\"eslint-plugin-astro\": \"^1.6.0\",\n-\t\t\"prettier\": \"^3.8.1\",\n-\t\t\"prettier-plugin-astro\": \"^0.14.1\",\n-\t\t\"prettier-plugin-tailwindcss\": \"^0.7.2\",\n-\t\t\"typescript\": \"^5.9.3\",\n-\t\t\"typescript-eslint\": \"^8.56.1\"\n-\t}\n-}\n+  \"name\": \"jrwnnnn\",\n+  \"type\": \"module\",\n+  \"version\": \"0.0.1\",\n+  \"scripts\": {\n+    \"astro:dev\": \"astro dev\",\n+    \"astro:build\": \"astro build\",\n+    \"astro:preview\": \"astro preview\",\n+    \"lint\": \"eslint .\",\n+    \"typecheck\": \"astro check\",\n+    \"test\": \"npm run lint && npm run typecheck && npm run astro:build\",\n+    \"generate-types\": \"wrangler types\"\n+  },\n+  \"dependencies\": {\n+    \"@astrojs/cloudflare\": \"^13.1.9\",\n+    \"@pdf-lib/fontkit\": \"^1.1.1\",\n+    \"@tailwindcss/vite\": \"^4.1.18\",\n+    \"astro\": \"^6.1.1\",\n+    \"file-saver\": \"^2.0.5\",\n+    \"jszip\": \"^3.10.1\",\n+    \"papaparse\": \"^5.5.3\",\n+    \"pdf-lib\": \"^1.17.1\",\n+    \"tailwindcss\": \"^4.1.18\",\n+    \"wrangler\": \"^4.82.2\"\n+  },\n+  \"devDependencies\": {\n+    \"@astrojs/check\": \"^0.9.8\",\n+    \"@eslint/js\": \"^10.0.1\",\n+    \"@types/file-saver\": \"^2.0.7\",\n+    \"@types/papaparse\": \"^5.5.2\",\n+    \"eslint\": \"^10.0.2\",\n+    \"eslint-plugin-astro\": \"^1.6.0\",\n+    \"prettier\": \"^3.8.1\",\n+    \"prettier-plugin-astro\": \"^0.14.1\",\n+    \"prettier-plugin-tailwindcss\": \"^0.7.2\",\n+    \"typescript\": \"^5.9.3\",\n+    \"typescript-eslint\": \"^8.56.1\"\n+  },\n+  \"overrides\": {\n+    \"vite\": \"^7\"\n+  }\n+}\n\\ No newline at end of file"
+        "additions": 34,
+        "deletions": 29,
+        "changes": 63,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/a954591f9fe4607b2ea15d4cadd94035b70f6fbf/package.json",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/a954591f9fe4607b2ea15d4cadd94035b70f6fbf/package.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/package.json?ref=a954591f9fe4607b2ea15d4cadd94035b70f6fbf",
+        "patch": "@@ -1,31 +1,36 @@\n {\n-\t\"name\": \"jrwnnnn\",\n-\t\"type\": \"module\",\n-\t\"version\": \"0.0.1\",\n-\t\"scripts\": {\n-\t\t\"astro:dev\": \"astro dev\",\n-\t\t\"astro:build\": \"astro build\",\n-\t\t\"astro:preview\": \"astro preview\",\n-\t\t\"lint\": \"eslint .\",\n-\t\t\"typecheck\": \"astro check\"\n-\t},\n-\t\"dependencies\": {\n-\t\t\"@astrojs/node\": \"^10.0.4\",\n-\t\t\"@astrojs/vercel\": \"^10.0.3\",\n-\t\t\"@libsql/client\": \"^0.17.0\",\n-\t\t\"@tailwindcss/vite\": \"^4.1.18\",\n-\t\t\"astro\": \"^6.1.1\",\n-\t\t\"tailwindcss\": \"^4.1.18\"\n-\t},\n-\t\"devDependencies\": {\n-\t\t\"@astrojs/check\": \"^0.9.8\",\n-\t\t\"@eslint/js\": \"^10.0.1\",\n-\t\t\"eslint\": \"^10.0.2\",\n-\t\t\"eslint-plugin-astro\": \"^1.6.0\",\n-\t\t\"prettier\": \"^3.8.1\",\n-\t\t\"prettier-plugin-astro\": \"^0.14.1\",\n-\t\t\"prettier-plugin-tailwindcss\": \"^0.7.2\",\n-\t\t\"typescript\": \"^5.9.3\",\n-\t\t\"typescript-eslint\": \"^8.56.1\"\n-\t}\n+  \"name\": \"jrwnnnn\",\n+  \"type\": \"module\",\n+  \"version\": \"0.0.1\",\n+  \"scripts\": {\n+    \"astro:dev\": \"astro dev\",\n+    \"astro:build\": \"astro build\",\n+    \"astro:preview\": \"astro preview\",\n+    \"lint\": \"eslint .\",\n+    \"typecheck\": \"astro check\",\n+    \"generate-types\": \"wrangler types\"\n+  },\n+  \"dependencies\": {\n+    \"@astrojs/cloudflare\": \"^13.1.9\",\n+    \"@tailwindcss/vite\": \"^4.1.18\",\n+    \"@tursodatabase/serverless\": \"^1.0.0\",\n+    \"astro\": \"^6.1.1\",\n+    \"tailwindcss\": \"^4.1.18\",\n+    \"wrangler\": \"^4.82.2\"\n+  },\n+  \"devDependencies\": {\n+    \"@astrojs/check\": \"^0.9.8\",\n+    \"@cloudflare/workers-types\": \"^4.20260414.1\",\n+    \"@eslint/js\": \"^10.0.1\",\n+    \"eslint\": \"^10.0.2\",\n+    \"eslint-plugin-astro\": \"^1.6.0\",\n+    \"prettier\": \"^3.8.1\",\n+    \"prettier-plugin-astro\": \"^0.14.1\",\n+    \"prettier-plugin-tailwindcss\": \"^0.7.2\",\n+    \"typescript\": \"^5.9.3\",\n+    \"typescript-eslint\": \"^8.56.1\"\n+  },\n+  \"overrides\": {\n+    \"vite\": \"^7\"\n+  }\n }"
       },
       {
-        "sha": "f5f319899c5e1f7bd5ed8f39ce4083a5f586663d",
+        "sha": "510c90a165d3e2b719c7beca9f9cfd162a6c3eaf",
+        "filename": "src/pages/index.astro",
+        "status": "modified",
+        "additions": 3,
+        "deletions": 4,
+        "changes": 7,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/a954591f9fe4607b2ea15d4cadd94035b70f6fbf/src%2Fpages%2Findex.astro",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/a954591f9fe4607b2ea15d4cadd94035b70f6fbf/src%2Fpages%2Findex.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/src%2Fpages%2Findex.astro?ref=a954591f9fe4607b2ea15d4cadd94035b70f6fbf",
+        "patch": "@@ -1,9 +1,8 @@\n ---\n-import Layout from '../layouts/Layout.astro';\n+// import { env } from \"cloudflare:workers\";\n+import Layout from \"../layouts/Layout.astro\";\n ---\n \n <Layout title=\"Astro Scaffold\">\n-    <main>\n-\n-    </main>\n+\t<main></main>\n </Layout>"
+      },
+      {
+        "sha": "f71060c681db78047323445ba8ac80f4f444f91e",
         "filename": "tsconfig.json",
         "status": "modified",
-        "additions": 18,
-        "deletions": 8,
-        "changes": 26,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/ee34a2fdcdc7a8972123676af29630c6df4ea2f6/tsconfig.json",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/ee34a2fdcdc7a8972123676af29630c6df4ea2f6/tsconfig.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/tsconfig.json?ref=ee34a2fdcdc7a8972123676af29630c6df4ea2f6",
-        "patch": "@@ -1,11 +1,21 @@\n {\n   \"extends\": \"astro/tsconfigs/strict\",\n-  \"include\": [\".astro/types.d.ts\", \"**/*\"],\n-  \"exclude\": [\"dist\"],\n+  \"include\": [\n+    \".astro/types.d.ts\",\n+    \"**/*\",\n+    \"./worker-configuration.d.ts\"\n+  ],\n+  \"exclude\": [\n+    \"dist\"\n+  ],\n   \"compilerOptions\": {\n-\t\t\"paths\": {\n-\t\t\t\"@utils/*\": [\"./src/utils/*\"],\n-\t\t\t\"@lib/*\": [\"./src/lib/*\"]\n-\t\t}\n-\t}\n-}\n+    \"paths\": {\n+      \"@utils/*\": [\n+        \"./src/utils/*\"\n+      ],\n+      \"@lib/*\": [\n+        \"./src/lib/*\"\n+      ]\n+    }\n+  }\n+}\n\\ No newline at end of file"
+        "additions": 7,
+        "deletions": 6,
+        "changes": 13,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/a954591f9fe4607b2ea15d4cadd94035b70f6fbf/tsconfig.json",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/a954591f9fe4607b2ea15d4cadd94035b70f6fbf/tsconfig.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/tsconfig.json?ref=a954591f9fe4607b2ea15d4cadd94035b70f6fbf",
+        "patch": "@@ -1,10 +1,11 @@\n {\n-  \"extends\": \"astro/tsconfigs/strict\",\n-  \"include\": [\".astro/types.d.ts\", \"**/*\"],\n-  \"exclude\": [\"dist\"],\n-  \"compilerOptions\": {\n+\t\"extends\": \"astro/tsconfigs/strict\",\n+\t\"include\": [\".astro/types.d.ts\", \"**/*\", \"./worker-configuration.d.ts\"],\n+\t\"exclude\": [\"dist\"],\n+\t\"compilerOptions\": {\n \t\t\"paths\": {\n-\t\t\t\"@utils/*\": [\"./src/utils/*\"],\n-\t\t}\n+\t\t\t\"@utils/*\": [\"./src/utils/*\"]\n+\t\t},\n+\t\t\"types\": [\"@cloudflare/workers-types\"]\n \t}\n }"
+      },
+      {
+        "sha": "d403a5e466cea398c3c2903342416d5d574927a8",
+        "filename": "worker-configuration.d.ts",
+        "status": "added",
+        "additions": 6,
+        "deletions": 0,
+        "changes": 6,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/a954591f9fe4607b2ea15d4cadd94035b70f6fbf/worker-configuration.d.ts",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/a954591f9fe4607b2ea15d4cadd94035b70f6fbf/worker-configuration.d.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/worker-configuration.d.ts?ref=a954591f9fe4607b2ea15d4cadd94035b70f6fbf",
+        "patch": "@@ -0,0 +1,6 @@\n+declare namespace Cloudflare {\n+\tinterface Env {\n+\t\tDATABASE_REMOTE_URL: string;\n+\t\tDATABASE_APP_TOKEN: string;\n+\t}\n+}"
       },
       {
         "sha": "dc4f976b877e3afbf8fae9532f8db8f87c32e121",
-        "filename": "wrangler.jsonc",
+        "filename": "wrangler.json",
         "status": "added",
         "additions": 13,
         "deletions": 0,
         "changes": 13,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/ee34a2fdcdc7a8972123676af29630c6df4ea2f6/wrangler.jsonc",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/ee34a2fdcdc7a8972123676af29630c6df4ea2f6/wrangler.jsonc",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/wrangler.jsonc?ref=ee34a2fdcdc7a8972123676af29630c6df4ea2f6",
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/a954591f9fe4607b2ea15d4cadd94035b70f6fbf/wrangler.json",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/a954591f9fe4607b2ea15d4cadd94035b70f6fbf/wrangler.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/wrangler.json?ref=a954591f9fe4607b2ea15d4cadd94035b70f6fbf",
         "patch": "@@ -0,0 +1,13 @@\n+{\n+\t\"compatibility_date\": \"2026-04-01\",\n+\t\"compatibility_flags\": [\"global_fetch_strictly_public\"],\n+\t\"name\": \"jrwnnnn\",\n+\t\"main\": \"@astrojs/cloudflare/entrypoints/server\",\n+\t\"assets\": {\n+\t\t\"directory\": \"./dist\",\n+\t\t\"binding\": \"ASSETS\"\n+\t},\n+\t\"observability\": {\n+\t\t\"enabled\": true\n+\t}\n+}\n\\ No newline at end of file"
       }
     ]
