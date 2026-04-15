@@ -13,6 +13,11 @@ interface Props {
 	footer?: boolean;
 }
 
+interface LatestCommit {
+	sha: string;
+	html_url: string;
+}
+
 const {
 	title,
 	description = "Hello! It's Jerwin! I'm a student based in Manila, PH. I build things for the web. My code is held together by duct tape and prayers. I spend more time customizing my VS Code theme than actually coding. If you see a bug, no you didn't.",
@@ -26,7 +31,7 @@ const {
 const latestCommit = await safeAsync(
 	fetch(
 		"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/jrwnnnn-me-commits.json",
-	).then((res) => res.json()),
+	).then((res) => res.json() as Promise<LatestCommit[]>),
 );
 ---
 
@@ -122,12 +127,12 @@ const latestCommit = await safeAsync(
 					<div class="relative z-1 flex items-center justify-between border-t border-green-900/30 bg-black px-5 py-8 text-xs md:px-20 lg:px-30">
 						<div class="flex flex-col space-x-5 md:flex-row">
 							<a href="credits" class="font-mono font-bold">© 2026 Mark Jerwin</a>
-							{latestCommit.data && (
+							{latestCommit.data?.[0] && (
 								<>
 									<p class="hidden font-mono md:block">-</p>
 									<a
 										class="flex cursor-pointer items-center gap-2 opacity-75 hover:underline"
-										href={latestCommit.data[0].html_url}
+										href={latestCommit.data?.[0].html_url}
 										target="_blank"
 									>
 										<img
@@ -137,7 +142,7 @@ const latestCommit = await safeAsync(
 											alt="Git Commit"
 										/>
 										<p class="mt-0.5 font-mono">
-											{latestCommit.data[0].sha.slice(0, 7)}
+											{latestCommit.data?.[0].sha.slice(0, 7)}
 										</p>
 									</a>
 								</>
