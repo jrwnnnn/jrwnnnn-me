@@ -5,18 +5,16 @@ import node from "@astrojs/node";
 import react from "@astrojs/react";
 import vercel from "@astrojs/vercel";
 
+import cloudflare from "@astrojs/cloudflare";
+
 // https://astro.build/config
 export default defineConfig({
-	vite: {
-		plugins: [tailwindcss()],
-	},
+    vite: {
+        plugins: [tailwindcss()],
+    },
 
-	output: "server",
-	integrations: [react()],
-	adapter:
-		process.env.VERCEL === "1"
-			? vercel({})
-			: node({
-					mode: "standalone",
-				}),
+    output: "server",
+    integrations: [react()],
+    adapter:
+        cloudflare(),
 });
