@@ -30,6 +30,7 @@ const response = await safeAsync(
 		method: "POST",
 		headers: {
 			Authorization: `Bearer ${import.meta.env.GITHUB_TOKEN}`,
+			"User-Agent": "jrwnnnn-me-heatmap",
 			"Content-Type": "application/json",
 		},
 		body: JSON.stringify({
