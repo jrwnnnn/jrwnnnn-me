@@ -24,10 +24,10 @@ const images = await safeAsync(
 			</p>
 		</Header>
 		<hr class="bg-green-500" />
-		<div class="columns-1 gap-6 space-y-6 lg:columns-3">
-			{
-				images.data ? (
-					images.data.rows.map((row) => (
+		{
+			images.data ? (
+				<div class="columns-1 gap-6 space-y-6 lg:columns-3">
+					{images.data.rows.map((row) => (
 						<div class="break-inside-avoid">
 							<img
 								src={row.image_data as string}
@@ -37,11 +37,11 @@ const images = await safeAsync(
 								oncontextmenu="return false"
 							/>
 						</div>
-					))
-				) : (
-					<ErrorOut error={images.error as Error} />
-				)
-			}
-		</div>
+					))}
+				</div>
+			) : (
+				<ErrorOut error={images.error as Error} />
+			)
+		}
 	</main>
 </Layout>
