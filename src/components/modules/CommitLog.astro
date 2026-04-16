@@ -21,15 +21,14 @@ interface Commit {
 const result = await safeAsync(
 	fetch(
 		"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/commits.json",
-	),
+	).then((res) => res.json() as Promise<Commit[]>),
 );
-const commits = await result.data!.json();
 ---
 
 {
 	result.data ? (
 		<div class="space-y-4 font-mono text-sm">
-			{commits.map((commit: Commit) => (
+			{result.data.map((commit: Commit) => (
 				<a
 					href={commit.html_url}
 					target="_blank"
