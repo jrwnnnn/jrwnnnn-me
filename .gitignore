@@ -4,8 +4,14 @@ dist/
 # generated types
 .astro/
 
+# wrangler files
+.wrangler/
+
 # dependencies
 node_modules/
+
+# test Files
+test*
 
 # logs
 npm-debug.log*
@@ -16,17 +22,19 @@ pnpm-debug.log*
 # environment variables
 .env
 .env.production
+.dev.vars
 
-# macOS-specific files
-.DS_Store
-
-# jetbrains setting folder
-.idea/
+# private keys and certificates
+*.key
+*.pem
 
 # windows
 Thumbs.db
 ehthumbs.db
 Desktop.ini
 
-# test Files
-test*
+# macOS-specific files
+.DS_Store
+
+# jetbrains setting folder
+.idea/
