@@ -1,16 +1,14 @@
 ---
 import { createClient } from "@tursodatabase/serverless/compat";
 import { safeAsync } from "@utils/safeAsync";
-
-import Layout from "../layouts/Layout.astro";
-import ErrorOut from "../components/ErrorOut.astro";
-import Container from "../components/Container.astro";
-import Button from "../components/Button.astro";
 import Ascii from "../components/AsciiContainer.astro";
-
+import Button from "../components/Button.astro";
 import CommitLog from "../components/modules/CommitLog.astro";
+import Container from "../components/Container.astro";
+import ErrorOut from "../components/ErrorOut.astro";
 import Heatmap from "../components/modules/Heatmap.astro";
 import LastFM from "../components/modules/Scrobble.jsx";
+import Layout from "../layouts/Layout.astro";
 
 import socials from "../data/socials.json";
 

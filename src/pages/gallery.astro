@@ -1,11 +1,9 @@
 ---
 import { createClient } from "@tursodatabase/serverless/compat";
 import { safeAsync } from "@utils/safeAsync";
-
+import ErrorOut from "../components/ErrorOut.astro";
 import Header from "../layouts/Header.astro";
 import Layout from "../layouts/Layout.astro";
-
-import ErrorOut from "../components/ErrorOut.astro";
 
 const turso = createClient({
 	url: import.meta.env.TURSO_DATABASE_URL,
