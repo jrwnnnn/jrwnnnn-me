@@ -1,5 +1,6 @@
 ---
 import { createClient } from "@tursodatabase/serverless/compat";
+import { env } from "cloudflare:workers";
 import { safeAsync } from "@utils/safeAsync";
 import Ascii from "../components/AsciiContainer.astro";
 import Button from "../components/Button.astro";
@@ -21,10 +22,7 @@ const latestTransmission = await safeAsync(
 	turso.execute("SELECT * FROM articles ORDER BY date_created DESC LIMIT 1"),
 );
 
-const siteSettings = await safeAsync(
-	turso.execute("SELECT * FROM site_settings"),
-);
-
+const siteSettings = await env.NAMESPACE.get(["index.quote", "index.art"]);
 const stack = [
 	{ icon: "icons/stack/javascript.svg", name: "JavaScript" },
 	{ icon: "icons/stack/astro.svg", name: "Astro" },
@@ -151,22 +149,14 @@ const stack = [
 				<LastFM client:idle />
 			</Container>
 			<Container class="break-inside-avoid space-y-5">
-				{
-					siteSettings.data ? (
-						<>
-							<Ascii
-								ascii={siteSettings.data.rows[0].value as string}
-								class="glitch opacity-90"
-							/>
-							<hr class="border border-green-500/30" />
-							<p class="text-center font-mono text-sm italic">
-								{siteSettings.data.rows[1].value}
-							</p>
-						</>
-					) : (
-						<ErrorOut error={siteSettings.error as Error} />
-					)
-				}
+				<Ascii
+					ascii={siteSettings.get("index.art") as string}
+					class="glitch opacity-90"
+				/>
+				<hr class="border border-green-500/30" />
+				<p class="text-center font-mono text-sm italic">
+					{siteSettings.get("index.quote")}
+				</p>
 			</Container>
 		</section>
 	</main>
