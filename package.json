@@ -3,11 +3,9 @@
 	"type": "module",
 	"version": "0.0.1",
 	"scripts": {
-		"astro:dev": "astro dev",
-		"astro:build": "astro build",
-		"astro:preview": "astro preview",
-		"lint": "eslint .",
-		"typecheck": "astro check && tsc --noEmit",
+		"dev": "astro dev",
+		"build": "astro build",
+		"preview": "astro build && astro preview",
 		"generate-types": "wrangler types"
 	},
 	"dependencies": {
