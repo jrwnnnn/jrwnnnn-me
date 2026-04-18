@@ -1,36 +1,36 @@
 [
   {
-    "sha": "11bba256d0a20821ece2f5de880c41997c1c7a0d",
-    "node_id": "C_kwDORyV409oAKDExYmJhMjU2ZDBhMjA4MjFlY2UyZjVkZTg4MGM0MTk5N2MxYzdhMGQ",
+    "sha": "fbeacc6f4bcc48153a9f5135cf8188de37e60343",
+    "node_id": "C_kwDORCOQn9oAKGZiZWFjYzZmNGJjYzQ4MTUzYTlmNTEzNWNmODE4OGRlMzdlNjAzNDM",
     "commit": {
       "author": {
         "name": "Mark Jerwin",
         "email": "ping@jrwnnnn.me",
-        "date": "2026-04-17T05:47:01Z"
+        "date": "2026-04-18T11:15:39Z"
       },
       "committer": {
         "name": "GitHub",
         "email": "noreply@github.com",
-        "date": "2026-04-17T05:47:01Z"
+        "date": "2026-04-18T11:15:39Z"
       },
-      "message": "Merge pull request #22 from jrwnnnn/move-images-to-r2\n\nrefactor: Point image sources to an R2 bucket",
+      "message": "Merge pull request #56 from jrwnnnn/dev\n\nRefactor site settings and update font loading mechanism",
       "tree": {
-        "sha": "0c05bd5360574cf82da9a525d775512fda5e2ebb",
-        "url": "https://api.github.com/repos/jrwnnnn/mov/git/trees/0c05bd5360574cf82da9a525d775512fda5e2ebb"
+        "sha": "ce372fbeb2f914187122e807a41da08270d931fb",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/ce372fbeb2f914187122e807a41da08270d931fb"
       },
-      "url": "https://api.github.com/repos/jrwnnnn/mov/git/commits/11bba256d0a20821ece2f5de880c41997c1c7a0d",
+      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/fbeacc6f4bcc48153a9f5135cf8188de37e60343",
       "comment_count": 0,
       "verification": {
         "verified": true,
         "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp4clVCRC1aQ7uu5UhlAAAodcQADyT8Co1HP6OibHaWQ+rKI9Z\nva0svrEr/JmS0xusP9akRHsURqI5YXRqbfRW7QKfPNdImrJi4pZs5w4TxPVR1Cbi\nmlnA/vJOgbAvFhaHHOJNuz2qlENFVVCN+FGg8cbMnyif9dRAkFCT66jOSF27ymtM\n5QMvr6agMrJY4q9N1z3XNCqJ1sKeDk2meqWd6NWu6CJ79yfEFebWDDWOFUuqZHL6\nIIBXvBGHiZu4fe0PQg/51iEiRLuLcrI6v28tMD+XGF9G6CWPrUSsCg2p1K7hv/YV\nfoRdVKJrqeQDau2G3XLkkGzFTzIH6L6TumIBEZApVX5qLvr+G1cmR2kUobgvDkd1\nH11E2V0fijlTAe2wcA6tIjvJk9Bn9YU62MOibJDnPTUu5j5qLjEn9ROK21C0Qp+3\ne5P8OXzzU9MMf2AOh+GIvmleEurw55ww0Y4cN/SQo1gRDfWRHH0ymEd9Sjx4zPJb\nge8g11gUJkDXBfik+gDU8sLVKN61IQy+aYb9aCAeVGZyl5NPEkiXosJK4eVDK2i4\nXr7hglEhlG6Xs+5nikI+A9pMQYbeM0jMk5uD7/SNBPSUc7+lCAymBARDCWuNquFi\n7osN2aL7jWCWPAVLRAoOuegpWeUQ+3GVgb7z8wv/owz4d70t28e11j1PBTDjGl1K\nbMtoqzpyZBjRSpkPpkaa\n=WFZ8\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 0c05bd5360574cf82da9a525d775512fda5e2ebb\nparent 5823c89e573f5cc585a8673be1e9ccca3bad361a\nparent 20862cc8390283e7dc6a14522de8f3935ede3cdb\nauthor Mark Jerwin <ping@jrwnnnn.me> 1776404821 +0800\ncommitter GitHub <noreply@github.com> 1776404821 +0800\n\nMerge pull request #22 from jrwnnnn/move-images-to-r2\n\nrefactor: Point image sources to an R2 bucket",
-        "verified_at": "2026-04-17T05:47:02Z"
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp42fbCRC1aQ7uu5UhlAAAFXgQAIPq+ZHzXpJ+SGs09Q8v74dE\nMW/LY66vZ29ztqBGlwNKid+MDbbWzjyu1OeLek3C6pG92Q/zjNjty4y7Ti0vlncm\n4m63nm00X3nT/vqlWzmNuJfdnJgPj3McDMPHC8TJ6Kh+BTP8ghSPg0sF2LgB4US6\nudkxwafizXFJrfi0A0s1zwaO2y+IUL5tKLJxXxlFTAZkN3nUCmRmTBN5+IzZsiW1\nZqAqTdmLNz9gpWz3YyUkL4Uj8M+jmJcY+Bf6z9gw9trAm9SSJMaetWuKeFj3vJ/X\nBCiUZrMYUKrthyBx60fWbbiCaqUJ1iYUHpDLJUyFH6Ks62L3UeusedrYSmqgK3TK\nnfE21cqgwGk0R0VPXPAM3DswcHe51oaUsyXEpu36tUvg5Xhlyr6IXjdxcvQo1KYp\nV2txVjmJjZD7qZIeI0F2bX+bH1Po/s5pUvXnTJVFZEQgvtede/MlfCVkYDLTgerN\n6ShYjLL/YFXjhzMBHYqjWIED0EHndXPUgCVmQ+S9twmh5n8R8UR1+AZ5v8iQHlr+\n3s37/ZG7NzqZGJHqDuJV36wxd28RXRhK3BY22MXiMdr8ijeozuDlNOId/x9mTsTW\n4EljjI36alzap/AknuBXgWrhhrKlJnL2kpvtOUdAElHH2+2zZ7Ui3ULS2Wre6W5n\n5p2nDcHQEYVes3ZcOiGo\n=uh72\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree ce372fbeb2f914187122e807a41da08270d931fb\nparent e061da32d01918e21d79cca0c2c3b8e7de6788be\nparent d1af3be10238639f81f577f4a419285b114c57d4\nauthor Mark Jerwin <ping@jrwnnnn.me> 1776510939 +0800\ncommitter GitHub <noreply@github.com> 1776510939 +0800\n\nMerge pull request #56 from jrwnnnn/dev\n\nRefactor site settings and update font loading mechanism",
+        "verified_at": "2026-04-18T11:15:40Z"
       }
     },
-    "url": "https://api.github.com/repos/jrwnnnn/mov/commits/11bba256d0a20821ece2f5de880c41997c1c7a0d",
-    "html_url": "https://github.com/jrwnnnn/mov/commit/11bba256d0a20821ece2f5de880c41997c1c7a0d",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/mov/commits/11bba256d0a20821ece2f5de880c41997c1c7a0d/comments",
+    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/fbeacc6f4bcc48153a9f5135cf8188de37e60343",
+    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/fbeacc6f4bcc48153a9f5135cf8188de37e60343",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/fbeacc6f4bcc48153a9f5135cf8188de37e60343/comments",
     "author": {
       "login": "jrwnnnn",
       "id": 136870415,
@@ -75,594 +75,688 @@
     },
     "parents": [
       {
-        "sha": "5823c89e573f5cc585a8673be1e9ccca3bad361a",
-        "url": "https://api.github.com/repos/jrwnnnn/mov/commits/5823c89e573f5cc585a8673be1e9ccca3bad361a",
-        "html_url": "https://github.com/jrwnnnn/mov/commit/5823c89e573f5cc585a8673be1e9ccca3bad361a"
+        "sha": "e061da32d01918e21d79cca0c2c3b8e7de6788be",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/e061da32d01918e21d79cca0c2c3b8e7de6788be",
+        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/e061da32d01918e21d79cca0c2c3b8e7de6788be"
       },
       {
-        "sha": "20862cc8390283e7dc6a14522de8f3935ede3cdb",
-        "url": "https://api.github.com/repos/jrwnnnn/mov/commits/20862cc8390283e7dc6a14522de8f3935ede3cdb",
-        "html_url": "https://github.com/jrwnnnn/mov/commit/20862cc8390283e7dc6a14522de8f3935ede3cdb"
+        "sha": "d1af3be10238639f81f577f4a419285b114c57d4",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/d1af3be10238639f81f577f4a419285b114c57d4",
+        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/d1af3be10238639f81f577f4a419285b114c57d4"
       }
     ],
     "stats": {
-      "total": 33,
-      "additions": 20,
-      "deletions": 13
+      "total": 699,
+      "additions": 251,
+      "deletions": 448
     },
     "files": [
       {
-        "sha": "c5d715693e587c04b9388a88eb849ff501ceff1f",
-        "filename": "src/components/Card.astro",
+        "sha": "a82cdb70172f73d63e03c0e1f7b651ebba88aa33",
+        "filename": ".github/workflows/Main.yml",
         "status": "modified",
-        "additions": 2,
-        "deletions": 2,
-        "changes": 4,
-        "blob_url": "https://github.com/jrwnnnn/mov/blob/11bba256d0a20821ece2f5de880c41997c1c7a0d/src%2Fcomponents%2FCard.astro",
-        "raw_url": "https://github.com/jrwnnnn/mov/raw/11bba256d0a20821ece2f5de880c41997c1c7a0d/src%2Fcomponents%2FCard.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/mov/contents/src%2Fcomponents%2FCard.astro?ref=11bba256d0a20821ece2f5de880c41997c1c7a0d",
-        "patch": "@@ -9,7 +9,7 @@ const { mov } = Astro.props;\n     <div class=\"space-y-4\">\n       <h1 class=\"text-lg md:text-3xl font-bold text-gray-800\">\n         {\n-          new Date(mov.date as string).toLocaleDateString(\"en-US\", {\n+          new Date(mov.date).toLocaleDateString(\"en-US\", {\n             timeZone: \"UTC\",\n             month: \"long\",\n             day: \"numeric\",\n@@ -35,7 +35,7 @@ const { mov } = Astro.props;\n         </span>\n       </div>\n \n-      <img src={mov.photo_1 as string} class=\"rounded-lg\" />\n+      <img src=`https://r2.mov.jrwnnnn.me/${mov.photo_1}` class=\"rounded-lg\" />\n     </div>\n   </div>\n </a>"
-      },
-      {
-        "sha": "fb630d3de65db60d7d204a03b25a766812cf4c66",
-        "filename": "src/pages/index.astro",
-        "status": "modified",
-        "additions": 1,
+        "additions": 4,
         "deletions": 4,
-        "changes": 5,
-        "blob_url": "https://github.com/jrwnnnn/mov/blob/11bba256d0a20821ece2f5de880c41997c1c7a0d/src%2Fpages%2Findex.astro",
-        "raw_url": "https://github.com/jrwnnnn/mov/raw/11bba256d0a20821ece2f5de880c41997c1c7a0d/src%2Fpages%2Findex.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/mov/contents/src%2Fpages%2Findex.astro?ref=11bba256d0a20821ece2f5de880c41997c1c7a0d",
-        "patch": "@@ -3,10 +3,7 @@ import { env } from \"cloudflare:workers\";\n import Entry from \"../components/Card.astro\";\n import Layout from \"../layouts/Layout.astro\";\n \n-const movs = await env.DB.prepare(\"SELECT * FROM mov ORDER BY date DESC\").all();\n-if (!movs.results) {\n-\tconsole.error(\"Failed to fetch MOV shots from the database.\");\n-}\n+const movs = await env.DB.prepare(\"SELECT * FROM movs ORDER BY date DESC\").all();\n ---\n \n <Layout title=\"MOV Portfolio\">"
+        "changes": 8,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/fbeacc6f4bcc48153a9f5135cf8188de37e60343/.github%2Fworkflows%2FMain.yml",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/fbeacc6f4bcc48153a9f5135cf8188de37e60343/.github%2Fworkflows%2FMain.yml",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/.github%2Fworkflows%2FMain.yml?ref=fbeacc6f4bcc48153a9f5135cf8188de37e60343",
+        "patch": "@@ -1,4 +1,4 @@\n-name: CI/CD\n+name: Checks\n \n on:\n   push:\n@@ -16,7 +16,7 @@ jobs:\n           node-version: 24\n           cache: \"npm\"\n       - run: npm ci\n-      - run: npm run lint\n+      - run: npx eslint .\n \n   typecheck:\n     runs-on: ubuntu-latest\n@@ -27,7 +27,7 @@ jobs:\n           node-version: 24\n           cache: \"npm\"\n       - run: npm ci\n-      - run: npm run typecheck\n+      - run: npx astro check\n \n   codeql:\n     runs-on: ubuntu-latest\n@@ -64,7 +64,7 @@ jobs:\n         run: npm ci\n \n       - name: Build\n-        run: npm run astro:build\n+        run: npm run build\n \n       - name: Prune dev dependencies\n         run: npm prune --production"
       },
       {
-        "sha": "6a33d6851b08c983e08caaac58d35c7b985f5f71",
-        "filename": "src/pages/mov/[id].astro",
-        "status": "modified",
-        "additions": 17,
-        "deletions": 7,
-        "changes": 24,
-        "blob_url": "https://github.com/jrwnnnn/mov/blob/11bba256d0a20821ece2f5de880c41997c1c7a0d/src%2Fpages%2Fmov%2F%5Bid%5D.astro",
-        "raw_url": "https://github.com/jrwnnnn/mov/raw/11bba256d0a20821ece2f5de880c41997c1c7a0d/src%2Fpages%2Fmov%2F%5Bid%5D.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/mov/contents/src%2Fpages%2Fmov%2F%5Bid%5D.astro?ref=11bba256d0a20821ece2f5de880c41997c1c7a0d",
-        "patch": "@@ -1,16 +1,18 @@\n ---\n-import {env} from \"cloudflare:workers\";\n+import { env } from \"cloudflare:workers\";\n import Layout from \"../../layouts/Layout.astro\";\n \n-const id = Astro.params.id as string;\n-const result = await env.DB.prepare(\"SELECT * FROM mov WHERE id = ?\").bind(id).all();\n+const id = Astro.params.id;\n+const result = await env.DB.prepare(\"SELECT * FROM movs WHERE id = ?\")\n+\t.bind(id)\n+\t.all();\n ---\n \n {\n \tresult.results.map((mov) => (\n \t\t<Layout\n \t\t\ttitle={`MOV Shot - ${new Date(mov.date as string).toLocaleDateString()}`}\n-\t\t\tdescription={mov.narrative as string}\n+\t\t\tdescription={mov.narrative}\n \t\t>\n \t\t\t<main class=\"min-h-screen bg-linear-to-br from-[#f5f5ff] via-[#e3e9fc] to-[#f0f4ff] p-5 md:p-10\">\n \t\t\t\t<article class=\"mx-auto flex max-w-4xl flex-col space-y-6 rounded-3xl border border-gray-100 bg-white/90 px-5 py-8 shadow-xl md:px-12 md:py-15\">\n@@ -43,11 +45,19 @@ const result = await env.DB.prepare(\"SELECT * FROM mov WHERE id = ?\").bind(id).a\n \t\t\t\t\t\t</span>\n \t\t\t\t\t</div>\n \n-\t\t\t\t\t<img src={mov.photo_1 as string} alt=\"Photo OP 1\" class=\"images\" />\n-\t\t\t\t\t<img src={mov.photo_2 as string} alt=\"Photo OP 2\" class=\"images\" />\n+\t\t\t\t\t<img\n+\t\t\t\t\t\tsrc={`https://r2.mov.jrwnnnn.me/${mov.photo_1}`}\n+\t\t\t\t\t\talt=\"Photo OP 1\"\n+\t\t\t\t\t\tclass=\"images\"\n+\t\t\t\t\t/>\n+\t\t\t\t\t<img\n+\t\t\t\t\t\tsrc={`https://r2.mov.jrwnnnn.me/${mov.photo_2}`}\n+\t\t\t\t\t\talt=\"Photo OP 2\"\n+\t\t\t\t\t\tclass=\"images\"\n+\t\t\t\t\t/>\n \t\t\t\t\t{mov.photo_extra && (\n \t\t\t\t\t\t<img\n-\t\t\t\t\t\t\tsrc={mov.photo_extra as string}\n+\t\t\t\t\t\t\tsrc={`https://r2.mov.jrwnnnn.me/${mov.photo_extra}`}\n \t\t\t\t\t\t\talt=\"Extra image\"\n \t\t\t\t\t\t\tclass=\"images\"\n \t\t\t\t\t\t/>"
-      }
-    ]
-  },
-  {
-    "sha": "20862cc8390283e7dc6a14522de8f3935ede3cdb",
-    "node_id": "C_kwDORyV409oAKDIwODYyY2M4MzkwMjgzZTdkYzZhMTQ1MjJkZThmMzkzNWVkZTNjZGI",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "ping@jrwnnnn.me",
-        "date": "2026-04-17T05:38:44Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-04-17T05:38:44Z"
-      },
-      "message": "Merge branch 'main' into move-images-to-r2",
-      "tree": {
-        "sha": "0c05bd5360574cf82da9a525d775512fda5e2ebb",
-        "url": "https://api.github.com/repos/jrwnnnn/mov/git/trees/0c05bd5360574cf82da9a525d775512fda5e2ebb"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/mov/git/commits/20862cc8390283e7dc6a14522de8f3935ede3cdb",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp4cdkCRC1aQ7uu5UhlAAAdkkQAD4HC5dx4Jg6FOmnM5PxY1aP\nPuAd+dUTSZK0pwXTuOXtsJW1yIKBuHgC4T8gehC0btWOeweHlqxTh0mEYBiszrW1\nIWPXo12uLi8J9OoCP7a1BAqz5ZzVTLsb6My9wT9s9t350RyiyMD43KiibJwd8w3M\nEKA5vrMWMeRM0GNzjqVGT3E/yR1f3gOE5RUxfKDH4gojTujovOveLiqEjrwVLCyc\nV6+aT8g1voHbbmgkO2IB28tM4rW1C45IT0dboIBdxhn6cFVaGc52vhscjvvUYY9H\noKxBdtri0HZYptdAD5JW2wVd8QEDOQhNrl8yimcEkwrfu8j4arbQyPS27djFhkz+\nOTmV4Y+6b9aaxBNXOFM5p4s86Upubx3gKcCsd2H3lKk7Yxa1Fm6WpBfuFVuOxq0E\nYexFDYWPaT/TTKF3C3F7+lsySsBxpcdbIY3bdTLB6PWJOi2HjFq/zF8/+9HKa6wS\n9AuukMVTHFxJdxGWiX5YZ6nmRXdWsnhGsGbAuZB76pdx/5kqXZKZggqjy9gj/43B\nloRReAsknSVoWHjklhDS5ZA3fRX0f8r3GqY/fVxDsayeMsyL0lI2NBMdlMHYbudd\n/VHQ582d29bzQb42Et8GjP2pRWdUxXZ0TNP3AdvUmdqYCXDmmUKYytjkdvg0Hn0E\njpDLC6D++IUM9b1YeRjG\n=ksLw\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 0c05bd5360574cf82da9a525d775512fda5e2ebb\nparent 808979f20dfbfd29586459f7d37d5c7d0d65393d\nparent 5823c89e573f5cc585a8673be1e9ccca3bad361a\nauthor Mark Jerwin <ping@jrwnnnn.me> 1776404324 +0800\ncommitter GitHub <noreply@github.com> 1776404324 +0800\n\nMerge branch 'main' into move-images-to-r2",
-        "verified_at": "2026-04-17T05:38:45Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/mov/commits/20862cc8390283e7dc6a14522de8f3935ede3cdb",
-    "html_url": "https://github.com/jrwnnnn/mov/commit/20862cc8390283e7dc6a14522de8f3935ede3cdb",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/mov/commits/20862cc8390283e7dc6a14522de8f3935ede3cdb/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "808979f20dfbfd29586459f7d37d5c7d0d65393d",
-        "url": "https://api.github.com/repos/jrwnnnn/mov/commits/808979f20dfbfd29586459f7d37d5c7d0d65393d",
-        "html_url": "https://github.com/jrwnnnn/mov/commit/808979f20dfbfd29586459f7d37d5c7d0d65393d"
-      },
-      {
-        "sha": "5823c89e573f5cc585a8673be1e9ccca3bad361a",
-        "url": "https://api.github.com/repos/jrwnnnn/mov/commits/5823c89e573f5cc585a8673be1e9ccca3bad361a",
-        "html_url": "https://github.com/jrwnnnn/mov/commit/5823c89e573f5cc585a8673be1e9ccca3bad361a"
-      }
-    ],
-    "stats": {
-      "total": 0,
-      "additions": 0,
-      "deletions": 0
-    },
-    "files": []
-  },
-  {
-    "sha": "e061da32d01918e21d79cca0c2c3b8e7de6788be",
-    "node_id": "C_kwDORCOQn9oAKGUwNjFkYTMyZDAxOTE4ZTIxZDc5Y2NhMGMyYzNiOGU3ZGU2Nzg4YmU",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "ping@jrwnnnn.me",
-        "date": "2026-04-17T05:37:52Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-04-17T05:37:52Z"
-      },
-      "message": "Merge pull request #54 from jrwnnnn/cloudflare-migration\n\nbuild: Enable nodejs_compat and add @types/node",
-      "tree": {
-        "sha": "a617f957414d6f4791f61bf0d1d65b5b6cf001b6",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/a617f957414d6f4791f61bf0d1d65b5b6cf001b6"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/e061da32d01918e21d79cca0c2c3b8e7de6788be",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp4ccwCRC1aQ7uu5UhlAAAr7wQAIVRaksj2wmATuyEUe2Ya3si\nZNgylbx/Yqk+MXC8GpVWG4zMaMI/1UFBgngIPMi6EUkRL2/BJOzBtPRBPvw4GlmH\nSY5BHqhywIW/IdI7Tsf5jiBJSuPvhwolUYuJuD8P55nFIuOhYG01bHXveCThgpLL\nA63zEluLVW2lOQ0Y96yAxZqckEVClnTHJAStV/JXdnMeeq5UUQ0QLpMhV6RjM5uc\nGyilLuHubv27PexjEZQ4XCf6e6v70YOsSMjyUuQIO5pEzGZ+JxmZKy+YGjmZlHXy\nXqhpAfP/9jPNs56BJKiJ5dl5SlkMLDcdwmv/DkqzliovWOENVrr5xfvVa3wIAM3u\nMcI7qygHkIU3paFqj/Tkh1jPCry6T4Qs3Zim1CC7fsS0T9EJyTNTil6oqbDn7cwy\nQ7y0WMegkO0FLIUTH/1BisxSxoLTlZlAsCBFbGesQPKC0twUf1vKDeIIWQEkWOwb\nq6kqOTF5+O5MM01O+WcVu53vfBrfZ3UYZ69TyK+jYwtjQQly4kKwYsFeoU+EFkTe\ny5hF6HNw5sqREm54z8HsZgaBbpuTHyiu1Y4Kjw4ncMfNQBSMNUsUT0IzVCxXsyM5\nkAzF4MwaSOgcHbA//ivUuuEwzuGcH9ct14V+yrRAxBdYlroqOI8qJjgnYIxvhjuB\nyGdKA9XaW/mUWWWD8aLV\n=NEMg\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree a617f957414d6f4791f61bf0d1d65b5b6cf001b6\nparent b5b726c6aeb3b8e6b1ce41e4df0b13a23db7b221\nparent 762e031afaa7abe43261a96aeb7e593e64f67a26\nauthor Mark Jerwin <ping@jrwnnnn.me> 1776404272 +0800\ncommitter GitHub <noreply@github.com> 1776404272 +0800\n\nMerge pull request #54 from jrwnnnn/cloudflare-migration\n\nbuild: Enable nodejs_compat and add @types/node",
-        "verified_at": "2026-04-17T05:37:53Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/e061da32d01918e21d79cca0c2c3b8e7de6788be",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/e061da32d01918e21d79cca0c2c3b8e7de6788be",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/e061da32d01918e21d79cca0c2c3b8e7de6788be/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "b5b726c6aeb3b8e6b1ce41e4df0b13a23db7b221",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/b5b726c6aeb3b8e6b1ce41e4df0b13a23db7b221",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/b5b726c6aeb3b8e6b1ce41e4df0b13a23db7b221"
-      },
-      {
-        "sha": "762e031afaa7abe43261a96aeb7e593e64f67a26",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/762e031afaa7abe43261a96aeb7e593e64f67a26",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/762e031afaa7abe43261a96aeb7e593e64f67a26"
-      }
-    ],
-    "stats": {
-      "total": 45,
-      "additions": 35,
-      "deletions": 10
-    },
-    "files": [
-      {
-        "sha": "0bf85449d84b2ded4b6e719893abb91d1a34fc81",
-        "filename": "package-lock.json",
-        "status": "modified",
-        "additions": 33,
-        "deletions": 9,
-        "changes": 42,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/e061da32d01918e21d79cca0c2c3b8e7de6788be/package-lock.json",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/e061da32d01918e21d79cca0c2c3b8e7de6788be/package-lock.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/package-lock.json?ref=e061da32d01918e21d79cca0c2c3b8e7de6788be",
-        "patch": "@@ -25,6 +25,7 @@\n \t\t\t\t\"@cloudflare/workers-types\": \"^4.20260416.2\",\n \t\t\t\t\"@eslint/js\": \"^10.0.1\",\n \t\t\t\t\"@types/bcrypt\": \"^6.0.0\",\n+\t\t\t\t\"@types/node\": \"^25.6.0\",\n \t\t\t\t\"@types/react\": \"^19.2.14\",\n \t\t\t\t\"@types/react-dom\": \"^19.2.3\",\n \t\t\t\t\"eslint\": \"^10.0.3\",\n@@ -108,7 +109,8 @@\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@astrojs/compiler/-/compiler-2.13.1.tgz\",\n \t\t\t\"integrity\": \"sha512-f3FN83d2G/v32ipNClRKgYv30onQlMZX1vCeZMjPsMMPl1mDpmbl0+N5BYo4S/ofzqJyS5hvwacEo0CCVDn/Qg==\",\n \t\t\t\"dev\": true,\n-\t\t\t\"license\": \"MIT\"\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true\n \t\t},\n \t\t\"node_modules/@astrojs/internal-helpers\": {\n \t\t\t\"version\": \"0.8.0\",\n@@ -286,6 +288,7 @@\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@babel/core/-/core-7.29.0.tgz\",\n \t\t\t\"integrity\": \"sha512-CGOfOJqWjg2qW/Mb6zNsDm+u5vFQ8DxXfbM09z69p5Z6+mE1ikP2jUXw+j42Pf1XTYED2Rni5f95npYeuwMDQA==\",\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@babel/code-frame\": \"^7.29.0\",\n \t\t\t\t\"@babel/generator\": \"^7.29.0\",\n@@ -732,7 +735,8 @@\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@cloudflare/workers-types/-/workers-types-4.20260416.2.tgz\",\n \t\t\t\"integrity\": \"sha512-f7VGuKsHckH5n9KATTPJQ6AGdc2q58eM2waGzzDoCKw+PBtw9j2TWdRz8tLkviv7XcjkcuKy181vQFffXJicrA==\",\n \t\t\t\"devOptional\": true,\n-\t\t\t\"license\": \"MIT OR Apache-2.0\"\n+\t\t\t\"license\": \"MIT OR Apache-2.0\",\n+\t\t\t\"peer\": true\n \t\t},\n \t\t\"node_modules/@cspotcode/source-map-support\": {\n \t\t\t\"version\": \"0.8.1\",\n@@ -2923,20 +2927,22 @@\n \t\t\t}\n \t\t},\n \t\t\"node_modules/@types/node\": {\n-\t\t\t\"version\": \"25.2.3\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/@types/node/-/node-25.2.3.tgz\",\n-\t\t\t\"integrity\": \"sha512-m0jEgYlYz+mDJZ2+F4v8D1AyQb+QzsNqRuI7xg1VQX/KlKS0qT9r1Mo16yo5F/MtifXFgaofIFsdFMox2SxIbQ==\",\n+\t\t\t\"version\": \"25.6.0\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@types/node/-/node-25.6.0.tgz\",\n+\t\t\t\"integrity\": \"sha512-+qIYRKdNYJwY3vRCZMdJbPLJAtGjQBudzZzdzwQYkEPQd+PJGixUL5QfvCLDaULoLv+RhT3LDkwEfKaAkgSmNQ==\",\n \t\t\t\"devOptional\": true,\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n-\t\t\t\t\"undici-types\": \"~7.16.0\"\n+\t\t\t\t\"undici-types\": \"~7.19.0\"\n \t\t\t}\n \t\t},\n \t\t\"node_modules/@types/react\": {\n \t\t\t\"version\": \"19.2.14\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@types/react/-/react-19.2.14.tgz\",\n \t\t\t\"integrity\": \"sha512-ilcTH/UniCkMdtexkoCN0bI7pMcJDvmQFPvuPvmEaYA/NSfFTAgdUSLAoVjaRJm7+6PvcM+q1zYOwS4wTYMF9w==\",\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"csstype\": \"^3.2.2\"\n \t\t\t}\n@@ -2946,6 +2952,7 @@\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@types/react-dom/-/react-dom-19.2.3.tgz\",\n \t\t\t\"integrity\": \"sha512-jp2L/eY6fn+KgVVQAOqYItbF0VY/YApe5Mz2F0aykSO8gx31bYCZyvSeYxCHKvzHG5eZjc+zyaS5BrBWya2+kQ==\",\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"peerDependencies\": {\n \t\t\t\t\"@types/react\": \"^19.2.0\"\n \t\t\t}\n@@ -3001,6 +3008,7 @@\n \t\t\t\"integrity\": \"sha512-/Zb/xaIDfxeJnvishjGdcR4jmr7S+bda8PKNhRGdljDM+elXhlvN0FyPSsMnLmJUrVG9aPO6dof80wjMawsASg==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@typescript-eslint/scope-manager\": \"8.58.2\",\n \t\t\t\t\"@typescript-eslint/types\": \"8.58.2\",\n@@ -3316,6 +3324,7 @@\n \t\t\t\"integrity\": \"sha512-UVJyE9MttOsBQIDKw1skb9nAwQuR5wuGD3+82K6JgJlm/Y+KI92oNsMNGZCYdDsVtRHSak0pcV5Dno5+4jh9sw==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"bin\": {\n \t\t\t\t\"acorn\": \"bin/acorn\"\n \t\t\t},\n@@ -3339,6 +3348,7 @@\n \t\t\t\"integrity\": \"sha512-PlXPeEWMXMZ7sPYOHqmDyCJzcfNrUr3fGNKtezX14ykXOEIvyK81d+qydx89KY5O71FKMPaQ2vBfBFI5NHR63A==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"fast-deep-equal\": \"^3.1.3\",\n \t\t\t\t\"fast-uri\": \"^3.0.1\",\n@@ -3420,6 +3430,7 @@\n \t\t\t\"resolved\": \"https://registry.npmjs.org/astro/-/astro-6.1.3.tgz\",\n \t\t\t\"integrity\": \"sha512-FUKbBYOdYYrRNZwDd9I5CVSfR6Nj9aZeNzcjcvh1FgHwR0uXawkYFR3HiGxmdmAB2m8fs0iIkDdsiUfwGeO8qA==\",\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@astrojs/compiler\": \"^3.0.1\",\n \t\t\t\t\"@astrojs/internal-helpers\": \"0.8.0\",\n@@ -3714,6 +3725,7 @@\n \t\t\t\t}\n \t\t\t],\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"baseline-browser-mapping\": \"^2.9.0\",\n \t\t\t\t\"caniuse-lite\": \"^1.0.30001759\",\n@@ -4419,6 +4431,7 @@\n \t\t\t\"integrity\": \"sha512-COV33RzXZkqhG9P2rZCFl9ZmJ7WL+gQSCRzE7RhkbclbQPtLAWReL7ysA0Sh4c8Im2U9ynybdR56PV0XcKvqaQ==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@eslint-community/eslint-utils\": \"^4.8.0\",\n \t\t\t\t\"@eslint-community/regexpp\": \"^4.12.2\",\n@@ -7032,6 +7045,7 @@\n \t\t\t\"integrity\": \"sha512-UOnG6LftzbdaHZcKoPFtOcCKztrQ57WkHDeRD9t/PTQtmT0NHSeWWepj6pS0z/N7+08BHFDQVUrfmfMRcZwbMg==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"bin\": {\n \t\t\t\t\"prettier\": \"bin/prettier.cjs\"\n \t\t\t},\n@@ -7048,6 +7062,7 @@\n \t\t\t\"integrity\": \"sha512-RiBETaaP9veVstE4vUwSIcdATj6dKmXljouXc/DDNwBSPTp8FRkLGDSGFClKsAFeeg+13SB0Z1JZvbD76bigJw==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@astrojs/compiler\": \"^2.9.1\",\n \t\t\t\t\"prettier\": \"^3.0.0\",\n@@ -7197,6 +7212,7 @@\n \t\t\t\"resolved\": \"https://registry.npmjs.org/react/-/react-19.2.5.tgz\",\n \t\t\t\"integrity\": \"sha512-llUJLzz1zTUBrskt2pwZgLq59AemifIftw4aB7JxOqf1HY2FDaGDxgwpAPVzHU1kdWabH7FauP4i1oEeer2WCA==\",\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"engines\": {\n \t\t\t\t\"node\": \">=0.10.0\"\n \t\t\t}\n@@ -7206,6 +7222,7 @@\n \t\t\t\"resolved\": \"https://registry.npmjs.org/react-dom/-/react-dom-19.2.5.tgz\",\n \t\t\t\"integrity\": \"sha512-J5bAZz+DXMMwW/wV3xzKke59Af6CHY7G4uYLN1OvBcKEsWOs4pQExj86BBKamxl/Ik5bx9whOrvBlSDfWzgSag==\",\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"scheduler\": \"^0.27.0\"\n \t\t\t},\n@@ -7505,6 +7522,7 @@\n \t\t\t\"resolved\": \"https://registry.npmjs.org/rollup/-/rollup-4.59.0.tgz\",\n \t\t\t\"integrity\": \"sha512-2oMpl67a3zCH9H79LeMcbDhXW/UmWG/y2zuqnF2jQq5uq9TbM9TVyXvA4+t+ne2IIkBdrLpAaRQAvo7YI/Yyeg==\",\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@types/estree\": \"1.0.8\"\n \t\t\t},\n@@ -7970,6 +7988,7 @@\n \t\t\t\"integrity\": \"sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==\",\n \t\t\t\"devOptional\": true,\n \t\t\t\"license\": \"Apache-2.0\",\n+\t\t\t\"peer\": true,\n \t\t\t\"bin\": {\n \t\t\t\t\"tsc\": \"bin/tsc\",\n \t\t\t\t\"tsserver\": \"bin/tsserver\"\n@@ -8040,9 +8059,9 @@\n \t\t\t}\n \t\t},\n \t\t\"node_modules/undici-types\": {\n-\t\t\t\"version\": \"7.16.0\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/undici-types/-/undici-types-7.16.0.tgz\",\n-\t\t\t\"integrity\": \"sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==\",\n+\t\t\t\"version\": \"7.19.2\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/undici-types/-/undici-types-7.19.2.tgz\",\n+\t\t\t\"integrity\": \"sha512-qYVnV5OEm2AW8cJMCpdV20CDyaN3g0AjDlOGf1OW4iaDEx8MwdtChUp4zu4H0VP3nDRF/8RKWH+IPp9uW0YGZg==\",\n \t\t\t\"devOptional\": true,\n \t\t\t\"license\": \"MIT\"\n \t\t},\n@@ -8051,6 +8070,7 @@\n \t\t\t\"resolved\": \"https://registry.npmjs.org/unenv/-/unenv-2.0.0-rc.24.tgz\",\n \t\t\t\"integrity\": \"sha512-i7qRCmY42zmCwnYlh9H2SvLEypEFGye5iRmEMKjcGi7zk9UquigRjFtTLz0TYqr0ZGLZhaMHl/foy1bZR+Cwlw==\",\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"pathe\": \"^2.0.3\"\n \t\t\t}\n@@ -8398,6 +8418,7 @@\n \t\t\t\"resolved\": \"https://registry.npmjs.org/vite/-/vite-7.3.2.tgz\",\n \t\t\t\"integrity\": \"sha512-Bby3NOsna2jsjfLVOHKes8sGwgl4TT0E6vvpYgnAYDIF/tie7MRaFthmKuHx1NSXjiTueXH3do80FMQgvEktRg==\",\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"esbuild\": \"^0.27.0\",\n \t\t\t\t\"fdir\": \"^6.5.0\",\n@@ -8792,6 +8813,7 @@\n \t\t\t\"integrity\": \"sha512-T/GRD6Y5vN9g4CnGmOlfST1w7bj+1IjRFvX0K7CodZPJuPVPNPGhz8Wppah0WdT6A7I8Kad3zgZ2OkDdWtENrg==\",\n \t\t\t\"hasInstallScript\": true,\n \t\t\t\"license\": \"Apache-2.0\",\n+\t\t\t\"peer\": true,\n \t\t\t\"bin\": {\n \t\t\t\t\"workerd\": \"bin/workerd\"\n \t\t\t},\n@@ -8811,6 +8833,7 @@\n \t\t\t\"resolved\": \"https://registry.npmjs.org/wrangler/-/wrangler-4.82.2.tgz\",\n \t\t\t\"integrity\": \"sha512-SKfW21sTJUkM/Qd8zc9oc8TBkAWHRsXuTxE6XdToC55Ct84pR+IfRdaTjCTuC0dL+KYvauSvSn2rtqS2Ae+Dcw==\",\n \t\t\t\"license\": \"MIT OR Apache-2.0\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@cloudflare/kv-asset-handler\": \"0.4.2\",\n \t\t\t\t\"@cloudflare/unenv-preset\": \"2.16.0\",\n@@ -9325,6 +9348,7 @@\n \t\t\t\"integrity\": \"sha512-AvbaCLOO2Otw/lW5bmh9d/WEdcDFdQp2Z2ZUH3pX9U2ihyUY0nvLv7J6TrWowklRGPYbB/IuIMfYgxaCPg5Bpg==\",\n \t\t\t\"devOptional\": true,\n \t\t\t\"license\": \"ISC\",\n+\t\t\t\"peer\": true,\n \t\t\t\"bin\": {\n \t\t\t\t\"yaml\": \"bin.mjs\"\n \t\t\t},"
-      },
-      {
-        "sha": "53873272723a9fd72521fdf51d71163ee69c3237",
-        "filename": "package.json",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 0,
-        "changes": 1,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/e061da32d01918e21d79cca0c2c3b8e7de6788be/package.json",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/e061da32d01918e21d79cca0c2c3b8e7de6788be/package.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/package.json?ref=e061da32d01918e21d79cca0c2c3b8e7de6788be",
-        "patch": "@@ -28,6 +28,7 @@\n \t\t\"@cloudflare/workers-types\": \"^4.20260416.2\",\n \t\t\"@eslint/js\": \"^10.0.1\",\n \t\t\"@types/bcrypt\": \"^6.0.0\",\n+\t\t\"@types/node\": \"^25.6.0\",\n \t\t\"@types/react\": \"^19.2.14\",\n \t\t\"@types/react-dom\": \"^19.2.3\",\n \t\t\"eslint\": \"^10.0.3\","
-      },
-      {
-        "sha": "ddd37c0d013639cdcf60fa7413712caaa9514275",
-        "filename": "wrangler.json",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/e061da32d01918e21d79cca0c2c3b8e7de6788be/wrangler.json",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/e061da32d01918e21d79cca0c2c3b8e7de6788be/wrangler.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/wrangler.json?ref=e061da32d01918e21d79cca0c2c3b8e7de6788be",
-        "patch": "@@ -1,6 +1,6 @@\n {\n \t\"compatibility_date\": \"2026-04-15\",\n-\t\"compatibility_flags\": [\"global_fetch_strictly_public\"],\n+\t\"compatibility_flags\": [\"global_fetch_strictly_public\", \"nodejs_compat\"],\n \t\"name\": \"jrwnnnn-me\",\n \t\"main\": \"@astrojs/cloudflare/entrypoints/server\",\n \t\"assets\": {"
-      }
-    ]
-  },
-  {
-    "sha": "808979f20dfbfd29586459f7d37d5c7d0d65393d",
-    "node_id": "C_kwDORyV409oAKDgwODk3OWYyMGRmYmZkMjk1ODY0NTlmN2QzN2Q1YzdkMGQ2NTM5M2Q",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "ping@jrwnnnn.me",
-        "date": "2026-04-17T05:12:42Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "ping@jrwnnnn.me",
-        "date": "2026-04-17T05:12:42Z"
-      },
-      "message": "refactor: Point image sources to an R2 bucket",
-      "tree": {
-        "sha": "0c05bd5360574cf82da9a525d775512fda5e2ebb",
-        "url": "https://api.github.com/repos/jrwnnnn/mov/git/trees/0c05bd5360574cf82da9a525d775512fda5e2ebb"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/mov/git/commits/808979f20dfbfd29586459f7d37d5c7d0d65393d",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQE5nuG6HtZq6a+paTx/OSuz+Rd7t9G77LppSVYQCYTdAxVlitXpxSIoA7nb3B86pdp\nB17B0fRDFbrEhgDgQrwAM=\n-----END SSH SIGNATURE-----",
-        "payload": "tree 0c05bd5360574cf82da9a525d775512fda5e2ebb\nparent 109b72971c1d898fdcca87030f8fe0fd79a4df25\nauthor Mark Jerwin <ping@jrwnnnn.me> 1776402762 +0800\ncommitter Mark Jerwin <ping@jrwnnnn.me> 1776402762 +0800\n\nrefactor: Point image sources to an R2 bucket\n",
-        "verified_at": "2026-04-17T05:12:49Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/mov/commits/808979f20dfbfd29586459f7d37d5c7d0d65393d",
-    "html_url": "https://github.com/jrwnnnn/mov/commit/808979f20dfbfd29586459f7d37d5c7d0d65393d",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/mov/commits/808979f20dfbfd29586459f7d37d5c7d0d65393d/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "109b72971c1d898fdcca87030f8fe0fd79a4df25",
-        "url": "https://api.github.com/repos/jrwnnnn/mov/commits/109b72971c1d898fdcca87030f8fe0fd79a4df25",
-        "html_url": "https://github.com/jrwnnnn/mov/commit/109b72971c1d898fdcca87030f8fe0fd79a4df25"
-      }
-    ],
-    "stats": {
-      "total": 33,
-      "additions": 20,
-      "deletions": 13
-    },
-    "files": [
-      {
-        "sha": "c5d715693e587c04b9388a88eb849ff501ceff1f",
-        "filename": "src/components/Card.astro",
-        "status": "modified",
-        "additions": 2,
-        "deletions": 2,
-        "changes": 4,
-        "blob_url": "https://github.com/jrwnnnn/mov/blob/808979f20dfbfd29586459f7d37d5c7d0d65393d/src%2Fcomponents%2FCard.astro",
-        "raw_url": "https://github.com/jrwnnnn/mov/raw/808979f20dfbfd29586459f7d37d5c7d0d65393d/src%2Fcomponents%2FCard.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/mov/contents/src%2Fcomponents%2FCard.astro?ref=808979f20dfbfd29586459f7d37d5c7d0d65393d",
-        "patch": "@@ -9,7 +9,7 @@ const { mov } = Astro.props;\n     <div class=\"space-y-4\">\n       <h1 class=\"text-lg md:text-3xl font-bold text-gray-800\">\n         {\n-          new Date(mov.date as string).toLocaleDateString(\"en-US\", {\n+          new Date(mov.date).toLocaleDateString(\"en-US\", {\n             timeZone: \"UTC\",\n             month: \"long\",\n             day: \"numeric\",\n@@ -35,7 +35,7 @@ const { mov } = Astro.props;\n         </span>\n       </div>\n \n-      <img src={mov.photo_1 as string} class=\"rounded-lg\" />\n+      <img src=`https://r2.mov.jrwnnnn.me/${mov.photo_1}` class=\"rounded-lg\" />\n     </div>\n   </div>\n </a>"
-      },
-      {
-        "sha": "fb630d3de65db60d7d204a03b25a766812cf4c66",
-        "filename": "src/pages/index.astro",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 4,
-        "changes": 5,
-        "blob_url": "https://github.com/jrwnnnn/mov/blob/808979f20dfbfd29586459f7d37d5c7d0d65393d/src%2Fpages%2Findex.astro",
-        "raw_url": "https://github.com/jrwnnnn/mov/raw/808979f20dfbfd29586459f7d37d5c7d0d65393d/src%2Fpages%2Findex.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/mov/contents/src%2Fpages%2Findex.astro?ref=808979f20dfbfd29586459f7d37d5c7d0d65393d",
-        "patch": "@@ -3,10 +3,7 @@ import { env } from \"cloudflare:workers\";\n import Entry from \"../components/Card.astro\";\n import Layout from \"../layouts/Layout.astro\";\n \n-const movs = await env.DB.prepare(\"SELECT * FROM mov ORDER BY date DESC\").all();\n-if (!movs.results) {\n-\tconsole.error(\"Failed to fetch MOV shots from the database.\");\n-}\n+const movs = await env.DB.prepare(\"SELECT * FROM movs ORDER BY date DESC\").all();\n ---\n \n <Layout title=\"MOV Portfolio\">"
-      },
-      {
-        "sha": "6a33d6851b08c983e08caaac58d35c7b985f5f71",
-        "filename": "src/pages/mov/[id].astro",
-        "status": "modified",
-        "additions": 17,
-        "deletions": 7,
-        "changes": 24,
-        "blob_url": "https://github.com/jrwnnnn/mov/blob/808979f20dfbfd29586459f7d37d5c7d0d65393d/src%2Fpages%2Fmov%2F%5Bid%5D.astro",
-        "raw_url": "https://github.com/jrwnnnn/mov/raw/808979f20dfbfd29586459f7d37d5c7d0d65393d/src%2Fpages%2Fmov%2F%5Bid%5D.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/mov/contents/src%2Fpages%2Fmov%2F%5Bid%5D.astro?ref=808979f20dfbfd29586459f7d37d5c7d0d65393d",
-        "patch": "@@ -1,16 +1,18 @@\n ---\n-import {env} from \"cloudflare:workers\";\n+import { env } from \"cloudflare:workers\";\n import Layout from \"../../layouts/Layout.astro\";\n \n-const id = Astro.params.id as string;\n-const result = await env.DB.prepare(\"SELECT * FROM mov WHERE id = ?\").bind(id).all();\n+const id = Astro.params.id;\n+const result = await env.DB.prepare(\"SELECT * FROM movs WHERE id = ?\")\n+\t.bind(id)\n+\t.all();\n ---\n \n {\n \tresult.results.map((mov) => (\n \t\t<Layout\n \t\t\ttitle={`MOV Shot - ${new Date(mov.date as string).toLocaleDateString()}`}\n-\t\t\tdescription={mov.narrative as string}\n+\t\t\tdescription={mov.narrative}\n \t\t>\n \t\t\t<main class=\"min-h-screen bg-linear-to-br from-[#f5f5ff] via-[#e3e9fc] to-[#f0f4ff] p-5 md:p-10\">\n \t\t\t\t<article class=\"mx-auto flex max-w-4xl flex-col space-y-6 rounded-3xl border border-gray-100 bg-white/90 px-5 py-8 shadow-xl md:px-12 md:py-15\">\n@@ -43,11 +45,19 @@ const result = await env.DB.prepare(\"SELECT * FROM mov WHERE id = ?\").bind(id).a\n \t\t\t\t\t\t</span>\n \t\t\t\t\t</div>\n \n-\t\t\t\t\t<img src={mov.photo_1 as string} alt=\"Photo OP 1\" class=\"images\" />\n-\t\t\t\t\t<img src={mov.photo_2 as string} alt=\"Photo OP 2\" class=\"images\" />\n+\t\t\t\t\t<img\n+\t\t\t\t\t\tsrc={`https://r2.mov.jrwnnnn.me/${mov.photo_1}`}\n+\t\t\t\t\t\talt=\"Photo OP 1\"\n+\t\t\t\t\t\tclass=\"images\"\n+\t\t\t\t\t/>\n+\t\t\t\t\t<img\n+\t\t\t\t\t\tsrc={`https://r2.mov.jrwnnnn.me/${mov.photo_2}`}\n+\t\t\t\t\t\talt=\"Photo OP 2\"\n+\t\t\t\t\t\tclass=\"images\"\n+\t\t\t\t\t/>\n \t\t\t\t\t{mov.photo_extra && (\n \t\t\t\t\t\t<img\n-\t\t\t\t\t\t\tsrc={mov.photo_extra as string}\n+\t\t\t\t\t\t\tsrc={`https://r2.mov.jrwnnnn.me/${mov.photo_extra}`}\n \t\t\t\t\t\t\talt=\"Extra image\"\n \t\t\t\t\t\t\tclass=\"images\"\n \t\t\t\t\t\t/>"
-      }
-    ]
-  },
-  {
-    "sha": "5823c89e573f5cc585a8673be1e9ccca3bad361a",
-    "node_id": "C_kwDORyV409oAKDU4MjNjODllNTczZjVjYzU4NWE4NjczYmUxZTljY2NhM2JhZDM2MWE",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "ping@jrwnnnn.me",
-        "date": "2026-04-17T05:12:23Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-04-17T05:12:23Z"
-      },
-      "message": "Merge pull request #21 from jrwnnnn/turso-to-d1\n\nrefactor: Migrate Turso to Cloudflare D1",
-      "tree": {
-        "sha": "cedcdd92a99e5e6cb3ef40bf1785a855327fe28a",
-        "url": "https://api.github.com/repos/jrwnnnn/mov/git/trees/cedcdd92a99e5e6cb3ef40bf1785a855327fe28a"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/mov/git/commits/5823c89e573f5cc585a8673be1e9ccca3bad361a",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp4cE3CRC1aQ7uu5UhlAAALb4QAFXwNUd6uu0fG3W1XlSj9aOJ\ncGPPqgAo5LTsr3wL5TzXjy/kKnZi3RRdxpetG88IbbHJkgjoacV2JBRnKWHZnHU6\nNjIIEYSYXtbmUcuXPzw2bxRJ2r8xWISDWCSBoT0Fe5OHlLxaeA+OKk2xgH94Xf4Q\nmorRvNC9yuG9q+WGx/r0uQZBsKMuIokfB0MaioA83cPSh318px7aZDsyb5FQxXlm\n50C+PDWYOnSLUl5dB8UpHmTymO7W7EfpPyWRMPzHc9OrpwY4QGCHM0poJpbdYhVc\n0esOd7AK+aLf2t68g2Rir0qvrCnB9HEWLB9Ul1KOOvSUj//GdGDOdrklQPtY5EoH\nP19cwpAGeACSlWL0KfpVC26qUSoTaYwv5Q422iSUH+m5M12bv3BTC0gtYBBLhn/B\nBp/K/MpYJSoBqGAkivBsZ9caVTdnfmre5FcnZ4ECek1UwqI/4emVGR5CUWaPBgqv\nJwtUWeyoXKRJASbem8MrDy/d8rWyc70INXez1CTV/zFtm7vjEoqXHczB7VNDZs5l\nnsw+Vv69jpPBy0QBYZSNxYoZfDhiKB9RAoOM0uJhAJ8YxDlIEk8bl85eKtYEfIwr\ny3BFm/XQZodxh5Z+i7hbclSRpKRvVB51AObsiQf0q6eGX3DK7U7827vpYnAHD0R8\nT2oRhcElwzzFooAhPs2N\n=rT4+\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree cedcdd92a99e5e6cb3ef40bf1785a855327fe28a\nparent 2c782337ed7221c50cb0ba60f08730695122a5d6\nparent 109b72971c1d898fdcca87030f8fe0fd79a4df25\nauthor Mark Jerwin <ping@jrwnnnn.me> 1776402743 +0800\ncommitter GitHub <noreply@github.com> 1776402743 +0800\n\nMerge pull request #21 from jrwnnnn/turso-to-d1\n\nrefactor: Migrate Turso to Cloudflare D1",
-        "verified_at": "2026-04-17T05:12:24Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/mov/commits/5823c89e573f5cc585a8673be1e9ccca3bad361a",
-    "html_url": "https://github.com/jrwnnnn/mov/commit/5823c89e573f5cc585a8673be1e9ccca3bad361a",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/mov/commits/5823c89e573f5cc585a8673be1e9ccca3bad361a/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "2c782337ed7221c50cb0ba60f08730695122a5d6",
-        "url": "https://api.github.com/repos/jrwnnnn/mov/commits/2c782337ed7221c50cb0ba60f08730695122a5d6",
-        "html_url": "https://github.com/jrwnnnn/mov/commit/2c782337ed7221c50cb0ba60f08730695122a5d6"
-      },
-      {
-        "sha": "109b72971c1d898fdcca87030f8fe0fd79a4df25",
-        "url": "https://api.github.com/repos/jrwnnnn/mov/commits/109b72971c1d898fdcca87030f8fe0fd79a4df25",
-        "html_url": "https://github.com/jrwnnnn/mov/commit/109b72971c1d898fdcca87030f8fe0fd79a4df25"
-      }
-    ],
-    "stats": {
-      "total": 17250,
-      "additions": 8628,
-      "deletions": 8622
-    },
-    "files": [
-      {
-        "sha": "ce6b43a05ad713cfa240f82eedf35132e604bd63",
+        "sha": "4aa1b75b120cd099554b4f59cbaaf0b7fcd1b055",
         "filename": "astro.config.mjs",
         "status": "modified",
         "additions": 3,
         "deletions": 1,
         "changes": 4,
-        "blob_url": "https://github.com/jrwnnnn/mov/blob/5823c89e573f5cc585a8673be1e9ccca3bad361a/astro.config.mjs",
-        "raw_url": "https://github.com/jrwnnnn/mov/raw/5823c89e573f5cc585a8673be1e9ccca3bad361a/astro.config.mjs",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/mov/contents/astro.config.mjs?ref=5823c89e573f5cc585a8673be1e9ccca3bad361a",
-        "patch": "@@ -5,7 +5,9 @@ import cloudflare from \"@astrojs/cloudflare\";\n \n export default defineConfig({\n \toutput: \"server\",\n-\tadapter: cloudflare(),\n+\tadapter: cloudflare({\n+\t\tremoteBindings: !process.env.CI,\n+\t}),\n \tvite: {\n \t\tplugins: [tailwindcss()],\n \t},"
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/fbeacc6f4bcc48153a9f5135cf8188de37e60343/astro.config.mjs",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/fbeacc6f4bcc48153a9f5135cf8188de37e60343/astro.config.mjs",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/astro.config.mjs?ref=fbeacc6f4bcc48153a9f5135cf8188de37e60343",
+        "patch": "@@ -6,7 +6,9 @@ import tailwindcss from \"@tailwindcss/vite\";\n \n export default defineConfig({\n \toutput: \"server\",\n-\tadapter: cloudflare(),\n+\tadapter: cloudflare({\n+\t\tremoteBindings: !process.env.CI,\n+\t}),\n \tvite: {\n \t\tplugins: [tailwindcss()],\n \t},"
       },
       {
-        "sha": "950535889fd2288def75ce1f18ae09e31e0eb2af",
+        "sha": "bc46ea128ba5a94ebc1c43ccdc44e33052fa9711",
         "filename": "package-lock.json",
         "status": "modified",
-        "additions": 8595,
-        "deletions": 8588,
-        "changes": 17183,
-        "blob_url": "https://github.com/jrwnnnn/mov/blob/5823c89e573f5cc585a8673be1e9ccca3bad361a/package-lock.json",
-        "raw_url": "https://github.com/jrwnnnn/mov/raw/5823c89e573f5cc585a8673be1e9ccca3bad361a/package-lock.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/mov/contents/package-lock.json?ref=5823c89e573f5cc585a8673be1e9ccca3bad361a"
+        "additions": 0,
+        "deletions": 7,
+        "changes": 7,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/fbeacc6f4bcc48153a9f5135cf8188de37e60343/package-lock.json",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/fbeacc6f4bcc48153a9f5135cf8188de37e60343/package-lock.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/package-lock.json?ref=fbeacc6f4bcc48153a9f5135cf8188de37e60343",
+        "patch": "@@ -11,7 +11,6 @@\n \t\t\t\t\"@astrojs/cloudflare\": \"^13.1.9\",\n \t\t\t\t\"@astrojs/react\": \"^5.0.2\",\n \t\t\t\t\"@tailwindcss/vite\": \"^4.2.2\",\n-\t\t\t\t\"@tursodatabase/serverless\": \"^1.0.0\",\n \t\t\t\t\"astro\": \"^6.1.3\",\n \t\t\t\t\"bcrypt\": \"^6.0.0\",\n \t\t\t\t\"marked\": \"^18.0.0\",\n@@ -2807,12 +2806,6 @@\n \t\t\t\t\"vite\": \"^5.2.0 || ^6 || ^7 || ^8\"\n \t\t\t}\n \t\t},\n-\t\t\"node_modules/@tursodatabase/serverless\": {\n-\t\t\t\"version\": \"1.0.0\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/@tursodatabase/serverless/-/serverless-1.0.0.tgz\",\n-\t\t\t\"integrity\": \"sha512-zZwsSIsdAaQ99RtyAl87j8laWe/l0uNoJIpDtXToBFty/48KaA2W/GZRq6zyrAUh8innwy758TEoFVbCWFHgkw==\",\n-\t\t\t\"license\": \"MIT\"\n-\t\t},\n \t\t\"node_modules/@types/babel__core\": {\n \t\t\t\"version\": \"7.20.5\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@types/babel__core/-/babel__core-7.20.5.tgz\","
       },
       {
-        "sha": "e74973c90b01f12fa7027108a1f809b5d66b808c",
+        "sha": "1245d9c913c879c2bb51aa52ec677cfa5a67dd86",
         "filename": "package.json",
         "status": "modified",
-        "additions": 2,
-        "deletions": 2,
-        "changes": 4,
-        "blob_url": "https://github.com/jrwnnnn/mov/blob/5823c89e573f5cc585a8673be1e9ccca3bad361a/package.json",
-        "raw_url": "https://github.com/jrwnnnn/mov/raw/5823c89e573f5cc585a8673be1e9ccca3bad361a/package.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/mov/contents/package.json?ref=5823c89e573f5cc585a8673be1e9ccca3bad361a",
-        "patch": "@@ -5,13 +5,12 @@\n \t\"scripts\": {\n \t\t\"dev\": \"astro dev\",\n \t\t\"build\": \"astro build\",\n-\t\t\"preview\": \"astro preview\",\n+\t\t\"preview\": \"astro build && astro preview\",\n \t\t\"generate-types\": \"wrangler types\"\n \t},\n \t\"dependencies\": {\n \t\t\"@astrojs/cloudflare\": \"^13.1.9\",\n \t\t\"@tailwindcss/vite\": \"^4.1.18\",\n-\t\t\"@tursodatabase/serverless\": \"^1.0.0\",\n \t\t\"astro\": \"^6.1.1\",\n \t\t\"tailwindcss\": \"^4.1.18\",\n \t\t\"wrangler\": \"^4.83.0\"\n@@ -20,6 +19,7 @@\n \t\t\"@astrojs/check\": \"^0.9.8\",\n \t\t\"@cloudflare/workers-types\": \"^4.20260415.1\",\n \t\t\"@eslint/js\": \"^10.0.1\",\n+\t\t\"@types/node\": \"^25.6.0\",\n \t\t\"eslint\": \"^10.0.2\",\n \t\t\"eslint-plugin-astro\": \"^1.6.0\",\n \t\t\"prettier\": \"^3.8.1\","
+        "additions": 3,
+        "deletions": 6,
+        "changes": 9,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/fbeacc6f4bcc48153a9f5135cf8188de37e60343/package.json",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/fbeacc6f4bcc48153a9f5135cf8188de37e60343/package.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/package.json?ref=fbeacc6f4bcc48153a9f5135cf8188de37e60343",
+        "patch": "@@ -3,18 +3,15 @@\n \t\"type\": \"module\",\n \t\"version\": \"0.0.1\",\n \t\"scripts\": {\n-\t\t\"astro:dev\": \"astro dev\",\n-\t\t\"astro:build\": \"astro build\",\n-\t\t\"astro:preview\": \"astro preview\",\n-\t\t\"lint\": \"eslint .\",\n-\t\t\"typecheck\": \"astro check && tsc --noEmit\",\n+\t\t\"dev\": \"astro dev\",\n+\t\t\"build\": \"astro build\",\n+\t\t\"preview\": \"astro build && astro preview\",\n \t\t\"generate-types\": \"wrangler types\"\n \t},\n \t\"dependencies\": {\n \t\t\"@astrojs/cloudflare\": \"^13.1.9\",\n \t\t\"@astrojs/react\": \"^5.0.2\",\n \t\t\"@tailwindcss/vite\": \"^4.2.2\",\n-\t\t\"@tursodatabase/serverless\": \"^1.0.0\",\n \t\t\"astro\": \"^6.1.3\",\n \t\t\"bcrypt\": \"^6.0.0\",\n \t\t\"marked\": \"^18.0.0\","
       },
       {
-        "sha": "b4d609aee7d4df3304bd3bc12b046d87e743a52a",
+        "sha": "cfc6d7b4c6abc7d7ca4949057ec7ab072f03d7ed",
+        "filename": "public/favicon-wordmark.svg",
+        "status": "removed",
+        "additions": 0,
+        "deletions": 5,
+        "changes": 5,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/e061da32d01918e21d79cca0c2c3b8e7de6788be/public%2Ffavicon-wordmark.svg",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/e061da32d01918e21d79cca0c2c3b8e7de6788be/public%2Ffavicon-wordmark.svg",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ffavicon-wordmark.svg?ref=e061da32d01918e21d79cca0c2c3b8e7de6788be",
+        "patch": "@@ -1,5 +0,0 @@\n-<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\">\n-  <rect width=\"64\" height=\"64\" fill=\"#0C0C0C\"/>\n-  <path d=\"M42 16H22V24H28V40C28 42.2 26.2 44 24 44H20V52H24C30.6 52 36 46.6 36 40V24H42V16Z\" fill=\"#00FF41\"/>\n-  <rect x=\"44\" y=\"44\" width=\"10\" height=\"8\" fill=\"#00FF41\"/>\n-</svg>\n\\ No newline at end of file"
+      },
+      {
+        "sha": "a5c2627a14a253fdc4cc4f700c9faea70d22b893",
+        "filename": "public/fonts/terminus/LICENSE",
+        "status": "renamed",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/fbeacc6f4bcc48153a9f5135cf8188de37e60343/public%2Ffonts%2Fterminus%2FLICENSE",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/fbeacc6f4bcc48153a9f5135cf8188de37e60343/public%2Ffonts%2Fterminus%2FLICENSE",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ffonts%2Fterminus%2FLICENSE?ref=fbeacc6f4bcc48153a9f5135cf8188de37e60343",
+        "previous_filename": "src/assets/fonts/terminus/LICENSE"
+      },
+      {
+        "sha": "728475bda3426140f604f44da5b155011979eedf",
+        "filename": "public/fonts/terminus/Terminus.woff2",
+        "status": "renamed",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/fbeacc6f4bcc48153a9f5135cf8188de37e60343/public%2Ffonts%2Fterminus%2FTerminus.woff2",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/fbeacc6f4bcc48153a9f5135cf8188de37e60343/public%2Ffonts%2Fterminus%2FTerminus.woff2",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ffonts%2Fterminus%2FTerminus.woff2?ref=fbeacc6f4bcc48153a9f5135cf8188de37e60343",
+        "previous_filename": "src/assets/fonts/terminus/Terminus.woff2"
+      },
+      {
+        "sha": "7d4f96c54aa155a17387e64501c50b6a0469932c",
+        "filename": "public/fonts/vile-r/LICENSE",
+        "status": "renamed",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/fbeacc6f4bcc48153a9f5135cf8188de37e60343/public%2Ffonts%2Fvile-r%2FLICENSE",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/fbeacc6f4bcc48153a9f5135cf8188de37e60343/public%2Ffonts%2Fvile-r%2FLICENSE",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ffonts%2Fvile-r%2FLICENSE?ref=fbeacc6f4bcc48153a9f5135cf8188de37e60343",
+        "previous_filename": "src/assets/fonts/vile-r/LICENSE"
+      },
+      {
+        "sha": "196aa2752f8c0d5c16e970dcef8c1a658a7470f4",
+        "filename": "public/fonts/vile-r/ibm-vga-8x16.woff2",
+        "status": "renamed",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/fbeacc6f4bcc48153a9f5135cf8188de37e60343/public%2Ffonts%2Fvile-r%2Fibm-vga-8x16.woff2",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/fbeacc6f4bcc48153a9f5135cf8188de37e60343/public%2Ffonts%2Fvile-r%2Fibm-vga-8x16.woff2",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/public%2Ffonts%2Fvile-r%2Fibm-vga-8x16.woff2?ref=fbeacc6f4bcc48153a9f5135cf8188de37e60343",
+        "previous_filename": "src/assets/fonts/vile-r/ibm-vga-8x16.woff2"
+      },
+      {
+        "sha": "584b3dc7d0f7f060ec357789c914873a8d79490c",
+        "filename": "src/components/modules/CommitLog.astro",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/fbeacc6f4bcc48153a9f5135cf8188de37e60343/src%2Fcomponents%2Fmodules%2FCommitLog.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/fbeacc6f4bcc48153a9f5135cf8188de37e60343/src%2Fcomponents%2Fmodules%2FCommitLog.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2Fmodules%2FCommitLog.astro?ref=fbeacc6f4bcc48153a9f5135cf8188de37e60343",
+        "patch": "@@ -1,6 +1,6 @@\n ---\n-import ErrorOut from \"../ErrorOut.astro\";\n import { safeAsync } from \"@utils/safeAsync\";\n+import ErrorOut from \"../ErrorOut.astro\";\n \n interface Commit {\n \tsha: string;"
+      },
+      {
+        "sha": "8adbe4993fbeb92b5fdd75c0cb27103a56830217",
+        "filename": "src/components/modules/Heatmap.astro",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/fbeacc6f4bcc48153a9f5135cf8188de37e60343/src%2Fcomponents%2Fmodules%2FHeatmap.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/fbeacc6f4bcc48153a9f5135cf8188de37e60343/src%2Fcomponents%2Fmodules%2FHeatmap.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2Fmodules%2FHeatmap.astro?ref=fbeacc6f4bcc48153a9f5135cf8188de37e60343",
+        "patch": "@@ -1,6 +1,6 @@\n ---\n-import ErrorOut from \"../ErrorOut.astro\";\n import { safeAsync } from \"@utils/safeAsync\";\n+import ErrorOut from \"../ErrorOut.astro\";\n \n interface ContributionDay {\n \tcontributionCount: number;"
+      },
+      {
+        "sha": "c27bb7b43c276121a40fa7ea3dd0f1daef1f8380",
+        "filename": "src/data/sql.txt",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/fbeacc6f4bcc48153a9f5135cf8188de37e60343/src%2Fdata%2Fsql.txt",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/fbeacc6f4bcc48153a9f5135cf8188de37e60343/src%2Fdata%2Fsql.txt",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fdata%2Fsql.txt?ref=fbeacc6f4bcc48153a9f5135cf8188de37e60343",
+        "patch": "@@ -20,6 +20,6 @@ SELECT 'rating' AS type,\n     art AS cover, \n     url, \n     date_created\n-FROM idx\n+FROM ratings\n \n ORDER BY date_created DESC\n\\ No newline at end of file"
+      },
+      {
+        "sha": "8cde42aadcef5f4781d5d9a2138e806230815371",
+        "filename": "src/layouts/Layout.astro",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/fbeacc6f4bcc48153a9f5135cf8188de37e60343/src%2Flayouts%2FLayout.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/fbeacc6f4bcc48153a9f5135cf8188de37e60343/src%2Flayouts%2FLayout.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Flayouts%2FLayout.astro?ref=fbeacc6f4bcc48153a9f5135cf8188de37e60343",
+        "patch": "@@ -1,7 +1,7 @@\n ---\n import \"../styles/global.css\";\n-import socials from \"../data/socials.json\";\n import { safeAsync } from \"@utils/safeAsync\";\n+import socials from \"../data/socials.json\";\n \n interface Props {\n \ttitle: string;"
+      },
+      {
+        "sha": "f10a4827beb966ce359e9f72a73dcdb0163952ce",
+        "filename": "src/pages/gallery.astro",
+        "status": "modified",
+        "additions": 18,
+        "deletions": 30,
+        "changes": 48,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/fbeacc6f4bcc48153a9f5135cf8188de37e60343/src%2Fpages%2Fgallery.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/fbeacc6f4bcc48153a9f5135cf8188de37e60343/src%2Fpages%2Fgallery.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Fgallery.astro?ref=fbeacc6f4bcc48153a9f5135cf8188de37e60343",
+        "patch": "@@ -1,48 +1,36 @@\n ---\n-import { createClient } from \"@tursodatabase/serverless/compat\";\n-import { safeAsync } from \"@utils/safeAsync\";\n-\n+import { env } from \"cloudflare:workers\";\n import Header from \"../layouts/Header.astro\";\n import Layout from \"../layouts/Layout.astro\";\n \n-import ErrorOut from \"../components/ErrorOut.astro\";\n-\n-const turso = createClient({\n-\turl: import.meta.env.TURSO_DATABASE_URL,\n-\tauthToken: import.meta.env.TURSO_AUTH_TOKEN,\n-});\n-\n-const images = await safeAsync(\n-\tturso.execute(\"SELECT id, image_data FROM gallery ORDER BY id DESC\"),\n-);\n+const images = await env.DB.prepare(\n+\t\"SELECT * FROM gallery ORDER BY id DESC\",\n+).all();\n ---\n \n <Layout title=\"Mark Jerwin // GALLERY\">\n \t<main class=\"flex flex-col space-y-8\">\n \t\t<Header heading=\"GALLERY\">\n \t\t\t<p class=\"font-mono text-sm opacity-80\">\n-\t\t\t\tFound {images.data ? images.data.rows.length : 0} images in the database.\n-\t\t\t\tCaptured using a Samsung A15 5G, Samsung A02s, or Samsung PL20.\n+\t\t\t\tFound {images.results.length} images in the database. Captured using a Samsung\n+\t\t\t\tA15 5G, Samsung A02s, or Samsung PL20.\n \t\t\t</p>\n \t\t</Header>\n \t\t<hr class=\"bg-green-500\" />\n+\n \t\t<div class=\"columns-1 gap-6 space-y-6 lg:columns-3\">\n \t\t\t{\n-\t\t\t\timages.data ? (\n-\t\t\t\t\timages.data.rows.map((row) => (\n-\t\t\t\t\t\t<div class=\"break-inside-avoid\">\n-\t\t\t\t\t\t\t<img\n-\t\t\t\t\t\t\t\tsrc={row.image_data as string}\n-\t\t\t\t\t\t\t\talt={`Image ${row.id}`}\n-\t\t\t\t\t\t\t\tclass=\"gallery-image phosphor-filter w-full cursor-pointer border border-green-500/0 hover:border-green-500 hover:filter-none!\"\n-\t\t\t\t\t\t\t\tloading=\"lazy\"\n-\t\t\t\t\t\t\t\toncontextmenu=\"return false\"\n-\t\t\t\t\t\t\t/>\n-\t\t\t\t\t\t</div>\n-\t\t\t\t\t))\n-\t\t\t\t) : (\n-\t\t\t\t\t<ErrorOut error={images.error as Error} />\n-\t\t\t\t)\n+\t\t\t\timages.results.map((image) => (\n+\t\t\t\t\t<div class=\"break-inside-avoid\">\n+\t\t\t\t\t\t<img\n+\t\t\t\t\t\t\tsrc={image.link as string}\n+\t\t\t\t\t\t\talt={`Image ${image.id}`}\n+\t\t\t\t\t\t\tclass=\"gallery-image phosphor-filter w-full cursor-pointer border border-green-500/0 hover:border-green-500 hover:filter-none!\"\n+\t\t\t\t\t\t\tloading=\"lazy\"\n+\t\t\t\t\t\t\toncontextmenu=\"return false\"\n+\t\t\t\t\t\t/>\n+\t\t\t\t\t</div>\n+\t\t\t\t))\n \t\t\t}\n \t\t</div>\n \t</main>"
+      },
+      {
+        "sha": "4f6fc5516f12bc6bc19e2ad563c861f0d7489233",
         "filename": "src/pages/index.astro",
         "status": "modified",
-        "additions": 7,
-        "deletions": 9,
-        "changes": 16,
-        "blob_url": "https://github.com/jrwnnnn/mov/blob/5823c89e573f5cc585a8673be1e9ccca3bad361a/src%2Fpages%2Findex.astro",
-        "raw_url": "https://github.com/jrwnnnn/mov/raw/5823c89e573f5cc585a8673be1e9ccca3bad361a/src%2Fpages%2Findex.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/mov/contents/src%2Fpages%2Findex.astro?ref=5823c89e573f5cc585a8673be1e9ccca3bad361a",
-        "patch": "@@ -1,14 +1,12 @@\n ---\n-import { createClient } from \"@tursodatabase/serverless/compat\";\n-import Layout from \"../layouts/Layout.astro\";\n+import { env } from \"cloudflare:workers\";\n import Entry from \"../components/Card.astro\";\n+import Layout from \"../layouts/Layout.astro\";\n \n-const turso = createClient({\n-\turl: import.meta.env.TURSO_DATABASE_URL,\n-\tauthToken: import.meta.env.TURSO_AUTH_TOKEN,\n-});\n-\n-const movs = await turso.execute(\"SELECT * FROM mov ORDER BY date DESC\");\n+const movs = await env.DB.prepare(\"SELECT * FROM mov ORDER BY date DESC\").all();\n+if (!movs.results) {\n+\tconsole.error(\"Failed to fetch MOV shots from the database.\");\n+}\n ---\n \n <Layout title=\"MOV Portfolio\">\n@@ -32,7 +30,7 @@ const movs = await turso.execute(\"SELECT * FROM mov ORDER BY date DESC\");\n \t\t</section>\n \t\t<section class=\"columns-1 space-y-6 p-5 lg:columns-2\">\n \t\t\t{\n-\t\t\t\tmovs.rows.map((mov) => (\n+\t\t\t\tmovs.results.map((mov) => (\n \t\t\t\t\t<div class=\"break-inside-avoid\">\n \t\t\t\t\t\t<Entry mov={mov} />\n \t\t\t\t\t</div>"
+        "additions": 37,
+        "deletions": 63,
+        "changes": 100,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/fbeacc6f4bcc48153a9f5135cf8188de37e60343/src%2Fpages%2Findex.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/fbeacc6f4bcc48153a9f5135cf8188de37e60343/src%2Fpages%2Findex.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Findex.astro?ref=fbeacc6f4bcc48153a9f5135cf8188de37e60343",
+        "patch": "@@ -1,31 +1,19 @@\n ---\n-import { createClient } from \"@tursodatabase/serverless/compat\";\n-import { safeAsync } from \"@utils/safeAsync\";\n-\n-import Layout from \"../layouts/Layout.astro\";\n-import ErrorOut from \"../components/ErrorOut.astro\";\n-import Container from \"../components/Container.astro\";\n-import Button from \"../components/Button.astro\";\n+import { env } from \"cloudflare:workers\";\n import Ascii from \"../components/AsciiContainer.astro\";\n-\n+import Button from \"../components/Button.astro\";\n import CommitLog from \"../components/modules/CommitLog.astro\";\n+import Container from \"../components/Container.astro\";\n import Heatmap from \"../components/modules/Heatmap.astro\";\n import LastFM from \"../components/modules/Scrobble.jsx\";\n+import Layout from \"../layouts/Layout.astro\";\n \n import socials from \"../data/socials.json\";\n \n-const turso = createClient({\n-\turl: import.meta.env.TURSO_DATABASE_URL,\n-\tauthToken: import.meta.env.TURSO_AUTH_TOKEN,\n-});\n-\n-const latestTransmission = await safeAsync(\n-\tturso.execute(\"SELECT * FROM articles ORDER BY date_created DESC LIMIT 1\"),\n-);\n-\n-const siteSettings = await safeAsync(\n-\tturso.execute(\"SELECT * FROM site_settings\"),\n-);\n+const latestTransmission = await env.DB.prepare(\n+\t\"SELECT title, subtitle, slug, date_created FROM articles ORDER BY date_created DESC LIMIT 1\",\n+).all();\n+const siteSettings = await env.SESSION.get([\"index.quote\", \"index.art\"]);\n \n const stack = [\n \t{ icon: \"icons/stack/javascript.svg\", name: \"JavaScript\" },\n@@ -70,33 +58,27 @@ const stack = [\n \t\t\t\t\t}\n \t\t\t\t</div>\n \t\t\t</div>\n-\t\t\t{\n-\t\t\t\tlatestTransmission.data ? (\n-\t\t\t\t\t<Container\n-\t\t\t\t\t\tonclick={`location.href='/transmission/${latestTransmission.data.rows[0].slug}'`}\n-\t\t\t\t\t>\n-\t\t\t\t\t\t<p class=\"font-mono text-lg font-bold tracking-widest uppercase\">\n-\t\t\t\t\t\t\t{latestTransmission.data.rows[0].title}\n-\t\t\t\t\t\t</p>\n-\t\t\t\t\t\t<p class=\"line-clamp-1 font-mono text-green-600\">\n-\t\t\t\t\t\t\t<span>\n-\t\t\t\t\t\t\t\t{new Date(\n-\t\t\t\t\t\t\t\t\tlatestTransmission.data.rows[0].date_created as string,\n-\t\t\t\t\t\t\t\t).toLocaleDateString(\"en-US\", {\n-\t\t\t\t\t\t\t\t\tyear: \"numeric\",\n-\t\t\t\t\t\t\t\t\tmonth: \"short\",\n-\t\t\t\t\t\t\t\t\tday: \"numeric\",\n-\t\t\t\t\t\t\t\t})}\n-\t\t\t\t\t\t\t</span>\n-\t\t\t\t\t\t\t- {latestTransmission.data.rows[0].subtitle}\n-\t\t\t\t\t\t</p>\n-\t\t\t\t\t</Container>\n-\t\t\t\t) : (\n-\t\t\t\t\t<Container>\n-\t\t\t\t\t\t<ErrorOut error={latestTransmission.error as Error} />\n-\t\t\t\t\t</Container>\n-\t\t\t\t)\n-\t\t\t}\n+\t\t\t<Container\n+\t\t\t\tonclick={`location.href='/transmission/${latestTransmission.results[0].slug}'`}\n+\t\t\t>\n+\t\t\t\t<p class=\"font-mono text-lg font-bold tracking-widest uppercase\">\n+\t\t\t\t\t{latestTransmission.results[0].title}\n+\t\t\t\t</p>\n+\t\t\t\t<p class=\"line-clamp-1 font-mono text-green-600\">\n+\t\t\t\t\t<span>\n+\t\t\t\t\t\t{\n+\t\t\t\t\t\t\tnew Date(\n+\t\t\t\t\t\t\t\tlatestTransmission.results[0].date_created as string,\n+\t\t\t\t\t\t\t).toLocaleDateString(\"en-US\", {\n+\t\t\t\t\t\t\t\tyear: \"numeric\",\n+\t\t\t\t\t\t\t\tmonth: \"short\",\n+\t\t\t\t\t\t\t\tday: \"numeric\",\n+\t\t\t\t\t\t\t})\n+\t\t\t\t\t\t}\n+\t\t\t\t\t</span>\n+\t\t\t\t\t- {latestTransmission.results[0].subtitle}\n+\t\t\t\t</p>\n+\t\t\t</Container>\n \t\t</section>\n \t\t<hr class=\"border-green-500\" />\n \t\t<section class=\"space-y-5\">\n@@ -153,22 +135,14 @@ const stack = [\n \t\t\t\t<LastFM client:idle />\n \t\t\t</Container>\n \t\t\t<Container class=\"break-inside-avoid space-y-5\">\n-\t\t\t\t{\n-\t\t\t\t\tsiteSettings.data ? (\n-\t\t\t\t\t\t<>\n-\t\t\t\t\t\t\t<Ascii\n-\t\t\t\t\t\t\t\tascii={siteSettings.data.rows[0].value as string}\n-\t\t\t\t\t\t\t\tclass=\"glitch opacity-90\"\n-\t\t\t\t\t\t\t/>\n-\t\t\t\t\t\t\t<hr class=\"border border-green-500/30\" />\n-\t\t\t\t\t\t\t<p class=\"text-center font-mono text-sm italic\">\n-\t\t\t\t\t\t\t\t{siteSettings.data.rows[1].value}\n-\t\t\t\t\t\t\t</p>\n-\t\t\t\t\t\t</>\n-\t\t\t\t\t) : (\n-\t\t\t\t\t\t<ErrorOut error={siteSettings.error as Error} />\n-\t\t\t\t\t)\n-\t\t\t\t}\n+\t\t\t\t<Ascii\n+\t\t\t\t\tascii={siteSettings.get(\"index.art\") as string}\n+\t\t\t\t\tclass=\"glitch opacity-90\"\n+\t\t\t\t/>\n+\t\t\t\t<hr class=\"border border-green-500/30\" />\n+\t\t\t\t<p class=\"text-center font-mono text-sm italic\">\n+\t\t\t\t\t{siteSettings.get(\"index.quote\")}\n+\t\t\t\t</p>\n \t\t\t</Container>\n \t\t</section>\n \t</main>"
       },
       {
-        "sha": "70d20b72b96f8c3ccb952e773f97d0648b94b75a",
-        "filename": "src/pages/mov/[id].astro",
-        "status": "modified",
-        "additions": 3,
-        "deletions": 8,
-        "changes": 11,
-        "blob_url": "https://github.com/jrwnnnn/mov/blob/5823c89e573f5cc585a8673be1e9ccca3bad361a/src%2Fpages%2Fmov%2F%5Bid%5D.astro",
-        "raw_url": "https://github.com/jrwnnnn/mov/raw/5823c89e573f5cc585a8673be1e9ccca3bad361a/src%2Fpages%2Fmov%2F%5Bid%5D.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/mov/contents/src%2Fpages%2Fmov%2F%5Bid%5D.astro?ref=5823c89e573f5cc585a8673be1e9ccca3bad361a",
-        "patch": "@@ -1,18 +1,13 @@\n ---\n-import { createClient } from \"@tursodatabase/serverless/compat\";\n+import {env} from \"cloudflare:workers\";\n import Layout from \"../../layouts/Layout.astro\";\n \n-const turso = createClient({\n-\turl: import.meta.env.TURSO_DATABASE_URL,\n-\tauthToken: import.meta.env.TURSO_AUTH_TOKEN,\n-});\n-\n const id = Astro.params.id as string;\n-const result = await turso.execute(\"SELECT * FROM mov WHERE id = ?\", [id]);\n+const result = await env.DB.prepare(\"SELECT * FROM mov WHERE id = ?\").bind(id).all();\n ---\n \n {\n-\tresult.rows.map((mov) => (\n+\tresult.results.map((mov) => (\n \t\t<Layout\n \t\t\ttitle={`MOV Shot - ${new Date(mov.date as string).toLocaleDateString()}`}\n \t\t\tdescription={mov.narrative as string}"
-      },
-      {
-        "sha": "e2c550b2bc7b3f7606c561b96d642e4c2560dc1c",
-        "filename": "tsconfig.json",
-        "status": "modified",
-        "additions": 7,
-        "deletions": 10,
-        "changes": 17,
-        "blob_url": "https://github.com/jrwnnnn/mov/blob/5823c89e573f5cc585a8673be1e9ccca3bad361a/tsconfig.json",
-        "raw_url": "https://github.com/jrwnnnn/mov/raw/5823c89e573f5cc585a8673be1e9ccca3bad361a/tsconfig.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/mov/contents/tsconfig.json?ref=5823c89e573f5cc585a8673be1e9ccca3bad361a",
-        "patch": "@@ -1,11 +1,8 @@\n {\n-  \"extends\": \"astro/tsconfigs/strict\",\n-  \"include\": [\n-    \".astro/types.d.ts\",\n-    \"**/*\",\n-    \"./worker-configuration.d.ts\"\n-  ],\n-  \"exclude\": [\n-    \"dist\"\n-  ]\n-}\n\\ No newline at end of file\n+\t\"extends\": \"astro/tsconfigs/strict\",\n+\t\"include\": [\".astro/types.d.ts\", \"**/*\", \"./worker-configuration.d.ts\"],\n+\t\"exclude\": [\"dist\"],\n+\t\"compilerOptions\": {\n+\t\t\"types\": [\"node\"]\n+\t}\n+}"
-      },
-      {
-        "sha": "1e50aef4c63980f819316ef439ba82dcf3a2fb60",
-        "filename": "worker-configuration.d.ts",
+        "sha": "138d014762e84619254ea575c76eeba5e079f89c",
+        "filename": "src/pages/projects.astro",
         "status": "modified",
         "additions": 2,
         "deletions": 3,
         "changes": 5,
-        "blob_url": "https://github.com/jrwnnnn/mov/blob/5823c89e573f5cc585a8673be1e9ccca3bad361a/worker-configuration.d.ts",
-        "raw_url": "https://github.com/jrwnnnn/mov/raw/5823c89e573f5cc585a8673be1e9ccca3bad361a/worker-configuration.d.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/mov/contents/worker-configuration.d.ts?ref=5823c89e573f5cc585a8673be1e9ccca3bad361a",
-        "patch": "@@ -1,11 +1,10 @@\n /* eslint-disable */\n-// Generated by Wrangler by running `wrangler types` (hash: e8dc8afc9a67bebdf7a45dd0c0faf2cf)\n+// Generated by Wrangler by running `wrangler types` (hash: cdf2d2ac412db0c5397eb874e1303361)\n // Runtime types generated with workerd@1.20260415.1 2026-04-01 global_fetch_strictly_public\n declare namespace Cloudflare {\n \tinterface Env {\n+\t\tDB: D1Database;\n \t\tASSETS: Fetcher;\n-\t\tTURSO_AUTH_TOKEN: string;\n-\t\tTURSO_DATABASE_URL: string;\n \t}\n }\n interface Env extends Cloudflare.Env {}"
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/fbeacc6f4bcc48153a9f5135cf8188de37e60343/src%2Fpages%2Fprojects.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/fbeacc6f4bcc48153a9f5135cf8188de37e60343/src%2Fpages%2Fprojects.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Fprojects.astro?ref=fbeacc6f4bcc48153a9f5135cf8188de37e60343",
+        "patch": "@@ -1,9 +1,8 @@\n ---\n import { createHash } from \"node:crypto\";\n-\n-import Layout from \"../layouts/Layout.astro\";\n-import Header from \"../layouts/Header.astro\";\n import ErrorOut from \"../components/ErrorOut.astro\";\n+import Header from \"../layouts/Header.astro\";\n+import Layout from \"../layouts/Layout.astro\";\n \n interface Repositories {\n \tname: string;"
       },
       {
-        "sha": "670a48ddcc4cc97a95e6b25ffecbd8500b9e078f",
+        "sha": "278bf8eb116eda980db97ebf33ead28d8066d98b",
+        "filename": "src/pages/transmission/[slug].astro",
+        "status": "modified",
+        "additions": 73,
+        "deletions": 72,
+        "changes": 145,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/fbeacc6f4bcc48153a9f5135cf8188de37e60343/src%2Fpages%2Ftransmission%2F%5Bslug%5D.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/fbeacc6f4bcc48153a9f5135cf8188de37e60343/src%2Fpages%2Ftransmission%2F%5Bslug%5D.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Ftransmission%2F%5Bslug%5D.astro?ref=fbeacc6f4bcc48153a9f5135cf8188de37e60343",
+        "patch": "@@ -1,89 +1,90 @@\n ---\n import \"../../styles/marked.css\";\n-import { createClient } from \"@tursodatabase/serverless/compat\";\n import { createHash } from \"node:crypto\";\n+import { env } from \"cloudflare:workers\";\n import { marked } from \"marked\";\n-import { safeAsync } from \"@utils/safeAsync\";\n import Layout from \"../../layouts/Layout.astro\";\n \n-const turso = createClient({\n-\turl: import.meta.env.TURSO_DATABASE_URL,\n-\tauthToken: import.meta.env.TURSO_AUTH_TOKEN,\n-});\n+const article = await env.DB.prepare(\n+\t\"UPDATE articles SET views = views + 1 WHERE slug = ? RETURNING *\",\n+)\n+\t.bind(Astro.params.slug)\n+\t.all();\n \n-const article = await safeAsync(\n-\tturso.execute(\n-\t\t\"UPDATE articles SET views = views + 1 WHERE slug = ? RETURNING *\",\n-\t\t[Astro.params.slug as string],\n-\t),\n-);\n-\n-if (article.error || article.data?.rows.length === 0) {\n+if (article.results[0].length === 0) {\n \treturn Astro.rewrite(\"/404\");\n }\n ---\n \n-{\n-\tarticle.data ? (\n-\t\t<Layout\n-\t\t\ttitle={article.data.rows[0].title as string}\n-\t\t\tdescription={article.data.rows[0].subtitle as string}\n-\t\t>\n-\t\t\t<main class=\"flex flex-col items-center justify-center\">\n-\t\t\t\t<div class=\"w-full font-mono lg:w-[60vw]\">\n-\t\t\t\t\t<statusbar class=\"flex items-center justify-between border border-b-0 border-green-800 bg-green-900/20 px-4 py-2 text-xs tracking-widest uppercase\">\n-\t\t\t\t\t\t<span>\n-\t\t\t\t\t\t\tID:{\" \"}\n-\t\t\t\t\t\t\t{createHash(\"md5\")\n-\t\t\t\t\t\t\t\t.update(article.data.rows[0].slug as string)\n-\t\t\t\t\t\t\t\t.digest(\"hex\")\n-\t\t\t\t\t\t\t\t.substring(0, 10)}\n-\t\t\t\t\t\t</span>\n-\t\t\t\t\t\t<time datetime={new Date().toISOString()}>\n-\t\t\t\t\t\t\t{new Date(\n-\t\t\t\t\t\t\t\tarticle.data.rows[0].date_created as string,\n-\t\t\t\t\t\t\t).toLocaleDateString(\"en-US\", {\n-\t\t\t\t\t\t\t\tyear: \"numeric\",\n-\t\t\t\t\t\t\t\tmonth: \"short\",\n-\t\t\t\t\t\t\t\tday: \"numeric\",\n-\t\t\t\t\t\t\t})}\n-\t\t\t\t\t\t</time>\n-\t\t\t\t\t</statusbar>\n+<Layout\n+\ttitle={article.results[0].title as string}\n+\tdescription={article.results[0].subtitle as string}\n+>\n+\t<main class=\"flex flex-col items-center justify-center\">\n+\t\t<div class=\"w-full font-mono lg:w-[60vw]\">\n+\t\t\t<statusbar\n+\t\t\t\tclass=\"flex items-center justify-between border border-b-0 border-green-800 bg-green-900/20 px-4 py-2 text-xs tracking-widest uppercase\"\n+\t\t\t>\n+\t\t\t\t<span>\n+\t\t\t\t\tID:{\" \"}\n+\t\t\t\t\t{\n+\t\t\t\t\t\tcreateHash(\"md5\")\n+\t\t\t\t\t\t\t.update(article.results[0].slug as string)\n+\t\t\t\t\t\t\t.digest(\"hex\")\n+\t\t\t\t\t\t\t.substring(0, 10)\n+\t\t\t\t\t}\n+\t\t\t\t</span>\n+\t\t\t\t<time datetime={new Date().toISOString()}>\n+\t\t\t\t\t{\n+\t\t\t\t\t\tnew Date(\n+\t\t\t\t\t\t\tarticle.results[0].date_created as string,\n+\t\t\t\t\t\t).toLocaleDateString(\"en-US\", {\n+\t\t\t\t\t\t\tyear: \"numeric\",\n+\t\t\t\t\t\t\tmonth: \"short\",\n+\t\t\t\t\t\t\tday: \"numeric\",\n+\t\t\t\t\t\t})\n+\t\t\t\t\t}\n+\t\t\t\t</time>\n+\t\t\t</statusbar>\n \n-\t\t\t\t\t<div class=\"flex flex-col space-y-5 border border-green-800 bg-black p-6 md:p-12\">\n-\t\t\t\t\t\t<p class=\"w-full rounded-none text-4xl leading-none font-bold uppercase outline-none md:text-5xl\">\n-\t\t\t\t\t\t\t{article.data.rows[0].title as string}\n-\t\t\t\t\t\t</p>\n-\t\t\t\t\t\t<p class=\"w-full text-lg text-green-600 outline-none\">\n-\t\t\t\t\t\t\t{article.data.rows[0].subtitle as string}\n-\t\t\t\t\t\t</p>\n+\t\t\t<div\n+\t\t\t\tclass=\"flex flex-col space-y-5 border border-green-800 bg-black p-6 md:p-12\"\n+\t\t\t>\n+\t\t\t\t<p\n+\t\t\t\t\tclass=\"w-full rounded-none text-4xl leading-none font-bold uppercase outline-none md:text-5xl\"\n+\t\t\t\t>\n+\t\t\t\t\t{article.results[0].title as string}\n+\t\t\t\t</p>\n+\t\t\t\t<p class=\"w-full text-lg text-green-600 outline-none\">\n+\t\t\t\t\t{article.results[0].subtitle as string}\n+\t\t\t\t</p>\n \n-\t\t\t\t\t\t<hr class=\"border border-green-900/50\" />\n+\t\t\t\t<hr class=\"border border-green-900/50\" />\n \n-\t\t\t\t\t\t<div\n-\t\t\t\t\t\t\tclass=\"prose\"\n-\t\t\t\t\t\t\tset:html={marked.parse(article.data.rows[0].content as string)}\n-\t\t\t\t\t\t/>\n+\t\t\t\t<div\n+\t\t\t\t\tclass=\"prose\"\n+\t\t\t\t\tset:html={marked.parse(article.results[0].content as string)}\n+\t\t\t\t/>\n \n-\t\t\t\t\t\t<hr class=\"border border-green-900/50\" />\n+\t\t\t\t<hr class=\"border border-green-900/50\" />\n \n-\t\t\t\t\t\t<div>\n-\t\t\t\t\t\t\t<p class=\"text-center text-sm text-green-800 italic\">\n-\t\t\t\t\t\t\t\tEND OF TRANSMISSION\n-\t\t\t\t\t\t\t</p>\n-\t\t\t\t\t\t\t<p class=\"text-center text-sm text-green-800 italic\">\n-\t\t\t\t\t\t\t\tTransmission ID:\n-\t\t\t\t\t\t\t\t<span class=\"tracking-wide uppercase\">\n-\t\t\t\t\t\t\t\t\t{createHash(\"md5\")\n-\t\t\t\t\t\t\t\t\t\t.update(article.data.rows[0].slug as string)\n-\t\t\t\t\t\t\t\t\t\t.digest(\"hex\")\n-\t\t\t\t\t\t\t\t\t\t.substring(0, 20)}\n-\t\t\t\t\t\t\t\t</span>\n-\t\t\t\t\t\t\t</p>\n-\t\t\t\t\t\t</div>\n-\t\t\t\t\t</div>\n+\t\t\t\t<div>\n+\t\t\t\t\t<p class=\"text-center text-sm text-green-800 italic\">\n+\t\t\t\t\t\tEND OF TRANSMISSION\n+\t\t\t\t\t</p>\n+\t\t\t\t\t<p class=\"text-center text-sm text-green-800 italic\">\n+\t\t\t\t\t\tTransmission ID:\n+\t\t\t\t\t\t<span class=\"tracking-wide uppercase\">\n+\t\t\t\t\t\t\t{\n+\t\t\t\t\t\t\t\tcreateHash(\"md5\")\n+\t\t\t\t\t\t\t\t\t.update(article.results[0].slug as string)\n+\t\t\t\t\t\t\t\t\t.digest(\"hex\")\n+\t\t\t\t\t\t\t\t\t.substring(0, 20)\n+\t\t\t\t\t\t\t}\n+\t\t\t\t\t\t</span>\n+\t\t\t\t\t</p>\n \t\t\t\t</div>\n-\t\t\t</main>\n-\t\t</Layout>\n-\t) : null\n-}\n+\t\t\t</div>\n+\t\t</div>\n+\t</main>\n+</Layout>"
+      },
+      {
+        "sha": "15c267f33d2fb03149b3651df688d4a02d107e45",
+        "filename": "src/pages/transmission/index.astro",
+        "status": "modified",
+        "additions": 80,
+        "deletions": 105,
+        "changes": 185,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/fbeacc6f4bcc48153a9f5135cf8188de37e60343/src%2Fpages%2Ftransmission%2Findex.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/fbeacc6f4bcc48153a9f5135cf8188de37e60343/src%2Fpages%2Ftransmission%2Findex.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Ftransmission%2Findex.astro?ref=fbeacc6f4bcc48153a9f5135cf8188de37e60343",
+        "patch": "@@ -1,133 +1,108 @@\n ---\n-import { createClient } from \"@tursodatabase/serverless/compat\";\n-import { safeAsync } from \"@utils/safeAsync\";\n+import { env } from \"cloudflare:workers\";\n+import Ascii from \"../../components/AsciiContainer.astro\";\n import Header from \"../../layouts/Header.astro\";\n import Layout from \"../../layouts/Layout.astro\";\n-import Ascii from \"../../components/AsciiContainer.astro\";\n-import ErrorOut from \"../../components/ErrorOut.astro\";\n import Timestamp from \"../../components/Timestamp.astro\";\n-import sql from \"../../data/sql.txt?raw\";\n \n-interface Transmission {\n-\ttype: \"rating\" | \"article\";\n-\ttitle: string;\n-\tsubtitle?: string;\n-\tnotes?: string;\n-\trating: number;\n-\tcover?: string;\n-\turl: string;\n-\tdate_created: string;\n-}\n+import sql from \"../../data/sql.txt?raw\";\n \n-const turso = createClient({\n-\turl: import.meta.env.TURSO_DATABASE_URL,\n-\tauthToken: import.meta.env.TURSO_AUTH_TOKEN,\n-});\n-const result = await safeAsync(turso.execute(sql));\n-const transmissions = result.data?.rows as unknown as Transmission[];\n+const transmissions = await env.DB.prepare(sql).all();\n ---\n \n <Layout title=\"Mark Jerwin // TRANSMISSION_LOG\">\n \t<main class=\"mx-auto flex max-w-5xl flex-col space-y-8\">\n \t\t<Header heading=\"TRANSMISSION_LOG\">\n \t\t\t<p class=\"font-mono text-sm opacity-80\">\n-\t\t\t\tParsing {transmissions.length} transmission records... [{\n-\t\t\t\t\tresult.error ? \"ERROR\" : \"OK\"\n-\t\t\t\t}]\n+\t\t\t\tParsing {transmissions.results.length} transmission records... [OK]\n \t\t\t</p>\n \t\t</Header>\n-\n \t\t<hr class=\"bg-green-500\" />\n-\n \t\t<div class=\"flex flex-col space-y-5\">\n \t\t\t{\n-\t\t\t\tresult.data ? (\n-\t\t\t\t\ttransmissions.map((transmission) => {\n-\t\t\t\t\t\tif (transmission.type === \"article\") {\n-\t\t\t\t\t\t\treturn (\n-\t\t\t\t\t\t\t\t<div class=\"space-y-3\">\n-\t\t\t\t\t\t\t\t\t<Timestamp timestamp={transmission.date_created} />\n-\t\t\t\t\t\t\t\t\t<a href={transmission.url}>\n-\t\t\t\t\t\t\t\t\t\t<div class=\"space-y-5 border border-green-900/50 bg-black p-6 font-mono hover:border-green-500 hover:bg-green-900/10\">\n-\t\t\t\t\t\t\t\t\t\t\t<div class=\"\">\n-\t\t\t\t\t\t\t\t\t\t\t\t<p class=\"text-2xl font-bold uppercase md:text-3xl\">\n-\t\t\t\t\t\t\t\t\t\t\t\t\t{transmission.title}\n+\t\t\t\ttransmissions.results.map((transmission) => {\n+\t\t\t\t\tif (transmission.type === \"article\") {\n+\t\t\t\t\t\treturn (\n+\t\t\t\t\t\t\t<div class=\"space-y-3\">\n+\t\t\t\t\t\t\t\t<Timestamp timestamp={transmission.date_created as string} />\n+\t\t\t\t\t\t\t\t<a href={transmission.url as string}>\n+\t\t\t\t\t\t\t\t\t<div class=\"space-y-5 border border-green-900/50 bg-black p-6 font-mono hover:border-green-500 hover:bg-green-900/10\">\n+\t\t\t\t\t\t\t\t\t\t<div class=\"\">\n+\t\t\t\t\t\t\t\t\t\t\t<p class=\"text-2xl font-bold uppercase md:text-3xl\">\n+\t\t\t\t\t\t\t\t\t\t\t\t{transmission.title}\n+\t\t\t\t\t\t\t\t\t\t\t</p>\n+\t\t\t\t\t\t\t\t\t\t\t{transmission.subtitle && (\n+\t\t\t\t\t\t\t\t\t\t\t\t<p class=\"text-sm text-green-600 opacity-90\">\n+\t\t\t\t\t\t\t\t\t\t\t\t\t{\">\"} {transmission.subtitle}\n \t\t\t\t\t\t\t\t\t\t\t\t</p>\n-\t\t\t\t\t\t\t\t\t\t\t\t{transmission.subtitle && (\n-\t\t\t\t\t\t\t\t\t\t\t\t\t<p class=\"text-sm text-green-600 opacity-90\">\n-\t\t\t\t\t\t\t\t\t\t\t\t\t\t{\">\"} {transmission.subtitle}\n-\t\t\t\t\t\t\t\t\t\t\t\t\t</p>\n-\t\t\t\t\t\t\t\t\t\t\t\t)}\n-\t\t\t\t\t\t\t\t\t\t\t</div>\n+\t\t\t\t\t\t\t\t\t\t\t)}\n \t\t\t\t\t\t\t\t\t\t</div>\n-\t\t\t\t\t\t\t\t\t</a>\n-\t\t\t\t\t\t\t\t</div>\n-\t\t\t\t\t\t\t);\n-\t\t\t\t\t\t}\n+\t\t\t\t\t\t\t\t\t</div>\n+\t\t\t\t\t\t\t\t</a>\n+\t\t\t\t\t\t\t</div>\n+\t\t\t\t\t\t);\n+\t\t\t\t\t}\n \n-\t\t\t\t\t\tif (transmission.type === \"rating\") {\n-\t\t\t\t\t\t\treturn (\n-\t\t\t\t\t\t\t\t<div class=\"space-y-3\">\n-\t\t\t\t\t\t\t\t\t<Timestamp timestamp={transmission.date_created} />\n-\t\t\t\t\t\t\t\t\t<a\n-\t\t\t\t\t\t\t\t\t\thref={transmission.url}\n-\t\t\t\t\t\t\t\t\t\ttarget=\"_blank\"\n-\t\t\t\t\t\t\t\t\t\trel=\"noopener noreferrer\"\n-\t\t\t\t\t\t\t\t\t>\n-\t\t\t\t\t\t\t\t\t\t<div class=\"group flex flex-col border border-green-900/50 bg-black font-mono hover:border-green-500 hover:bg-green-900/10 md:flex-row\">\n-\t\t\t\t\t\t\t\t\t\t\t{transmission.cover && (\n-\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"aspect-square shrink-0 overflow-clip md:h-40 md:w-40\">\n-\t\t\t\t\t\t\t\t\t\t\t\t\t<Ascii ascii={transmission.cover} />\n-\t\t\t\t\t\t\t\t\t\t\t\t</div>\n-\t\t\t\t\t\t\t\t\t\t\t)}\n-\t\t\t\t\t\t\t\t\t\t\t<div class=\"flex w-full flex-col justify-between gap-3 p-5\">\n-\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"space-y-3\">\n-\t\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"flex items-start justify-between gap-4\">\n-\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p class=\"line-clamp-2 text-xl leading-tight font-bold uppercase\">\n-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t{transmission.title}\n-\t\t\t\t\t\t\t\t\t\t\t\t\t\t</p>\n-\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"mb-1 shrink bg-green-500 px-2 py-0.25 text-sm font-bold text-black\">\n-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t{transmission.rating}/10\n-\t\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n-\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n-\t\t\t\t\t\t\t\t\t\t\t\t\t{transmission.notes && (\n-\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p class=\"line-clamp-3 border-l-2 border-green-500 pl-5 text-sm text-balance italic opacity-80\">\n-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t{transmission.notes}\n-\t\t\t\t\t\t\t\t\t\t\t\t\t\t</p>\n-\t\t\t\t\t\t\t\t\t\t\t\t\t)}\n+\t\t\t\t\tif (transmission.type === \"rating\") {\n+\t\t\t\t\t\treturn (\n+\t\t\t\t\t\t\t<div class=\"space-y-3\">\n+\t\t\t\t\t\t\t\t<Timestamp timestamp={transmission.date_created as string} />\n+\t\t\t\t\t\t\t\t<a\n+\t\t\t\t\t\t\t\t\thref={transmission.url as string}\n+\t\t\t\t\t\t\t\t\ttarget=\"_blank\"\n+\t\t\t\t\t\t\t\t\trel=\"noopener noreferrer\"\n+\t\t\t\t\t\t\t\t>\n+\t\t\t\t\t\t\t\t\t<div class=\"group flex flex-col border border-green-900/50 bg-black font-mono hover:border-green-500 hover:bg-green-900/10 md:flex-row\">\n+\t\t\t\t\t\t\t\t\t\t{transmission.cover && (\n+\t\t\t\t\t\t\t\t\t\t\t<div class=\"aspect-square shrink-0 overflow-clip md:h-40 md:w-40\">\n+\t\t\t\t\t\t\t\t\t\t\t\t<Ascii ascii={transmission.cover as string} />\n+\t\t\t\t\t\t\t\t\t\t\t</div>\n+\t\t\t\t\t\t\t\t\t\t)}\n+\t\t\t\t\t\t\t\t\t\t<div class=\"flex w-full flex-col justify-between gap-3 p-5\">\n+\t\t\t\t\t\t\t\t\t\t\t<div class=\"space-y-3\">\n+\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"flex items-start justify-between gap-4\">\n+\t\t\t\t\t\t\t\t\t\t\t\t\t<p class=\"line-clamp-2 text-xl leading-tight font-bold uppercase\">\n+\t\t\t\t\t\t\t\t\t\t\t\t\t\t{transmission.title}\n+\t\t\t\t\t\t\t\t\t\t\t\t\t</p>\n+\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"mb-1 shrink bg-green-500 px-2 py-0.25 text-sm font-bold text-black\">\n+\t\t\t\t\t\t\t\t\t\t\t\t\t\t{transmission.rating}/10\n+\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n \t\t\t\t\t\t\t\t\t\t\t\t</div>\n+\t\t\t\t\t\t\t\t\t\t\t\t{transmission.notes && (\n+\t\t\t\t\t\t\t\t\t\t\t\t\t<p class=\"line-clamp-3 border-l-2 border-green-500 pl-5 text-sm text-balance italic opacity-80\">\n+\t\t\t\t\t\t\t\t\t\t\t\t\t\t{transmission.notes}\n+\t\t\t\t\t\t\t\t\t\t\t\t\t</p>\n+\t\t\t\t\t\t\t\t\t\t\t\t)}\n+\t\t\t\t\t\t\t\t\t\t\t</div>\n \n-\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"flex items-end justify-end opacity-50 transition-opacity group-hover:opacity-100\">\n-\t\t\t\t\t\t\t\t\t\t\t\t\t<svg\n-\t\t\t\t\t\t\t\t\t\t\t\t\t\tversion=\"1.0\"\n-\t\t\t\t\t\t\t\t\t\t\t\t\t\txmlns=\"http://www.w3.org/2000/svg\"\n-\t\t\t\t\t\t\t\t\t\t\t\t\t\twidth=\"512pt\"\n-\t\t\t\t\t\t\t\t\t\t\t\t\t\theight=\"512pt\"\n-\t\t\t\t\t\t\t\t\t\t\t\t\t\tviewBox=\"0 0 512 512\"\n-\t\t\t\t\t\t\t\t\t\t\t\t\t\tpreserveAspectRatio=\"xMidYMid meet\"\n-\t\t\t\t\t\t\t\t\t\t\t\t\t\tfill=\"currentColor\"\n-\t\t\t\t\t\t\t\t\t\t\t\t\t\tclass=\"h-4 w-4\"\n+\t\t\t\t\t\t\t\t\t\t\t<div class=\"flex items-end justify-end opacity-50 transition-opacity group-hover:opacity-100\">\n+\t\t\t\t\t\t\t\t\t\t\t\t<svg\n+\t\t\t\t\t\t\t\t\t\t\t\t\tversion=\"1.0\"\n+\t\t\t\t\t\t\t\t\t\t\t\t\txmlns=\"http://www.w3.org/2000/svg\"\n+\t\t\t\t\t\t\t\t\t\t\t\t\twidth=\"512pt\"\n+\t\t\t\t\t\t\t\t\t\t\t\t\theight=\"512pt\"\n+\t\t\t\t\t\t\t\t\t\t\t\t\tviewBox=\"0 0 512 512\"\n+\t\t\t\t\t\t\t\t\t\t\t\t\tpreserveAspectRatio=\"xMidYMid meet\"\n+\t\t\t\t\t\t\t\t\t\t\t\t\tfill=\"currentColor\"\n+\t\t\t\t\t\t\t\t\t\t\t\t\tclass=\"h-4 w-4\"\n+\t\t\t\t\t\t\t\t\t\t\t\t>\n+\t\t\t\t\t\t\t\t\t\t\t\t\t<g\n+\t\t\t\t\t\t\t\t\t\t\t\t\t\ttransform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\"\n+\t\t\t\t\t\t\t\t\t\t\t\t\t\tstroke=\"none\"\n \t\t\t\t\t\t\t\t\t\t\t\t\t>\n-\t\t\t\t\t\t\t\t\t\t\t\t\t\t<g\n-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\ttransform=\"translate(0.000000,512.000000) scale(0.100000,-0.100000)\"\n-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tstroke=\"none\"\n-\t\t\t\t\t\t\t\t\t\t\t\t\t\t>\n-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path d=\"M1244 4465 c-261 -57 -483 -258 -572 -520 l-27 -80 0 -1305 0 -1305 27 -80 c93 -271 329 -479 599 -525 45 -8 439 -10 1329 -8 l1265 3 80 28 c244 86 416 258 502 502 l28 80 3 555 c3 623 4 619 -63 685 -98 99 -261 78 -332 -43 l-28 -47 -6 -535 c-3 -338 -9 -546 -16 -565 -45 -130 -125 -199 -258 -225 -44 -8 -387 -10 -1250 -8 -1144 3 -1192 4 -1243 22 -102 37 -176 127 -201 244 -16 75 -16 2369 0 2444 25 118 99 207 201 244 49 17 97 19 588 24 l535 5 47 28 c84 49 124 150 98 245 -15 56 -80 123 -136 140 -61 18 -1085 16 -1170 -3z\" />\n-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path d=\"M3120 4464 c-46 -20 -87 -60 -112 -108 -16 -31 -19 -53 -16 -102 5 -78 41 -136 108 -174 45 -25 46 -25 344 -28 l300 -3 -787 -787 c-551 -551 -791 -798 -802 -824 -38 -93 -6 -206 73 -262 49 -35 136 -46 198 -26 32 10 190 163 831 803 l792 791 3 -300 c3 -284 4 -301 25 -339 41 -77 105 -115 193 -115 84 0 161 53 194 132 14 32 16 115 16 606 0 399 -3 579 -11 603 -19 56 -59 100 -113 125 l-51 24 -575 0 c-491 -1 -580 -3 -610 -16z\" />\n-\t\t\t\t\t\t\t\t\t\t\t\t\t\t</g>\n-\t\t\t\t\t\t\t\t\t\t\t\t\t</svg>\n-\t\t\t\t\t\t\t\t\t\t\t\t</div>\n+\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path d=\"M1244 4465 c-261 -57 -483 -258 -572 -520 l-27 -80 0 -1305 0 -1305 27 -80 c93 -271 329 -479 599 -525 45 -8 439 -10 1329 -8 l1265 3 80 28 c244 86 416 258 502 502 l28 80 3 555 c3 623 4 619 -63 685 -98 99 -261 78 -332 -43 l-28 -47 -6 -535 c-3 -338 -9 -546 -16 -565 -45 -130 -125 -199 -258 -225 -44 -8 -387 -10 -1250 -8 -1144 3 -1192 4 -1243 22 -102 37 -176 127 -201 244 -16 75 -16 2369 0 2444 25 118 99 207 201 244 49 17 97 19 588 24 l535 5 47 28 c84 49 124 150 98 245 -15 56 -80 123 -136 140 -61 18 -1085 16 -1170 -3z\" />\n+\t\t\t\t\t\t\t\t\t\t\t\t\t\t<path d=\"M3120 4464 c-46 -20 -87 -60 -112 -108 -16 -31 -19 -53 -16 -102 5 -78 41 -136 108 -174 45 -25 46 -25 344 -28 l300 -3 -787 -787 c-551 -551 -791 -798 -802 -824 -38 -93 -6 -206 73 -262 49 -35 136 -46 198 -26 32 10 190 163 831 803 l792 791 3 -300 c3 -284 4 -301 25 -339 41 -77 105 -115 193 -115 84 0 161 53 194 132 14 32 16 115 16 606 0 399 -3 579 -11 603 -19 56 -59 100 -113 125 l-51 24 -575 0 c-491 -1 -580 -3 -610 -16z\" />\n+\t\t\t\t\t\t\t\t\t\t\t\t\t</g>\n+\t\t\t\t\t\t\t\t\t\t\t\t</svg>\n \t\t\t\t\t\t\t\t\t\t\t</div>\n \t\t\t\t\t\t\t\t\t\t</div>\n-\t\t\t\t\t\t\t\t\t</a>\n-\t\t\t\t\t\t\t\t</div>\n-\t\t\t\t\t\t\t);\n-\t\t\t\t\t\t}\n-\t\t\t\t\t\treturn null;\n-\t\t\t\t\t})\n-\t\t\t\t) : (\n-\t\t\t\t\t<ErrorOut error={result.error as Error} />\n-\t\t\t\t)\n+\t\t\t\t\t\t\t\t\t</div>\n+\t\t\t\t\t\t\t\t</a>\n+\t\t\t\t\t\t\t</div>\n+\t\t\t\t\t\t);\n+\t\t\t\t\t}\n+\t\t\t\t\treturn null;\n+\t\t\t\t})\n \t\t\t}\n \t\t</div>\n \t</main>"
+      },
+      {
+        "sha": "742536ae440cb41fcba11a71a92facd73f86aa5c",
+        "filename": "src/pages/transmission/transmit-preview.astro",
+        "status": "removed",
+        "additions": 0,
+        "deletions": 143,
+        "changes": 143,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/e061da32d01918e21d79cca0c2c3b8e7de6788be/src%2Fpages%2Ftransmission%2Ftransmit-preview.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/e061da32d01918e21d79cca0c2c3b8e7de6788be/src%2Fpages%2Ftransmission%2Ftransmit-preview.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Ftransmission%2Ftransmit-preview.astro?ref=e061da32d01918e21d79cca0c2c3b8e7de6788be",
+        "patch": "@@ -1,143 +0,0 @@\n----\n-import \"../../styles/marked.css\";\n-// import { createClient } from \"@libsql/client\";\n-// import { createSlug } from \"@utils/createSlug\";\n-\n-import Layout from \"../../layouts/Layout.astro\";\n-\n-// ILL BE IMPLEMENTING THIS SOON, JUST WANT A PLACEHOLDER FOR NOW\n-// const turso = createClient({\n-// \turl: process.env.TURSO_DATABASE_URL || import.meta.env.TURSO_DATABASE_URL,\n-\n-// \tauthToken: process.env.TURSO_AUTH_TOKEN || import.meta.env.TURSO_AUTH_TOKEN,\n-// });\n-\n-// let message = \"\";\n-\n-// if (Astro.request.method === \"POST\") {\n-// \ttry {\n-// \t\tconst data = await Astro.request.formData();\n-// \t\tconst title = data.get(\"title\")?.toString() ?? \"\";\n-// \t\tconst subtitle = data.get(\"subtitle\")?.toString() ?? null;\n-// \t\tconst content = data.get(\"content\")?.toString() ?? \"\";\n-// \t\t// TODO: Prevent duplicate slugs by appending a number if the slug already exists\n-// \t\tconst slug = createSlug(title);\n-\n-// \t\tif (title) {\n-// \t\t\tawait turso.execute(\n-// \t\t\t\t\"INSERT INTO articles (title, subtitle, content, date_created, slug) VALUES (?, ?, ?, ?, ?)\",\n-// \t\t\t\t[title, subtitle, content, new Date().toISOString(), slug],\n-// \t\t\t);\n-// \t\t\tmessage = \"Record inserted successfully.\";\n-// \t\t\treturn new Response(null, {\n-// \t\t\t\tstatus: 301,\n-// \t\t\t\theaders: { Location: `/transmission/${slug}` }\n-// \t\t\t});\n-// \t\t}\n-// \t} catch (error) {\n-// \t\tmessage = `Insertion failed: ${error instanceof Error ? error.message : \"Unknown error\"}`;\n-// \t}\n-// }\n----\n-\n-<Layout title=\"Mark Jerwin // TRANSMIT\" robots=\"noindex, nofollow\">\n-\t<main class=\"flex flex-col items-center justify-center\">\n-\t\t<svg\n-\t\t\tid=\"preview-toggle\"\n-\t\t\txmlns=\"http://www.w3.org/2000/svg\"\n-\t\t\tviewBox=\"0 0 24 24\"\n-\t\t\tfill=\"#000\"\n-\t\t\tstroke=\"#00c951\"\n-\t\t\twidth=\"30\"\n-\t\t\theight=\"30\"\n-\t\t\tclass=\"mb-10 cursor-pointer\"\n-\t\t>\n-\t\t\t<path\n-\t\t\t\td=\"M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z\"\n-\t\t\t></path>\n-\t\t</svg>\n-\n-\t\t<div class=\"w-full font-mono md:w-[60vw]\">\n-\t\t\t<statusbar\n-\t\t\t\tclass=\"flex items-center justify-between border border-b-0 border-green-800 bg-green-900/20 px-4 py-2 text-xs tracking-widest uppercase\"\n-\t\t\t>\n-\t\t\t\t<span>PREVIEW</span>\n-\n-\t\t\t\t<time datetime={new Date().toISOString()}>\n-\t\t\t\t\t{\n-\t\t\t\t\t\tnew Date().toLocaleDateString(\"en-US\", {\n-\t\t\t\t\t\t\tyear: \"numeric\",\n-\t\t\t\t\t\t\tmonth: \"short\",\n-\t\t\t\t\t\t\tday: \"numeric\",\n-\t\t\t\t\t\t})\n-\t\t\t\t\t}\n-\t\t\t\t</time>\n-\t\t\t</statusbar>\n-\n-\t\t\t<form\n-\t\t\t\tmethod=\"POST\"\n-\t\t\t\tclass=\"flex flex-col space-y-5 border border-green-800 bg-black p-6 md:p-12\"\n-\t\t\t>\n-\t\t\t\t<textarea\n-\t\t\t\t\tclass=\"w-full rounded-none text-4xl leading-none font-bold uppercase outline-none md:text-5xl\"\n-\t\t\t\t\tname=\"title\"\n-\t\t\t\t\tplaceholder=\"Title\"\n-\t\t\t\t\trows=\"1\"\n-\t\t\t\t\toninput=\"this.style.height = ''; this.style.height = this.scrollHeight + 'px'\"\n-\t\t\t\t\trequired></textarea>\n-\n-\t\t\t\t<textarea\n-\t\t\t\t\tclass=\"w-full text-lg text-green-600 outline-none\"\n-\t\t\t\t\tname=\"subtitle\"\n-\t\t\t\t\tplaceholder=\"Subtitle\"\n-\t\t\t\t\trows=\"2\"\n-\t\t\t\t\toninput=\"this.style.height = ''; this.style.height = this.scrollHeight + 'px'\"\n-\t\t\t\t></textarea>\n-\n-\t\t\t\t<hr class=\"border border-green-900/50\" />\n-\n-\t\t\t\t<textarea\n-\t\t\t\t\tid=\"content-input\"\n-\t\t\t\t\tclass=\"h-full min-h-30 w-full resize-none overflow-hidden outline-none\"\n-\t\t\t\t\tname=\"content\"\n-\t\t\t\t\tplaceholder=\"Start typing here...\"\n-\t\t\t\t\toninput=\"this.style.height = ''; this.style.height = this.scrollHeight + 'px'\"\n-\t\t\t\t\trequired></textarea>\n-\n-\t\t\t\t<div id=\"preview\" class=\"prose hidden min-h-30\"></div>\n-\n-\t\t\t\t<hr class=\"border border-green-900/50\" />\n-\n-\t\t\t\t<p class=\"text-center text-sm text-green-800 italic\">\n-\t\t\t\t\tEND OF TRANSMISSION\n-\t\t\t\t</p>\n-\n-\t\t\t\t<!-- <button\n-\t\t\t\t\ttype=\"submit\"\n-\t\t\t\t\tclass=\"cursor-pointer self-end px-3 py-2 text-sm font-bold tracking-widest hover:bg-green-500 hover:text-black hover:brightness-110\"\n-\t\t\t\t>\n-\t\t\t\t\t[ TRANSMIT ]\n-\t\t\t\t</button> -->\n-\t\t\t</form>\n-\t\t</div>\n-\t</main>\n-</Layout>\n-\n-<script>\n-\timport { marked } from \"marked\";\n-\tconst toggle = document.getElementById(\"preview-toggle\");\n-\tconst input = document.getElementById(\"content-input\") as HTMLTextAreaElement;\n-\tconst preview = document.getElementById(\"preview\");\n-\n-\tif (toggle && input && preview) {\n-\t\ttoggle.addEventListener(\"click\", async () => {\n-\t\t\tconst isEditing = !input.classList.contains(\"hidden\");\n-\n-\t\t\tif (isEditing) preview.innerHTML = await marked.parse(input.value);\n-\t\t\tinput.classList.toggle(\"hidden\", isEditing);\n-\t\t\tpreview.classList.toggle(\"hidden\", !isEditing);\n-\t\t\ttoggle.setAttribute(\"fill\", isEditing ? \"#00c951\" : \"#000\");\n-\t\t\ttoggle.setAttribute(\"stroke\", isEditing ? \"#000\" : \"#00c951\");\n-\t\t});\n-\t}\n-</script>"
+      },
+      {
+        "sha": "0188488c86088cba1131247d9c78c08812df90dc",
+        "filename": "src/styles/global.css",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/fbeacc6f4bcc48153a9f5135cf8188de37e60343/src%2Fstyles%2Fglobal.css",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/fbeacc6f4bcc48153a9f5135cf8188de37e60343/src%2Fstyles%2Fglobal.css",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fstyles%2Fglobal.css?ref=fbeacc6f4bcc48153a9f5135cf8188de37e60343",
+        "patch": "@@ -2,12 +2,12 @@\n \n @font-face {\n \tfont-family: \"ibm\";\n-\tsrc: url(../assets/fonts/vile-r/ibm-vga-8x16.woff2) format(\"woff2\");\n+\tsrc: url(/fonts/vile-r/ibm-vga-8x16.woff2) format(\"woff2\");\n }\n \n @font-face {\n \tfont-family: \"Terminus\";\n-\tsrc: url(../assets/fonts/terminus/Terminus.woff2) format(\"woff2\");\n+\tsrc: url(/fonts/terminus/Terminus.woff2) format(\"woff2\");\n }\n \n @theme {"
+      },
+      {
+        "sha": "fcde2f35eb16692735409bd7eda273f7516b891c",
+        "filename": "worker-configuration.d.ts",
+        "status": "modified",
+        "additions": 10,
+        "deletions": 3,
+        "changes": 13,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/fbeacc6f4bcc48153a9f5135cf8188de37e60343/worker-configuration.d.ts",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/fbeacc6f4bcc48153a9f5135cf8188de37e60343/worker-configuration.d.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/worker-configuration.d.ts?ref=fbeacc6f4bcc48153a9f5135cf8188de37e60343",
+        "patch": "@@ -1,17 +1,24 @@\n /* eslint-disable */\n-// Generated by Wrangler by running `wrangler types` (hash: 22d18f13c7f391e81dca4e00bcbe7c35)\n-// Runtime types generated with workerd@1.20260410.1 2026-04-15 global_fetch_strictly_public\n+// Generated by Wrangler by running `wrangler types` (hash: 0f20af9197de9559a73d8d289bb0bfc1)\n+// Runtime types generated with workerd@1.20260410.1 2026-04-15 global_fetch_strictly_public,nodejs_compat\n declare namespace Cloudflare {\n \tinterface Env {\n+\t\tSESSION: KVNamespace;\n+\t\tDB: D1Database;\n \t\tASSETS: Fetcher;\n-\t\tEMAIL: string;\n \t\tGITHUB_TOKEN: string;\n \t\tLASTFM_API_KEY: string;\n \t\tTURSO_AUTH_TOKEN: string;\n \t\tTURSO_DATABASE_URL: string;\n \t}\n }\n interface Env extends Cloudflare.Env {}\n+type StringifyValues<EnvType extends Record<string, unknown>> = {\n+\t[Binding in keyof EnvType]: EnvType[Binding] extends string ? EnvType[Binding] : string;\n+};\n+declare namespace NodeJS {\n+\tinterface ProcessEnv extends StringifyValues<Pick<Cloudflare.Env, \"GITHUB_TOKEN\" | \"LASTFM_API_KEY\" | \"TURSO_AUTH_TOKEN\" | \"TURSO_DATABASE_URL\">> {}\n+}\n \n // Begin runtime types\n /*! *****************************************************************************"
+      },
+      {
+        "sha": "0a1c3c2185611201f14765f97c110f24c3e81477",
         "filename": "wrangler.json",
         "status": "modified",
-        "additions": 9,
+        "additions": 15,
+        "deletions": 0,
+        "changes": 15,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/fbeacc6f4bcc48153a9f5135cf8188de37e60343/wrangler.json",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/fbeacc6f4bcc48153a9f5135cf8188de37e60343/wrangler.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/wrangler.json?ref=fbeacc6f4bcc48153a9f5135cf8188de37e60343",
+        "patch": "@@ -7,6 +7,21 @@\n \t\t\"directory\": \"./dist\",\n \t\t\"binding\": \"ASSETS\"\n \t},\n+\t\"d1_databases\": [\n+\t\t{\n+\t\t\t\"binding\": \"DB\",\n+\t\t\t\"database_name\": \"jrwnnnn-me\",\n+\t\t\t\"database_id\": \"8444141b-49b2-45d3-8b89-311895d610b6\",\n+\t\t\t\"remote\": true\n+\t\t}\n+\t],\n+\t\"kv_namespaces\": [\n+\t\t{\n+\t\t\t\"binding\": \"SESSION\",\n+\t\t\t\"id\": \"14b9d9378a1c43b1b61a44bb122a73d4\",\n+\t\t\t\"remote\": true\n+\t\t}\n+\t],\n \t\"observability\": {\n \t\t\"enabled\": true\n \t}"
+      }
+    ]
+  },
+  {
+    "sha": "02f3e7d8fa5d5c0e928b59eae4b6231fc02e2b44",
+    "node_id": "C_kwDORJSDNtoAKDAyZjNlN2Q4ZmE1ZDVjMGU5MjhiNTllYWU0YjYyMzFmYzAyZTJiNDQ",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "ping@jrwnnnn.me",
+        "date": "2026-04-18T11:01:38Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "ping@jrwnnnn.me",
+        "date": "2026-04-18T11:01:38Z"
+      },
+      "message": "chore: Remove .env.example",
+      "tree": {
+        "sha": "a4af5f846d5b2383eb28cc42a6dfda6f26302219",
+        "url": "https://api.github.com/repos/jrwnnnn/scaffold/git/trees/a4af5f846d5b2383eb28cc42a6dfda6f26302219"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/scaffold/git/commits/02f3e7d8fa5d5c0e928b59eae4b6231fc02e2b44",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQAZKZEs9mVh68piQx6IITP4HTp67HMqQ8TDKLjAyw/ZKzFktPn4wK+ljoqR0Hd8M8C\nm5chk9DAyzxZ/2Xp8dIws=\n-----END SSH SIGNATURE-----",
+        "payload": "tree a4af5f846d5b2383eb28cc42a6dfda6f26302219\nparent f209675ce545279fa5f4398cfb9e3f4169e571f0\nauthor Mark Jerwin <ping@jrwnnnn.me> 1776510098 +0800\ncommitter Mark Jerwin <ping@jrwnnnn.me> 1776510098 +0800\n\nchore: Remove .env.example\n",
+        "verified_at": "2026-04-18T11:01:42Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/02f3e7d8fa5d5c0e928b59eae4b6231fc02e2b44",
+    "html_url": "https://github.com/jrwnnnn/scaffold/commit/02f3e7d8fa5d5c0e928b59eae4b6231fc02e2b44",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/02f3e7d8fa5d5c0e928b59eae4b6231fc02e2b44/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f209675ce545279fa5f4398cfb9e3f4169e571f0",
+        "url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/f209675ce545279fa5f4398cfb9e3f4169e571f0",
+        "html_url": "https://github.com/jrwnnnn/scaffold/commit/f209675ce545279fa5f4398cfb9e3f4169e571f0"
+      }
+    ],
+    "stats": {
+      "total": 2,
+      "additions": 0,
+      "deletions": 2
+    },
+    "files": [
+      {
+        "sha": "47db2ad4a4b72381c88f4c84e4a2c2c38843f3f3",
+        "filename": ".env.example",
+        "status": "removed",
+        "additions": 0,
+        "deletions": 2,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/f209675ce545279fa5f4398cfb9e3f4169e571f0/.env.example",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/f209675ce545279fa5f4398cfb9e3f4169e571f0/.env.example",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/.env.example?ref=f209675ce545279fa5f4398cfb9e3f4169e571f0",
+        "patch": "@@ -1,2 +0,0 @@\n-DATABASE_REMOTE_URL=\"libsql://my-db-name-user.turso.io\"\n-DATABASE_APP_TOKEN=\"ey...\"\n\\ No newline at end of file"
+      }
+    ]
+  },
+  {
+    "sha": "f209675ce545279fa5f4398cfb9e3f4169e571f0",
+    "node_id": "C_kwDORJSDNtoAKGYyMDk2NzVjZTU0NTI3OWZhNWY0Mzk4Y2ZiOWUzZjQxNjllNTcxZjA",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "ping@jrwnnnn.me",
+        "date": "2026-04-18T10:59:23Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "ping@jrwnnnn.me",
+        "date": "2026-04-18T10:59:23Z"
+      },
+      "message": "chore: Add wrangler generated worker types",
+      "tree": {
+        "sha": "4b1a5c53bf0b2fb6050272fa7275aa3b63309428",
+        "url": "https://api.github.com/repos/jrwnnnn/scaffold/git/trees/4b1a5c53bf0b2fb6050272fa7275aa3b63309428"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/scaffold/git/commits/f209675ce545279fa5f4398cfb9e3f4169e571f0",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQL+JGQDAiUaqU9AMZc+ZnZkEEJTv6koAAK03iPNpVdlrYD0sRWe4ieFwRSKb7TqJ/f\n4Rol1uh1/xnrfMSSf2IQ0=\n-----END SSH SIGNATURE-----",
+        "payload": "tree 4b1a5c53bf0b2fb6050272fa7275aa3b63309428\nparent 409fd096139eb6bdc20eaebb355e7b32d4096183\nauthor Mark Jerwin <ping@jrwnnnn.me> 1776509963 +0800\ncommitter Mark Jerwin <ping@jrwnnnn.me> 1776509963 +0800\n\nchore: Add wrangler generated worker types\n",
+        "verified_at": "2026-04-18T11:01:42Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/f209675ce545279fa5f4398cfb9e3f4169e571f0",
+    "html_url": "https://github.com/jrwnnnn/scaffold/commit/f209675ce545279fa5f4398cfb9e3f4169e571f0",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/f209675ce545279fa5f4398cfb9e3f4169e571f0/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "409fd096139eb6bdc20eaebb355e7b32d4096183",
+        "url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/409fd096139eb6bdc20eaebb355e7b32d4096183",
+        "html_url": "https://github.com/jrwnnnn/scaffold/commit/409fd096139eb6bdc20eaebb355e7b32d4096183"
+      }
+    ],
+    "stats": {
+      "total": 12974,
+      "additions": 12972,
+      "deletions": 2
+    },
+    "files": [
+      {
+        "sha": "f36316a1a7d9b9c97439ad1bae987873872b9358",
+        "filename": "worker-configuration.d.ts",
+        "status": "modified",
+        "additions": 12972,
+        "deletions": 2,
+        "changes": 12974,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/f209675ce545279fa5f4398cfb9e3f4169e571f0/worker-configuration.d.ts",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/f209675ce545279fa5f4398cfb9e3f4169e571f0/worker-configuration.d.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/worker-configuration.d.ts?ref=f209675ce545279fa5f4398cfb9e3f4169e571f0"
+      }
+    ]
+  },
+  {
+    "sha": "409fd096139eb6bdc20eaebb355e7b32d4096183",
+    "node_id": "C_kwDORJSDNtoAKDQwOWZkMDk2MTM5ZWI2YmRjMjBlYWViYjM1NWU3YjMyZDQwOTYxODM",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "ping@jrwnnnn.me",
+        "date": "2026-04-18T10:58:48Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "ping@jrwnnnn.me",
+        "date": "2026-04-18T10:58:48Z"
+      },
+      "message": "build: Enable nodejs_compat flag",
+      "tree": {
+        "sha": "6079d259a5df684d404c8969ed613e6066eabf57",
+        "url": "https://api.github.com/repos/jrwnnnn/scaffold/git/trees/6079d259a5df684d404c8969ed613e6066eabf57"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/scaffold/git/commits/409fd096139eb6bdc20eaebb355e7b32d4096183",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQOTbD01saVJ4Xxbx8qZXukhGf+9c1kumUdK5r/zH2JZ7KAFmGv6FiUozdZGOpPSHjE\nLXT+75nziJBqH3tG4VxQU=\n-----END SSH SIGNATURE-----",
+        "payload": "tree 6079d259a5df684d404c8969ed613e6066eabf57\nparent 103d0ba1fa0721a7641cf90f17c8b88935620d3f\nauthor Mark Jerwin <ping@jrwnnnn.me> 1776509928 +0800\ncommitter Mark Jerwin <ping@jrwnnnn.me> 1776509928 +0800\n\nbuild: Enable nodejs_compat flag\n",
+        "verified_at": "2026-04-18T11:01:42Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/409fd096139eb6bdc20eaebb355e7b32d4096183",
+    "html_url": "https://github.com/jrwnnnn/scaffold/commit/409fd096139eb6bdc20eaebb355e7b32d4096183",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/409fd096139eb6bdc20eaebb355e7b32d4096183/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "103d0ba1fa0721a7641cf90f17c8b88935620d3f",
+        "url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/103d0ba1fa0721a7641cf90f17c8b88935620d3f",
+        "html_url": "https://github.com/jrwnnnn/scaffold/commit/103d0ba1fa0721a7641cf90f17c8b88935620d3f"
+      }
+    ],
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2
+    },
+    "files": [
+      {
+        "sha": "516ce13855106b47b0a5863ca765924a35d70482",
+        "filename": "wrangler.json",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/409fd096139eb6bdc20eaebb355e7b32d4096183/wrangler.json",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/409fd096139eb6bdc20eaebb355e7b32d4096183/wrangler.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/wrangler.json?ref=409fd096139eb6bdc20eaebb355e7b32d4096183",
+        "patch": "@@ -1,6 +1,6 @@\n {\n \t\"compatibility_date\": \"2026-04-01\",\n-\t\"compatibility_flags\": [\"global_fetch_strictly_public\"],\n+\t\"compatibility_flags\": [\"global_fetch_strictly_public\", \"nodejs_compat\"],\n \t\"name\": \"scaffold\",\n \t\"main\": \"@astrojs/cloudflare/entrypoints/server\",\n \t\"assets\": {\n@@ -10,4 +10,4 @@\n \t\"observability\": {\n \t\t\"enabled\": true\n \t}\n-}\n\\ No newline at end of file\n+}"
+      }
+    ]
+  },
+  {
+    "sha": "103d0ba1fa0721a7641cf90f17c8b88935620d3f",
+    "node_id": "C_kwDORJSDNtoAKDEwM2QwYmExZmEwNzIxYTc2NDFjZjkwZjE3YzhiODg5MzU2MjBkM2Y",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "ping@jrwnnnn.me",
+        "date": "2026-04-18T10:57:42Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "ping@jrwnnnn.me",
+        "date": "2026-04-18T10:57:42Z"
+      },
+      "message": "ci: Add conditional remoteBindings so CI checks wont fail",
+      "tree": {
+        "sha": "93088e1b4069ff21c2e960b1eec17a542da57da4",
+        "url": "https://api.github.com/repos/jrwnnnn/scaffold/git/trees/93088e1b4069ff21c2e960b1eec17a542da57da4"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/scaffold/git/commits/103d0ba1fa0721a7641cf90f17c8b88935620d3f",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQC4icSQ1N18l/wgkl+/FiyxfvhIN3DbBikj90tNXUvRh25VMQJdB6rucrbEslTgEhH\n2w1XFmG1wi8P9N2mxhxAM=\n-----END SSH SIGNATURE-----",
+        "payload": "tree 93088e1b4069ff21c2e960b1eec17a542da57da4\nparent a74e80aefafcbdcfa3f364ee55074be15dbb8a51\nauthor Mark Jerwin <ping@jrwnnnn.me> 1776509862 +0800\ncommitter Mark Jerwin <ping@jrwnnnn.me> 1776509862 +0800\n\nci: Add conditional remoteBindings so CI checks wont fail\n",
+        "verified_at": "2026-04-18T11:01:42Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/103d0ba1fa0721a7641cf90f17c8b88935620d3f",
+    "html_url": "https://github.com/jrwnnnn/scaffold/commit/103d0ba1fa0721a7641cf90f17c8b88935620d3f",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/103d0ba1fa0721a7641cf90f17c8b88935620d3f/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a74e80aefafcbdcfa3f364ee55074be15dbb8a51",
+        "url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/a74e80aefafcbdcfa3f364ee55074be15dbb8a51",
+        "html_url": "https://github.com/jrwnnnn/scaffold/commit/a74e80aefafcbdcfa3f364ee55074be15dbb8a51"
+      }
+    ],
+    "stats": {
+      "total": 4,
+      "additions": 3,
+      "deletions": 1
+    },
+    "files": [
+      {
+        "sha": "970cedc902073db7bda56c02b9d0bee6894a52d6",
+        "filename": "astro.config.mjs",
+        "status": "modified",
+        "additions": 3,
         "deletions": 1,
-        "changes": 10,
-        "blob_url": "https://github.com/jrwnnnn/mov/blob/5823c89e573f5cc585a8673be1e9ccca3bad361a/wrangler.json",
-        "raw_url": "https://github.com/jrwnnnn/mov/raw/5823c89e573f5cc585a8673be1e9ccca3bad361a/wrangler.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/mov/contents/wrangler.json?ref=5823c89e573f5cc585a8673be1e9ccca3bad361a",
-        "patch": "@@ -7,7 +7,15 @@\n \t\t\"directory\": \"./dist\",\n \t\t\"binding\": \"ASSETS\"\n \t},\n+\t\"d1_databases\": [\n+\t\t{\n+\t\t\t\"binding\": \"DB\",\n+\t\t\t\"database_name\": \"mov-db\",\n+\t\t\t\"database_id\": \"5f94fae9-4b01-4673-ac80-1f53dd272d79\",\n+\t\t\t\"remote\": true\n+\t\t}\n+\t],\n \t\"observability\": {\n \t\t\"enabled\": true\n \t}\n-}\n\\ No newline at end of file\n+}"
+        "changes": 4,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/103d0ba1fa0721a7641cf90f17c8b88935620d3f/astro.config.mjs",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/103d0ba1fa0721a7641cf90f17c8b88935620d3f/astro.config.mjs",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/astro.config.mjs?ref=103d0ba1fa0721a7641cf90f17c8b88935620d3f",
+        "patch": "@@ -6,7 +6,9 @@ import cloudflare from \"@astrojs/cloudflare\";\n export default defineConfig({\n \tsite: \"https://jrwnnnn.me\",\n \toutput: \"server\",\n-\tadapter: cloudflare(),\n+\tadapter: cloudflare({\n+\t\tremoteBindings: !process.env.CI,\n+\t}),\n \tvite: {\n \t\tplugins: [tailwindcss()],\n \t},"
       }
     ]
   }
