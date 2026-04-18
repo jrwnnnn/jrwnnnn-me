@@ -20,6 +20,6 @@ SELECT 'rating' AS type,
     art AS cover, 
     url, 
     date_created
-FROM idx
+FROM ratings
 
 ORDER BY date_created DESC
