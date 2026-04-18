@@ -18,11 +18,7 @@ const turso = createClient({
 	authToken: import.meta.env.TURSO_AUTH_TOKEN,
 });
 
-const latestTransmission = await safeAsync(
-	turso.execute("SELECT * FROM articles ORDER BY date_created DESC LIMIT 1"),
-);
-
-const siteSettings = await env.NAMESPACE.get(["index.quote", "index.art"]);
+const siteSettings = await env.SESSION.get(["index.quote", "index.art"]);
 const stack = [
 	{ icon: "icons/stack/javascript.svg", name: "JavaScript" },
 	{ icon: "icons/stack/astro.svg", name: "Astro" },
