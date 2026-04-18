@@ -1,48 +1,36 @@
 ---
-import { createClient } from "@tursodatabase/serverless/compat";
-import { safeAsync } from "@utils/safeAsync";
-
+import { env } from "cloudflare:workers";
 import Header from "../layouts/Header.astro";
 import Layout from "../layouts/Layout.astro";
 
-import ErrorOut from "../components/ErrorOut.astro";
-
-const turso = createClient({
-	url: import.meta.env.TURSO_DATABASE_URL,
-	authToken: import.meta.env.TURSO_AUTH_TOKEN,
-});
-
-const images = await safeAsync(
-	turso.execute("SELECT id, image_data FROM gallery ORDER BY id DESC"),
-);
+const images = await env.DB.prepare(
+	"SELECT * FROM gallery ORDER BY id DESC",
+).all();
 ---
 
 <Layout title="Mark Jerwin // GALLERY">
 	<main class="flex flex-col space-y-8">
 		<Header heading="GALLERY">
 			<p class="font-mono text-sm opacity-80">
-				Found {images.data ? images.data.rows.length : 0} images in the database.
-				Captured using a Samsung A15 5G, Samsung A02s, or Samsung PL20.
+				Found {images.results.length} images in the database. Captured using a Samsung
+				A15 5G, Samsung A02s, or Samsung PL20.
 			</p>
 		</Header>
 		<hr class="bg-green-500" />
+
 		<div class="columns-1 gap-6 space-y-6 lg:columns-3">
 			{
-				images.data ? (
-					images.data.rows.map((row) => (
-						<div class="break-inside-avoid">
-							<img
-								src={row.image_data as string}
-								alt={`Image ${row.id}`}
-								class="gallery-image phosphor-filter w-full cursor-pointer border border-green-500/0 hover:border-green-500 hover:filter-none!"
-								loading="lazy"
-								oncontextmenu="return false"
-							/>
-						</div>
-					))
-				) : (
-					<ErrorOut error={images.error as Error} />
-				)
+				images.results.map((image) => (
+					<div class="break-inside-avoid">
+						<img
+							src={image.link as string}
+							alt={`Image ${image.id}`}
+							class="gallery-image phosphor-filter w-full cursor-pointer border border-green-500/0 hover:border-green-500 hover:filter-none!"
+							loading="lazy"
+							oncontextmenu="return false"
+						/>
+					</div>
+				))
 			}
 		</div>
 	</main>

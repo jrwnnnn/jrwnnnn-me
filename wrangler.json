@@ -7,6 +7,21 @@
 		"directory": "./dist",
 		"binding": "ASSETS"
 	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "jrwnnnn-me",
+			"database_id": "8444141b-49b2-45d3-8b89-311895d610b6",
+			"remote": true
+		}
+	],
+	"kv_namespaces": [
+		{
+			"binding": "SESSION",
+			"id": "14b9d9378a1c43b1b61a44bb122a73d4",
+			"remote": true
+		}
+	],
 	"observability": {
 		"enabled": true
 	}
