@@ -1,24 +1,20 @@
 ---
-import { createClient } from "@tursodatabase/serverless/compat";
 import { env } from "cloudflare:workers";
-import { safeAsync } from "@utils/safeAsync";
 import Ascii from "../components/AsciiContainer.astro";
 import Button from "../components/Button.astro";
 import CommitLog from "../components/modules/CommitLog.astro";
 import Container from "../components/Container.astro";
-import ErrorOut from "../components/ErrorOut.astro";
 import Heatmap from "../components/modules/Heatmap.astro";
 import LastFM from "../components/modules/Scrobble.jsx";
 import Layout from "../layouts/Layout.astro";
 
 import socials from "../data/socials.json";
 
-const turso = createClient({
-	url: import.meta.env.TURSO_DATABASE_URL,
-	authToken: import.meta.env.TURSO_AUTH_TOKEN,
-});
-
+const latestTransmission = await env.DB.prepare(
+	"SELECT title, subtitle, slug, date_created FROM articles ORDER BY date_created DESC LIMIT 1",
+).all();
 const siteSettings = await env.SESSION.get(["index.quote", "index.art"]);
+
 const stack = [
 	{ icon: "icons/stack/javascript.svg", name: "JavaScript" },
 	{ icon: "icons/stack/astro.svg", name: "Astro" },
@@ -62,33 +58,27 @@ const stack = [
 					}
 				</div>
 			</div>
-			{
-				latestTransmission.data ? (
-					<Container
-						onclick={`location.href='/transmission/${latestTransmission.data.rows[0].slug}'`}
-					>
-						<p class="font-mono text-lg font-bold tracking-widest uppercase">
-							{latestTransmission.data.rows[0].title}
-						</p>
-						<p class="line-clamp-1 font-mono text-green-600">
-							<span>
-								{new Date(
-									latestTransmission.data.rows[0].date_created as string,
-								).toLocaleDateString("en-US", {
-									year: "numeric",
-									month: "short",
-									day: "numeric",
-								})}
-							</span>
-							- {latestTransmission.data.rows[0].subtitle}
-						</p>
-					</Container>
-				) : (
-					<Container>
-						<ErrorOut error={latestTransmission.error as Error} />
-					</Container>
-				)
-			}
+			<Container
+				onclick={`location.href='/transmission/${latestTransmission.results[0].slug}'`}
+			>
+				<p class="font-mono text-lg font-bold tracking-widest uppercase">
+					{latestTransmission.results[0].title}
+				</p>
+				<p class="line-clamp-1 font-mono text-green-600">
+					<span>
+						{
+							new Date(
+								latestTransmission.results[0].date_created as string,
+							).toLocaleDateString("en-US", {
+								year: "numeric",
+								month: "short",
+								day: "numeric",
+							})
+						}
+					</span>
+					- {latestTransmission.results[0].subtitle}
+				</p>
+			</Container>
 		</section>
 		<hr class="border-green-500" />
 		<section class="space-y-5">

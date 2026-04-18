@@ -23,7 +23,7 @@ const images = await env.DB.prepare(
 				images.results.map((image) => (
 					<div class="break-inside-avoid">
 						<img
-							src={image.imageLink as string}
+							src={image.link as string}
 							alt={`Image ${image.id}`}
 							class="gallery-image phosphor-filter w-full cursor-pointer border border-green-500/0 hover:border-green-500 hover:filter-none!"
 							loading="lazy"
