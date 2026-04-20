@@ -1,6 +1,5 @@
 ---
 import "../../styles/marked.css";
-import { createHash } from "node:crypto";
 import { env } from "cloudflare:workers";
 import { marked } from "marked";
 import Layout from "../../layouts/Layout.astro";
@@ -14,6 +13,8 @@ const article = await env.DB.prepare(
 if (article.results[0].length === 0) {
 	return Astro.rewrite("/404");
 }
+
+const tags = (article.results[0].tags as string).split(",");
 ---
 
 <Layout
@@ -26,13 +27,7 @@ if (article.results[0].length === 0) {
 				class="flex items-center justify-between border border-b-0 border-green-800 bg-green-900/20 px-4 py-2 text-xs tracking-widest uppercase"
 			>
 				<span>
-					ID:{" "}
-					{
-						createHash("md5")
-							.update(article.results[0].slug as string)
-							.digest("hex")
-							.substring(0, 10)
-					}
+					ID:{article.results[0].slug}
 				</span>
 				<time datetime={new Date().toISOString()}>
 					{
@@ -53,18 +48,27 @@ if (article.results[0].length === 0) {
 				<p
 					class="w-full rounded-none text-4xl leading-none font-bold uppercase outline-none md:text-5xl"
 				>
-					{article.results[0].title as string}
-				</p>
-				<p class="w-full text-lg text-green-600 outline-none">
-					{article.results[0].subtitle as string}
+					{article.results[0].title}
 				</p>
 
-				<hr class="border border-green-900/50" />
+				<div class="flex flex-wrap gap-2">
+					{
+						tags.map((tag) => (
+							<span class="border border-green-800 bg-green-900/20 px-3 py-1 text-xs tracking-widest text-green-500 uppercase">
+								{tag}
+							</span>
+						))
+					}
+				</div>
 
-				<div
-					class="prose"
-					set:html={marked.parse(article.results[0].content as string)}
-				/>
+				{
+					article.results[0].content ? (
+						<div
+							class="prose"
+							set:html={marked.parse(article.results[0].content as string)}
+						/>
+					) : null
+				}
 
 				<hr class="border border-green-900/50" />
 
@@ -75,12 +79,7 @@ if (article.results[0].length === 0) {
 					<p class="text-center text-sm text-green-800 italic">
 						Transmission ID:
 						<span class="tracking-wide uppercase">
-							{
-								createHash("md5")
-									.update(article.results[0].slug as string)
-									.digest("hex")
-									.substring(0, 20)
-							}
+							{article.results[0].slug}
 						</span>
 					</p>
 				</div>
