@@ -6,8 +6,8 @@ interface Props {
 	onclick?: string;
 }
 
-let { id, class: additionalClasses, hover = false, onclick } = Astro.props;
-if (!onclick) {
+let { id, class: additionalClasses, hover = false, onclick = "" } = Astro.props;
+if (onclick !== "") {
 	hover = true;
 }
 ---
