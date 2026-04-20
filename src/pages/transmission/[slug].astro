@@ -10,8 +10,11 @@ const article = await env.DB.prepare(
 	.bind(Astro.params.slug)
 	.all();
 
-if (article.results[0].length === 0) {
-	return Astro.rewrite("/404");
+if (article.results.length === 0) {
+	return new Response("Article not found", {
+		status: 301,
+		headers: { Location: `/transmission/${Astro.params.slug}` },
+	});
 }
 
 const tags = (article.results[0].tags as string).split(",");
