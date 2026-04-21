@@ -11,10 +11,7 @@ const article = await env.DB.prepare(
 	.all();
 
 if (article.results.length === 0) {
-	return new Response("Article not found", {
-		status: 301,
-		headers: { Location: `/transmission/${Astro.params.slug}` },
-	});
+	return new Response(null, { status: 404 });
 }
 
 const tags = (article.results[0].tags as string).split(",");
