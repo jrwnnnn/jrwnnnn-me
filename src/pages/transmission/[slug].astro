@@ -4,6 +4,7 @@ import { env } from "cloudflare:workers";
 import { marked } from "marked";
 import Layout from "../../layouts/Layout.astro";
 
+const cfJwt = Astro.cookies.get("CF_Authorization")?.value;
 const article = await env.DB.prepare(
 	"UPDATE articles SET views = views + 1 WHERE slug = ? RETURNING *",
 )
@@ -80,6 +81,20 @@ const tags = (article.results[0].tags as string).split(",");
 							{article.results[0].slug}
 						</span>
 					</p>
+					{
+						(import.meta.env.DEV || cfJwt) && (
+							<div class="cursor-pointer space-x-5">
+								<a
+									href={`/secure/transmit?action=edit&slug=${article.results[0].slug}`}
+									class="hover:text-green-500"
+								>
+									[ Edit ]
+								</a>
+								<!-- TODO: Delete -->
+								<a class="hover:text-red-500">[ Delete ]</a>
+							</div>
+						)
+					}
 				</div>
 			</div>
 		</div>

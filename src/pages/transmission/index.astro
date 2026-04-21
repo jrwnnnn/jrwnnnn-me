@@ -1,5 +1,6 @@
 ---
 import { env } from "cloudflare:workers";
+import Container from "../../components/Container.astro";
 import Header from "../../layouts/Header.astro";
 import Layout from "../../layouts/Layout.astro";
 import Timestamp from "../../components/Timestamp.astro";
@@ -8,8 +9,10 @@ const transmissions = await env.DB.prepare(
 	"SELECT slug, title, subtitle, art, date_created, tags FROM articles ORDER BY date_created DESC",
 ).all();
 
+const cfJwt = Astro.cookies.get("CF_Authorization")?.value;
 ---
 
+<!-- TODO: This looks kinda ugly... -->
 <Layout title="Mark Jerwin // TRANSMISSION_LOG">
 	<main class="mx-auto flex w-full max-w-5xl flex-col space-y-8">
 		<Header heading="TRANSMISSION_LOG">
@@ -21,6 +24,17 @@ const transmissions = await env.DB.prepare(
 		</Header>
 		<hr class="bg-green-500" />
 		<div class="flex flex-col space-y-5">
+			{
+				(import.meta.env.DEV || cfJwt) && (
+					<Container
+						class="flex min-h-[15vh] items-center justify-center border-dashed opacity-50 hover:opacity-100"
+						hover={true}
+						onclick="window.location.href = '/secure/transmit';"
+					>
+						<p class="font-mono text-2xl">+</p>
+					</Container>
+				)
+			}
 			{
 				transmissions.results.map((transmission) => (
 					<div class="space-y-3">
