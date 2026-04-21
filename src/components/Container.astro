@@ -1,23 +1,21 @@
 ---
 interface Props {
-  class?: string;
-  hover?: boolean;
-  onclick?: string;
+	id?: string;
+	class?: string;
+	hover?: boolean;
+	onclick?: string;
 }
 
-let {
-  class: additionalClasses = "",
-  hover = false,
-  onclick = "",
-} = Astro.props;
+let { id, class: additionalClasses, hover = false, onclick = "" } = Astro.props;
 if (onclick !== "") {
-  hover = true;
+	hover = true;
 }
 ---
 
 <div
-  class={`border border-green-500 md:p-6 p-5 ${hover ? "transition hover:bg-green-900/20 hover:border-green-400 focus:bg-green-900/20 focus:border-green-400 cursor-pointer" : ""} ${additionalClasses}`}
-  onclick={onclick}
+	id={id}
+	class={`border border-green-500 md:p-6 p-5 ${hover ? "transition hover:bg-green-900/20 hover:border-green-400 focus:bg-green-900/20 focus:border-green-400 cursor-pointer" : ""} ${additionalClasses}`}
+	onclick={onclick}
 >
-  <slot />
+	<slot />
 </div>
