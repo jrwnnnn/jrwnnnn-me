@@ -1,0 +1,7 @@
+---
+const { id, class: additionalClasses } = Astro.props;
+---
+
+<div id=`${id}` class=`fixed inset-0 z-50 ${additionalClasses}`>
+	<slot />
+</div>
