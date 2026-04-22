@@ -4,6 +4,7 @@
 declare namespace Cloudflare {
 	interface Env {
 		SESSION: KVNamespace;
+		BUCKET: R2Bucket;
 		DB: D1Database;
 		ASSETS: Fetcher;
 		GITHUB_TOKEN: string;
