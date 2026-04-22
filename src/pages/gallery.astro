@@ -83,7 +83,7 @@ const cfJwt = Astro.cookies.get("CF_Authorization")?.value;
 	});
 
 	// When a file is selected, automatically submit the form
-	form.filePicker.addEventListener("change", (e: Event) => {
+	form.filePicker.addEventListener("change", () => {
 		form.requestSubmit();
 	});
 
