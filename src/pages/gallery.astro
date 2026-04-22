@@ -123,9 +123,15 @@ const cfJwt = Astro.cookies.get("CF_Authorization")?.value;
 				loading.classList.remove("hidden");
 				document.querySelector("body")?.classList.add("overflow-hidden");
 
+				const formData = new FormData();
+				if (id && fileName) {
+					formData.append("id", id);
+					formData.append("fileName", fileName);
+				}
+
 				const res = await fetch("/secure/api/delete-from-gallery", {
-					method: "DELETE",
-					body: JSON.stringify({ id, fileName }),
+					method: "POST",
+					body: formData,
 				});
 
 				if (res.ok) {
