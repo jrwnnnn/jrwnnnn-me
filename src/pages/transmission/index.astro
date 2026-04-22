@@ -12,7 +12,6 @@ const transmissions = await env.DB.prepare(
 const cfJwt = Astro.cookies.get("CF_Authorization")?.value;
 ---
 
-<!-- TODO: This looks kinda ugly... -->
 <Layout title="Mark Jerwin // TRANSMISSION_LOG">
 	<main class="mx-auto flex w-full max-w-5xl flex-col space-y-8">
 		<Header heading="TRANSMISSION_LOG">
@@ -68,7 +67,7 @@ const cfJwt = Astro.cookies.get("CF_Authorization")?.value;
 
 							<div class="flex flex-col justify-between">
 								<div>
-									<p class="text-2xl font-bold uppercase md:text-3xl text-balance">
+									<p class="text-2xl font-bold text-balance uppercase md:text-3xl">
 										{transmission.title}
 									</p>
 									{transmission.subtitle && (
@@ -78,7 +77,7 @@ const cfJwt = Astro.cookies.get("CF_Authorization")?.value;
 									)}
 								</div>
 								{transmission.tags && (
-									<div class="flex flex-wrap gap-2 mt-3">
+									<div class="mt-3 flex flex-wrap gap-2">
 										{(transmission.tags as string).split(",").map((tag) => (
 											<span class="border border-green-800 bg-green-900/20 px-3 py-1 text-[0.7rem] tracking-widest text-green-500 uppercase">
 												{tag}
