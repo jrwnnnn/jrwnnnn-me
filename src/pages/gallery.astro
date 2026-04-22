@@ -1,11 +1,14 @@
 ---
 import { env } from "cloudflare:workers";
+import Container from "../components/Container.astro";
 import Header from "../layouts/Header.astro";
 import Layout from "../layouts/Layout.astro";
 
 const images = await env.DB.prepare(
 	"SELECT * FROM gallery ORDER BY id DESC",
 ).all();
+
+const cfJwt = Astro.cookies.get("CF_Authorization")?.value;
 ---
 
 <Layout title="Mark Jerwin // GALLERY">
@@ -16,7 +19,32 @@ const images = await env.DB.prepare(
 				A15 5G, Samsung A02s, or Samsung PL20.
 			</p>
 		</Header>
+
 		<hr class="bg-green-500" />
+
+		{
+			(import.meta.env.DEV || cfJwt) && (
+				<>
+					<Container
+						id="dropzone"
+						class="flex min-h-[16rem] cursor-pointer break-inside-avoid flex-col items-center justify-center gap-3 border-dashed bg-green-900/10 text-center"
+						hover={true}
+					>
+						<p id="dropzone-text" class="font-mono text-4xl leading-none">
+							+
+						</p>
+						<p class="font-mono text-xs tracking-widest text-green-500 uppercase">
+							Upload image
+						</p>
+					</Container>
+
+					<form id="uploadForm" class="hidden">
+						<input type="file" name="filePicker" accept="image/*" required />
+						<button type="submit"> Upload </button>
+					</form>
+				</>
+			)
+		}
 
 		<div class="columns-1 gap-6 space-y-6 lg:columns-3">
 			{
@@ -25,7 +53,7 @@ const images = await env.DB.prepare(
 						<img
 							src={image.link as string}
 							alt={`Image ${image.id}`}
-							class="gallery-image phosphor-filter w-full cursor-pointer border border-green-500/0 hover:border-green-500 hover:filter-none!"
+							class="gallery-image w-full cursor-pointer border border-green-500/0 hover:border-green-500"
 							loading="lazy"
 							oncontextmenu="return false"
 						/>
@@ -35,3 +63,47 @@ const images = await env.DB.prepare(
 		</div>
 	</main>
 </Layout>
+
+<script>
+	const dropzone = document.getElementById("dropzone") as HTMLDivElement;
+	const dropzoneText = document.getElementById(
+		"dropzone-text",
+	) as HTMLParagraphElement;
+	const form = document.getElementById("uploadForm") as HTMLFormElement;
+
+	dropzone.addEventListener("click", () => {
+		form.filePicker.click();
+	});
+
+	form.filePicker.addEventListener("change", (e: Event) => {
+		const target = e.target as HTMLInputElement;
+		if (target.files && target.files.length > 0) {
+			form.requestSubmit();
+		}
+	});
+
+	form.addEventListener("submit", async (e) => {
+		e.preventDefault();
+		dropzoneText.textContent = "...";
+		dropzone.classList.add("animate-pulse");
+
+		const formData = new FormData();
+		formData.append("file", form.filePicker.files[0]);
+
+		const res = await fetch("/secure/api/upload-to-gallery", {
+			method: "POST",
+			body: formData,
+		});
+
+		dropzone.classList.remove("animate-pulse");
+
+		if (res.ok) {
+			dropzoneText.textContent = "✓";
+			setTimeout(() => {
+				location.reload();
+			}, 1000);
+		} else {
+			dropzoneText.textContent = "Upload failed.";
+		}
+	});
+</script>
