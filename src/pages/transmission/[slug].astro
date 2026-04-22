@@ -69,7 +69,9 @@ if (article.results.length === 0) {
 							class="prose"
 							set:html={marked.parse(article.results[0].content as string)}
 						/>
-					) : null
+					) : (
+						<div>{article.results[0].subtitle as string}</div>
+					)
 				}
 
 				<hr class="border border-green-900/50" />
@@ -91,7 +93,7 @@ if (article.results.length === 0) {
 								>
 									[ Edit ]
 								</a>
-								<!-- TODO: Delete -->
+								{/* TODO: Delete */}
 								<a class="hover:text-red-500">[ Delete ]</a>
 							</div>
 						)
