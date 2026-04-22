@@ -14,8 +14,6 @@ const article = await env.DB.prepare(
 if (article.results.length === 0) {
 	return new Response(null, { status: 404 });
 }
-
-const tags = (article.results[0].tags as string).split(",");
 ---
 
 <Layout
@@ -54,11 +52,14 @@ const tags = (article.results[0].tags as string).split(",");
 
 				<div class="flex flex-wrap gap-2">
 					{
-						tags.map((tag) => (
-							<span class="border border-green-800 bg-green-900/20 px-3 py-1 text-xs tracking-widest text-green-500 uppercase">
-								{tag}
-							</span>
-						))
+						article.results[0].tags &&
+							(article.results[0].tags as string)
+								.split(",")
+								.map((tag) => (
+									<span class="border border-green-800 bg-green-900/20 px-3 py-1 text-xs tracking-widest text-green-500 uppercase">
+										{tag}
+									</span>
+								))
 					}
 				</div>
 
