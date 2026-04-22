@@ -73,6 +73,8 @@ const cfJwt = Astro.cookies.get("CF_Authorization")?.value;
 </Layout>
 
 <script>
+	import { stripGPS } from "@utils/stripGPS";
+
 	const dropzone = document.getElementById("dropzone") as HTMLDivElement;
 	const form = document.getElementById("uploadForm") as HTMLFormElement;
 	const loading = document.getElementById("loading-overlay") as HTMLDivElement;
@@ -94,7 +96,7 @@ const cfJwt = Astro.cookies.get("CF_Authorization")?.value;
 		document.querySelector("body")?.classList.add("overflow-hidden");
 
 		const formData = new FormData();
-		formData.append("file", form.filePicker.files[0]);
+		formData.append("file", await stripGPS(form.filePicker.files[0]));
 
 		const res = await fetch("/secure/api/upload-to-gallery", {
 			method: "POST",
