@@ -3,6 +3,7 @@ import "../../styles/marked.css";
 import { createHash } from "node:crypto";
 import { env } from "cloudflare:workers";
 import Layout from "../../layouts/Layout.astro";
+import Loading from "../../components/Loading.astro";
 
 const action = Astro.url.searchParams.get("action") ?? "create";
 let transmissionContent;
@@ -24,7 +25,7 @@ if (Astro.request.method === "POST") {
 	const title = data.get("title")?.toString() ?? "";
 	const subtitle = data.get("subtitle")?.toString() ?? null;
 	const tags = data.get("tags")?.toString() ?? null;
-	const content = data.get("content")?.toString() ?? "";
+	const content = data.get("content")?.toString() ?? null;
 
 	if (action === "create") {
 		const slug = createHash("md5")
@@ -66,6 +67,7 @@ if (Astro.request.method === "POST") {
 ---
 
 <Layout title="Mark Jerwin // TRANSMIT" robots="noindex, nofollow">
+	<Loading id="loading-overlay" class="hidden" />
 	<main class="flex flex-col items-center justify-center">
 		<svg
 			id="preview-toggle"
@@ -86,7 +88,7 @@ if (Astro.request.method === "POST") {
 			<statusbar
 				class="flex items-center justify-between border border-b-0 border-green-800 bg-green-900/20 px-4 py-2 text-xs tracking-widest uppercase"
 			>
-				<span>PREVIEW</span>
+				<span>TRANSMIT</span>
 
 				<time datetime={new Date().toISOString()}>
 					{
@@ -120,21 +122,22 @@ if (Astro.request.method === "POST") {
 					id="subtitle-input"
 					name="subtitle"
 					placeholder="Subtitle"
-					rows="2"
+					rows="1"
 					class="h-full w-full resize-none text-lg text-green-600 outline-none"
-					required
 					>{
 						action === "edit" ? transmissionContent!.results[0].subtitle : ""
 					}</textarea
 				>
 
+				<div id="tag-container" class="hidden flex-wrap gap-2"></div>
+
 				<input
 					id="tags-input"
 					type="text"
 					name="tags"
-					placeholder="Tags (optional, comma-separated)"
+					placeholder="tag1,tag2,tag3"
 					value={`${action === "edit" ? transmissionContent!.results[0].tags : ""}`}
-					class="w-full resize-none overflow-hidden font-mono whitespace-pre text-green-500 outline-none"
+					class="w-full font-mono text-green-500 outline-none"
 				/>
 
 				<hr class="border border-green-900/50" />
@@ -158,6 +161,7 @@ if (Astro.request.method === "POST") {
 				</p>
 
 				<button
+					id="submit-btn"
 					type="submit"
 					class="cursor-pointer self-end px-3 py-2 text-sm font-bold tracking-widest hover:bg-green-500 hover:text-black hover:brightness-110"
 				>
@@ -170,22 +174,56 @@ if (Astro.request.method === "POST") {
 
 <script>
 	import { marked } from "marked";
+
+	const form = document.getElementById("main-form") as HTMLFormElement;
 	const toggle = document.getElementById("preview-toggle");
-	const input = document.getElementById("content-input") as HTMLTextAreaElement;
+	const subtitleInput = document.getElementById(
+		"subtitle-input",
+	) as HTMLTextAreaElement;
+	const tagContainer = document.getElementById(
+		"tag-container",
+	) as HTMLDivElement;
+	const tagInput = document.getElementById("tags-input") as HTMLInputElement;
+	const contentInput = document.getElementById(
+		"content-input",
+	) as HTMLTextAreaElement;
 	const preview = document.getElementById("preview-container");
+	const submitBtn = document.getElementById("submit-btn") as HTMLButtonElement;
 
-	if (toggle && input && preview) {
+	if (toggle && preview) {
 		toggle.addEventListener("click", async () => {
-			const isEditing = !input.classList.contains("hidden");
+			const isEditing = !contentInput.classList.contains("hidden");
 
-			if (isEditing) preview.innerHTML = await marked.parse(input.value);
-			input.classList.toggle("hidden", isEditing);
-			preview.classList.toggle("hidden", !isEditing);
+			if (isEditing) preview.innerHTML = await marked.parse(contentInput.value);
+
 			toggle.setAttribute("fill", isEditing ? "#00c951" : "#000");
 			toggle.setAttribute("stroke", isEditing ? "#000" : "#00c951");
+
+			subtitleInput.classList.toggle("hidden", isEditing);
+			tagContainer.classList.toggle("hidden", !isEditing);
+			tagContainer.classList.toggle("flex", isEditing);
+			tagInput.classList.toggle("hidden", isEditing);
+			contentInput.classList.toggle("hidden", isEditing);
+			preview.classList.toggle("hidden", !isEditing);
+
+			tagContainer.innerHTML = "";
+			form.tags.value.split(",").forEach((tag: string) => {
+				if (tag === "") return;
+				const span = document.createElement("span");
+				span.className =
+					"border border-green-800 bg-green-900/20 px-3 py-1 text-xs tracking-widest text-green-500 uppercase";
+				span.textContent = tag.trim();
+				tagContainer.appendChild(span);
+			});
 		});
 	}
 
+	submitBtn.addEventListener("click", () => {
+		document.getElementById("loading-overlay")?.classList.remove("hidden");
+	});
+</script>
+
+<script>
 	function autoResize(textArea: HTMLTextAreaElement) {
 		const scrollY = window.scrollY;
 		textArea.style.height = "auto";

@@ -1,9 +1,9 @@
 ---
 import { env } from "cloudflare:workers";
+import Ascii from "../../components/AsciiContainer.astro";
 import Container from "../../components/Container.astro";
 import Header from "../../layouts/Header.astro";
 import Layout from "../../layouts/Layout.astro";
-import Timestamp from "../../components/Timestamp.astro";
 
 const transmissions = await env.DB.prepare(
 	"SELECT slug, title, subtitle, art, date_created, tags FROM articles ORDER BY date_created DESC",
@@ -12,52 +12,81 @@ const transmissions = await env.DB.prepare(
 const cfJwt = Astro.cookies.get("CF_Authorization")?.value;
 ---
 
-<!-- TODO: This looks kinda ugly... -->
 <Layout title="Mark Jerwin // TRANSMISSION_LOG">
 	<main class="mx-auto flex w-full max-w-5xl flex-col space-y-8">
 		<Header heading="TRANSMISSION_LOG">
-			<p class="font-mono text-sm opacity-80">
-				Parsing {transmissions.results.length} transmission records... [{
-					transmissions.success ? "OK" : "ERROR"
-				}]
-			</p>
+			<div class="flex flex-col justify-between gap-4 md:flex-row md:items-end">
+				<p class="font-mono text-sm opacity-80">
+					Parsing {transmissions.results.length} transmission records... [{
+						transmissions.success ? "OK" : "ERROR"
+					}]
+				</p>
+				{
+					(import.meta.env.DEV || cfJwt) && (
+						<button
+							onclick="window.location.href = '/secure/transmit';"
+							class="cursor-pointer border border-dashed border-green-700 px-3 py-2 font-mono text-xs tracking-widest text-green-500 transition-colors hover:bg-green-900/20 md:py-1"
+						>
+							+ NEW
+						</button>
+					)
+				}
+			</div>
 		</Header>
 		<hr class="bg-green-500" />
 		<div class="flex flex-col space-y-5">
 			{
-				(import.meta.env.DEV || cfJwt) && (
-					<Container
-						class="flex min-h-[15vh] items-center justify-center border-dashed opacity-50 hover:opacity-100"
-						hover={true}
-						onclick="window.location.href = '/secure/transmit';"
-					>
-						<p class="font-mono text-2xl">+</p>
-					</Container>
-				)
-			}
-			{
 				transmissions.results.map((transmission) => (
-					<div class="space-y-3">
-						<Timestamp timestamp={transmission.date_created as string} />
-						<a href={`/transmission/${transmission.slug}`}>
-							<div class="space-y-3 border border-green-900/50 bg-black px-6 py-5 font-mono transition-colors duration-200 hover:border-green-500 hover:bg-green-900/10 md:px-7 md:py-6">
-								<p class="text-2xl leading-tight font-bold tracking-tight uppercase md:text-3xl">
-									{transmission.title}
-								</p>
-								{transmission.subtitle && (
-									<p class="text-sm leading-relaxed text-green-600 opacity-90">
-										{">"} {transmission.subtitle}
+					<div>
+						<time class="mb-3 font-mono text-sm tracking-wide text-green-700 italic">
+							[{" "}
+							{new Date(transmission.date_created as string).toLocaleDateString(
+								"en-US",
+								{
+									year: "numeric",
+									month: "short",
+									day: "numeric",
+								},
+							)}{" "}
+							]
+						</time>
+						<Container
+							class="flex flex-col border border-green-900/50 bg-black font-mono hover:bg-green-900/10 md:flex-row md:gap-5"
+							onclick={`window.location.href = '/transmission/${transmission.slug}'`}
+						>
+							{transmission.art && (
+								<>
+									<Ascii
+										ascii={transmission.art as string}
+										class="aspect-square text-green-500 md:w-40"
+										centered
+									/>
+									<hr class="my-5 border-green-900/50 md:hidden" />
+								</>
+							)}
+
+							<div class="flex flex-col justify-between">
+								<div>
+									<p class="text-2xl font-bold text-balance uppercase md:text-3xl">
+										{transmission.title}
 									</p>
-								)}
-								<div class="flex flex-wrap gap-2">
-									{(transmission.tags as string).split(",").map((tag) => (
-										<span class="border border-green-800 bg-green-900/20 px-3 py-1 text-[0.7rem] tracking-[0.24em] text-green-500 uppercase">
-											{tag}
-										</span>
-									))}
+									{transmission.subtitle && (
+										<p class="line-clamp-3 text-sm text-green-600">
+											{">"} {transmission.subtitle}
+										</p>
+									)}
 								</div>
+								{transmission.tags && (
+									<div class="mt-3 flex flex-wrap gap-2">
+										{(transmission.tags as string).split(",").map((tag) => (
+											<span class="border border-green-800 bg-green-900/20 px-3 py-1 text-[0.7rem] tracking-widest text-green-500 uppercase">
+												{tag}
+											</span>
+										))}
+									</div>
+								)}
 							</div>
-						</a>
+						</Container>
 					</div>
 				))
 			}
