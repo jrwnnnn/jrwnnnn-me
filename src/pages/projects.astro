@@ -67,17 +67,17 @@ for (const repo of repositories) {
 			</div>
 		</Header>
 		<hr class="bg-green-500" />
-		<div class="flex flex-wrap gap-2">
+		<div class="flex flex-wrap gap-3">
 			{
 				errorPayload ? (
 					<ErrorOut error={errorPayload} />
 				) : (
 					repositories.map((repo) => {
 						const width =
-							(70 + Math.floor(Math.min(repo.size ?? 0, 100000) / 2500)) / 4;
+							(80 + Math.floor(Math.min(repo.size ?? 0, 100000) / 2500)) / 4;
 						const statusClass = repo.archived
 							? "border-green-500 bg-green-900/5 opacity-50 hover:opacity-100 focus:opacity-100"
-							: "border-green-500 bg-green-900/10  hover:bg-green-800/20 focus:bg-green-500 focus:text-black";
+							: "border-green-500 bg-green-900/10  hover:bg-green-800/20";
 
 						const stats =
 							participation[repo.name]?.all ?? new Array(52).fill(0);
@@ -119,7 +119,7 @@ for (const repo of repositories) {
 										/>
 									</svg>
 								</div>
-								<p class="line-clamp-2 font-mono text-xs opacity-70">
+								<p class="line-clamp-2 font-mono text-sm opacity-70">
 									{repo.description ?? "No description available."}
 								</p>
 
