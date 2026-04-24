@@ -10,7 +10,7 @@ marked.use({
 				const match = /^::embed\[([^\]]+)\]\n?/.exec(src);
 				if (match) return { type: "embed", raw: match[0], url: match[1] };
 			},
-			renderer: (token: any) => {
+			renderer: (token) => {
 				let url = token.url.trim();
 				if (url.includes("drive.google.com")) {
 					url = url.replace("/view", "/preview").replace("/edit", "/preview");
