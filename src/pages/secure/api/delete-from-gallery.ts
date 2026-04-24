@@ -3,8 +3,8 @@ import { env } from "cloudflare:workers";
 
 export const POST: APIRoute = async ({ request }) => {
 	const formData = await request.formData();
-	const id = formData.get("id")?.toString() ?? "";
-	const fileName = formData.get("fileName") ?? "";
+	const id = formData.get("id");
+	const fileName = formData.get("fileName");
 
 	if (!id || !fileName) {
 		return new Response("Missing id or fileName", { status: 400 });
