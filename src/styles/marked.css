@@ -55,3 +55,11 @@
 .prose img {
 	@apply mx-auto my-4 max-w-full;
 }
+.prose #embed-container {
+	@apply relative my-4 aspect-video w-full overflow-hidden border border-green-900 bg-green-700;
+}
+.prose #embed-container iframe {
+	width: calc(100% + 2px);
+	height: calc(100% + 2px);
+	margin: -1px;
+}
