@@ -1,5 +1,305 @@
 [
   {
+    "sha": "22d1e621230a655a78864e84e7818f04268798c4",
+    "node_id": "C_kwDORJTOeNoAKDIyZDFlNjIxMjMwYTY1NWE3ODg2NGU4NGU3ODE4ZjA0MjY4Nzk4YzQ",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "ping@jrwnnnn.me",
+        "date": "2026-04-25T10:42:57Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-04-25T10:42:57Z"
+      },
+      "message": "Merge pull request #39 from jrwnnnn/electron\n\nRevert \"ci: Remove GH_Token from build step\"",
+      "tree": {
+        "sha": "37af34cd6d30b1439b67febf29e639ae50fa5252",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/37af34cd6d30b1439b67febf29e639ae50fa5252"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/22d1e621230a655a78864e84e7818f04268798c4",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp7JqxCRC1aQ7uu5UhlAAAhhMQAJ8jyMtdnCEldfKV0mr+WlwK\nIgJPBhLfCAcaPRQ4nWVy4gGwYAF8eb0gAUEVcKUQS2SOyUjavofx6a1s26dJbnNe\nKNUdzWcXO86oOZxS2ms2byEgDY/x2Ynq7OkA0poBLSVUZQe6zGXGYYiV5mbrvtzL\n5fp92HJdvV5ri1/UXIvN9QQKJLr0k8Tdk8XM2Z1Lo8vjHYcSAO2BbVD/3DcGQdTA\nPAUiP/Ydl9XqfL68cfOjjE8Zd2EFPfwQNFcIWWSmzXTNkjOlYVfIA44iZ3tvBEVr\nISlxUFs+WgAQYaTJM/4YY+j9E+uj/u+CitXlcSB9V1Y2GDNrEXtjXSPQ4Qan8lk0\nDN6P4oqKCnLoZa2sgbDYGy++8drclyQPYajtZ95R7Ty7BSqLtJiIIB0nCG+aYyAo\nGjXE9dbMkhwdSUT0DjXtSSngxlaMM2fK0LGsN6BNW2M6uIWLdtdSz/hzv6L4eS26\njSSbaPOwD0+0DVDUMHneeB/DekX4nVTJIdKxYSzVoNl5d6jQ9h7oRNYx3Iwr4FUM\n/M60lok8pX09mG2X8rGgUM/ONNrpi62e7Q7lOeuILyIAYDI1sUvm9+wgBoXOCmnq\nnSN2X/t3cZTjAuMXjJ5fmsZtWp8345IawGDopNlFO4Piz/uLoGDve1PElMUiA+NS\ngGykNGUJl/lUskPy1gbc\n=0dPw\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 37af34cd6d30b1439b67febf29e639ae50fa5252\nparent a0e1102f33211c327b06c7a6707e8d6d489b70c2\nparent 21a555eef900569495edec3cf85ecc69edacc382\nauthor Mark Jerwin <ping@jrwnnnn.me> 1777113777 +0800\ncommitter GitHub <noreply@github.com> 1777113777 +0800\n\nMerge pull request #39 from jrwnnnn/electron\n\nRevert \"ci: Remove GH_Token from build step\"",
+        "verified_at": "2026-04-25T10:42:58Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/22d1e621230a655a78864e84e7818f04268798c4",
+    "html_url": "https://github.com/jrwnnnn/re-color/commit/22d1e621230a655a78864e84e7818f04268798c4",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/22d1e621230a655a78864e84e7818f04268798c4/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a0e1102f33211c327b06c7a6707e8d6d489b70c2",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/a0e1102f33211c327b06c7a6707e8d6d489b70c2",
+        "html_url": "https://github.com/jrwnnnn/re-color/commit/a0e1102f33211c327b06c7a6707e8d6d489b70c2"
+      },
+      {
+        "sha": "21a555eef900569495edec3cf85ecc69edacc382",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/21a555eef900569495edec3cf85ecc69edacc382",
+        "html_url": "https://github.com/jrwnnnn/re-color/commit/21a555eef900569495edec3cf85ecc69edacc382"
+      }
+    ],
+    "stats": {
+      "total": 2,
+      "additions": 2,
+      "deletions": 0
+    },
+    "files": [
+      {
+        "sha": "91547ed10d32465b1bb1aa39861c4f5905506cbc",
+        "filename": ".github/workflows/main.yml",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 0,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/22d1e621230a655a78864e84e7818f04268798c4/.github%2Fworkflows%2Fmain.yml",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/22d1e621230a655a78864e84e7818f04268798c4/.github%2Fworkflows%2Fmain.yml",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/.github%2Fworkflows%2Fmain.yml?ref=22d1e621230a655a78864e84e7818f04268798c4",
+        "patch": "@@ -63,6 +63,8 @@ jobs:\n \n       - name: Build\n         run: npm run build\n+        env:\n+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}\n \n       - name: Upload Artifact\n         uses: actions/upload-artifact@v4"
+      }
+    ]
+  },
+  {
+    "sha": "21a555eef900569495edec3cf85ecc69edacc382",
+    "node_id": "C_kwDORJTOeNoAKDIxYTU1NWVlZjkwMDU2OTQ5NWVkZWMzY2Y4NWVjYzY5ZWRhY2MzODI",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "ping@jrwnnnn.me",
+        "date": "2026-04-25T10:10:18Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-04-25T10:10:18Z"
+      },
+      "message": "Merge branch 'main' into electron",
+      "tree": {
+        "sha": "37af34cd6d30b1439b67febf29e639ae50fa5252",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/37af34cd6d30b1439b67febf29e639ae50fa5252"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/21a555eef900569495edec3cf85ecc69edacc382",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp7JMKCRC1aQ7uu5UhlAAAvXMQAGbamiHl565FL+aGn0oVOq9g\nlp572wxI6GSyG9LOE+xLlEGxM4e9DXQDxks3rBoOVLE05Uen1JPwWeWtiJwHSfHZ\nZ6/dGJ8Jzed0YVf8YX1nahp4aTi/gbU0E+ysIi6Qi17LvqUfdz1OhvLPzA7uTMTi\nAvNTo0sIxgET6uX89tky7LLK9ND3wlMsnXTFZCdkWYfZG3Vr/ca/pGnmgY728qV/\nHRDMY3P8+FOVV9yHpjWMeoG0zk1LDfUpUn0LQiipjZ5/eAyb13m9dQXc5dE7Vyxk\n/Wph5H/zIByzqYb8YqReGmtNvtcrUFjWQL63fFDA8ElI+RM08mI+mQdyZFfiEdNY\nCDRrva0g/RcLWo6WfUHmubapR9TtcBJsBT0bVTr7An04jjb2kl5BuJGSAQ39B2R6\nHkHpB7/OqvlzWZEOTEI5IreUn2487WCeykdTfeJy9/zOur8PYSvBMbwVoPD7/+yI\nCumy/1xG5TBR+1S7Vudxj+lPtvANIzvgMkEgmOBIggOCDsebPX+kONeX65Wa+m4I\nBKirANbHknbZrf0BjMigxuJ84SZUYNt7HlL/BacJxkdhNPTgNGY0MNGqbIenMirt\n3HJnPkqxVqcu/p5YtkUc6kQmjpEtzMEDMsY8vYUeCM9DyS0EJQyrVHCQMy0p6Ah4\nIJhb3XJM75iz46NHW1GC\n=fPqE\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 37af34cd6d30b1439b67febf29e639ae50fa5252\nparent cbb5d4b87794386c04d204b9e1fb2e0f7c6b3bf2\nparent a0e1102f33211c327b06c7a6707e8d6d489b70c2\nauthor Mark Jerwin <ping@jrwnnnn.me> 1777111818 +0800\ncommitter GitHub <noreply@github.com> 1777111818 +0800\n\nMerge branch 'main' into electron",
+        "verified_at": "2026-04-25T10:10:19Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/21a555eef900569495edec3cf85ecc69edacc382",
+    "html_url": "https://github.com/jrwnnnn/re-color/commit/21a555eef900569495edec3cf85ecc69edacc382",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/21a555eef900569495edec3cf85ecc69edacc382/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cbb5d4b87794386c04d204b9e1fb2e0f7c6b3bf2",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/cbb5d4b87794386c04d204b9e1fb2e0f7c6b3bf2",
+        "html_url": "https://github.com/jrwnnnn/re-color/commit/cbb5d4b87794386c04d204b9e1fb2e0f7c6b3bf2"
+      },
+      {
+        "sha": "a0e1102f33211c327b06c7a6707e8d6d489b70c2",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/a0e1102f33211c327b06c7a6707e8d6d489b70c2",
+        "html_url": "https://github.com/jrwnnnn/re-color/commit/a0e1102f33211c327b06c7a6707e8d6d489b70c2"
+      }
+    ],
+    "stats": {
+      "total": 0,
+      "additions": 0,
+      "deletions": 0
+    },
+    "files": []
+  },
+  {
+    "sha": "cbb5d4b87794386c04d204b9e1fb2e0f7c6b3bf2",
+    "node_id": "C_kwDORJTOeNoAKGNiYjVkNGI4Nzc5NDM4NmMwNGQyMDRiOWUxZmIyZTBmN2M2YjNiZjI",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "ping@jrwnnnn.me",
+        "date": "2026-04-25T09:53:12Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "ping@jrwnnnn.me",
+        "date": "2026-04-25T09:53:12Z"
+      },
+      "message": "Revert \"ci: Remove GH_Token from build step\"\n\nThis reverts commit 39e6b4d6f07dfacd1d263925c390fdcc50dc30fb.",
+      "tree": {
+        "sha": "37af34cd6d30b1439b67febf29e639ae50fa5252",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/37af34cd6d30b1439b67febf29e639ae50fa5252"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/cbb5d4b87794386c04d204b9e1fb2e0f7c6b3bf2",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQFkB1j72kzxx5FWbvpZQMwFERkjRQ+CJGGYCRLtxXiHQcJwgh5p1jEk+/npDr7l3n3\nt+EPXDHgRlt9Jpa7UtXQk=\n-----END SSH SIGNATURE-----",
+        "payload": "tree 37af34cd6d30b1439b67febf29e639ae50fa5252\nparent 39e6b4d6f07dfacd1d263925c390fdcc50dc30fb\nauthor Mark Jerwin <ping@jrwnnnn.me> 1777110792 +0800\ncommitter Mark Jerwin <ping@jrwnnnn.me> 1777110792 +0800\n\nRevert \"ci: Remove GH_Token from build step\"\n\nThis reverts commit 39e6b4d6f07dfacd1d263925c390fdcc50dc30fb.\n",
+        "verified_at": "2026-04-25T09:53:19Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/cbb5d4b87794386c04d204b9e1fb2e0f7c6b3bf2",
+    "html_url": "https://github.com/jrwnnnn/re-color/commit/cbb5d4b87794386c04d204b9e1fb2e0f7c6b3bf2",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/cbb5d4b87794386c04d204b9e1fb2e0f7c6b3bf2/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "39e6b4d6f07dfacd1d263925c390fdcc50dc30fb",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/39e6b4d6f07dfacd1d263925c390fdcc50dc30fb",
+        "html_url": "https://github.com/jrwnnnn/re-color/commit/39e6b4d6f07dfacd1d263925c390fdcc50dc30fb"
+      }
+    ],
+    "stats": {
+      "total": 2,
+      "additions": 2,
+      "deletions": 0
+    },
+    "files": [
+      {
+        "sha": "91547ed10d32465b1bb1aa39861c4f5905506cbc",
+        "filename": ".github/workflows/main.yml",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 0,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/cbb5d4b87794386c04d204b9e1fb2e0f7c6b3bf2/.github%2Fworkflows%2Fmain.yml",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/cbb5d4b87794386c04d204b9e1fb2e0f7c6b3bf2/.github%2Fworkflows%2Fmain.yml",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/.github%2Fworkflows%2Fmain.yml?ref=cbb5d4b87794386c04d204b9e1fb2e0f7c6b3bf2",
+        "patch": "@@ -63,6 +63,8 @@ jobs:\n \n       - name: Build\n         run: npm run build\n+        env:\n+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}\n \n       - name: Upload Artifact\n         uses: actions/upload-artifact@v4"
+      }
+    ]
+  },
+  {
     "sha": "39e6b4d6f07dfacd1d263925c390fdcc50dc30fb",
     "node_id": "C_kwDORJTOeNoAKDM5ZTZiNGQ2ZjA3ZGZhY2QxZDI2MzkyNWMzOTBmZGNjNTBkYzMwZmI",
     "commit": {
@@ -210,309 +510,6 @@
         "raw_url": "https://github.com/jrwnnnn/re-color/raw/5135530fac455c9a3e7e24ad73547ccae3acfe42/package.json",
         "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/package.json?ref=5135530fac455c9a3e7e24ad73547ccae3acfe42",
         "patch": "@@ -10,7 +10,6 @@\n \t\t\"dev:electron\": \"electron main.js\",\n \t\t\"dev\": \"concurrently \\\"npm run dev:vue\\\" \\\"npm run dev:electron\\\"\",\n \t\t\"build\": \"vite build && electron-builder\",\n-\t\t\"release\": \"vite build && electron-builder --publish always\",\n \t\t\"preview\": \"vite preview\",\n \t\t\"typecheck\": \"vue-tsc --noEmit\",\n \t\t\"test\": \"vue-tsc --noEmit && npm run build\""
-      }
-    ]
-  },
-  {
-    "sha": "60607428f376c5a317c7143ae03d36ce499bef97",
-    "node_id": "C_kwDORJTOeNoAKDYwNjA3NDI4ZjM3NmM1YTMxN2M3MTQzYWUwM2QzNmNlNDk5YmVmOTc",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "ping@jrwnnnn.me",
-        "date": "2026-04-25T09:26:53Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "ping@jrwnnnn.me",
-        "date": "2026-04-25T09:26:53Z"
-      },
-      "message": "feat: Add context isolation and no node integration",
-      "tree": {
-        "sha": "37af34cd6d30b1439b67febf29e639ae50fa5252",
-        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/37af34cd6d30b1439b67febf29e639ae50fa5252"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/60607428f376c5a317c7143ae03d36ce499bef97",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQFk5/+4rkDzfpgFlrcHvQsxy4nfIIpCTsFMBQx0bGo6dfpI30mvg5VYj6V2kIFu5LU\nU5fx+7YHb2Rpr6Yayr1g4=\n-----END SSH SIGNATURE-----",
-        "payload": "tree 37af34cd6d30b1439b67febf29e639ae50fa5252\nparent cd395f713d235bdacad53b203c1b9aec8d69e063\nauthor Mark Jerwin <ping@jrwnnnn.me> 1777109213 +0800\ncommitter Mark Jerwin <ping@jrwnnnn.me> 1777109213 +0800\n\nfeat: Add context isolation and no node integration\n",
-        "verified_at": "2026-04-25T09:26:57Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/60607428f376c5a317c7143ae03d36ce499bef97",
-    "html_url": "https://github.com/jrwnnnn/re-color/commit/60607428f376c5a317c7143ae03d36ce499bef97",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/60607428f376c5a317c7143ae03d36ce499bef97/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "cd395f713d235bdacad53b203c1b9aec8d69e063",
-        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/cd395f713d235bdacad53b203c1b9aec8d69e063",
-        "html_url": "https://github.com/jrwnnnn/re-color/commit/cd395f713d235bdacad53b203c1b9aec8d69e063"
-      }
-    ],
-    "stats": {
-      "total": 2,
-      "additions": 2,
-      "deletions": 0
-    },
-    "files": [
-      {
-        "sha": "c0664bfc5d473d2963f4da27397b02ad493f0148",
-        "filename": "main.js",
-        "status": "modified",
-        "additions": 2,
-        "deletions": 0,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/re-color/blob/60607428f376c5a317c7143ae03d36ce499bef97/main.js",
-        "raw_url": "https://github.com/jrwnnnn/re-color/raw/60607428f376c5a317c7143ae03d36ce499bef97/main.js",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/main.js?ref=60607428f376c5a317c7143ae03d36ce499bef97",
-        "patch": "@@ -5,6 +5,8 @@ function createWindow() {\n \tconst window = new BrowserWindow({\n \t\twidth: 800,\n \t\theight: 600,\n+\t\tnodeIntegration: false,\n+\t\tcontextIsolation: true,\n \t\twebPreferences: {\n \t\t\tdevTools: !app.isPackaged,\n \t\t},"
-      }
-    ]
-  },
-  {
-    "sha": "cd395f713d235bdacad53b203c1b9aec8d69e063",
-    "node_id": "C_kwDORJTOeNoAKGNkMzk1ZjcxM2QyMzViZGFjYWQ1M2IyMDNjMWI5YWVjOGQ2OWUwNjM",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "ping@jrwnnnn.me",
-        "date": "2026-04-25T09:17:04Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "ping@jrwnnnn.me",
-        "date": "2026-04-25T09:17:04Z"
-      },
-      "message": "fix: Sync lockfile for npm ci (2)",
-      "tree": {
-        "sha": "c44953a38ad39577ca04b93bf43c93f439c8c783",
-        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/c44953a38ad39577ca04b93bf43c93f439c8c783"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/cd395f713d235bdacad53b203c1b9aec8d69e063",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQL3kXICayAJ4dRbtKWEVBo8H+sYYYX2PATdep1SuMGYFKO+G2S1l3yC59vXBSIyTTd\nTHBmdki27kX7EGlrNRSQE=\n-----END SSH SIGNATURE-----",
-        "payload": "tree c44953a38ad39577ca04b93bf43c93f439c8c783\nparent 635cfdc31d6813a8856ddc2b4dd7e8aef5ed68c9\nauthor Mark Jerwin <ping@jrwnnnn.me> 1777108624 +0800\ncommitter Mark Jerwin <ping@jrwnnnn.me> 1777108624 +0800\n\nfix: Sync lockfile for npm ci (2)\n",
-        "verified_at": "2026-04-25T09:17:08Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/cd395f713d235bdacad53b203c1b9aec8d69e063",
-    "html_url": "https://github.com/jrwnnnn/re-color/commit/cd395f713d235bdacad53b203c1b9aec8d69e063",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/cd395f713d235bdacad53b203c1b9aec8d69e063/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "635cfdc31d6813a8856ddc2b4dd7e8aef5ed68c9",
-        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/635cfdc31d6813a8856ddc2b4dd7e8aef5ed68c9",
-        "html_url": "https://github.com/jrwnnnn/re-color/commit/635cfdc31d6813a8856ddc2b4dd7e8aef5ed68c9"
-      }
-    ],
-    "stats": {
-      "total": 26,
-      "additions": 25,
-      "deletions": 1
-    },
-    "files": [
-      {
-        "sha": "48f07eaf1ce67dec70bfcb3145a47fa80eb84a95",
-        "filename": "package-lock.json",
-        "status": "modified",
-        "additions": 25,
-        "deletions": 1,
-        "changes": 26,
-        "blob_url": "https://github.com/jrwnnnn/re-color/blob/cd395f713d235bdacad53b203c1b9aec8d69e063/package-lock.json",
-        "raw_url": "https://github.com/jrwnnnn/re-color/raw/cd395f713d235bdacad53b203c1b9aec8d69e063/package-lock.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/package-lock.json?ref=cd395f713d235bdacad53b203c1b9aec8d69e063",
-        "patch": "@@ -518,6 +518,31 @@\n \t\t\t\t\"node\": \">= 10.0.0\"\n \t\t\t}\n \t\t},\n+\t\t\"node_modules/@emnapi/core\": {\n+\t\t\t\"version\": \"1.10.0\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@emnapi/core/-/core-1.10.0.tgz\",\n+\t\t\t\"integrity\": \"sha512-yq6OkJ4p82CAfPl0u9mQebQHKPJkY7WrIuk205cTYnYe+k2Z8YBh11FrbRG/H6ihirqcacOgl2BIO8oyMQLeXw==\",\n+\t\t\t\"dev\": true,\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"peer\": true,\n+\t\t\t\"dependencies\": {\n+\t\t\t\t\"@emnapi/wasi-threads\": \"1.2.1\",\n+\t\t\t\t\"tslib\": \"^2.4.0\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/@emnapi/runtime\": {\n+\t\t\t\"version\": \"1.10.0\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.10.0.tgz\",\n+\t\t\t\"integrity\": \"sha512-ewvYlk86xUoGI0zQRNq/mC+16R1QeDlKQy21Ki3oSYXNgLb45GV1P6A0M+/s6nyCuNDqe5VpaY84BzXGwVbwFA==\",\n+\t\t\t\"dev\": true,\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"peer\": true,\n+\t\t\t\"dependencies\": {\n+\t\t\t\t\"tslib\": \"^2.4.0\"\n+\t\t\t}\n+\t\t},\n \t\t\"node_modules/@emnapi/wasi-threads\": {\n \t\t\t\"version\": \"1.2.1\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@emnapi/wasi-threads/-/wasi-threads-1.2.1.tgz\",\n@@ -2557,7 +2582,6 @@\n \t\t\t\"integrity\": \"sha512-glMJgnTreo8CFINujtAhCgN96QAqApDMZ8Vl1r8f0QT8QprvC1UCltV4CcWj20YoIyLZx6IUskaJZ0NV8fokcg==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n-\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"app-builder-lib\": \"26.8.1\",\n \t\t\t\t\"builder-util\": \"26.8.1\","
-      }
-    ]
-  },
-  {
-    "sha": "635cfdc31d6813a8856ddc2b4dd7e8aef5ed68c9",
-    "node_id": "C_kwDORJTOeNoAKDYzNWNmZGMzMWQ2ODEzYTg4NTZkZGMyYjRkZDdlOGFlZjVlZDY4Yzk",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "ping@jrwnnnn.me",
-        "date": "2026-04-25T09:02:05Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "ping@jrwnnnn.me",
-        "date": "2026-04-25T09:02:05Z"
-      },
-      "message": "fix: Sync lockfile for npm ci",
-      "tree": {
-        "sha": "390fc33d93bef053b98b5b26ac1fbe1990db80b6",
-        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/390fc33d93bef053b98b5b26ac1fbe1990db80b6"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/635cfdc31d6813a8856ddc2b4dd7e8aef5ed68c9",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQH1iIhHv5VyMdDpbTYh2iz8TpAGXpOJyP8yETMWkS8y6+FDX33IWwWTdC03kZRrPYd\nr7PjJ2Z3s6Tx3yECEflAc=\n-----END SSH SIGNATURE-----",
-        "payload": "tree 390fc33d93bef053b98b5b26ac1fbe1990db80b6\nparent 248586342c2820adae6844b14f972cf8adbbcfb7\nauthor Mark Jerwin <ping@jrwnnnn.me> 1777107725 +0800\ncommitter Mark Jerwin <ping@jrwnnnn.me> 1777107725 +0800\n\nfix: Sync lockfile for npm ci\n",
-        "verified_at": "2026-04-25T09:02:10Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/635cfdc31d6813a8856ddc2b4dd7e8aef5ed68c9",
-    "html_url": "https://github.com/jrwnnnn/re-color/commit/635cfdc31d6813a8856ddc2b4dd7e8aef5ed68c9",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/635cfdc31d6813a8856ddc2b4dd7e8aef5ed68c9/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "248586342c2820adae6844b14f972cf8adbbcfb7",
-        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/248586342c2820adae6844b14f972cf8adbbcfb7",
-        "html_url": "https://github.com/jrwnnnn/re-color/commit/248586342c2820adae6844b14f972cf8adbbcfb7"
-      }
-    ],
-    "stats": {
-      "total": 109,
-      "additions": 98,
-      "deletions": 11
-    },
-    "files": [
-      {
-        "sha": "6e0952462814ba302f69d25f76d58aa75b10ba66",
-        "filename": "package-lock.json",
-        "status": "modified",
-        "additions": 98,
-        "deletions": 11,
-        "changes": 109,
-        "blob_url": "https://github.com/jrwnnnn/re-color/blob/635cfdc31d6813a8856ddc2b4dd7e8aef5ed68c9/package-lock.json",
-        "raw_url": "https://github.com/jrwnnnn/re-color/raw/635cfdc31d6813a8856ddc2b4dd7e8aef5ed68c9/package-lock.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/package-lock.json?ref=635cfdc31d6813a8856ddc2b4dd7e8aef5ed68c9",
-        "patch": "@@ -1,18 +1,15 @@\n {\n \t\"name\": \"re-color\",\n-\t\"version\": \"0.0.0\",\n+\t\"version\": \"0.0.1\",\n \t\"lockfileVersion\": 3,\n \t\"requires\": true,\n \t\"packages\": {\n \t\t\"\": {\n \t\t\t\"name\": \"re-color\",\n-\t\t\t\"version\": \"0.0.0\",\n-\t\t\t\"dependencies\": {\n-\t\t\t\t\"@tailwindcss/vite\": \"^4.2.4\",\n-\t\t\t\t\"tailwindcss\": \"^4.2.4\",\n-\t\t\t\t\"vue\": \"^3.5.32\"\n-\t\t\t},\n+\t\t\t\"version\": \"0.0.1\",\n+\t\t\t\"license\": \"MIT\",\n \t\t\t\"devDependencies\": {\n+\t\t\t\t\"@tailwindcss/vite\": \"^4.2.4\",\n \t\t\t\t\"@types/node\": \"^24.12.2\",\n \t\t\t\t\"@vitejs/plugin-vue\": \"^6.0.6\",\n \t\t\t\t\"@vue/tsconfig\": \"^0.9.1\",\n@@ -21,15 +18,18 @@\n \t\t\t\t\"electron-builder\": \"^26.8.1\",\n \t\t\t\t\"prettier\": \"^3.8.3\",\n \t\t\t\t\"prettier-plugin-tailwindcss\": \"^0.7.3\",\n+\t\t\t\t\"tailwindcss\": \"^4.2.4\",\n \t\t\t\t\"typescript\": \"~6.0.2\",\n \t\t\t\t\"vite\": \"^8.0.10\",\n+\t\t\t\t\"vue\": \"^3.5.32\",\n \t\t\t\t\"vue-tsc\": \"^3.2.7\"\n \t\t\t}\n \t\t},\n \t\t\"node_modules/@babel/helper-string-parser\": {\n \t\t\t\"version\": \"7.27.1\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@babel/helper-string-parser/-/helper-string-parser-7.27.1.tgz\",\n \t\t\t\"integrity\": \"sha512-qMlSxKbpRlAridDExk92nSobyDdpPijUq2DW6oDnUqd0iOGxmQjyqhMIihI9+zv4LPyZdRje2cavWPbCbWm3eA==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"engines\": {\n \t\t\t\t\"node\": \">=6.9.0\"\n@@ -39,6 +39,7 @@\n \t\t\t\"version\": \"7.28.5\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.28.5.tgz\",\n \t\t\t\"integrity\": \"sha512-qSs4ifwzKJSV39ucNjsvc6WVHs6b7S03sOh2OcHF9UHfVPqWWALUsNUVzhSBiItjRZoLHx7nIarVjqKVusUZ1Q==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"engines\": {\n \t\t\t\t\"node\": \">=6.9.0\"\n@@ -48,6 +49,7 @@\n \t\t\t\"version\": \"7.29.2\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@babel/parser/-/parser-7.29.2.tgz\",\n \t\t\t\"integrity\": \"sha512-4GgRzy/+fsBa72/RZVJmGKPmZu9Byn8o4MoLpmNe1m8ZfYnz5emHLQz3U4gLud6Zwl0RZIcgiLD7Uq7ySFuDLA==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@babel/types\": \"^7.29.0\"\n@@ -63,6 +65,7 @@\n \t\t\t\"version\": \"7.29.0\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@babel/types/-/types-7.29.0.tgz\",\n \t\t\t\"integrity\": \"sha512-LwdZHpScM4Qz8Xw2iKSzS+cfglZzJGvofQICy7W7v4caru4EaAmyUuO6BGrbyQ2mYV11W0U8j5mBhd14dd3B0A==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@babel/helper-string-parser\": \"^7.27.1\",\n@@ -519,6 +522,7 @@\n \t\t\t\"version\": \"1.2.1\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@emnapi/wasi-threads/-/wasi-threads-1.2.1.tgz\",\n \t\t\t\"integrity\": \"sha512-uTII7OYF+/Mes/MrcIOYp5yOtSMLBWSIoLPpcgwipoiKbli6k322tcoFsxoIIxPDqW01SQGAgko4EzZi2BNv2w==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"dependencies\": {\n@@ -542,6 +546,7 @@\n \t\t\t\"version\": \"0.3.13\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz\",\n \t\t\t\"integrity\": \"sha512-2kkt/7niJ6MgEPxF0bYdQ6etZaA+fQvDcLKckhy1yIQOzaoKjBBjSj63/aLVjYE3qhRt5dvM+uUyfCg6UKCBbA==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@jridgewell/sourcemap-codec\": \"^1.5.0\",\n@@ -552,6 +557,7 @@\n \t\t\t\"version\": \"2.3.5\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@jridgewell/remapping/-/remapping-2.3.5.tgz\",\n \t\t\t\"integrity\": \"sha512-LI9u/+laYG4Ds1TDKSJW2YPrIlcVYOwi2fUC6xB43lueCjgxV4lffOCZCtYFiH6TNOX+tQKXx97T4IKHbhyHEQ==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@jridgewell/gen-mapping\": \"^0.3.5\",\n@@ -562,6 +568,7 @@\n \t\t\t\"version\": \"3.1.2\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz\",\n \t\t\t\"integrity\": \"sha512-bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"engines\": {\n \t\t\t\t\"node\": \">=6.0.0\"\n@@ -571,12 +578,14 @@\n \t\t\t\"version\": \"1.5.5\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz\",\n \t\t\t\"integrity\": \"sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\"\n \t\t},\n \t\t\"node_modules/@jridgewell/trace-mapping\": {\n \t\t\t\"version\": \"0.3.31\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz\",\n \t\t\t\"integrity\": \"sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@jridgewell/resolve-uri\": \"^3.1.0\",\n@@ -665,6 +674,7 @@\n \t\t\t\"version\": \"1.1.4\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@napi-rs/wasm-runtime/-/wasm-runtime-1.1.4.tgz\",\n \t\t\t\"integrity\": \"sha512-3NQNNgA1YSlJb/kMH1ildASP9HW7/7kYnRI2szWJaofaS1hWmbGI4H+d3+22aGzXXN9IJ+n+GiFVcGipJP18ow==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"dependencies\": {\n@@ -683,6 +693,7 @@\n \t\t\t\"version\": \"0.127.0\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@oxc-project/types/-/types-0.127.0.tgz\",\n \t\t\t\"integrity\": \"sha512-aIYXQBo4lCbO4z0R3FHeucQHpF46l2LbMdxRvqvuRuW2OxdnSkcng5B8+K12spgLDj93rtN3+J2Vac/TIO+ciQ==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"funding\": {\n \t\t\t\t\"url\": \"https://github.com/sponsors/Boshen\"\n@@ -695,6 +706,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"arm64\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -711,6 +723,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"arm64\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -727,6 +740,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"x64\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -743,6 +757,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"x64\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -759,6 +774,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"arm\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -775,6 +791,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"arm64\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -791,6 +808,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"arm64\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -807,6 +825,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"ppc64\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -823,6 +842,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"s390x\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -839,6 +859,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"x64\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -855,6 +876,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"x64\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -871,6 +893,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"arm64\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -887,6 +910,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"wasm32\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"dependencies\": {\n@@ -905,6 +929,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"arm64\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -921,6 +946,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"x64\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -967,6 +993,7 @@\n \t\t\t\"version\": \"4.2.4\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@tailwindcss/node/-/node-4.2.4.tgz\",\n \t\t\t\"integrity\": \"sha512-Ai7+yQPxz3ddrDQzFfBKdHEVBg0w3Zl83jnjuwxnZOsnH9pGn93QHQtpU0p/8rYWxvbFZHneni6p1BSLK4DkGA==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@jridgewell/remapping\": \"^2.3.5\",\n@@ -982,6 +1009,7 @@\n \t\t\t\"version\": \"4.2.4\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@tailwindcss/oxide/-/oxide-4.2.4.tgz\",\n \t\t\t\"integrity\": \"sha512-9El/iI069DKDSXwTvB9J4BwdO5JhRrOweGaK25taBAvBXyXqJAX+Jqdvs8r8gKpsI/1m0LeJLyQYTf/WLrBT1Q==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"engines\": {\n \t\t\t\t\"node\": \">= 20\"\n@@ -1008,6 +1036,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"arm64\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -1024,6 +1053,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"arm64\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -1040,6 +1070,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"x64\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -1056,6 +1087,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"x64\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -1072,6 +1104,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"arm\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -1088,6 +1121,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"arm64\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -1104,6 +1138,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"arm64\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -1120,6 +1155,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"x64\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -1136,6 +1172,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"x64\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -1160,6 +1197,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"wasm32\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"dependencies\": {\n@@ -1181,6 +1219,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"arm64\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -1197,6 +1236,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"x64\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -1210,6 +1250,7 @@\n \t\t\t\"version\": \"4.2.4\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@tailwindcss/vite/-/vite-4.2.4.tgz\",\n \t\t\t\"integrity\": \"sha512-pCvohwOCspk3ZFn6eJzrrX3g4n2JY73H6MmYC87XfGPyTty4YsCjYTMArRZm/zOI8dIt3+EcrLHAFPe5A4bgtw==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@tailwindcss/node\": \"4.2.4\",\n@@ -1224,6 +1265,7 @@\n \t\t\t\"version\": \"0.10.1\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@tybys/wasm-util/-/wasm-util-0.10.1.tgz\",\n \t\t\t\"integrity\": \"sha512-9tTaPJLSiejZKx+Bmog4uSubteqTvFrVrURwkmHixBo0G4seD0zUxp98E1DzUBJxLQ3NPwXrGKDiVjwx/DpPsg==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"dependencies\": {\n@@ -1291,7 +1333,7 @@\n \t\t\t\"version\": \"24.12.2\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@types/node/-/node-24.12.2.tgz\",\n \t\t\t\"integrity\": \"sha512-A1sre26ke7HDIuY/M23nd9gfB+nrmhtYyMINbjI1zHJxYteKR6qSMX56FsmjMcDb3SMcjJg5BiRRgOCC/yBD0g==\",\n-\t\t\t\"devOptional\": true,\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"dependencies\": {\n \t\t\t\t\"undici-types\": \"~7.16.0\"\n@@ -1388,6 +1430,7 @@\n \t\t\t\"version\": \"3.5.33\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@vue/compiler-core/-/compiler-core-3.5.33.tgz\",\n \t\t\t\"integrity\": \"sha512-3PZLQwFw4Za3TC8t0FvTy3wI16Kt+pmwcgNZca4Pj9iWL2E72a/gZlpBtAJvEdDMdCxdG/qq0C7PN0bsJuv0Rw==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@babel/parser\": \"^7.29.2\",\n@@ -1401,6 +1444,7 @@\n \t\t\t\"version\": \"3.5.33\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@vue/compiler-dom/-/compiler-dom-3.5.33.tgz\",\n \t\t\t\"integrity\": \"sha512-PXq0yrfCLzzL07rbXO4awtXY1Z06LG2eu6Adg3RJFa/j3Cii217XxxLXG22N330gw7GmALCY0Z8RgXEviwgpjA==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@vue/compiler-core\": \"3.5.33\",\n@@ -1411,6 +1455,7 @@\n \t\t\t\"version\": \"3.5.33\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@vue/compiler-sfc/-/compiler-sfc-3.5.33.tgz\",\n \t\t\t\"integrity\": \"sha512-UTUvRO9cY+rROrx/pvN9P5Z7FgA6QGfokUCfhQE4EnmUj3rVnK+CHI0LsEO1pg+I7//iRYMUfcNcCPe7tg0CoA==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@babel/parser\": \"^7.29.2\",\n@@ -1428,6 +1473,7 @@\n \t\t\t\"version\": \"3.5.33\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@vue/compiler-ssr/-/compiler-ssr-3.5.33.tgz\",\n \t\t\t\"integrity\": \"sha512-IErjYdnj1qIupG5xxiVIYiiRvDhGWV4zuh/RCrwfYpuL+HWQzeU6lCk/nF9r7olWMnjKxCAkOctT2qFWFkzb1A==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@vue/compiler-dom\": \"3.5.33\",\n@@ -1454,6 +1500,7 @@\n \t\t\t\"version\": \"3.5.33\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@vue/reactivity/-/reactivity-3.5.33.tgz\",\n \t\t\t\"integrity\": \"sha512-p8UfIqyIhb0rYGlSgSBV+lPhF2iUSBcRy7enhTmPqKWadHy9kcOFYF1AejYBP9P+avnd3OBbD49DU4pLWX/94A==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@vue/shared\": \"3.5.33\"\n@@ -1463,6 +1510,7 @@\n \t\t\t\"version\": \"3.5.33\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@vue/runtime-core/-/runtime-core-3.5.33.tgz\",\n \t\t\t\"integrity\": \"sha512-UpFF45RI9//a7rvq7RdOQblb4tup7hHG9QsmIrxkFQLzQ7R8/iNQ5LE15NhLZ1/WcHMU2b47u6P33CPUelHyIQ==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@vue/reactivity\": \"3.5.33\",\n@@ -1473,6 +1521,7 @@\n \t\t\t\"version\": \"3.5.33\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@vue/runtime-dom/-/runtime-dom-3.5.33.tgz\",\n \t\t\t\"integrity\": \"sha512-IOxMsAOwquhfITgmOgaPYl7/j8gKUxUFoflRc+u4LxyD3+783xne8vNta1PONVCvCV9A0w7hkyEepINDqfO0tw==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@vue/reactivity\": \"3.5.33\",\n@@ -1485,6 +1534,7 @@\n \t\t\t\"version\": \"3.5.33\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@vue/server-renderer/-/server-renderer-3.5.33.tgz\",\n \t\t\t\"integrity\": \"sha512-0xylq/8/h44lVG0pZFknv1XIdEgymq2E9n59uTWJBG+dIgiT0TMCSsxrN7nO16Z0MU0MPjFcguBbZV8Itk52Hw==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@vue/compiler-ssr\": \"3.5.33\",\n@@ -1498,6 +1548,7 @@\n \t\t\t\"version\": \"3.5.33\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@vue/shared/-/shared-3.5.33.tgz\",\n \t\t\t\"integrity\": \"sha512-5vR2QIlmaLG77Ygd4pMP6+SGQ5yox9VhtnbDWTy9DzMzdmeLxZ1QqxrywEZ9sa1AVubfIJyaCG3ytyWU81ufcQ==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\"\n \t\t},\n \t\t\"node_modules/@vue/tsconfig\": {\n@@ -2332,6 +2383,7 @@\n \t\t\t\"version\": \"3.2.3\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz\",\n \t\t\t\"integrity\": \"sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\"\n \t\t},\n \t\t\"node_modules/debug\": {\n@@ -2443,6 +2495,7 @@\n \t\t\t\"version\": \"2.1.2\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz\",\n \t\t\t\"integrity\": \"sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"Apache-2.0\",\n \t\t\t\"engines\": {\n \t\t\t\t\"node\": \">=8\"\n@@ -2504,6 +2557,7 @@\n \t\t\t\"integrity\": \"sha512-glMJgnTreo8CFINujtAhCgN96QAqApDMZ8Vl1r8f0QT8QprvC1UCltV4CcWj20YoIyLZx6IUskaJZ0NV8fokcg==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"app-builder-lib\": \"26.8.1\",\n \t\t\t\t\"builder-util\": \"26.8.1\",\n@@ -2848,6 +2902,7 @@\n \t\t\t\"version\": \"5.21.0\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.21.0.tgz\",\n \t\t\t\"integrity\": \"sha512-otxSQPw4lkOZWkHpB3zaEQs6gWYEsmX4xQF68ElXC/TWvGxGMSGOvoNbaLXm6/cS/fSfHtsEdw90y20PCd+sCA==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"dependencies\": {\n \t\t\t\t\"graceful-fs\": \"^4.2.4\",\n@@ -2861,6 +2916,7 @@\n \t\t\t\"version\": \"7.0.1\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/entities/-/entities-7.0.1.tgz\",\n \t\t\t\"integrity\": \"sha512-TWrgLOFUQTH994YUyl1yT4uyavY5nNB5muff+RtWaqNVCAK408b5ZnnbNAUEWLTCpum9w6arT70i1XdQ4UeOPA==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"BSD-2-Clause\",\n \t\t\t\"engines\": {\n \t\t\t\t\"node\": \">=0.12\"\n@@ -2971,6 +3027,7 @@\n \t\t\t\"version\": \"2.0.2\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/estree-walker/-/estree-walker-2.0.2.tgz\",\n \t\t\t\"integrity\": \"sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\"\n \t\t},\n \t\t\"node_modules/exponential-backoff\": {\n@@ -3040,6 +3097,7 @@\n \t\t\t\"version\": \"6.5.0\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz\",\n \t\t\t\"integrity\": \"sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"engines\": {\n \t\t\t\t\"node\": \">=12.0.0\"\n@@ -3136,6 +3194,7 @@\n \t\t\t\"version\": \"2.3.3\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz\",\n \t\t\t\"integrity\": \"sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"hasInstallScript\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n@@ -3368,6 +3427,7 @@\n \t\t\t\"version\": \"4.2.11\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz\",\n \t\t\t\"integrity\": \"sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"ISC\"\n \t\t},\n \t\t\"node_modules/has-flag\": {\n@@ -3625,6 +3685,7 @@\n \t\t\t\"version\": \"2.6.1\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/jiti/-/jiti-2.6.1.tgz\",\n \t\t\t\"integrity\": \"sha512-ekilCSN1jwRvIbgeg/57YFh8qQDNbwDb9xT/qu2DAHbFFZUicIl4ygVaAvzveMhMVr3LnpSKTNnwt8PoOfmKhQ==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"bin\": {\n \t\t\t\t\"jiti\": \"lib/jiti-cli.mjs\"\n@@ -3709,6 +3770,7 @@\n \t\t\t\"version\": \"1.32.0\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/lightningcss/-/lightningcss-1.32.0.tgz\",\n \t\t\t\"integrity\": \"sha512-NXYBzinNrblfraPGyrbPoD19C1h9lfI/1mzgWYvXUTe414Gz/X1FD2XBZSZM7rRTrMA8JL3OtAaGifrIKhQ5yQ==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MPL-2.0\",\n \t\t\t\"dependencies\": {\n \t\t\t\t\"detect-libc\": \"^2.0.3\"\n@@ -3741,6 +3803,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"arm64\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MPL-2.0\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -3761,6 +3824,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"arm64\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MPL-2.0\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -3781,6 +3845,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"x64\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MPL-2.0\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -3801,6 +3866,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"x64\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MPL-2.0\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -3821,6 +3887,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"arm\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MPL-2.0\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -3841,6 +3908,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"arm64\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MPL-2.0\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -3861,6 +3929,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"arm64\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MPL-2.0\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -3881,6 +3950,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"x64\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MPL-2.0\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -3901,6 +3971,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"x64\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MPL-2.0\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -3921,6 +3992,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"arm64\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MPL-2.0\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -3941,6 +4013,7 @@\n \t\t\t\"cpu\": [\n \t\t\t\t\"x64\"\n \t\t\t],\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MPL-2.0\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -3988,6 +4061,7 @@\n \t\t\t\"version\": \"0.30.21\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/magic-string/-/magic-string-0.30.21.tgz\",\n \t\t\t\"integrity\": \"sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@jridgewell/sourcemap-codec\": \"^1.5.5\"\n@@ -4143,6 +4217,7 @@\n \t\t\t\"version\": \"3.3.11\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz\",\n \t\t\t\"integrity\": \"sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"funding\": [\n \t\t\t\t{\n \t\t\t\t\t\"type\": \"github\",\n@@ -4407,13 +4482,16 @@\n \t\t\t\"version\": \"1.1.1\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz\",\n \t\t\t\"integrity\": \"sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"ISC\"\n \t\t},\n \t\t\"node_modules/picomatch\": {\n \t\t\t\"version\": \"4.0.4\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/picomatch/-/picomatch-4.0.4.tgz\",\n \t\t\t\"integrity\": \"sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"engines\": {\n \t\t\t\t\"node\": \">=12\"\n \t\t\t},\n@@ -4440,6 +4518,7 @@\n \t\t\t\"version\": \"8.5.10\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/postcss/-/postcss-8.5.10.tgz\",\n \t\t\t\"integrity\": \"sha512-pMMHxBOZKFU6HgAZ4eyGnwXF/EvPGGqUr0MnZ5+99485wwW41kW91A4LOGxSHhgugZmSChL5AlElNdwlNgcnLQ==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"funding\": [\n \t\t\t\t{\n \t\t\t\t\t\"type\": \"opencollective\",\n@@ -4776,6 +4855,7 @@\n \t\t\t\"version\": \"1.0.0-rc.17\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/rolldown/-/rolldown-1.0.0-rc.17.tgz\",\n \t\t\t\"integrity\": \"sha512-ZrT53oAKrtA4+YtBWPQbtPOxIbVDbxT0orcYERKd63VJTF13zPcgXTvD4843L8pcsI7M6MErt8QtON6lrB9tyA==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@oxc-project/types\": \"=0.127.0\",\n@@ -4809,6 +4889,7 @@\n \t\t\t\"version\": \"1.0.0-rc.17\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.0-rc.17.tgz\",\n \t\t\t\"integrity\": \"sha512-n8iosDOt6Ig1UhJ2AYqoIhHWh/isz0xpicHTzpKBeotdVsTEcxsSA/i3EVM7gQAj0rU27OLAxCjzlj15IWY7bg==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\"\n \t\t},\n \t\t\"node_modules/rxjs\": {\n@@ -4994,6 +5075,7 @@\n \t\t\t\"version\": \"1.2.1\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz\",\n \t\t\t\"integrity\": \"sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"BSD-3-Clause\",\n \t\t\t\"engines\": {\n \t\t\t\t\"node\": \">=0.10.0\"\n@@ -5089,12 +5171,14 @@\n \t\t\t\"version\": \"4.2.4\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.2.4.tgz\",\n \t\t\t\"integrity\": \"sha512-HhKppgO81FQof5m6TEnuBWCZGgfRAWbaeOaGT00KOy/Pf/j6oUihdvBpA7ltCeAvZpFhW3j0PTclkxsd4IXYDA==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\"\n \t\t},\n \t\t\"node_modules/tapable\": {\n \t\t\t\"version\": \"2.3.3\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/tapable/-/tapable-2.3.3.tgz\",\n \t\t\t\"integrity\": \"sha512-uxc/zpqFg6x7C8vOE7lh6Lbda8eEL9zmVm/PLeTPBRhh1xCgdWaQ+J1CUieGpIfm2HdtsUpRv+HshiasBMcc6A==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"engines\": {\n \t\t\t\t\"node\": \">=6\"\n@@ -5218,6 +5302,7 @@\n \t\t\t\"version\": \"0.2.16\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.16.tgz\",\n \t\t\t\"integrity\": \"sha512-pn99VhoACYR8nFHhxqix+uvsbXineAasWm5ojXoN8xEwK5Kd3/TrhNn1wByuD52UxWRLy8pu+kRMniEi6Eq9Zg==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"dependencies\": {\n \t\t\t\t\"fdir\": \"^6.5.0\",\n@@ -5274,7 +5359,7 @@\n \t\t\t\"version\": \"2.8.1\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz\",\n \t\t\t\"integrity\": \"sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==\",\n-\t\t\t\"devOptional\": true,\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"0BSD\"\n \t\t},\n \t\t\"node_modules/type-fest\": {\n@@ -5295,7 +5380,7 @@\n \t\t\t\"version\": \"6.0.3\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/typescript/-/typescript-6.0.3.tgz\",\n \t\t\t\"integrity\": \"sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==\",\n-\t\t\t\"devOptional\": true,\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"Apache-2.0\",\n \t\t\t\"peer\": true,\n \t\t\t\"bin\": {\n@@ -5320,7 +5405,7 @@\n \t\t\t\"version\": \"7.16.0\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/undici-types/-/undici-types-7.16.0.tgz\",\n \t\t\t\"integrity\": \"sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==\",\n-\t\t\t\"devOptional\": true,\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\"\n \t\t},\n \t\t\"node_modules/universalify\": {\n@@ -5370,6 +5455,7 @@\n \t\t\t\"version\": \"8.0.10\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/vite/-/vite-8.0.10.tgz\",\n \t\t\t\"integrity\": \"sha512-rZuUu9j6J5uotLDs+cAA4O5H4K1SfPliUlQwqa6YEwSrWDZzP4rhm00oJR5snMewjxF5V/K3D4kctsUTsIU9Mw==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n@@ -5455,6 +5541,7 @@\n \t\t\t\"version\": \"3.5.33\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/vue/-/vue-3.5.33.tgz\",\n \t\t\t\"integrity\": \"sha512-1AgChhx5w3ALgT4oK3acm2Es/7jyZhWSVUfs3rOBlGQC0rjEDkS7G4lWlJJGGNQD+BV3reCwbQrOe1mPNwKHBQ==\",\n+\t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {"
       }
     ]
   }
