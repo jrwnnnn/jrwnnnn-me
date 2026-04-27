@@ -37,6 +37,7 @@ const latestCommit = await safeAsync(
 
 <!doctype html>
 <html lang="en">
+<html lang="en" data-theme="phosphor">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -60,10 +61,10 @@ const latestCommit = await safeAsync(
 	<body>
 		{
 			statusBar ? (
-				<header class="fixed top-0 left-0 z-100 flex w-full items-center justify-between border-b border-green-900/30 bg-black px-5 py-1 font-mono text-sm">
+				<header class="border-primary/10 fixed top-0 left-0 z-100 flex w-full items-center justify-between border-b bg-black px-5 py-1 font-mono text-sm">
 					<nav class="flex items-center font-bold">
 						<a href="/">
-							<span class="text-green-700">./</span>
+							<span>./</span>
 						</a>
 
 						{Astro.url.pathname === "/" ? (
@@ -135,12 +136,6 @@ const latestCommit = await safeAsync(
 										href={latestCommit.data?.[0].html_url}
 										target="_blank"
 									>
-										<img
-											class="h-4 object-contain"
-											src="/icons/git-commit.svg"
-											loading="lazy"
-											alt="Git Commit"
-										/>
 										<p class="mt-0.5 font-mono">
 											{latestCommit.data?.[0].sha.slice(0, 7)}
 										</p>
@@ -151,11 +146,9 @@ const latestCommit = await safeAsync(
 						<div class="flex items-center space-x-5">
 							{socials.map((social) => (
 								<a href={social.href} target="_blank" class="cursor-pointer">
-									<img
-										class="h-5 object-contain"
-										src={social.icon}
-										loading="lazy"
-										alt={social.name + " Icon"}
+									<span
+										class="bg-primary inline-block h-5 w-5 shrink-0"
+										style={`mask: url('${social.icon}') no-repeat center / contain; -webkit-mask: url('${social.icon}') no-repeat center / contain;`}
 									/>
 								</a>
 							))}

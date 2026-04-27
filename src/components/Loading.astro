@@ -7,11 +7,7 @@ const { id, class: additionalClasses } = Astro.props;
 	id={id}
 	class=`flex flex-col h-screen items-center justify-center bg-black/60 backdrop-blur-sm ${additionalClasses}`
 >
-	<div
-		class="mb-4 h-8 w-8 animate-spin rounded-full border-2 border-green-500/20 border-t-green-500"
-	>
-	</div>
-	<p class="font-mono text-sm tracking-widest text-green-500 uppercase">
+	<p class="animate-pulse font-mono text-sm tracking-widest uppercase">
 		Loading...
 	</p>
 </Overlay>

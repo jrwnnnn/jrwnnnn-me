@@ -24,9 +24,9 @@ if (article.results.length === 0) {
 >
 	<Loading id="loading-overlay" class="hidden" />
 	<main class="flex flex-col items-center justify-center px-3!">
-		<div class="w-full font-mono lg:w-[60vw]">
+		<div class="shadow-primary/50 w-full font-mono shadow-lg lg:w-[60vw]">
 			<statusbar
-				class="flex items-center justify-between border border-b-0 border-green-800 bg-green-900/20 px-4 py-2 text-xs tracking-widest uppercase"
+				class="border-primary/50 bg-primary/10 flex items-center justify-between border border-b-0 px-4 py-2 text-xs tracking-widest uppercase"
 			>
 				<span>
 					ID:{article.results[0].slug}
@@ -45,10 +45,10 @@ if (article.results.length === 0) {
 			</statusbar>
 
 			<div
-				class="flex flex-col space-y-5 border border-green-800 bg-black p-6 md:p-12"
+				class="border-primary/50 flex flex-col space-y-5 border bg-black p-6 md:p-12"
 			>
 				<p
-					class="w-full rounded-none text-4xl leading-none font-bold uppercase outline-none md:text-5xl"
+					class="text-shadow-primary/50 w-full rounded-none text-4xl leading-none font-bold uppercase outline-none text-shadow-lg md:text-5xl"
 				>
 					{article.results[0].title}
 				</p>
@@ -59,7 +59,7 @@ if (article.results.length === 0) {
 							(article.results[0].tags as string)
 								.split(",")
 								.map((tag) => (
-									<span class="border border-green-800 bg-green-900/20 px-3 py-1 text-xs tracking-widest text-green-500 uppercase">
+									<span class="border-primary/80 bg-primary/10 text-primary/80 border px-3 py-1 text-[0.7rem] tracking-widest uppercase">
 										{tag}
 									</span>
 								))
@@ -77,9 +77,9 @@ if (article.results.length === 0) {
 					)
 				}
 
-				<hr class="border border-green-900/50" />
+				<hr class="border-primary/50 border" />
 
-				<div class="text-center text-sm text-green-800 italic">
+				<div class="text-primary/50 text-center text-sm italic">
 					<p>END OF TRANSMISSION</p>
 					<p>
 						Transmission ID:
@@ -92,7 +92,7 @@ if (article.results.length === 0) {
 							<div class="cursor-pointer space-x-5">
 								<a
 									href={`/secure/transmit?action=edit&slug=${article.results[0].slug}`}
-									class="hover:text-green-500"
+									class="hover:text-primary"
 								>
 									[ Edit ]
 								</a>

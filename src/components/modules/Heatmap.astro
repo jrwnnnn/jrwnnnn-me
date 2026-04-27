@@ -60,10 +60,10 @@ const graphql = (await response.data!.json()) as GraphQL;
 
 function getColor(count: number) {
 	if (count === 0) return "bg-black";
-	if (count <= 3) return "bg-green-500/20";
-	if (count <= 6) return "bg-green-500/50";
-	if (count <= 9) return "bg-green-500";
-	return "bg-green-500";
+	if (count <= 3) return "bg-primary/20";
+	if (count <= 6) return "bg-primary/50";
+	if (count <= 9) return "bg-primary";
+	return "bg-primary";
 }
 ---
 
@@ -76,7 +76,7 @@ function getColor(count: number) {
 						<div class="flex flex-col gap-1">
 							{week.contributionDays.map((day: ContributionDay) => (
 								<div
-									class={`h-3 w-3 ring-1 ring-green-500/10 transition-opacity ring-inset hover:opacity-80 ${getColor(day.contributionCount)}`}
+									class={`h-3 w-3 ring-1 ring-primary/10 transition-opacity ring-inset hover:opacity-80 ${getColor(day.contributionCount)}`}
 									title={`${day.contributionCount} contributions on ${day.date}`}
 								/>
 							))}

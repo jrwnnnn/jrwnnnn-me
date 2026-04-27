@@ -45,12 +45,13 @@ function Scrobble() {
 					&gt; {loading ? "CONNECTING_TO_LASTFM" : "LAST_FM"}
 				</p>
 				<div
-					className={`${nowPlaying ? "bg-green-500" : "hidden"} animate-pulse px-3 py-px font-mono text-[12px] font-bold text-black`}
+					className={`${nowPlaying ? "bg-primary" : "hidden"} animate-pulse px-3 py-px font-mono text-[12px] font-bold text-black`}
 				>
 					NOW PLAYING
 				</div>
 			</div>
-			<hr className="border border-green-500/30" />
+
+			<hr className="border-primary/40 border" />
 
 			<a
 				className="flex cursor-pointer gap-5"
@@ -66,7 +67,7 @@ function Scrobble() {
 							: "https://www.last.fm/static/images/lastfm_avatar_twitter.52a5d69a85ac.png"
 					}
 					alt={nowPlaying ? tracks[0]?.album?.["#text"] || "LastFM" : "LastFM"}
-					className="phosphor-filter h-full w-30 border border-green-500 hover:filter-none!"
+					className="phosphor-filter border-primary h-full w-30 border hover:filter-none!"
 					loading="lazy"
 				/>
 				<div className="hover:brightness-120">
@@ -77,7 +78,7 @@ function Scrobble() {
 								? "Loading..."
 								: "Nothing is currently playing..."}
 					</p>
-					<p className="font-mono text-sm text-green-600">
+					<p className="font-mono text-sm">
 						{nowPlaying
 							? `Artist: ${tracks[0]?.artist?.["#text"] || ""}`
 							: loading
@@ -85,7 +86,7 @@ function Scrobble() {
 								: "Offline"}
 					</p>
 					<p
-						className={`font-mono text-sm text-green-600 ${!nowPlaying ? "hidden" : ""}`}
+						className={`font-mono text-sm ${!nowPlaying ? "hidden" : ""}`}
 					>
 						Album: {tracks[0]?.album?.["#text"]}
 					</p>
@@ -94,11 +95,11 @@ function Scrobble() {
 			{!loading ? (
 				<>
 					<div className="flex items-center gap-2">
-						<hr className="grow border border-dashed border-green-900" />
-						<p className="text-center font-mono text-xs tracking-widest text-green-900">
+						<hr className="border-primary/40 grow border border-dashed" />
+						<p className="text-primary/40 text-center font-mono text-xs tracking-widest">
 							Recent Tracks
 						</p>
-						<hr className="grow border border-dashed border-green-900" />
+						<hr className="border-primary/40 grow border border-dashed" />
 					</div>
 
 					<div className="flex flex-col gap-1">
@@ -110,8 +111,8 @@ function Scrobble() {
 								rel="noreferrer"
 								className="grid grid-cols-[2fr_1fr] gap-1 font-mono text-sm hover:brightness-120"
 							>
-								<p className="line-clamp-1 text-green-500">{track?.name}</p>
-								<p className="line-clamp-1 text-right whitespace-nowrap text-green-800">
+								<p className="line-clamp-1 text-primary">{track?.name}</p>
+								<p className="text-primary/50 line-clamp-1 text-right whitespace-nowrap">
 									{track?.artist?.["#text"]}
 								</p>
 							</a>
