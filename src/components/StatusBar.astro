@@ -1,0 +1,46 @@
+---
+
+---
+
+<header
+	class="border-primary/10 fixed top-0 left-0 z-100 flex w-full items-center justify-between border-b bg-black px-5 py-1 font-mono text-sm"
+>
+	<nav class="flex items-center font-bold">
+		<a href="/">
+			<span>./</span>
+		</a>
+
+		{
+			Astro.url.pathname === "/" ? (
+				<a href="/" class="px-1">
+					root
+				</a>
+			) : (
+				Astro.url.pathname
+					.split("/")
+					.filter(Boolean)
+					.map((part, index, arr) => (
+						<span class="flex items-center">
+							<a href={`/${arr.slice(0, index + 1).join("/")}`} class="px-1">
+								{part}
+							</a>
+							{index < arr.length - 1 && (
+								<span class="text-primary/50 mx-0.5">/</span>
+							)}
+						</span>
+					))
+			)
+		}
+	</nav>
+	<span id="live-clock" class="font-bold"></span>
+</header>
+
+<script>
+	function updateTime() {
+		const now = new Date();
+		const timeString = now.toLocaleTimeString([], { hour12: false });
+		document.getElementById("live-clock")!.textContent = timeString;
+	}
+	updateTime();
+	setInterval(updateTime, 1000);
+</script>
