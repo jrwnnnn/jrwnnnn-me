@@ -88,9 +88,3 @@ main {
 	position: relative;
 	isolation: isolate;
 }
-
-/* Phophor green filter for images */
-.phosphor-filter {
-	filter: url(#phosphor-overlay) contrast(1.2);
-	transition: filter 0.3s ease;
-}
