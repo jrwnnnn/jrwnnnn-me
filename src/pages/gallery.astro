@@ -16,23 +16,23 @@ const cfJwt = Astro.cookies.get("CF_Authorization")?.value;
 
 	<main class="flex flex-col space-y-8">
 		<Header heading="GALLERY">
-			<p class="font-mono text-sm opacity-80">
+			<p class="font-mono text-sm text-primary/80">
 				Found {images.results.length} images in the database. Captured using a Samsung
 				A15 5G, Samsung A02s, or Samsung PL20.
 			</p>
 		</Header>
 
-		<hr class="bg-green-500" />
+		<hr class="bg-primary" />
 
 		{
 			(import.meta.env.DEV || cfJwt) && (
 				<>
 					<div
 						id="dropzone"
-						class="flex min-h-[16rem] cursor-pointer flex-col items-center justify-center border border-dashed hover:bg-green-900/10"
+						class="flex min-h-[16rem] cursor-pointer flex-col items-center justify-center border border-dashed hover:bg-primary/10"
 					>
 						<p class="mb-3 font-mono text-4xl">+</p>
-						<p class="font-mono text-xs tracking-widest text-green-500 uppercase">
+						<p class="font-mono text-xs tracking-widest uppercase">
 							Upload image
 						</p>
 					</div>
@@ -52,7 +52,7 @@ const cfJwt = Astro.cookies.get("CF_Authorization")?.value;
 						<img
 							src={image.link as string}
 							alt={`${image.fileName}`}
-							class="gallery-image w-full cursor-pointer hover:outline hover:outline-green-500"
+							class="gallery-image w-full cursor-pointer hover:outline hover:outline-primary"
 							loading="eager"
 							oncontextmenu="return false"
 						/>

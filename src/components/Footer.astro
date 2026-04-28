@@ -1,0 +1,83 @@
+---
+import { safeAsync } from "@utils/safeAsync";
+import socials from "../data/socials.json";
+import themes from "../data/themes.json";
+
+interface LatestCommit {
+	sha: string;
+	html_url: string;
+}
+
+const latestCommit = await safeAsync(
+	fetch(
+		"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/jrwnnnn-me-commits.json",
+	).then((res) => res.json() as Promise<LatestCommit[]>),
+);
+---
+
+<footer class="mt-10">
+	<div class="flex justify-end px-5 md:px-20 lg:px-30">
+		<span
+			class="bg-primary/10 border-primary/50 relative flex cursor-pointer items-center gap-2 border-t border-r border-l px-3 py-2 transition-all hover:top-0 md:px-2 lg:top-5"
+		>
+			{
+				themes.map((theme) => (
+					<span
+						title={theme.name.toUpperCase()}
+						data-selected-theme={theme.name}
+						class="h-4 w-4 cursor-pointer hover:brightness-125"
+						style={`background-color: #${theme.color};`}
+					/>
+				))
+			}
+		</span>
+	</div>
+
+	<div
+		class="border-primary/10 relative z-1 flex items-center justify-between border-t bg-black px-5 py-8 text-sm md:px-20 lg:px-30"
+	>
+		<div class="flex flex-col space-x-5 md:flex-row">
+			<a href="credits" class="font-mono font-bold"> © 2026 Mark Jerwin </a>
+			{
+				latestCommit.data?.[0] && (
+					<>
+						<p class="hidden font-mono md:block">-</p>
+						<a
+							class="flex cursor-pointer items-center gap-2 opacity-75 hover:underline"
+							href={latestCommit.data?.[0].html_url}
+							target="_blank"
+						>
+							<p class="mt-0.5 font-mono">
+								{latestCommit.data?.[0].sha.slice(0, 7)}
+							</p>
+						</a>
+					</>
+				)
+			}
+		</div>
+		<div class="flex items-center space-x-5">
+			{
+				socials.map((social) => (
+					<a href={social.href} target="_blank" class="cursor-pointer">
+						<span
+							class="bg-primary inline-block h-5 w-5 shrink-0"
+							style={`mask: url('${social.icon}') no-repeat center / contain; -webkit-mask: url('${social.icon}') no-repeat center / contain;`}
+						/>
+					</a>
+				))
+			}
+		</div>
+	</div>
+</footer>
+
+<script>
+	document
+		.querySelectorAll<HTMLElement>("[data-selected-theme]")
+		.forEach((element) => {
+			element.addEventListener("click", () => {
+				const theme = element.dataset.selectedTheme!;
+				document.documentElement.dataset.theme = theme;
+				localStorage.setItem("theme", theme);
+			});
+		});
+</script>

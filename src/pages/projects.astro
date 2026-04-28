@@ -58,15 +58,15 @@ for (const repo of repositories) {
 <Layout title="Mark Jerwin // PROJECTS">
 	<main class="flex flex-col space-y-8">
 		<Header heading="PROJECT_DATABASE">
-			<div class="flex items-center gap-3 font-mono text-sm opacity-80">
+			<div class="text-green/80 flex items-center gap-3 font-mono text-sm">
 				<span class="flex items-center gap-1.5">
 					{repositories.length} RECORDS
 				</span>
-				<span class="text-green-500/50">/</span>
+				<span class="text-primary/50">/</span>
 				<span>VOL: {total} KB</span>
 			</div>
 		</Header>
-		<hr class="bg-green-500" />
+		<hr class="bg-primary" />
 		<div class="flex flex-wrap gap-3">
 			{
 				errorPayload ? (
@@ -76,8 +76,8 @@ for (const repo of repositories) {
 						const width =
 							(80 + Math.floor(Math.min(repo.size ?? 0, 100000) / 2500)) / 4;
 						const statusClass = repo.archived
-							? "border-green-500 bg-green-900/5 opacity-50 hover:opacity-100 focus:opacity-100"
-							: "border-green-500 bg-green-900/10  hover:bg-green-800/20";
+							? "border-primary opacity-50 hover:opacity-100 hover:bg-primary/10"
+							: "border-primary  hover:bg-primary/10";
 
 						const stats =
 							participation[repo.name]?.all ?? new Array(52).fill(0);
@@ -91,7 +91,7 @@ for (const repo of repositories) {
 								href={repo.html_url}
 								target="_blank"
 								style={{ "--w": `${width}rem` }}
-								class={`${statusClass} flex w-full flex-col justify-between space-y-2 border p-4 md:w-(--w)`}
+								class={`${statusClass} shadow-primary/50 flex w-full flex-col justify-between space-y-2 border p-4 hover:shadow-lg md:w-(--w)`}
 							>
 								<div class="flex justify-between font-mono text-[.7rem] opacity-60">
 									{/* prettier-ignore */}
@@ -153,7 +153,7 @@ for (const repo of repositories) {
 										</div>
 									</div>
 									<div
-										class={`h-2 w-2 rounded-full ${repo.archived ? "bg-red-900" : "animate-pulse bg-green-500"}`}
+										class={`h-2 w-2 rounded-full ${repo.archived ? "bg-red-900" : "bg-primary animate-pulse"}`}
 									/>
 								</div>
 							</a>
