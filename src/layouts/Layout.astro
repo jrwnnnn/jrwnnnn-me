@@ -49,23 +49,6 @@ const {
 
 		{footer ? <Footer /> : null}
 
-		<svg class="hidden">
-			<filter id="phosphor-overlay">
-				<feColorMatrix
-					type="matrix"
-					values="0.33 0.33 0.33 0 0 
-							0.33 0.33 0.33 0 0 
-							0.33 0.33 0.33 0 0 
-							0 0 0 1 0"
-				></feColorMatrix>
-				<feComponentTransfer>
-					<feFuncR type="linear" slope="0.13"></feFuncR>
-					<feFuncG type="linear" slope="0.77"></feFuncG>
-					<feFuncB type="linear" slope="0.36"></feFuncB>
-				</feComponentTransfer>
-			</filter>
-		</svg>
-
 		<!-- Glitch Effect Script -->
 		<script>
 			document.addEventListener("DOMContentLoaded", () => {

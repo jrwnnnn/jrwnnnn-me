@@ -67,7 +67,7 @@ function Scrobble() {
 							: "https://www.last.fm/static/images/lastfm_avatar_twitter.52a5d69a85ac.png"
 					}
 					alt={nowPlaying ? tracks[0]?.album?.["#text"] || "LastFM" : "LastFM"}
-					className="phosphor-filter border-primary h-full w-30 border hover:filter-none!"
+					className="border-primary h-full w-30 border"
 					loading="lazy"
 				/>
 				<div className="hover:brightness-120">
@@ -85,9 +85,7 @@ function Scrobble() {
 								? "Connecting to Last.FM"
 								: "Offline"}
 					</p>
-					<p
-						className={`font-mono text-sm ${!nowPlaying ? "hidden" : ""}`}
-					>
+					<p className={`font-mono text-sm ${!nowPlaying ? "hidden" : ""}`}>
 						Album: {tracks[0]?.album?.["#text"]}
 					</p>
 				</div>
@@ -111,7 +109,7 @@ function Scrobble() {
 								rel="noreferrer"
 								className="grid grid-cols-[2fr_1fr] gap-1 font-mono text-sm hover:brightness-120"
 							>
-								<p className="line-clamp-1 text-primary">{track?.name}</p>
+								<p className="text-primary line-clamp-1">{track?.name}</p>
 								<p className="text-primary/50 line-clamp-1 text-right whitespace-nowrap">
 									{track?.artist?.["#text"]}
 								</p>
