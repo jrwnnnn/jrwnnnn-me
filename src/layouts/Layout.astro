@@ -37,8 +37,9 @@ const {
 		<link rel="icon" type="image/png" href="/favicon.png" />
 
 		<script is:inline>
-			const saved = localStorage.getItem("theme");
-			if (saved) document.documentElement.dataset.theme = saved;
+			const saved = localStorage.getItem("theme") ?? "uranium";
+			document.documentElement.dataset.theme = saved;
+			localStorage.setItem("theme", saved);
 		</script>
 	</head>
 	<body>

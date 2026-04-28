@@ -6,9 +6,7 @@ import Container from "../components/Container.astro";
 import Heatmap from "../components/Heatmap.astro";
 import LastFM from "../components/Scrobble.jsx";
 import Layout from "../layouts/Layout.astro";
-
 import socials from "../data/socials.json";
-import themes from "../data/themes.json";
 
 const latestTransmission = await env.DB.prepare(
 	"SELECT title, subtitle, slug, date_created FROM articles ORDER BY date_created DESC LIMIT 1",
@@ -82,7 +80,6 @@ const stack = [
 			</Container>
 		</div>
 		<section class="space-y-5">
-			<h3 class="text-xl font-bold tracking-widest">&gt; MAIN_MENU</h3>
 			<div class="grid grid-cols-1 gap-6 font-mono font-bold lg:grid-cols-3">
 				<div class="button group" onclick="location.href='projects'">
 					<span class="mr-2 group-hover:animate-ping">&gt; </span> [ DIR ] PROJECTS
@@ -153,15 +150,3 @@ const stack = [
 		@apply border-primary hover:bg-primary focus:bg-primary shadow-primary/50 cursor-pointer border p-3 text-left hover:text-black hover:shadow-lg;
 	}
 </style>
-
-<script>
-	document
-		.querySelectorAll<HTMLElement>("[data-selected-theme]")
-		.forEach((element) => {
-			element.addEventListener("click", () => {
-				const theme = element.dataset.selectedTheme!;
-				document.documentElement.dataset.theme = theme;
-				localStorage.setItem("theme", theme);
-			});
-		});
-</script>
