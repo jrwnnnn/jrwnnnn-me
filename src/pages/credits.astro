@@ -13,7 +13,7 @@ interface Credits {
 	<main>
 		<div class="space-y-8">
 			<p
-				class="glitch animate-pulse text-5xl font-bold tracking-widest text-green-500"
+				class="glitch animate-pulse text-5xl font-bold tracking-widest"
 			>
 				&gt; CREDITS
 			</p>
@@ -31,7 +31,7 @@ interface Credits {
 							<p class="mb-3 text-xl font-bold tracking-wide uppercase">
 								{category}
 							</p>
-							<ul class="ml-5 list-disc space-y-4 text-green-600">
+							<ul class="ml-5 list-disc space-y-4">
 								{(items as Credits[]).map((credit) => (
 									<li>
 										<p class="font-bold">{credit.title}</p>

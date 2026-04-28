@@ -12,7 +12,30 @@
 
 @theme {
 	--font-mono: "Terminus";
+	--color-primary: #18fd9d;
+	--color-primary-light: oklch(from var(--color-primary) calc(l + 0.08) c h);
+	--color-primary-dark: oklch(from var(--color-primary) calc(l - 0.25) c h);
 }
+
+[data-theme="uranium"] {
+	--color-primary: #18fd9d;
+}
+
+[data-theme="cobalt"] {
+	--color-primary: #18fdff;
+}
+
+[data-theme="argon"] {
+	--color-primary: #e0e0e0;
+}
+
+[data-theme="radium"] {
+	--color-primary: #b0ff60;
+}
+
+/* [data-theme="pink"] {
+	--color-primary: #f7b1c8;
+} */
 
 html {
 	::-webkit-scrollbar {
@@ -22,39 +45,38 @@ html {
 		@apply bg-black;
 	}
 	::-webkit-scrollbar-thumb {
-		@apply bg-green-500;
+		@apply bg-primary;
 	}
 
 	/* Mozilla ahhhhhh special */
 	scrollbar-width: thin;
-	scrollbar-color: theme("colors.green.500") theme("colors.black");
+	scrollbar-color: var(--color-primary) black;
 }
 
 body {
-	@apply flex min-h-dvh flex-col overflow-x-hidden bg-black text-green-500;
-	font-family: ibm;
+	@apply text-primary flex min-h-dvh flex-col overflow-x-hidden bg-black font-['ibm'];
 	background-image:
-		linear-gradient(rgba(34, 197, 94, 0.05) 1px, transparent 1px),
-		linear-gradient(90deg, rgba(34, 197, 94, 0.05) 1px, transparent 1px);
+		linear-gradient(
+			color-mix(in oklch, var(--color-primary) 5%, transparent) 1px,
+			transparent 1px
+		),
+		linear-gradient(
+			90deg,
+			color-mix(in oklch, var(--color-primary) 5%, transparent) 1px,
+			transparent 1px
+		);
 	background-size: 20px 20px;
 }
 
 body::before {
+	@apply pointer-events-none fixed top-0 right-0 bottom-0 left-0 z-20 block;
 	content: " ";
-	display: block;
-	position: fixed;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
 	background: linear-gradient(
 		to bottom,
 		rgba(18, 16, 16, 0) 50%,
 		rgba(0, 0, 0, 0.25) 50%
 	);
 	background-size: 100% 4px;
-	z-index: 20;
-	pointer-events: none;
 }
 
 main {
@@ -65,10 +87,4 @@ main {
 .glitch {
 	position: relative;
 	isolation: isolate;
-}
-
-/* Phophor green filter for images */
-.phosphor-filter {
-	filter: url(#phosphor-overlay) contrast(1.2);
-	transition: filter 0.3s ease;
 }

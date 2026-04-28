@@ -17,7 +17,7 @@ const errorTrace = error?.stack || "";
 			>{errorMessage}</summary
 		>
 		<p
-			class="mt-1 max-h-40 overflow-y-auto text-sm text-green-700 [&::-webkit-scrollbar]:w-1 [&::-webkit-scrollbar-thumb]:bg-transparent hover:[&::-webkit-scrollbar-thumb]:bg-green-600"
+			class="text-primary/60 hover:[&::-webkit-scrollbar-thumb]:bg-primary mt-1 max-h-40 overflow-y-auto text-sm [&::-webkit-scrollbar]:w-1 [&::-webkit-scrollbar-thumb]:bg-transparent"
 		>
 			<strong>Stack Trace</strong> // {errorTrace}
 		</p>
