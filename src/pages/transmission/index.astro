@@ -25,7 +25,7 @@ const cfJwt = Astro.cookies.get("CF_Authorization")?.value;
 					(import.meta.env.DEV || cfJwt) && (
 						<button
 							onclick="window.location.href = '/secure/transmit';"
-							class="border-primary hover:bg-primary/50 cursor-pointer border border-dashed px-3 py-2 font-mono text-xs tracking-widest transition-colors md:py-1"
+							class="border-primary hover:bg-primary/10 cursor-pointer border border-dashed px-3 py-2 font-mono text-xs tracking-widest transition-colors md:py-1"
 						>
 							+ NEW
 						</button>
@@ -37,7 +37,7 @@ const cfJwt = Astro.cookies.get("CF_Authorization")?.value;
 		<div class="flex flex-col space-y-5">
 			{
 				transmissions.results.map((transmission) => (
-					<div>
+					<>
 						<time class="text-primary/70 mb-3 font-mono text-sm tracking-wide italic">
 							[{" "}
 							{new Date(transmission.date_created as string).toLocaleDateString(
@@ -52,7 +52,7 @@ const cfJwt = Astro.cookies.get("CF_Authorization")?.value;
 							]
 						</time>
 						<Container
-							class="flex flex-col border border-green-900/50 bg-black font-mono hover:bg-green-900/10 md:flex-row md:gap-5"
+							class="shadow-primary/50 flex flex-col border border-green-900/50 bg-black font-mono hover:bg-green-900/10 hover:shadow-lg md:flex-row md:gap-5"
 							onclick={`window.location.href = '/transmission/${transmission.slug}'`}
 						>
 							{transmission.art && (
@@ -88,7 +88,7 @@ const cfJwt = Astro.cookies.get("CF_Authorization")?.value;
 								)}
 							</div>
 						</Container>
-					</div>
+					</>
 				))
 			}
 		</div>
