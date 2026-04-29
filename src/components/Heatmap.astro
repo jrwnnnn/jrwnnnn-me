@@ -5,7 +5,6 @@ import ErrorOut from "./ErrorOut.astro";
 interface ContributionDay {
 	contributionCount: number;
 	date: string;
-	color: string;
 }
 
 interface Week {
@@ -44,7 +43,6 @@ const response = await safeAsync(
 				contributionDays {
 				  contributionCount
 				  date
-				  color
 				}
 			  }
 			}
@@ -58,11 +56,20 @@ const response = await safeAsync(
 );
 const graphql = (await response.data!.json()) as GraphQL;
 
+const contributions =
+	graphql.data.user.contributionsCollection.contributionCalendar.weeks.flatMap(
+		(w: Week) => w.contributionDays,
+	);
+
 function getColor(count: number) {
+	const ratio =
+		count /
+		Math.max(...contributions.map((d: ContributionDay) => d.contributionCount));
+
 	if (count === 0) return "bg-black";
-	if (count <= 3) return "bg-primary/20";
-	if (count <= 6) return "bg-primary/50";
-	if (count <= 9) return "bg-primary";
+	if (ratio <= 0.25) return "bg-primary/25";
+	if (ratio <= 0.5) return "bg-primary/50";
+	if (ratio <= 0.75) return "bg-primary";
 	return "bg-primary";
 }
 ---
@@ -76,7 +83,7 @@ function getColor(count: number) {
 						<div class="flex flex-col gap-1">
 							{week.contributionDays.map((day: ContributionDay) => (
 								<div
-									class={`h-3 w-3 ring-1 ring-primary/10 transition-opacity ring-inset hover:opacity-80 ${getColor(day.contributionCount)}`}
+									class={`ring-primary/10 h-3 w-3 ring-1 transition-opacity ring-inset hover:opacity-80 ${getColor(day.contributionCount)}`}
 									title={`${day.contributionCount} contributions on ${day.date}`}
 								/>
 							))}
