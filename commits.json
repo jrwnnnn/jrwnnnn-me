@@ -1,5 +1,106 @@
 [
   {
+    "sha": "692ab264ba8e688773dd687d62174a744b92b90f",
+    "node_id": "C_kwDORJTOeNoAKDY5MmFiMjY0YmE4ZTY4ODc3M2RkNjg3ZDYyMTc0YTc0NGI5MmI5MGY",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "ping@jrwnnnn.me",
+        "date": "2026-05-01T17:05:57Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "ping@jrwnnnn.me",
+        "date": "2026-05-01T17:05:57Z"
+      },
+      "message": "Revert \"chore: Bump version\"\n\nThis reverts commit 3ff5ff9a8ca7b62b70c4de7742d7236bc19750d7.",
+      "tree": {
+        "sha": "23c174c54808a2370992685c0c988d52c2be2f6a",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/23c174c54808a2370992685c0c988d52c2be2f6a"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/692ab264ba8e688773dd687d62174a744b92b90f",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQJ1T3fXticf4OHasCOmnLAZ0rbhWwONNZJwHXfNvT8ThtGjb4W7pXZr50XAzw7nZs5\npH2mB3b2dOtkYgcJS6rgw=\n-----END SSH SIGNATURE-----",
+        "payload": "tree 23c174c54808a2370992685c0c988d52c2be2f6a\nparent 3ff5ff9a8ca7b62b70c4de7742d7236bc19750d7\nauthor Mark Jerwin <ping@jrwnnnn.me> 1777655157 +0800\ncommitter Mark Jerwin <ping@jrwnnnn.me> 1777655157 +0800\n\nRevert \"chore: Bump version\"\n\nThis reverts commit 3ff5ff9a8ca7b62b70c4de7742d7236bc19750d7.\n",
+        "verified_at": "2026-05-01T17:06:03Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/692ab264ba8e688773dd687d62174a744b92b90f",
+    "html_url": "https://github.com/jrwnnnn/re-color/commit/692ab264ba8e688773dd687d62174a744b92b90f",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/692ab264ba8e688773dd687d62174a744b92b90f/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3ff5ff9a8ca7b62b70c4de7742d7236bc19750d7",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/3ff5ff9a8ca7b62b70c4de7742d7236bc19750d7",
+        "html_url": "https://github.com/jrwnnnn/re-color/commit/3ff5ff9a8ca7b62b70c4de7742d7236bc19750d7"
+      }
+    ],
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1
+    },
+    "files": [
+      {
+        "sha": "b937bcf548effbc9a22a1df5a4cc89bf03bda5aa",
+        "filename": "package.json",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/692ab264ba8e688773dd687d62174a744b92b90f/package.json",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/692ab264ba8e688773dd687d62174a744b92b90f/package.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/package.json?ref=692ab264ba8e688773dd687d62174a744b92b90f",
+        "patch": "@@ -4,7 +4,7 @@\n \t\"author\": \"jrwnnnn, kcirdneH, Idonowhatnametouse\",\n \t\"license\": \"MIT\",\n \t\"main\": \"main.js\",\n-\t\"version\": \"0.3.0\",\n+\t\"version\": \"0.2.0\",\n \t\"scripts\": {\n \t\t\"dev\": \"concurrently --kill-others \\\"vite\\\" \\\"electron main.js\\\"\",\n \t\t\"build\": \"vite build && electron-builder\","
+      }
+    ]
+  },
+  {
     "sha": "3ff5ff9a8ca7b62b70c4de7742d7236bc19750d7",
     "node_id": "C_kwDORJTOeNoAKDNmZjVmZjlhOGNhN2I2MmI3MGM0ZGU3NzQyZDcyMzZiYzE5NzUwZDc",
     "commit": {
@@ -421,112 +522,6 @@
         "blob_url": "https://github.com/jrwnnnn/re-color/blob/8fb92f99bdb22f0c00e37659806fb0ccfe6810b1/package.json",
         "raw_url": "https://github.com/jrwnnnn/re-color/raw/8fb92f99bdb22f0c00e37659806fb0ccfe6810b1/package.json",
         "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/package.json?ref=8fb92f99bdb22f0c00e37659806fb0ccfe6810b1",
-        "patch": "@@ -25,15 +25,14 @@\n \t\t},\n \t\t\"win\": {\n \t\t\t\"target\": [\n-\t\t\t\t\"nsis\",\n-\t\t\t\t\"portable\"\n+\t\t\t\t\"nsis\"\n \t\t\t]\n \t\t},\n \t\t\"nsis\": {\n-\t\t\t\"artifactName\": \"${productName} ${version}-Setup.${ext}\"\n-\t\t},\n-\t\t\"portable\": {\n-\t\t\t\"artifactName\": \"${productName} ${version}-Portable.${ext}\"\n+\t\t\t\"oneClick\": false,\n+\t\t\t\"allowToChangeInstallationDirectory\": true,\n+\t\t\t\"artifactName\": \"${productName}-v${version}-x64.${ext}\",\n+\t\t\t\"license\": \"LICENSE\"\n \t\t}\n \t},\n \t\"dependencies\": {"
-      }
-    ]
-  },
-  {
-    "sha": "fc1526d03e394cb547df5d8db6f449cc9e755a13",
-    "node_id": "C_kwDORJTOeNoAKGZjMTUyNmQwM2UzOTRjYjU0N2RmNWQ4ZGI2ZjQ0OWNjOWU3NTVhMTM",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "ping@jrwnnnn.me",
-        "date": "2026-05-01T12:43:41Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-05-01T12:43:41Z"
-      },
-      "message": "Merge branch 'main' into export-canvas",
-      "tree": {
-        "sha": "00e9f609fea6baacf0a5e669b288a876d21c722d",
-        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/00e9f609fea6baacf0a5e669b288a876d21c722d"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/fc1526d03e394cb547df5d8db6f449cc9e755a13",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp9J/9CRC1aQ7uu5UhlAAAS+UQAGV4Me3/V/osk7x/5zMthQ2X\nVRhCkuxW4DZIowJehQ9T69MhUkRfC5KWsvGv6GZKva5F9+TpjluKhrSN6M28fXCe\n0U4/cGytYKMOzmCbtb71zZdbF5j2KjdddoX1EhAWK56A+0bnWiWT5jij9SIwQRyY\nTPIHVt0XnzVUD9Wld+5TcVPfCecaGpPLITRnTYMGiJJE4CpdMviyp6X5FCjXmsFo\nMOws+r6S6kEhN7eWv/yv+Ki25x+hloakD7sxJTBBe5uNO8S4jZJlI9Aggl2yWNwW\nRb2Pabquu+yeQ5ifU65VefZugJCQccEz/sHM8Sff5JtcHfkBPfnQK0L6LaZrTz0b\nWHkO9RhY/GDJ5hafhvmjD2kWv4QLAgnMIdntw4HeCZMTLvy4wndhWp9oteytIv2M\nDoenXMa1pp3omsIBIJzYj7oCylM2hDUbP3kg7ZyLSHZHxWyhJstka5h+vFBeEFZ2\nHStrP+wAIEchnAvzrIMDr7foZ2KnIWaGHhHvxpFxeWLOd3anqQpdhFriDcWsl0rh\nj9h+kCT0tdXluE7B00XGLmmd64HpC3DCVrxGRI6kECBjA89CgklViIvcF82D5A4r\nEw5NlyIKEae3nE4LGfwFDz35pKaRDibG/Er4TUHw+L6kNc55TXZIfGD1J9GA6kJ4\n8IgjOj1GSJOUnt4qwpAr\n=aRxk\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 00e9f609fea6baacf0a5e669b288a876d21c722d\nparent 454f75664f89d153af5ebdff477d87970361dd20\nparent ba0db74eaf8fc2dd8f0cc15a8244d239d9df5c61\nauthor Mark Jerwin <ping@jrwnnnn.me> 1777639421 +0800\ncommitter GitHub <noreply@github.com> 1777639421 +0800\n\nMerge branch 'main' into export-canvas",
-        "verified_at": "2026-05-01T12:43:42Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/fc1526d03e394cb547df5d8db6f449cc9e755a13",
-    "html_url": "https://github.com/jrwnnnn/re-color/commit/fc1526d03e394cb547df5d8db6f449cc9e755a13",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/fc1526d03e394cb547df5d8db6f449cc9e755a13/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "454f75664f89d153af5ebdff477d87970361dd20",
-        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/454f75664f89d153af5ebdff477d87970361dd20",
-        "html_url": "https://github.com/jrwnnnn/re-color/commit/454f75664f89d153af5ebdff477d87970361dd20"
-      },
-      {
-        "sha": "ba0db74eaf8fc2dd8f0cc15a8244d239d9df5c61",
-        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/ba0db74eaf8fc2dd8f0cc15a8244d239d9df5c61",
-        "html_url": "https://github.com/jrwnnnn/re-color/commit/ba0db74eaf8fc2dd8f0cc15a8244d239d9df5c61"
-      }
-    ],
-    "stats": {
-      "total": 11,
-      "additions": 5,
-      "deletions": 6
-    },
-    "files": [
-      {
-        "sha": "b937bcf548effbc9a22a1df5a4cc89bf03bda5aa",
-        "filename": "package.json",
-        "status": "modified",
-        "additions": 5,
-        "deletions": 6,
-        "changes": 11,
-        "blob_url": "https://github.com/jrwnnnn/re-color/blob/fc1526d03e394cb547df5d8db6f449cc9e755a13/package.json",
-        "raw_url": "https://github.com/jrwnnnn/re-color/raw/fc1526d03e394cb547df5d8db6f449cc9e755a13/package.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/package.json?ref=fc1526d03e394cb547df5d8db6f449cc9e755a13",
         "patch": "@@ -25,15 +25,14 @@\n \t\t},\n \t\t\"win\": {\n \t\t\t\"target\": [\n-\t\t\t\t\"nsis\",\n-\t\t\t\t\"portable\"\n+\t\t\t\t\"nsis\"\n \t\t\t]\n \t\t},\n \t\t\"nsis\": {\n-\t\t\t\"artifactName\": \"${productName} ${version}-Setup.${ext}\"\n-\t\t},\n-\t\t\"portable\": {\n-\t\t\t\"artifactName\": \"${productName} ${version}-Portable.${ext}\"\n+\t\t\t\"oneClick\": false,\n+\t\t\t\"allowToChangeInstallationDirectory\": true,\n+\t\t\t\"artifactName\": \"${productName}-v${version}-x64.${ext}\",\n+\t\t\t\"license\": \"LICENSE\"\n \t\t}\n \t},\n \t\"dependencies\": {"
       }
     ]
