@@ -1,5 +1,199 @@
 [
   {
+    "sha": "6e4def24d694c118de183297505cccb70fd24b04",
+    "node_id": "C_kwDORJTOeNoAKDZlNGRlZjI0ZDY5NGMxMThkZTE4MzI5NzUwNWNjY2I3MGZkMjRiMDQ",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "ping@jrwnnnn.me",
+        "date": "2026-05-01T02:58:05Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-05-01T02:58:05Z"
+      },
+      "message": "Merge branch 'main' into dedupe",
+      "tree": {
+        "sha": "b88107e4e267a3bba8c5683c97fb61a10f518b22",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/b88107e4e267a3bba8c5683c97fb61a10f518b22"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/6e4def24d694c118de183297505cccb70fd24b04",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp9Ba9CRC1aQ7uu5UhlAAAHfMQAIRblxC2mSJKErv25hz64gKc\nBSOBAdWiHgqBdGES3VoWV8Sig5zhJjxxdWPo16o5lRv48C0/efxxdiqdKPCFYpCf\ng+mkihC+u4XxfvsJ7DC/K1MplRAqRmnXhehQN7/hQbf0nWuM3EkXyyFLi6K29s8t\nDZbbGsz+zRgzpXoHZrifLNwhTrY60BlTAhOaaFbPCWY0nh+qK8OHNlTl7WtPMDYa\nsxS9vP2eLjH1Ti43sHBB/uQbG2tpC8ZqpnwBgvAivACzfXdh1ZJGM0ERo3UU1MQ0\nYhgPletYgddDL/0Nfb7HelYCOxlWTRfVruiElfp97CGH/+F0gr4dP4QDtBfY+n9D\ngrixKbdBEu71+uTU5BKO3lmlY+iNdHhwF9DUXlCopFSS0ji06mfC2xLhfLW289Lu\n6xoJWvtf1buDoak/0uisJ4Qn4Yu3uwKX7ED9qAT6/y8D+/V4UuAwBcDQMQAsBCL0\nKQpcvUM/9Md7+rsHjqNEtDlBi/RV6WLwiIS0Vwci59L39XvvFu6QiWN/sAN5VjYh\n0gqM+zENnsDOWKF1MbwAKl+s7gKzHG1k0X0Rz1x7ri+9MF5ORwHqne0NisaCB6Q5\n98XEh7g3rD0nioiuYCL64FKl2MnWmDD3mWkihYlhRUQ8K/Z2NMMaZknSjPCxDGlW\nfklGGWOM919eb5Mc4UcW\n=mNXs\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree b88107e4e267a3bba8c5683c97fb61a10f518b22\nparent a4d25756911da46ff4a1c1d9246564ff82747b8c\nparent f503e70089008ddd0171c20035783e99ba5ab7f2\nauthor Mark Jerwin <ping@jrwnnnn.me> 1777604285 +0800\ncommitter GitHub <noreply@github.com> 1777604285 +0800\n\nMerge branch 'main' into dedupe",
+        "verified_at": "2026-05-01T02:58:05Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/6e4def24d694c118de183297505cccb70fd24b04",
+    "html_url": "https://github.com/jrwnnnn/re-color/commit/6e4def24d694c118de183297505cccb70fd24b04",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/6e4def24d694c118de183297505cccb70fd24b04/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a4d25756911da46ff4a1c1d9246564ff82747b8c",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/a4d25756911da46ff4a1c1d9246564ff82747b8c",
+        "html_url": "https://github.com/jrwnnnn/re-color/commit/a4d25756911da46ff4a1c1d9246564ff82747b8c"
+      },
+      {
+        "sha": "f503e70089008ddd0171c20035783e99ba5ab7f2",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/f503e70089008ddd0171c20035783e99ba5ab7f2",
+        "html_url": "https://github.com/jrwnnnn/re-color/commit/f503e70089008ddd0171c20035783e99ba5ab7f2"
+      }
+    ],
+    "stats": {
+      "total": 0,
+      "additions": 0,
+      "deletions": 0
+    },
+    "files": []
+  },
+  {
+    "sha": "a4d25756911da46ff4a1c1d9246564ff82747b8c",
+    "node_id": "C_kwDORJTOeNoAKGE0ZDI1NzU2OTExZGE0NmZmNGExYzFkOTI0NjU2NGZmODI3NDdiOGM",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "ping@jrwnnnn.me",
+        "date": "2026-05-01T02:56:34Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "ping@jrwnnnn.me",
+        "date": "2026-05-01T02:56:34Z"
+      },
+      "message": "chore: Dedupe dependencies",
+      "tree": {
+        "sha": "b88107e4e267a3bba8c5683c97fb61a10f518b22",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/b88107e4e267a3bba8c5683c97fb61a10f518b22"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/a4d25756911da46ff4a1c1d9246564ff82747b8c",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQKswamNURnnUnM5hvGp9fSk1vZs+jaHDybzq0ecWcoBBIGVc09rBkKkE6oaA7e+ggk\nI5pWezSJSSqosKmBgRzgE=\n-----END SSH SIGNATURE-----",
+        "payload": "tree b88107e4e267a3bba8c5683c97fb61a10f518b22\nparent c2ec1636f5d50fec8d6323a6cdf1a39c73b0e27c\nauthor Mark Jerwin <ping@jrwnnnn.me> 1777604194 +0800\ncommitter Mark Jerwin <ping@jrwnnnn.me> 1777604194 +0800\n\nchore: Dedupe dependencies\n",
+        "verified_at": "2026-05-01T02:56:39Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/a4d25756911da46ff4a1c1d9246564ff82747b8c",
+    "html_url": "https://github.com/jrwnnnn/re-color/commit/a4d25756911da46ff4a1c1d9246564ff82747b8c",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/a4d25756911da46ff4a1c1d9246564ff82747b8c/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c2ec1636f5d50fec8d6323a6cdf1a39c73b0e27c",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/c2ec1636f5d50fec8d6323a6cdf1a39c73b0e27c",
+        "html_url": "https://github.com/jrwnnnn/re-color/commit/c2ec1636f5d50fec8d6323a6cdf1a39c73b0e27c"
+      }
+    ],
+    "stats": {
+      "total": 53,
+      "additions": 20,
+      "deletions": 33
+    },
+    "files": [
+      {
+        "sha": "e06bea87125cf15f5afe6a7d712d3d291a411df2",
+        "filename": "package-lock.json",
+        "status": "modified",
+        "additions": 20,
+        "deletions": 33,
+        "changes": 53,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/a4d25756911da46ff4a1c1d9246564ff82747b8c/package-lock.json",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/a4d25756911da46ff4a1c1d9246564ff82747b8c/package-lock.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/package-lock.json?ref=a4d25756911da46ff4a1c1d9246564ff82747b8c",
+        "patch": "@@ -1,12 +1,12 @@\n {\n \t\"name\": \"re-color\",\n-\t\"version\": \"1.0.0\",\n+\t\"version\": \"1.1.0\",\n \t\"lockfileVersion\": 3,\n \t\"requires\": true,\n \t\"packages\": {\n \t\t\"\": {\n \t\t\t\"name\": \"re-color\",\n-\t\t\t\"version\": \"1.0.0\",\n+\t\t\t\"version\": \"1.1.0\",\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"dependencies\": {\n \t\t\t\t\"color-namer\": \"^1.4.0\",\n@@ -471,6 +471,7 @@\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"BSD-2-Clause\",\n \t\t\t\"optional\": true,\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"cross-dirname\": \"^0.1.0\",\n \t\t\t\t\"debug\": \"^4.3.4\",\n@@ -492,6 +493,7 @@\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"graceful-fs\": \"^4.2.0\",\n \t\t\t\t\"jsonfile\": \"^6.0.1\",\n@@ -508,6 +510,7 @@\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"universalify\": \"^2.0.0\"\n \t\t\t},\n@@ -522,6 +525,7 @@\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n+\t\t\t\"peer\": true,\n \t\t\t\"engines\": {\n \t\t\t\t\"node\": \">= 10.0.0\"\n \t\t\t}\n@@ -533,7 +537,6 @@\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n-\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@emnapi/wasi-threads\": \"1.2.1\",\n \t\t\t\t\"tslib\": \"^2.4.0\"\n@@ -546,7 +549,6 @@\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n-\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"tslib\": \"^2.4.0\"\n \t\t\t}\n@@ -1679,7 +1681,6 @@\n \t\t\t\"integrity\": \"sha512-HDQH9O/47Dxi1ceDhBXdaldtf/WV9yRYMjbjCuNk3qnaTD564qwv61Y7+gTxwxRKzSrgO5uhtw584igXVuuZkA==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n-\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@typescript-eslint/scope-manager\": \"8.59.1\",\n \t\t\t\t\"@typescript-eslint/types\": \"8.59.1\",\n@@ -2110,7 +2111,6 @@\n \t\t\t\"integrity\": \"sha512-UVJyE9MttOsBQIDKw1skb9nAwQuR5wuGD3+82K6JgJlm/Y+KI92oNsMNGZCYdDsVtRHSak0pcV5Dno5+4jh9sw==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n-\t\t\t\"peer\": true,\n \t\t\t\"bin\": {\n \t\t\t\t\"acorn\": \"bin/acorn\"\n \t\t\t},\n@@ -2144,7 +2144,6 @@\n \t\t\t\"integrity\": \"sha512-fgFx7Hfoq60ytK2c7DhnF8jIvzYgOMxfugjLOSMHjLIPgenqa7S7oaagATUq99mV6IYvN2tRmC0wnTYX6iPbMw==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n-\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"fast-deep-equal\": \"^3.1.1\",\n \t\t\t\t\"fast-json-stable-stringify\": \"^2.0.0\",\n@@ -2305,22 +2304,6 @@\n \t\t\t\t\"semver\": \"bin/semver.js\"\n \t\t\t}\n \t\t},\n-\t\t\"node_modules/app-builder-lib/node_modules/ci-info\": {\n-\t\t\t\"version\": \"4.3.1\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/ci-info/-/ci-info-4.3.1.tgz\",\n-\t\t\t\"integrity\": \"sha512-Wdy2Igu8OcBpI2pZePZ5oWjPC38tmDVx5WKUXKwlLYkA0ozo85sLsLvkBbBn/sZaSCMFOGZJ14fvW9t5/d7kdA==\",\n-\t\t\t\"dev\": true,\n-\t\t\t\"funding\": [\n-\t\t\t\t{\n-\t\t\t\t\t\"type\": \"github\",\n-\t\t\t\t\t\"url\": \"https://github.com/sponsors/sibiraj-s\"\n-\t\t\t\t}\n-\t\t\t],\n-\t\t\t\"license\": \"MIT\",\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \">=8\"\n-\t\t\t}\n-\t\t},\n \t\t\"node_modules/app-builder-lib/node_modules/fs-extra\": {\n \t\t\t\"version\": \"10.1.0\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/fs-extra/-/fs-extra-10.1.0.tgz\",\n@@ -2711,9 +2694,9 @@\n \t\t\t\"license\": \"MIT\"\n \t\t},\n \t\t\"node_modules/ci-info\": {\n-\t\t\t\"version\": \"4.4.0\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/ci-info/-/ci-info-4.4.0.tgz\",\n-\t\t\t\"integrity\": \"sha512-77PSwercCZU2Fc4sX94eF8k8Pxte6JAwL4/ICZLFjJLqegs7kCuAsqqj/70NQF6TvDpgFjkubQB2FW2ZZddvQg==\",\n+\t\t\t\"version\": \"4.3.1\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/ci-info/-/ci-info-4.3.1.tgz\",\n+\t\t\t\"integrity\": \"sha512-Wdy2Igu8OcBpI2pZePZ5oWjPC38tmDVx5WKUXKwlLYkA0ozo85sLsLvkBbBn/sZaSCMFOGZJ14fvW9t5/d7kdA==\",\n \t\t\t\"dev\": true,\n \t\t\t\"funding\": [\n \t\t\t\t{\n@@ -2892,7 +2875,8 @@\n \t\t\t\"integrity\": \"sha512-+R08/oI0nl3vfPcqftZRpytksBXDzOUveBq/NBVx0sUp1axwzPQrKinNx5yd5sxPu8j1wIy8AfnVQ+5eFdha6Q==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n-\t\t\t\"optional\": true\n+\t\t\t\"optional\": true,\n+\t\t\t\"peer\": true\n \t\t},\n \t\t\"node_modules/cross-spawn\": {\n \t\t\t\"version\": \"7.0.6\",\n@@ -3575,6 +3559,7 @@\n \t\t\t\"dev\": true,\n \t\t\t\"hasInstallScript\": true,\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@electron/asar\": \"^3.2.1\",\n \t\t\t\t\"debug\": \"^4.1.1\",\n@@ -3595,6 +3580,7 @@\n \t\t\t\"integrity\": \"sha512-YJDaCJZEnBmcbw13fvdAM9AwNOJwOzrE4pqMqBq5nFiEqXUqHwlK4B+3pUw6JNvfSPtX05xFHtYy/1ni01eGCw==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"graceful-fs\": \"^4.1.2\",\n \t\t\t\t\"jsonfile\": \"^4.0.0\",\n@@ -3803,7 +3789,6 @@\n \t\t\t\"integrity\": \"sha512-wiyGaKsDgqXvF40P8mDwiUp/KQjE1FdrIEJsM8PZ3XCiniTMXS3OHWWUe5FI5agoCnr8x4xPrTDZuxsBlNHl+Q==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n-\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@eslint-community/eslint-utils\": \"^4.8.0\",\n \t\t\t\t\"@eslint-community/regexpp\": \"^4.12.2\",\n@@ -5387,6 +5372,7 @@\n \t\t\t\"integrity\": \"sha512-FP+p8RB8OWpF3YZBCrP5gtADmtXApB5AMLn+vdyA+PyxCjrCs00mjyUozssO33cwDeT3wNGdLxJ5M//YqtHAJw==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"minimist\": \"^1.2.6\"\n \t\t\t},\n@@ -5754,7 +5740,6 @@\n \t\t\t\"integrity\": \"sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n-\t\t\t\"peer\": true,\n \t\t\t\"engines\": {\n \t\t\t\t\"node\": \">=12\"\n \t\t\t},\n@@ -5848,6 +5833,7 @@\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"commander\": \"^9.4.0\"\n \t\t\t},\n@@ -5865,6 +5851,7 @@\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n+\t\t\t\"peer\": true,\n \t\t\t\"engines\": {\n \t\t\t\t\"node\": \"^12.20.0 || >=14\"\n \t\t\t}\n@@ -5885,7 +5872,6 @@\n \t\t\t\"integrity\": \"sha512-7igPTM53cGHMW8xWuVTydi2KO233VFiTNyF5hLJqpilHfmn8C8gPf+PS7dUT64YcXFbiMGZxS9pCSxL/Dxm/Jw==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n-\t\t\t\"peer\": true,\n \t\t\t\"bin\": {\n \t\t\t\t\"prettier\": \"bin/prettier.cjs\"\n \t\t\t},\n@@ -6133,6 +6119,7 @@\n \t\t\t\"deprecated\": \"Rimraf versions prior to v4 are no longer supported\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"ISC\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"glob\": \"^7.1.3\"\n \t\t\t},\n@@ -6564,6 +6551,7 @@\n \t\t\t\"integrity\": \"sha512-yYrrsWnrXMcdsnu/7YMYAofM1ktpL5By7vZhf15CrXijWWrEYZks5AXBudalfSWJLlnen/QUJUB5aoB0kqZUGA==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"mkdirp\": \"^0.5.1\",\n \t\t\t\t\"rimraf\": \"~2.6.2\"\n@@ -6757,7 +6745,6 @@\n \t\t\t\"integrity\": \"sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==\",\n \t\t\t\"devOptional\": true,\n \t\t\t\"license\": \"Apache-2.0\",\n-\t\t\t\"peer\": true,\n \t\t\t\"bin\": {\n \t\t\t\t\"tsc\": \"bin/tsc\",\n \t\t\t\t\"tsserver\": \"bin/tsserver\"\n@@ -6863,7 +6850,6 @@\n \t\t\t\"integrity\": \"sha512-rZuUu9j6J5uotLDs+cAA4O5H4K1SfPliUlQwqa6YEwSrWDZzP4rhm00oJR5snMewjxF5V/K3D4kctsUTsIU9Mw==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n-\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"lightningcss\": \"^1.32.0\",\n \t\t\t\t\"picomatch\": \"^4.0.4\",\n@@ -6962,7 +6948,6 @@\n \t\t\t\"resolved\": \"https://registry.npmjs.org/vue/-/vue-3.5.33.tgz\",\n \t\t\t\"integrity\": \"sha512-1AgChhx5w3ALgT4oK3acm2Es/7jyZhWSVUfs3rOBlGQC0rjEDkS7G4lWlJJGGNQD+BV3reCwbQrOe1mPNwKHBQ==\",\n \t\t\t\"license\": \"MIT\",\n-\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@vue/compiler-dom\": \"3.5.33\",\n \t\t\t\t\"@vue/compiler-sfc\": \"3.5.33\",\n@@ -7011,6 +6996,7 @@\n \t\t\t\"integrity\": \"sha512-Vxi9pJdbN3ZnVGLODVtZ7y4Y2kzAAE2Cm0CZ3ZDRvydVYxZ6VrnBhLikBsRS+dpwj4Jv4UCv21PTEwF5rQ9WXg==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"debug\": \"^4.4.0\",\n \t\t\t\t\"eslint-scope\": \"^8.2.0 || ^9.0.0\",\n@@ -7035,6 +7021,7 @@\n \t\t\t\"integrity\": \"sha512-vFKC2IEtQnVhpT78h1Yp8wzwrf8CM+MzKMHGJZfBtzhZNycRFnXsHk6E5TxIkkMsgNS7mdX3AGB7x2QM2di4lA==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"ISC\",\n+\t\t\t\"peer\": true,\n \t\t\t\"bin\": {\n \t\t\t\t\"semver\": \"bin/semver.js\"\n \t\t\t},"
+      }
+    ]
+  },
+  {
     "sha": "f503e70089008ddd0171c20035783e99ba5ab7f2",
     "node_id": "C_kwDORJTOeNoAKGY1MDNlNzAwODkwMDhkZGQwMTcxYzIwMDM1NzgzZTk5YmE1YWI3ZjI",
     "commit": {
@@ -608,208 +802,6 @@
         "blob_url": "https://github.com/jrwnnnn/re-color/blob/3b25fcd39ecf123415d1b4b2a73084e13c1f3874/src%2Flib%2FuseStage.ts",
         "raw_url": "https://github.com/jrwnnnn/re-color/raw/3b25fcd39ecf123415d1b4b2a73084e13c1f3874/src%2Flib%2FuseStage.ts",
         "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/src%2Flib%2FuseStage.ts?ref=3b25fcd39ecf123415d1b4b2a73084e13c1f3874",
-        "patch": "@@ -1,19 +1,23 @@\n import Konva from \"konva\";\n \n+const CANVAS_WIDTH = 1920;\n+const CANVAS_HEIGHT = 1080;\n+\n export function useStage(\n \tcontainerRef: Readonly<{ value: HTMLDivElement | undefined }>,\n ) {\n \t// Konva.Stage  wraps all layers and owns the <canvas> element.\n-\t// We never put this in a Vue ref because Konva manages its own reactivity internally.\n \tlet stage: Konva.Stage;\n \n \t// bgLayer is a static white rectangle that never gets drawn on.\n-\t// It exists purely so the eraser has something to reveal — eraser uses\n+\t// Eraser reveals this layer.\n \tlet bgLayer: Konva.Layer;\n \n \t// This layer is where all user strokes live.\n \tlet drawLayer: Konva.Layer;\n \n+\t// Creates the stage, adds the white background, adds the drawing layer,\n+\t// then calls fitToViewport so the canvas starts centered and scaled to fit the window.\n \tfunction init() {\n \t\tconst { width, height } = containerRef.value!.getBoundingClientRect();\n \n@@ -24,8 +28,8 @@ export function useStage(\n \t\t\tnew Konva.Rect({\n \t\t\t\tx: 0,\n \t\t\t\ty: 0,\n-\t\t\t\twidth,\n-\t\t\t\theight,\n+\t\t\t\twidth: CANVAS_WIDTH,\n+\t\t\t\theight: CANVAS_HEIGHT,\n \t\t\t\tfill: \"#ffffff\",\n \t\t\t\tlistening: false,\n \t\t\t}),\n@@ -34,29 +38,47 @@ export function useStage(\n \n \t\tdrawLayer = new Konva.Layer();\n \t\tdrawLayer.clipFunc((ctx) => {\n-\t\t\tctx.rect(0, 0, stage.width(), stage.height());\n+\t\t\tctx.rect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);\n \t\t});\n \t\tstage.add(drawLayer);\n \n+\t\tfitToViewport(width, height);\n+\n \t\twindow.addEventListener(\"resize\", handleResize);\n \t\tstage.on(\"wheel\", handleWheel);\n \t}\n \n+\t// Cleanup when the component unmounts. No memory leaks :)))\n \tfunction destroy() {\n \t\twindow.removeEventListener(\"resize\", handleResize);\n \t\tstage?.destroy();\n \t}\n \n+\t// Figures out the biggest the canvas can be while still fitting inside the\n+\t// window with some breathing room. Then centers it.\n+\tfunction fitToViewport(viewportW: number, viewportH: number) {\n+\t\tconst scale =\n+\t\t\tMath.min(viewportW / CANVAS_WIDTH, viewportH / CANVAS_HEIGHT) * 0.9;\n+\t\tstage.scale({ x: scale, y: scale });\n+\t\tstage.position({\n+\t\t\tx: (viewportW - CANVAS_WIDTH * scale) / 2,\n+\t\t\ty: (viewportH - CANVAS_HEIGHT * scale) / 2,\n+\t\t});\n+\t\tstage.batchDraw();\n+\t}\n+\n+\t// When the window is resized, update the stage size to match the new window size.\n \tfunction handleResize() {\n \t\tif (!containerRef.value) return;\n \t\tconst { width, height } = containerRef.value.getBoundingClientRect();\n \t\tstage.width(width);\n \t\tstage.height(height);\n-\t\t(bgLayer.findOne(\"Rect\") as Konva.Rect).setAttrs({ width, height });\n-\t\tdrawLayer.clipFunc((ctx) => ctx.rect(0, 0, width, height));\n-\t\tbgLayer.batchDraw();\n+\t\tstage.batchDraw();\n \t}\n \n+\t// Scroll to zoom. Keeps the point under your cursor fixed while zooming.\n+\t// If the canvas is smaller than the viewport it centers it, if it's bigger it\n+\t// clamps so the user can't scroll past the edges.\n \tfunction handleWheel(e: Konva.KonvaEventObject<WheelEvent>) {\n \t\te.evt.preventDefault();\n \n@@ -65,7 +87,6 @@ export function useStage(\n \t\tconst pointer = stage.getPointerPosition()!;\n \t\tconst rawScale = e.evt.deltaY < 0 ? oldScale * scaleBy : oldScale / scaleBy;\n \n-\t\t// Allow zoom out, but don't go below 0.1 or above 8\n \t\tconst newScale = Math.max(0.1, Math.min(8, rawScale));\n \n \t\tstage.scale({ x: newScale, y: newScale });\n@@ -76,25 +97,21 @@ export function useStage(\n \t\tlet newX = pointer.x - (pointer.x - stage.x()) * (newScale / oldScale);\n \t\tlet newY = pointer.y - (pointer.y - stage.y()) * (newScale / oldScale);\n \n-\t\t// If canvas is smaller than viewport, center it instead of clamping\n-\t\tif (newScale < 1) {\n-\t\t\tnewX = (w - w * newScale) / 2;\n-\t\t\tnewY = (h - h * newScale) / 2;\n+\t\tconst canvasW = CANVAS_WIDTH * newScale;\n+\t\tconst canvasH = CANVAS_HEIGHT * newScale;\n+\t\tif (canvasW < w && canvasH < h) {\n+\t\t\tnewX = (w - canvasW) / 2;\n+\t\t\tnewY = (h - canvasH) / 2;\n \t\t} else {\n-\t\t\t// Clamping only applies when zoomed in\n-\t\t\tnewX = Math.min(0, Math.max(newX, w - w * newScale));\n-\t\t\tnewY = Math.min(0, Math.max(newY, h - h * newScale));\n+\t\t\tnewX = Math.min(0, Math.max(newX, w - canvasW));\n+\t\t\tnewY = Math.min(0, Math.max(newY, h - canvasH));\n \t\t}\n \n \t\tstage.position({ x: newX, y: newY });\n \t\tstage.batchDraw();\n \t}\n \n-\t/*\n-\tThis converts screen-space mouse coordinates to canvas-space coordinates.\n-\tWhen zoomed in, the stage is scaled and offset dividing by scale and\n-\tsubtracting the stage's position gives the true point on the canvas.\\\n-\t*/\n+\t// Translates your mouse position on screen to the actual coordinate on the canvas.\n \tfunction getPos() {\n \t\tconst scale = stage.scaleX();\n \t\tconst pointer = stage.getPointerPosition()!;\n@@ -104,14 +121,15 @@ export function useStage(\n \t\t};\n \t}\n \n+\t// Creates a new clean canvas.\n \tfunction newCanvas() {\n \t\tif (!confirm(\"Start a new painting? Your current work will be lost.\"))\n \t\t\treturn;\n \t\tdrawLayer.destroyChildren();\n \t\tdrawLayer.batchDraw();\n-\t\tstage.scale({ x: 1, y: 1 });\n-\t\tstage.position({ x: 0, y: 0 });\n-\t\tstage.batchDraw();\n+\n+\t\tconst { width, height } = containerRef.value!.getBoundingClientRect();\n+\t\tfitToViewport(width, height);\n \t}\n \n \treturn {"
-      }
-    ]
-  },
-  {
-    "sha": "7e12d245060e3ce2566aef3ca2f2e7c0fb73a5df",
-    "node_id": "C_kwDORJTOeNoAKDdlMTJkMjQ1MDYwZTNjZTI1NjZhZWYzY2EyZjJlN2MwZmI3M2E1ZGY",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "ping@jrwnnnn.me",
-        "date": "2026-04-30T10:28:44Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "ping@jrwnnnn.me",
-        "date": "2026-04-30T10:28:44Z"
-      },
-      "message": "chore: Bump back version",
-      "tree": {
-        "sha": "62b1921042813b9ea91f91095c86257b0d11a568",
-        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/62b1921042813b9ea91f91095c86257b0d11a568"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/7e12d245060e3ce2566aef3ca2f2e7c0fb73a5df",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQLVQo7MacCS/9wwFUhp5mV3C786vi49csqcBe9VG7ve9vTZxvmt+QkabaJ29d/CQZ6\nCxZ4wMWbpkX4tKysgJqgI=\n-----END SSH SIGNATURE-----",
-        "payload": "tree 62b1921042813b9ea91f91095c86257b0d11a568\nparent ac586711e4a8c241426e27c4f00217d20658d802\nauthor Mark Jerwin <ping@jrwnnnn.me> 1777544924 +0800\ncommitter Mark Jerwin <ping@jrwnnnn.me> 1777544924 +0800\n\nchore: Bump back version\n",
-        "verified_at": "2026-04-30T10:28:48Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/7e12d245060e3ce2566aef3ca2f2e7c0fb73a5df",
-    "html_url": "https://github.com/jrwnnnn/re-color/commit/7e12d245060e3ce2566aef3ca2f2e7c0fb73a5df",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/7e12d245060e3ce2566aef3ca2f2e7c0fb73a5df/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "ac586711e4a8c241426e27c4f00217d20658d802",
-        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/ac586711e4a8c241426e27c4f00217d20658d802",
-        "html_url": "https://github.com/jrwnnnn/re-color/commit/ac586711e4a8c241426e27c4f00217d20658d802"
-      }
-    ],
-    "stats": {
-      "total": 2,
-      "additions": 1,
-      "deletions": 1
-    },
-    "files": [
-      {
-        "sha": "f68d1090fa22765d7efd53e6c7353f067b4e7d56",
-        "filename": "package.json",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/re-color/blob/7e12d245060e3ce2566aef3ca2f2e7c0fb73a5df/package.json",
-        "raw_url": "https://github.com/jrwnnnn/re-color/raw/7e12d245060e3ce2566aef3ca2f2e7c0fb73a5df/package.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/package.json?ref=7e12d245060e3ce2566aef3ca2f2e7c0fb73a5df",
-        "patch": "@@ -4,7 +4,7 @@\n \t\"author\": \"jrwnnnn, kcirdneH, Idonowhatnametouse\",\n \t\"license\": \"MIT\",\n \t\"main\": \"main.js\",\n-\t\"version\": \"1.1.0\",\n+\t\"version\": \"1.0.0\",\n \t\"scripts\": {\n \t\t\"dev\": \"concurrently --kill-others \\\"vite\\\" \\\"electron main.js\\\"\",\n \t\t\"build\": \"vite build && electron-builder\","
-      }
-    ]
-  },
-  {
-    "sha": "c26e31f536d73e11615f24cf91fd75fb02c39f29",
-    "node_id": "C_kwDORJTOeNoAKGMyNmUzMWY1MzZkNzNlMTE2MTVmMjRjZjkxZmQ3NWZiMDJjMzlmMjk",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "ping@jrwnnnn.me",
-        "date": "2026-04-30T10:15:41Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "ping@jrwnnnn.me",
-        "date": "2026-04-30T10:15:41Z"
-      },
-      "message": "fix: Separate canvas size from stage size to prevent resize on window change (#53)\n\nAlso improved the comments :)))",
-      "tree": {
-        "sha": "e5ec3a4bb3ed53f33baee7f02066f6f106e98d4a",
-        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/e5ec3a4bb3ed53f33baee7f02066f6f106e98d4a"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/c26e31f536d73e11615f24cf91fd75fb02c39f29",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQP2xCvRGQC4ym80VT6lZ5hxMXBfMtonrccEpzqH7PZAsILybNM9/PW4BJmEv+rxy5y\nKinty9TMNUFxtMlyjemAE=\n-----END SSH SIGNATURE-----",
-        "payload": "tree e5ec3a4bb3ed53f33baee7f02066f6f106e98d4a\nparent ac586711e4a8c241426e27c4f00217d20658d802\nauthor Mark Jerwin <ping@jrwnnnn.me> 1777544141 +0800\ncommitter Mark Jerwin <ping@jrwnnnn.me> 1777544141 +0800\n\nfix: Separate canvas size from stage size to prevent resize on window change (#53)\n\nAlso improved the comments :)))\n",
-        "verified_at": "2026-04-30T10:15:45Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/c26e31f536d73e11615f24cf91fd75fb02c39f29",
-    "html_url": "https://github.com/jrwnnnn/re-color/commit/c26e31f536d73e11615f24cf91fd75fb02c39f29",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/c26e31f536d73e11615f24cf91fd75fb02c39f29/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "ac586711e4a8c241426e27c4f00217d20658d802",
-        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/ac586711e4a8c241426e27c4f00217d20658d802",
-        "html_url": "https://github.com/jrwnnnn/re-color/commit/ac586711e4a8c241426e27c4f00217d20658d802"
-      }
-    ],
-    "stats": {
-      "total": 66,
-      "additions": 42,
-      "deletions": 24
-    },
-    "files": [
-      {
-        "sha": "3d9b0e4381ee940e06dcbbe2d0814b66a414e5ed",
-        "filename": "src/lib/useStage.ts",
-        "status": "modified",
-        "additions": 42,
-        "deletions": 24,
-        "changes": 66,
-        "blob_url": "https://github.com/jrwnnnn/re-color/blob/c26e31f536d73e11615f24cf91fd75fb02c39f29/src%2Flib%2FuseStage.ts",
-        "raw_url": "https://github.com/jrwnnnn/re-color/raw/c26e31f536d73e11615f24cf91fd75fb02c39f29/src%2Flib%2FuseStage.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/src%2Flib%2FuseStage.ts?ref=c26e31f536d73e11615f24cf91fd75fb02c39f29",
         "patch": "@@ -1,19 +1,23 @@\n import Konva from \"konva\";\n \n+const CANVAS_WIDTH = 1920;\n+const CANVAS_HEIGHT = 1080;\n+\n export function useStage(\n \tcontainerRef: Readonly<{ value: HTMLDivElement | undefined }>,\n ) {\n \t// Konva.Stage  wraps all layers and owns the <canvas> element.\n-\t// We never put this in a Vue ref because Konva manages its own reactivity internally.\n \tlet stage: Konva.Stage;\n \n \t// bgLayer is a static white rectangle that never gets drawn on.\n-\t// It exists purely so the eraser has something to reveal — eraser uses\n+\t// Eraser reveals this layer.\n \tlet bgLayer: Konva.Layer;\n \n \t// This layer is where all user strokes live.\n \tlet drawLayer: Konva.Layer;\n \n+\t// Creates the stage, adds the white background, adds the drawing layer,\n+\t// then calls fitToViewport so the canvas starts centered and scaled to fit the window.\n \tfunction init() {\n \t\tconst { width, height } = containerRef.value!.getBoundingClientRect();\n \n@@ -24,8 +28,8 @@ export function useStage(\n \t\t\tnew Konva.Rect({\n \t\t\t\tx: 0,\n \t\t\t\ty: 0,\n-\t\t\t\twidth,\n-\t\t\t\theight,\n+\t\t\t\twidth: CANVAS_WIDTH,\n+\t\t\t\theight: CANVAS_HEIGHT,\n \t\t\t\tfill: \"#ffffff\",\n \t\t\t\tlistening: false,\n \t\t\t}),\n@@ -34,29 +38,47 @@ export function useStage(\n \n \t\tdrawLayer = new Konva.Layer();\n \t\tdrawLayer.clipFunc((ctx) => {\n-\t\t\tctx.rect(0, 0, stage.width(), stage.height());\n+\t\t\tctx.rect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);\n \t\t});\n \t\tstage.add(drawLayer);\n \n+\t\tfitToViewport(width, height);\n+\n \t\twindow.addEventListener(\"resize\", handleResize);\n \t\tstage.on(\"wheel\", handleWheel);\n \t}\n \n+\t// Cleanup when the component unmounts. No memory leaks :)))\n \tfunction destroy() {\n \t\twindow.removeEventListener(\"resize\", handleResize);\n \t\tstage?.destroy();\n \t}\n \n+\t// Figures out the biggest the canvas can be while still fitting inside the\n+\t// window with some breathing room. Then centers it.\n+\tfunction fitToViewport(viewportW: number, viewportH: number) {\n+\t\tconst scale =\n+\t\t\tMath.min(viewportW / CANVAS_WIDTH, viewportH / CANVAS_HEIGHT) * 0.9;\n+\t\tstage.scale({ x: scale, y: scale });\n+\t\tstage.position({\n+\t\t\tx: (viewportW - CANVAS_WIDTH * scale) / 2,\n+\t\t\ty: (viewportH - CANVAS_HEIGHT * scale) / 2,\n+\t\t});\n+\t\tstage.batchDraw();\n+\t}\n+\n+\t// When the window is resized, update the stage size to match the new window size.\n \tfunction handleResize() {\n \t\tif (!containerRef.value) return;\n \t\tconst { width, height } = containerRef.value.getBoundingClientRect();\n \t\tstage.width(width);\n \t\tstage.height(height);\n-\t\t(bgLayer.findOne(\"Rect\") as Konva.Rect).setAttrs({ width, height });\n-\t\tdrawLayer.clipFunc((ctx) => ctx.rect(0, 0, width, height));\n-\t\tbgLayer.batchDraw();\n+\t\tstage.batchDraw();\n \t}\n \n+\t// Scroll to zoom. Keeps the point under your cursor fixed while zooming.\n+\t// If the canvas is smaller than the viewport it centers it, if it's bigger it\n+\t// clamps so the user can't scroll past the edges.\n \tfunction handleWheel(e: Konva.KonvaEventObject<WheelEvent>) {\n \t\te.evt.preventDefault();\n \n@@ -65,7 +87,6 @@ export function useStage(\n \t\tconst pointer = stage.getPointerPosition()!;\n \t\tconst rawScale = e.evt.deltaY < 0 ? oldScale * scaleBy : oldScale / scaleBy;\n \n-\t\t// Allow zoom out, but don't go below 0.1 or above 8\n \t\tconst newScale = Math.max(0.1, Math.min(8, rawScale));\n \n \t\tstage.scale({ x: newScale, y: newScale });\n@@ -76,25 +97,21 @@ export function useStage(\n \t\tlet newX = pointer.x - (pointer.x - stage.x()) * (newScale / oldScale);\n \t\tlet newY = pointer.y - (pointer.y - stage.y()) * (newScale / oldScale);\n \n-\t\t// If canvas is smaller than viewport, center it instead of clamping\n-\t\tif (newScale < 1) {\n-\t\t\tnewX = (w - w * newScale) / 2;\n-\t\t\tnewY = (h - h * newScale) / 2;\n+\t\tconst canvasW = CANVAS_WIDTH * newScale;\n+\t\tconst canvasH = CANVAS_HEIGHT * newScale;\n+\t\tif (canvasW < w && canvasH < h) {\n+\t\t\tnewX = (w - canvasW) / 2;\n+\t\t\tnewY = (h - canvasH) / 2;\n \t\t} else {\n-\t\t\t// Clamping only applies when zoomed in\n-\t\t\tnewX = Math.min(0, Math.max(newX, w - w * newScale));\n-\t\t\tnewY = Math.min(0, Math.max(newY, h - h * newScale));\n+\t\t\tnewX = Math.min(0, Math.max(newX, w - canvasW));\n+\t\t\tnewY = Math.min(0, Math.max(newY, h - canvasH));\n \t\t}\n \n \t\tstage.position({ x: newX, y: newY });\n \t\tstage.batchDraw();\n \t}\n \n-\t/*\n-\tThis converts screen-space mouse coordinates to canvas-space coordinates.\n-\tWhen zoomed in, the stage is scaled and offset dividing by scale and\n-\tsubtracting the stage's position gives the true point on the canvas.\\\n-\t*/\n+\t// Translates your mouse position on screen to the actual coordinate on the canvas.\n \tfunction getPos() {\n \t\tconst scale = stage.scaleX();\n \t\tconst pointer = stage.getPointerPosition()!;\n@@ -104,14 +121,15 @@ export function useStage(\n \t\t};\n \t}\n \n+\t// Creates a new clean canvas.\n \tfunction newCanvas() {\n \t\tif (!confirm(\"Start a new painting? Your current work will be lost.\"))\n \t\t\treturn;\n \t\tdrawLayer.destroyChildren();\n \t\tdrawLayer.batchDraw();\n-\t\tstage.scale({ x: 1, y: 1 });\n-\t\tstage.position({ x: 0, y: 0 });\n-\t\tstage.batchDraw();\n+\n+\t\tconst { width, height } = containerRef.value!.getBoundingClientRect();\n+\t\tfitToViewport(width, height);\n \t}\n \n \treturn {"
       }
     ]
