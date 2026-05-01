@@ -1,5 +1,436 @@
 [
   {
+    "sha": "8784d4a14c9bbb1132a1a8edda014d59e066e735",
+    "node_id": "C_kwDORJTOeNoAKDg3ODRkNGExNGM5YmJiMTEzMmExYThlZGRhMDE0ZDU5ZTA2NmU3MzU",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "ping@jrwnnnn.me",
+        "date": "2026-05-01T14:33:53Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-05-01T14:33:53Z"
+      },
+      "message": "Merge branch 'main' into export-canvas",
+      "tree": {
+        "sha": "23c174c54808a2370992685c0c988d52c2be2f6a",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/23c174c54808a2370992685c0c988d52c2be2f6a"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/8784d4a14c9bbb1132a1a8edda014d59e066e735",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp9LnRCRC1aQ7uu5UhlAAABRcQAGJVJcFUF+TKpZ7X4UU/YUQr\nBqSK/+Ixu4B9M3RU6rm5hepHQw1sVO87NHzWpujcOJuIYMzi7wXnNL2MExtfyo2Z\nJDcQeFjXurnNj171TNN2n54j6MKr087GQgEH8ji50en6YTbfLT55KeWz95z0DsqH\nsNJbJgzTvBL7wWYyPvQUE8ZZdc9I0cVW5qxVm3fjK+1mkEmcU81evblf5ctGRiBI\nU5uQpO8cj5ZDsQ2BzL6F/PaVsho+Uum4T7cw5ugUfAyHkzRViGNID0UvA5R/eELc\ncM86P3UpJbJ/JW2OCS75pJKgkJUqRHjK3Pmikh3dCJsqO0Iz8jsu6zAuPm1jptN5\nNhyyM7oeZ24zrvO9xZAkGf0oxdMCs0TQ+47p44xQTlrBsQTWazmI3xY0S0uoPkvj\nss6tFxyVWxbF4H/lCcvfO62728lkR8lKuiIFBSQ5Woo64hBD0EteGmx29N7fmlj9\n2SUC7F4zrO3Wld+yfzABNIM0uUBPwRKhkrRJz/mkOY7xUhwFOpDkQ18XyT7jQrYc\n/dcS+pa9+eZyURzBVr2Ktzwy71J/dCgnRB3Q23XTCCA+eWKXHghLfPKmwHZJsPyK\nOpPydg+ntRSOLnAa2tQ7T9Kz4uAtZQx7ao7+F/34GRhtATl035Sy9qId/XVT3W4v\nsQKZJR9Xgels7WbKhB5T\n=c6jH\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 23c174c54808a2370992685c0c988d52c2be2f6a\nparent fc1526d03e394cb547df5d8db6f449cc9e755a13\nparent a649890efbc8f52966620d54bde84fdd7ca2fa24\nauthor Mark Jerwin <ping@jrwnnnn.me> 1777646033 +0800\ncommitter GitHub <noreply@github.com> 1777646033 +0800\n\nMerge branch 'main' into export-canvas",
+        "verified_at": "2026-05-01T14:33:54Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/8784d4a14c9bbb1132a1a8edda014d59e066e735",
+    "html_url": "https://github.com/jrwnnnn/re-color/commit/8784d4a14c9bbb1132a1a8edda014d59e066e735",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/8784d4a14c9bbb1132a1a8edda014d59e066e735/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fc1526d03e394cb547df5d8db6f449cc9e755a13",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/fc1526d03e394cb547df5d8db6f449cc9e755a13",
+        "html_url": "https://github.com/jrwnnnn/re-color/commit/fc1526d03e394cb547df5d8db6f449cc9e755a13"
+      },
+      {
+        "sha": "a649890efbc8f52966620d54bde84fdd7ca2fa24",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/a649890efbc8f52966620d54bde84fdd7ca2fa24",
+        "html_url": "https://github.com/jrwnnnn/re-color/commit/a649890efbc8f52966620d54bde84fdd7ca2fa24"
+      }
+    ],
+    "stats": {
+      "total": 92,
+      "additions": 67,
+      "deletions": 25
+    },
+    "files": [
+      {
+        "sha": "3d6ae0cdfa49cba8de54dca5f23082a1b8770c26",
+        "filename": "CONTRIBUTING.md",
+        "status": "added",
+        "additions": 56,
+        "deletions": 0,
+        "changes": 56,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/8784d4a14c9bbb1132a1a8edda014d59e066e735/CONTRIBUTING.md",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/8784d4a14c9bbb1132a1a8edda014d59e066e735/CONTRIBUTING.md",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/CONTRIBUTING.md?ref=8784d4a14c9bbb1132a1a8edda014d59e066e735",
+        "patch": "@@ -0,0 +1,56 @@\n+# Contributing\n+\n+First off, thanks for taking the time to contribute! These are the guidelines for contributing to this project.\n+\n+## Development Setup\n+\n+Make sure you have the latest LTS version of [Node.js](https://nodejs.org/en/download/current) installed.\n+\n+Clone the repository:\n+```bash\n+git clone https://github.com/jrwnnnn/re-color.git\n+cd re-color\n+```\n+Install the required dependencies:\n+```bash\n+npm ci\n+```\n+Start the development server:\n+```bash\n+npm run dev\n+```\n+Bundle the project for production:\n+```bash\n+npm run build\n+```\n+## Testing\n+Before submitting a pull request, ensure everything passes locally:\n+\n+```bash\n+# Run all unit tests\n+npm run test\n+\n+# Run eslint\n+npm run linting\n+\n+# Run typechecking\n+npm run typecheck\n+```\n+## CI Checks\n+\n+All pull requests must pass the [GitHub Actions](https://github.com/jrwnnnn/re-color/actions/workflows/main.yml) before they can be merged. The CI runs the following checks:\n+\n+- Linting\n+- Typechecking\n+- Build\n+- CodeQL analysis\n+  \n+## Code Style\n+\n+This project enforces a consistent code style using [Prettier](https://prettier.io/). \n+\n+A `.prettierrc` file is included in the project root to configure Prettier. Please ensure that your code adheres to the formatting rules defined in this file before submitting a pull request.\n+\n+## Commit Messages\n+\n+Follow the [Conventional Commits v1.0.0](https://www.conventionalcommits.org/en/v1.0.0/) specification.\n\\ No newline at end of file"
+      },
+      {
+        "sha": "1e6d6f074357e5a7fef2569ea38287c79091b987",
+        "filename": "README.md",
+        "status": "modified",
+        "additions": 11,
+        "deletions": 25,
+        "changes": 36,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/8784d4a14c9bbb1132a1a8edda014d59e066e735/README.md",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/8784d4a14c9bbb1132a1a8edda014d59e066e735/README.md",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/README.md?ref=8784d4a14c9bbb1132a1a8edda014d59e066e735",
+        "patch": "@@ -1,36 +1,22 @@\n-<h1 align=\"center\">Project Name</h1>\n+<h1 align=\"center\">Re:Color</h1>\n \n-<p align=\"center\"><i>Quick one-liner about what this project does.</i></p>\n+<p align=\"center\"><i>A paint app for people with color-vision difficulties. </i></p>\n \n <p align=\"center\">\n    <!-- FIND PREMADE BADGES HERE: https://github.com/Ileriayo/markdown-badges -->\n-   <a href=\"https://astro.build\"><img src=\"https://img.shields.io/badge/Astro-0C1222?style=for-the-badge&logo=astro&logoColor=FDFDFE\">\n+   <a href=\"https://www.typescriptlang.org/\"><img src=\"https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white\"></a>\n+   <a href=\"https://www.electronjs.org/\"><img src=\"https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white\"></a>\n+   <a href=\"https://vuejs.org\"><img src=\"https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D\"></a>\n    <a href=\"https://tailwindcss.com\"><img src=\"https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white\"></a>\n    <a href=\"https://opensource.org/license/mit\"><img src=\"https://img.shields.io/badge/MIT-green?style=for-the-badge\"></a>\n-   <a href=\"https://github.com/jrwnnnn/template-astro\"><img src=\"https://img.shields.io/github/stars/jrwnnnn/template-global?style=for-the-badge\"></a> <!-- <---- CHANGE -->\n+   <a href=\"https://github.com/jrwnnnn/re-color\"><img src=\"https://img.shields.io/github/stars/jrwnnnn/re-color?style=for-the-badge\"></a>\n </p>\n \n-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n+Re:Color is a desktop paint application dedicated to supporting users with color-blindness and color-vision difficulties. It includes live color simulation for different types of color vision (deuteranopia, protanopia, tritanopia), plus tools like a color namer. These bridges the gap for people with color vision deficiency who aspire to see the colors normal visioned people percieve. Built with Electron, Vue.js, and TypeScript. \n \n-## Prerequisites\n+## Support\n \n-Make sure the following are installed:\n-\n-- [Node.js](https://nodejs.org/en/download/current)\n-\n-## Development\n-\n-```bash\n-#Clone the repository\n-git clone https://github.com/jrwnnnn/repo.git  <---- CHANGE\n-cd block1a\n-\n-#Install the required dependencies\n-npm install\n-\n-#Run the program\n-npm run dev\n-```\n+If you run into any issues, please [open an issue](https://github.com/jrwnnnn/re-color/issues) and include all relevant details needed to diagnose the problem.\n \n ## License\n \n@@ -45,8 +31,8 @@ The above copyright notice and this permission notice shall be included in all c\n \n ## Contributors\n \n-<a href=\"https://github.com/USERNAME/REPO/graphs/contributors\">\n-  <img src=\"https://contrib.rocks/image?repo=USERNAME/REPO\" />\n+<a href=\"https://github.com/jrwnnnn/re-color/graphs/contributors\">\n+  <img src=\"https://contrib.rocks/image?repo=jrwnnnn/re-color\" />\n </a>\n \n <br>"
+      }
+    ]
+  },
+  {
+    "sha": "c1a6d45f572f92607dbac854942b1788a5e8b233",
+    "node_id": "C_kwDORJTOeNoAKGMxYTZkNDVmNTcyZjkyNjA3ZGJhYzg1NDk0MmIxNzg4YTVlOGIyMzM",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "ping@jrwnnnn.me",
+        "date": "2026-05-01T14:20:55Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "ping@jrwnnnn.me",
+        "date": "2026-05-01T14:20:55Z"
+      },
+      "message": "docs: Update README.md",
+      "tree": {
+        "sha": "3df741a4ba0e4cc5718794b4479699e1368ac881",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/3df741a4ba0e4cc5718794b4479699e1368ac881"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/c1a6d45f572f92607dbac854942b1788a5e8b233",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQLR69hJBf4pTSOaJznwtdZDkfqGPPRm8AO/GlrlLLyPFO1Ebm7j8EqX06ySLTh5azd\nwTk9WndbSSjaU+o5rCqQ4=\n-----END SSH SIGNATURE-----",
+        "payload": "tree 3df741a4ba0e4cc5718794b4479699e1368ac881\nparent 4c00cdd077fdd32628f5aa491fd4cb21883ea1a9\nauthor Mark Jerwin <ping@jrwnnnn.me> 1777645255 +0800\ncommitter Mark Jerwin <ping@jrwnnnn.me> 1777645255 +0800\n\ndocs: Update README.md\n",
+        "verified_at": "2026-05-01T14:20:59Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/c1a6d45f572f92607dbac854942b1788a5e8b233",
+    "html_url": "https://github.com/jrwnnnn/re-color/commit/c1a6d45f572f92607dbac854942b1788a5e8b233",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/c1a6d45f572f92607dbac854942b1788a5e8b233/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4c00cdd077fdd32628f5aa491fd4cb21883ea1a9",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/4c00cdd077fdd32628f5aa491fd4cb21883ea1a9",
+        "html_url": "https://github.com/jrwnnnn/re-color/commit/4c00cdd077fdd32628f5aa491fd4cb21883ea1a9"
+      }
+    ],
+    "stats": {
+      "total": 17,
+      "additions": 8,
+      "deletions": 9
+    },
+    "files": [
+      {
+        "sha": "1e6d6f074357e5a7fef2569ea38287c79091b987",
+        "filename": "README.md",
+        "status": "modified",
+        "additions": 8,
+        "deletions": 9,
+        "changes": 17,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/c1a6d45f572f92607dbac854942b1788a5e8b233/README.md",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/c1a6d45f572f92607dbac854942b1788a5e8b233/README.md",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/README.md?ref=c1a6d45f572f92607dbac854942b1788a5e8b233",
+        "patch": "@@ -1,19 +1,18 @@\n <h1 align=\"center\">Re:Color</h1>\n \n-<p align=\"center\"><i>A painting app; recoloring your world.</i></p>\n+<p align=\"center\"><i>A paint app for people with color-vision difficulties. </i></p>\n \n <p align=\"center\">\n    <!-- FIND PREMADE BADGES HERE: https://github.com/Ileriayo/markdown-badges -->\n-   <a href=\"https://astro.build\"><img src=\"https://img.shields.io/badge/Astro-0C1222?style=for-the-badge&logo=astro&logoColor=FDFDFE\">\n+   <a href=\"https://www.typescriptlang.org/\"><img src=\"https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white\"></a>\n+   <a href=\"https://www.electronjs.org/\"><img src=\"https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white\"></a>\n+   <a href=\"https://vuejs.org\"><img src=\"https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D\"></a>\n    <a href=\"https://tailwindcss.com\"><img src=\"https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white\"></a>\n    <a href=\"https://opensource.org/license/mit\"><img src=\"https://img.shields.io/badge/MIT-green?style=for-the-badge\"></a>\n-   <a href=\"https://github.com/jrwnnnn/template-astro\"><img src=\"https://img.shields.io/github/stars/jrwnnnn/template-global?style=for-the-badge\"></a> <!-- <---- CHANGE -->\n+   <a href=\"https://github.com/jrwnnnn/re-color\"><img src=\"https://img.shields.io/github/stars/jrwnnnn/re-color?style=for-the-badge\"></a>\n </p>\n \n-**Re:Color** is a dedciated desktop application, serving its purpose for users (e.g. digital artists). This digital canvas has the basic tools necessary for creating works of art, but there is one feature that stands out the most, and that is the application's **color filter** accessibility feature. \n-\n-The application's color filter serves as an essential bridge to cover up the gap for people with color vision deficiency who aspire to see the colors normal visioned people percieve. \n-## Prerequisites\n+Re:Color is a desktop paint application dedicated to supporting users with color-blindness and color-vision difficulties. It includes live color simulation for different types of color vision (deuteranopia, protanopia, tritanopia), plus tools like a color namer. These bridges the gap for people with color vision deficiency who aspire to see the colors normal visioned people percieve. Built with Electron, Vue.js, and TypeScript. \n \n ## Support\n \n@@ -32,8 +31,8 @@ The above copyright notice and this permission notice shall be included in all c\n \n ## Contributors\n \n-<a href=\"https://github.com/USERNAME/REPO/graphs/contributors\">\n-  <img src=\"https://contrib.rocks/image?repo=USERNAME/REPO\" />\n+<a href=\"https://github.com/jrwnnnn/re-color/graphs/contributors\">\n+  <img src=\"https://contrib.rocks/image?repo=jrwnnnn/re-color\" />\n </a>\n \n <br>"
+      }
+    ]
+  },
+  {
+    "sha": "8fb92f99bdb22f0c00e37659806fb0ccfe6810b1",
+    "node_id": "C_kwDORJTOeNoAKDhmYjkyZjk5YmRiMjJmMGMwMGUzNzY1OTgwNmZiMGNjZmU2ODEwYjE",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "ping@jrwnnnn.me",
+        "date": "2026-05-01T13:45:25Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-05-01T13:45:25Z"
+      },
+      "message": "Merge branch 'main' into jek2",
+      "tree": {
+        "sha": "32794c937e225f22610b0e4174f9011be41a48eb",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/32794c937e225f22610b0e4174f9011be41a48eb"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/8fb92f99bdb22f0c00e37659806fb0ccfe6810b1",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp9K51CRC1aQ7uu5UhlAAAVygQADCjC5m7hZUzbElhL5879pxL\niP0dEO/m2lY/B1L1hY6unOjdiMeaGeqxYO53AzHSTraa30SUmXltkv5cumXevDZs\niPiLXG1A/q1H923wPDOxAF4QAbo2kc/UfV+Jf+1jBHEr5b5aSl3byAGM55oFdQyl\nwAaN+8aBiLs41+S49ZwQKVbmfR5iYaU5JpMHLpAf6tolU88bz80mJXnTQggmZ2iN\nZA0Jh2WsLN06rZuW9Yn95ZcqZjfs2upnz4vFWfylaYwYRiOSB0GwGK+1G0lvHLz/\n44tkz0VSTMS7J8CUBOO0j12HPwQwiiMqA/+/v8UqBihtoXPYcHKzvN60E5Z+FdBv\n55CmpyImjwb5asoaL1pSM15tWzDsMjRPCfL+sazd03ZxTZITrqNEg3veaTOmN3Qn\nakKUFP4jlUyFkS4a9t63BpUE9Rt5LGrYavVtH4ggdKQ+Rp1Eab8hzzdoMVxqLprK\n7kiZvFDKdnncrmPgUH15ccNC2EU0xhs1q4SIRDiJMbb78X9uC/UOLL3ov13hlt8+\nc7Sa7yTmv40gkmLe6IxkbH9AnjpDN5vfGwyVBLePdj1Et6XxJwHMcJGOfeUjY93R\nDoaPYtazfk5/alEqL4JgYi2SgzcDf2YKtqqq/HJLQs9AmIAshf+PUHgDGFAbpo8K\njAjpfKwyDbLWx7Nzd3ye\n=pskT\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 32794c937e225f22610b0e4174f9011be41a48eb\nparent 8e5847ecc3d18721b621dcd4588e62521672ce8f\nparent ba0db74eaf8fc2dd8f0cc15a8244d239d9df5c61\nauthor Mark Jerwin <ping@jrwnnnn.me> 1777643125 +0800\ncommitter GitHub <noreply@github.com> 1777643125 +0800\n\nMerge branch 'main' into jek2",
+        "verified_at": "2026-05-01T13:45:25Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/8fb92f99bdb22f0c00e37659806fb0ccfe6810b1",
+    "html_url": "https://github.com/jrwnnnn/re-color/commit/8fb92f99bdb22f0c00e37659806fb0ccfe6810b1",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/8fb92f99bdb22f0c00e37659806fb0ccfe6810b1/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8e5847ecc3d18721b621dcd4588e62521672ce8f",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/8e5847ecc3d18721b621dcd4588e62521672ce8f",
+        "html_url": "https://github.com/jrwnnnn/re-color/commit/8e5847ecc3d18721b621dcd4588e62521672ce8f"
+      },
+      {
+        "sha": "ba0db74eaf8fc2dd8f0cc15a8244d239d9df5c61",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/ba0db74eaf8fc2dd8f0cc15a8244d239d9df5c61",
+        "html_url": "https://github.com/jrwnnnn/re-color/commit/ba0db74eaf8fc2dd8f0cc15a8244d239d9df5c61"
+      }
+    ],
+    "stats": {
+      "total": 11,
+      "additions": 5,
+      "deletions": 6
+    },
+    "files": [
+      {
+        "sha": "b937bcf548effbc9a22a1df5a4cc89bf03bda5aa",
+        "filename": "package.json",
+        "status": "modified",
+        "additions": 5,
+        "deletions": 6,
+        "changes": 11,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/8fb92f99bdb22f0c00e37659806fb0ccfe6810b1/package.json",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/8fb92f99bdb22f0c00e37659806fb0ccfe6810b1/package.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/package.json?ref=8fb92f99bdb22f0c00e37659806fb0ccfe6810b1",
+        "patch": "@@ -25,15 +25,14 @@\n \t\t},\n \t\t\"win\": {\n \t\t\t\"target\": [\n-\t\t\t\t\"nsis\",\n-\t\t\t\t\"portable\"\n+\t\t\t\t\"nsis\"\n \t\t\t]\n \t\t},\n \t\t\"nsis\": {\n-\t\t\t\"artifactName\": \"${productName} ${version}-Setup.${ext}\"\n-\t\t},\n-\t\t\"portable\": {\n-\t\t\t\"artifactName\": \"${productName} ${version}-Portable.${ext}\"\n+\t\t\t\"oneClick\": false,\n+\t\t\t\"allowToChangeInstallationDirectory\": true,\n+\t\t\t\"artifactName\": \"${productName}-v${version}-x64.${ext}\",\n+\t\t\t\"license\": \"LICENSE\"\n \t\t}\n \t},\n \t\"dependencies\": {"
+      }
+    ]
+  },
+  {
+    "sha": "fc1526d03e394cb547df5d8db6f449cc9e755a13",
+    "node_id": "C_kwDORJTOeNoAKGZjMTUyNmQwM2UzOTRjYjU0N2RmNWQ4ZGI2ZjQ0OWNjOWU3NTVhMTM",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "ping@jrwnnnn.me",
+        "date": "2026-05-01T12:43:41Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-05-01T12:43:41Z"
+      },
+      "message": "Merge branch 'main' into export-canvas",
+      "tree": {
+        "sha": "00e9f609fea6baacf0a5e669b288a876d21c722d",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/00e9f609fea6baacf0a5e669b288a876d21c722d"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/fc1526d03e394cb547df5d8db6f449cc9e755a13",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp9J/9CRC1aQ7uu5UhlAAAS+UQAGV4Me3/V/osk7x/5zMthQ2X\nVRhCkuxW4DZIowJehQ9T69MhUkRfC5KWsvGv6GZKva5F9+TpjluKhrSN6M28fXCe\n0U4/cGytYKMOzmCbtb71zZdbF5j2KjdddoX1EhAWK56A+0bnWiWT5jij9SIwQRyY\nTPIHVt0XnzVUD9Wld+5TcVPfCecaGpPLITRnTYMGiJJE4CpdMviyp6X5FCjXmsFo\nMOws+r6S6kEhN7eWv/yv+Ki25x+hloakD7sxJTBBe5uNO8S4jZJlI9Aggl2yWNwW\nRb2Pabquu+yeQ5ifU65VefZugJCQccEz/sHM8Sff5JtcHfkBPfnQK0L6LaZrTz0b\nWHkO9RhY/GDJ5hafhvmjD2kWv4QLAgnMIdntw4HeCZMTLvy4wndhWp9oteytIv2M\nDoenXMa1pp3omsIBIJzYj7oCylM2hDUbP3kg7ZyLSHZHxWyhJstka5h+vFBeEFZ2\nHStrP+wAIEchnAvzrIMDr7foZ2KnIWaGHhHvxpFxeWLOd3anqQpdhFriDcWsl0rh\nj9h+kCT0tdXluE7B00XGLmmd64HpC3DCVrxGRI6kECBjA89CgklViIvcF82D5A4r\nEw5NlyIKEae3nE4LGfwFDz35pKaRDibG/Er4TUHw+L6kNc55TXZIfGD1J9GA6kJ4\n8IgjOj1GSJOUnt4qwpAr\n=aRxk\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 00e9f609fea6baacf0a5e669b288a876d21c722d\nparent 454f75664f89d153af5ebdff477d87970361dd20\nparent ba0db74eaf8fc2dd8f0cc15a8244d239d9df5c61\nauthor Mark Jerwin <ping@jrwnnnn.me> 1777639421 +0800\ncommitter GitHub <noreply@github.com> 1777639421 +0800\n\nMerge branch 'main' into export-canvas",
+        "verified_at": "2026-05-01T12:43:42Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/fc1526d03e394cb547df5d8db6f449cc9e755a13",
+    "html_url": "https://github.com/jrwnnnn/re-color/commit/fc1526d03e394cb547df5d8db6f449cc9e755a13",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/fc1526d03e394cb547df5d8db6f449cc9e755a13/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "454f75664f89d153af5ebdff477d87970361dd20",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/454f75664f89d153af5ebdff477d87970361dd20",
+        "html_url": "https://github.com/jrwnnnn/re-color/commit/454f75664f89d153af5ebdff477d87970361dd20"
+      },
+      {
+        "sha": "ba0db74eaf8fc2dd8f0cc15a8244d239d9df5c61",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/ba0db74eaf8fc2dd8f0cc15a8244d239d9df5c61",
+        "html_url": "https://github.com/jrwnnnn/re-color/commit/ba0db74eaf8fc2dd8f0cc15a8244d239d9df5c61"
+      }
+    ],
+    "stats": {
+      "total": 11,
+      "additions": 5,
+      "deletions": 6
+    },
+    "files": [
+      {
+        "sha": "b937bcf548effbc9a22a1df5a4cc89bf03bda5aa",
+        "filename": "package.json",
+        "status": "modified",
+        "additions": 5,
+        "deletions": 6,
+        "changes": 11,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/fc1526d03e394cb547df5d8db6f449cc9e755a13/package.json",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/fc1526d03e394cb547df5d8db6f449cc9e755a13/package.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/package.json?ref=fc1526d03e394cb547df5d8db6f449cc9e755a13",
+        "patch": "@@ -25,15 +25,14 @@\n \t\t},\n \t\t\"win\": {\n \t\t\t\"target\": [\n-\t\t\t\t\"nsis\",\n-\t\t\t\t\"portable\"\n+\t\t\t\t\"nsis\"\n \t\t\t]\n \t\t},\n \t\t\"nsis\": {\n-\t\t\t\"artifactName\": \"${productName} ${version}-Setup.${ext}\"\n-\t\t},\n-\t\t\"portable\": {\n-\t\t\t\"artifactName\": \"${productName} ${version}-Portable.${ext}\"\n+\t\t\t\"oneClick\": false,\n+\t\t\t\"allowToChangeInstallationDirectory\": true,\n+\t\t\t\"artifactName\": \"${productName}-v${version}-x64.${ext}\",\n+\t\t\t\"license\": \"LICENSE\"\n \t\t}\n \t},\n \t\"dependencies\": {"
+      }
+    ]
+  },
+  {
     "sha": "ba0db74eaf8fc2dd8f0cc15a8244d239d9df5c61",
     "node_id": "C_kwDORJTOeNoAKGJhMGRiNzRlYWY4ZmMyZGQ4ZjBjYzE1YTgyNDRkMjM5ZDlkZjVjNjE",
     "commit": {
@@ -102,629 +533,6 @@
         "raw_url": "https://github.com/jrwnnnn/re-color/raw/ba0db74eaf8fc2dd8f0cc15a8244d239d9df5c61/package.json",
         "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/package.json?ref=ba0db74eaf8fc2dd8f0cc15a8244d239d9df5c61",
         "patch": "@@ -25,15 +25,14 @@\n \t\t},\n \t\t\"win\": {\n \t\t\t\"target\": [\n-\t\t\t\t\"nsis\",\n-\t\t\t\t\"portable\"\n+\t\t\t\t\"nsis\"\n \t\t\t]\n \t\t},\n \t\t\"nsis\": {\n-\t\t\t\"artifactName\": \"${productName} ${version}-Setup.${ext}\"\n-\t\t},\n-\t\t\"portable\": {\n-\t\t\t\"artifactName\": \"${productName} ${version}-Portable.${ext}\"\n+\t\t\t\"oneClick\": false,\n+\t\t\t\"allowToChangeInstallationDirectory\": true,\n+\t\t\t\"artifactName\": \"${productName}-v${version}-x64.${ext}\",\n+\t\t\t\"license\": \"LICENSE\"\n \t\t}\n \t},\n \t\"dependencies\": {"
-      }
-    ]
-  },
-  {
-    "sha": "ac4cee567ab54d6ec392a12e16abf610728ac6cb",
-    "node_id": "C_kwDORJTOeNoAKGFjNGNlZTU2N2FiNTRkNmVjMzkyYTEyZTE2YWJmNjEwNzI4YWM2Y2I",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "ping@jrwnnnn.me",
-        "date": "2026-05-01T12:05:49Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-05-01T12:05:49Z"
-      },
-      "message": "Merge branch 'main' into electron",
-      "tree": {
-        "sha": "a96be34b98c9b6e7da76184d0ac7a2868fc460f0",
-        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/a96be34b98c9b6e7da76184d0ac7a2868fc460f0"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/ac4cee567ab54d6ec392a12e16abf610728ac6cb",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp9JcdCRC1aQ7uu5UhlAAAyjcQAGGFLsnXA04sy2UsjNoQqJtI\npkzsgVhTpuUjOx1eCKUXAgB6N7g+bBwf2vidNjwV6BlPDj7as2ymTQhEL+jKjmLr\nahNDDmry8FaXy4iqs185Vus0DlzdEe1WR/dkidwPJguDefbgKY/lpf+ba/H36Cq3\nU7N2Jdh/DzTYAI5ei64m3MNDKKZwY3zjAt51GYL4AARqNbwQYJrEJwQEE8Qmr41J\nG4S8gnUaU5fxLIXOKpLA7+YlT1fDMBu7imLCevLuOfl1icw036EzFytQ2T7pf8Xy\npp4q/R4I1gysCWBPqoHXpVEwy5wllSmuB8FfSrceeGFcZDgqY8P051Qh1v9S5BP2\nQUbfW52CyK9//dF7FVEdEQRdoZLl8kXSmIWiBnFJiDMighvuZ0LWEPeWsxuOeo4Z\nP4iN5d6Phiwlwy/p1i7EBROBaAEyEpMNejwk966Ct/MDH2ol4vg7dDRfR38yWP61\nE3vEi3/Oj+gbvyzcqvCGBpxSVGLs/jY/GJi1BAJFSiG1eRrDz3CP004+7y0sbtCD\nWmLogh6XOcKbshzn7nVqUzYQYXCJTXFKAqpf3uV6UH+HgL/M9gfYaGuECr2KJziQ\njftjWxgcTFo2Ikh0QuWYec/P/v6NuNUfC/gBJDDJtECNQ3/7nfVpHP0hcmBjkrww\no+KbJfhMPwsRFkyj50bV\n=pqSG\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree a96be34b98c9b6e7da76184d0ac7a2868fc460f0\nparent f15c517a738f2511a0d2fd24d6f2761c4add9be7\nparent ed634f7bb418f022989078e328698aa7f8104bc4\nauthor Mark Jerwin <ping@jrwnnnn.me> 1777637149 +0800\ncommitter GitHub <noreply@github.com> 1777637149 +0800\n\nMerge branch 'main' into electron",
-        "verified_at": "2026-05-01T12:05:50Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/ac4cee567ab54d6ec392a12e16abf610728ac6cb",
-    "html_url": "https://github.com/jrwnnnn/re-color/commit/ac4cee567ab54d6ec392a12e16abf610728ac6cb",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/ac4cee567ab54d6ec392a12e16abf610728ac6cb/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "f15c517a738f2511a0d2fd24d6f2761c4add9be7",
-        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/f15c517a738f2511a0d2fd24d6f2761c4add9be7",
-        "html_url": "https://github.com/jrwnnnn/re-color/commit/f15c517a738f2511a0d2fd24d6f2761c4add9be7"
-      },
-      {
-        "sha": "ed634f7bb418f022989078e328698aa7f8104bc4",
-        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/ed634f7bb418f022989078e328698aa7f8104bc4",
-        "html_url": "https://github.com/jrwnnnn/re-color/commit/ed634f7bb418f022989078e328698aa7f8104bc4"
-      }
-    ],
-    "stats": {
-      "total": 392,
-      "additions": 310,
-      "deletions": 82
-    },
-    "files": [
-      {
-        "sha": "6c9d5a9b8c4227c2a0650aae70e26d8569ad1582",
-        "filename": "index.html",
-        "status": "modified",
-        "additions": 39,
-        "deletions": 0,
-        "changes": 39,
-        "blob_url": "https://github.com/jrwnnnn/re-color/blob/ac4cee567ab54d6ec392a12e16abf610728ac6cb/index.html",
-        "raw_url": "https://github.com/jrwnnnn/re-color/raw/ac4cee567ab54d6ec392a12e16abf610728ac6cb/index.html",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/index.html?ref=ac4cee567ab54d6ec392a12e16abf610728ac6cb",
-        "patch": "@@ -6,6 +6,45 @@\n \t\t<title>Re:Color</title>\n \t</head>\n \t<body>\n+\t\t<!-- This filter is based of Machado, Gustavo & Oliveira, Manuel & Fernandes, Leandro. (2009). A\n+\t\tPhysiologically-Based Model for Simulation of Color Vision Deficiency (vol\n+\t\t15, pg 1291, 2009). IEEE transactions on visualization and computer\n+\t\tgraphics. 15. 1291-8. 10.1109/TVCG.2009.113. -->\n+\t\t<svg style=\"display: none\" xmlns=\"http://www.w3.org/2000/svg\">\n+\t\t\t<defs>\n+\t\t\t\t<filter id=\"deuteranopia\">\n+\t\t\t\t\t<feColorMatrix\n+\t\t\t\t\t\ttype=\"matrix\"\n+\t\t\t\t\t\tvalues=\"\n+          0.367  0.861 -0.228  0  0\n+          0.280  0.673  0.047  0  0\n+         -0.012  0.043  0.969  0  0\n+          0      0      0      1  0\"\n+\t\t\t\t\t/>\n+\t\t\t\t</filter>\n+\t\t\t\t<filter id=\"protanopia\">\n+\t\t\t\t\t<feColorMatrix\n+\t\t\t\t\t\ttype=\"matrix\"\n+\t\t\t\t\t\tvalues=\"\n+          0.152  1.053 -0.205  0  0\n+          0.115  0.786  0.099  0  0\n+         -0.004 -0.048  1.052  0  0\n+          0      0      0      1  0\"\n+\t\t\t\t\t/>\n+\t\t\t\t</filter>\n+\t\t\t\t<filter id=\"tritanopia\">\n+\t\t\t\t\t<feColorMatrix\n+\t\t\t\t\t\ttype=\"matrix\"\n+\t\t\t\t\t\tvalues=\"\n+          1.256 -0.077 -0.179  0  0\n+         -0.078  0.931  0.148  0  0\n+          0.005  0.691  0.304  0  0\n+          0      0      0      1  0\"\n+\t\t\t\t\t/>\n+\t\t\t\t</filter>\n+\t\t\t</defs>\n+\t\t</svg>\n+\n \t\t<div id=\"app\"></div>\n \t\t<script type=\"module\" src=\"/src/main.ts\"></script>\n \t</body>"
-      },
-      {
-        "sha": "c34290114cc9a3969b978662b68decb683fd4eb5",
-        "filename": "main.js",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 0,
-        "changes": 1,
-        "blob_url": "https://github.com/jrwnnnn/re-color/blob/ac4cee567ab54d6ec392a12e16abf610728ac6cb/main.js",
-        "raw_url": "https://github.com/jrwnnnn/re-color/raw/ac4cee567ab54d6ec392a12e16abf610728ac6cb/main.js",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/main.js?ref=ac4cee567ab54d6ec392a12e16abf610728ac6cb",
-        "patch": "@@ -33,6 +33,7 @@ function createWindow() {\n \t\t\tlabel: \"View\",\n \t\t\tsubmenu: [\n \t\t\t\t{ role: \"reload\" },\n+\t\t\t\t...(!app.isPackaged ? [{ role: \"toggleDevTools\" }] : []),\n \t\t\t\t{ type: \"separator\" },\n \t\t\t\t{ role: \"resetZoom\" },\n \t\t\t\t{ role: \"zoomIn\" },"
-      },
-      {
-        "sha": "fac8ee81f6ed84cc4af86316bda175bdc2a6e9df",
-        "filename": "package-lock.json",
-        "status": "modified",
-        "additions": 102,
-        "deletions": 45,
-        "changes": 147,
-        "blob_url": "https://github.com/jrwnnnn/re-color/blob/ac4cee567ab54d6ec392a12e16abf610728ac6cb/package-lock.json",
-        "raw_url": "https://github.com/jrwnnnn/re-color/raw/ac4cee567ab54d6ec392a12e16abf610728ac6cb/package-lock.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/package-lock.json?ref=ac4cee567ab54d6ec392a12e16abf610728ac6cb",
-        "patch": "@@ -1,14 +1,15 @@\n {\n \t\"name\": \"re-color\",\n-\t\"version\": \"1.0.0\",\n+\t\"version\": \"1.1.0\",\n \t\"lockfileVersion\": 3,\n \t\"requires\": true,\n \t\"packages\": {\n \t\t\"\": {\n \t\t\t\"name\": \"re-color\",\n-\t\t\t\"version\": \"1.0.0\",\n+\t\t\t\"version\": \"1.1.0\",\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"dependencies\": {\n+\t\t\t\t\"@simonwep/pickr\": \"^1.9.1\",\n \t\t\t\t\"color-namer\": \"^1.4.0\",\n \t\t\t\t\"konva\": \"^9.3.6\",\n \t\t\t\t\"pinia\": \"^2.1.7\",\n@@ -56,9 +57,9 @@\n \t\t\t}\n \t\t},\n \t\t\"node_modules/@babel/parser\": {\n-\t\t\t\"version\": \"7.29.2\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/@babel/parser/-/parser-7.29.2.tgz\",\n-\t\t\t\"integrity\": \"sha512-4GgRzy/+fsBa72/RZVJmGKPmZu9Byn8o4MoLpmNe1m8ZfYnz5emHLQz3U4gLud6Zwl0RZIcgiLD7Uq7ySFuDLA==\",\n+\t\t\t\"version\": \"7.29.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@babel/parser/-/parser-7.29.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-b3ctpQwp+PROvU/cttc4OYl4MzfJUWy6FZg+PMXfzmt/+39iHVF0sDfqay8TQM3JA2EUOyKcFZt75jWriQijsA==\",\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@babel/types\": \"^7.29.0\"\n@@ -471,6 +472,7 @@\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"BSD-2-Clause\",\n \t\t\t\"optional\": true,\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"cross-dirname\": \"^0.1.0\",\n \t\t\t\t\"debug\": \"^4.3.4\",\n@@ -492,6 +494,7 @@\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"graceful-fs\": \"^4.2.0\",\n \t\t\t\t\"jsonfile\": \"^6.0.1\",\n@@ -508,6 +511,7 @@\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"universalify\": \"^2.0.0\"\n \t\t\t},\n@@ -522,6 +526,7 @@\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n+\t\t\t\"peer\": true,\n \t\t\t\"engines\": {\n \t\t\t\t\"node\": \">= 10.0.0\"\n \t\t\t}\n@@ -533,7 +538,6 @@\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n-\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@emnapi/wasi-threads\": \"1.2.1\",\n \t\t\t\t\"tslib\": \"^2.4.0\"\n@@ -546,7 +550,6 @@\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n-\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"tslib\": \"^2.4.0\"\n \t\t\t}\n@@ -1018,6 +1021,9 @@\n \t\t\t\t\"arm64\"\n \t\t\t],\n \t\t\t\"dev\": true,\n+\t\t\t\"libc\": [\n+\t\t\t\t\"glibc\"\n+\t\t\t],\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -1035,6 +1041,9 @@\n \t\t\t\t\"arm64\"\n \t\t\t],\n \t\t\t\"dev\": true,\n+\t\t\t\"libc\": [\n+\t\t\t\t\"musl\"\n+\t\t\t],\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -1052,6 +1061,9 @@\n \t\t\t\t\"ppc64\"\n \t\t\t],\n \t\t\t\"dev\": true,\n+\t\t\t\"libc\": [\n+\t\t\t\t\"glibc\"\n+\t\t\t],\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -1069,6 +1081,9 @@\n \t\t\t\t\"s390x\"\n \t\t\t],\n \t\t\t\"dev\": true,\n+\t\t\t\"libc\": [\n+\t\t\t\t\"glibc\"\n+\t\t\t],\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -1086,6 +1101,9 @@\n \t\t\t\t\"x64\"\n \t\t\t],\n \t\t\t\"dev\": true,\n+\t\t\t\"libc\": [\n+\t\t\t\t\"glibc\"\n+\t\t\t],\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -1103,6 +1121,9 @@\n \t\t\t\t\"x64\"\n \t\t\t],\n \t\t\t\"dev\": true,\n+\t\t\t\"libc\": [\n+\t\t\t\t\"musl\"\n+\t\t\t],\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -1189,6 +1210,16 @@\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\"\n \t\t},\n+\t\t\"node_modules/@simonwep/pickr\": {\n+\t\t\t\"version\": \"1.9.1\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@simonwep/pickr/-/pickr-1.9.1.tgz\",\n+\t\t\t\"integrity\": \"sha512-fR3qmfAcPf/HSFS7GEnTmZLM3+xERv1+jyMBbzT63ilRRM8veYjI7ELvkHHKk0/du3lHp7uh/FqatjM3646X1g==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"dependencies\": {\n+\t\t\t\t\"core-js\": \"3.37.0\",\n+\t\t\t\t\"nanopop\": \"2.4.2\"\n+\t\t\t}\n+\t\t},\n \t\t\"node_modules/@sindresorhus/is\": {\n \t\t\t\"version\": \"4.6.0\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@sindresorhus/is/-/is-4.6.0.tgz\",\n@@ -1348,6 +1379,9 @@\n \t\t\t\t\"arm64\"\n \t\t\t],\n \t\t\t\"dev\": true,\n+\t\t\t\"libc\": [\n+\t\t\t\t\"glibc\"\n+\t\t\t],\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -1365,6 +1399,9 @@\n \t\t\t\t\"arm64\"\n \t\t\t],\n \t\t\t\"dev\": true,\n+\t\t\t\"libc\": [\n+\t\t\t\t\"musl\"\n+\t\t\t],\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -1382,6 +1419,9 @@\n \t\t\t\t\"x64\"\n \t\t\t],\n \t\t\t\"dev\": true,\n+\t\t\t\"libc\": [\n+\t\t\t\t\"glibc\"\n+\t\t\t],\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -1399,6 +1439,9 @@\n \t\t\t\t\"x64\"\n \t\t\t],\n \t\t\t\"dev\": true,\n+\t\t\t\"libc\": [\n+\t\t\t\t\"musl\"\n+\t\t\t],\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -1679,7 +1722,6 @@\n \t\t\t\"integrity\": \"sha512-HDQH9O/47Dxi1ceDhBXdaldtf/WV9yRYMjbjCuNk3qnaTD564qwv61Y7+gTxwxRKzSrgO5uhtw584igXVuuZkA==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n-\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@typescript-eslint/scope-manager\": \"8.59.1\",\n \t\t\t\t\"@typescript-eslint/types\": \"8.59.1\",\n@@ -2110,7 +2152,6 @@\n \t\t\t\"integrity\": \"sha512-UVJyE9MttOsBQIDKw1skb9nAwQuR5wuGD3+82K6JgJlm/Y+KI92oNsMNGZCYdDsVtRHSak0pcV5Dno5+4jh9sw==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n-\t\t\t\"peer\": true,\n \t\t\t\"bin\": {\n \t\t\t\t\"acorn\": \"bin/acorn\"\n \t\t\t},\n@@ -2144,7 +2185,6 @@\n \t\t\t\"integrity\": \"sha512-fgFx7Hfoq60ytK2c7DhnF8jIvzYgOMxfugjLOSMHjLIPgenqa7S7oaagATUq99mV6IYvN2tRmC0wnTYX6iPbMw==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n-\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"fast-deep-equal\": \"^3.1.1\",\n \t\t\t\t\"fast-json-stable-stringify\": \"^2.0.0\",\n@@ -2305,22 +2345,6 @@\n \t\t\t\t\"semver\": \"bin/semver.js\"\n \t\t\t}\n \t\t},\n-\t\t\"node_modules/app-builder-lib/node_modules/ci-info\": {\n-\t\t\t\"version\": \"4.3.1\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/ci-info/-/ci-info-4.3.1.tgz\",\n-\t\t\t\"integrity\": \"sha512-Wdy2Igu8OcBpI2pZePZ5oWjPC38tmDVx5WKUXKwlLYkA0ozo85sLsLvkBbBn/sZaSCMFOGZJ14fvW9t5/d7kdA==\",\n-\t\t\t\"dev\": true,\n-\t\t\t\"funding\": [\n-\t\t\t\t{\n-\t\t\t\t\t\"type\": \"github\",\n-\t\t\t\t\t\"url\": \"https://github.com/sponsors/sibiraj-s\"\n-\t\t\t\t}\n-\t\t\t],\n-\t\t\t\"license\": \"MIT\",\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \">=8\"\n-\t\t\t}\n-\t\t},\n \t\t\"node_modules/app-builder-lib/node_modules/fs-extra\": {\n \t\t\t\"version\": \"10.1.0\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/fs-extra/-/fs-extra-10.1.0.tgz\",\n@@ -2711,9 +2735,9 @@\n \t\t\t\"license\": \"MIT\"\n \t\t},\n \t\t\"node_modules/ci-info\": {\n-\t\t\t\"version\": \"4.4.0\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/ci-info/-/ci-info-4.4.0.tgz\",\n-\t\t\t\"integrity\": \"sha512-77PSwercCZU2Fc4sX94eF8k8Pxte6JAwL4/ICZLFjJLqegs7kCuAsqqj/70NQF6TvDpgFjkubQB2FW2ZZddvQg==\",\n+\t\t\t\"version\": \"4.3.1\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/ci-info/-/ci-info-4.3.1.tgz\",\n+\t\t\t\"integrity\": \"sha512-Wdy2Igu8OcBpI2pZePZ5oWjPC38tmDVx5WKUXKwlLYkA0ozo85sLsLvkBbBn/sZaSCMFOGZJ14fvW9t5/d7kdA==\",\n \t\t\t\"dev\": true,\n \t\t\t\"funding\": [\n \t\t\t\t{\n@@ -2867,6 +2891,17 @@\n \t\t\t\t\"url\": \"https://github.com/open-cli-tools/concurrently?sponsor=1\"\n \t\t\t}\n \t\t},\n+\t\t\"node_modules/core-js\": {\n+\t\t\t\"version\": \"3.37.0\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/core-js/-/core-js-3.37.0.tgz\",\n+\t\t\t\"integrity\": \"sha512-fu5vHevQ8ZG4og+LXug8ulUtVxjOcEYvifJr7L5Bfq9GOztVqsKd9/59hUk2ZSbCrS3BqUr3EpaYGIYzq7g3Ug==\",\n+\t\t\t\"hasInstallScript\": true,\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"funding\": {\n+\t\t\t\t\"type\": \"opencollective\",\n+\t\t\t\t\"url\": \"https://opencollective.com/core-js\"\n+\t\t\t}\n+\t\t},\n \t\t\"node_modules/core-util-is\": {\n \t\t\t\"version\": \"1.0.2\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz\",\n@@ -2892,7 +2927,8 @@\n \t\t\t\"integrity\": \"sha512-+R08/oI0nl3vfPcqftZRpytksBXDzOUveBq/NBVx0sUp1axwzPQrKinNx5yd5sxPu8j1wIy8AfnVQ+5eFdha6Q==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n-\t\t\t\"optional\": true\n+\t\t\t\"optional\": true,\n+\t\t\t\"peer\": true\n \t\t},\n \t\t\"node_modules/cross-spawn\": {\n \t\t\t\"version\": \"7.0.6\",\n@@ -3418,9 +3454,9 @@\n \t\t\t}\n \t\t},\n \t\t\"node_modules/electron\": {\n-\t\t\t\"version\": \"41.3.0\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/electron/-/electron-41.3.0.tgz\",\n-\t\t\t\"integrity\": \"sha512-2Q5aeocmFdeheZGDUTrAvSR3t+n0c3d104AJWWEnt7syJU0tE4VdibMYaPtQ47QuXSoUf0/xSsfUUvu/uSXIfg==\",\n+\t\t\t\"version\": \"41.4.0\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/electron/-/electron-41.4.0.tgz\",\n+\t\t\t\"integrity\": \"sha512-1afmxJGyrZ4bve+PDCs8YtNjjVu4cPwUtSjx36o6gyJWI0NvhebMKtIzzKNOScRyXntH2hX0i350Xgm3BKiEYQ==\",\n \t\t\t\"dev\": true,\n \t\t\t\"hasInstallScript\": true,\n \t\t\t\"license\": \"MIT\",\n@@ -3575,6 +3611,7 @@\n \t\t\t\"dev\": true,\n \t\t\t\"hasInstallScript\": true,\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@electron/asar\": \"^3.2.1\",\n \t\t\t\t\"debug\": \"^4.1.1\",\n@@ -3595,6 +3632,7 @@\n \t\t\t\"integrity\": \"sha512-YJDaCJZEnBmcbw13fvdAM9AwNOJwOzrE4pqMqBq5nFiEqXUqHwlK4B+3pUw6JNvfSPtX05xFHtYy/1ni01eGCw==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"graceful-fs\": \"^4.1.2\",\n \t\t\t\t\"jsonfile\": \"^4.0.0\",\n@@ -3803,7 +3841,6 @@\n \t\t\t\"integrity\": \"sha512-wiyGaKsDgqXvF40P8mDwiUp/KQjE1FdrIEJsM8PZ3XCiniTMXS3OHWWUe5FI5agoCnr8x4xPrTDZuxsBlNHl+Q==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n-\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@eslint-community/eslint-utils\": \"^4.8.0\",\n \t\t\t\t\"@eslint-community/regexpp\": \"^4.12.2\",\n@@ -5082,6 +5119,9 @@\n \t\t\t\t\"arm64\"\n \t\t\t],\n \t\t\t\"dev\": true,\n+\t\t\t\"libc\": [\n+\t\t\t\t\"glibc\"\n+\t\t\t],\n \t\t\t\"license\": \"MPL-2.0\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -5103,6 +5143,9 @@\n \t\t\t\t\"arm64\"\n \t\t\t],\n \t\t\t\"dev\": true,\n+\t\t\t\"libc\": [\n+\t\t\t\t\"musl\"\n+\t\t\t],\n \t\t\t\"license\": \"MPL-2.0\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -5124,6 +5167,9 @@\n \t\t\t\t\"x64\"\n \t\t\t],\n \t\t\t\"dev\": true,\n+\t\t\t\"libc\": [\n+\t\t\t\t\"glibc\"\n+\t\t\t],\n \t\t\t\"license\": \"MPL-2.0\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -5145,6 +5191,9 @@\n \t\t\t\t\"x64\"\n \t\t\t],\n \t\t\t\"dev\": true,\n+\t\t\t\"libc\": [\n+\t\t\t\t\"musl\"\n+\t\t\t],\n \t\t\t\"license\": \"MPL-2.0\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -5387,6 +5436,7 @@\n \t\t\t\"integrity\": \"sha512-FP+p8RB8OWpF3YZBCrP5gtADmtXApB5AMLn+vdyA+PyxCjrCs00mjyUozssO33cwDeT3wNGdLxJ5M//YqtHAJw==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"minimist\": \"^1.2.6\"\n \t\t\t},\n@@ -5409,9 +5459,9 @@\n \t\t\t\"license\": \"MIT\"\n \t\t},\n \t\t\"node_modules/nanoid\": {\n-\t\t\t\"version\": \"3.3.11\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz\",\n-\t\t\t\"integrity\": \"sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==\",\n+\t\t\t\"version\": \"3.3.12\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/nanoid/-/nanoid-3.3.12.tgz\",\n+\t\t\t\"integrity\": \"sha512-ZB9RH/39qpq5Vu6Y+NmUaFhQR6pp+M2Xt76XBnEwDaGcVAqhlvxrl3B2bKS5D3NH3QR76v3aSrKaF/Kiy7lEtQ==\",\n \t\t\t\"funding\": [\n \t\t\t\t{\n \t\t\t\t\t\"type\": \"github\",\n@@ -5426,6 +5476,12 @@\n \t\t\t\t\"node\": \"^10 || ^12 || ^13.7 || ^14 || >=15.0.1\"\n \t\t\t}\n \t\t},\n+\t\t\"node_modules/nanopop\": {\n+\t\t\t\"version\": \"2.4.2\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/nanopop/-/nanopop-2.4.2.tgz\",\n+\t\t\t\"integrity\": \"sha512-NzOgmMQ+elxxHeIha+OG/Pv3Oc3p4RU2aBhwWwAqDpXrdTbtRylbRLQztLy8dMMwfl6pclznBdfUhccEn9ZIzw==\",\n+\t\t\t\"license\": \"MIT\"\n+\t\t},\n \t\t\"node_modules/natural-compare\": {\n \t\t\t\"version\": \"1.4.0\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz\",\n@@ -5754,7 +5810,6 @@\n \t\t\t\"integrity\": \"sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n-\t\t\t\"peer\": true,\n \t\t\t\"engines\": {\n \t\t\t\t\"node\": \">=12\"\n \t\t\t},\n@@ -5800,9 +5855,9 @@\n \t\t\t}\n \t\t},\n \t\t\"node_modules/postcss\": {\n-\t\t\t\"version\": \"8.5.12\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/postcss/-/postcss-8.5.12.tgz\",\n-\t\t\t\"integrity\": \"sha512-W62t/Se6rA0Az3DfCL0AqJwXuKwBeYg6nOaIgzP+xZ7N5BFCI7DYi1qs6ygUYT6rvfi6t9k65UMLJC+PHZpDAA==\",\n+\t\t\t\"version\": \"8.5.13\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/postcss/-/postcss-8.5.13.tgz\",\n+\t\t\t\"integrity\": \"sha512-qif0+jGGZoLWdHey3UFHHWP0H7Gbmsk8T5VEqyYFbWqPr1XqvLGBbk/sl8V5exGmcYJklJOhOQq1pV9IcsiFag==\",\n \t\t\t\"funding\": [\n \t\t\t\t{\n \t\t\t\t\t\"type\": \"opencollective\",\n@@ -5848,6 +5903,7 @@\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"commander\": \"^9.4.0\"\n \t\t\t},\n@@ -5865,6 +5921,7 @@\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n+\t\t\t\"peer\": true,\n \t\t\t\"engines\": {\n \t\t\t\t\"node\": \"^12.20.0 || >=14\"\n \t\t\t}\n@@ -5885,7 +5942,6 @@\n \t\t\t\"integrity\": \"sha512-7igPTM53cGHMW8xWuVTydi2KO233VFiTNyF5hLJqpilHfmn8C8gPf+PS7dUT64YcXFbiMGZxS9pCSxL/Dxm/Jw==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n-\t\t\t\"peer\": true,\n \t\t\t\"bin\": {\n \t\t\t\t\"prettier\": \"bin/prettier.cjs\"\n \t\t\t},\n@@ -6133,6 +6189,7 @@\n \t\t\t\"deprecated\": \"Rimraf versions prior to v4 are no longer supported\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"ISC\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"glob\": \"^7.1.3\"\n \t\t\t},\n@@ -6564,6 +6621,7 @@\n \t\t\t\"integrity\": \"sha512-yYrrsWnrXMcdsnu/7YMYAofM1ktpL5By7vZhf15CrXijWWrEYZks5AXBudalfSWJLlnen/QUJUB5aoB0kqZUGA==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"mkdirp\": \"^0.5.1\",\n \t\t\t\t\"rimraf\": \"~2.6.2\"\n@@ -6757,7 +6815,6 @@\n \t\t\t\"integrity\": \"sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==\",\n \t\t\t\"devOptional\": true,\n \t\t\t\"license\": \"Apache-2.0\",\n-\t\t\t\"peer\": true,\n \t\t\t\"bin\": {\n \t\t\t\t\"tsc\": \"bin/tsc\",\n \t\t\t\t\"tsserver\": \"bin/tsserver\"\n@@ -6863,7 +6920,6 @@\n \t\t\t\"integrity\": \"sha512-rZuUu9j6J5uotLDs+cAA4O5H4K1SfPliUlQwqa6YEwSrWDZzP4rhm00oJR5snMewjxF5V/K3D4kctsUTsIU9Mw==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n-\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"lightningcss\": \"^1.32.0\",\n \t\t\t\t\"picomatch\": \"^4.0.4\",\n@@ -6962,7 +7018,6 @@\n \t\t\t\"resolved\": \"https://registry.npmjs.org/vue/-/vue-3.5.33.tgz\",\n \t\t\t\"integrity\": \"sha512-1AgChhx5w3ALgT4oK3acm2Es/7jyZhWSVUfs3rOBlGQC0rjEDkS7G4lWlJJGGNQD+BV3reCwbQrOe1mPNwKHBQ==\",\n \t\t\t\"license\": \"MIT\",\n-\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@vue/compiler-dom\": \"3.5.33\",\n \t\t\t\t\"@vue/compiler-sfc\": \"3.5.33\",\n@@ -7011,6 +7066,7 @@\n \t\t\t\"integrity\": \"sha512-Vxi9pJdbN3ZnVGLODVtZ7y4Y2kzAAE2Cm0CZ3ZDRvydVYxZ6VrnBhLikBsRS+dpwj4Jv4UCv21PTEwF5rQ9WXg==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\",\n+\t\t\t\"peer\": true,\n \t\t\t\"dependencies\": {\n \t\t\t\t\"debug\": \"^4.4.0\",\n \t\t\t\t\"eslint-scope\": \"^8.2.0 || ^9.0.0\",\n@@ -7035,6 +7091,7 @@\n \t\t\t\"integrity\": \"sha512-vFKC2IEtQnVhpT78h1Yp8wzwrf8CM+MzKMHGJZfBtzhZNycRFnXsHk6E5TxIkkMsgNS7mdX3AGB7x2QM2di4lA==\",\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"ISC\",\n+\t\t\t\"peer\": true,\n \t\t\t\"bin\": {\n \t\t\t\t\"semver\": \"bin/semver.js\"\n \t\t\t},"
-      },
-      {
-        "sha": "b937bcf548effbc9a22a1df5a4cc89bf03bda5aa",
-        "filename": "package.json",
-        "status": "modified",
-        "additions": 2,
-        "deletions": 1,
-        "changes": 3,
-        "blob_url": "https://github.com/jrwnnnn/re-color/blob/ac4cee567ab54d6ec392a12e16abf610728ac6cb/package.json",
-        "raw_url": "https://github.com/jrwnnnn/re-color/raw/ac4cee567ab54d6ec392a12e16abf610728ac6cb/package.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/package.json?ref=ac4cee567ab54d6ec392a12e16abf610728ac6cb",
-        "patch": "@@ -4,7 +4,7 @@\n \t\"author\": \"jrwnnnn, kcirdneH, Idonowhatnametouse\",\n \t\"license\": \"MIT\",\n \t\"main\": \"main.js\",\n-\t\"version\": \"1.1.0\",\n+\t\"version\": \"0.2.0\",\n \t\"scripts\": {\n \t\t\"dev\": \"concurrently --kill-others \\\"vite\\\" \\\"electron main.js\\\"\",\n \t\t\"build\": \"vite build && electron-builder\",\n@@ -36,6 +36,7 @@\n \t\t}\n \t},\n \t\"dependencies\": {\n+\t\t\"@simonwep/pickr\": \"^1.9.1\",\n \t\t\"color-namer\": \"^1.4.0\",\n \t\t\"konva\": \"^9.3.6\",\n \t\t\"pinia\": \"^2.1.7\","
-      },
-      {
-        "sha": "03f89ba9dc53b20814388ea6127f4af21537bca9",
-        "filename": "src/components/ColorBar.vue",
-        "status": "modified",
-        "additions": 60,
-        "deletions": 24,
-        "changes": 84,
-        "blob_url": "https://github.com/jrwnnnn/re-color/blob/ac4cee567ab54d6ec392a12e16abf610728ac6cb/src%2Fcomponents%2FColorBar.vue",
-        "raw_url": "https://github.com/jrwnnnn/re-color/raw/ac4cee567ab54d6ec392a12e16abf610728ac6cb/src%2Fcomponents%2FColorBar.vue",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/src%2Fcomponents%2FColorBar.vue?ref=ac4cee567ab54d6ec392a12e16abf610728ac6cb",
-        "patch": "@@ -1,36 +1,72 @@\n <script setup lang=\"ts\">\n+import { onMounted, onUnmounted, watch, ref } from \"vue\";\n import { useColorStore, PALETTE } from \"../stores/useColorStore\";\n+import Pickr from \"@simonwep/pickr\";\n import colorNamer from \"color-namer\";\n+\n const colorStore = useColorStore();\n+\n+const pickrRef = ref<HTMLDivElement>();\n+let pickr: Pickr | null = null;\n+\n+onMounted(() => {\n+\tpickr = Pickr.create({\n+\t\tel: pickrRef.value!,\n+\t\ttheme: \"nano\",\n+\t\tdefault: colorStore.activeColor,\n+\t\tcomponents: {\n+\t\t\tpreview: true,\n+\t\t\thue: true,\n+\t\t\tinteraction: {\n+\t\t\t\thex: false,\n+\t\t\t\tinput: true,\n+\t\t\t\tsave: false,\n+\t\t\t},\n+\t\t},\n+\t});\n+\n+\tpickr.on(\"change\", (color: Pickr.HSVaColor) => {\n+\t\tconst hex = color.toHEXA().toString().slice(0, 7);\n+\t\tcolorStore.setColor(hex);\n+\t\tpickr?.applyColor();\n+\t});\n+});\n+\n+watch(\n+\t() => colorStore.activeColor,\n+\t(hex) => {\n+\t\tpickr!.setColor(hex);\n+\t},\n+);\n+\n+onUnmounted(() => pickr?.destroyAndRemove());\n </script>\n \n <template>\n \t<div\n-\t\tclass=\"bg-panel border-accent flex items-center gap-2.5 border-t  py-1 px-2\"\n+\t\tclass=\"bg-panel border-accent flex items-center gap-2.5 border-t px-2 py-1\"\n \t>\n-\t\t<input\n-\t\t\tid=\"custom-color-picker\"\n-\t\t\ttitle=\"Custom Color Picker\"\n-\t\t\ttype=\"color\"\n-\t\t\t:value=\"colorStore.activeColor\"\n-\t\t\t@input=\"colorStore.setColor(($event.target as HTMLInputElement).value)\"\n-\t\t\tclass=\"h-10 w-10 cursor-pointer\"\n-\t\t/>\n-\n-\t\t<div class=\"flex flex-wrap items-center gap-1\">\n-\t\t\t<button\n-\t\t\t\tv-for=\"color in PALETTE\"\n-\t\t\t\t:key=\"color.hex\"\n-\t\t\t\t@click=\"colorStore.setColor(color.hex)\"\n-\t\t\t\t:title=\"colorNamer(color.hex).ntc[0].name + ' (' + color.hex + ')'\"\n-\t\t\t\t:class=\"[\n-\t\t\t\t\t'h-6 w-6 cursor-pointer border-2 transition-all duration-100',\n-\t\t\t\t\tcolorStore.activeColor.toLowerCase() === color.hex.toLowerCase()\n-\t\t\t\t\t\t? 'border-highlight scale-110'\n-\t\t\t\t\t\t: 'border-transparent hover:scale-110 hover:border-white/40',\n-\t\t\t\t]\"\n-\t\t\t\t:style=\"{ background: color.hex }\"\n-\t\t\t></button>\n+\t\t<div\n+\t\t\tclass=\"flex items-center gap-2.5\"\n+\t\t\t:style=\"{ filter: colorStore.cssFilter }\"\n+\t\t>\n+\t\t\t<div ref=\"pickrRef\"></div>\n+\n+\t\t\t<div id=\"swatch-bar\" class=\"flex flex-wrap items-center gap-1\">\n+\t\t\t\t<button\n+\t\t\t\t\tv-for=\"color in PALETTE\"\n+\t\t\t\t\t:key=\"color.hex\"\n+\t\t\t\t\t@click=\"colorStore.setColor(color.hex)\"\n+\t\t\t\t\t:title=\"colorNamer(color.hex).ntc[0].name + ' (' + color.hex + ')'\"\n+\t\t\t\t\t:class=\"[\n+\t\t\t\t\t\t'h-6 w-6 cursor-pointer border-2 transition-all duration-100',\n+\t\t\t\t\t\tcolorStore.activeColor.toLowerCase() === color.hex.toLowerCase()\n+\t\t\t\t\t\t\t? 'scale-105 border-white/50'\n+\t\t\t\t\t\t\t: 'border-transparent hover:scale-105 hover:border-white/40',\n+\t\t\t\t\t]\"\n+\t\t\t\t\t:style=\"{ background: color.hex }\"\n+\t\t\t\t></button>\n+\t\t\t</div>\n \t\t</div>\n \t</div>\n </template>"
-      },
-      {
-        "sha": "ec2f6a4e257ddc6732078c0aa66d7c6f0a11cf93",
-        "filename": "src/components/StatusBar.vue",
-        "status": "modified",
-        "additions": 33,
-        "deletions": 6,
-        "changes": 39,
-        "blob_url": "https://github.com/jrwnnnn/re-color/blob/ac4cee567ab54d6ec392a12e16abf610728ac6cb/src%2Fcomponents%2FStatusBar.vue",
-        "raw_url": "https://github.com/jrwnnnn/re-color/raw/ac4cee567ab54d6ec392a12e16abf610728ac6cb/src%2Fcomponents%2FStatusBar.vue",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/src%2Fcomponents%2FStatusBar.vue?ref=ac4cee567ab54d6ec392a12e16abf610728ac6cb",
-        "patch": "@@ -1,6 +1,6 @@\n <script setup lang=\"ts\">\n import { useCanvasStore } from \"../stores/useCanvasStore\";\n-import { useColorStore } from \"../stores/useColorStore\";\n+import { useColorStore, type ColorblindMode } from \"../stores/useColorStore\";\n \n const canvasStore = useCanvasStore();\n const colorStore = useColorStore();\n@@ -18,11 +18,38 @@ const colorStore = useColorStore();\n \t\t\t<p>{{ colorStore.colorName }}</p>\n \t\t</div>\n \n-\t\t<div v-if=\"canvasStore.cursorPos\" class=\"flex items-center gap-1 font-mono\">\n-\t\t\t<p>X:</p>\n-\t\t\t<p>{{ canvasStore.cursorPos.x }}</p>\n-\t\t\t<p class=\"ml-1.5\">Y:</p>\n-\t\t\t<p>{{ canvasStore.cursorPos.y }}</p>\n+\t\t<div class=\"flex items-center gap-2\">\n+\t\t\t<div\n+\t\t\t\tv-if=\"canvasStore.cursorPos\"\n+\t\t\t\tclass=\"flex items-center gap-1 font-mono\"\n+\t\t\t>\n+\t\t\t\t<p>X:</p>\n+\t\t\t\t<p>{{ canvasStore.cursorPos.x }}</p>\n+\t\t\t\t<p class=\"ml-1.5\">Y:</p>\n+\t\t\t\t<p>{{ canvasStore.cursorPos.y }}</p>\n+\t\t\t</div>\n+\t\t\t<select\n+\t\t\t\t:value=\"colorStore.mode\"\n+\t\t\t\t@change=\"\n+\t\t\t\t\tcolorStore.setMode(\n+\t\t\t\t\t\t($event.target as HTMLSelectElement).value as ColorblindMode,\n+\t\t\t\t\t)\n+\t\t\t\t\"\n+\t\t\t\tclass=\"text-xxs cursor-pointer font-semibold tracking-wide outline-none\"\n+\t\t\t>\n+\t\t\t\t<option class=\"bg-panel text-white\" value=\"normal\">\n+\t\t\t\t\tNormal Vision\n+\t\t\t\t</option>\n+\t\t\t\t<option class=\"bg-panel text-white\" value=\"deuteranopia\">\n+\t\t\t\t\tDeuteranopia\n+\t\t\t\t</option>\n+\t\t\t\t<option class=\"bg-panel text-white\" value=\"protanopia\">\n+\t\t\t\t\tProtanopia\n+\t\t\t\t</option>\n+\t\t\t\t<option class=\"bg-panel text-white\" value=\"tritanopia\">\n+\t\t\t\t\tTritanopia\n+\t\t\t\t</option>\n+\t\t\t</select>\n \t\t</div>\n \t</div>\n </template>"
-      },
-      {
-        "sha": "1e1bf09d8f7e16c70b794db6dbefdf24686753d3",
-        "filename": "src/stores/useColorStore.ts",
-        "status": "modified",
-        "additions": 29,
-        "deletions": 1,
-        "changes": 30,
-        "blob_url": "https://github.com/jrwnnnn/re-color/blob/ac4cee567ab54d6ec392a12e16abf610728ac6cb/src%2Fstores%2FuseColorStore.ts",
-        "raw_url": "https://github.com/jrwnnnn/re-color/raw/ac4cee567ab54d6ec392a12e16abf610728ac6cb/src%2Fstores%2FuseColorStore.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/src%2Fstores%2FuseColorStore.ts?ref=ac4cee567ab54d6ec392a12e16abf610728ac6cb",
-        "patch": "@@ -21,13 +21,41 @@ export const PALETTE = [\n \t{ hex: \"#7B2D8B\" },\n ];\n \n+export type ColorblindMode =\n+\t| \"normal\"\n+\t| \"deuteranopia\"\n+\t| \"protanopia\"\n+\t| \"tritanopia\";\n+\n+const CSS_FILTERS: Record<ColorblindMode, string> = {\n+\tnormal: \"none\",\n+\tdeuteranopia: \"url(#deuteranopia)\",\n+\tprotanopia: \"url(#protanopia)\",\n+\ttritanopia: \"url(#tritanopia)\",\n+};\n+\n export const useColorStore = defineStore(\"color\", () => {\n \tconst activeColor = ref(\"#000000\");\n+\n+\t// Persisted so the user's mode survives app restarts\n+\tconst mode = ref<ColorblindMode>(\n+\t\t(localStorage.getItem(\"colorblindMode\") as ColorblindMode) ?? \"normal\",\n+\t);\n+\n+\t// color-namer compares the hex against thousands of named colors and returns\n+\t// the closest match. .ntc[0].name uses the \"Name That Color\" dataset\n \tconst colorName = computed(() => colorNamer(activeColor.value).ntc[0].name);\n \n+\tconst cssFilter = computed(() => CSS_FILTERS[mode.value]);\n+\n \tfunction setColor(hex: string) {\n \t\tactiveColor.value = hex;\n \t}\n \n-\treturn { activeColor, colorName, setColor };\n+\tfunction setMode(m: ColorblindMode) {\n+\t\tmode.value = m;\n+\t\tlocalStorage.setItem(\"colorblindMode\", m);\n+\t}\n+\n+\treturn { activeColor, colorName, mode, cssFilter, setColor, setMode };\n });"
-      },
-      {
-        "sha": "78238977c9663606a067283bcc78967fdb6517d2",
-        "filename": "src/style.css",
-        "status": "modified",
-        "additions": 28,
-        "deletions": 0,
-        "changes": 28,
-        "blob_url": "https://github.com/jrwnnnn/re-color/blob/ac4cee567ab54d6ec392a12e16abf610728ac6cb/src%2Fstyle.css",
-        "raw_url": "https://github.com/jrwnnnn/re-color/raw/ac4cee567ab54d6ec392a12e16abf610728ac6cb/src%2Fstyle.css",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/src%2Fstyle.css?ref=ac4cee567ab54d6ec392a12e16abf610728ac6cb",
-        "patch": "@@ -1,4 +1,5 @@\n @import \"tailwindcss\";\n+@import \"@simonwep/pickr/dist/themes/nano.min.css\";\n \n @theme {\n \t--color-surface: var(--color-zinc-900);\n@@ -17,3 +18,30 @@ body,\n \tfont-family: \"Segoe UI\", system-ui, sans-serif;\n \tuser-select: none;\n }\n+\n+.pcr-app {\n+\t@apply bg-accent filter-none;\n+}\n+.pcr-app[data-mode=\"deuteranopia\"] {\n+\tfilter: url(#deuteranopia);\n+}\n+.pcr-app[data-mode=\"protanopia\"] {\n+\tfilter: url(#protanopia);\n+}\n+.pcr-app[data-mode=\"tritanopia\"] {\n+\tfilter: url(#tritanopia);\n+}\n+.pcr-palette {\n+\t@apply rounded-none!;\n+}\n+.pcr-current-color {\n+\t@apply border border-white/50;\n+}\n+.pcr-app .pcr-interaction .pcr-result {\n+\t@apply bg-surface! text-white/75 ring-0!;\n+}\n+.pcr-button,\n+.pcr-button::before,\n+.pcr-button::after {\n+\t@apply rounded-none! border-white/50 ring-0! hover:scale-105 hover:border-2;\n+}"
-      },
-      {
-        "sha": "80aadc431adecaeb3abdaab31b60fb82ea775a9e",
-        "filename": "src/views/DrawingArea.vue",
-        "status": "modified",
-        "additions": 16,
-        "deletions": 5,
-        "changes": 21,
-        "blob_url": "https://github.com/jrwnnnn/re-color/blob/ac4cee567ab54d6ec392a12e16abf610728ac6cb/src%2Fviews%2FDrawingArea.vue",
-        "raw_url": "https://github.com/jrwnnnn/re-color/raw/ac4cee567ab54d6ec392a12e16abf610728ac6cb/src%2Fviews%2FDrawingArea.vue",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/src%2Fviews%2FDrawingArea.vue?ref=ac4cee567ab54d6ec392a12e16abf610728ac6cb",
-        "patch": "@@ -1,13 +1,13 @@\n <script setup lang=\"ts\">\n-import { ref, onMounted, onUnmounted } from \"vue\";\n-import Toolbar from \"../components/ToolBar.vue\";\n-import ColorBar from \"../components/ColorBar.vue\";\n-import StatusBar from \"../components/StatusBar.vue\";\n+import { ref, onMounted, onUnmounted, watch } from \"vue\";\n import { useCanvasStore } from \"../stores/useCanvasStore\";\n import { useColorStore } from \"../stores/useColorStore\";\n import { useStage } from \"../lib/useStage\";\n import { useTools } from \"../lib/useTools\";\n import { useKeyboardShortcuts } from \"../lib/useKeyboardShortcuts\";\n+import Toolbar from \"../components/ToolBar.vue\";\n+import ColorBar from \"../components/ColorBar.vue\";\n+import StatusBar from \"../components/StatusBar.vue\";\n \n const canvasStore = useCanvasStore();\n const colorStore = useColorStore();\n@@ -37,6 +37,14 @@ onMounted(() => {\n \twindow.electronAPI?.onNewPainting(() => newCanvas());\n });\n \n+watch(\n+\t() => colorStore.mode,\n+\t(mode) => {\n+\t\tdocument.querySelector(\".pcr-app\")?.setAttribute(\"data-mode\", mode);\n+\t},\n+\t{ immediate: true },\n+);\n+\n onUnmounted(() => destroy());\n </script>\n \n@@ -49,7 +57,10 @@ onUnmounted(() => destroy());\n \t>\n \t\t<div class=\"flex min-h-0 flex-1 overflow-hidden\">\n \t\t\t<Toolbar />\n-\t\t\t<div class=\"relative flex-1 overflow-hidden bg-surface\">\n+\t\t\t<div\n+\t\t\t\tclass=\"bg-surface relative flex-1 overflow-hidden\"\n+\t\t\t\t:style=\"{ filter: colorStore.cssFilter }\"\n+\t\t\t>\n \t\t\t\t<div ref=\"containerRef\" class=\"h-full w-full\"></div>\n \t\t\t</div>\n \t\t</div>"
-      }
-    ]
-  },
-  {
-    "sha": "ed634f7bb418f022989078e328698aa7f8104bc4",
-    "node_id": "C_kwDORJTOeNoAKGVkNjM0ZjdiYjQxOGYwMjI5ODkwNzhlMzI4Njk4YWE3ZjgxMDRiYzQ",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "ping@jrwnnnn.me",
-        "date": "2026-05-01T11:44:00Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "ping@jrwnnnn.me",
-        "date": "2026-05-01T11:44:00Z"
-      },
-      "message": "chore: Bump back version",
-      "tree": {
-        "sha": "90a6396d4f80e3cb198a258ef61c87e9132aea35",
-        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/90a6396d4f80e3cb198a258ef61c87e9132aea35"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/ed634f7bb418f022989078e328698aa7f8104bc4",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQJAcB/d+rq9YH6VTZwhw4qu8/yzA2CgdGdJKkF3RAviQO+lRRy3FbWsm678mq3HDDL\n+CZ+NVFxjwdLd3pGfZsQc=\n-----END SSH SIGNATURE-----",
-        "payload": "tree 90a6396d4f80e3cb198a258ef61c87e9132aea35\nparent a5fe29b46014a2311a263e087963adb307a7b6ff\nauthor Mark Jerwin <ping@jrwnnnn.me> 1777635840 +0800\ncommitter Mark Jerwin <ping@jrwnnnn.me> 1777635840 +0800\n\nchore: Bump back version\n",
-        "verified_at": "2026-05-01T11:44:04Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/ed634f7bb418f022989078e328698aa7f8104bc4",
-    "html_url": "https://github.com/jrwnnnn/re-color/commit/ed634f7bb418f022989078e328698aa7f8104bc4",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/ed634f7bb418f022989078e328698aa7f8104bc4/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "a5fe29b46014a2311a263e087963adb307a7b6ff",
-        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/a5fe29b46014a2311a263e087963adb307a7b6ff",
-        "html_url": "https://github.com/jrwnnnn/re-color/commit/a5fe29b46014a2311a263e087963adb307a7b6ff"
-      }
-    ],
-    "stats": {
-      "total": 2,
-      "additions": 1,
-      "deletions": 1
-    },
-    "files": [
-      {
-        "sha": "86f71760c2bff855bfb526317883c22b6f2bfd8b",
-        "filename": "package.json",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/re-color/blob/ed634f7bb418f022989078e328698aa7f8104bc4/package.json",
-        "raw_url": "https://github.com/jrwnnnn/re-color/raw/ed634f7bb418f022989078e328698aa7f8104bc4/package.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/package.json?ref=ed634f7bb418f022989078e328698aa7f8104bc4",
-        "patch": "@@ -4,7 +4,7 @@\n \t\"author\": \"jrwnnnn, kcirdneH, Idonowhatnametouse\",\n \t\"license\": \"MIT\",\n \t\"main\": \"main.js\",\n-\t\"version\": \"1.1.0\",\n+\t\"version\": \"0.2.0\",\n \t\"scripts\": {\n \t\t\"dev\": \"concurrently --kill-others \\\"vite\\\" \\\"electron main.js\\\"\",\n \t\t\"build\": \"vite build && electron-builder\","
-      }
-    ]
-  },
-  {
-    "sha": "a5fe29b46014a2311a263e087963adb307a7b6ff",
-    "node_id": "C_kwDORJTOeNoAKGE1ZmUyOWI0NjAxNGEyMzExYTI2M2UwODc5NjNhZGIzMDdhN2I2ZmY",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "ping@jrwnnnn.me",
-        "date": "2026-05-01T11:25:08Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-05-01T11:25:08Z"
-      },
-      "message": "Merge pull request #68 from jrwnnnn/dev\n\nAdd dichromacy simulation filters to color picker and UI",
-      "tree": {
-        "sha": "9261fef7f33906643d5bab2d72e0c34a7556d309",
-        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/9261fef7f33906643d5bab2d72e0c34a7556d309"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/a5fe29b46014a2311a263e087963adb307a7b6ff",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp9I2UCRC1aQ7uu5UhlAAAAL0QAD2aZYKxxaNLTtWXJKJhVird\nfXO/4fJnx3Oz333gB+lZ8/zLJTKfZ5vPd3sTpAf9Yv+LE4WF45K/XUKrTfe1+57w\nNBgX7v/TC3tbN4nmNB56yKG9lqR9QBowvlYxo9e92odxRAfnv8n/ftfIyC7P9Sk+\nHqGxVXGWHlZWw2sYk/lxyTuQvpeW/FvdmiUvJuaXRHtTmNxjUL4KDUQUFhQdQDc0\n1EVtGJeIwWWwmcq935YJKtuWcarNwM+V3g6H1k3sihh86beLa66rqvS6EYne4VgK\nZJLPhu9k72AAX8h0o8efBByJvI73Jt9//FXs7Sq8pte/2GDPmgeYpYZR2d3JnGXM\nm/eZn65Lq3UOclf4fEY+E/KDHju72iADoBhUJUeGC+QH4om8MQCVmapyzyun7rrv\nAEDkIlptmMloJQHKcnvEzFqMgVaZyBir/BvR91Sb8p2fAH/hYC++ozcdb2gWAYwb\nXgokenzGBC0Y+cL1EvK3YA9EpsxPh1FFoFUqpzrbWK6ObVuEDhCBFfgCl6FZsh3X\nZQ6x09dJqnqIXkrcIFPEsws4mqCMC3gpsI2lDRCegXpNKcx8XRStSlIGkoe0XtIG\nfcpZqSZTMGeZKJH4tR2kmyt5j0O/LavZ8sloLlFUaIBuzAis2xGXrzvfvH35u8sY\n7yi1SNPGY+tDsZ8GihIb\n=LQXc\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 9261fef7f33906643d5bab2d72e0c34a7556d309\nparent 4b7419230158c4642f0fe6d00dc048bf21c88689\nparent 11fd5ad643a6ccd0e024c6555c31093fdae1c103\nauthor Mark Jerwin <ping@jrwnnnn.me> 1777634708 +0800\ncommitter GitHub <noreply@github.com> 1777634708 +0800\n\nMerge pull request #68 from jrwnnnn/dev\n\nAdd dichromacy simulation filters to color picker and UI",
-        "verified_at": "2026-05-01T11:25:08Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/a5fe29b46014a2311a263e087963adb307a7b6ff",
-    "html_url": "https://github.com/jrwnnnn/re-color/commit/a5fe29b46014a2311a263e087963adb307a7b6ff",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/a5fe29b46014a2311a263e087963adb307a7b6ff/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "4b7419230158c4642f0fe6d00dc048bf21c88689",
-        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/4b7419230158c4642f0fe6d00dc048bf21c88689",
-        "html_url": "https://github.com/jrwnnnn/re-color/commit/4b7419230158c4642f0fe6d00dc048bf21c88689"
-      },
-      {
-        "sha": "11fd5ad643a6ccd0e024c6555c31093fdae1c103",
-        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/11fd5ad643a6ccd0e024c6555c31093fdae1c103",
-        "html_url": "https://github.com/jrwnnnn/re-color/commit/11fd5ad643a6ccd0e024c6555c31093fdae1c103"
-      }
-    ],
-    "stats": {
-      "total": 357,
-      "additions": 309,
-      "deletions": 48
-    },
-    "files": [
-      {
-        "sha": "43dbf8d66df86108df5fc08ad3b457adde54a782",
-        "filename": "LICENSE",
-        "status": "added",
-        "additions": 21,
-        "deletions": 0,
-        "changes": 21,
-        "blob_url": "https://github.com/jrwnnnn/re-color/blob/a5fe29b46014a2311a263e087963adb307a7b6ff/LICENSE",
-        "raw_url": "https://github.com/jrwnnnn/re-color/raw/a5fe29b46014a2311a263e087963adb307a7b6ff/LICENSE",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/LICENSE?ref=a5fe29b46014a2311a263e087963adb307a7b6ff",
-        "patch": "@@ -0,0 +1,21 @@\n+MIT License\n+\n+Copyright (c) 2026 Mark Jerwin\n+\n+Permission is hereby granted, free of charge, to any person obtaining a copy\n+of this software and associated documentation files (the \"Software\"), to deal\n+in the Software without restriction, including without limitation the rights\n+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n+copies of the Software, and to permit persons to whom the Software is\n+furnished to do so, subject to the following conditions:\n+\n+The above copyright notice and this permission notice shall be included in all\n+copies or substantial portions of the Software.\n+\n+THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n+SOFTWARE."
-      },
-      {
-        "sha": "6c9d5a9b8c4227c2a0650aae70e26d8569ad1582",
-        "filename": "index.html",
-        "status": "modified",
-        "additions": 39,
-        "deletions": 0,
-        "changes": 39,
-        "blob_url": "https://github.com/jrwnnnn/re-color/blob/a5fe29b46014a2311a263e087963adb307a7b6ff/index.html",
-        "raw_url": "https://github.com/jrwnnnn/re-color/raw/a5fe29b46014a2311a263e087963adb307a7b6ff/index.html",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/index.html?ref=a5fe29b46014a2311a263e087963adb307a7b6ff",
-        "patch": "@@ -6,6 +6,45 @@\n \t\t<title>Re:Color</title>\n \t</head>\n \t<body>\n+\t\t<!-- This filter is based of Machado, Gustavo & Oliveira, Manuel & Fernandes, Leandro. (2009). A\n+\t\tPhysiologically-Based Model for Simulation of Color Vision Deficiency (vol\n+\t\t15, pg 1291, 2009). IEEE transactions on visualization and computer\n+\t\tgraphics. 15. 1291-8. 10.1109/TVCG.2009.113. -->\n+\t\t<svg style=\"display: none\" xmlns=\"http://www.w3.org/2000/svg\">\n+\t\t\t<defs>\n+\t\t\t\t<filter id=\"deuteranopia\">\n+\t\t\t\t\t<feColorMatrix\n+\t\t\t\t\t\ttype=\"matrix\"\n+\t\t\t\t\t\tvalues=\"\n+          0.367  0.861 -0.228  0  0\n+          0.280  0.673  0.047  0  0\n+         -0.012  0.043  0.969  0  0\n+          0      0      0      1  0\"\n+\t\t\t\t\t/>\n+\t\t\t\t</filter>\n+\t\t\t\t<filter id=\"protanopia\">\n+\t\t\t\t\t<feColorMatrix\n+\t\t\t\t\t\ttype=\"matrix\"\n+\t\t\t\t\t\tvalues=\"\n+          0.152  1.053 -0.205  0  0\n+          0.115  0.786  0.099  0  0\n+         -0.004 -0.048  1.052  0  0\n+          0      0      0      1  0\"\n+\t\t\t\t\t/>\n+\t\t\t\t</filter>\n+\t\t\t\t<filter id=\"tritanopia\">\n+\t\t\t\t\t<feColorMatrix\n+\t\t\t\t\t\ttype=\"matrix\"\n+\t\t\t\t\t\tvalues=\"\n+          1.256 -0.077 -0.179  0  0\n+         -0.078  0.931  0.148  0  0\n+          0.005  0.691  0.304  0  0\n+          0      0      0      1  0\"\n+\t\t\t\t\t/>\n+\t\t\t\t</filter>\n+\t\t\t</defs>\n+\t\t</svg>\n+\n \t\t<div id=\"app\"></div>\n \t\t<script type=\"module\" src=\"/src/main.ts\"></script>\n \t</body>"
-      },
-      {
-        "sha": "fac8ee81f6ed84cc4af86316bda175bdc2a6e9df",
-        "filename": "package-lock.json",
-        "status": "modified",
-        "additions": 82,
-        "deletions": 12,
-        "changes": 94,
-        "blob_url": "https://github.com/jrwnnnn/re-color/blob/a5fe29b46014a2311a263e087963adb307a7b6ff/package-lock.json",
-        "raw_url": "https://github.com/jrwnnnn/re-color/raw/a5fe29b46014a2311a263e087963adb307a7b6ff/package-lock.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/package-lock.json?ref=a5fe29b46014a2311a263e087963adb307a7b6ff",
-        "patch": "@@ -9,6 +9,7 @@\n \t\t\t\"version\": \"1.1.0\",\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"dependencies\": {\n+\t\t\t\t\"@simonwep/pickr\": \"^1.9.1\",\n \t\t\t\t\"color-namer\": \"^1.4.0\",\n \t\t\t\t\"konva\": \"^9.3.6\",\n \t\t\t\t\"pinia\": \"^2.1.7\",\n@@ -56,9 +57,9 @@\n \t\t\t}\n \t\t},\n \t\t\"node_modules/@babel/parser\": {\n-\t\t\t\"version\": \"7.29.2\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/@babel/parser/-/parser-7.29.2.tgz\",\n-\t\t\t\"integrity\": \"sha512-4GgRzy/+fsBa72/RZVJmGKPmZu9Byn8o4MoLpmNe1m8ZfYnz5emHLQz3U4gLud6Zwl0RZIcgiLD7Uq7ySFuDLA==\",\n+\t\t\t\"version\": \"7.29.3\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@babel/parser/-/parser-7.29.3.tgz\",\n+\t\t\t\"integrity\": \"sha512-b3ctpQwp+PROvU/cttc4OYl4MzfJUWy6FZg+PMXfzmt/+39iHVF0sDfqay8TQM3JA2EUOyKcFZt75jWriQijsA==\",\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@babel/types\": \"^7.29.0\"\n@@ -1020,6 +1021,9 @@\n \t\t\t\t\"arm64\"\n \t\t\t],\n \t\t\t\"dev\": true,\n+\t\t\t\"libc\": [\n+\t\t\t\t\"glibc\"\n+\t\t\t],\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -1037,6 +1041,9 @@\n \t\t\t\t\"arm64\"\n \t\t\t],\n \t\t\t\"dev\": true,\n+\t\t\t\"libc\": [\n+\t\t\t\t\"musl\"\n+\t\t\t],\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -1054,6 +1061,9 @@\n \t\t\t\t\"ppc64\"\n \t\t\t],\n \t\t\t\"dev\": true,\n+\t\t\t\"libc\": [\n+\t\t\t\t\"glibc\"\n+\t\t\t],\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -1071,6 +1081,9 @@\n \t\t\t\t\"s390x\"\n \t\t\t],\n \t\t\t\"dev\": true,\n+\t\t\t\"libc\": [\n+\t\t\t\t\"glibc\"\n+\t\t\t],\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -1088,6 +1101,9 @@\n \t\t\t\t\"x64\"\n \t\t\t],\n \t\t\t\"dev\": true,\n+\t\t\t\"libc\": [\n+\t\t\t\t\"glibc\"\n+\t\t\t],\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -1105,6 +1121,9 @@\n \t\t\t\t\"x64\"\n \t\t\t],\n \t\t\t\"dev\": true,\n+\t\t\t\"libc\": [\n+\t\t\t\t\"musl\"\n+\t\t\t],\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -1191,6 +1210,16 @@\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\"\n \t\t},\n+\t\t\"node_modules/@simonwep/pickr\": {\n+\t\t\t\"version\": \"1.9.1\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@simonwep/pickr/-/pickr-1.9.1.tgz\",\n+\t\t\t\"integrity\": \"sha512-fR3qmfAcPf/HSFS7GEnTmZLM3+xERv1+jyMBbzT63ilRRM8veYjI7ELvkHHKk0/du3lHp7uh/FqatjM3646X1g==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"dependencies\": {\n+\t\t\t\t\"core-js\": \"3.37.0\",\n+\t\t\t\t\"nanopop\": \"2.4.2\"\n+\t\t\t}\n+\t\t},\n \t\t\"node_modules/@sindresorhus/is\": {\n \t\t\t\"version\": \"4.6.0\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@sindresorhus/is/-/is-4.6.0.tgz\",\n@@ -1350,6 +1379,9 @@\n \t\t\t\t\"arm64\"\n \t\t\t],\n \t\t\t\"dev\": true,\n+\t\t\t\"libc\": [\n+\t\t\t\t\"glibc\"\n+\t\t\t],\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -1367,6 +1399,9 @@\n \t\t\t\t\"arm64\"\n \t\t\t],\n \t\t\t\"dev\": true,\n+\t\t\t\"libc\": [\n+\t\t\t\t\"musl\"\n+\t\t\t],\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -1384,6 +1419,9 @@\n \t\t\t\t\"x64\"\n \t\t\t],\n \t\t\t\"dev\": true,\n+\t\t\t\"libc\": [\n+\t\t\t\t\"glibc\"\n+\t\t\t],\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -1401,6 +1439,9 @@\n \t\t\t\t\"x64\"\n \t\t\t],\n \t\t\t\"dev\": true,\n+\t\t\t\"libc\": [\n+\t\t\t\t\"musl\"\n+\t\t\t],\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -2850,6 +2891,17 @@\n \t\t\t\t\"url\": \"https://github.com/open-cli-tools/concurrently?sponsor=1\"\n \t\t\t}\n \t\t},\n+\t\t\"node_modules/core-js\": {\n+\t\t\t\"version\": \"3.37.0\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/core-js/-/core-js-3.37.0.tgz\",\n+\t\t\t\"integrity\": \"sha512-fu5vHevQ8ZG4og+LXug8ulUtVxjOcEYvifJr7L5Bfq9GOztVqsKd9/59hUk2ZSbCrS3BqUr3EpaYGIYzq7g3Ug==\",\n+\t\t\t\"hasInstallScript\": true,\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"funding\": {\n+\t\t\t\t\"type\": \"opencollective\",\n+\t\t\t\t\"url\": \"https://opencollective.com/core-js\"\n+\t\t\t}\n+\t\t},\n \t\t\"node_modules/core-util-is\": {\n \t\t\t\"version\": \"1.0.2\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz\",\n@@ -3402,9 +3454,9 @@\n \t\t\t}\n \t\t},\n \t\t\"node_modules/electron\": {\n-\t\t\t\"version\": \"41.3.0\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/electron/-/electron-41.3.0.tgz\",\n-\t\t\t\"integrity\": \"sha512-2Q5aeocmFdeheZGDUTrAvSR3t+n0c3d104AJWWEnt7syJU0tE4VdibMYaPtQ47QuXSoUf0/xSsfUUvu/uSXIfg==\",\n+\t\t\t\"version\": \"41.4.0\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/electron/-/electron-41.4.0.tgz\",\n+\t\t\t\"integrity\": \"sha512-1afmxJGyrZ4bve+PDCs8YtNjjVu4cPwUtSjx36o6gyJWI0NvhebMKtIzzKNOScRyXntH2hX0i350Xgm3BKiEYQ==\",\n \t\t\t\"dev\": true,\n \t\t\t\"hasInstallScript\": true,\n \t\t\t\"license\": \"MIT\",\n@@ -5067,6 +5119,9 @@\n \t\t\t\t\"arm64\"\n \t\t\t],\n \t\t\t\"dev\": true,\n+\t\t\t\"libc\": [\n+\t\t\t\t\"glibc\"\n+\t\t\t],\n \t\t\t\"license\": \"MPL-2.0\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -5088,6 +5143,9 @@\n \t\t\t\t\"arm64\"\n \t\t\t],\n \t\t\t\"dev\": true,\n+\t\t\t\"libc\": [\n+\t\t\t\t\"musl\"\n+\t\t\t],\n \t\t\t\"license\": \"MPL-2.0\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -5109,6 +5167,9 @@\n \t\t\t\t\"x64\"\n \t\t\t],\n \t\t\t\"dev\": true,\n+\t\t\t\"libc\": [\n+\t\t\t\t\"glibc\"\n+\t\t\t],\n \t\t\t\"license\": \"MPL-2.0\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -5130,6 +5191,9 @@\n \t\t\t\t\"x64\"\n \t\t\t],\n \t\t\t\"dev\": true,\n+\t\t\t\"libc\": [\n+\t\t\t\t\"musl\"\n+\t\t\t],\n \t\t\t\"license\": \"MPL-2.0\",\n \t\t\t\"optional\": true,\n \t\t\t\"os\": [\n@@ -5395,9 +5459,9 @@\n \t\t\t\"license\": \"MIT\"\n \t\t},\n \t\t\"node_modules/nanoid\": {\n-\t\t\t\"version\": \"3.3.11\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz\",\n-\t\t\t\"integrity\": \"sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==\",\n+\t\t\t\"version\": \"3.3.12\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/nanoid/-/nanoid-3.3.12.tgz\",\n+\t\t\t\"integrity\": \"sha512-ZB9RH/39qpq5Vu6Y+NmUaFhQR6pp+M2Xt76XBnEwDaGcVAqhlvxrl3B2bKS5D3NH3QR76v3aSrKaF/Kiy7lEtQ==\",\n \t\t\t\"funding\": [\n \t\t\t\t{\n \t\t\t\t\t\"type\": \"github\",\n@@ -5412,6 +5476,12 @@\n \t\t\t\t\"node\": \"^10 || ^12 || ^13.7 || ^14 || >=15.0.1\"\n \t\t\t}\n \t\t},\n+\t\t\"node_modules/nanopop\": {\n+\t\t\t\"version\": \"2.4.2\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/nanopop/-/nanopop-2.4.2.tgz\",\n+\t\t\t\"integrity\": \"sha512-NzOgmMQ+elxxHeIha+OG/Pv3Oc3p4RU2aBhwWwAqDpXrdTbtRylbRLQztLy8dMMwfl6pclznBdfUhccEn9ZIzw==\",\n+\t\t\t\"license\": \"MIT\"\n+\t\t},\n \t\t\"node_modules/natural-compare\": {\n \t\t\t\"version\": \"1.4.0\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz\",\n@@ -5785,9 +5855,9 @@\n \t\t\t}\n \t\t},\n \t\t\"node_modules/postcss\": {\n-\t\t\t\"version\": \"8.5.12\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/postcss/-/postcss-8.5.12.tgz\",\n-\t\t\t\"integrity\": \"sha512-W62t/Se6rA0Az3DfCL0AqJwXuKwBeYg6nOaIgzP+xZ7N5BFCI7DYi1qs6ygUYT6rvfi6t9k65UMLJC+PHZpDAA==\",\n+\t\t\t\"version\": \"8.5.13\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/postcss/-/postcss-8.5.13.tgz\",\n+\t\t\t\"integrity\": \"sha512-qif0+jGGZoLWdHey3UFHHWP0H7Gbmsk8T5VEqyYFbWqPr1XqvLGBbk/sl8V5exGmcYJklJOhOQq1pV9IcsiFag==\",\n \t\t\t\"funding\": [\n \t\t\t\t{\n \t\t\t\t\t\"type\": \"opencollective\","
-      },
-      {
-        "sha": "69860aadded2c4cc29dff8c19180beaa316305d5",
-        "filename": "package.json",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 0,
-        "changes": 1,
-        "blob_url": "https://github.com/jrwnnnn/re-color/blob/a5fe29b46014a2311a263e087963adb307a7b6ff/package.json",
-        "raw_url": "https://github.com/jrwnnnn/re-color/raw/a5fe29b46014a2311a263e087963adb307a7b6ff/package.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/package.json?ref=a5fe29b46014a2311a263e087963adb307a7b6ff",
-        "patch": "@@ -37,6 +37,7 @@\n \t\t}\n \t},\n \t\"dependencies\": {\n+\t\t\"@simonwep/pickr\": \"^1.9.1\",\n \t\t\"color-namer\": \"^1.4.0\",\n \t\t\"konva\": \"^9.3.6\",\n \t\t\"pinia\": \"^2.1.7\","
-      },
-      {
-        "sha": "03f89ba9dc53b20814388ea6127f4af21537bca9",
-        "filename": "src/components/ColorBar.vue",
-        "status": "modified",
-        "additions": 60,
-        "deletions": 24,
-        "changes": 84,
-        "blob_url": "https://github.com/jrwnnnn/re-color/blob/a5fe29b46014a2311a263e087963adb307a7b6ff/src%2Fcomponents%2FColorBar.vue",
-        "raw_url": "https://github.com/jrwnnnn/re-color/raw/a5fe29b46014a2311a263e087963adb307a7b6ff/src%2Fcomponents%2FColorBar.vue",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/src%2Fcomponents%2FColorBar.vue?ref=a5fe29b46014a2311a263e087963adb307a7b6ff",
-        "patch": "@@ -1,36 +1,72 @@\n <script setup lang=\"ts\">\n+import { onMounted, onUnmounted, watch, ref } from \"vue\";\n import { useColorStore, PALETTE } from \"../stores/useColorStore\";\n+import Pickr from \"@simonwep/pickr\";\n import colorNamer from \"color-namer\";\n+\n const colorStore = useColorStore();\n+\n+const pickrRef = ref<HTMLDivElement>();\n+let pickr: Pickr | null = null;\n+\n+onMounted(() => {\n+\tpickr = Pickr.create({\n+\t\tel: pickrRef.value!,\n+\t\ttheme: \"nano\",\n+\t\tdefault: colorStore.activeColor,\n+\t\tcomponents: {\n+\t\t\tpreview: true,\n+\t\t\thue: true,\n+\t\t\tinteraction: {\n+\t\t\t\thex: false,\n+\t\t\t\tinput: true,\n+\t\t\t\tsave: false,\n+\t\t\t},\n+\t\t},\n+\t});\n+\n+\tpickr.on(\"change\", (color: Pickr.HSVaColor) => {\n+\t\tconst hex = color.toHEXA().toString().slice(0, 7);\n+\t\tcolorStore.setColor(hex);\n+\t\tpickr?.applyColor();\n+\t});\n+});\n+\n+watch(\n+\t() => colorStore.activeColor,\n+\t(hex) => {\n+\t\tpickr!.setColor(hex);\n+\t},\n+);\n+\n+onUnmounted(() => pickr?.destroyAndRemove());\n </script>\n \n <template>\n \t<div\n-\t\tclass=\"bg-panel border-accent flex items-center gap-2.5 border-t  py-1 px-2\"\n+\t\tclass=\"bg-panel border-accent flex items-center gap-2.5 border-t px-2 py-1\"\n \t>\n-\t\t<input\n-\t\t\tid=\"custom-color-picker\"\n-\t\t\ttitle=\"Custom Color Picker\"\n-\t\t\ttype=\"color\"\n-\t\t\t:value=\"colorStore.activeColor\"\n-\t\t\t@input=\"colorStore.setColor(($event.target as HTMLInputElement).value)\"\n-\t\t\tclass=\"h-10 w-10 cursor-pointer\"\n-\t\t/>\n-\n-\t\t<div class=\"flex flex-wrap items-center gap-1\">\n-\t\t\t<button\n-\t\t\t\tv-for=\"color in PALETTE\"\n-\t\t\t\t:key=\"color.hex\"\n-\t\t\t\t@click=\"colorStore.setColor(color.hex)\"\n-\t\t\t\t:title=\"colorNamer(color.hex).ntc[0].name + ' (' + color.hex + ')'\"\n-\t\t\t\t:class=\"[\n-\t\t\t\t\t'h-6 w-6 cursor-pointer border-2 transition-all duration-100',\n-\t\t\t\t\tcolorStore.activeColor.toLowerCase() === color.hex.toLowerCase()\n-\t\t\t\t\t\t? 'border-highlight scale-110'\n-\t\t\t\t\t\t: 'border-transparent hover:scale-110 hover:border-white/40',\n-\t\t\t\t]\"\n-\t\t\t\t:style=\"{ background: color.hex }\"\n-\t\t\t></button>\n+\t\t<div\n+\t\t\tclass=\"flex items-center gap-2.5\"\n+\t\t\t:style=\"{ filter: colorStore.cssFilter }\"\n+\t\t>\n+\t\t\t<div ref=\"pickrRef\"></div>\n+\n+\t\t\t<div id=\"swatch-bar\" class=\"flex flex-wrap items-center gap-1\">\n+\t\t\t\t<button\n+\t\t\t\t\tv-for=\"color in PALETTE\"\n+\t\t\t\t\t:key=\"color.hex\"\n+\t\t\t\t\t@click=\"colorStore.setColor(color.hex)\"\n+\t\t\t\t\t:title=\"colorNamer(color.hex).ntc[0].name + ' (' + color.hex + ')'\"\n+\t\t\t\t\t:class=\"[\n+\t\t\t\t\t\t'h-6 w-6 cursor-pointer border-2 transition-all duration-100',\n+\t\t\t\t\t\tcolorStore.activeColor.toLowerCase() === color.hex.toLowerCase()\n+\t\t\t\t\t\t\t? 'scale-105 border-white/50'\n+\t\t\t\t\t\t\t: 'border-transparent hover:scale-105 hover:border-white/40',\n+\t\t\t\t\t]\"\n+\t\t\t\t\t:style=\"{ background: color.hex }\"\n+\t\t\t\t></button>\n+\t\t\t</div>\n \t\t</div>\n \t</div>\n </template>"
-      },
-      {
-        "sha": "ec2f6a4e257ddc6732078c0aa66d7c6f0a11cf93",
-        "filename": "src/components/StatusBar.vue",
-        "status": "modified",
-        "additions": 33,
-        "deletions": 6,
-        "changes": 39,
-        "blob_url": "https://github.com/jrwnnnn/re-color/blob/a5fe29b46014a2311a263e087963adb307a7b6ff/src%2Fcomponents%2FStatusBar.vue",
-        "raw_url": "https://github.com/jrwnnnn/re-color/raw/a5fe29b46014a2311a263e087963adb307a7b6ff/src%2Fcomponents%2FStatusBar.vue",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/src%2Fcomponents%2FStatusBar.vue?ref=a5fe29b46014a2311a263e087963adb307a7b6ff",
-        "patch": "@@ -1,6 +1,6 @@\n <script setup lang=\"ts\">\n import { useCanvasStore } from \"../stores/useCanvasStore\";\n-import { useColorStore } from \"../stores/useColorStore\";\n+import { useColorStore, type ColorblindMode } from \"../stores/useColorStore\";\n \n const canvasStore = useCanvasStore();\n const colorStore = useColorStore();\n@@ -18,11 +18,38 @@ const colorStore = useColorStore();\n \t\t\t<p>{{ colorStore.colorName }}</p>\n \t\t</div>\n \n-\t\t<div v-if=\"canvasStore.cursorPos\" class=\"flex items-center gap-1 font-mono\">\n-\t\t\t<p>X:</p>\n-\t\t\t<p>{{ canvasStore.cursorPos.x }}</p>\n-\t\t\t<p class=\"ml-1.5\">Y:</p>\n-\t\t\t<p>{{ canvasStore.cursorPos.y }}</p>\n+\t\t<div class=\"flex items-center gap-2\">\n+\t\t\t<div\n+\t\t\t\tv-if=\"canvasStore.cursorPos\"\n+\t\t\t\tclass=\"flex items-center gap-1 font-mono\"\n+\t\t\t>\n+\t\t\t\t<p>X:</p>\n+\t\t\t\t<p>{{ canvasStore.cursorPos.x }}</p>\n+\t\t\t\t<p class=\"ml-1.5\">Y:</p>\n+\t\t\t\t<p>{{ canvasStore.cursorPos.y }}</p>\n+\t\t\t</div>\n+\t\t\t<select\n+\t\t\t\t:value=\"colorStore.mode\"\n+\t\t\t\t@change=\"\n+\t\t\t\t\tcolorStore.setMode(\n+\t\t\t\t\t\t($event.target as HTMLSelectElement).value as ColorblindMode,\n+\t\t\t\t\t)\n+\t\t\t\t\"\n+\t\t\t\tclass=\"text-xxs cursor-pointer font-semibold tracking-wide outline-none\"\n+\t\t\t>\n+\t\t\t\t<option class=\"bg-panel text-white\" value=\"normal\">\n+\t\t\t\t\tNormal Vision\n+\t\t\t\t</option>\n+\t\t\t\t<option class=\"bg-panel text-white\" value=\"deuteranopia\">\n+\t\t\t\t\tDeuteranopia\n+\t\t\t\t</option>\n+\t\t\t\t<option class=\"bg-panel text-white\" value=\"protanopia\">\n+\t\t\t\t\tProtanopia\n+\t\t\t\t</option>\n+\t\t\t\t<option class=\"bg-panel text-white\" value=\"tritanopia\">\n+\t\t\t\t\tTritanopia\n+\t\t\t\t</option>\n+\t\t\t</select>\n \t\t</div>\n \t</div>\n </template>"
-      },
-      {
-        "sha": "1e1bf09d8f7e16c70b794db6dbefdf24686753d3",
-        "filename": "src/stores/useColorStore.ts",
-        "status": "modified",
-        "additions": 29,
-        "deletions": 1,
-        "changes": 30,
-        "blob_url": "https://github.com/jrwnnnn/re-color/blob/a5fe29b46014a2311a263e087963adb307a7b6ff/src%2Fstores%2FuseColorStore.ts",
-        "raw_url": "https://github.com/jrwnnnn/re-color/raw/a5fe29b46014a2311a263e087963adb307a7b6ff/src%2Fstores%2FuseColorStore.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/src%2Fstores%2FuseColorStore.ts?ref=a5fe29b46014a2311a263e087963adb307a7b6ff",
-        "patch": "@@ -21,13 +21,41 @@ export const PALETTE = [\n \t{ hex: \"#7B2D8B\" },\n ];\n \n+export type ColorblindMode =\n+\t| \"normal\"\n+\t| \"deuteranopia\"\n+\t| \"protanopia\"\n+\t| \"tritanopia\";\n+\n+const CSS_FILTERS: Record<ColorblindMode, string> = {\n+\tnormal: \"none\",\n+\tdeuteranopia: \"url(#deuteranopia)\",\n+\tprotanopia: \"url(#protanopia)\",\n+\ttritanopia: \"url(#tritanopia)\",\n+};\n+\n export const useColorStore = defineStore(\"color\", () => {\n \tconst activeColor = ref(\"#000000\");\n+\n+\t// Persisted so the user's mode survives app restarts\n+\tconst mode = ref<ColorblindMode>(\n+\t\t(localStorage.getItem(\"colorblindMode\") as ColorblindMode) ?? \"normal\",\n+\t);\n+\n+\t// color-namer compares the hex against thousands of named colors and returns\n+\t// the closest match. .ntc[0].name uses the \"Name That Color\" dataset\n \tconst colorName = computed(() => colorNamer(activeColor.value).ntc[0].name);\n \n+\tconst cssFilter = computed(() => CSS_FILTERS[mode.value]);\n+\n \tfunction setColor(hex: string) {\n \t\tactiveColor.value = hex;\n \t}\n \n-\treturn { activeColor, colorName, setColor };\n+\tfunction setMode(m: ColorblindMode) {\n+\t\tmode.value = m;\n+\t\tlocalStorage.setItem(\"colorblindMode\", m);\n+\t}\n+\n+\treturn { activeColor, colorName, mode, cssFilter, setColor, setMode };\n });"
-      },
-      {
-        "sha": "78238977c9663606a067283bcc78967fdb6517d2",
-        "filename": "src/style.css",
-        "status": "modified",
-        "additions": 28,
-        "deletions": 0,
-        "changes": 28,
-        "blob_url": "https://github.com/jrwnnnn/re-color/blob/a5fe29b46014a2311a263e087963adb307a7b6ff/src%2Fstyle.css",
-        "raw_url": "https://github.com/jrwnnnn/re-color/raw/a5fe29b46014a2311a263e087963adb307a7b6ff/src%2Fstyle.css",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/src%2Fstyle.css?ref=a5fe29b46014a2311a263e087963adb307a7b6ff",
-        "patch": "@@ -1,4 +1,5 @@\n @import \"tailwindcss\";\n+@import \"@simonwep/pickr/dist/themes/nano.min.css\";\n \n @theme {\n \t--color-surface: var(--color-zinc-900);\n@@ -17,3 +18,30 @@ body,\n \tfont-family: \"Segoe UI\", system-ui, sans-serif;\n \tuser-select: none;\n }\n+\n+.pcr-app {\n+\t@apply bg-accent filter-none;\n+}\n+.pcr-app[data-mode=\"deuteranopia\"] {\n+\tfilter: url(#deuteranopia);\n+}\n+.pcr-app[data-mode=\"protanopia\"] {\n+\tfilter: url(#protanopia);\n+}\n+.pcr-app[data-mode=\"tritanopia\"] {\n+\tfilter: url(#tritanopia);\n+}\n+.pcr-palette {\n+\t@apply rounded-none!;\n+}\n+.pcr-current-color {\n+\t@apply border border-white/50;\n+}\n+.pcr-app .pcr-interaction .pcr-result {\n+\t@apply bg-surface! text-white/75 ring-0!;\n+}\n+.pcr-button,\n+.pcr-button::before,\n+.pcr-button::after {\n+\t@apply rounded-none! border-white/50 ring-0! hover:scale-105 hover:border-2;\n+}"
-      },
-      {
-        "sha": "80aadc431adecaeb3abdaab31b60fb82ea775a9e",
-        "filename": "src/views/DrawingArea.vue",
-        "status": "modified",
-        "additions": 16,
-        "deletions": 5,
-        "changes": 21,
-        "blob_url": "https://github.com/jrwnnnn/re-color/blob/a5fe29b46014a2311a263e087963adb307a7b6ff/src%2Fviews%2FDrawingArea.vue",
-        "raw_url": "https://github.com/jrwnnnn/re-color/raw/a5fe29b46014a2311a263e087963adb307a7b6ff/src%2Fviews%2FDrawingArea.vue",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/src%2Fviews%2FDrawingArea.vue?ref=a5fe29b46014a2311a263e087963adb307a7b6ff",
-        "patch": "@@ -1,13 +1,13 @@\n <script setup lang=\"ts\">\n-import { ref, onMounted, onUnmounted } from \"vue\";\n-import Toolbar from \"../components/ToolBar.vue\";\n-import ColorBar from \"../components/ColorBar.vue\";\n-import StatusBar from \"../components/StatusBar.vue\";\n+import { ref, onMounted, onUnmounted, watch } from \"vue\";\n import { useCanvasStore } from \"../stores/useCanvasStore\";\n import { useColorStore } from \"../stores/useColorStore\";\n import { useStage } from \"../lib/useStage\";\n import { useTools } from \"../lib/useTools\";\n import { useKeyboardShortcuts } from \"../lib/useKeyboardShortcuts\";\n+import Toolbar from \"../components/ToolBar.vue\";\n+import ColorBar from \"../components/ColorBar.vue\";\n+import StatusBar from \"../components/StatusBar.vue\";\n \n const canvasStore = useCanvasStore();\n const colorStore = useColorStore();\n@@ -37,6 +37,14 @@ onMounted(() => {\n \twindow.electronAPI?.onNewPainting(() => newCanvas());\n });\n \n+watch(\n+\t() => colorStore.mode,\n+\t(mode) => {\n+\t\tdocument.querySelector(\".pcr-app\")?.setAttribute(\"data-mode\", mode);\n+\t},\n+\t{ immediate: true },\n+);\n+\n onUnmounted(() => destroy());\n </script>\n \n@@ -49,7 +57,10 @@ onUnmounted(() => destroy());\n \t>\n \t\t<div class=\"flex min-h-0 flex-1 overflow-hidden\">\n \t\t\t<Toolbar />\n-\t\t\t<div class=\"relative flex-1 overflow-hidden bg-surface\">\n+\t\t\t<div\n+\t\t\t\tclass=\"bg-surface relative flex-1 overflow-hidden\"\n+\t\t\t\t:style=\"{ filter: colorStore.cssFilter }\"\n+\t\t\t>\n \t\t\t\t<div ref=\"containerRef\" class=\"h-full w-full\"></div>\n \t\t\t</div>\n \t\t</div>"
-      }
-    ]
-  },
-  {
-    "sha": "11fd5ad643a6ccd0e024c6555c31093fdae1c103",
-    "node_id": "C_kwDORJTOeNoAKDExZmQ1YWQ2NDNhNmNjZDBlMDI0YzY1NTVjMzEwOTNmZGFlMWMxMDM",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "ping@jrwnnnn.me",
-        "date": "2026-05-01T11:19:37Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-05-01T11:19:37Z"
-      },
-      "message": "Merge branch 'main' into dev",
-      "tree": {
-        "sha": "9261fef7f33906643d5bab2d72e0c34a7556d309",
-        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/9261fef7f33906643d5bab2d72e0c34a7556d309"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/11fd5ad643a6ccd0e024c6555c31093fdae1c103",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp9IxJCRC1aQ7uu5UhlAAAu/EQAAJQ4jFxH2JAKM3qYKNvHFPe\n9fNjrZC/FuWRXuzxD4F/IgcD6ElYdstoU8jlMHNY/vVUp9ALntEyBoVdjBEh73l9\nAhlzoiEe0So79Zs15AFw+Ohh1ZSGYLE5a69K0tu19wmMGgdMuN74ahz9AOXd1br3\n27elbuV5selJ8UcmcIyDsUSYy/30o4IAkjYKtxobQnbKXcw4aasjV7vu3m8uWR9Y\no3Cu2V6A85RphVG0y4cD7dJBNg/nGiXKWWftLfXAP8c6tLyLXVqbmAcT2M94RNT8\n+dJZeeseg6bm7L1HDALCYacCA6rxP6wOQmTDDhQFoVjufjKuyQ7ffodkqLaX3pxH\nH8vcwaJaxch1JGA9SWuvasditVfdO+V1u4HF93VzVITwRVFyRKd15M7vpI1q6muA\na5L2jqnecXwtb9RsUqDoTXi6MwC19hVSsFnoOadEajQ11RikrhexxDcNJqB+MXiH\nHI3d9Ur5/SgwmPDFLuoJeJKmlUP8w9rFiQxb142WhZsPKggMVDIHxeW+8+bLSWlR\nG3+/Xliiyy/RPJAzcaZvJ13XcrXcL5hw969iZChRuS5k08A6GCPuBpbHR0EJxchj\nwcWju+Vf8EdQ2wH4ueFHNAwQMw2FWJui4qpmaAllmTc7JUexuTxG3OoBFI3yVWr8\nfaWvlyewBqB8F80FVtMy\n=grCv\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 9261fef7f33906643d5bab2d72e0c34a7556d309\nparent 821cfd45e6ca9f11063c6d8738fc006cda2c05a5\nparent 4b7419230158c4642f0fe6d00dc048bf21c88689\nauthor Mark Jerwin <ping@jrwnnnn.me> 1777634377 +0800\ncommitter GitHub <noreply@github.com> 1777634377 +0800\n\nMerge branch 'main' into dev",
-        "verified_at": "2026-05-01T11:19:38Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/11fd5ad643a6ccd0e024c6555c31093fdae1c103",
-    "html_url": "https://github.com/jrwnnnn/re-color/commit/11fd5ad643a6ccd0e024c6555c31093fdae1c103",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/11fd5ad643a6ccd0e024c6555c31093fdae1c103/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "821cfd45e6ca9f11063c6d8738fc006cda2c05a5",
-        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/821cfd45e6ca9f11063c6d8738fc006cda2c05a5",
-        "html_url": "https://github.com/jrwnnnn/re-color/commit/821cfd45e6ca9f11063c6d8738fc006cda2c05a5"
-      },
-      {
-        "sha": "4b7419230158c4642f0fe6d00dc048bf21c88689",
-        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/4b7419230158c4642f0fe6d00dc048bf21c88689",
-        "html_url": "https://github.com/jrwnnnn/re-color/commit/4b7419230158c4642f0fe6d00dc048bf21c88689"
-      }
-    ],
-    "stats": {
-      "total": 23,
-      "additions": 4,
-      "deletions": 19
-    },
-    "files": [
-      {
-        "sha": "c34290114cc9a3969b978662b68decb683fd4eb5",
-        "filename": "main.js",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 0,
-        "changes": 1,
-        "blob_url": "https://github.com/jrwnnnn/re-color/blob/11fd5ad643a6ccd0e024c6555c31093fdae1c103/main.js",
-        "raw_url": "https://github.com/jrwnnnn/re-color/raw/11fd5ad643a6ccd0e024c6555c31093fdae1c103/main.js",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/main.js?ref=11fd5ad643a6ccd0e024c6555c31093fdae1c103",
-        "patch": "@@ -33,6 +33,7 @@ function createWindow() {\n \t\t\tlabel: \"View\",\n \t\t\tsubmenu: [\n \t\t\t\t{ role: \"reload\" },\n+\t\t\t\t...(!app.isPackaged ? [{ role: \"toggleDevTools\" }] : []),\n \t\t\t\t{ type: \"separator\" },\n \t\t\t\t{ role: \"resetZoom\" },\n \t\t\t\t{ role: \"zoomIn\" },"
-      },
-      {
-        "sha": "fac8ee81f6ed84cc4af86316bda175bdc2a6e9df",
-        "filename": "package-lock.json",
-        "status": "modified",
-        "additions": 3,
-        "deletions": 19,
-        "changes": 22,
-        "blob_url": "https://github.com/jrwnnnn/re-color/blob/11fd5ad643a6ccd0e024c6555c31093fdae1c103/package-lock.json",
-        "raw_url": "https://github.com/jrwnnnn/re-color/raw/11fd5ad643a6ccd0e024c6555c31093fdae1c103/package-lock.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/package-lock.json?ref=11fd5ad643a6ccd0e024c6555c31093fdae1c103",
-        "patch": "@@ -2345,22 +2345,6 @@\n \t\t\t\t\"semver\": \"bin/semver.js\"\n \t\t\t}\n \t\t},\n-\t\t\"node_modules/app-builder-lib/node_modules/ci-info\": {\n-\t\t\t\"version\": \"4.3.1\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/ci-info/-/ci-info-4.3.1.tgz\",\n-\t\t\t\"integrity\": \"sha512-Wdy2Igu8OcBpI2pZePZ5oWjPC38tmDVx5WKUXKwlLYkA0ozo85sLsLvkBbBn/sZaSCMFOGZJ14fvW9t5/d7kdA==\",\n-\t\t\t\"dev\": true,\n-\t\t\t\"funding\": [\n-\t\t\t\t{\n-\t\t\t\t\t\"type\": \"github\",\n-\t\t\t\t\t\"url\": \"https://github.com/sponsors/sibiraj-s\"\n-\t\t\t\t}\n-\t\t\t],\n-\t\t\t\"license\": \"MIT\",\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \">=8\"\n-\t\t\t}\n-\t\t},\n \t\t\"node_modules/app-builder-lib/node_modules/fs-extra\": {\n \t\t\t\"version\": \"10.1.0\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/fs-extra/-/fs-extra-10.1.0.tgz\",\n@@ -2751,9 +2735,9 @@\n \t\t\t\"license\": \"MIT\"\n \t\t},\n \t\t\"node_modules/ci-info\": {\n-\t\t\t\"version\": \"4.4.0\",\n-\t\t\t\"resolved\": \"https://registry.npmjs.org/ci-info/-/ci-info-4.4.0.tgz\",\n-\t\t\t\"integrity\": \"sha512-77PSwercCZU2Fc4sX94eF8k8Pxte6JAwL4/ICZLFjJLqegs7kCuAsqqj/70NQF6TvDpgFjkubQB2FW2ZZddvQg==\",\n+\t\t\t\"version\": \"4.3.1\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/ci-info/-/ci-info-4.3.1.tgz\",\n+\t\t\t\"integrity\": \"sha512-Wdy2Igu8OcBpI2pZePZ5oWjPC38tmDVx5WKUXKwlLYkA0ozo85sLsLvkBbBn/sZaSCMFOGZJ14fvW9t5/d7kdA==\",\n \t\t\t\"dev\": true,\n \t\t\t\"funding\": [\n \t\t\t\t{"
       }
     ]
   }
