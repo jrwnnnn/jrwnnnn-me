@@ -1,5 +1,106 @@
 [
   {
+    "sha": "af552af0b2b6692e3e2016394e885d3d7be4baa0",
+    "node_id": "C_kwDORJTOeNoAKGFmNTUyYWYwYjJiNjY5MmUzZTIwMTYzOTRlODg1ZDNkN2JlNGJhYTA",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "ping@jrwnnnn.me",
+        "date": "2026-05-03T06:28:25Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "ping@jrwnnnn.me",
+        "date": "2026-05-03T06:28:25Z"
+      },
+      "message": "chore: Bump version to 0.4.0",
+      "tree": {
+        "sha": "fb11e29f2d8a7263ae8237b97a6fcf17942adcc8",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/fb11e29f2d8a7263ae8237b97a6fcf17942adcc8"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/af552af0b2b6692e3e2016394e885d3d7be4baa0",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQFvmR+k0HwEWEMW/tk6/lbKsJqI0ZToUH/sWUQBYneVjFvclZuEkYr2CRkT3Npp0Lx\nqwhQzPQIzZ/7bcoMhI0gg=\n-----END SSH SIGNATURE-----",
+        "payload": "tree fb11e29f2d8a7263ae8237b97a6fcf17942adcc8\nparent d555420a151c263aed8a8c832adb0f24d1eab008\nauthor Mark Jerwin <ping@jrwnnnn.me> 1777789705 +0800\ncommitter Mark Jerwin <ping@jrwnnnn.me> 1777789705 +0800\n\nchore: Bump version to 0.4.0\n",
+        "verified_at": "2026-05-03T06:28:30Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/af552af0b2b6692e3e2016394e885d3d7be4baa0",
+    "html_url": "https://github.com/jrwnnnn/re-color/commit/af552af0b2b6692e3e2016394e885d3d7be4baa0",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/af552af0b2b6692e3e2016394e885d3d7be4baa0/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d555420a151c263aed8a8c832adb0f24d1eab008",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/d555420a151c263aed8a8c832adb0f24d1eab008",
+        "html_url": "https://github.com/jrwnnnn/re-color/commit/d555420a151c263aed8a8c832adb0f24d1eab008"
+      }
+    ],
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1
+    },
+    "files": [
+      {
+        "sha": "1eec6736a74fc6673f1fd76e207f7b82e127eca1",
+        "filename": "package.json",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/af552af0b2b6692e3e2016394e885d3d7be4baa0/package.json",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/af552af0b2b6692e3e2016394e885d3d7be4baa0/package.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/package.json?ref=af552af0b2b6692e3e2016394e885d3d7be4baa0",
+        "patch": "@@ -4,7 +4,7 @@\n \t\"author\": \"jrwnnnn, kcirdneH, Idonowhatnametouse\",\n \t\"license\": \"MIT\",\n \t\"main\": \"main.js\",\n-\t\"version\": \"0.3.0\",\n+\t\"version\": \"0.4.0\",\n \t\"scripts\": {\n \t\t\"dev\": \"concurrently --kill-others \\\"vite\\\" \\\"electron main.js\\\"\",\n \t\t\"build\": \"vite build && electron-builder\","
+      }
+    ]
+  },
+  {
     "sha": "d555420a151c263aed8a8c832adb0f24d1eab008",
     "node_id": "C_kwDORJTOeNoAKGQ1NTU0MjBhMTUxYzI2M2FlZDhhOGM4MzJhZGIwZjI0ZDFlYWIwMDg",
     "commit": {
@@ -405,107 +506,6 @@
         "raw_url": "https://github.com/jrwnnnn/re-color/raw/f62307a0aecd163d24a35bb4cf0fac40eef5335a/.github%2Fworkflows%2Fmain.yml",
         "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/.github%2Fworkflows%2Fmain.yml?ref=f62307a0aecd163d24a35bb4cf0fac40eef5335a",
         "patch": "@@ -20,7 +20,7 @@ jobs:\n         run: npm ci\n       \n       - name: Perform linting\n-      - run: npm run lint\n+        run: npm run lint\n \n   typecheck:\n     runs-on: ubuntu-latest\n@@ -34,7 +34,7 @@ jobs:\n         run: npm ci\n \n       - name: Perform typechecking\n-      - run: npm run typecheck\n+        run: npm run typecheck\n \n   smoke test:\n     needs: [lint, typecheck]"
-      }
-    ]
-  },
-  {
-    "sha": "7a9deba9fb215caf7d08a3419f727da997d43d0d",
-    "node_id": "C_kwDORJTOeNoAKDdhOWRlYmE5ZmIyMTVjYWY3ZDA4YTM0MTlmNzI3ZGE5OTdkNDNkMGQ",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "ping@jrwnnnn.me",
-        "date": "2026-05-03T04:15:26Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "ping@jrwnnnn.me",
-        "date": "2026-05-03T04:15:26Z"
-      },
-      "message": "ci: Update job and step names",
-      "tree": {
-        "sha": "3d4ab2df83936b3c33137ad0472e58f022b59350",
-        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/3d4ab2df83936b3c33137ad0472e58f022b59350"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/7a9deba9fb215caf7d08a3419f727da997d43d0d",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQAb12nxQnN1PuPmisri8A4CqcbVtxKKKf+J9gn/zzVlDBN/G9tKThI9+FrbJ88uuBx\nukkTp4B0GSnMiNB37jGAo=\n-----END SSH SIGNATURE-----",
-        "payload": "tree 3d4ab2df83936b3c33137ad0472e58f022b59350\nparent 18515f32ec41370d7be1285b627aa9b9df755556\nauthor Mark Jerwin <ping@jrwnnnn.me> 1777781726 +0800\ncommitter Mark Jerwin <ping@jrwnnnn.me> 1777781726 +0800\n\nci: Update job and step names\n",
-        "verified_at": "2026-05-03T04:15:31Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/7a9deba9fb215caf7d08a3419f727da997d43d0d",
-    "html_url": "https://github.com/jrwnnnn/re-color/commit/7a9deba9fb215caf7d08a3419f727da997d43d0d",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/7a9deba9fb215caf7d08a3419f727da997d43d0d/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "18515f32ec41370d7be1285b627aa9b9df755556",
-        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/18515f32ec41370d7be1285b627aa9b9df755556",
-        "html_url": "https://github.com/jrwnnnn/re-color/commit/18515f32ec41370d7be1285b627aa9b9df755556"
-      }
-    ],
-    "stats": {
-      "total": 15,
-      "additions": 11,
-      "deletions": 4
-    },
-    "files": [
-      {
-        "sha": "742991b02d0a0e99157fa9f0030f904b6e20275a",
-        "filename": ".github/workflows/main.yml",
-        "status": "modified",
-        "additions": 11,
-        "deletions": 4,
-        "changes": 15,
-        "blob_url": "https://github.com/jrwnnnn/re-color/blob/7a9deba9fb215caf7d08a3419f727da997d43d0d/.github%2Fworkflows%2Fmain.yml",
-        "raw_url": "https://github.com/jrwnnnn/re-color/raw/7a9deba9fb215caf7d08a3419f727da997d43d0d/.github%2Fworkflows%2Fmain.yml",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/.github%2Fworkflows%2Fmain.yml?ref=7a9deba9fb215caf7d08a3419f727da997d43d0d",
-        "patch": "@@ -15,7 +15,11 @@ jobs:\n         with:\n           node-version: 24\n           cache: \"npm\"\n-      - run: npm ci\n+\n+      - name: Install dependencies\n+        run: npm ci\n+      \n+      - name: Perform linting\n       - run: npm run lint\n \n   typecheck:\n@@ -26,10 +30,13 @@ jobs:\n         with:\n           node-version: 24\n           cache: \"npm\"\n-      - run: npm ci\n+      - name: Install dependencies\n+        run: npm ci\n+\n+      - name: Perform typechecking\n       - run: npm run typecheck\n \n-  smoketest:\n+  smoke test:\n     needs: [lint, typecheck]\n     runs-on: ubuntu-latest\n     steps:\n@@ -42,7 +49,7 @@ jobs:\n       - name: Install dependencies\n         run: npm ci\n \n-      - name: Run smoketest\n+      - name: Perform smoke tests\n         run: npx playwright install --with-deps && npm run smoketest\n \n       - name: Upload test results"
       }
     ]
   }
