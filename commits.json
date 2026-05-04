@@ -1,5 +1,106 @@
 [
   {
+    "sha": "8f0ec4a1c1a98bef4b337ace1f3e8378eec13f6a",
+    "node_id": "C_kwDORJTOeNoAKDhmMGVjNGExYzFhOThiZWY0YjMzN2FjZTFmM2U4Mzc4ZWVjMTNmNmE",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-05-04T11:16:09Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-05-04T11:16:09Z"
+      },
+      "message": "feat: Remove reload option in menu bar including its keybind (#96)",
+      "tree": {
+        "sha": "9f6d7e9a15903dd10c7c9daca50064f12037f3b8",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/9f6d7e9a15903dd10c7c9daca50064f12037f3b8"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/8f0ec4a1c1a98bef4b337ace1f3e8378eec13f6a",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp+H/5CRC1aQ7uu5UhlAAA0iYQACHTOsG2vxVf/aSU8sX1TZsZ\nvGjPVjLaoEXetyywL1SaPHZCI8LSVwKWykvcOjR50Eb5BEeoXCF2Z77bDitucnfb\neEgb78S2BCJM8t2CP8wOuW6nI9UNXwxdeCLkn3ATiq7Tn1N55PhnkGnZeZhhyHQP\nB077T8zwcXLe/yatj+xCrcXiX7ndn2ZB5NGc+9rVHsiO4A0F33YDsObo5vGSi49/\nBT1gKjviSS6I8UeTuQrX2dq+jBOfTgaotuM+t/SGBdnzIQPvYpfD72lCFZ0aIEti\nyZ+y9Mm4Vg12l9g6aIXWyD0dVwK68eDeifO5JxcEfn/H8lqm+CYZqm1qR/ymrdea\nEkpFBrpgIB1yIfZ2QRiTr2q6DsG/vFsMYGQ8hnUXStdRQ/YZH4LH4gOBoYKy5Alh\n83iZuvI3oijhtmrfl90ErTgfa7I/RVVo0b/vJ0tuDfdt/xERcN+Yq5zRW5br8MJo\n9ltVFQwO5IBQLwoDTR6hV4A0TLnjkAck+rJeFDU46BLS6ZbPx9/9G0by8X+Af1tH\nwrvIhHZ3BgXYYZaiNrUdD/rzVO0ZDne/XybGrYtfCSRu7kiyCx4eo/EHmwpwi/SL\ncV+rKTN68kNZN/SqVyEKTg/WPyCDN623IGvWBtkY2TSDdNMHIgDdPU4QEzKxNVPu\nmw6lgu4D0BiytYZZ/v/k\n=d0L9\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 9f6d7e9a15903dd10c7c9daca50064f12037f3b8\nparent 0b256c68a41229f6f3a9447b284b0a74a8fdae37\nauthor Mark Jerwin <git@jrwnnnn.me> 1777893369 +0800\ncommitter GitHub <noreply@github.com> 1777893369 +0800\n\nfeat: Remove reload option in menu bar including its keybind (#96)",
+        "verified_at": "2026-05-04T11:16:10Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/8f0ec4a1c1a98bef4b337ace1f3e8378eec13f6a",
+    "html_url": "https://github.com/jrwnnnn/re-color/commit/8f0ec4a1c1a98bef4b337ace1f3e8378eec13f6a",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/8f0ec4a1c1a98bef4b337ace1f3e8378eec13f6a/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0b256c68a41229f6f3a9447b284b0a74a8fdae37",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/0b256c68a41229f6f3a9447b284b0a74a8fdae37",
+        "html_url": "https://github.com/jrwnnnn/re-color/commit/0b256c68a41229f6f3a9447b284b0a74a8fdae37"
+      }
+    ],
+    "stats": {
+      "total": 1,
+      "additions": 0,
+      "deletions": 1
+    },
+    "files": [
+      {
+        "sha": "65b4a72935c89e6319bf94e7f627cf83db14abca",
+        "filename": "electron/main.js",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 1,
+        "changes": 1,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/8f0ec4a1c1a98bef4b337ace1f3e8378eec13f6a/electron%2Fmain.js",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/8f0ec4a1c1a98bef4b337ace1f3e8378eec13f6a/electron%2Fmain.js",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/electron%2Fmain.js?ref=8f0ec4a1c1a98bef4b337ace1f3e8378eec13f6a",
+        "patch": "@@ -69,7 +69,6 @@ function createWindow() {\n \t\t{\n \t\t\tlabel: \"View\",\n \t\t\tsubmenu: [\n-\t\t\t\t{ role: \"reload\" },\n \t\t\t\t...(!app.isPackaged ? [{ role: \"toggleDevTools\" }] : []),\n \t\t\t\t{ type: \"separator\" },\n \t\t\t\t{ role: \"resetZoom\" },"
+      }
+    ]
+  },
+  {
     "sha": "0b256c68a41229f6f3a9447b284b0a74a8fdae37",
     "node_id": "C_kwDORJTOeNoAKDBiMjU2YzY4YTQxMjI5ZjZmM2E5NDQ3YjI4NGIwYTc0YThmZGFlMzc",
     "commit": {
@@ -449,107 +550,6 @@
         "raw_url": "https://github.com/jrwnnnn/re-color/raw/9afd99ae018b5bcf328d32be64d8689eba25c064/.github%2FISSUE_TEMPLATE%2Fbug_report.yaml",
         "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/.github%2FISSUE_TEMPLATE%2Fbug_report.yaml?ref=9afd99ae018b5bcf328d32be64d8689eba25c064",
         "patch": "@@ -0,0 +1,54 @@\n+name: Bug Report\n+description: Report a bug or a problem\n+labels: [\"bug\"]\n+body:\n+  - type: textarea\n+    id: description\n+    attributes:\n+      label: Description\n+      description: What went wrong?\n+    validations:\n+      required: true\n+\n+  - type: textarea\n+    id: steps\n+    attributes:\n+      label: Steps to Reproduce\n+      description: How to trigger the bug?\n+      placeholder: |\n+        1.\n+        2.\n+        3.\n+    validations:\n+      required: true\n+\n+  - type: textarea\n+    id: expected\n+    attributes:\n+      label: Expected behavior\n+      description: What did you expect to happen?\n+    validations:\n+      required: true\n+\n+  - type: textarea\n+    id: actual\n+    attributes:\n+      label: Actual behavior\n+      description: What happened instead?\n+    validations:\n+      required: true\n+  \n+  - type: input\n+    id: version\n+    attributes:\n+      label: App Version\n+      description: Can be found in Help > About Re:Color in the menu bar.\n+      placeholder: 1.0.0\n+    validations:\n+      required: true\n+\n+  - type: textarea\n+    id: additional-context\n+    attributes:\n+      label: Additional context\n+      description: Screenshots or anything else relevant.\n\\ No newline at end of file"
-      }
-    ]
-  },
-  {
-    "sha": "1b33fbf7a361d8f43ce5774d81ccdebc72bd01ce",
-    "node_id": "C_kwDORJTOeNoAKDFiMzNmYmY3YTM2MWQ4ZjQzY2U1Nzc0ZDgxY2NkZWJjNzJiZDAxY2U",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "jrwn.xyz@gmail.com",
-        "date": "2026-05-03T13:02:21Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-05-03T13:02:21Z"
-      },
-      "message": "docs: Update issue templates",
-      "tree": {
-        "sha": "e3bd79d876697ce31daf602831009b10379a57cb",
-        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/e3bd79d876697ce31daf602831009b10379a57cb"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/1b33fbf7a361d8f43ce5774d81ccdebc72bd01ce",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp90ddCRC1aQ7uu5UhlAAAp7wQAK6clsFg8w/n6sPJYnDGFCHn\nPZIfGEi0IT//9g0DPa3vTzAQHp67KGcIDxCT5ovK/SY2e35x1EkoEDSZmwMq0CL+\nYOlbJ4RgkswOyxMREpKIikD+E7aTw2yqbgbXwyvdRYP2ksQ/G3oukiekhZW9qiBE\n9p1eamLMDR+so2jmI91dqKSKLOq3n0k6k5D3K0YMtJ5xojvLkemzNEA01ScHogOg\nEcC5wRId3RjHePL6P1d0ETVwJtTk6T6WTUUslPRdT6Ep8Os673cFaa/MIOxLnD4u\nhhQ/HV6LlZqVTSHnSIqjOf4nv+riTF8P4Z2D2gTwEInvU1zTd1cvmzSwXsB9y8xL\neUNiFGBDwcMX6yfEwNVrzVei90ZMU84+PilPON8o4GUSjHYR+fx7oq2/s1dxDMXA\nFWuD65Ug3oU5S/4Q3K0UbioIozY3wyIgrWRa2qwDcKbsh4OvMdRpSDeNwJtCb+B0\njwU7tvWBVFy/W9S2dC9dIBgDMMBg2vdiJ839xJd5Zp5iHZSk526deE+RKSG6S+IA\nc8hF0jWkHw5Zi/N4QkhwUTdCf1BoDzZu47iXMQIEpBvnzr9pIj/22tVx73eRjO1X\nOglwv9Tsbm8g4/YlyPW/AVFP97+uPnx+k4y0PUF1Ftj5EhGoS8huJGuzKhIZFN0W\nYvW6AE+QYFL/9J0/9GtK\n=mWot\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree e3bd79d876697ce31daf602831009b10379a57cb\nparent bd4fa95a4f0b0a4df9f54780f87b82bb04c0d47b\nauthor Mark Jerwin <jrwn.xyz@gmail.com> 1777813341 +0800\ncommitter GitHub <noreply@github.com> 1777813341 +0800\n\ndocs: Update issue templates",
-        "verified_at": "2026-05-03T13:02:22Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/1b33fbf7a361d8f43ce5774d81ccdebc72bd01ce",
-    "html_url": "https://github.com/jrwnnnn/re-color/commit/1b33fbf7a361d8f43ce5774d81ccdebc72bd01ce",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/1b33fbf7a361d8f43ce5774d81ccdebc72bd01ce/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "bd4fa95a4f0b0a4df9f54780f87b82bb04c0d47b",
-        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/bd4fa95a4f0b0a4df9f54780f87b82bb04c0d47b",
-        "html_url": "https://github.com/jrwnnnn/re-color/commit/bd4fa95a4f0b0a4df9f54780f87b82bb04c0d47b"
-      }
-    ],
-    "stats": {
-      "total": 38,
-      "additions": 38,
-      "deletions": 0
-    },
-    "files": [
-      {
-        "sha": "dd84ea7824f11be1eeda22377549cbc1aec7f980",
-        "filename": ".github/ISSUE_TEMPLATE/bug_report.md",
-        "status": "added",
-        "additions": 38,
-        "deletions": 0,
-        "changes": 38,
-        "blob_url": "https://github.com/jrwnnnn/re-color/blob/1b33fbf7a361d8f43ce5774d81ccdebc72bd01ce/.github%2FISSUE_TEMPLATE%2Fbug_report.md",
-        "raw_url": "https://github.com/jrwnnnn/re-color/raw/1b33fbf7a361d8f43ce5774d81ccdebc72bd01ce/.github%2FISSUE_TEMPLATE%2Fbug_report.md",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/.github%2FISSUE_TEMPLATE%2Fbug_report.md?ref=1b33fbf7a361d8f43ce5774d81ccdebc72bd01ce",
-        "patch": "@@ -0,0 +1,38 @@\n+---\n+name: Bug report\n+about: Create a report to help us improve\n+title: ''\n+labels: ''\n+assignees: ''\n+\n+---\n+\n+**Describe the bug**\n+A clear and concise description of what the bug is.\n+\n+**To Reproduce**\n+Steps to reproduce the behavior:\n+1. Go to '...'\n+2. Click on '....'\n+3. Scroll down to '....'\n+4. See error\n+\n+**Expected behavior**\n+A clear and concise description of what you expected to happen.\n+\n+**Screenshots**\n+If applicable, add screenshots to help explain your problem.\n+\n+**Desktop (please complete the following information):**\n+ - OS: [e.g. iOS]\n+ - Browser [e.g. chrome, safari]\n+ - Version [e.g. 22]\n+\n+**Smartphone (please complete the following information):**\n+ - Device: [e.g. iPhone6]\n+ - OS: [e.g. iOS8.1]\n+ - Browser [e.g. stock browser, safari]\n+ - Version [e.g. 22]\n+\n+**Additional context**\n+Add any other context about the problem here."
       }
     ]
   }
