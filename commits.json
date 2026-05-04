@@ -1,5 +1,131 @@
 [
   {
+    "sha": "0b256c68a41229f6f3a9447b284b0a74a8fdae37",
+    "node_id": "C_kwDORJTOeNoAKDBiMjU2YzY4YTQxMjI5ZjZmM2E5NDQ3YjI4NGIwYTc0YThmZGFlMzc",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-05-04T10:15:47Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-05-04T10:15:47Z"
+      },
+      "message": "refactor: Move Electron files into electron/ directory (#94)",
+      "tree": {
+        "sha": "6502efa6e10e6c59d1cda00893f2c59ebe34f6c9",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/6502efa6e10e6c59d1cda00893f2c59ebe34f6c9"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/0b256c68a41229f6f3a9447b284b0a74a8fdae37",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp+HHTCRC1aQ7uu5UhlAAA6OQQAJLnsjaUo2hU1q9cvbA++Q7I\nfiJgx4QuMjoKqBNJd4qQobjqnL0r79W7Ddx14y0FDUut/+D8Gf7gkf6h8RR+yJOJ\npOMEa8/cXi4cCt6OAfKJ3Hb5aKUzSOoNyFiH9tz5Obg/6Xh3MWnLPOnJWLtZMl4o\nHOEgXxYycdnlzo0MVT9PjE1iDcDcc11qcjAkdUql0tZ6n2Y+H+fAE2kBp3EmBQuW\nCR2c48/ZwelDIUQh9G8lvjUMYVlrjacrotw/u6Cfuu1JfiiUpjXB9z+aO6K/vHtA\n4Gp7bjlbFbp6OdHM4l+ME29yZ7Xw0qmuPyYt3wI2PHrA2NYKHAoUJoY7KeN/D9bo\n1OOQWKGCUvre8N2Ud27YceIiUh4UtaAd49yQ1XYZd23jS/id/d4zFE5UH2pvtMqO\nVAno78Rbq5N51N306On2z/nd7zlouE4/vmwtcqRuQFNsJS9RyOCqp0d7pzu5M1sk\nYKsUheU4Qj7blfVE3WsD4Tc0EHsms8mAQQAWX/sM0B+iHIYrDLqJsSIsHXIIR8T6\ncpoiG73+barXrDjK2B9F1nMnbWW8H0Nzw4F6wyiWjFXlhA/v6VWhsUWn70ybyUK6\nFOTaPe9WVpseD/9Rxg5t1SvZt6+ANtgUjuv1BrjcnRUjKUR2/hkGootwIBsENxlD\ny02mWCSybPPFRgKwfJDN\n=ri8n\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 6502efa6e10e6c59d1cda00893f2c59ebe34f6c9\nparent edf8694644de999539c9ddf5dff90d1fb53ca1f4\nauthor Mark Jerwin <git@jrwnnnn.me> 1777889747 +0800\ncommitter GitHub <noreply@github.com> 1777889747 +0800\n\nrefactor: Move Electron files into electron/ directory (#94)",
+        "verified_at": "2026-05-04T10:15:47Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/0b256c68a41229f6f3a9447b284b0a74a8fdae37",
+    "html_url": "https://github.com/jrwnnnn/re-color/commit/0b256c68a41229f6f3a9447b284b0a74a8fdae37",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/0b256c68a41229f6f3a9447b284b0a74a8fdae37/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "edf8694644de999539c9ddf5dff90d1fb53ca1f4",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/edf8694644de999539c9ddf5dff90d1fb53ca1f4",
+        "html_url": "https://github.com/jrwnnnn/re-color/commit/edf8694644de999539c9ddf5dff90d1fb53ca1f4"
+      }
+    ],
+    "stats": {
+      "total": 12,
+      "additions": 6,
+      "deletions": 6
+    },
+    "files": [
+      {
+        "sha": "fe414839d20b9c976b4d015c4acd8ac54c56f1f4",
+        "filename": "electron/main.js",
+        "status": "renamed",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/0b256c68a41229f6f3a9447b284b0a74a8fdae37/electron%2Fmain.js",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/0b256c68a41229f6f3a9447b284b0a74a8fdae37/electron%2Fmain.js",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/electron%2Fmain.js?ref=0b256c68a41229f6f3a9447b284b0a74a8fdae37",
+        "patch": "@@ -7,7 +7,7 @@ function createWindow() {\n \tconst win = new BrowserWindow({\n \t\tminWidth: 900,\n \t\tminHeight: 600,\n-\t\ticon: path.join(__dirname, \"dist/icon.ico\"),\n+\t\ticon: path.join(__dirname, \"../dist/icon.ico\"),\n \t\twebPreferences: {\n \t\t\tdevTools: !app.isPackaged,\n \t\t\tnodeIntegration: false,\n@@ -94,7 +94,7 @@ function createWindow() {\n \n \t!app.isPackaged\n \t\t? win.loadURL(\"http://localhost:5173\")\n-\t\t: win.loadFile(path.join(__dirname, \"dist/index.html\"));\n+\t\t: win.loadFile(path.join(__dirname, \"../dist/index.html\"));\n }\n \n app.whenReady().then(createWindow);",
+        "previous_filename": "main.js"
+      },
+      {
+        "sha": "75c10996fe4e382926797b272aca8a1642e2e137",
+        "filename": "electron/preload.js",
+        "status": "renamed",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/0b256c68a41229f6f3a9447b284b0a74a8fdae37/electron%2Fpreload.js",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/0b256c68a41229f6f3a9447b284b0a74a8fdae37/electron%2Fpreload.js",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/electron%2Fpreload.js?ref=0b256c68a41229f6f3a9447b284b0a74a8fdae37",
+        "previous_filename": "preload.js"
+      },
+      {
+        "sha": "a0af444a74cf5c2c5bd3e8ad07ce13e2b6e520d1",
+        "filename": "package.json",
+        "status": "modified",
+        "additions": 4,
+        "deletions": 4,
+        "changes": 8,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/0b256c68a41229f6f3a9447b284b0a74a8fdae37/package.json",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/0b256c68a41229f6f3a9447b284b0a74a8fdae37/package.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/package.json?ref=0b256c68a41229f6f3a9447b284b0a74a8fdae37",
+        "patch": "@@ -3,10 +3,10 @@\n \t\"description\": \"A paint app for people with color-vision difficulties.\",\n \t\"author\": \"jrwnnnn, kcirdneH, Idonowhatnametouse\",\n \t\"license\": \"MIT\",\n-\t\"main\": \"main.js\",\n+\t\"main\": \"electron/main.js\",\n \t\"version\": \"0.4.0\",\n \t\"scripts\": {\n-\t\t\"dev\": \"concurrently --kill-others \\\"vite\\\" \\\"electron main.js\\\"\",\n+\t\t\"dev\": \"concurrently --kill-others \\\"vite\\\" \\\"electron electron/main.js\\\"\",\n \t\t\"build\": \"vite build && electron-builder\",\n \t\t\"lint\": \"eslint .\",\n \t\t\"typecheck\": \"vue-tsc --noEmit\",\n@@ -18,8 +18,8 @@\n \t\t\"productName\": \"Re:Color\",\n \t\t\"files\": [\n \t\t\t\"dist/**/*\",\n-\t\t\t\"main.js\",\n-\t\t\t\"preload.js\"\n+\t\t\t\"electron/main.js\",\n+\t\t\t\"electron/preload.js\"\n \t\t],\n \t\t\"directories\": {\n \t\t\t\"output\": \"release\""
+      }
+    ]
+  },
+  {
     "sha": "f3582861549863437a186cd1f422c2a0a6ceea67",
     "node_id": "C_kwDORJTOeNoAKGYzNTgyODYxNTQ5ODYzNDM3YTE4NmNkMWY0MjJjMmEwYTZjZWVhNjc",
     "commit": {
@@ -424,107 +550,6 @@
         "raw_url": "https://github.com/jrwnnnn/re-color/raw/1b33fbf7a361d8f43ce5774d81ccdebc72bd01ce/.github%2FISSUE_TEMPLATE%2Fbug_report.md",
         "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/.github%2FISSUE_TEMPLATE%2Fbug_report.md?ref=1b33fbf7a361d8f43ce5774d81ccdebc72bd01ce",
         "patch": "@@ -0,0 +1,38 @@\n+---\n+name: Bug report\n+about: Create a report to help us improve\n+title: ''\n+labels: ''\n+assignees: ''\n+\n+---\n+\n+**Describe the bug**\n+A clear and concise description of what the bug is.\n+\n+**To Reproduce**\n+Steps to reproduce the behavior:\n+1. Go to '...'\n+2. Click on '....'\n+3. Scroll down to '....'\n+4. See error\n+\n+**Expected behavior**\n+A clear and concise description of what you expected to happen.\n+\n+**Screenshots**\n+If applicable, add screenshots to help explain your problem.\n+\n+**Desktop (please complete the following information):**\n+ - OS: [e.g. iOS]\n+ - Browser [e.g. chrome, safari]\n+ - Version [e.g. 22]\n+\n+**Smartphone (please complete the following information):**\n+ - Device: [e.g. iPhone6]\n+ - OS: [e.g. iOS8.1]\n+ - Browser [e.g. stock browser, safari]\n+ - Version [e.g. 22]\n+\n+**Additional context**\n+Add any other context about the problem here."
-      }
-    ]
-  },
-  {
-    "sha": "bd4fa95a4f0b0a4df9f54780f87b82bb04c0d47b",
-    "node_id": "C_kwDORJTOeNoAKGJkNGZhOTVhNGYwYjBhNGRmOWY1NDc4MGY4N2I4MmJiMDRjMGQ0N2I",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "ping@jrwnnnn.me",
-        "date": "2026-05-03T12:42:22Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-05-03T12:42:22Z"
-      },
-      "message": "fix: Eraser doesnt follow the selected brush size (#62) (#87)",
-      "tree": {
-        "sha": "6cc9999d977d71ea9afecd98c3eb770e4ea6f461",
-        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/6cc9999d977d71ea9afecd98c3eb770e4ea6f461"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/bd4fa95a4f0b0a4df9f54780f87b82bb04c0d47b",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp90KuCRC1aQ7uu5UhlAAAWw4QAK7ZNH9qyaJl97/C0Uajc4C8\nZ1cS3BrAFrK2d3CqeU9NIfVGkeLgPDuqhAM7g1rYLkibSQcSHRnnzN/Uac7SEcDA\nrN3Rk6r4kWH/ALDT+YjuBS9/JEPGLWfWxtaTWRFIT3UZxYae13hQJEIDTeb3zrc1\nrONQiSgQz4dHon2e9xHxKbCRc/LsMpQBZgVFbEW1cKNGeh/yF2s35efyQ5v4KhKG\naKifCmQAnwmXZB+8lBRNKTlKOW2cn57zH+AQ2GDmU2gnIz9p8g6I4PyrGDuoT+RR\npFJ+3SPfgw/9++hrrf4sG28zwN1SsTE//EacBI6KkY9jKN24ciXw9N6+GfzQY9pA\nAys6uw+ENPvVE504JnRks1/ZJIl+ug6soQiUAiVZKZnQ0Titx6QVtXdkkmWbxc1A\nkIfEukJAevo4t4mU2vJGOy4ocHVQ9rvRzj2Tr4BEdak//kRGPk4Z1mcuxTFh+FEA\ndITNT/BXZfO42jMZKWdMmdBJcclNYlK4lzu/xP7XR+wx5LXQUAr0Po8rJkIv8bBI\nNyi83ktldpzkLA5FBNcCCK/AcKLjBeFTea0MBy0KJVgk/IPMSwjQ1MX57yPZoZYu\ntFIie6uUWxD+7rjhdOi0/lGcB88qvFZTDMDIcRmhryrajEJpilVzkLn/ab2BL4N9\nbRA05SPwlzlsXyJHomK5\n=Tv+l\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 6cc9999d977d71ea9afecd98c3eb770e4ea6f461\nparent 1987661f957344c0ef3ff9f63f139027ad8218da\nauthor Mark Jerwin <ping@jrwnnnn.me> 1777812142 +0800\ncommitter GitHub <noreply@github.com> 1777812142 +0800\n\nfix: Eraser doesnt follow the selected brush size (#62) (#87)",
-        "verified_at": "2026-05-03T12:42:23Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/bd4fa95a4f0b0a4df9f54780f87b82bb04c0d47b",
-    "html_url": "https://github.com/jrwnnnn/re-color/commit/bd4fa95a4f0b0a4df9f54780f87b82bb04c0d47b",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/bd4fa95a4f0b0a4df9f54780f87b82bb04c0d47b/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "1987661f957344c0ef3ff9f63f139027ad8218da",
-        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/1987661f957344c0ef3ff9f63f139027ad8218da",
-        "html_url": "https://github.com/jrwnnnn/re-color/commit/1987661f957344c0ef3ff9f63f139027ad8218da"
-      }
-    ],
-    "stats": {
-      "total": 2,
-      "additions": 1,
-      "deletions": 1
-    },
-    "files": [
-      {
-        "sha": "cf0ce716ca58ed476d261e11b383c9aa27dd774a",
-        "filename": "src/lib/useTools.ts",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/re-color/blob/bd4fa95a4f0b0a4df9f54780f87b82bb04c0d47b/src%2Flib%2FuseTools.ts",
-        "raw_url": "https://github.com/jrwnnnn/re-color/raw/bd4fa95a4f0b0a4df9f54780f87b82bb04c0d47b/src%2Flib%2FuseTools.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/src%2Flib%2FuseTools.ts?ref=bd4fa95a4f0b0a4df9f54780f87b82bb04c0d47b",
-        "patch": "@@ -30,7 +30,7 @@ export function useTools(\n \t\t\tcurrentShape = new Konva.Line({\n \t\t\t\tpoints: [pos.x, pos.y, pos.x, pos.y],\n \t\t\t\tstroke: tool === \"eraser\" ? \"#ffffff\" : color,\n-\t\t\t\tstrokeWidth: tool === \"eraser\" ? size * 2 : size,\n+\t\t\t\tstrokeWidth: size,\n \t\t\t\ttension: tool === \"brush\" ? 0.4 : 0,\n \t\t\t\tlineCap: \"round\",\n \t\t\t\tlineJoin: \"round\","
       }
     ]
   }
