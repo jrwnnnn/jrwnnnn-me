@@ -1,5 +1,166 @@
 [
   {
+    "sha": "c29d47295c9c712f8a855ef6a7025fadbe7943a9",
+    "node_id": "C_kwDORJTOeNoAKGMyOWQ0NzI5NWM5YzcxMmY4YTg1NWVmNmE3MDI1ZmFkYmU3OTQzYTk",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-05-04T23:17:09Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-05-04T23:17:09Z"
+      },
+      "message": "refactor: Move tool icons to a separate folder (#95)",
+      "tree": {
+        "sha": "e20f4afe01ec44c48a9777673db60f3ba5cc6376",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/e20f4afe01ec44c48a9777673db60f3ba5cc6376"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/c29d47295c9c712f8a855ef6a7025fadbe7943a9",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp+Sj1CRC1aQ7uu5UhlAAACc0QADfLjON0Q8SUXu4BFIH4AWZR\nL/P+9PywgZsHU/8tY6K8YxtcNAbniaIhOqIWqiONdW+FcfYXdMPOiIWhrCRCaN+q\n1EdzkhsId98wT1QB5MZgOE1MZNaHmDc9wUv72xb7qlvhup2avhn0lABe7ycxbJXG\nhAuGMAbgZ3ATO5KnMtghRgq8r377G1stUkyMjhr9uQr+2jpmqXQp19HiN8VtdSUI\nE308M1tiFupdUkSirWunvToKIY8VcuVBp6oW3UIF+47pUxF/k9gBmyh4aZUw4GfY\ngUT63gPKIe+W4QCI65mWR5l/gItX0OaGUHuz+m5OzcJf9Zri2TZRgCgbB301RTJ4\nWcV9ryvdONrdpRhORykekQU10Sfr8J+G2IuDGez27as0gOWwUmRUSa5pUTvxcDrk\nMb/SUUFJe6Dfg2qkzBmgH7HIZ9IAXEgfT+46SFPN/VyoJVQw9MEBgv0JWIrh/frt\nyVv2pXajwwGRETiApbSbYEpdCXLY5y6nAcCBopAMpCrNH1ZJiXFkMNvfuUYedXMt\nTEqeYIV2HNRHpRf975jP2+cdfdTRyieYdgEgKpbCaNv9I6Hm9rDrzKk58Gxawe+i\nYdRPPgufHA2Q+cKVIOXleOxJ/jYyGOtjMHyGtMGX9De092yXDclKRfxXe2OBqh6a\nz6HKHoKrtLQtQgdE3ybD\n=/X36\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree e20f4afe01ec44c48a9777673db60f3ba5cc6376\nparent 8f0ec4a1c1a98bef4b337ace1f3e8378eec13f6a\nauthor Mark Jerwin <git@jrwnnnn.me> 1777936629 +0800\ncommitter GitHub <noreply@github.com> 1777936629 +0800\n\nrefactor: Move tool icons to a separate folder (#95)",
+        "verified_at": "2026-05-04T23:17:09Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/c29d47295c9c712f8a855ef6a7025fadbe7943a9",
+    "html_url": "https://github.com/jrwnnnn/re-color/commit/c29d47295c9c712f8a855ef6a7025fadbe7943a9",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/c29d47295c9c712f8a855ef6a7025fadbe7943a9/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8f0ec4a1c1a98bef4b337ace1f3e8378eec13f6a",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/8f0ec4a1c1a98bef4b337ace1f3e8378eec13f6a",
+        "html_url": "https://github.com/jrwnnnn/re-color/commit/8f0ec4a1c1a98bef4b337ace1f3e8378eec13f6a"
+      }
+    ],
+    "stats": {
+      "total": 10,
+      "additions": 5,
+      "deletions": 5
+    },
+    "files": [
+      {
+        "sha": "2e9a6e33e53def1b4f9c2433f227ea04ffba7671",
+        "filename": "src/assets/tool-icons/brush-tool.svg",
+        "status": "renamed",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/c29d47295c9c712f8a855ef6a7025fadbe7943a9/src%2Fassets%2Ftool-icons%2Fbrush-tool.svg",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/c29d47295c9c712f8a855ef6a7025fadbe7943a9/src%2Fassets%2Ftool-icons%2Fbrush-tool.svg",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/src%2Fassets%2Ftool-icons%2Fbrush-tool.svg?ref=c29d47295c9c712f8a855ef6a7025fadbe7943a9",
+        "previous_filename": "src/assets/brush-tool.svg"
+      },
+      {
+        "sha": "4c5f0c0a5c42bf02db2b9a0999eaa339d3fae82c",
+        "filename": "src/assets/tool-icons/circle-tool.svg",
+        "status": "renamed",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/c29d47295c9c712f8a855ef6a7025fadbe7943a9/src%2Fassets%2Ftool-icons%2Fcircle-tool.svg",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/c29d47295c9c712f8a855ef6a7025fadbe7943a9/src%2Fassets%2Ftool-icons%2Fcircle-tool.svg",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/src%2Fassets%2Ftool-icons%2Fcircle-tool.svg?ref=c29d47295c9c712f8a855ef6a7025fadbe7943a9",
+        "previous_filename": "src/assets/circle-tool.svg"
+      },
+      {
+        "sha": "6e4ba1feb0caa4156a6d4bffeb4a32265ca8bc39",
+        "filename": "src/assets/tool-icons/eraser-tool.svg",
+        "status": "renamed",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/c29d47295c9c712f8a855ef6a7025fadbe7943a9/src%2Fassets%2Ftool-icons%2Feraser-tool.svg",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/c29d47295c9c712f8a855ef6a7025fadbe7943a9/src%2Fassets%2Ftool-icons%2Feraser-tool.svg",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/src%2Fassets%2Ftool-icons%2Feraser-tool.svg?ref=c29d47295c9c712f8a855ef6a7025fadbe7943a9",
+        "previous_filename": "src/assets/eraser-tool.svg"
+      },
+      {
+        "sha": "382f04499549c1ed24951eb30b1804999fad34ce",
+        "filename": "src/assets/tool-icons/line-tool.svg",
+        "status": "renamed",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/c29d47295c9c712f8a855ef6a7025fadbe7943a9/src%2Fassets%2Ftool-icons%2Fline-tool.svg",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/c29d47295c9c712f8a855ef6a7025fadbe7943a9/src%2Fassets%2Ftool-icons%2Fline-tool.svg",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/src%2Fassets%2Ftool-icons%2Fline-tool.svg?ref=c29d47295c9c712f8a855ef6a7025fadbe7943a9",
+        "previous_filename": "src/assets/line-tool.svg"
+      },
+      {
+        "sha": "ac2fd028635417a1e186c5dbd6a3eb0bc9c6e1ee",
+        "filename": "src/assets/tool-icons/rect-tool.svg",
+        "status": "renamed",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/c29d47295c9c712f8a855ef6a7025fadbe7943a9/src%2Fassets%2Ftool-icons%2Frect-tool.svg",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/c29d47295c9c712f8a855ef6a7025fadbe7943a9/src%2Fassets%2Ftool-icons%2Frect-tool.svg",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/src%2Fassets%2Ftool-icons%2Frect-tool.svg?ref=c29d47295c9c712f8a855ef6a7025fadbe7943a9",
+        "previous_filename": "src/assets/rect-tool.svg"
+      },
+      {
+        "sha": "380bf2fd53430c117c0c2cb7b0fffb3c103b19d8",
+        "filename": "src/components/ToolBar.vue",
+        "status": "modified",
+        "additions": 5,
+        "deletions": 5,
+        "changes": 10,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/c29d47295c9c712f8a855ef6a7025fadbe7943a9/src%2Fcomponents%2FToolBar.vue",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/c29d47295c9c712f8a855ef6a7025fadbe7943a9/src%2Fcomponents%2FToolBar.vue",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/src%2Fcomponents%2FToolBar.vue?ref=c29d47295c9c712f8a855ef6a7025fadbe7943a9",
+        "patch": "@@ -1,11 +1,11 @@\n <script setup lang=\"ts\">\n import { useCanvasStore, type Tool } from \"@/stores/useCanvasStore\";\n import type { Component } from \"vue\";\n-import BrushIcon from \"@/assets/brush-tool.svg?component\";\n-import EraserIcon from \"@/assets/eraser-tool.svg?component\";\n-import LineIcon from \"@/assets/line-tool.svg?component\";\n-import RectIcon from \"@/assets/rect-tool.svg?component\";\n-import CircleIcon from \"@/assets/circle-tool.svg?component\";\n+import BrushIcon from \"@/assets/tool-icons/brush-tool.svg?component\";\n+import EraserIcon from \"@/assets/tool-icons/eraser-tool.svg?component\";\n+import LineIcon from \"@/assets/tool-icons/line-tool.svg?component\";\n+import RectIcon from \"@/assets/tool-icons/rect-tool.svg?component\";\n+import CircleIcon from \"@/assets/tool-icons/circle-tool.svg?component\";\n \n const store = useCanvasStore();\n "
+      }
+    ]
+  },
+  {
     "sha": "8f0ec4a1c1a98bef4b337ace1f3e8378eec13f6a",
     "node_id": "C_kwDORJTOeNoAKDhmMGVjNGExYzFhOThiZWY0YjMzN2FjZTFmM2U4Mzc4ZWVjMTNmNmE",
     "commit": {
@@ -437,119 +598,6 @@
         "raw_url": "https://github.com/jrwnnnn/re-color/raw/23c12ff15e6ccd9764bbe3f39498ec4432a830c0/.github%2FISSUE_TEMPLATE%2Ffeature_request.yaml",
         "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/.github%2FISSUE_TEMPLATE%2Ffeature_request.yaml?ref=23c12ff15e6ccd9764bbe3f39498ec4432a830c0",
         "patch": "@@ -0,0 +1,25 @@\n+name: Feature Request\n+description: Suggest a new feature or improvement\n+labels: [\"enhancement\"]\n+body:\n+  - type: textarea\n+    id: description\n+    attributes:\n+      label: Description\n+      description: What do you want to see added or changed?\n+    validations:\n+      required: true\n+\n+  - type: textarea\n+    id: reason\n+    attributes:\n+      label: Why?\n+      description: Why would this be useful?\n+    validations:\n+      required: true\n+\n+  - type: textarea\n+    id: additional-context\n+    attributes:\n+      label: Additional context\n+      description: Mockups, examples, or anything else relevant.\n\\ No newline at end of file"
-      }
-    ]
-  },
-  {
-    "sha": "9afd99ae018b5bcf328d32be64d8689eba25c064",
-    "node_id": "C_kwDORJTOeNoAKDlhZmQ5OWFlMDE4YjViY2YzMjhkMzJiZTY0ZDg2ODllYmEyNWMwNjQ",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-05-04T05:30:04Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-05-04T05:30:04Z"
-      },
-      "message": "chore: Update bug report template (#91)\n\n* chore: Update bug report template\n\n* chore: Add description; improve clarity",
-      "tree": {
-        "sha": "1ac32f239098b3636193739f408a4c10c31449f4",
-        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/1ac32f239098b3636193739f408a4c10c31449f4"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/9afd99ae018b5bcf328d32be64d8689eba25c064",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp+C7cCRC1aQ7uu5UhlAAArs8QAHVKj8DaZOrd1cxJYgEi8h0J\nF/cLa2hjCTIPQaW0Mxcfm6wj3Nx59qTd0GEOlI6qfR9RoFoPb4UZzO9MKCb3jnsd\n3jf7xlj1jHJNGWtDWb9z7fZNoOKLPibPiPd6GzbHYVOeEggFghZ/YH3Am9Ct7Rsr\nhZQ3FBSeHGPTDBUBm+BBsPYhaWzlw+Z646HbEPZEhrjoEFayxtWbDhK9OgIYMyVI\nFle1+44Ul9nKGZQ3reTndHgvG4GXsJtyIXLV0jzqk6iFna5wsTzwxmDvb5DYS6Lw\nypDedwfI4tr1wXuX+FleCER6zgJOIND0fbbjIWYXu13Y6Ko/i4LUTfWler7MDUf8\nGsdaovMHFB2BSVQGJYf8k5zunPPP5sJUeZIKN+rtrn+Qpwc4bgMZerDBJA7CeP+m\nBs3sJIhZKy2LaP0H91LdUqYa2LbdXX0tSP3Tq2GmPYWVshxPdX6G9y3WUJZN79LD\n7hftjjTW+CP8/oP3HQ0nqxuYew9Q07XNmXvNMAtb4PaUa00PqCHUhckQWOPs+d+2\nugNQHDWwX81PFP+3FwOy5G7OYsJ6UnDP/nrJD6EPy/cKla9rG5UbseHmnwpQCm36\n3hkYoUja2TZi5bzItc9rfZU/1dBWCkAY5EBSlxk9QSG6HYN/buLnQWlcrNLRgtVb\nRRuE6Vt5MR8BobAUmhXt\n=qh6e\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 1ac32f239098b3636193739f408a4c10c31449f4\nparent 1b33fbf7a361d8f43ce5774d81ccdebc72bd01ce\nauthor Mark Jerwin <git@jrwnnnn.me> 1777872604 +0800\ncommitter GitHub <noreply@github.com> 1777872604 +0800\n\nchore: Update bug report template (#91)\n\n* chore: Update bug report template\n\n* chore: Add description; improve clarity",
-        "verified_at": "2026-05-04T05:30:05Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/9afd99ae018b5bcf328d32be64d8689eba25c064",
-    "html_url": "https://github.com/jrwnnnn/re-color/commit/9afd99ae018b5bcf328d32be64d8689eba25c064",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/9afd99ae018b5bcf328d32be64d8689eba25c064/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "1b33fbf7a361d8f43ce5774d81ccdebc72bd01ce",
-        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/1b33fbf7a361d8f43ce5774d81ccdebc72bd01ce",
-        "html_url": "https://github.com/jrwnnnn/re-color/commit/1b33fbf7a361d8f43ce5774d81ccdebc72bd01ce"
-      }
-    ],
-    "stats": {
-      "total": 92,
-      "additions": 54,
-      "deletions": 38
-    },
-    "files": [
-      {
-        "sha": "dd84ea7824f11be1eeda22377549cbc1aec7f980",
-        "filename": ".github/ISSUE_TEMPLATE/bug_report.md",
-        "status": "removed",
-        "additions": 0,
-        "deletions": 38,
-        "changes": 38,
-        "blob_url": "https://github.com/jrwnnnn/re-color/blob/1b33fbf7a361d8f43ce5774d81ccdebc72bd01ce/.github%2FISSUE_TEMPLATE%2Fbug_report.md",
-        "raw_url": "https://github.com/jrwnnnn/re-color/raw/1b33fbf7a361d8f43ce5774d81ccdebc72bd01ce/.github%2FISSUE_TEMPLATE%2Fbug_report.md",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/.github%2FISSUE_TEMPLATE%2Fbug_report.md?ref=1b33fbf7a361d8f43ce5774d81ccdebc72bd01ce",
-        "patch": "@@ -1,38 +0,0 @@\n----\n-name: Bug report\n-about: Create a report to help us improve\n-title: ''\n-labels: ''\n-assignees: ''\n-\n----\n-\n-**Describe the bug**\n-A clear and concise description of what the bug is.\n-\n-**To Reproduce**\n-Steps to reproduce the behavior:\n-1. Go to '...'\n-2. Click on '....'\n-3. Scroll down to '....'\n-4. See error\n-\n-**Expected behavior**\n-A clear and concise description of what you expected to happen.\n-\n-**Screenshots**\n-If applicable, add screenshots to help explain your problem.\n-\n-**Desktop (please complete the following information):**\n- - OS: [e.g. iOS]\n- - Browser [e.g. chrome, safari]\n- - Version [e.g. 22]\n-\n-**Smartphone (please complete the following information):**\n- - Device: [e.g. iPhone6]\n- - OS: [e.g. iOS8.1]\n- - Browser [e.g. stock browser, safari]\n- - Version [e.g. 22]\n-\n-**Additional context**\n-Add any other context about the problem here."
-      },
-      {
-        "sha": "9087ae0529c6adbab2d8d3de2508866f7070b821",
-        "filename": ".github/ISSUE_TEMPLATE/bug_report.yaml",
-        "status": "added",
-        "additions": 54,
-        "deletions": 0,
-        "changes": 54,
-        "blob_url": "https://github.com/jrwnnnn/re-color/blob/9afd99ae018b5bcf328d32be64d8689eba25c064/.github%2FISSUE_TEMPLATE%2Fbug_report.yaml",
-        "raw_url": "https://github.com/jrwnnnn/re-color/raw/9afd99ae018b5bcf328d32be64d8689eba25c064/.github%2FISSUE_TEMPLATE%2Fbug_report.yaml",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/.github%2FISSUE_TEMPLATE%2Fbug_report.yaml?ref=9afd99ae018b5bcf328d32be64d8689eba25c064",
-        "patch": "@@ -0,0 +1,54 @@\n+name: Bug Report\n+description: Report a bug or a problem\n+labels: [\"bug\"]\n+body:\n+  - type: textarea\n+    id: description\n+    attributes:\n+      label: Description\n+      description: What went wrong?\n+    validations:\n+      required: true\n+\n+  - type: textarea\n+    id: steps\n+    attributes:\n+      label: Steps to Reproduce\n+      description: How to trigger the bug?\n+      placeholder: |\n+        1.\n+        2.\n+        3.\n+    validations:\n+      required: true\n+\n+  - type: textarea\n+    id: expected\n+    attributes:\n+      label: Expected behavior\n+      description: What did you expect to happen?\n+    validations:\n+      required: true\n+\n+  - type: textarea\n+    id: actual\n+    attributes:\n+      label: Actual behavior\n+      description: What happened instead?\n+    validations:\n+      required: true\n+  \n+  - type: input\n+    id: version\n+    attributes:\n+      label: App Version\n+      description: Can be found in Help > About Re:Color in the menu bar.\n+      placeholder: 1.0.0\n+    validations:\n+      required: true\n+\n+  - type: textarea\n+    id: additional-context\n+    attributes:\n+      label: Additional context\n+      description: Screenshots or anything else relevant.\n\\ No newline at end of file"
       }
     ]
   }
