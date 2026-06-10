@@ -1,1 +1,613 @@
-[]
+[
+  {
+    "sha": "395ecbfead3ffdafd2b67cc2c4c571c268e4c778",
+    "node_id": "C_kwDORJTOeNoAKDM5NWVjYmZlYWQzZmZkYWZkMmI2N2NjMmM0YzU3MWMyNjhlNGM3Nzg",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-05-08T03:31:15Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-05-08T03:31:15Z"
+      },
+      "message": "feat: Add about page (#100)\n\n* feat: Wire the menu option to AboutPage.vue\n\n* feat: Update on the about page\n\n* chore: Remove about-page.html\n\n* chore: Remove launch.json\n\n* feat: Add scroll function and polishing\n\n* chore: Update AboutRecolor.vue\n\n---------\n\nCo-authored-by: hendi <jakecollado147@gmail.com>",
+      "tree": {
+        "sha": "de3d595d903b0a5efd1da2f5db99dbccf7630489",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/de3d595d903b0a5efd1da2f5db99dbccf7630489"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/395ecbfead3ffdafd2b67cc2c4c571c268e4c778",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp/VkDCRC1aQ7uu5UhlAAAK10QAC84xKT5BJVyUv3y+nQ5q98A\nLpp9HfT6/R1Dmd/2Ueev8hWb/eGZpP5/G9lDDYjAWss1pJmQKbZTgEMXnwyYDcp3\ng3ctusPqk40DFyDNkdcvbBKNgyj5N8scZSKpd3m8WdGm6AFeg1CXfqyt3L+XxPZz\nTzuTwf1/UquuRBNPRC5gdxIQF1qeDc2v0AX7zGuju03bFlUk854R22Buo6d/OTG/\nCzMjVNJTzcUdT43jCgxYzQKaEVB1stGMMPtVBhCAq14BalP6swVdxPHcHDNLGGQX\ns9kaEekHVuiXuWCWcnqXLbH7DTyh8DI/KQXIOPYVQFRFwn+ILQw8yNHo3JIXTeId\nKavSBY7Wg54TvkQCsfE//v9AQk37YNuB68Nk5vXRqRvrpeFJjqZ0AmeD3Z/z+k8F\nn4Ehm9hCA82Iv92tBv3h44K6tpAEP/8SA2lrjSnUKgCetAL7uijEr7dd4G8mp5M9\n5exHXDhrVc96lFoOv4ox/G8b89h09tAgx3pComXRi3ikaYGxNhq+2yug4Xog4vw4\n5WBrkg+XleQ2MwT4cFXdp5REsGXm8LI31TS+wUEl2eKWR3nU4RwEqbwN1zPYSX1x\nk9ZoENmfYh0IzQzZCeQz0WYnsxYRHclBnz4zwZx5uXDv/b4Sj0yOrIgk5iiqn96t\n4m+3MkAWxXlZNI/6cxNr\n=PS7m\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree de3d595d903b0a5efd1da2f5db99dbccf7630489\nparent b65ed8fd6406916bbf211809f2302d6b0e229071\nauthor Mark Jerwin <git@jrwnnnn.me> 1778211075 +0800\ncommitter GitHub <noreply@github.com> 1778211075 +0800\n\nfeat: Add about page (#100)\n\n* feat: Wire the menu option to AboutPage.vue\n\n* feat: Update on the about page\n\n* chore: Remove about-page.html\n\n* chore: Remove launch.json\n\n* feat: Add scroll function and polishing\n\n* chore: Update AboutRecolor.vue\n\n---------\n\nCo-authored-by: hendi <jakecollado147@gmail.com>",
+        "verified_at": "2026-05-08T03:31:15Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/395ecbfead3ffdafd2b67cc2c4c571c268e4c778",
+    "html_url": "https://github.com/jrwnnnn/re-color/commit/395ecbfead3ffdafd2b67cc2c4c571c268e4c778",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/395ecbfead3ffdafd2b67cc2c4c571c268e4c778/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b65ed8fd6406916bbf211809f2302d6b0e229071",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/b65ed8fd6406916bbf211809f2302d6b0e229071",
+        "html_url": "https://github.com/jrwnnnn/re-color/commit/b65ed8fd6406916bbf211809f2302d6b0e229071"
+      }
+    ],
+    "stats": {
+      "total": 78,
+      "additions": 75,
+      "deletions": 3
+    },
+    "files": [
+      {
+        "sha": "85f0263ff58fa81d343508644773aedbee1d28f1",
+        "filename": "electron/main.js",
+        "status": "modified",
+        "additions": 17,
+        "deletions": 1,
+        "changes": 18,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/395ecbfead3ffdafd2b67cc2c4c571c268e4c778/electron%2Fmain.js",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/395ecbfead3ffdafd2b67cc2c4c571c268e4c778/electron%2Fmain.js",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/electron%2Fmain.js?ref=395ecbfead3ffdafd2b67cc2c4c571c268e4c778",
+        "patch": "@@ -1,5 +1,12 @@\n /* eslint-disable */\n-const { app, BrowserWindow, Menu, ipcMain, dialog } = require(\"electron\");\n+const {\n+\tapp,\n+\tBrowserWindow,\n+\tMenu,\n+\tipcMain,\n+\tshell,\n+\tdialog,\n+} = require(\"electron\");\n const path = require(\"path\");\n const fs = require(\"fs\");\n \n@@ -33,6 +40,14 @@ function createWindow() {\n \t\t}\n \t});\n \n+\twin.webContents.setWindowOpenHandler(({ url }) => {\n+\t\tif (url.startsWith(\"http://localhost\") || url.startsWith(\"file://\")) {\n+\t\t\treturn { action: \"allow\" };\n+\t\t}\n+\t\tshell.openExternal(url);\n+\t\treturn { action: \"deny\" };\n+\t});\n+\n \tconst menu = Menu.buildFromTemplate([\n \t\t{\n \t\t\tlabel: \"File\",\n@@ -91,6 +106,7 @@ function createWindow() {\n \t\t\t\t},\n \t\t\t\t{\n \t\t\t\t\tlabel: \"About Re:Color\",\n+\t\t\t\t\tclick: () => win.webContents.send(\"menu:about\"),\n \t\t\t\t},\n \t\t\t],\n \t\t},"
+      },
+      {
+        "sha": "7dc466a69168f0fccbb0057cd940cd5eed1b28d4",
+        "filename": "electron/preload.js",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/395ecbfead3ffdafd2b67cc2c4c571c268e4c778/electron%2Fpreload.js",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/395ecbfead3ffdafd2b67cc2c4c571c268e4c778/electron%2Fpreload.js",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/electron%2Fpreload.js?ref=395ecbfead3ffdafd2b67cc2c4c571c268e4c778",
+        "patch": "@@ -12,4 +12,5 @@ contextBridge.exposeInMainWorld(\"electronAPI\", {\n \tsaveImage: (dataURL) => ipcRenderer.invoke(\"save-image\", dataURL),\n \tonUndo: (callback) => ipcRenderer.on(\"menu:undo\", callback),\n \tonRedo: (callback) => ipcRenderer.on(\"menu:redo\", callback),\n+\tmoveToAbout: (callback) => ipcRenderer.on(\"menu:about\", callback),\n });"
+      },
+      {
+        "sha": "bf71ad9aa4987e69a2b01c1716a326cf69095aa4",
+        "filename": "package-lock.json",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/395ecbfead3ffdafd2b67cc2c4c571c268e4c778/package-lock.json",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/395ecbfead3ffdafd2b67cc2c4c571c268e4c778/package-lock.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/package-lock.json?ref=395ecbfead3ffdafd2b67cc2c4c571c268e4c778",
+        "patch": "@@ -1,12 +1,12 @@\n {\n \t\"name\": \"re-color\",\n-\t\"version\": \"0.3.0\",\n+\t\"version\": \"1.0.0\",\n \t\"lockfileVersion\": 3,\n \t\"requires\": true,\n \t\"packages\": {\n \t\t\"\": {\n \t\t\t\"name\": \"re-color\",\n-\t\t\t\"version\": \"0.3.0\",\n+\t\t\t\"version\": \"1.0.0\",\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"dependencies\": {\n \t\t\t\t\"@simonwep/pickr\": \"^1.9.1\","
+      },
+      {
+        "sha": "1e88dba9f5ad39e895443817f5d8b0ade2d083ba",
+        "filename": "src/assets/bug.png",
+        "status": "added",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/395ecbfead3ffdafd2b67cc2c4c571c268e4c778/src%2Fassets%2Fbug.png",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/395ecbfead3ffdafd2b67cc2c4c571c268e4c778/src%2Fassets%2Fbug.png",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/src%2Fassets%2Fbug.png?ref=395ecbfead3ffdafd2b67cc2c4c571c268e4c778"
+      },
+      {
+        "sha": "0c2ee5039531c9d487a75cc747e9eb2bdba5ba6f",
+        "filename": "src/assets/github.png",
+        "status": "added",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/395ecbfead3ffdafd2b67cc2c4c571c268e4c778/src%2Fassets%2Fgithub.png",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/395ecbfead3ffdafd2b67cc2c4c571c268e4c778/src%2Fassets%2Fgithub.png",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/src%2Fassets%2Fgithub.png?ref=395ecbfead3ffdafd2b67cc2c4c571c268e4c778"
+      },
+      {
+        "sha": "6616ccc9f8f08a4cd68555ff4efac29ebb906c7c",
+        "filename": "src/electron.d.ts",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/395ecbfead3ffdafd2b67cc2c4c571c268e4c778/src%2Felectron.d.ts",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/395ecbfead3ffdafd2b67cc2c4c571c268e4c778/src%2Felectron.d.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/src%2Felectron.d.ts?ref=395ecbfead3ffdafd2b67cc2c4c571c268e4c778",
+        "patch": "@@ -8,5 +8,6 @@ interface Window {\n \t\tsaveImage: (dataURL: string) => Promise<void>;\n \t\tonUndo: (callback: () => void) => void;\n \t\tonRedo: (callback: () => void) => void;\n+\t\tmoveToAbout: (callback: () => void) => void;\n \t};\n }"
+      },
+      {
+        "sha": "0b0d97ff6c3a091eac6275324741b8cefba524a6",
+        "filename": "src/router.ts",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 0,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/395ecbfead3ffdafd2b67cc2c4c571c268e4c778/src%2Frouter.ts",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/395ecbfead3ffdafd2b67cc2c4c571c268e4c778/src%2Frouter.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/src%2Frouter.ts?ref=395ecbfead3ffdafd2b67cc2c4c571c268e4c778",
+        "patch": "@@ -1,11 +1,13 @@\n import { createRouter, createWebHashHistory } from \"vue-router\";\n import DrawingArea from \"@/views/DrawingArea.vue\";\n import ResultsScreen from \"@/views/ResultsScreen.vue\";\n+import AboutRecolor from \"@/views/AboutRecolor.vue\";\n \n export const router = createRouter({\n \thistory: createWebHashHistory(),\n \troutes: [\n \t\t{ path: \"/\", component: DrawingArea },\n \t\t{ path: \"/results\", component: ResultsScreen },\n+\t\t{ path: \"/about\", component: AboutRecolor },\n \t],\n });"
+      },
+      {
+        "sha": "bd631e199be0b1fc1abf1f366a5420a9bd337203",
+        "filename": "src/views/AboutRecolor.vue",
+        "status": "added",
+        "additions": 45,
+        "deletions": 0,
+        "changes": 45,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/395ecbfead3ffdafd2b67cc2c4c571c268e4c778/src%2Fviews%2FAboutRecolor.vue",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/395ecbfead3ffdafd2b67cc2c4c571c268e4c778/src%2Fviews%2FAboutRecolor.vue",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/src%2Fviews%2FAboutRecolor.vue?ref=395ecbfead3ffdafd2b67cc2c4c571c268e4c778",
+        "patch": "@@ -0,0 +1,45 @@\n+<script setup lang=\"ts\">\n+import { router } from \"@/router\";\n+</script>\n+\n+<template>\n+\t<div\n+\t\tclass=\"flex h-screen w-screen items-center justify-center bg-linear-to-br from-pink-500/10 via-transparent to-violet-500/10\"\n+\t>\n+\t\t<div class=\"flex gap-5 rounded-lg p-10\">\n+\t\t\t<div class=\"space-y-2\">\n+\t\t\t\t<p\n+\t\t\t\t\tclass=\"text-muted cursor-pointer hover:text-white/50\"\n+\t\t\t\t\t@click=\"router.push('/')\"\n+\t\t\t\t>\n+\t\t\t\t\tGo back\n+\t\t\t\t</p>\n+\t\t\t\t<div class=\"flex justify-between\">\n+\t\t\t\t\t<span class=\"flex items-end gap-3\">\n+\t\t\t\t\t\t<p class=\"text-4xl font-bold\">Re:Color</p>\n+\t\t\t\t\t\t<p class=\"text-muted text-lg\">v1.0.0</p>\n+\t\t\t\t\t</span>\n+\t\t\t\t</div>\n+\t\t\t\t<p class=\"text-white/80\">\n+\t\t\t\t\tA paint app for people with color-vision difficulties.\n+\t\t\t\t</p>\n+\t\t\t\t<div class=\"mt-10 flex gap-5\">\n+\t\t\t\t\t<a\n+\t\t\t\t\t\thref=\"https://github.com/jrwnnnn/re-color\"\n+\t\t\t\t\t\ttarget=\"_blank\"\n+\t\t\t\t\t\trel=\"noopener noreferrer\"\n+\t\t\t\t\t>\n+\t\t\t\t\t\t<img src=\"@/assets/github.png\" class=\"h-7 w-7 invert\" />\n+\t\t\t\t\t</a>\n+\t\t\t\t\t<a\n+\t\t\t\t\t\thref=\"https://github.com/jrwnnnn/re-color/issues\"\n+\t\t\t\t\t\ttarget=\"_blank\"\n+\t\t\t\t\t\trel=\"noopener noreferrer\"\n+\t\t\t\t\t>\n+\t\t\t\t\t\t<img src=\"@/assets/bug.png\" class=\"h-7 w-7 invert\" />\n+\t\t\t\t\t</a>\n+\t\t\t\t</div>\n+\t\t\t</div>\n+\t\t</div>\n+\t</div>\n+</template>"
+      },
+      {
+        "sha": "547530124ea59794f4013079efa2dadf343e7dff",
+        "filename": "src/views/DrawingArea.vue",
+        "status": "modified",
+        "additions": 4,
+        "deletions": 0,
+        "changes": 4,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/395ecbfead3ffdafd2b67cc2c4c571c268e4c778/src%2Fviews%2FDrawingArea.vue",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/395ecbfead3ffdafd2b67cc2c4c571c268e4c778/src%2Fviews%2FDrawingArea.vue",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/src%2Fviews%2FDrawingArea.vue?ref=395ecbfead3ffdafd2b67cc2c4c571c268e4c778",
+        "patch": "@@ -9,6 +9,7 @@ import { useCanvas } from \"@/lib/useCanvas\";\n import { useTools } from \"@/lib/useTools\";\n import { useKeyboardShortcuts } from \"@/lib/useKeyboardShortcuts\";\n import { useSpeedDraw } from \"@/lib/useSpeedDraw\";\n+import { router } from \"@/router\";\n import Toolbar from \"@/components/ToolBar.vue\";\n import ColorBar from \"@/components/ColorBar.vue\";\n import StatusBar from \"@/components/StatusBar.vue\";\n@@ -70,6 +71,9 @@ onMounted(async () => {\n \t});\n \twindow.electronAPI?.onUndo(() => undo());\n \twindow.electronAPI?.onRedo(() => redo());\n+\twindow.electronAPI?.moveToAbout(() => {\n+\t\trouter.push(\"/about\");\n+\t});\n });\n \n onUnmounted(() => {"
+      },
+      {
+        "sha": "1e9b5fc18deab8ffe16934cfee27d10c11abd536",
+        "filename": "src/views/ResultsScreen.vue",
+        "status": "modified",
+        "additions": 3,
+        "deletions": 0,
+        "changes": 3,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/395ecbfead3ffdafd2b67cc2c4c571c268e4c778/src%2Fviews%2FResultsScreen.vue",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/395ecbfead3ffdafd2b67cc2c4c571c268e4c778/src%2Fviews%2FResultsScreen.vue",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/src%2Fviews%2FResultsScreen.vue?ref=395ecbfead3ffdafd2b67cc2c4c571c268e4c778",
+        "patch": "@@ -48,6 +48,9 @@ function preventBack() {\n onMounted(() => {\n \thistory.pushState(null, \"\", location.href);\n \twindow.addEventListener(\"popstate\", preventBack);\n+\twindow.electronAPI?.moveToAbout(() => {\n+\t\trouter.push(\"/about\");\n+\t});\n });\n \n onUnmounted(() => {"
+      }
+    ]
+  },
+  {
+    "sha": "b65ed8fd6406916bbf211809f2302d6b0e229071",
+    "node_id": "C_kwDORJTOeNoAKGI2NWVkOGZkNjQwNjkxNmJiZjIxMTgwOWYyMzAyZDZiMGUyMjkwNzE",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-05-08T02:40:57Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-05-08T02:40:57Z"
+      },
+      "message": "feat: Open GitHub issues from 'Report an Issue' menu (#102)\n\nCo-authored-by: Ame <166330494+AmeIgarashi@users.noreply.github.com>",
+      "tree": {
+        "sha": "c7a86ebcd9b665ef0980c642c7a4a6a40569fc69",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/c7a86ebcd9b665ef0980c642c7a4a6a40569fc69"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/b65ed8fd6406916bbf211809f2302d6b0e229071",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp/U05CRC1aQ7uu5UhlAAAUZgQAENzIhb8LwrKZHqpJ4LWQAJX\nX7d61TkWpAPc5Vc2/uNYHJx84PFQzNkvEL70+7YskGRZofLSJ2xSSKVOGm25XJgj\n6HMAwHICMxbI7P+JunMBTY0aH25FvVIwjGQJocIxlcKmej1ZZCXsBRc6z+C9Ex3T\nGDMh+uy3gMe8IBOZVoBOFH/yiFfF5TXnGNJgoksPqMqbiBR3jt7TUt9zt6NNA+/9\nQMjgKg7EhY75sqtdZmW0wHSgNyo3ZsE1ev6wl5r0y9x13OFVYZ48Elt5LFWb5KWg\n8xEpyvifjFMPInoPcTxx9wFV/jK/m4KfCEQJAotkH6OHnWwpSDPHgHYLHmoZHWj1\n9S4NM5cC7Yn1yQ/RbGyDqvJhTgPUjjAqAAutyI3DmESPg1VEYHDMAHLAiXmdisgN\nzrC9t/scLJG7lecuHKcc0b7aPyWMOY8+Ceis3N3UqKhHSS1JT++hGtm9gXBTxR4r\nTA+pw6tQud5TMpOA73uI4tG4mA3kN3tvWZnQvAFQn7plztfwIcVIqb4ACaoHnc2J\nkJpb+w1A3Rx28TeV3mlOgaTuOXhlzU5CYOVUnsQ+lkrwuavGU2PLM6h1AebuZbIu\nhCnymz0ltQj2l/WOU/LiZLXY8tGRMzyz3q1EYLTwQX+iwQR9Zcs3lUuMbgpLaya4\nwrdO4cI++5uXhzWe/9jK\n=e1cI\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree c7a86ebcd9b665ef0980c642c7a4a6a40569fc69\nparent a4439b2531b963cfe630337a8087f8f02a5c92be\nauthor Mark Jerwin <git@jrwnnnn.me> 1778208057 +0800\ncommitter GitHub <noreply@github.com> 1778208057 +0800\n\nfeat: Open GitHub issues from 'Report an Issue' menu (#102)\n\nCo-authored-by: Ame <166330494+AmeIgarashi@users.noreply.github.com>",
+        "verified_at": "2026-05-08T02:40:58Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/b65ed8fd6406916bbf211809f2302d6b0e229071",
+    "html_url": "https://github.com/jrwnnnn/re-color/commit/b65ed8fd6406916bbf211809f2302d6b0e229071",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/b65ed8fd6406916bbf211809f2302d6b0e229071/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a4439b2531b963cfe630337a8087f8f02a5c92be",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/a4439b2531b963cfe630337a8087f8f02a5c92be",
+        "html_url": "https://github.com/jrwnnnn/re-color/commit/a4439b2531b963cfe630337a8087f8f02a5c92be"
+      }
+    ],
+    "stats": {
+      "total": 2,
+      "additions": 2,
+      "deletions": 0
+    },
+    "files": [
+      {
+        "sha": "c4a5b17bd7060901c068477a7c69cb376d5a87f7",
+        "filename": "electron/main.js",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 0,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/b65ed8fd6406916bbf211809f2302d6b0e229071/electron%2Fmain.js",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/b65ed8fd6406916bbf211809f2302d6b0e229071/electron%2Fmain.js",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/electron%2Fmain.js?ref=b65ed8fd6406916bbf211809f2302d6b0e229071",
+        "patch": "@@ -86,6 +86,8 @@ function createWindow() {\n \t\t\tsubmenu: [\n \t\t\t\t{\n \t\t\t\t\tlabel: \"Report an Issue\",\n+\t\t\t\t\tclick: () =>\n+\t\t\t\t\t\tshell.openExternal(\"https://github.com/jrwnnnn/re-color/issues\"),\n \t\t\t\t},\n \t\t\t\t{\n \t\t\t\t\tlabel: \"About Re:Color\","
+      }
+    ]
+  },
+  {
+    "sha": "a4439b2531b963cfe630337a8087f8f02a5c92be",
+    "node_id": "C_kwDORJTOeNoAKGE0NDM5YjI1MzFiOTYzY2ZlNjMwMzM3YTgwODdmOGYwMmE1YzkyYmU",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-05-08T02:35:04Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-05-08T02:35:04Z"
+      },
+      "message": "feat: Increase brush size slider's size (#99)",
+      "tree": {
+        "sha": "155114d1281640e4d8bad034f19b7b3c3fc6124b",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/155114d1281640e4d8bad034f19b7b3c3fc6124b"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/a4439b2531b963cfe630337a8087f8f02a5c92be",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp/UvYCRC1aQ7uu5UhlAAASEIQAEmGqr21A75eB6UxQOkaoP+6\nS+2UlnT2nvYwjkXgu6K3Jz9xuWM3dVSmXzM/4nlOWg78FMRexXGZHfTNEuHORjGO\nHLuketXB2tVX/b8/Ko1KBg2FtoYwu7phuPg6p41bWKAp1Ffsq0j61htBcmmAhKfm\nFezvy2ZpD5EkuTPFBfONY8AZOZLgs+zjkqixFb21xLnaOe5GPS50ELxv01Fs6XNQ\ncnK+i7ila/5pdqRRFnhzucjYxcEZ+izZfz7w93bmDIBFMh4m9sNWdJ4LEcAwi8kD\n8g3WDtoE7O7ki9Is11UfJaEptlfBy7yym/d4JNqH/WuvtkXQ7VYgdb0tEVRRHnh+\niJasVDWk+fDe9jB/cJAvt/t2MNceDsleD+FMaQ1zS3PTdCUuOsVROq5rmogaXZry\n5SZuExEENvdnitlI6a+etzejQ/gJmosWYknMZgX2z5AVupGwPp26nTItfPiwo9Mm\ngwDndJANrO9b04oxEK2igm3L9B6NzYksgB3EJRL8L4EFeUAGabsvUWD0a5IHLu/5\nF4ozO1+8ax6qgxxB1gpmLX11FLtIuZ8GeCRuUlYj9s1rsodsv9QBN32z2x4l720s\nk63ZGkRKM2dvyRu0Ch3Odw0m7URNKbYdt5rLD/5Ulfl/NxCucYVQHdiCToUW9MaT\nnkqZnpHdWmIXko90yP3y\n=iOzd\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 155114d1281640e4d8bad034f19b7b3c3fc6124b\nparent 99ef31d711d4afb30973d050360a24c5c763d43b\nauthor Mark Jerwin <git@jrwnnnn.me> 1778207704 +0800\ncommitter GitHub <noreply@github.com> 1778207704 +0800\n\nfeat: Increase brush size slider's size (#99)",
+        "verified_at": "2026-05-08T02:35:05Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/a4439b2531b963cfe630337a8087f8f02a5c92be",
+    "html_url": "https://github.com/jrwnnnn/re-color/commit/a4439b2531b963cfe630337a8087f8f02a5c92be",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/a4439b2531b963cfe630337a8087f8f02a5c92be/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "99ef31d711d4afb30973d050360a24c5c763d43b",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/99ef31d711d4afb30973d050360a24c5c763d43b",
+        "html_url": "https://github.com/jrwnnnn/re-color/commit/99ef31d711d4afb30973d050360a24c5c763d43b"
+      }
+    ],
+    "stats": {
+      "total": 3,
+      "additions": 1,
+      "deletions": 2
+    },
+    "files": [
+      {
+        "sha": "6ba91867306d803e7aedc46bda921576cb123383",
+        "filename": "src/components/ToolBar.vue",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 2,
+        "changes": 3,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/a4439b2531b963cfe630337a8087f8f02a5c92be/src%2Fcomponents%2FToolBar.vue",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/a4439b2531b963cfe630337a8087f8f02a5c92be/src%2Fcomponents%2FToolBar.vue",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/src%2Fcomponents%2FToolBar.vue?ref=a4439b2531b963cfe630337a8087f8f02a5c92be",
+        "patch": "@@ -96,6 +96,7 @@ const tools: { id: Tool; label: string; shortcut: string; icon: Component }[] =\n \t\t\t\torient=\"vertical\"\n \t\t\t\t:value=\"store.brushSize\"\n \t\t\t\t@input=\"store.setBrushSize(+($event.target as HTMLInputElement).value)\"\n+\t\t\t\tclass=\"w-1 h-30\"\n \t\t\t/>\n \t\t\t<span class=\"text-muted text-xxs text-center\"\n \t\t\t\t>{{ store.brushSize }}px</span\n@@ -108,8 +109,6 @@ const tools: { id: Tool; label: string; shortcut: string; icon: Component }[] =\n input[type=\"range\"][orient=\"vertical\"] {\n \twriting-mode: vertical-lr;\n \tdirection: rtl;\n-\theight: 80px;\n-\twidth: 4px;\n \taccent-color: #4d9eff;\n \tcursor: pointer;\n }"
+      }
+    ]
+  },
+  {
+    "sha": "04743910f2dc9ecb444a9df0a27d2124fb77acb8",
+    "node_id": "C_kwDORz-DOdoAKDA0NzQzOTEwZjJkYzllY2I0NDRhOWRmMGEyN2QyMTI0ZmI3N2FjYjg",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "ping@jrwnnnn.me",
+        "date": "2026-05-08T01:35:36Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-05-08T01:35:36Z"
+      },
+      "message": "chore: Add FUNDING.yml",
+      "tree": {
+        "sha": "9fda3bcd56d45f4adde275668953b2ae57d1a142",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/9fda3bcd56d45f4adde275668953b2ae57d1a142"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/04743910f2dc9ecb444a9df0a27d2124fb77acb8",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp/T3oCRC1aQ7uu5UhlAAA4CkQAE2rs4BbNbYc0EbM1CS9uruh\ncyjzuRB31uqDkgF0B3dkyhZ6sGUvp8GiIlY2TFccCeET6zTxcKNyjynAVzJviuFD\n+C2ewDWA1q8goChkWlYdJuCsKkTshTdlDjWsAtY6HKdRuzRslg0uOMtg7MpVkTZP\nfstBTHXRSvRVo5USqzNWIK3l38fNlocFHDzVikvgyYPhKxUiDjEeSarrttl0fADX\nTMJ6mOypWiIlBYkcqlWL5XLCdhkVVvWyls66zl9RtpmL/NkZljTJ1CLjBSb1LG0/\nV1LszktFXKJnymh49eW3asxzOA7rHWReN3lZa1BoK7zcEZshUN+FmAPrkj1pWItD\n31TrC7z/RG/Y7uL8sDXTYcyGDUH+ylR3DXE8E6JV+yoPScgSp/n1tXwlj8yXf1SX\njW1gvxbP0FJCsEQ0ignXCPZ/66uJaQM9DtVKz1kPnK9Zj/IAn74uqPrBCSAwYSw7\nv6zCqc3tAfB1x8Rg4wparjHm1pd4N1ydgWonEqC5NLZHofrZju4gl0Gihy1wpybK\na/w0o8zLzfDpBvfT36vonbICjnOi0B+o8JAyi4REQdhuabPFdsX1tMywrArOdv1b\nRs7w9/nSj6dWYChhJ7cUVdEmQc+HbgvlKQIPpzsDpZIRyWu7tzxIC7iQx1S9WdWX\nw5AWQ32mmp6BdJGAAMxa\n=5/OC\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 9fda3bcd56d45f4adde275668953b2ae57d1a142\nparent 508b1d1a00190d310c4dabe676e0d5772498dfcb\nauthor Mark Jerwin <ping@jrwnnnn.me> 1778204136 +0800\ncommitter GitHub <noreply@github.com> 1778204136 +0800\n\nchore: Add FUNDING.yml",
+        "verified_at": "2026-05-08T01:35:36Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/04743910f2dc9ecb444a9df0a27d2124fb77acb8",
+    "html_url": "https://github.com/jrwnnnn/rekord/commit/04743910f2dc9ecb444a9df0a27d2124fb77acb8",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/04743910f2dc9ecb444a9df0a27d2124fb77acb8/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "508b1d1a00190d310c4dabe676e0d5772498dfcb",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/508b1d1a00190d310c4dabe676e0d5772498dfcb",
+        "html_url": "https://github.com/jrwnnnn/rekord/commit/508b1d1a00190d310c4dabe676e0d5772498dfcb"
+      }
+    ],
+    "stats": {
+      "total": 15,
+      "additions": 15,
+      "deletions": 0
+    },
+    "files": [
+      {
+        "sha": "1fe8fd6dcf9f79a00746eeb132209db5ce3e1d6e",
+        "filename": ".github/FUNDING.yml",
+        "status": "added",
+        "additions": 15,
+        "deletions": 0,
+        "changes": 15,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/04743910f2dc9ecb444a9df0a27d2124fb77acb8/.github%2FFUNDING.yml",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/04743910f2dc9ecb444a9df0a27d2124fb77acb8/.github%2FFUNDING.yml",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/.github%2FFUNDING.yml?ref=04743910f2dc9ecb444a9df0a27d2124fb77acb8",
+        "patch": "@@ -0,0 +1,15 @@\n+# These are supported funding model platforms\n+\n+github: jrwnnnn\n+patreon: # Replace with a single Patreon username\n+open_collective: # Replace with a single Open Collective username\n+ko_fi: # Replace with a single Ko-fi username\n+tidelift: # Replace with a single Tidelift platform-name/package-name e.g., npm/babel\n+community_bridge: # Replace with a single Community Bridge project-name e.g., cloud-foundry\n+liberapay: # Replace with a single Liberapay username\n+issuehunt: # Replace with a single IssueHunt username\n+lfx_crowdfunding: # Replace with a single LFX Crowdfunding project-name e.g., cloud-foundry\n+polar: # Replace with a single Polar username\n+buy_me_a_coffee: # Replace with a single Buy Me a Coffee username\n+thanks_dev: # Replace with a single thanks.dev username\n+custom: # Replace with up to 4 custom sponsorship URLs e.g., ['link1', 'link2']"
+      }
+    ]
+  },
+  {
+    "sha": "99ef31d711d4afb30973d050360a24c5c763d43b",
+    "node_id": "C_kwDORJTOeNoAKDk5ZWYzMWQ3MTFkNGFmYjMwOTczZDA1MDM2MGEyNGM1Yzc2M2Q0M2I",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-05-06T05:40:33Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-05-06T05:40:33Z"
+      },
+      "message": "feat: Remove reload and its keybind (#101)",
+      "tree": {
+        "sha": "6a15686b329daa58127d9fc329e71f2e11aaa121",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/git/trees/6a15686b329daa58127d9fc329e71f2e11aaa121"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/re-color/git/commits/99ef31d711d4afb30973d050360a24c5c763d43b",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp+tRRCRC1aQ7uu5UhlAAAu6YQAHfwHjbbRA4Vfw1deO49YU0r\nhES7ayxVQzEi5AEbpVs1qLj6Ek3PmU0We56vM+91QWlJnzMG/Kk+mRdRbe6jyQX2\nNxUO4xRtWAkY9wNmFLxtyNG1edjpBZo6Glz0WpjAzCnrTclVneF0Xrt4cL++NmjH\nElr4w7J7mYGnLKNxJ1IYqgI4e1ihNl0WaSVuDLZyjGut+I5Ovnxnhj1PKU/pbL29\ndLTcF5TjTCKoYlo4u2eweF3gcUMhCUHWbDJNufEopfkmlvvML96WQfIy7OIAGv1W\nxDzeWX9t5pSCsZTurld2tgnHaa+OEoXXAUNxqUwKWASjh15IgGheljuxb4a7gSWA\n9sRaEpzQC2j3ThmbCUo4LRc62/u4Ea56hypyDP+T6s9DRUaSV2X9gJ+eVXkNgdr8\nnUDrCO+m/Csb16UmfAmTzFpY9facsyNqtzBB+B4aUe/jsclTebZWGWKHrGShJtNx\npRcMW+3yDjp6TRQ/LO/NR79Ipad8XZ/j+Zg9Ed/Wa2NM8Gw7cszZHwHLjRoCxKZc\n68/LxnJaQBURcdai3+oA429GyiDQl1pTbk02G1sUEQSuas1je4PQsNsgOnos2n9e\npNJZ1i1rAervfKDd1zWDB5A0MxwKIAOsTKasi3y+gsEeoQFzK6Kg+/+6Af+7FJYV\n1XClt3tLGfxUsLi9mCMc\n=5WBG\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 6a15686b329daa58127d9fc329e71f2e11aaa121\nparent 6b7e8a032c163da3c5a5c022c10fca9dc0af3d6b\nauthor Mark Jerwin <git@jrwnnnn.me> 1778046033 +0800\ncommitter GitHub <noreply@github.com> 1778046033 +0800\n\nfeat: Remove reload and its keybind (#101)",
+        "verified_at": "2026-05-06T05:40:33Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/99ef31d711d4afb30973d050360a24c5c763d43b",
+    "html_url": "https://github.com/jrwnnnn/re-color/commit/99ef31d711d4afb30973d050360a24c5c763d43b",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/re-color/commits/99ef31d711d4afb30973d050360a24c5c763d43b/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6b7e8a032c163da3c5a5c022c10fca9dc0af3d6b",
+        "url": "https://api.github.com/repos/jrwnnnn/re-color/commits/6b7e8a032c163da3c5a5c022c10fca9dc0af3d6b",
+        "html_url": "https://github.com/jrwnnnn/re-color/commit/6b7e8a032c163da3c5a5c022c10fca9dc0af3d6b"
+      }
+    ],
+    "stats": {
+      "total": 1,
+      "additions": 0,
+      "deletions": 1
+    },
+    "files": [
+      {
+        "sha": "80a59e08f85aaabd4683ac4f2843d5fb7b6e0347",
+        "filename": "electron/main.js",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 1,
+        "changes": 1,
+        "blob_url": "https://github.com/jrwnnnn/re-color/blob/99ef31d711d4afb30973d050360a24c5c763d43b/electron%2Fmain.js",
+        "raw_url": "https://github.com/jrwnnnn/re-color/raw/99ef31d711d4afb30973d050360a24c5c763d43b/electron%2Fmain.js",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/re-color/contents/electron%2Fmain.js?ref=99ef31d711d4afb30973d050360a24c5c763d43b",
+        "patch": "@@ -73,7 +73,6 @@ function createWindow() {\n \t\t{\n \t\t\tlabel: \"View\",\n \t\t\tsubmenu: [\n-\t\t\t\t{ role: \"reload\" },\n \t\t\t\t...(!app.isPackaged ? [{ role: \"toggleDevTools\" }] : []),\n \t\t\t\t{ type: \"separator\" },\n \t\t\t\t{ role: \"resetZoom\" },"
+      }
+    ]
+  }
+]
