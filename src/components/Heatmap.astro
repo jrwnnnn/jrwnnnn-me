@@ -1,7 +1,4 @@
 ---
-import { safeAsync } from "@utils/safeAsync";
-import ErrorOut from "./ErrorOut.astro";
-
 interface ContributionDay {
 	contributionCount: number;
 	date: string;
@@ -24,38 +21,38 @@ interface GraphQL {
 	};
 }
 
-const response = await safeAsync(
-	fetch("https://api.github.com/graphql", {
-		method: "POST",
-		headers: {
-			Authorization: `Bearer ${import.meta.env.GITHUB_TOKEN}`,
-			"User-Agent": "jrwnnnn-me-heatmap",
-			"Content-Type": "application/json",
-		},
-		body: JSON.stringify({
-			query: `
-	  query($userName:String!) {
-		user(login: $userName) {
-		  contributionsCollection {
-			contributionCalendar {
-			  totalContributions
-			  weeks {
-				contributionDays {
-				  contributionCount
-				  date
+const response = await fetch("https://api.github.com/graphql", {
+	method: "POST",
+	headers: {
+		Authorization: `Bearer ${import.meta.env.GITHUB_TOKEN}`,
+		"User-Agent": "jrwnnnn-me-heatmap",
+		"Content-Type": "application/json",
+	},
+	body: JSON.stringify({
+		query: `
+		  query($userName:String!) {
+			user(login: $userName) {
+			  contributionsCollection {
+				contributionCalendar {
+				  totalContributions
+				  weeks {
+					contributionDays {
+					  contributionCount
+					  date
+					}
+				  }
 				}
 			  }
 			}
 		  }
-		}
-	  }
-	`,
-			variables: { userName: "jrwnnnn" },
-		}),
+		`,
+		variables: { userName: "jrwnnnn" },
 	}),
-);
-const graphql = (await response.data!.json()) as GraphQL;
+});
 
+if (!response.ok) return;
+
+const graphql = (await response.json()) as GraphQL;
 const contributions =
 	graphql.data.user.contributionsCollection.contributionCalendar.weeks.flatMap(
 		(w: Week) => w.contributionDays,
@@ -75,7 +72,7 @@ function getColor(count: number) {
 ---
 
 {
-	response.data ? (
+	(
 		<div id="heatmap" class="w-full cursor-pointer overflow-x-auto pb-2">
 			<div class="flex gap-1">
 				{graphql.data.user.contributionsCollection?.contributionCalendar.weeks.map(
@@ -92,8 +89,8 @@ function getColor(count: number) {
 				)}
 			</div>
 		</div>
-	) : (
-		<ErrorOut error={response.error as Error} />
+
+		// TODO: Add error a proper error handling in case the API request fails
 	)
 }
 
