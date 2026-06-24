@@ -10,10 +10,10 @@
 		"test": "npx eslint . && npx asto check && npm run build"
 	},
 	"dependencies": {
-		"@astrojs/cloudflare": "^13.6.0",
-		"@astrojs/react": "^5.0.7",
+		"@astrojs/cloudflare": "^14.0.0",
+		"@astrojs/react": "^6.0.0",
 		"@tailwindcss/vite": "^4.3.0",
-		"astro": "^6.3.5",
+		"astro": "^7.0.2",
 		"bcrypt": "^6.0.0",
 		"marked": "^18.0.4",
 		"piexifjs": "^1.0.6",
