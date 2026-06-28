@@ -1,7 +1,4 @@
 ---
-import { safeAsync } from "@utils/safeAsync";
-import ErrorOut from "./ErrorOut.astro";
-
 interface Commit {
 	sha: string;
 	url: string;
@@ -18,17 +15,16 @@ interface Commit {
 	};
 }
 
-const result = await safeAsync(
-	fetch(
-		"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/commits.json",
-	).then((res) => res.json() as Promise<Commit[]>),
-);
+const result = await fetch(
+	"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/commits.json",
+).then((res) => res.json() as Promise<Commit[]>);
+
 ---
 
 {
-	result.data ? (
+	(
 		<div class="space-y-4 font-mono text-sm">
-			{result.data.map((commit: Commit) => (
+			{result.map((commit: Commit) => (
 				<a
 					href={commit.html_url}
 					target="_blank"
@@ -59,7 +55,5 @@ const result = await safeAsync(
 				</a>
 			))}
 		</div>
-	) : (
-		<ErrorOut error={result.error as Error} />
 	)
 }
