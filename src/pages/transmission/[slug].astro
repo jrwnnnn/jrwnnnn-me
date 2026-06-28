@@ -4,7 +4,6 @@ import "../../styles/marked.css";
 import { env } from "cloudflare:workers";
 import { marked } from "marked";
 import Layout from "../../layouts/Layout.astro";
-import Loading from "../../components/Loading.astro";
 
 const cfJwt = Astro.cookies.get("CF_Authorization")?.value;
 const article = await env.DB.prepare(
@@ -22,7 +21,6 @@ if (article.results.length === 0) {
 	title={article.results[0].title as string}
 	description={article.results[0].subtitle as string}
 >
-	<Loading id="loading-overlay" class="hidden" />
 	<main class="flex flex-col items-center justify-center px-3!">
 		<div class="shadow-primary/50 w-full font-mono shadow-lg lg:w-[60vw]">
 			<statusbar
@@ -114,16 +112,12 @@ if (article.results.length === 0) {
 
 <script>
 	const deleteBtn = document.getElementById("deleteBtn") as HTMLAnchorElement;
-	const loadingOverlay = document.getElementById(
-		"loading-overlay",
-	) as HTMLDivElement;
 
 	deleteBtn.addEventListener("click", async () => {
 		const slug = deleteBtn.dataset.slug;
 		if (!slug || !confirm("Are you sure you want to delete this transmission?"))
 			return;
 
-		loadingOverlay.classList.remove("hidden");
 
 		const formData = new FormData();
 		formData.append("slug", slug);
@@ -136,7 +130,6 @@ if (article.results.length === 0) {
 		if (res.ok) {
 			window.location.href = "/transmission";
 		} else {
-			loadingOverlay.classList.add("hidden");
 			alert("Failed to delete transmission.");
 		}
 	});
