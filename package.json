@@ -7,7 +7,7 @@
 		"build": "astro build",
 		"preview": "astro build && astro preview",
 		"generate-types": "wrangler types",
-		"test": "npx eslint . && npx asto check && npm run build"
+		"test": "npx eslint . && npx astro check && npm run build"
 	},
 	"dependencies": {
 		"@astrojs/cloudflare": "^13.6.0",
