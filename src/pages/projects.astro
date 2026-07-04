@@ -19,34 +19,29 @@ interface Participation {
 
 let repositories: Repositories[] = [];
 let participation: Record<string, Participation> = {};
-let errorPayload: Error | null = null;
 
-try {
-	const [repoResponse, partResponse] = await Promise.all([
-		fetch(
-			"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/repositories.json",
-		),
-		fetch(
-			"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/participation.json",
-		),
-	]);
+const [repoResponse, partResponse] = await Promise.all([
+	fetch(
+		"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/repositories.json",
+	),
+	fetch(
+		"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/participation.json",
+	),
+]);
 
-	if (!repoResponse.ok || !partResponse.ok) {
-		throw new Error(
-			`Fetch failed: Repositories ${repoResponse.status == 200 ? "OK" : repoResponse.status}, Participation data ${partResponse.status == 200 ? "OK" : partResponse.status}`,
-		);
-	}
-
-	const [repoData, participationData] = await Promise.all([
-		repoResponse.json() as Promise<Repositories[]>,
-		partResponse.json() as Promise<Record<string, Participation>>,
-	]);
-
-	repositories = repoData;
-	participation = participationData;
-} catch (e) {
-	errorPayload = e instanceof Error ? e : new Error("Unknown fetch error");
+if (!repoResponse.ok || !partResponse.ok) {
+	throw new Error(
+		`Fetch failed: Repositories ${repoResponse.status == 200 ? "OK" : repoResponse.status}, Participation data ${partResponse.status == 200 ? "OK" : partResponse.status}`,
+	);
 }
+
+const [repoData, participationData] = await Promise.all([
+	repoResponse.json() as Promise<Repositories[]>,
+	partResponse.json() as Promise<Record<string, Participation>>,
+]);
+
+repositories = repoData;
+participation = participationData;
 
 let total = 0;
 for (const repo of repositories) {
