@@ -14,38 +14,43 @@ interface Repositories {
 }
 
 interface Participation {
-	all: number[];
+	[repoName: string]: {
+		all: number[];
+	};
 }
 
 let repositories: Repositories[] = [];
-let participation: Record<string, Participation> = {};
+let participation: Participation;
+let errors: Error[] = [];
 
-const [repoResponse, partResponse] = await Promise.all([
-	fetch(
+try {
+	const res = await fetch(
 		"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/repositories.json",
-	),
-	fetch(
-		"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/participation.json",
-	),
-]);
-
-if (!repoResponse.ok || !partResponse.ok) {
-	throw new Error(
-		`Fetch failed: Repositories ${repoResponse.status == 200 ? "OK" : repoResponse.status}, Participation data ${partResponse.status == 200 ? "OK" : partResponse.status}`,
 	);
+
+	if (!res.ok) throw new Error("Failed to fetch repositories");
+
+	repositories = await res.json();
+} catch (e) {
+	errors.push(e as Error);
 }
 
-const [repoData, participationData] = await Promise.all([
-	repoResponse.json() as Promise<Repositories[]>,
-	partResponse.json() as Promise<Record<string, Participation>>,
-]);
+try {
+	const res = await fetch(
+		"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/participation.json",
+	);
 
-repositories = repoData;
-participation = participationData;
+	if (!res.ok) throw new Error("Failed to fetch participation data");
 
-let total = 0;
+	participation = await res.json();
+} catch (e) {
+	errors.push(e as Error);
+}
+
+// Calculate total size of all repositories
+let totalSize = 0;
 for (const repo of repositories) {
-	total += repo.size ?? 0;
+	totalSize += repo.size ?? 0;
 }
 ---
 
@@ -57,96 +62,105 @@ for (const repo of repositories) {
 					{repositories.length} RECORDS
 				</span>
 				<span class="text-primary/50">/</span>
-				<span>VOL: {total} KB</span>
+				<span>VOL: {totalSize} KB</span>
 			</div>
 		</Header>
 		<hr class="bg-primary" />
 		<div class="flex flex-wrap gap-3">
 			{
-				repositories.map((repo) => {
-					const width =
-						(80 + Math.floor(Math.min(repo.size ?? 0, 100000) / 2500)) / 4;
-					const statusClass = repo.archived
-						? "border-primary opacity-50 hover:opacity-100 hover:bg-primary/10"
-						: "border-primary  hover:bg-primary/10";
+				errors.length === 0
+					? repositories.map((repo) => {
+							const width =
+								(80 + Math.floor(Math.min(repo.size ?? 0, 100000) / 2500)) / 4;
+							const statusClass = repo.archived
+								? "border-primary opacity-50 hover:opacity-100 hover:bg-primary/10"
+								: "border-primary  hover:bg-primary/10";
 
-					const stats = participation[repo.name]?.all ?? new Array(52).fill(0);
-					const max = Math.max(...stats) || 1;
-					const points = stats
-						.map((v: number, i: number) => `${i * 2},${25 - (v / max) * 25}`)
-						.join(" ");
+							const stats =
+								participation[repo.name].all ?? new Array(52).fill(0);
+							const max = Math.max(...stats) || 1;
+							const points = stats
+								.map(
+									(v: number, i: number) => `${i * 2},${25 - (v / max) * 25}`,
+								)
+								.join(" ");
 
-					return (
-						<a
-							href={repo.html_url}
-							target="_blank"
-							style={{ "--w": `${width}rem` }}
-							class={`${statusClass} shadow-primary/50 flex w-full flex-col justify-between space-y-2 border p-4 hover:shadow-lg md:w-(--w)`}
-						>
-							<div class="flex justify-between font-mono text-[.7rem] opacity-60">
-								{/* prettier-ignore */}
-								<div>
+							return (
+								<a
+									href={repo.html_url}
+									target="_blank"
+									style={{ "--w": `${width}rem` }}
+									class={`${statusClass} shadow-primary/50 flex w-full flex-col justify-between space-y-2 border p-4 hover:shadow-lg md:w-(--w)`}
+								>
+									<div class="flex justify-between font-mono text-[.7rem] opacity-60">
+										{/* prettier-ignore */}
+										<div>
 										0x{createHash("md5").update(repo.name).digest("hex").substring(0, 6)}
 									</div>
-								<div>{repo.size} KB</div>
-							</div>
-							<div class="flex items-center">
-								<p class="truncate font-mono text-lg font-bold uppercase">
-									{repo.name}
-								</p>
-								<svg
-									class="ml-1 inline-block h-3.5 w-3.5"
-									fill="none"
-									stroke="currentColor"
-									viewBox="0 0 24 24"
-									xmlns="http://www.w3.org/2000/svg"
-								>
-									<path
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="3"
-										d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-									/>
-								</svg>
-							</div>
-							<p class="line-clamp-2 font-mono text-sm opacity-70">
-								{repo.description ?? "No description available."}
-							</p>
-
-							{/* Activity Graph */}
-							<svg
-								viewBox="0 0 102 25"
-								class="h-8 w-full opacity-60"
-								preserveAspectRatio="none"
-							>
-								<polyline
-									points={points}
-									fill="none"
-									stroke="currentColor"
-									stroke-width="2"
-									vector-effect="non-scaling-stroke"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-								/>
-							</svg>
-
-							<div class="mt-2 flex items-end justify-between">
-								<div class="flex items-center gap-2 font-mono text-xs uppercase opacity-80">
-									<div class="border px-2 py-0.5">{repo.language ?? "RAW"}</div>
-									<div
-										class="border px-2 py-0.5"
-										title={`${repo.stargazers_count} Stargazers`}
-									>
-										★ {repo.stargazers_count}
+										<div>{repo.size} KB</div>
 									</div>
-								</div>
-								<div
-									class={`h-2 w-2 rounded-full ${repo.archived ? "bg-red-900" : "bg-primary animate-pulse"}`}
-								/>
-							</div>
-						</a>
-					);
-				})
+									<div class="flex items-center">
+										<p class="truncate font-mono text-lg font-bold uppercase">
+											{repo.name}
+										</p>
+										<svg
+											class="ml-1 inline-block h-3.5 w-3.5"
+											fill="none"
+											stroke="currentColor"
+											viewBox="0 0 24 24"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="3"
+												d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+											/>
+										</svg>
+									</div>
+									<p class="line-clamp-2 font-mono text-sm opacity-70">
+										{repo.description ?? "No description available."}
+									</p>
+
+									{/* Activity Graph */}
+									<svg
+										viewBox="0 0 102 25"
+										class="h-8 w-full opacity-60"
+										preserveAspectRatio="none"
+									>
+										<polyline
+											points={points}
+											fill="none"
+											stroke="currentColor"
+											stroke-width="2"
+											vector-effect="non-scaling-stroke"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+									</svg>
+
+									<div class="mt-2 flex items-end justify-between">
+										<div class="flex items-center gap-2 font-mono text-xs uppercase opacity-80">
+											<div class="border px-2 py-0.5">
+												{repo.language ?? "RAW"}
+											</div>
+											<div
+												class="border px-2 py-0.5"
+												title={`${repo.stargazers_count} Stargazers`}
+											>
+												★ {repo.stargazers_count}
+											</div>
+										</div>
+										<div
+											class={`h-2 w-2 rounded-full ${repo.archived ? "bg-red-900" : "bg-primary animate-pulse"}`}
+										/>
+									</div>
+								</a>
+							);
+						})
+					: errors.map((err) => (
+							<p class="font-mono text-sm text-red-500">{err.stack}</p>
+						))
 			}
 		</div>
 	</main>
