@@ -3,18 +3,30 @@ import { env } from "cloudflare:workers";
 import Header from "@/layouts/Header.astro";
 import Layout from "@/layouts/Layout.astro";
 
-const images = await env.DB.prepare(
-	"SELECT * FROM gallery ORDER BY id DESC",
-).all();
+interface Images {
+	success: boolean;
+	results: { id: number; fileName: string; link: string }[];
+}
+
+let images: Images = { success: false, results: [] };
+let error: Error | null = null;
+
+try {
+	images = await env.DB.prepare("SELECT * FROM gallery ORDER BY id DESC").all();
+
+	if (!images.success)
+		throw new Error("Failed to fetch images from the database");
+} catch (e) {
+	error = e as Error;
+}
 
 const cfJwt = Astro.cookies.get("CF_Authorization")?.value;
 ---
 
 <Layout title="Mark Jerwin // GALLERY">
-
 	<main class="flex flex-col space-y-8">
 		<Header heading="GALLERY">
-			<p class="font-mono text-sm text-primary/80">
+			<p class="text-primary/80 font-mono text-sm">
 				Found {images.results.length} images in the database. Captured using a Samsung
 				A15 5G, Samsung A02s, or Samsung PL20.
 			</p>
@@ -27,7 +39,7 @@ const cfJwt = Astro.cookies.get("CF_Authorization")?.value;
 				<>
 					<div
 						id="dropzone"
-						class="flex min-h-[16rem] cursor-pointer flex-col items-center justify-center border border-dashed hover:bg-primary/10"
+						class="hover:bg-primary/10 flex min-h-[16rem] cursor-pointer flex-col items-center justify-center border border-dashed"
 					>
 						<p class="mb-3 font-mono text-4xl">+</p>
 						<p class="font-mono text-xs tracking-widest uppercase">
@@ -42,31 +54,33 @@ const cfJwt = Astro.cookies.get("CF_Authorization")?.value;
 				</>
 			)
 		}
-
-		<div class="columns-1 gap-6 space-y-6 lg:columns-3">
-			{
-				images.results.map((image) => (
-					<div class="relative break-inside-avoid">
-						<img
-							src={image.link as string}
-							alt={`${image.fileName}`}
-							class="gallery-image w-full cursor-pointer hover:outline hover:outline-primary"
-							loading="eager"
-							
-						/>
-						{(import.meta.env.DEV || cfJwt) && (
-							<button
-								class="delete-btn absolute top-2 right-2 cursor-pointer border border-red-500 bg-black/80 px-2 py-1 font-mono text-xs tracking-widest text-red-500"
-								data-id={image.id}
-								data-filename={image.fileName}
-							>
-								✕ DELETE
-							</button>
-						)}
-					</div>
-				))
-			}
-		</div>
+		{
+			!error ? (
+				<div class="columns-1 gap-6 space-y-6 lg:columns-3">
+					{images.results.map((image) => (
+						<div class="relative break-inside-avoid">
+							<img
+								src={image.link as string}
+								alt={`${image.fileName}`}
+								class="gallery-image hover:outline-primary w-full cursor-pointer hover:outline"
+								loading="eager"
+							/>
+							{(import.meta.env.DEV || cfJwt) && (
+								<button
+									class="delete-btn absolute top-2 right-2 cursor-pointer border border-red-500 bg-black/80 px-2 py-1 font-mono text-xs tracking-widest text-red-500"
+									data-id={image.id}
+									data-filename={image.fileName}
+								>
+									✕ DELETE
+								</button>
+							)}
+						</div>
+					))}
+				</div>
+			) : (
+				<p class="font-mono text-sm text-red-500">{error.stack}</p>
+			)
+		}
 	</main>
 </Layout>
 
