@@ -1,12 +1,12 @@
 ---
 import { env } from "cloudflare:workers";
-import Ascii from "../components/AsciiContainer.astro";
-import CommitLog from "../components/homepage/CommitLog.astro";
-import Container from "../components/Container.astro";
-import Heatmap from "../components/homepage/Heatmap.astro";
-import LastFM from "../components/homepage/Scrobble.jsx";
-import Layout from "../layouts/Layout.astro";
-import socials from "../data/socials.json";
+import Ascii from "@/components/AsciiContainer.astro";
+import CommitLog from "@/components/homepage/CommitLog.astro";
+import Container from "@/components/Container.astro";
+import Heatmap from "@/components/homepage/Heatmap.astro";
+import LastFM from "@/components/homepage/Scrobble.jsx";
+import Layout from "@/layouts/Layout.astro";
+import socials from "@/data/socials.json";
 
 const latestTransmission = await env.DB.prepare(
 	"SELECT title, subtitle, slug, date_created FROM articles ORDER BY date_created DESC LIMIT 1",

@@ -1,9 +1,9 @@
 ---
-import "../../lib/marked/embed.ts";
-import "../../styles/marked.css";
+import "@/lib/marked/embed.ts";
+import "@/styles/marked.css";
 import { env } from "cloudflare:workers";
 import { marked } from "marked";
-import Layout from "../../layouts/Layout.astro";
+import Layout from "@/layouts/Layout.astro";
 
 const cfJwt = Astro.cookies.get("CF_Authorization")?.value;
 const article = await env.DB.prepare(

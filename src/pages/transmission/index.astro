@@ -1,9 +1,9 @@
 ---
 import { env } from "cloudflare:workers";
-import Ascii from "../../components/AsciiContainer.astro";
-import Container from "../../components/Container.astro";
-import Header from "../../layouts/Header.astro";
-import Layout from "../../layouts/Layout.astro";
+import Ascii from "@/components/AsciiContainer.astro";
+import Container from "@/components/Container.astro";
+import Header from "@/layouts/Header.astro";
+import Layout from "@/layouts/Layout.astro";
 
 const transmissions = await env.DB.prepare(
 	"SELECT slug, title, subtitle, art, date_created, tags FROM articles ORDER BY date_created DESC",

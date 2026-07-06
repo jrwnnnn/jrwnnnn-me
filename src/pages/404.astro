@@ -1,7 +1,7 @@
 ---
 import { env } from "cloudflare:workers";
-import Layout from "../layouts/Layout.astro";
-import Ascii from "../components/AsciiContainer.astro";
+import Layout from "@/layouts/Layout.astro";
+import Ascii from "@/components/AsciiContainer.astro";
 
 const art = await env.SESSION.get(["404.art", "404.art.small"]);
 ---
