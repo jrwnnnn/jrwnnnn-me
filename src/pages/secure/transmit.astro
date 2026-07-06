@@ -1,8 +1,8 @@
 ---
-import "../../styles/marked.css";
+import "@/styles/marked.css";
 import { createHash } from "node:crypto";
 import { env } from "cloudflare:workers";
-import Layout from "../../layouts/Layout.astro";
+import Layout from "@/layouts/Layout.astro";
 
 const action = Astro.url.searchParams.get("action") ?? "create";
 let transmissionContent;
