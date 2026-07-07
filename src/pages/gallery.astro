@@ -12,7 +12,7 @@ let images: Images = { success: false, results: [] };
 let error: Error | null = null;
 
 try {
-	images = await env.DB.prepare("SELECT * FROM gallery ORDER BY id DESC").all();
+	images = await env.DB.prepare("SELECT * FROM galler ORDER BY id DESC").all();
 
 	if (!images.success)
 		throw new Error("Failed to fetch images from the database");
