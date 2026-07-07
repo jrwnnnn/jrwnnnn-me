@@ -1,5 +1,117 @@
 [
   {
+    "sha": "38bf4e0a81415361f62d781dff45967f8e45cac5",
+    "node_id": "C_kwDORCOQn9oAKDM4YmY0ZTBhODE0MTUzNjFmNjJkNzgxZGZmNDU5NjdmOGU0NWNhYzU",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "ping@jrwnnnn.me",
+        "date": "2026-07-07T11:48:40Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-07-07T11:48:40Z"
+      },
+      "message": "build: Upgrade Astro and adapters (#117)\n\nBump Astro to 7.0.6 and update the Cloudflare and React adapters to matching major versions.",
+      "tree": {
+        "sha": "b936b958d26608776d92df13bdc49f3cc0b271c6",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/b936b958d26608776d92df13bdc49f3cc0b271c6"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/38bf4e0a81415361f62d781dff45967f8e45cac5",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqTOeYCRC1aQ7uu5UhlAAAIQcQACyH1mZ3NCi5q4Ek6M1KggXn\nWmUJM8PNTrNNjaJnTv1sZe8sK7V2QY0qKbxgKBZLttgG6DM1otzvayW/7b113Iz3\nn6hWvWOFtBQ9ACasp9EgoUTnkgvAQqTY5MG3zhdBn5b8Qt0OtBCd57RkRc12goRy\nL6E4vXFqqUMo2E34/FgPRdZO4OqVQvJFJFJqVcja+4Ak5q7Zm7QQ3oz+mgZKAEIH\njFrX6pbt2sOpKCMEK8IlvhwzXATYCEjmUryCaJ2xAYsORx1ud/8z1J+k47zp3tax\ncNRfxWcZt7J/KNrdOXj63//DiN9TjTJsw6+y+FNeLEhKw+g3wtPx9nqOA3UXvpp0\nnh7vTKKvbRIR74LvYT/rfwixGo/FhPL9SfQoBu5CFNqcrqATjw8C+nkkv+Atlg0x\nWXpMDjr8XRfKIKy/gkLtORspjmRhfi3AuqpdLwS8PLes6SPDVUpchIFZ3qJVPPIU\nyITpsUdOdQs7975J+U7b/xqkd1gv+4CXAx1aH2H6ojcak25sBA2YY/gTpMoVA5Z8\nAfrnUZ14iDLndHHRpU8+cp85SHgPJJlE4FDZFOUYPQEwUoYlD3D4Cfp43JcgQhMg\npgGiWguA5eAzZz6I+dpTGLUD53i71IRTMeZn+duh80Ol+brdnI9u3UhEkCaLgsOV\nX7lkx7AUFM1xAkfVDvE4\n=hfIg\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree b936b958d26608776d92df13bdc49f3cc0b271c6\nparent 145a18a5bcb94d28b48921e1cc54ea5302d8ebc7\nauthor Mark Jerwin <ping@jrwnnnn.me> 1783424920 +0800\ncommitter GitHub <noreply@github.com> 1783424920 +0800\n\nbuild: Upgrade Astro and adapters (#117)\n\nBump Astro to 7.0.6 and update the Cloudflare and React adapters to matching major versions.",
+        "verified_at": "2026-07-07T11:48:41Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/38bf4e0a81415361f62d781dff45967f8e45cac5",
+    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/38bf4e0a81415361f62d781dff45967f8e45cac5",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/38bf4e0a81415361f62d781dff45967f8e45cac5/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "145a18a5bcb94d28b48921e1cc54ea5302d8ebc7",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/145a18a5bcb94d28b48921e1cc54ea5302d8ebc7",
+        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/145a18a5bcb94d28b48921e1cc54ea5302d8ebc7"
+      }
+    ],
+    "stats": {
+      "total": 6218,
+      "additions": 2475,
+      "deletions": 3743
+    },
+    "files": [
+      {
+        "sha": "b6bf50acb43cd7e3fcd3e568ce7e61cadcbb7b35",
+        "filename": "package-lock.json",
+        "status": "modified",
+        "additions": 2472,
+        "deletions": 3740,
+        "changes": 6212,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/38bf4e0a81415361f62d781dff45967f8e45cac5/package-lock.json",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/38bf4e0a81415361f62d781dff45967f8e45cac5/package-lock.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/package-lock.json?ref=38bf4e0a81415361f62d781dff45967f8e45cac5"
+      },
+      {
+        "sha": "e827484345f59d9802cd04b57aba980f5f26e00b",
+        "filename": "package.json",
+        "status": "modified",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/38bf4e0a81415361f62d781dff45967f8e45cac5/package.json",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/38bf4e0a81415361f62d781dff45967f8e45cac5/package.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/package.json?ref=38bf4e0a81415361f62d781dff45967f8e45cac5",
+        "patch": "@@ -10,10 +10,10 @@\n \t\t\"test\": \"npx eslint . && npx astro check && npm run build\"\n \t},\n \t\"dependencies\": {\n-\t\t\"@astrojs/cloudflare\": \"^13.6.0\",\n-\t\t\"@astrojs/react\": \"^5.0.7\",\n+\t\t\"@astrojs/cloudflare\": \"^14.1.1\",\n+\t\t\"@astrojs/react\": \"^6.0.1\",\n \t\t\"@tailwindcss/vite\": \"^4.3.2\",\n-\t\t\"astro\": \"^6.3.5\",\n+\t\t\"astro\": \"^7.0.6\",\n \t\t\"bcrypt\": \"^6.0.0\",\n \t\t\"marked\": \"^18.0.4\",\n \t\t\"piexifjs\": \"^1.0.6\","
+      }
+    ]
+  },
+  {
     "sha": "145a18a5bcb94d28b48921e1cc54ea5302d8ebc7",
     "node_id": "C_kwDORCOQn9oAKDE0NWExOGE1YmNiOTRkMjhiNDg5MjFlMWNjNTRlYTUzMDJkOGViYzc",
     "commit": {
@@ -544,107 +656,6 @@
         "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/a45e88b48aec8939fb9da9e68dd85c6712594a7a/tsconfig.json",
         "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/tsconfig.json?ref=a45e88b48aec8939fb9da9e68dd85c6712594a7a",
         "patch": "@@ -6,7 +6,7 @@\n \t\t\"jsx\": \"react-jsx\",\n \t\t\"jsxImportSource\": \"react\",\n \t\t\"paths\": {\n-\t\t\t\"@utils/*\": [\"./src/utils/*\"]\n+\t\t\t\"@/*\": [\"./src/*\"]\n \t\t}\n \t}\n }"
-      }
-    ]
-  },
-  {
-    "sha": "4ca3843440fd2a11f9fa1c502cb3c2a1ce7e611c",
-    "node_id": "C_kwDORCOQn9oAKDRjYTM4NDM0NDBmZDJhMTFmOWZhMWM1MDJjYjNjMmExY2U3ZTYxMWM",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "ping@jrwnnnn.me",
-        "date": "2026-07-05T09:11:57Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-07-05T09:11:57Z"
-      },
-      "message": "refactor: Fetching and error handling on projects page (#112)\n\n* refactor: Fetching and error handling\n\n* style: MD5 hash block",
-      "tree": {
-        "sha": "3532c7fdef62cce323b54abea187e51352d407fe",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/3532c7fdef62cce323b54abea187e51352d407fe"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/4ca3843440fd2a11f9fa1c502cb3c2a1ce7e611c",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqSh/dCRC1aQ7uu5UhlAAA/EIQAKJdo37VNMMevsG+FufNtjcJ\nnAEnV5dvjCfuuZlmTiY578Fhs1tFOf38lTpB9loZvEylAiN2CmRqV7VgffoE0AkR\nrs2BLR21zDUO3moTxx07W2Q7PdQb6WFk42WYSkw/w4XEBCgJcTU5FC+L2vosDFn1\nUtxA9ObRrX0IJwya4I3Y5+TswYl9VMUu+trvQ77hlnGZrtTdz9qAEWSV5DNyu0tK\nvnSsWcsdFXdoRrbTGHZW6kPJqZsvwtMc68JO07/nGzqW33PkCFsjCymRm5Zz0iZX\n+A4p+wmQoKq8AAf4ppVPG90L3humXrTLspLhA8zlBISycKsVOSsfS5BxhHPw+KPE\nF1lU4b2t3j3+16MCCW0JXxrkzlZ/IuStds6TOYK/eCQuz0YPIjoQTbW/lljzKzs9\nuwMuUOlJQ1/DvzeW47XWG+hb5sSP4htwkS+Ef5eizE5x5ieyUEURqbooIlrVOhGu\nBrQmc/HZQ3W3II/+UuTa//N/eJ6OpotQbcLq/G05lb5EJWplJi/sbm8qTp2wW0Z7\nZd/6RrxqdmOZDvJAWgpa5IA3XgObia2V/kUDCYsQfCv2SAoWXryRjNEn3XZ39OaF\ne7978+HwuQ3mnBmwxQACtYRrcHboYInEcJ7viT+3PqHvz+PupKO+cxcnt/tcyQLO\n0qgNjQPGq5MqzrSJ/beG\n=zolS\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 3532c7fdef62cce323b54abea187e51352d407fe\nparent 82a781849b50f4a6e70b1a4606a7b71d69bc97b1\nauthor Mark Jerwin <ping@jrwnnnn.me> 1783242717 +0800\ncommitter GitHub <noreply@github.com> 1783242717 +0800\n\nrefactor: Fetching and error handling on projects page (#112)\n\n* refactor: Fetching and error handling\n\n* style: MD5 hash block",
-        "verified_at": "2026-07-05T09:11:57Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/4ca3843440fd2a11f9fa1c502cb3c2a1ce7e611c",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/4ca3843440fd2a11f9fa1c502cb3c2a1ce7e611c",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/4ca3843440fd2a11f9fa1c502cb3c2a1ce7e611c/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "82a781849b50f4a6e70b1a4606a7b71d69bc97b1",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/82a781849b50f4a6e70b1a4606a7b71d69bc97b1",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/82a781849b50f4a6e70b1a4606a7b71d69bc97b1"
-      }
-    ],
-    "stats": {
-      "total": 221,
-      "additions": 118,
-      "deletions": 103
-    },
-    "files": [
-      {
-        "sha": "858591c7483bc64bb82bcf73bd061c30c1cdca36",
-        "filename": "src/pages/projects.astro",
-        "status": "modified",
-        "additions": 118,
-        "deletions": 103,
-        "changes": 221,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/4ca3843440fd2a11f9fa1c502cb3c2a1ce7e611c/src%2Fpages%2Fprojects.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/4ca3843440fd2a11f9fa1c502cb3c2a1ce7e611c/src%2Fpages%2Fprojects.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Fprojects.astro?ref=4ca3843440fd2a11f9fa1c502cb3c2a1ce7e611c",
-        "patch": "@@ -14,38 +14,43 @@ interface Repositories {\n }\n \n interface Participation {\n-\tall: number[];\n+\t[repoName: string]: {\n+\t\tall: number[];\n+\t};\n }\n \n let repositories: Repositories[] = [];\n-let participation: Record<string, Participation> = {};\n+let participation: Participation;\n+let errors: Error[] = [];\n \n-const [repoResponse, partResponse] = await Promise.all([\n-\tfetch(\n+try {\n+\tconst res = await fetch(\n \t\t\"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/repositories.json\",\n-\t),\n-\tfetch(\n-\t\t\"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/participation.json\",\n-\t),\n-]);\n-\n-if (!repoResponse.ok || !partResponse.ok) {\n-\tthrow new Error(\n-\t\t`Fetch failed: Repositories ${repoResponse.status == 200 ? \"OK\" : repoResponse.status}, Participation data ${partResponse.status == 200 ? \"OK\" : partResponse.status}`,\n \t);\n+\n+\tif (!res.ok) throw new Error(\"Failed to fetch repositories\");\n+\n+\trepositories = await res.json();\n+} catch (e) {\n+\terrors.push(e as Error);\n }\n \n-const [repoData, participationData] = await Promise.all([\n-\trepoResponse.json() as Promise<Repositories[]>,\n-\tpartResponse.json() as Promise<Record<string, Participation>>,\n-]);\n+try {\n+\tconst res = await fetch(\n+\t\t\"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/participation.json\",\n+\t);\n \n-repositories = repoData;\n-participation = participationData;\n+\tif (!res.ok) throw new Error(\"Failed to fetch participation data\");\n+\n+\tparticipation = await res.json();\n+} catch (e) {\n+\terrors.push(e as Error);\n+}\n \n-let total = 0;\n+// Calculate total size of all repositories\n+let totalSize = 0;\n for (const repo of repositories) {\n-\ttotal += repo.size ?? 0;\n+\ttotalSize += repo.size ?? 0;\n }\n ---\n \n@@ -57,96 +62,106 @@ for (const repo of repositories) {\n \t\t\t\t\t{repositories.length} RECORDS\n \t\t\t\t</span>\n \t\t\t\t<span class=\"text-primary/50\">/</span>\n-\t\t\t\t<span>VOL: {total} KB</span>\n+\t\t\t\t<span>VOL: {totalSize} KB</span>\n \t\t\t</div>\n \t\t</Header>\n \t\t<hr class=\"bg-primary\" />\n \t\t<div class=\"flex flex-wrap gap-3\">\n \t\t\t{\n-\t\t\t\trepositories.map((repo) => {\n-\t\t\t\t\tconst width =\n-\t\t\t\t\t\t(80 + Math.floor(Math.min(repo.size ?? 0, 100000) / 2500)) / 4;\n-\t\t\t\t\tconst statusClass = repo.archived\n-\t\t\t\t\t\t? \"border-primary opacity-50 hover:opacity-100 hover:bg-primary/10\"\n-\t\t\t\t\t\t: \"border-primary  hover:bg-primary/10\";\n-\n-\t\t\t\t\tconst stats = participation[repo.name]?.all ?? new Array(52).fill(0);\n-\t\t\t\t\tconst max = Math.max(...stats) || 1;\n-\t\t\t\t\tconst points = stats\n-\t\t\t\t\t\t.map((v: number, i: number) => `${i * 2},${25 - (v / max) * 25}`)\n-\t\t\t\t\t\t.join(\" \");\n-\n-\t\t\t\t\treturn (\n-\t\t\t\t\t\t<a\n-\t\t\t\t\t\t\thref={repo.html_url}\n-\t\t\t\t\t\t\ttarget=\"_blank\"\n-\t\t\t\t\t\t\tstyle={{ \"--w\": `${width}rem` }}\n-\t\t\t\t\t\t\tclass={`${statusClass} shadow-primary/50 flex w-full flex-col justify-between space-y-2 border p-4 hover:shadow-lg md:w-(--w)`}\n-\t\t\t\t\t\t>\n-\t\t\t\t\t\t\t<div class=\"flex justify-between font-mono text-[.7rem] opacity-60\">\n-\t\t\t\t\t\t\t\t{/* prettier-ignore */}\n-\t\t\t\t\t\t\t\t<div>\n-\t\t\t\t\t\t\t\t\t\t0x{createHash(\"md5\").update(repo.name).digest(\"hex\").substring(0, 6)}\n-\t\t\t\t\t\t\t\t\t</div>\n-\t\t\t\t\t\t\t\t<div>{repo.size} KB</div>\n-\t\t\t\t\t\t\t</div>\n-\t\t\t\t\t\t\t<div class=\"flex items-center\">\n-\t\t\t\t\t\t\t\t<p class=\"truncate font-mono text-lg font-bold uppercase\">\n-\t\t\t\t\t\t\t\t\t{repo.name}\n-\t\t\t\t\t\t\t\t</p>\n-\t\t\t\t\t\t\t\t<svg\n-\t\t\t\t\t\t\t\t\tclass=\"ml-1 inline-block h-3.5 w-3.5\"\n-\t\t\t\t\t\t\t\t\tfill=\"none\"\n-\t\t\t\t\t\t\t\t\tstroke=\"currentColor\"\n-\t\t\t\t\t\t\t\t\tviewBox=\"0 0 24 24\"\n-\t\t\t\t\t\t\t\t\txmlns=\"http://www.w3.org/2000/svg\"\n+\t\t\t\terrors.length === 0\n+\t\t\t\t\t? repositories.map((repo) => {\n+\t\t\t\t\t\t\tconst width =\n+\t\t\t\t\t\t\t\t(80 + Math.floor(Math.min(repo.size ?? 0, 100000) / 2500)) / 4;\n+\t\t\t\t\t\t\tconst statusClass = repo.archived\n+\t\t\t\t\t\t\t\t? \"border-primary opacity-50 hover:opacity-100 hover:bg-primary/10\"\n+\t\t\t\t\t\t\t\t: \"border-primary  hover:bg-primary/10\";\n+\n+\t\t\t\t\t\t\tconst stats =\n+\t\t\t\t\t\t\t\tparticipation[repo.name].all ?? new Array(52).fill(0);\n+\t\t\t\t\t\t\tconst max = Math.max(...stats) || 1;\n+\t\t\t\t\t\t\tconst points = stats\n+\t\t\t\t\t\t\t\t.map(\n+\t\t\t\t\t\t\t\t\t(v: number, i: number) => `${i * 2},${25 - (v / max) * 25}`,\n+\t\t\t\t\t\t\t\t)\n+\t\t\t\t\t\t\t\t.join(\" \");\n+\n+\t\t\t\t\t\t\treturn (\n+\t\t\t\t\t\t\t\t<a\n+\t\t\t\t\t\t\t\t\thref={repo.html_url}\n+\t\t\t\t\t\t\t\t\ttarget=\"_blank\"\n+\t\t\t\t\t\t\t\t\tstyle={{ \"--w\": `${width}rem` }}\n+\t\t\t\t\t\t\t\t\tclass={`${statusClass} shadow-primary/50 flex w-full flex-col justify-between space-y-2 border p-4 hover:shadow-lg md:w-(--w)`}\n \t\t\t\t\t\t\t\t>\n-\t\t\t\t\t\t\t\t\t<path\n-\t\t\t\t\t\t\t\t\t\tstroke-linecap=\"round\"\n-\t\t\t\t\t\t\t\t\t\tstroke-linejoin=\"round\"\n-\t\t\t\t\t\t\t\t\t\tstroke-width=\"3\"\n-\t\t\t\t\t\t\t\t\t\td=\"M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14\"\n-\t\t\t\t\t\t\t\t\t/>\n-\t\t\t\t\t\t\t\t</svg>\n-\t\t\t\t\t\t\t</div>\n-\t\t\t\t\t\t\t<p class=\"line-clamp-2 font-mono text-sm opacity-70\">\n-\t\t\t\t\t\t\t\t{repo.description ?? \"No description available.\"}\n-\t\t\t\t\t\t\t</p>\n-\n-\t\t\t\t\t\t\t{/* Activity Graph */}\n-\t\t\t\t\t\t\t<svg\n-\t\t\t\t\t\t\t\tviewBox=\"0 0 102 25\"\n-\t\t\t\t\t\t\t\tclass=\"h-8 w-full opacity-60\"\n-\t\t\t\t\t\t\t\tpreserveAspectRatio=\"none\"\n-\t\t\t\t\t\t\t>\n-\t\t\t\t\t\t\t\t<polyline\n-\t\t\t\t\t\t\t\t\tpoints={points}\n-\t\t\t\t\t\t\t\t\tfill=\"none\"\n-\t\t\t\t\t\t\t\t\tstroke=\"currentColor\"\n-\t\t\t\t\t\t\t\t\tstroke-width=\"2\"\n-\t\t\t\t\t\t\t\t\tvector-effect=\"non-scaling-stroke\"\n-\t\t\t\t\t\t\t\t\tstroke-linecap=\"round\"\n-\t\t\t\t\t\t\t\t\tstroke-linejoin=\"round\"\n-\t\t\t\t\t\t\t\t/>\n-\t\t\t\t\t\t\t</svg>\n-\n-\t\t\t\t\t\t\t<div class=\"mt-2 flex items-end justify-between\">\n-\t\t\t\t\t\t\t\t<div class=\"flex items-center gap-2 font-mono text-xs uppercase opacity-80\">\n-\t\t\t\t\t\t\t\t\t<div class=\"border px-2 py-0.5\">{repo.language ?? \"RAW\"}</div>\n-\t\t\t\t\t\t\t\t\t<div\n-\t\t\t\t\t\t\t\t\t\tclass=\"border px-2 py-0.5\"\n-\t\t\t\t\t\t\t\t\t\ttitle={`${repo.stargazers_count} Stargazers`}\n+\t\t\t\t\t\t\t\t\t<div class=\"flex justify-between font-mono text-[.7rem] opacity-60\">\n+\t\t\t\t\t\t\t\t\t\t{/* prettier-ignore */}\n+\t\t\t\t\t\t\t\t\t\t<div>\n+\t\t\t\t\t\t\t\t\t\t\t0x{createHash(\"md5\").update(repo.name).digest(\"hex\").substring(0, 6)}\n+\t\t\t\t\t\t\t\t\t\t</div>\n+\t\t\t\t\t\t\t\t\t\t<div>{repo.size} KB</div>\n+\t\t\t\t\t\t\t\t\t</div>\n+\n+\t\t\t\t\t\t\t\t\t<div class=\"flex items-center\">\n+\t\t\t\t\t\t\t\t\t\t<p class=\"truncate font-mono text-lg font-bold uppercase\">\n+\t\t\t\t\t\t\t\t\t\t\t{repo.name}\n+\t\t\t\t\t\t\t\t\t\t</p>\n+\t\t\t\t\t\t\t\t\t\t<svg\n+\t\t\t\t\t\t\t\t\t\t\tclass=\"ml-1 inline-block h-3.5 w-3.5\"\n+\t\t\t\t\t\t\t\t\t\t\tfill=\"none\"\n+\t\t\t\t\t\t\t\t\t\t\tstroke=\"currentColor\"\n+\t\t\t\t\t\t\t\t\t\t\tviewBox=\"0 0 24 24\"\n+\t\t\t\t\t\t\t\t\t\t\txmlns=\"http://www.w3.org/2000/svg\"\n+\t\t\t\t\t\t\t\t\t\t>\n+\t\t\t\t\t\t\t\t\t\t\t<path\n+\t\t\t\t\t\t\t\t\t\t\t\tstroke-linecap=\"round\"\n+\t\t\t\t\t\t\t\t\t\t\t\tstroke-linejoin=\"round\"\n+\t\t\t\t\t\t\t\t\t\t\t\tstroke-width=\"3\"\n+\t\t\t\t\t\t\t\t\t\t\t\td=\"M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14\"\n+\t\t\t\t\t\t\t\t\t\t\t/>\n+\t\t\t\t\t\t\t\t\t\t</svg>\n+\t\t\t\t\t\t\t\t\t</div>\n+\t\t\t\t\t\t\t\t\t<p class=\"line-clamp-2 font-mono text-sm opacity-70\">\n+\t\t\t\t\t\t\t\t\t\t{repo.description ?? \"No description available.\"}\n+\t\t\t\t\t\t\t\t\t</p>\n+\n+\t\t\t\t\t\t\t\t\t{/* Activity Graph */}\n+\t\t\t\t\t\t\t\t\t<svg\n+\t\t\t\t\t\t\t\t\t\tviewBox=\"0 0 102 25\"\n+\t\t\t\t\t\t\t\t\t\tclass=\"h-8 w-full opacity-60\"\n+\t\t\t\t\t\t\t\t\t\tpreserveAspectRatio=\"none\"\n \t\t\t\t\t\t\t\t\t>\n-\t\t\t\t\t\t\t\t\t\t★ {repo.stargazers_count}\n+\t\t\t\t\t\t\t\t\t\t<polyline\n+\t\t\t\t\t\t\t\t\t\t\tpoints={points}\n+\t\t\t\t\t\t\t\t\t\t\tfill=\"none\"\n+\t\t\t\t\t\t\t\t\t\t\tstroke=\"currentColor\"\n+\t\t\t\t\t\t\t\t\t\t\tstroke-width=\"2\"\n+\t\t\t\t\t\t\t\t\t\t\tvector-effect=\"non-scaling-stroke\"\n+\t\t\t\t\t\t\t\t\t\t\tstroke-linecap=\"round\"\n+\t\t\t\t\t\t\t\t\t\t\tstroke-linejoin=\"round\"\n+\t\t\t\t\t\t\t\t\t\t/>\n+\t\t\t\t\t\t\t\t\t</svg>\n+\n+\t\t\t\t\t\t\t\t\t<div class=\"mt-2 flex items-end justify-between\">\n+\t\t\t\t\t\t\t\t\t\t<div class=\"flex items-center gap-2 font-mono text-xs uppercase opacity-80\">\n+\t\t\t\t\t\t\t\t\t\t\t<div class=\"border px-2 py-0.5\">\n+\t\t\t\t\t\t\t\t\t\t\t\t{repo.language ?? \"RAW\"}\n+\t\t\t\t\t\t\t\t\t\t\t</div>\n+\t\t\t\t\t\t\t\t\t\t\t<div\n+\t\t\t\t\t\t\t\t\t\t\t\tclass=\"border px-2 py-0.5\"\n+\t\t\t\t\t\t\t\t\t\t\t\ttitle={`${repo.stargazers_count} Stargazers`}\n+\t\t\t\t\t\t\t\t\t\t\t>\n+\t\t\t\t\t\t\t\t\t\t\t\t★ {repo.stargazers_count}\n+\t\t\t\t\t\t\t\t\t\t\t</div>\n+\t\t\t\t\t\t\t\t\t\t</div>\n+\t\t\t\t\t\t\t\t\t\t<div\n+\t\t\t\t\t\t\t\t\t\t\tclass={`h-2 w-2 rounded-full ${repo.archived ? \"bg-red-900\" : \"bg-primary animate-pulse\"}`}\n+\t\t\t\t\t\t\t\t\t\t/>\n \t\t\t\t\t\t\t\t\t</div>\n-\t\t\t\t\t\t\t\t</div>\n-\t\t\t\t\t\t\t\t<div\n-\t\t\t\t\t\t\t\t\tclass={`h-2 w-2 rounded-full ${repo.archived ? \"bg-red-900\" : \"bg-primary animate-pulse\"}`}\n-\t\t\t\t\t\t\t\t/>\n-\t\t\t\t\t\t\t</div>\n-\t\t\t\t\t\t</a>\n-\t\t\t\t\t);\n-\t\t\t\t})\n+\t\t\t\t\t\t\t\t</a>\n+\t\t\t\t\t\t\t);\n+\t\t\t\t\t\t})\n+\t\t\t\t\t: errors.map((err) => (\n+\t\t\t\t\t\t\t<p class=\"font-mono text-sm text-red-500\">{err.stack}</p>\n+\t\t\t\t\t\t))\n \t\t\t}\n \t\t</div>\n \t</main>"
       }
     ]
   }
