@@ -1,9 +1,8 @@
 ---
-import { env } from "cloudflare:workers";
-import Layout from "@/layouts/Layout.astro";
 import Ascii from "@/components/AsciiContainer.astro";
-
-const art = await env.SESSION.get(["404.art", "404.art.small"]);
+import Layout from "@/layouts/Layout.astro";
+import largeAscii from "@/assets/ascii/404_large.txt?raw";
+import smallAscii from "@/assets/ascii/404_small.txt?raw";
 ---
 
 <Layout title="Mark Jerwin // 404" footer={false} robots="noindex, nofollow">
@@ -19,8 +18,8 @@ const art = await env.SESSION.get(["404.art", "404.art.small"]);
 			</div>
 		</div>
 		<div class="strech glitch">
-			<Ascii ascii={art.get("404.art") as string} class="hidden md:block" />
-			<Ascii ascii={art.get("404.art.small") as string} class="md:hidden" />
+			<Ascii ascii={largeAscii} class="hidden md:block" />
+			<Ascii ascii={smallAscii} class="md:hidden" />
 		</div>
 	</main>
 </Layout>
