@@ -1,5 +1,106 @@
 [
   {
+    "sha": "1c2297b29c87d76f320b9652acef81a8d0fb9c23",
+    "node_id": "C_kwDORCOQn9oAKDFjMjI5N2IyOWM4N2Q3NmYzMjBiOTY1MmFjZWY4MWE4ZDBmYjljMjM",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "ping@jrwnnnn.me",
+        "date": "2026-07-08T11:51:06Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-07-08T11:51:06Z"
+      },
+      "message": "feat: Add error handling to commit log component (#118)",
+      "tree": {
+        "sha": "4be3bdab155e4f76b963f8d9d23d322b95a1cf0a",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/4be3bdab155e4f76b963f8d9d23d322b95a1cf0a"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/1c2297b29c87d76f320b9652acef81a8d0fb9c23",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqTjmqCRC1aQ7uu5UhlAAA4w8QAD+e/iemiScerGKtdIX5QOS/\nossg1zI5aFOZQeqCw/9JQMOVPVVKCjm4MkfB3I+zKhii5FgZUOdt7FKrZmGes8hu\nVz1dDSCWmpzQ6P+7bkwx64KULmg8eTeAHwFNiGF67dYLIOOr7Y/9hYsXaQIUwstn\nJu1QJw2I0qE1Z2Ze6qoAlOXCZTns0qOiwRezDCiao+dPBznIpnjEKgDEuQIbMRj2\niwp0exMm9P4D0C+PuUMcJvy3HDrWOe6+7BU62FepVu5i1kU+I0rwRAhPBXj3hQTv\n76nC9s7amw9GGXjZbUHlZG6ZzfSmv3bJ5UtdSe0pa4GQYJs20L6gu9QRrkj/6m46\nDXulDnpBHrtgH53SyAUBnEDyGW0dgpJJNaDSR6f+mzSujams6OL3Ypd9hobpbeyG\nBWYWsu8H+Rkh3dcHeYqCv5mbF+ycznt5HnP96SM1uRW9diTZ17cmO0YArDGzsyby\nWQC3jezFsBDklO6rIeQjfL402wNapR8pxTBlkGiRaPjiBDThnyWUWNUDoLBenp+5\ndHyXAQwy2oe+fTiTHUSf1SrquvCq5lTc+vHvICnZA0euxw0IuDCvkGJkxWK0CCKi\nP2yvVDPG+ZTpAbXW4S0DIK9ax5+PD7L1PAAtDMQkkVkHXFaF3mAbOpCVnxTFoAca\nohZyDJg8MGOHkdmUEB9w\n=M8rf\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 4be3bdab155e4f76b963f8d9d23d322b95a1cf0a\nparent 38bf4e0a81415361f62d781dff45967f8e45cac5\nauthor Mark Jerwin <ping@jrwnnnn.me> 1783511466 +0800\ncommitter GitHub <noreply@github.com> 1783511466 +0800\n\nfeat: Add error handling to commit log component (#118)",
+        "verified_at": "2026-07-08T11:51:06Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/1c2297b29c87d76f320b9652acef81a8d0fb9c23",
+    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/1c2297b29c87d76f320b9652acef81a8d0fb9c23",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/1c2297b29c87d76f320b9652acef81a8d0fb9c23/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "38bf4e0a81415361f62d781dff45967f8e45cac5",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/38bf4e0a81415361f62d781dff45967f8e45cac5",
+        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/38bf4e0a81415361f62d781dff45967f8e45cac5"
+      }
+    ],
+    "stats": {
+      "total": 80,
+      "additions": 48,
+      "deletions": 32
+    },
+    "files": [
+      {
+        "sha": "ad921d0867e048128345e3a288bc0dc02b849e91",
+        "filename": "src/components/homepage/CommitLog.astro",
+        "status": "modified",
+        "additions": 48,
+        "deletions": 32,
+        "changes": 80,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/1c2297b29c87d76f320b9652acef81a8d0fb9c23/src%2Fcomponents%2Fhomepage%2FCommitLog.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/1c2297b29c87d76f320b9652acef81a8d0fb9c23/src%2Fcomponents%2Fhomepage%2FCommitLog.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2Fhomepage%2FCommitLog.astro?ref=1c2297b29c87d76f320b9652acef81a8d0fb9c23",
+        "patch": "@@ -15,45 +15,61 @@ interface Commit {\n \t};\n }\n \n-const result = await fetch(\n-\t\"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/commits.json\",\n-).then((res) => res.json() as Promise<Commit[]>);\n+let commits: Commit[] = [];\n+let error: Error | null = null;\n+try {\n+\tconst res = await fetch(\n+\t\t\"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/commits.json\",\n+\t);\n \n+\tif (!res.ok) throw new Error(\"Failed to fetch commits\");\n+\n+\tcommits = await res.json();\n+} catch (e) {\n+\terror = e as Error;\n+}\n ---\n \n {\n \t(\n \t\t<div class=\"space-y-4 font-mono text-sm\">\n-\t\t\t{result.map((commit: Commit) => (\n-\t\t\t\t<a\n-\t\t\t\t\thref={commit.html_url}\n-\t\t\t\t\ttarget=\"_blank\"\n-\t\t\t\t\tclass=\"group border-primary/50 hover:border-primary block space-y-1 border-l-3 pl-5 transition hover:brightness-120\"\n-\t\t\t\t>\n-\t\t\t\t\t<div class=\"flex items-start justify-between gap-5\">\n-\t\t\t\t\t\t<p class=\"mb-1 line-clamp-2\">\n-\t\t\t\t\t\t\t<strong>{commit.url.split(\"/\")[5]}</strong> /{\" \"}\n-\t\t\t\t\t\t\t{commit.commit.message}\n-\t\t\t\t\t\t</p>\n-\t\t\t\t\t</div>\n-\t\t\t\t\t<div class=\"text-primary/50 flex items-center gap-2 group-hover:brightness-120\">\n-\t\t\t\t\t\t<p class=\"text-xs\">\n-\t\t\t\t\t\t\t{new Date(commit.commit.author.date).toLocaleDateString(\"en-GB\", {\n-\t\t\t\t\t\t\t\tday: \"2-digit\",\n-\t\t\t\t\t\t\t\tmonth: \"2-digit\",\n-\t\t\t\t\t\t\t\tyear: \"numeric\",\n-\t\t\t\t\t\t\t})}\n-\t\t\t\t\t\t</p>\n-\t\t\t\t\t\t<p> | </p>\n-\t\t\t\t\t\t<div class=\"flex space-x-3 text-xs\">\n-\t\t\t\t\t\t\t<span>+{commit.stats.additions}</span>\n-\t\t\t\t\t\t\t<span>-{commit.stats.deletions}</span>\n+\t\t\t{!error ? (\n+\t\t\t\tcommits.map((commit: Commit) => (\n+\t\t\t\t\t<a\n+\t\t\t\t\t\thref={commit.html_url}\n+\t\t\t\t\t\ttarget=\"_blank\"\n+\t\t\t\t\t\tclass=\"group border-primary/50 hover:border-primary block space-y-1 border-l-3 pl-5 transition hover:brightness-120\"\n+\t\t\t\t\t>\n+\t\t\t\t\t\t<div class=\"flex items-start justify-between gap-5\">\n+\t\t\t\t\t\t\t<p class=\"mb-1 line-clamp-2\">\n+\t\t\t\t\t\t\t\t<strong>{commit.url.split(\"/\")[5]}</strong> /{\" \"}\n+\t\t\t\t\t\t\t\t{commit.commit.message}\n+\t\t\t\t\t\t\t</p>\n+\t\t\t\t\t\t</div>\n+\t\t\t\t\t\t<div class=\"text-primary/50 flex items-center gap-2 group-hover:brightness-120\">\n+\t\t\t\t\t\t\t<p class=\"text-xs\">\n+\t\t\t\t\t\t\t\t{new Date(commit.commit.author.date).toLocaleDateString(\n+\t\t\t\t\t\t\t\t\t\"en-GB\",\n+\t\t\t\t\t\t\t\t\t{\n+\t\t\t\t\t\t\t\t\t\tday: \"2-digit\",\n+\t\t\t\t\t\t\t\t\t\tmonth: \"2-digit\",\n+\t\t\t\t\t\t\t\t\t\tyear: \"numeric\",\n+\t\t\t\t\t\t\t\t\t},\n+\t\t\t\t\t\t\t\t)}\n+\t\t\t\t\t\t\t</p>\n+\t\t\t\t\t\t\t<p> | </p>\n+\t\t\t\t\t\t\t<div class=\"flex space-x-3 text-xs\">\n+\t\t\t\t\t\t\t\t<span>+{commit.stats.additions}</span>\n+\t\t\t\t\t\t\t\t<span>-{commit.stats.deletions}</span>\n+\t\t\t\t\t\t\t</div>\n+\t\t\t\t\t\t\t<p> | </p>\n+\t\t\t\t\t\t\t<p class=\"text-xs\">{commit.sha.substring(0, 7)}</p>\n \t\t\t\t\t\t</div>\n-\t\t\t\t\t\t<p> | </p>\n-\t\t\t\t\t\t<p class=\"text-xs\">{commit.sha.substring(0, 7)}</p>\n-\t\t\t\t\t</div>\n-\t\t\t\t</a>\n-\t\t\t))}\n+\t\t\t\t\t</a>\n+\t\t\t\t))\n+\t\t\t) : (\n+\t\t\t\t<p class=\"font-mono text-sm text-red-500\">{error.stack}</p>\n+\t\t\t)}\n \t\t</div>\n \t)\n }"
+      }
+    ]
+  },
+  {
     "sha": "38bf4e0a81415361f62d781dff45967f8e45cac5",
     "node_id": "C_kwDORCOQn9oAKDM4YmY0ZTBhODE0MTUzNjFmNjJkNzgxZGZmNDU5NjdmOGU0NWNhYzU",
     "commit": {
@@ -435,227 +536,6 @@
         "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/ab6b3c0e511a8b54337a7c989e914effcf8a3432/eslint.config.mjs",
         "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/eslint.config.mjs?ref=ab6b3c0e511a8b54337a7c989e914effcf8a3432",
         "patch": "@@ -2,7 +2,15 @@ import eslintPluginAstro from \"eslint-plugin-astro\";\n import tseslint from \"typescript-eslint\";\n \n export default [\n-\t{ ignores: [\".astro/**\", \".wrangler/**\", \"dist/**\", \"node_modules/**\"] },\n+\t{\n+\t\tignores: [\n+\t\t\t\".astro/**\",\n+\t\t\t\".wrangler/**\",\n+\t\t\t\"dist/**\",\n+\t\t\t\"node_modules/**\",\n+\t\t\t\"worker-configuration.d.ts\",\n+\t\t],\n+\t},\n \t...tseslint.configs.recommended,\n \t...eslintPluginAstro.configs.recommended,\n ];"
-      }
-    ]
-  },
-  {
-    "sha": "a45e88b48aec8939fb9da9e68dd85c6712594a7a",
-    "node_id": "C_kwDORCOQn9oAKGE0NWU4OGI0OGFlYzg5MzlmYjlkYTllNjhkZDg1YzY3MTI1OTRhN2E",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "ping@jrwnnnn.me",
-        "date": "2026-07-06T08:35:46Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-07-06T08:35:46Z"
-      },
-      "message": "refactor: Update import paths to use @ alias (#113)",
-      "tree": {
-        "sha": "5ca86eed6310ce3d9bad2e30afb3ee8926608ed7",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/5ca86eed6310ce3d9bad2e30afb3ee8926608ed7"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/a45e88b48aec8939fb9da9e68dd85c6712594a7a",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqS2jiCRC1aQ7uu5UhlAAAHTQQAHAfKRvkbdaygFzg13Xn1eO7\nb6UMmfB/c1lj0Y/TL7RMKCcjHudVE0jfVf2monFReUVaxoBavg7x/QyklvGNvydL\nhPp5w4PL3HkbC9b8L3iN6gHVuzpi2np7xeuUEW39FYe6ZrxyiJWzmsgA+NBMccyG\nk5YH0yl+ij+omxIarPb21orwHqlcRVkgQPHJgGB3iqjqxoKkAAlhtEkLVi/iuxet\nrUiSwHKjtioE8o9RFV8nEEbAaJRHNBS1/xJ0hxSMqdDMG64SErEsz/8zVHfdd3IM\nyyFMg1owFz1zrflJjMgbQacn+1/Xv+IyoIhbbExAnD2vvz9BRGD51GpphNwGKP1F\n5qeTpy1eECNw7o92VyWX+t4sNDYkplV/pTg1zq/BTxVbTtdUaE+cYAKncqNuLURI\nG2ojHf/obXw71zilyAJIizJ31hrIJqkYIhKi7iVfFhPlrfwIkVXTZybAy03Mil/3\n7CJit+0+n9/LiBzYwOW5Q4PoxW7Kt//9rcS2P7/z1HoLD41OeUJYsryH89Z3FTO/\n4ORXJwC791QZUEGnrJdjmjJgq+lsLppoURKQHtDuOE8VvZZU04bl18edFQzAUUNG\nHTVtpgly/4UVwFSG2+WnW8xEiJhw9e72pYjE2K4MqFgU4+FaTzWmM86OvkC4e47d\ndaXDAGPfuUSIWMe0CqLC\n=ojpH\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 5ca86eed6310ce3d9bad2e30afb3ee8926608ed7\nparent 4ca3843440fd2a11f9fa1c502cb3c2a1ce7e611c\nauthor Mark Jerwin <ping@jrwnnnn.me> 1783326946 +0800\ncommitter GitHub <noreply@github.com> 1783326946 +0800\n\nrefactor: Update import paths to use @ alias (#113)",
-        "verified_at": "2026-07-06T08:35:46Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/a45e88b48aec8939fb9da9e68dd85c6712594a7a",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/a45e88b48aec8939fb9da9e68dd85c6712594a7a",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/a45e88b48aec8939fb9da9e68dd85c6712594a7a/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "4ca3843440fd2a11f9fa1c502cb3c2a1ce7e611c",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/4ca3843440fd2a11f9fa1c502cb3c2a1ce7e611c",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/4ca3843440fd2a11f9fa1c502cb3c2a1ce7e611c"
-      }
-    ],
-    "stats": {
-      "total": 64,
-      "additions": 32,
-      "deletions": 32
-    },
-    "files": [
-      {
-        "sha": "ac3e804195abccd9a902ef600bb10d880958300c",
-        "filename": "src/components/Footer.astro",
-        "status": "modified",
-        "additions": 3,
-        "deletions": 3,
-        "changes": 6,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/a45e88b48aec8939fb9da9e68dd85c6712594a7a/src%2Fcomponents%2FFooter.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/a45e88b48aec8939fb9da9e68dd85c6712594a7a/src%2Fcomponents%2FFooter.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fcomponents%2FFooter.astro?ref=a45e88b48aec8939fb9da9e68dd85c6712594a7a",
-        "patch": "@@ -1,7 +1,7 @@\n ---\n-import { safeAsync } from \"@utils/safeAsync\";\n-import socials from \"../data/socials.json\";\n-import themes from \"../data/themes.json\";\n+import { safeAsync } from \"@/utils/safeAsync\";\n+import socials from \"@/data/socials.json\";\n+import themes from \"@/data/themes.json\";\n \n interface LatestCommit {\n \tsha: string;"
-      },
-      {
-        "sha": "7d885f01e5c6a92742a631a89aebf6903e1afe29",
-        "filename": "src/layouts/Layout.astro",
-        "status": "modified",
-        "additions": 3,
-        "deletions": 3,
-        "changes": 6,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/a45e88b48aec8939fb9da9e68dd85c6712594a7a/src%2Flayouts%2FLayout.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/a45e88b48aec8939fb9da9e68dd85c6712594a7a/src%2Flayouts%2FLayout.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Flayouts%2FLayout.astro?ref=a45e88b48aec8939fb9da9e68dd85c6712594a7a",
-        "patch": "@@ -1,7 +1,7 @@\n ---\n-import \"../styles/global.css\";\n-import Footer from \"../components/Footer.astro\";\n-import StatusBar from \"../components/StatusBar.astro\";\n+import \"@/styles/global.css\";\n+import Footer from \"@/components/Footer.astro\";\n+import StatusBar from \"@/components/StatusBar.astro\";\n \n const {\n \ttitle,"
-      },
-      {
-        "sha": "ea2b06112345c5959995c9de6a1270f2e454b6ef",
-        "filename": "src/pages/404.astro",
-        "status": "modified",
-        "additions": 2,
-        "deletions": 2,
-        "changes": 4,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/a45e88b48aec8939fb9da9e68dd85c6712594a7a/src%2Fpages%2F404.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/a45e88b48aec8939fb9da9e68dd85c6712594a7a/src%2Fpages%2F404.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2F404.astro?ref=a45e88b48aec8939fb9da9e68dd85c6712594a7a",
-        "patch": "@@ -1,7 +1,7 @@\n ---\n import { env } from \"cloudflare:workers\";\n-import Layout from \"../layouts/Layout.astro\";\n-import Ascii from \"../components/AsciiContainer.astro\";\n+import Layout from \"@/layouts/Layout.astro\";\n+import Ascii from \"@/components/AsciiContainer.astro\";\n \n const art = await env.SESSION.get([\"404.art\", \"404.art.small\"]);\n ---"
-      },
-      {
-        "sha": "4c9529dd8a48773dec6308c822b2fbe82d22fcbe",
-        "filename": "src/pages/credits.astro",
-        "status": "modified",
-        "additions": 2,
-        "deletions": 2,
-        "changes": 4,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/a45e88b48aec8939fb9da9e68dd85c6712594a7a/src%2Fpages%2Fcredits.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/a45e88b48aec8939fb9da9e68dd85c6712594a7a/src%2Fpages%2Fcredits.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Fcredits.astro?ref=a45e88b48aec8939fb9da9e68dd85c6712594a7a",
-        "patch": "@@ -1,6 +1,6 @@\n ---\n-import Layout from \"../layouts/Layout.astro\";\n-import data from \"../data/credits.json\";\n+import Layout from \"@/layouts/Layout.astro\";\n+import data from \"@/data/credits.json\";\n \n interface Credits {\n \ttitle: string;"
-      },
-      {
-        "sha": "91511e97d740ce304358ab33668372d9a78429fb",
-        "filename": "src/pages/gallery.astro",
-        "status": "modified",
-        "additions": 3,
-        "deletions": 3,
-        "changes": 6,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/a45e88b48aec8939fb9da9e68dd85c6712594a7a/src%2Fpages%2Fgallery.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/a45e88b48aec8939fb9da9e68dd85c6712594a7a/src%2Fpages%2Fgallery.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Fgallery.astro?ref=a45e88b48aec8939fb9da9e68dd85c6712594a7a",
-        "patch": "@@ -1,7 +1,7 @@\n ---\n import { env } from \"cloudflare:workers\";\n-import Header from \"../layouts/Header.astro\";\n-import Layout from \"../layouts/Layout.astro\";\n+import Header from \"@/layouts/Header.astro\";\n+import Layout from \"@/layouts/Layout.astro\";\n \n const images = await env.DB.prepare(\n \t\"SELECT * FROM gallery ORDER BY id DESC\",\n@@ -71,7 +71,7 @@ const cfJwt = Astro.cookies.get(\"CF_Authorization\")?.value;\n </Layout>\n \n <script>\n-\timport { stripGPS } from \"@utils/stripGPS\";\n+\timport { stripGPS } from \"@/utils/stripGPS\";\n \n \tconst dropzone = document.getElementById(\"dropzone\") as HTMLDivElement;\n \tconst form = document.getElementById(\"uploadForm\") as HTMLFormElement;"
-      },
-      {
-        "sha": "5cb9b1553e8c67965b540e652e4dbb5d487aeeba",
-        "filename": "src/pages/index.astro",
-        "status": "modified",
-        "additions": 7,
-        "deletions": 7,
-        "changes": 14,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/a45e88b48aec8939fb9da9e68dd85c6712594a7a/src%2Fpages%2Findex.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/a45e88b48aec8939fb9da9e68dd85c6712594a7a/src%2Fpages%2Findex.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Findex.astro?ref=a45e88b48aec8939fb9da9e68dd85c6712594a7a",
-        "patch": "@@ -1,12 +1,12 @@\n ---\n import { env } from \"cloudflare:workers\";\n-import Ascii from \"../components/AsciiContainer.astro\";\n-import CommitLog from \"../components/homepage/CommitLog.astro\";\n-import Container from \"../components/Container.astro\";\n-import Heatmap from \"../components/homepage/Heatmap.astro\";\n-import LastFM from \"../components/homepage/Scrobble.jsx\";\n-import Layout from \"../layouts/Layout.astro\";\n-import socials from \"../data/socials.json\";\n+import Ascii from \"@/components/AsciiContainer.astro\";\n+import CommitLog from \"@/components/homepage/CommitLog.astro\";\n+import Container from \"@/components/Container.astro\";\n+import Heatmap from \"@/components/homepage/Heatmap.astro\";\n+import LastFM from \"@/components/homepage/Scrobble.jsx\";\n+import Layout from \"@/layouts/Layout.astro\";\n+import socials from \"@/data/socials.json\";\n \n const latestTransmission = await env.DB.prepare(\n \t\"SELECT title, subtitle, slug, date_created FROM articles ORDER BY date_created DESC LIMIT 1\","
-      },
-      {
-        "sha": "48dc82cb8bc18bff5192d3819ccfa90936602a62",
-        "filename": "src/pages/projects.astro",
-        "status": "modified",
-        "additions": 2,
-        "deletions": 2,
-        "changes": 4,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/a45e88b48aec8939fb9da9e68dd85c6712594a7a/src%2Fpages%2Fprojects.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/a45e88b48aec8939fb9da9e68dd85c6712594a7a/src%2Fpages%2Fprojects.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Fprojects.astro?ref=a45e88b48aec8939fb9da9e68dd85c6712594a7a",
-        "patch": "@@ -1,7 +1,7 @@\n ---\n import { createHash } from \"node:crypto\";\n-import Header from \"../layouts/Header.astro\";\n-import Layout from \"../layouts/Layout.astro\";\n+import Header from \"@/layouts/Header.astro\";\n+import Layout from \"@/layouts/Layout.astro\";\n \n interface Repositories {\n \tname: string;"
-      },
-      {
-        "sha": "e9963af1a531d23bb30d96b1e672621e82ed4770",
-        "filename": "src/pages/secure/transmit.astro",
-        "status": "modified",
-        "additions": 2,
-        "deletions": 2,
-        "changes": 4,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/a45e88b48aec8939fb9da9e68dd85c6712594a7a/src%2Fpages%2Fsecure%2Ftransmit.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/a45e88b48aec8939fb9da9e68dd85c6712594a7a/src%2Fpages%2Fsecure%2Ftransmit.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Fsecure%2Ftransmit.astro?ref=a45e88b48aec8939fb9da9e68dd85c6712594a7a",
-        "patch": "@@ -1,8 +1,8 @@\n ---\n-import \"../../styles/marked.css\";\n+import \"@/styles/marked.css\";\n import { createHash } from \"node:crypto\";\n import { env } from \"cloudflare:workers\";\n-import Layout from \"../../layouts/Layout.astro\";\n+import Layout from \"@/layouts/Layout.astro\";\n \n const action = Astro.url.searchParams.get(\"action\") ?? \"create\";\n let transmissionContent;"
-      },
-      {
-        "sha": "70e3a0485914fecbed32a9712a9ead61c88b2082",
-        "filename": "src/pages/transmission/[slug].astro",
-        "status": "modified",
-        "additions": 3,
-        "deletions": 3,
-        "changes": 6,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/a45e88b48aec8939fb9da9e68dd85c6712594a7a/src%2Fpages%2Ftransmission%2F%5Bslug%5D.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/a45e88b48aec8939fb9da9e68dd85c6712594a7a/src%2Fpages%2Ftransmission%2F%5Bslug%5D.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Ftransmission%2F%5Bslug%5D.astro?ref=a45e88b48aec8939fb9da9e68dd85c6712594a7a",
-        "patch": "@@ -1,9 +1,9 @@\n ---\n-import \"../../lib/marked/embed.ts\";\n-import \"../../styles/marked.css\";\n+import \"@/lib/marked/embed.ts\";\n+import \"@/styles/marked.css\";\n import { env } from \"cloudflare:workers\";\n import { marked } from \"marked\";\n-import Layout from \"../../layouts/Layout.astro\";\n+import Layout from \"@/layouts/Layout.astro\";\n \n const cfJwt = Astro.cookies.get(\"CF_Authorization\")?.value;\n const article = await env.DB.prepare("
-      },
-      {
-        "sha": "ced98153106cfe1e79f5c97b214fd5b39548f8fa",
-        "filename": "src/pages/transmission/index.astro",
-        "status": "modified",
-        "additions": 4,
-        "deletions": 4,
-        "changes": 8,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/a45e88b48aec8939fb9da9e68dd85c6712594a7a/src%2Fpages%2Ftransmission%2Findex.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/a45e88b48aec8939fb9da9e68dd85c6712594a7a/src%2Fpages%2Ftransmission%2Findex.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Ftransmission%2Findex.astro?ref=a45e88b48aec8939fb9da9e68dd85c6712594a7a",
-        "patch": "@@ -1,9 +1,9 @@\n ---\n import { env } from \"cloudflare:workers\";\n-import Ascii from \"../../components/AsciiContainer.astro\";\n-import Container from \"../../components/Container.astro\";\n-import Header from \"../../layouts/Header.astro\";\n-import Layout from \"../../layouts/Layout.astro\";\n+import Ascii from \"@/components/AsciiContainer.astro\";\n+import Container from \"@/components/Container.astro\";\n+import Header from \"@/layouts/Header.astro\";\n+import Layout from \"@/layouts/Layout.astro\";\n \n const transmissions = await env.DB.prepare(\n \t\"SELECT slug, title, subtitle, art, date_created, tags FROM articles ORDER BY date_created DESC\","
-      },
-      {
-        "sha": "bece74dafdd3752732a3ce085cfde45518a2b719",
-        "filename": "tsconfig.json",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/a45e88b48aec8939fb9da9e68dd85c6712594a7a/tsconfig.json",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/a45e88b48aec8939fb9da9e68dd85c6712594a7a/tsconfig.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/tsconfig.json?ref=a45e88b48aec8939fb9da9e68dd85c6712594a7a",
-        "patch": "@@ -6,7 +6,7 @@\n \t\t\"jsx\": \"react-jsx\",\n \t\t\"jsxImportSource\": \"react\",\n \t\t\"paths\": {\n-\t\t\t\"@utils/*\": [\"./src/utils/*\"]\n+\t\t\t\"@/*\": [\"./src/*\"]\n \t\t}\n \t}\n }"
       }
     ]
   }
