@@ -15,45 +15,61 @@ interface Commit {
 	};
 }
 
-const result = await fetch(
-	"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/commits.json",
-).then((res) => res.json() as Promise<Commit[]>);
+let commits: Commit[] = [];
+let error: Error | null = null;
+try {
+	const res = await fetch(
+		"https://raw.githubusercontent.com/jrwnnnn/jrwnnnn-me/refs/heads/data/commits.json",
+	);
 
+	if (!res.ok) throw new Error("Failed to fetch commits");
+
+	commits = await res.json();
+} catch (e) {
+	error = e as Error;
+}
 ---
 
 {
 	(
 		<div class="space-y-4 font-mono text-sm">
-			{result.map((commit: Commit) => (
-				<a
-					href={commit.html_url}
-					target="_blank"
-					class="group border-primary/50 hover:border-primary block space-y-1 border-l-3 pl-5 transition hover:brightness-120"
-				>
-					<div class="flex items-start justify-between gap-5">
-						<p class="mb-1 line-clamp-2">
-							<strong>{commit.url.split("/")[5]}</strong> /{" "}
-							{commit.commit.message}
-						</p>
-					</div>
-					<div class="text-primary/50 flex items-center gap-2 group-hover:brightness-120">
-						<p class="text-xs">
-							{new Date(commit.commit.author.date).toLocaleDateString("en-GB", {
-								day: "2-digit",
-								month: "2-digit",
-								year: "numeric",
-							})}
-						</p>
-						<p> | </p>
-						<div class="flex space-x-3 text-xs">
-							<span>+{commit.stats.additions}</span>
-							<span>-{commit.stats.deletions}</span>
+			{!error ? (
+				commits.map((commit: Commit) => (
+					<a
+						href={commit.html_url}
+						target="_blank"
+						class="group border-primary/50 hover:border-primary block space-y-1 border-l-3 pl-5 transition hover:brightness-120"
+					>
+						<div class="flex items-start justify-between gap-5">
+							<p class="mb-1 line-clamp-2">
+								<strong>{commit.url.split("/")[5]}</strong> /{" "}
+								{commit.commit.message}
+							</p>
 						</div>
-						<p> | </p>
-						<p class="text-xs">{commit.sha.substring(0, 7)}</p>
-					</div>
-				</a>
-			))}
+						<div class="text-primary/50 flex items-center gap-2 group-hover:brightness-120">
+							<p class="text-xs">
+								{new Date(commit.commit.author.date).toLocaleDateString(
+									"en-GB",
+									{
+										day: "2-digit",
+										month: "2-digit",
+										year: "numeric",
+									},
+								)}
+							</p>
+							<p> | </p>
+							<div class="flex space-x-3 text-xs">
+								<span>+{commit.stats.additions}</span>
+								<span>-{commit.stats.deletions}</span>
+							</div>
+							<p> | </p>
+							<p class="text-xs">{commit.sha.substring(0, 7)}</p>
+						</div>
+					</a>
+				))
+			) : (
+				<p class="font-mono text-sm text-red-500">{error.stack}</p>
+			)}
 		</div>
 	)
 }
