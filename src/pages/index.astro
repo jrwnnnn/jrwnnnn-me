@@ -132,10 +132,7 @@ const stack = [
 			<Container
 				class="shadow-primary/50 break-inside-avoid space-y-5 bg-black! transition-shadow hover:shadow-lg"
 			>
-				<Ascii
-					ascii={siteSettings.get("index.art") as string}
-					class="glitch opacity-90"
-				/>
+				<Ascii ascii={siteSettings.get("index.art") as string} />
 				<hr class="border-primary/40 border" />
 				<p class="text-center font-mono text-sm italic">
 					{siteSettings.get("index.quote")}
