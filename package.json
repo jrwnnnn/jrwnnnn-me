@@ -11,15 +11,14 @@
 	},
 	"dependencies": {
 		"@astrojs/cloudflare": "^14.1.1",
-		"@astrojs/react": "^6.0.1",
+		"@astrojs/vue": "^7.0.1",
 		"@tailwindcss/vite": "^4.3.2",
 		"astro": "^7.0.6",
 		"bcrypt": "^6.0.0",
 		"marked": "^18.0.4",
 		"piexifjs": "^1.0.6",
-		"react": "^19.2.4",
-		"react-dom": "^19.2.6",
 		"tailwindcss": "^4.2.2",
+		"vue": "^3.5.40",
 		"wrangler": "^4.104.0"
 	},
 	"devDependencies": {
@@ -29,8 +28,6 @@
 		"@types/bcrypt": "^6.0.0",
 		"@types/node": "^25.9.1",
 		"@types/piexifjs": "^1.0.0",
-		"@types/react": "^19.2.14",
-		"@types/react-dom": "^19.2.3",
 		"eslint": "^10.5.0",
 		"eslint-plugin-astro": "^1.7.0",
 		"prettier": "^3.8.3",

@@ -1,8 +1,8 @@
 // @ts-check
 import { defineConfig } from "astro/config";
 import cloudflare from "@astrojs/cloudflare";
-import react from "@astrojs/react";
 import tailwindcss from "@tailwindcss/vite";
+import vue from "@astrojs/vue";
 
 export default defineConfig({
 	output: "server",
@@ -12,5 +12,5 @@ export default defineConfig({
 	vite: {
 		plugins: [tailwindcss()],
 	},
-	integrations: [react()],
+	integrations: [vue()],
 });
