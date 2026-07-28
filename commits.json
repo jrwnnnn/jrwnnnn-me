@@ -1,5 +1,106 @@
 [
   {
+    "sha": "a9885c51ae2c9f60922ebd493c7172bc7b560e91",
+    "node_id": "C_kwDORCOQn9oAKGE5ODg1YzUxYWUyYzlmNjA5MjJlYmQ0OTNjNzE3MmJjN2I1NjBlOTE",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-07-28T14:53:22Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-07-28T14:53:22Z"
+      },
+      "message": "feat: Remove glitch and opacity class from Ascii",
+      "tree": {
+        "sha": "a3cac6f040ccd9c760d9cd076f18584b457378ba",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/a3cac6f040ccd9c760d9cd076f18584b457378ba"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/a9885c51ae2c9f60922ebd493c7172bc7b560e91",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQGiQEGWQHnbw/i+cQTC4udNLvfXcAGDI0bcj3r4XEQv7CnSA1MrJdDS7GEoHfSmFAE\nhnK43PkwlsVjQQOhircwk=\n-----END SSH SIGNATURE-----",
+        "payload": "tree a3cac6f040ccd9c760d9cd076f18584b457378ba\nparent d81b60a6a353fa93b407f8eb901379d29efeb8dc\nauthor Mark Jerwin <git@jrwnnnn.me> 1785250402 +0800\ncommitter Mark Jerwin <git@jrwnnnn.me> 1785250402 +0800\n\nfeat: Remove glitch and opacity class from Ascii\n",
+        "verified_at": "2026-07-28T14:53:26Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/a9885c51ae2c9f60922ebd493c7172bc7b560e91",
+    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/a9885c51ae2c9f60922ebd493c7172bc7b560e91",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/a9885c51ae2c9f60922ebd493c7172bc7b560e91/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d81b60a6a353fa93b407f8eb901379d29efeb8dc",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/d81b60a6a353fa93b407f8eb901379d29efeb8dc",
+        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/d81b60a6a353fa93b407f8eb901379d29efeb8dc"
+      }
+    ],
+    "stats": {
+      "total": 5,
+      "additions": 1,
+      "deletions": 4
+    },
+    "files": [
+      {
+        "sha": "423826f465990cc90ae2b69f29eb744834abe0f1",
+        "filename": "src/pages/index.astro",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 4,
+        "changes": 5,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/a9885c51ae2c9f60922ebd493c7172bc7b560e91/src%2Fpages%2Findex.astro",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/a9885c51ae2c9f60922ebd493c7172bc7b560e91/src%2Fpages%2Findex.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Findex.astro?ref=a9885c51ae2c9f60922ebd493c7172bc7b560e91",
+        "patch": "@@ -132,10 +132,7 @@ const stack = [\n \t\t\t<Container\n \t\t\t\tclass=\"shadow-primary/50 break-inside-avoid space-y-5 bg-black! transition-shadow hover:shadow-lg\"\n \t\t\t>\n-\t\t\t\t<Ascii\n-\t\t\t\t\tascii={siteSettings.get(\"index.art\") as string}\n-\t\t\t\t\tclass=\"glitch opacity-90\"\n-\t\t\t\t/>\n+\t\t\t\t<Ascii ascii={siteSettings.get(\"index.art\") as string} />\n \t\t\t\t<hr class=\"border-primary/40 border\" />\n \t\t\t\t<p class=\"text-center font-mono text-sm italic\">\n \t\t\t\t\t{siteSettings.get(\"index.quote\")}"
+      }
+    ]
+  },
+  {
     "sha": "d81b60a6a353fa93b407f8eb901379d29efeb8dc",
     "node_id": "C_kwDORCOQn9oAKGQ4MWI2MGE2YTM1M2ZhOTNiNDA3ZjhlYjkwMTM3OWQyOWVmZWI4ZGM",
     "commit": {
@@ -483,107 +584,6 @@
         "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/38bf4e0a81415361f62d781dff45967f8e45cac5/package.json",
         "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/package.json?ref=38bf4e0a81415361f62d781dff45967f8e45cac5",
         "patch": "@@ -10,10 +10,10 @@\n \t\t\"test\": \"npx eslint . && npx astro check && npm run build\"\n \t},\n \t\"dependencies\": {\n-\t\t\"@astrojs/cloudflare\": \"^13.6.0\",\n-\t\t\"@astrojs/react\": \"^5.0.7\",\n+\t\t\"@astrojs/cloudflare\": \"^14.1.1\",\n+\t\t\"@astrojs/react\": \"^6.0.1\",\n \t\t\"@tailwindcss/vite\": \"^4.3.2\",\n-\t\t\"astro\": \"^6.3.5\",\n+\t\t\"astro\": \"^7.0.6\",\n \t\t\"bcrypt\": \"^6.0.0\",\n \t\t\"marked\": \"^18.0.4\",\n \t\t\"piexifjs\": \"^1.0.6\","
-      }
-    ]
-  },
-  {
-    "sha": "145a18a5bcb94d28b48921e1cc54ea5302d8ebc7",
-    "node_id": "C_kwDORCOQn9oAKDE0NWExOGE1YmNiOTRkMjhiNDg5MjFlMWNjNTRlYTUzMDJkOGViYzc",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "ping@jrwnnnn.me",
-        "date": "2026-07-07T03:36:03Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-07-07T03:36:03Z"
-      },
-      "message": "feat: Add error handling to the gallery page (#116)\n\n* feat: Add error handling to the gallery page",
-      "tree": {
-        "sha": "977c62fe4f2831d915ab364e55e423db998e9773",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/977c62fe4f2831d915ab364e55e423db998e9773"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/145a18a5bcb94d28b48921e1cc54ea5302d8ebc7",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqTHQjCRC1aQ7uu5UhlAAAlQoQAC/Vxhs3AJ3OrBL2Vfb2jBPR\nTMqXMysX13krGAnNKfiNm6ujB+q7kCdnodRPlFwWLOwS1iLXkc7T+pjGfJ225X3N\nKLGMdwSfbm4b+/nv/ERn5VuNyNBVd0gcvC73QJwcate/PkcCHSSm7jPbTuvLChcc\ndoEmMqt3a2/toDkcj7C0KgvJZwqKVgJdJ9l7BdqmxZmnxeD1J1c1D7D8YpFV2ICj\nl2/YEWyp/oQGQLyNb/q/+oFfieA1kKRCaQc7/iLsNpaus3LSSYA8Qlvx4yErLPoJ\nBdyK6yQhellc5eUHdn0wJREJUTgO/5wghLb+2bEsMSglyYznWzdzadYc27OV6qxP\n4eRFMZ/ycXuQZs172FreQoloIgMopliXlgMmIbnHK89zbhjxHuNQWMebfcIQ6rkk\nwjmVKyMREBCnMY5JsLMOxYLHi6/bNw7JOg1ZkZ3dslR0K2LfELOsCbqnCb5eX5WS\nBzpfhz/8mvGVU+L30jk68BPDCgJwhzO8xew03BtnxElKQ6l0P6mNPyUOhIVDoZEF\nGW/GWib7o9t7sjiMIAtghuMFewI6BzGYLHkdSLiCviOY5hDIMmAu+t2k35atFiL8\nteWZNjK5fMxs/s15eodMKUHcpEcmRUfOUsY8dauYIELC/u80Ewn+YFbLJOEKD3xk\nKokjpCC4AT+qkrNlAbL5\n=YKR+\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 977c62fe4f2831d915ab364e55e423db998e9773\nparent bda55eecbb6398e72db756a16dac23a37f663bd9\nauthor Mark Jerwin <ping@jrwnnnn.me> 1783395363 +0800\ncommitter GitHub <noreply@github.com> 1783395363 +0800\n\nfeat: Add error handling to the gallery page (#116)\n\n* feat: Add error handling to the gallery page",
-        "verified_at": "2026-07-07T03:36:04Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/145a18a5bcb94d28b48921e1cc54ea5302d8ebc7",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/145a18a5bcb94d28b48921e1cc54ea5302d8ebc7",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/145a18a5bcb94d28b48921e1cc54ea5302d8ebc7/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "bda55eecbb6398e72db756a16dac23a37f663bd9",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/bda55eecbb6398e72db756a16dac23a37f663bd9",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/bda55eecbb6398e72db756a16dac23a37f663bd9"
-      }
-    ],
-    "stats": {
-      "total": 76,
-      "additions": 45,
-      "deletions": 31
-    },
-    "files": [
-      {
-        "sha": "bb45c0ba95fee5ed51c3c2c57c072262e4c0b06d",
-        "filename": "src/pages/gallery.astro",
-        "status": "modified",
-        "additions": 45,
-        "deletions": 31,
-        "changes": 76,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/145a18a5bcb94d28b48921e1cc54ea5302d8ebc7/src%2Fpages%2Fgallery.astro",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/145a18a5bcb94d28b48921e1cc54ea5302d8ebc7/src%2Fpages%2Fgallery.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fpages%2Fgallery.astro?ref=145a18a5bcb94d28b48921e1cc54ea5302d8ebc7",
-        "patch": "@@ -3,18 +3,30 @@ import { env } from \"cloudflare:workers\";\n import Header from \"@/layouts/Header.astro\";\n import Layout from \"@/layouts/Layout.astro\";\n \n-const images = await env.DB.prepare(\n-\t\"SELECT * FROM gallery ORDER BY id DESC\",\n-).all();\n+interface Images {\n+\tsuccess: boolean;\n+\tresults: { id: number; fileName: string; link: string }[];\n+}\n+\n+let images: Images = { success: false, results: [] };\n+let error: Error | null = null;\n+\n+try {\n+\timages = await env.DB.prepare(\"SELECT * FROM gallery ORDER BY id DESC\").all();\n+\n+\tif (!images.success)\n+\t\tthrow new Error(\"Failed to fetch images from the database\");\n+} catch (e) {\n+\terror = e as Error;\n+}\n \n const cfJwt = Astro.cookies.get(\"CF_Authorization\")?.value;\n ---\n \n <Layout title=\"Mark Jerwin // GALLERY\">\n-\n \t<main class=\"flex flex-col space-y-8\">\n \t\t<Header heading=\"GALLERY\">\n-\t\t\t<p class=\"font-mono text-sm text-primary/80\">\n+\t\t\t<p class=\"text-primary/80 font-mono text-sm\">\n \t\t\t\tFound {images.results.length} images in the database. Captured using a Samsung\n \t\t\t\tA15 5G, Samsung A02s, or Samsung PL20.\n \t\t\t</p>\n@@ -27,7 +39,7 @@ const cfJwt = Astro.cookies.get(\"CF_Authorization\")?.value;\n \t\t\t\t<>\n \t\t\t\t\t<div\n \t\t\t\t\t\tid=\"dropzone\"\n-\t\t\t\t\t\tclass=\"flex min-h-[16rem] cursor-pointer flex-col items-center justify-center border border-dashed hover:bg-primary/10\"\n+\t\t\t\t\t\tclass=\"hover:bg-primary/10 flex min-h-[16rem] cursor-pointer flex-col items-center justify-center border border-dashed\"\n \t\t\t\t\t>\n \t\t\t\t\t\t<p class=\"mb-3 font-mono text-4xl\">+</p>\n \t\t\t\t\t\t<p class=\"font-mono text-xs tracking-widest uppercase\">\n@@ -42,31 +54,33 @@ const cfJwt = Astro.cookies.get(\"CF_Authorization\")?.value;\n \t\t\t\t</>\n \t\t\t)\n \t\t}\n-\n-\t\t<div class=\"columns-1 gap-6 space-y-6 lg:columns-3\">\n-\t\t\t{\n-\t\t\t\timages.results.map((image) => (\n-\t\t\t\t\t<div class=\"relative break-inside-avoid\">\n-\t\t\t\t\t\t<img\n-\t\t\t\t\t\t\tsrc={image.link as string}\n-\t\t\t\t\t\t\talt={`${image.fileName}`}\n-\t\t\t\t\t\t\tclass=\"gallery-image w-full cursor-pointer hover:outline hover:outline-primary\"\n-\t\t\t\t\t\t\tloading=\"eager\"\n-\t\t\t\t\t\t\t\n-\t\t\t\t\t\t/>\n-\t\t\t\t\t\t{(import.meta.env.DEV || cfJwt) && (\n-\t\t\t\t\t\t\t<button\n-\t\t\t\t\t\t\t\tclass=\"delete-btn absolute top-2 right-2 cursor-pointer border border-red-500 bg-black/80 px-2 py-1 font-mono text-xs tracking-widest text-red-500\"\n-\t\t\t\t\t\t\t\tdata-id={image.id}\n-\t\t\t\t\t\t\t\tdata-filename={image.fileName}\n-\t\t\t\t\t\t\t>\n-\t\t\t\t\t\t\t\t✕ DELETE\n-\t\t\t\t\t\t\t</button>\n-\t\t\t\t\t\t)}\n-\t\t\t\t\t</div>\n-\t\t\t\t))\n-\t\t\t}\n-\t\t</div>\n+\t\t{\n+\t\t\t!error ? (\n+\t\t\t\t<div class=\"columns-1 gap-6 space-y-6 lg:columns-3\">\n+\t\t\t\t\t{images.results.map((image) => (\n+\t\t\t\t\t\t<div class=\"relative break-inside-avoid\">\n+\t\t\t\t\t\t\t<img\n+\t\t\t\t\t\t\t\tsrc={image.link as string}\n+\t\t\t\t\t\t\t\talt={`${image.fileName}`}\n+\t\t\t\t\t\t\t\tclass=\"gallery-image hover:outline-primary w-full cursor-pointer hover:outline\"\n+\t\t\t\t\t\t\t\tloading=\"eager\"\n+\t\t\t\t\t\t\t/>\n+\t\t\t\t\t\t\t{(import.meta.env.DEV || cfJwt) && (\n+\t\t\t\t\t\t\t\t<button\n+\t\t\t\t\t\t\t\t\tclass=\"delete-btn absolute top-2 right-2 cursor-pointer border border-red-500 bg-black/80 px-2 py-1 font-mono text-xs tracking-widest text-red-500\"\n+\t\t\t\t\t\t\t\t\tdata-id={image.id}\n+\t\t\t\t\t\t\t\t\tdata-filename={image.fileName}\n+\t\t\t\t\t\t\t\t>\n+\t\t\t\t\t\t\t\t\t✕ DELETE\n+\t\t\t\t\t\t\t\t</button>\n+\t\t\t\t\t\t\t)}\n+\t\t\t\t\t\t</div>\n+\t\t\t\t\t))}\n+\t\t\t\t</div>\n+\t\t\t) : (\n+\t\t\t\t<p class=\"font-mono text-sm text-red-500\">{error.stack}</p>\n+\t\t\t)\n+\t\t}\n \t</main>\n </Layout>\n "
       }
     ]
   }
