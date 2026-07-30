@@ -1,5 +1,154 @@
 [
   {
+    "sha": "d7e3eab1002ef03bc7a7f4d2e6cda3775a3859ad",
+    "node_id": "C_kwDOQdLhx9oAKGQ3ZTNlYWIxMDAyZWYwM2JjN2E3ZjRkMmU2Y2RhMzc3NWEzODU5YWQ",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-07-30T09:46:53Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-07-30T09:46:53Z"
+      },
+      "message": "fix: Error 1102 (worker exceeding resource limits) (#4)\n\n* fix: Error 1102 (worker exceeding resource limits)\n\n* fix: Eslint no-unused-vars error",
+      "tree": {
+        "sha": "4b0e213cda227287066c3e678c3141765649b058",
+        "url": "https://api.github.com/repos/jrwnnnn/orbit/git/trees/4b0e213cda227287066c3e678c3141765649b058"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/orbit/git/commits/d7e3eab1002ef03bc7a7f4d2e6cda3775a3859ad",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqax2NCRC1aQ7uu5UhlAAAWLMQABfsmR6pt1Sd87oQ8aT/qYw/\nSb5nhpNLVoj1JXkK9TEhLTNVkQUMCMkinKbTSDw9XHOlFYxlgdvaDS4Lc/nrHXgA\n7vEbDE9k6le8xabCzWtViL+E+hwtY6ajy+v7CGnU0/T4mn7JoPhbU2psau7WZrA1\nD5ebSiu9+Bo0VXErUn3vX6AuJWfBM3Hce/uZb6rPoOg/rl5ncYBZU4rjy+m0uCpX\nWuReGFonmRXuoaS66H8nq+bc8nx8ufmgyYEfMNAonwpidCBCmk5vAVkdowdCqRN0\nj2L9lZTuDQ3/SSwxF41hALrUuKSMQEG6S/jqStJU3WM+IgaCqmF8kxL3/1snxFSr\nRPFuQ7Die1jiSStqDzJVOO2dVtgW2wpbbEBc2N3dGCKyJteaxSN+0WjEOH+2lZEZ\nlF25gNSYixoaL5HK9Z2IiWhic+9oDKWtv4Yq8vq1YmPtCd58wTKi2MDrIgs64XpL\nkrcbES9Xad3PZyebULv638iA7FgRl+5Cl1GkvXnhCOgKDTg+SNf412FPlffKeL41\nUp3/wB2VJ3XSEQ6qGoJlhq3CkuKC+28L5u9TeJ/ihBbP2lof87Z8AGJU3sKxfm3X\nCmD2DdqiK45iW1uCdZkF2HQcWDd2cQgpMGZrQhTSCerBWhShlwUeCRaBWLiQqnTc\ndLYLyNmTKHToAdI8dJdB\n=dof1\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 4b0e213cda227287066c3e678c3141765649b058\nparent 876e25e81118c5440c4ad2957332f39f297036a5\nauthor Mark Jerwin <git@jrwnnnn.me> 1785404813 +0800\ncommitter GitHub <noreply@github.com> 1785404813 +0800\n\nfix: Error 1102 (worker exceeding resource limits) (#4)\n\n* fix: Error 1102 (worker exceeding resource limits)\n\n* fix: Eslint no-unused-vars error",
+        "verified_at": "2026-07-30T09:46:54Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/d7e3eab1002ef03bc7a7f4d2e6cda3775a3859ad",
+    "html_url": "https://github.com/jrwnnnn/orbit/commit/d7e3eab1002ef03bc7a7f4d2e6cda3775a3859ad",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/orbit/commits/d7e3eab1002ef03bc7a7f4d2e6cda3775a3859ad/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "876e25e81118c5440c4ad2957332f39f297036a5",
+        "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/876e25e81118c5440c4ad2957332f39f297036a5",
+        "html_url": "https://github.com/jrwnnnn/orbit/commit/876e25e81118c5440c4ad2957332f39f297036a5"
+      }
+    ],
+    "stats": {
+      "total": 69,
+      "additions": 61,
+      "deletions": 8
+    },
+    "files": [
+      {
+        "sha": "c5da2bf7c7223edfa9f895c448f28348c8274160",
+        "filename": "src/lib/iptv.ts",
+        "status": "modified",
+        "additions": 48,
+        "deletions": 3,
+        "changes": 51,
+        "blob_url": "https://github.com/jrwnnnn/orbit/blob/d7e3eab1002ef03bc7a7f4d2e6cda3775a3859ad/src%2Flib%2Fiptv.ts",
+        "raw_url": "https://github.com/jrwnnnn/orbit/raw/d7e3eab1002ef03bc7a7f4d2e6cda3775a3859ad/src%2Flib%2Fiptv.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/src%2Flib%2Fiptv.ts?ref=d7e3eab1002ef03bc7a7f4d2e6cda3775a3859ad",
+        "patch": "@@ -1,3 +1,5 @@\n+import { env } from \"cloudflare:workers\";\n+\n export interface Channel {\n \tid: string;\n \tname: string;\n@@ -18,7 +20,11 @@ interface Logo {\n \turl: string;\n }\n \n-export async function getChannelData() {\n+export interface Data extends Channel {\n+\tlogo: string | null;\n+}\n+\n+async function fetchIPTV() {\n \tconst [channels, logos] = await Promise.all([\n \t\tfetch(\"https://iptv-org.github.io/api/channels.json\").then(\n \t\t\t(res) => res.json() as Promise<Channel[]>,\n@@ -29,9 +35,48 @@ export async function getChannelData() {\n \t]);\n \n \tconst logoMap = new Map(logos.map((l) => [l.channel, l.url]));\n-\n-\treturn channels.map((channel) => ({\n+\tconst data: Data[] = channels.map((channel) => ({\n \t\t...channel,\n \t\tlogo: logoMap.get(channel.id) ?? null,\n \t}));\n+\n+\treturn data;\n+}\n+\n+async function refreshCache(): Promise<Data[]> {\n+\tconst list = new Set(\n+\t\t(await env.DB.prepare(\"SELECT id FROM channels\").all()).results.map(\n+\t\t\t(r) => r.id as string,\n+\t\t),\n+\t);\n+\n+\tconst data = (await fetchIPTV()).filter((c) => list.has(c.id));\n+\n+\tawait env.SESSION.put(\"cache\", JSON.stringify(data), {\n+\t\texpirationTtl: 43200,\n+\t});\n+\n+\tawait Promise.all(\n+\t\tdata.map((c) =>\n+\t\t\tenv.SESSION.put(`channel:${c.id}`, JSON.stringify(c), {\n+\t\t\t\texpirationTtl: 43200,\n+\t\t\t}),\n+\t\t),\n+\t);\n+\n+\treturn data;\n+}\n+\n+export async function getData(id: string): Promise<Data[]> {\n+\tif (id === \"all\") {\n+\t\tconst cache = await env.SESSION.get<Data[]>(\"cache\", \"json\");\n+\t\tif (cache) return cache;\n+\t\treturn refreshCache();\n+\t} else {\n+\t\tconst cached = await env.SESSION.get<Data>(`channel:${id}`, \"json\");\n+\t\tif (cached) return [cached];\n+\n+\t\tconst result = (await refreshCache()).find((c) => c.id === id);\n+\t\treturn result ? [result] : [];\n+\t}\n }"
+      },
+      {
+        "sha": "16cb5b2f47d2654d3bf950a8598cd8217d0374e5",
+        "filename": "src/pages/[channel].astro",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/jrwnnnn/orbit/blob/d7e3eab1002ef03bc7a7f4d2e6cda3775a3859ad/src%2Fpages%2F%5Bchannel%5D.astro",
+        "raw_url": "https://github.com/jrwnnnn/orbit/raw/d7e3eab1002ef03bc7a7f4d2e6cda3775a3859ad/src%2Fpages%2F%5Bchannel%5D.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/src%2Fpages%2F%5Bchannel%5D.astro?ref=d7e3eab1002ef03bc7a7f4d2e6cda3775a3859ad",
+        "patch": "@@ -1,6 +1,6 @@\n ---\n import { env } from \"cloudflare:workers\";\n-import { getChannelData } from \"../lib/iptv\";\n+import { getData } from \"../lib/iptv\";\n import Layout from \"../layouts/Layout.astro\";\n import navButton from \"../assets/ui/nav.png\";\n \n@@ -26,7 +26,7 @@ const nav = await env.DB.prepare(\n \t.bind(channel, channel)\n \t.first();\n \n-const data = new Map((await getChannelData()).map((c) => [c.id, c]));\n+const data = new Map((await getData(channel as string)).map((c) => [c.id, c]));\n const channelName = data.get(channel as string)?.name;\n ---\n "
+      },
+      {
+        "sha": "29092baf0179e8e53900045f7afad6b7af4bb81c",
+        "filename": "src/pages/index.astro",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/jrwnnnn/orbit/blob/d7e3eab1002ef03bc7a7f4d2e6cda3775a3859ad/src%2Fpages%2Findex.astro",
+        "raw_url": "https://github.com/jrwnnnn/orbit/raw/d7e3eab1002ef03bc7a7f4d2e6cda3775a3859ad/src%2Fpages%2Findex.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/src%2Fpages%2Findex.astro?ref=d7e3eab1002ef03bc7a7f4d2e6cda3775a3859ad",
+        "patch": "@@ -1,6 +1,6 @@\n ---\n import { env } from \"cloudflare:workers\";\n-import { getChannelData } from \"../lib/iptv\";\n+import { getData } from \"../lib/iptv\";\n import Layout from \"../layouts/Layout.astro\";\n \n interface List {\n@@ -13,7 +13,7 @@ const list: List = await env.DB.prepare(\n \t\"SELECT * FROM channels ORDER BY id\",\n ).all();\n \n-const data = new Map((await getChannelData()).map((c) => [c.id, c]));\n+const data = new Map((await getData(\"all\")).map((c) => [c.id, c]));\n ---\n \n <Layout title=\"Orbit\">"
+      },
+      {
+        "sha": "0ce6d0619dab0f2b1b3d87e16611ba99a5eb2ec9",
+        "filename": "worker-configuration.d.ts",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "blob_url": "https://github.com/jrwnnnn/orbit/blob/d7e3eab1002ef03bc7a7f4d2e6cda3775a3859ad/worker-configuration.d.ts",
+        "raw_url": "https://github.com/jrwnnnn/orbit/raw/d7e3eab1002ef03bc7a7f4d2e6cda3775a3859ad/worker-configuration.d.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/worker-configuration.d.ts?ref=d7e3eab1002ef03bc7a7f4d2e6cda3775a3859ad",
+        "patch": "@@ -1,7 +1,8 @@\n /* eslint-disable */\n-// Generated by Wrangler by running `wrangler types` (hash: f6e835394237f01fba038726e2d4f9ae)\n+// Generated by Wrangler by running `wrangler types` (hash: f4f683898336e34c0deb2809aa3ee1ea)\n // Runtime types generated with workerd@1.20260526.1 2026-04-01 global_fetch_strictly_public,nodejs_compat\n interface __BaseEnv_Env {\n+\tSESSION: KVNamespace;\n \tDB: D1Database;\n \tASSETS: Fetcher;\n }"
+      },
+      {
+        "sha": "2697be38c6be8672d5f8459d2c77b76fd4fb6f5f",
+        "filename": "wrangler.json",
+        "status": "modified",
+        "additions": 7,
+        "deletions": 0,
+        "changes": 7,
+        "blob_url": "https://github.com/jrwnnnn/orbit/blob/d7e3eab1002ef03bc7a7f4d2e6cda3775a3859ad/wrangler.json",
+        "raw_url": "https://github.com/jrwnnnn/orbit/raw/d7e3eab1002ef03bc7a7f4d2e6cda3775a3859ad/wrangler.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/wrangler.json?ref=d7e3eab1002ef03bc7a7f4d2e6cda3775a3859ad",
+        "patch": "@@ -15,6 +15,13 @@\n \t\t\t\"remote\": true\n \t\t}\n \t],\n+\t\"kv_namespaces\": [\n+\t\t{\n+\t\t\t\"binding\": \"SESSION\",\n+\t\t\t\"id\": \"cb3a658fdebe4f81b5c41ad5bd389754\",\n+\t\t\t\"remote\": true\n+\t\t}\n+\t],\n \t\"observability\": {\n \t\t\"enabled\": true\n \t}"
+      }
+    ]
+  },
+  {
     "sha": "876e25e81118c5440c4ad2957332f39f297036a5",
     "node_id": "C_kwDOQdLhx9oAKDg3NmUyNWU4MTExOGM1NDQwYzRhZDI5NTczMzJmMzlmMjk3MDM2YTU",
     "commit": {
@@ -458,107 +607,6 @@
         "raw_url": "https://github.com/jrwnnnn/scaffold-astro/raw/99ff96b7f14ebab954b170fb288d8156a405186f/README.md",
         "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/contents/README.md?ref=99ff96b7f14ebab954b170fb288d8156a405186f",
         "patch": "@@ -34,6 +34,7 @@ The above copyright notice and this permission notice shall be included in all c\n   <img src=\"https://contrib.rocks/image?repo=jrwnnnn/scaffold\" />\n </a>\n \n+<br>\n <br>\n \n <img src=\"https://forthebadge.com/images/badges/built-with-love.svg\">"
-      }
-    ]
-  },
-  {
-    "sha": "a364bd242e493b0e8ce5a42186d2aa1cb3e64851",
-    "node_id": "C_kwDOQdLhx9oAKGEzNjRiZDI0MmU0OTNiMGU4Y2U1YTQyMTg2ZDJhYTFjYjNlNjQ4NTE",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-07-30T06:12:34Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-07-30T06:12:34Z"
-      },
-      "message": "chore: Bump year",
-      "tree": {
-        "sha": "e16037c8d82787731c4d4223e9fa98b041ae8f7d",
-        "url": "https://api.github.com/repos/jrwnnnn/orbit/git/trees/e16037c8d82787731c4d4223e9fa98b041ae8f7d"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/orbit/git/commits/a364bd242e493b0e8ce5a42186d2aa1cb3e64851",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQA/U+c+K+yJORrmH/hHakEQxYb0YfD8rKn8VxUWXhIH+zBB43+OZdG/KD+ti7QNm+2\neUisWfiJvG5HDtIso5AQ4=\n-----END SSH SIGNATURE-----",
-        "payload": "tree e16037c8d82787731c4d4223e9fa98b041ae8f7d\nparent 1b5dcb8fbb0482567c1be5230a1b3dad8ccf0131\nauthor Mark Jerwin <git@jrwnnnn.me> 1785391954 +0800\ncommitter Mark Jerwin <git@jrwnnnn.me> 1785391954 +0800\n\nchore: Bump year\n",
-        "verified_at": "2026-07-30T06:12:38Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/a364bd242e493b0e8ce5a42186d2aa1cb3e64851",
-    "html_url": "https://github.com/jrwnnnn/orbit/commit/a364bd242e493b0e8ce5a42186d2aa1cb3e64851",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/orbit/commits/a364bd242e493b0e8ce5a42186d2aa1cb3e64851/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "1b5dcb8fbb0482567c1be5230a1b3dad8ccf0131",
-        "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/1b5dcb8fbb0482567c1be5230a1b3dad8ccf0131",
-        "html_url": "https://github.com/jrwnnnn/orbit/commit/1b5dcb8fbb0482567c1be5230a1b3dad8ccf0131"
-      }
-    ],
-    "stats": {
-      "total": 2,
-      "additions": 1,
-      "deletions": 1
-    },
-    "files": [
-      {
-        "sha": "43dbf8d66df86108df5fc08ad3b457adde54a782",
-        "filename": "LICENSE",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/orbit/blob/a364bd242e493b0e8ce5a42186d2aa1cb3e64851/LICENSE",
-        "raw_url": "https://github.com/jrwnnnn/orbit/raw/a364bd242e493b0e8ce5a42186d2aa1cb3e64851/LICENSE",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/LICENSE?ref=a364bd242e493b0e8ce5a42186d2aa1cb3e64851",
-        "patch": "@@ -1,6 +1,6 @@\n MIT License\n \n-Copyright (c) 2024 Mark Jerwin\n+Copyright (c) 2026 Mark Jerwin\n \n Permission is hereby granted, free of charge, to any person obtaining a copy\n of this software and associated documentation files (the \"Software\"), to deal"
       }
     ]
   }
