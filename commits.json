@@ -1,5 +1,130 @@
 [
   {
+    "sha": "e7c427adba96152e86f4e49baa861035d8f4a430",
+    "node_id": "C_kwDOQdLhx9oAKGU3YzQyN2FkYmE5NjE1MmU4NmY0ZTQ5YmFhODYxMDM1ZDhmNGE0MzA",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-08-01T09:31:01Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-08-01T09:31:01Z"
+      },
+      "message": "feat: Enhance player UI/UX (#10)\n\n* feat: Enhance player UI/UX\n\n* fix: Inverted condition (for testing)\n\n* refactor: Extract HLS player setup into lib module\n\n* refactor: Inline channel name lookup in page template",
+      "tree": {
+        "sha": "d1bf4070193d009b7eed2f42d3ade39d958c02ad",
+        "url": "https://api.github.com/repos/jrwnnnn/orbit/git/trees/d1bf4070193d009b7eed2f42d3ade39d958c02ad"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/orbit/git/commits/e7c427adba96152e86f4e49baa861035d8f4a430",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqbbzVCRC1aQ7uu5UhlAAAdW8QAE5DeJwZIxkvMaffVjQtYElI\negBJhw/FSABV6XMtD9zcnmrL29NnY2j0H/yJi7NrO3vxCFdEa6npfJG7iS3JET+q\nwd5IJ9XeMzxd/NwwNo4iFVR8xPEmq6QfZKDiPCr5G2Y0kkNM6az6d/Q2TCTgekX2\n8GsG0eD6/7OG82rMSsH89TWG3W6zYj+edvHrehykq0nU+dS03o8KoWYb1gKmqTWP\nhoZzrzCBs7uj9jqNIJKGcl//llql2azEr8noev3MSmvu3qohsGi4W1hpDRxDymSx\ncpaC8oSVt6MXpsKSJmvpbN0gRXqcsoCB7KiuQFwBEMuvly0c0eXlmgVkY9do21Y2\n0G7j9oAN/5qp/TIZF8J43LYhmnPnHI+HrzbNtUnLTY4fquH3UGgCYVKgAugWOj2w\nDRj35CHljAFzWLRa38VPfBGV8GeoMYsner/GbVrk67xqEjhdOCFyzi6MkJ7fp1JA\n9OIYsu7cHNg26RTzDwJcZNuX7AYzFa+S2ts4W9pQIdANwUR4riSPNW6sDdIt68Uq\nLKOMBgzN/AirzRo0YtVmHRTj/kLvwtFkFmCNy1TZgteriwy13902DvT3tBNYIx7b\nV16duu/9lhwtqjuOi7CZh4ID3s9Be/yhvv+WD2/rT1foEShlCoGxI4R2T+Z80AIB\nKcOxsWVksHzI+KQFzbui\n=ICeg\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree d1bf4070193d009b7eed2f42d3ade39d958c02ad\nparent 627b9902f1c0fb642d93f08417f17d823b78f47a\nauthor Mark Jerwin <git@jrwnnnn.me> 1785576661 +0800\ncommitter GitHub <noreply@github.com> 1785576661 +0800\n\nfeat: Enhance player UI/UX (#10)\n\n* feat: Enhance player UI/UX\n\n* fix: Inverted condition (for testing)\n\n* refactor: Extract HLS player setup into lib module\n\n* refactor: Inline channel name lookup in page template",
+        "verified_at": "2026-08-01T09:31:02Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/e7c427adba96152e86f4e49baa861035d8f4a430",
+    "html_url": "https://github.com/jrwnnnn/orbit/commit/e7c427adba96152e86f4e49baa861035d8f4a430",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/orbit/commits/e7c427adba96152e86f4e49baa861035d8f4a430/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "627b9902f1c0fb642d93f08417f17d823b78f47a",
+        "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/627b9902f1c0fb642d93f08417f17d823b78f47a",
+        "html_url": "https://github.com/jrwnnnn/orbit/commit/627b9902f1c0fb642d93f08417f17d823b78f47a"
+      }
+    ],
+    "stats": {
+      "total": 170,
+      "additions": 108,
+      "deletions": 62
+    },
+    "files": [
+      {
+        "sha": "60d4ea30e8250eff20ef5e27b2bccf772ac64ec8",
+        "filename": "src/lib/hls-player.ts",
+        "status": "added",
+        "additions": 56,
+        "deletions": 0,
+        "changes": 56,
+        "blob_url": "https://github.com/jrwnnnn/orbit/blob/e7c427adba96152e86f4e49baa861035d8f4a430/src%2Flib%2Fhls-player.ts",
+        "raw_url": "https://github.com/jrwnnnn/orbit/raw/e7c427adba96152e86f4e49baa861035d8f4a430/src%2Flib%2Fhls-player.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/src%2Flib%2Fhls-player.ts?ref=e7c427adba96152e86f4e49baa861035d8f4a430",
+        "patch": "@@ -0,0 +1,56 @@\n+import Hls from \"hls.js\";\n+\n+export function initPlayer() {\n+\tconst smpte = document.getElementById(\"smpte\") as HTMLImageElement;\n+\tconst video = document.getElementById(\"hls-video\") as HTMLVideoElement;\n+\tconst osd = document.getElementById(\"osd\") as HTMLDivElement;\n+\tconst toast = document.getElementById(\n+\t\t\"osd-toast-error\",\n+\t) as HTMLParagraphElement;\n+\tconst dataset = video.dataset.src;\n+\n+\tif (dataset) {\n+\t\tconst isHttp = dataset.startsWith(\"http://\");\n+\t\tconst src = isHttp\n+\t\t\t? `/api/proxy?url=${encodeURIComponent(dataset)}`\n+\t\t\t: dataset;\n+\n+\t\tif (isHttp) {\n+\t\t\tconsole.warn(\"HLS Source is HTTP, using proxy...\");\n+\t\t}\n+\n+\t\tif (src) {\n+\t\t\tif (Hls.isSupported()) {\n+\t\t\t\tconst hls = new Hls();\n+\t\t\t\thls.loadSource(src);\n+\t\t\t\thls.attachMedia(video);\n+\n+\t\t\t\thls.on(Hls.Events.ERROR, (_event, error) => {\n+\t\t\t\t\tif (error.fatal) {\n+\t\t\t\t\t\tconsole.error(\"HLS Error:\", error);\n+\t\t\t\t\t\thls.destroy();\n+\n+\t\t\t\t\t\tsmpte.style.display = \"block\";\n+\t\t\t\t\t\tvideo.style.display = \"none\";\n+\t\t\t\t\t\tosd.classList.remove(\"animate-[disappear_7s_step-end_forwards]\");\n+\t\t\t\t\t\ttoast.classList.remove(\"hidden\");\n+\n+\t\t\t\t\t\tif (error.response?.code === 403) {\n+\t\t\t\t\t\t\tosd.classList.add(\"cursor-pointer\");\n+\t\t\t\t\t\t\tosd.classList.remove(\"pointer-events-none\");\n+\t\t\t\t\t\t\tosd.addEventListener(\"click\", () => {\n+\t\t\t\t\t\t\t\tlocation.href = dataset;\n+\t\t\t\t\t\t\t});\n+\t\t\t\t\t\t\ttoast.textContent =\n+\t\t\t\t\t\t\t\t\"This stream could not be loaded in this viewer. Click here to open it directly.\";\n+\t\t\t\t\t\t} else {\n+\t\t\t\t\t\t\ttoast.textContent = `Failed to load the stream: ${error.error?.message}`;\n+\t\t\t\t\t\t}\n+\t\t\t\t\t}\n+\t\t\t\t});\n+\t\t\t} else if (video.canPlayType(\"application/vnd.apple.mpegurl\")) {\n+\t\t\t\tvideo.src = src;\n+\t\t\t}\n+\t\t}\n+\t}\n+}"
+      },
+      {
+        "sha": "db202c55584e6857380d8ef17f133ccbbb0d66bb",
+        "filename": "src/pages/[channel].astro",
+        "status": "modified",
+        "additions": 51,
+        "deletions": 61,
+        "changes": 112,
+        "blob_url": "https://github.com/jrwnnnn/orbit/blob/e7c427adba96152e86f4e49baa861035d8f4a430/src%2Fpages%2F%5Bchannel%5D.astro",
+        "raw_url": "https://github.com/jrwnnnn/orbit/raw/e7c427adba96152e86f4e49baa861035d8f4a430/src%2Fpages%2F%5Bchannel%5D.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/src%2Fpages%2F%5Bchannel%5D.astro?ref=e7c427adba96152e86f4e49baa861035d8f4a430",
+        "patch": "@@ -4,6 +4,7 @@ import { getData } from \"../lib/iptv\";\n import Layout from \"../layouts/Layout.astro\";\n \n const { channel } = Astro.params;\n+const initial = Astro.url.searchParams.get(\"initial\") === \"true\";\n \n const src = await env.DB.prepare(\"SELECT url FROM channels WHERE id = ?\")\n \t.bind(channel)\n@@ -26,19 +27,17 @@ const nav = await env.DB.prepare(\n \t.first();\n \n const data = new Map((await getData()).map((c) => [c.id, c]));\n-const channelName = data.get(channel as string)?.name;\n ---\n \n-<Layout title={`${channelName} - Orbit`}>\n+<Layout title={`${data.get(channel as string)?.name} - Orbit`}>\n \t<main\n-\t\tid=\"bg\"\n \t\tclass=\"flex min-h-dvh items-center justify-center bg-black bg-cover bg-center\"\n \t>\n-\t\t<p\n-\t\t\tid=\"error-text\"\n-\t\t\tclass=\"text-balance bg-black/90 p-3 text-center font-mono text-lg font-bold text-white\"\n-\t\t>\n-\t\t</p>\n+\t\t<img\n+\t\t\tid=\"smpte\"\n+\t\t\tsrc=\"https://t3.ftcdn.net/jpg/05/39/64/56/360_F_539645678_UGE3wFAgMELL8kdqp72FYd7J46df43Sj.jpg\"\n+\t\t\tclass=\"hidden h-dvh\"\n+\t\t/>\n \n \t\t<video\n \t\t\tid=\"hls-video\"\n@@ -49,71 +48,60 @@ const channelName = data.get(channel as string)?.name;\n \t\t>\n \t\t</video>\n \n+\t\t<div\n+\t\t\tid=\"osd\"\n+\t\t\tclass=\"pointer-events-none fixed inset-0 z-10 flex animate-[disappear_7s_step-end_forwards] flex-col justify-end gap-2 p-10\"\n+\t\t>\n+\t\t\t<div class=\"rounded-md bg-black/80 px-6 py-3 font-mono text-white\">\n+\t\t\t\t<p id=\"osd-channelName\" class=\"text-2xl font-bold\">\n+\t\t\t\t\t{data.get(channel as string)?.name}\n+\t\t\t\t</p>\n+\t\t\t\t<div id=\"osd-schedule\">\n+\t\t\t\t\t<p>Now:</p>\n+\t\t\t\t\t<p>Next:</p>\n+\t\t\t\t</div>\n+\t\t\t</div>\n+\n+\t\t\t{\n+\t\t\t\tinitial && (\n+\t\t\t\t\t<p\n+\t\t\t\t\t\tid=\"osd-toast-info\"\n+\t\t\t\t\t\tclass=\"rounded-md bg-green-500 px-6 py-1 font-mono font-bold text-white\"\n+\t\t\t\t\t>\n+\t\t\t\t\t\tTIP: Use your remote control or keyboard arrow keys to navigate\n+\t\t\t\t\t\tchannels.\n+\t\t\t\t\t</p>\n+\t\t\t\t)\n+\t\t\t}\n+\n+\t\t\t<p\n+\t\t\t\tid=\"osd-toast-error\"\n+\t\t\t\tclass=\"hidden rounded-md bg-red-700 px-6 py-1 font-mono font-bold text-white\"\n+\t\t\t>\n+\t\t\t</p>\n+\t\t</div>\n+\n \t\t<div class=\"hidden\">\n \t\t\t<button id=\"prev-btn\" data-href={`/${nav?.prevId}`}></button>\n \t\t\t<button id=\"next-btn\" data-href={`/${nav?.nextId}`}></button>\n \t\t</div>\n \t</main>\n </Layout>\n \n-<script>\n-\timport Hls from \"hls.js\";\n-\n-\tconst bg = document.getElementById(\"bg\") as HTMLDivElement;\n-\tconst video = document.getElementById(\"hls-video\") as HTMLVideoElement;\n-\tconst errorText = document.getElementById(\n-\t\t\"error-text\",\n-\t) as HTMLParagraphElement;\n-\tconst dataset = video.dataset.src;\n-\n-\tif (dataset) {\n-\t\tconst isHttp = dataset.startsWith(\"http://\");\n-\t\tconst src = isHttp\n-\t\t\t? `/api/proxy?url=${encodeURIComponent(dataset)}`\n-\t\t\t: dataset;\n-\n-\t\tif (isHttp) {\n-\t\t\tconsole.warn(\"HLS Source is HTTP, using proxy...\");\n+<style>\n+\t@keyframes disappear {\n+\t\t0%,\n+\t\t99% {\n+\t\t\topacity: 1;\n \t\t}\n-\n-\t\tif (src) {\n-\t\t\tif (Hls.isSupported()) {\n-\t\t\t\tconst hls = new Hls();\n-\t\t\t\thls.loadSource(src);\n-\t\t\t\thls.attachMedia(video);\n-\n-\t\t\t\thls.on(Hls.Events.ERROR, (_event, error) => {\n-\t\t\t\t\tif (error.fatal) {\n-\t\t\t\t\t\tconsole.error(\"HLS Error:\", error);\n-\n-\t\t\t\t\t\thls.destroy();\n-\t\t\t\t\t\tvideo.style.display = \"none\";\n-\t\t\t\t\t\tbg.style.backgroundImage =\n-\t\t\t\t\t\t\t\"url('https://t3.ftcdn.net/jpg/05/39/64/56/360_F_539645678_UGE3wFAgMELL8kdqp72FYd7J46df43Sj.jpg')\";\n-\n-\t\t\t\t\t\tif (error.response?.code === 403) {\n-\t\t\t\t\t\t\terrorText.addEventListener(\"click\", () => {\n-\t\t\t\t\t\t\t\tlocation.href = dataset;\n-\t\t\t\t\t\t\t});\n-\n-\t\t\t\t\t\t\terrorText.textContent =\n-\t\t\t\t\t\t\t\t\"Cannot load the stream here. Click here to load the stream directly.\";\n-\n-\t\t\t\t\t\t\terrorText.classList.add(\"cursor-pointer\");\n-\t\t\t\t\t\t} else {\n-\t\t\t\t\t\t\terrorText.textContent = `Failed to load the stream: ${error.error?.message}`;\n-\t\t\t\t\t\t}\n-\t\t\t\t\t}\n-\t\t\t\t});\n-\t\t\t} else if (video.canPlayType(\"application/vnd.apple.mpegurl\")) {\n-\t\t\t\tvideo.src = src;\n-\t\t\t}\n+\t\t100% {\n+\t\t\topacity: 0;\n \t\t}\n \t}\n-</script>\n+</style>\n \n <script>\n-\twindow.scrollTo(0, document.body.scrollHeight);\n+\timport { initPlayer } from \"../lib/hls-player\";\n \n \tconst prevBtn = document.getElementById(\"prev-btn\") as HTMLButtonElement;\n \tconst nextBtn = document.getElementById(\"next-btn\") as HTMLButtonElement;\n@@ -137,4 +125,6 @@ const channelName = data.get(channel as string)?.name;\n \t\t\t\tbreak;\n \t\t}\n \t});\n+\n+\tinitPlayer();\n </script>"
+      },
+      {
+        "sha": "62c57198f2a33e5105110d2c282c546280da2165",
+        "filename": "src/pages/index.astro",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/orbit/blob/e7c427adba96152e86f4e49baa861035d8f4a430/src%2Fpages%2Findex.astro",
+        "raw_url": "https://github.com/jrwnnnn/orbit/raw/e7c427adba96152e86f4e49baa861035d8f4a430/src%2Fpages%2Findex.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/src%2Fpages%2Findex.astro?ref=e7c427adba96152e86f4e49baa861035d8f4a430",
+        "patch": "@@ -26,7 +26,7 @@ const data = new Map((await getData()).map((c) => [c.id, c]));\n \t\t\t\tlist.results.map((channel) => {\n \t\t\t\t\treturn (\n \t\t\t\t\t\t<a\n-\t\t\t\t\t\t\thref={channel.id}\n+\t\t\t\t\t\t\thref={`${channel.id}?initial=true`}\n \t\t\t\t\t\t\ttitle={data.get(channel.id)?.name}\n \t\t\t\t\t\t\tclass=\"group flex flex-col\"\n \t\t\t\t\t\t>"
+      }
+    ]
+  },
+  {
     "sha": "627b9902f1c0fb642d93f08417f17d823b78f47a",
     "node_id": "C_kwDOQdLhx9oAKDYyN2I5OTAyZjFjMGZiNjQyZDkzZjA4NDE3ZjE3ZDgyM2I3OGY0N2E",
     "commit": {
@@ -507,166 +632,6 @@
         "raw_url": "https://github.com/jrwnnnn/orbit/raw/d7e3eab1002ef03bc7a7f4d2e6cda3775a3859ad/wrangler.json",
         "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/wrangler.json?ref=d7e3eab1002ef03bc7a7f4d2e6cda3775a3859ad",
         "patch": "@@ -15,6 +15,13 @@\n \t\t\t\"remote\": true\n \t\t}\n \t],\n+\t\"kv_namespaces\": [\n+\t\t{\n+\t\t\t\"binding\": \"SESSION\",\n+\t\t\t\"id\": \"cb3a658fdebe4f81b5c41ad5bd389754\",\n+\t\t\t\"remote\": true\n+\t\t}\n+\t],\n \t\"observability\": {\n \t\t\"enabled\": true\n \t}"
-      }
-    ]
-  },
-  {
-    "sha": "876e25e81118c5440c4ad2957332f39f297036a5",
-    "node_id": "C_kwDOQdLhx9oAKDg3NmUyNWU4MTExOGM1NDQwYzRhZDI5NTczMzJmMzlmMjk3MDM2YTU",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-07-30T06:57:03Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-07-30T06:57:03Z"
-      },
-      "message": "feat: Rebrand project to Orbit (#2)",
-      "tree": {
-        "sha": "a985897b9134087f6a3fefc1508053eaa4380bd0",
-        "url": "https://api.github.com/repos/jrwnnnn/orbit/git/trees/a985897b9134087f6a3fefc1508053eaa4380bd0"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/orbit/git/commits/876e25e81118c5440c4ad2957332f39f297036a5",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqavW/CRC1aQ7uu5UhlAAAI/sQAHtSAYyST9QaQ63fwkDQN3+X\nmogplP1G/T3glCmWe41llSMvNf89XfmD9eFzYh9re8Qu4ERmbhU8ZvlimTZyMsIZ\nik3GOezrwYQafTbcbi3q1SvvTeIwMMxQjFAiba2pDlnCg/nNzOY78hEfGRI+m8Sj\n+yNYnzWS2KO4ABt6M6bNUnS4Q4onssQ8rYcEX94ck4UOpFXehfXuAMCmZxI3IqNs\n5i+Ax+Ew4AoFFAgaBPMb61RInmLeEXg87dxVm97PX6R1MxpWIxRS6i83+rmc63ZX\nWguS4u1+dV/mZW85VdgmvYa47ZMelS6Kk0AlHocqEpJNxTql36ptCfzXZ0N5F2Pe\n3RAk2gb3pVyA64ZXwyNRIo1+oxh20TzFwqqz5oYpjmGwSSxrSWWsT8LHOA4b46OY\n95+cqQc8sxEOTsBLWfJxQ+pSS68L6OTUS2Y+y05Hp9g/xJmFb11dMarpB6+zd4VB\nNlgiNhKh6XZQHwd8PEz134CqJaH3ZqWaOsdkeR/T6wc9Fp3oKAhJ3atAIULOh0wl\nIz7X27FJ4PwJlYNMQ4g/FOLiOI/jQWChbqLkr6zf80KfalCRbFW54471B3aMwsQv\nP0eas4ZbLXnXlLIHOsrEvNlunu3sYQKQmj2S8DNgPJxSPyO/atIo5flen6nafi7t\niRPP2tlePf8AWdIAiHaa\n=Rxef\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree a985897b9134087f6a3fefc1508053eaa4380bd0\nparent a364bd242e493b0e8ce5a42186d2aa1cb3e64851\nauthor Mark Jerwin <git@jrwnnnn.me> 1785394623 +0800\ncommitter GitHub <noreply@github.com> 1785394623 +0800\n\nfeat: Rebrand project to Orbit (#2)",
-        "verified_at": "2026-07-30T06:57:04Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/876e25e81118c5440c4ad2957332f39f297036a5",
-    "html_url": "https://github.com/jrwnnnn/orbit/commit/876e25e81118c5440c4ad2957332f39f297036a5",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/orbit/commits/876e25e81118c5440c4ad2957332f39f297036a5/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "a364bd242e493b0e8ce5a42186d2aa1cb3e64851",
-        "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/a364bd242e493b0e8ce5a42186d2aa1cb3e64851",
-        "html_url": "https://github.com/jrwnnnn/orbit/commit/a364bd242e493b0e8ce5a42186d2aa1cb3e64851"
-      }
-    ],
-    "stats": {
-      "total": 17481,
-      "additions": 8741,
-      "deletions": 8740
-    },
-    "files": [
-      {
-        "sha": "e856a580f8d9c3d9dc4181182c8ed7d460d6090e",
-        "filename": "astro.config.mjs",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/orbit/blob/876e25e81118c5440c4ad2957332f39f297036a5/astro.config.mjs",
-        "raw_url": "https://github.com/jrwnnnn/orbit/raw/876e25e81118c5440c4ad2957332f39f297036a5/astro.config.mjs",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/astro.config.mjs?ref=876e25e81118c5440c4ad2957332f39f297036a5",
-        "patch": "@@ -3,7 +3,7 @@ import { defineConfig } from \"astro/config\";\n import cloudflare from \"@astrojs/cloudflare\";\n \n export default defineConfig({\n-\tsite: \"https://jrwnnnn.me\",\n+\tsite: \"https://orbit.jrwnnnn.me\",\n \toutput: \"server\",\n \tadapter: cloudflare({\n \t\tremoteBindings: !process.env.CI,"
-      },
-      {
-        "sha": "b719942cd5ae3d11b5b0f80ba05b716935a146a4",
-        "filename": "package-lock.json",
-        "status": "modified",
-        "additions": 8735,
-        "deletions": 8735,
-        "changes": 17470,
-        "blob_url": "https://github.com/jrwnnnn/orbit/blob/876e25e81118c5440c4ad2957332f39f297036a5/package-lock.json",
-        "raw_url": "https://github.com/jrwnnnn/orbit/raw/876e25e81118c5440c4ad2957332f39f297036a5/package-lock.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/package-lock.json?ref=876e25e81118c5440c4ad2957332f39f297036a5"
-      },
-      {
-        "sha": "d4f6134b02a4690d6d70ce336fdc5817a3aa6ace",
-        "filename": "package.json",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/orbit/blob/876e25e81118c5440c4ad2957332f39f297036a5/package.json",
-        "raw_url": "https://github.com/jrwnnnn/orbit/raw/876e25e81118c5440c4ad2957332f39f297036a5/package.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/package.json?ref=876e25e81118c5440c4ad2957332f39f297036a5",
-        "patch": "@@ -1,5 +1,5 @@\n {\n-\t\"name\": \"just-tv\",\n+\t\"name\": \"orbit\",\n \t\"type\": \"module\",\n \t\"version\": \"0.0.1\",\n \t\"scripts\": {"
-      },
-      {
-        "sha": "32be8672364f6f20f7dd85eae068cb76ee9114d3",
-        "filename": "src/pages/[channel].astro",
-        "status": "modified",
-        "additions": 2,
-        "deletions": 1,
-        "changes": 3,
-        "blob_url": "https://github.com/jrwnnnn/orbit/blob/876e25e81118c5440c4ad2957332f39f297036a5/src%2Fpages%2F%5Bchannel%5D.astro",
-        "raw_url": "https://github.com/jrwnnnn/orbit/raw/876e25e81118c5440c4ad2957332f39f297036a5/src%2Fpages%2F%5Bchannel%5D.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/src%2Fpages%2F%5Bchannel%5D.astro?ref=876e25e81118c5440c4ad2957332f39f297036a5",
-        "patch": "@@ -27,9 +27,10 @@ const nav = await env.DB.prepare(\n \t.first();\n \n const data = new Map((await getChannelData()).map((c) => [c.id, c]));\n+const channelName = data.get(channel as string)?.name;\n ---\n \n-<Layout title=\"Just Tv\">\n+<Layout title={`${channelName} - Orbit`}>\n \t<main class=\"flex flex-col bg-black\">\n \t\t<video\n \t\t\tid=\"hls-video\""
-      },
-      {
-        "sha": "770a0ae445e59c5f86ed142ac027951b213cafab",
-        "filename": "src/pages/index.astro",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/orbit/blob/876e25e81118c5440c4ad2957332f39f297036a5/src%2Fpages%2Findex.astro",
-        "raw_url": "https://github.com/jrwnnnn/orbit/raw/876e25e81118c5440c4ad2957332f39f297036a5/src%2Fpages%2Findex.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/src%2Fpages%2Findex.astro?ref=876e25e81118c5440c4ad2957332f39f297036a5",
-        "patch": "@@ -16,7 +16,7 @@ const list: List = await env.DB.prepare(\n const data = new Map((await getChannelData()).map((c) => [c.id, c]));\n ---\n \n-<Layout title=\"Just TV\">\n+<Layout title=\"Orbit\">\n \t<main class=\"p-10\">\n \t\t<div class=\"flex justify-end\">\n \t\t\t<p class=\"mb-8 text-center text-xl font-bold\" id=\"time\"></p>"
-      },
-      {
-        "sha": "c86a407c9f09eb29b2f7205496170d63e9402952",
-        "filename": "wrangler.json",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/orbit/blob/876e25e81118c5440c4ad2957332f39f297036a5/wrangler.json",
-        "raw_url": "https://github.com/jrwnnnn/orbit/raw/876e25e81118c5440c4ad2957332f39f297036a5/wrangler.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/wrangler.json?ref=876e25e81118c5440c4ad2957332f39f297036a5",
-        "patch": "@@ -1,7 +1,7 @@\n {\n \t\"compatibility_date\": \"2026-04-01\",\n \t\"compatibility_flags\": [\"global_fetch_strictly_public\", \"nodejs_compat\"],\n-\t\"name\": \"just-tv\",\n+\t\"name\": \"orbit\",\n \t\"main\": \"@astrojs/cloudflare/entrypoints/server\",\n \t\"assets\": {\n \t\t\"directory\": \"./dist\","
       }
     ]
   }
