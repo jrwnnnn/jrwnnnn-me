@@ -1,5 +1,154 @@
 [
   {
+    "sha": "3c0a65dfa01392e109d81623785dc39fdf68fd0f",
+    "node_id": "C_kwDORCOQn9oAKDNjMGE2NWRmYTAxMzkyZTEwOWQ4MTYyMzc4NWRjMzlmZGY2OGZkMGY",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-08-05T11:02:11Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-08-05T11:02:11Z"
+      },
+      "message": "refactor: Move custom fonts into src assets (#129)",
+      "tree": {
+        "sha": "ddad39b9a9bd86bae7a90f38ecae19e5a9cd2da4",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/ddad39b9a9bd86bae7a90f38ecae19e5a9cd2da4"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/3c0a65dfa01392e109d81623785dc39fdf68fd0f",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqcxgzCRC1aQ7uu5UhlAAAjaQQABAzN9TQvzgchCw83wg+mV2z\ns741fLZl1WsAGv8IMaq08lhI/Q1rShnzPqMfcbXm4jpUaynMZ68orNnTfQGyCmVp\nQHWT/jKk5JNozFLUyMIk1vYNnDDyQepo8z+o3mLMQ9WP9O9fGr/4QkVzA00fNLje\ndrwKVACqLtQeJUGJRRdNUTjz2YFy8jrmwqn1BjH25kIApmwesg4EVBKgOzO44hnM\nc69XiTsI3kEiPn3t/f+mhNR4iCZ8WESfAUZLk67e38o0qiwPfotUygb7o834XsGM\nuCwJckE9cJin7sQ5Qf2URUmUfQVJzTJunnRgCQpjfeKrNfWlWx/H3d6aQK2fmxI/\n6YT9ealdZmn24e8Joq/VdV4u2PlgbxhgMW6Z4H6hSRH0iLMP7Uar4H6+crR9zUpx\nUthGYjf2JpzXdZ6kSxJCkWMVe2Gooql2tSnhEftM2fyxYecifstXSYBZnWswH7+v\nLuStMMP7FiG4ZMG3PpxNV/lUj9HCVt8eAiGdUCe05cVsiijdy7UmHUs3ifm+NWLG\nLmrrIlcuE4ZpOwmIQ+mW7dxQw7jwcStIh690XoH8fWsjriq2nHNZA7yoZJVXOdaC\nN9M2bhYe30WGve2OgbcLHqwj7B8I57DsQkmP4TB5EW+UvV6DhfMONA67DeD2oFvo\njCjIzR2nZjfmXPWN2X05\n=mCuu\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree ddad39b9a9bd86bae7a90f38ecae19e5a9cd2da4\nparent a9885c51ae2c9f60922ebd493c7172bc7b560e91\nauthor Mark Jerwin <git@jrwnnnn.me> 1785927731 +0800\ncommitter GitHub <noreply@github.com> 1785927731 +0800\n\nrefactor: Move custom fonts into src assets (#129)",
+        "verified_at": "2026-08-05T12:45:40Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/3c0a65dfa01392e109d81623785dc39fdf68fd0f",
+    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/3c0a65dfa01392e109d81623785dc39fdf68fd0f",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/3c0a65dfa01392e109d81623785dc39fdf68fd0f/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a9885c51ae2c9f60922ebd493c7172bc7b560e91",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/a9885c51ae2c9f60922ebd493c7172bc7b560e91",
+        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/a9885c51ae2c9f60922ebd493c7172bc7b560e91"
+      }
+    ],
+    "stats": {
+      "total": 4,
+      "additions": 2,
+      "deletions": 2
+    },
+    "files": [
+      {
+        "sha": "a5c2627a14a253fdc4cc4f700c9faea70d22b893",
+        "filename": "src/assets/fonts/terminus/LICENSE",
+        "status": "renamed",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/3c0a65dfa01392e109d81623785dc39fdf68fd0f/src%2Fassets%2Ffonts%2Fterminus%2FLICENSE",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/3c0a65dfa01392e109d81623785dc39fdf68fd0f/src%2Fassets%2Ffonts%2Fterminus%2FLICENSE",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fassets%2Ffonts%2Fterminus%2FLICENSE?ref=3c0a65dfa01392e109d81623785dc39fdf68fd0f",
+        "previous_filename": "public/fonts/terminus/LICENSE"
+      },
+      {
+        "sha": "728475bda3426140f604f44da5b155011979eedf",
+        "filename": "src/assets/fonts/terminus/Terminus.woff2",
+        "status": "renamed",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/3c0a65dfa01392e109d81623785dc39fdf68fd0f/src%2Fassets%2Ffonts%2Fterminus%2FTerminus.woff2",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/3c0a65dfa01392e109d81623785dc39fdf68fd0f/src%2Fassets%2Ffonts%2Fterminus%2FTerminus.woff2",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fassets%2Ffonts%2Fterminus%2FTerminus.woff2?ref=3c0a65dfa01392e109d81623785dc39fdf68fd0f",
+        "previous_filename": "public/fonts/terminus/Terminus.woff2"
+      },
+      {
+        "sha": "7d4f96c54aa155a17387e64501c50b6a0469932c",
+        "filename": "src/assets/fonts/vile-r/LICENSE",
+        "status": "renamed",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/3c0a65dfa01392e109d81623785dc39fdf68fd0f/src%2Fassets%2Ffonts%2Fvile-r%2FLICENSE",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/3c0a65dfa01392e109d81623785dc39fdf68fd0f/src%2Fassets%2Ffonts%2Fvile-r%2FLICENSE",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fassets%2Ffonts%2Fvile-r%2FLICENSE?ref=3c0a65dfa01392e109d81623785dc39fdf68fd0f",
+        "previous_filename": "public/fonts/vile-r/LICENSE"
+      },
+      {
+        "sha": "196aa2752f8c0d5c16e970dcef8c1a658a7470f4",
+        "filename": "src/assets/fonts/vile-r/ibm-vga-8x16.woff2",
+        "status": "renamed",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/3c0a65dfa01392e109d81623785dc39fdf68fd0f/src%2Fassets%2Ffonts%2Fvile-r%2Fibm-vga-8x16.woff2",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/3c0a65dfa01392e109d81623785dc39fdf68fd0f/src%2Fassets%2Ffonts%2Fvile-r%2Fibm-vga-8x16.woff2",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fassets%2Ffonts%2Fvile-r%2Fibm-vga-8x16.woff2?ref=3c0a65dfa01392e109d81623785dc39fdf68fd0f",
+        "previous_filename": "public/fonts/vile-r/ibm-vga-8x16.woff2"
+      },
+      {
+        "sha": "e61ea98a0b50459586c2873eb1438cf602eb8ca8",
+        "filename": "src/styles/global.css",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/3c0a65dfa01392e109d81623785dc39fdf68fd0f/src%2Fstyles%2Fglobal.css",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/3c0a65dfa01392e109d81623785dc39fdf68fd0f/src%2Fstyles%2Fglobal.css",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fstyles%2Fglobal.css?ref=3c0a65dfa01392e109d81623785dc39fdf68fd0f",
+        "patch": "@@ -2,12 +2,12 @@\n \n @font-face {\n \tfont-family: \"ibm\";\n-\tsrc: url(/fonts/vile-r/ibm-vga-8x16.woff2) format(\"woff2\");\n+\tsrc: url(../assets/fonts/vile-r/ibm-vga-8x16.woff2) format(\"woff2\");\n }\n \n @font-face {\n \tfont-family: \"Terminus\";\n-\tsrc: url(/fonts/terminus/Terminus.woff2) format(\"woff2\");\n+\tsrc: url(../assets/fonts/terminus/Terminus.woff2) format(\"woff2\");\n }\n \n @theme {"
+      }
+    ]
+  },
+  {
     "sha": "3ace95206a41f42597f4111a3511b972bda6685a",
     "node_id": "C_kwDOQdLhx9oAKDNhY2U5NTIwNmE0MWY0MjU5N2Y0MTExYTM1MTFiOTcyYmRhNjY4NWE",
     "commit": {
@@ -459,143 +608,6 @@
         "raw_url": "https://github.com/jrwnnnn/orbit/raw/d36dc80568d21dca441de6494acd2305fa4bfda3/src%2Fpages%2Fapi%2Fproxy.ts",
         "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/src%2Fpages%2Fapi%2Fproxy.ts?ref=d36dc80568d21dca441de6494acd2305fa4bfda3",
         "patch": "@@ -0,0 +1,75 @@\n+import type { APIRoute } from \"astro\";\n+import { env } from \"cloudflare:workers\";\n+\n+export const prerender = false;\n+\n+export const GET: APIRoute = async ({ url }) => {\n+\tconst params = url.searchParams.get(\"url\");\n+\n+\tif (!params) return new Response(\"Missing url parameter\", { status: 400 });\n+\n+\tconst target = URL.parse(params);\n+\tif (!target) return new Response(\"Invalid url\", { status: 400 });\n+\n+\tif (target.protocol !== \"http:\") {\n+\t\treturn new Response(\"Only http:// URLs are proxied\", { status: 400 });\n+\t}\n+\n+\tconst allowed = await env.DB.prepare(\n+\t\t\"SELECT 1 FROM channels WHERE url LIKE ? LIMIT 1\",\n+\t)\n+\t\t.bind(`${target.origin}%`)\n+\t\t.first();\n+\n+\tif (!allowed) {\n+\t\treturn new Response(\"URL not allowed\", { status: 403 });\n+\t}\n+\n+\tconst res = await fetch(target.toString(), {\n+\t\theaders: {\n+\t\t\t\"User-Agent\":\n+\t\t\t\t\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\",\n+\t\t\tAccept: \"*/*\",\n+\t\t\tConnection: \"keep-alive\",\n+\t\t\tReferer: `${target.protocol}//${target.host}`,\n+\t\t\tOrigin: `${target.protocol}//${target.host}`,\n+\t\t},\n+\t});\n+\n+\tif (!res.ok)\n+\t\treturn new Response(\"Upstream fetch failed\", { status: res.status });\n+\n+\tconst contentType = res.headers.get(\"content-type\") ?? \"\";\n+\n+\tif (\n+\t\ttarget.pathname.endsWith(\".m3u8\") ||\n+\t\tcontentType.includes(\"mpegurl\") ||\n+\t\tcontentType.includes(\"x-mpegURL\")\n+\t) {\n+\t\tconst text = await res.text();\n+\n+\t\tconst rewritten = text\n+\t\t\t.split(\"\\n\")\n+\t\t\t.map((line) => {\n+\t\t\t\tconst trimmed = line.trim();\n+\t\t\t\tif (!trimmed || trimmed.startsWith(\"#\")) return line;\n+\t\t\t\tconst resolved = new URL(trimmed, target).toString();\n+\t\t\t\treturn `/api/proxy?url=${encodeURIComponent(resolved)}`;\n+\t\t\t})\n+\t\t\t.join(\"\\n\");\n+\n+\t\treturn new Response(rewritten, {\n+\t\t\theaders: {\n+\t\t\t\t\"content-type\": \"application/vnd.apple.mpegurl\",\n+\t\t\t\t\"access-control-allow-origin\": \"*\",\n+\t\t\t},\n+\t\t});\n+\t}\n+\n+\treturn new Response(res.body, {\n+\t\theaders: {\n+\t\t\t\"content-type\": contentType || \"video/mp2t\",\n+\t\t\t\"access-control-allow-origin\": \"*\",\n+\t\t},\n+\t});\n+};"
-      }
-    ]
-  },
-  {
-    "sha": "6900b2dadbf8e4e7b120732761dccbe2d585fbc2",
-    "node_id": "C_kwDOQdLhx9oAKDY5MDBiMmRhZGJmOGU0ZTdiMTIwNzMyNzYxZGNjYmUyZDU4NWZiYzI",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-07-31T00:23:05Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-07-31T00:23:05Z"
-      },
-      "message": "refactor: IPTV API fetch caching (#6)",
-      "tree": {
-        "sha": "74a1864f820a9396d86344c393e69568353771ec",
-        "url": "https://api.github.com/repos/jrwnnnn/orbit/git/trees/74a1864f820a9396d86344c393e69568353771ec"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/orbit/git/commits/6900b2dadbf8e4e7b120732761dccbe2d585fbc2",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqa+rpCRC1aQ7uu5UhlAAAuKgQAACVtOvMI2z1bywHkzDrgo2h\n6CovbwtIgc4tcH9V3JpnBE+L/587mXjuLibtnMwbnaIa4HyffuWSY9aXw+XnioDM\npo8PLN0nH8nOWr3HggGc8hevraONUjiIh6v+kd0dnx9Bjp+HMq09RVhBCwnhOMJS\n+Nrafrtb4LCw0ReYw2OlMsIGnh9SlpDNysfkYV1AbVzAXwOWfY2QjhRMeVqpvsSk\nOld/q3YYB9evVATl6pNyYFZqnJ9ZzcvLPnT3VcOBYCElrAZdl99Nago81CYoCrR2\nj88X61E+JA6J5LwNzqpWUWR5SAdPp1dR+Oi9XxTOD2QJWb003J+hvBqJeFQFi24Q\nyt3+pTjN4YhYqX9U+87Oe/MyNyot3fWrYRceurNqBgGzBS4A3diyzwpnuaKT/JvE\n4D9IxaG1YnK1JXrQqvK/40jPqtyHmBZotSyC+gVkDlpIJkZIwzQcN5jhm2YivOOi\nseGI+sr7dnBp03q5oxImFiPPWLym+MKsJ/OtovO9Q+P9gmfoaOw2i3i+6mnBoOXU\nI/sjlMwpxR6T2ghzSHyK+cNImPSbxOey7TTO8HbiSwoGuKk+Y1AcylJSR7OMK/Ik\nvqT/votqydHi1PJ95aBn8ooktzomyXthhTwJcvpJGzEikivdt34OEr02v08XArN9\nSIMMrTFoYgCSiEPZYFiY\n=hspH\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 74a1864f820a9396d86344c393e69568353771ec\nparent d7e3eab1002ef03bc7a7f4d2e6cda3775a3859ad\nauthor Mark Jerwin <git@jrwnnnn.me> 1785457385 +0800\ncommitter GitHub <noreply@github.com> 1785457385 +0800\n\nrefactor: IPTV API fetch caching (#6)",
-        "verified_at": "2026-07-31T00:23:06Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/6900b2dadbf8e4e7b120732761dccbe2d585fbc2",
-    "html_url": "https://github.com/jrwnnnn/orbit/commit/6900b2dadbf8e4e7b120732761dccbe2d585fbc2",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/orbit/commits/6900b2dadbf8e4e7b120732761dccbe2d585fbc2/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "d7e3eab1002ef03bc7a7f4d2e6cda3775a3859ad",
-        "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/d7e3eab1002ef03bc7a7f4d2e6cda3775a3859ad",
-        "html_url": "https://github.com/jrwnnnn/orbit/commit/d7e3eab1002ef03bc7a7f4d2e6cda3775a3859ad"
-      }
-    ],
-    "stats": {
-      "total": 48,
-      "additions": 20,
-      "deletions": 28
-    },
-    "files": [
-      {
-        "sha": "a7abd57fb784b1eb15563d826c7432faf1d48955",
-        "filename": "src/lib/iptv.ts",
-        "status": "modified",
-        "additions": 17,
-        "deletions": 25,
-        "changes": 42,
-        "blob_url": "https://github.com/jrwnnnn/orbit/blob/6900b2dadbf8e4e7b120732761dccbe2d585fbc2/src%2Flib%2Fiptv.ts",
-        "raw_url": "https://github.com/jrwnnnn/orbit/raw/6900b2dadbf8e4e7b120732761dccbe2d585fbc2/src%2Flib%2Fiptv.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/src%2Flib%2Fiptv.ts?ref=6900b2dadbf8e4e7b120732761dccbe2d585fbc2",
-        "patch": "@@ -43,40 +43,32 @@ async function fetchIPTV() {\n \treturn data;\n }\n \n-async function refreshCache(): Promise<Data[]> {\n-\tconst list = new Set(\n-\t\t(await env.DB.prepare(\"SELECT id FROM channels\").all()).results.map(\n-\t\t\t(r) => r.id as string,\n-\t\t),\n-\t);\n-\n+async function refreshCache(list: Set<string>): Promise<Data[]> {\n \tconst data = (await fetchIPTV()).filter((c) => list.has(c.id));\n \n \tawait env.SESSION.put(\"cache\", JSON.stringify(data), {\n \t\texpirationTtl: 43200,\n \t});\n \n-\tawait Promise.all(\n-\t\tdata.map((c) =>\n-\t\t\tenv.SESSION.put(`channel:${c.id}`, JSON.stringify(c), {\n-\t\t\t\texpirationTtl: 43200,\n-\t\t\t}),\n-\t\t),\n-\t);\n-\n \treturn data;\n }\n \n-export async function getData(id: string): Promise<Data[]> {\n-\tif (id === \"all\") {\n-\t\tconst cache = await env.SESSION.get<Data[]>(\"cache\", \"json\");\n-\t\tif (cache) return cache;\n-\t\treturn refreshCache();\n-\t} else {\n-\t\tconst cached = await env.SESSION.get<Data>(`channel:${id}`, \"json\");\n-\t\tif (cached) return [cached];\n+export async function getData(): Promise<Data[]> {\n+\tconst list = new Set(\n+\t\t(await env.DB.prepare(\"SELECT id FROM channels\").all()).results.map(\n+\t\t\t(r) => r.id as string,\n+\t\t),\n+\t);\n+\tconst cache = await env.SESSION.get<Data[]>(\"cache\", \"json\");\n \n-\t\tconst result = (await refreshCache()).find((c) => c.id === id);\n-\t\treturn result ? [result] : [];\n+\t// Check if the cache is still valid\n+\tif (cache) {\n+\t\tconst ids = new Set(cache.map((c) => c.id));\n+\t\tconst isMissingChannels = [...list].some((id) => !ids.has(id));\n+\t\tif (!isMissingChannels) return cache;\n \t}\n+\n+\tconsole.warn(\"Cache is missing channels or is invalid. Refreshing cache...\");\n+\n+\treturn refreshCache(list);\n }"
-      },
-      {
-        "sha": "92b5f527c6b5fba8db9dd19c8499da816e31fad6",
-        "filename": "src/pages/[channel].astro",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/orbit/blob/6900b2dadbf8e4e7b120732761dccbe2d585fbc2/src%2Fpages%2F%5Bchannel%5D.astro",
-        "raw_url": "https://github.com/jrwnnnn/orbit/raw/6900b2dadbf8e4e7b120732761dccbe2d585fbc2/src%2Fpages%2F%5Bchannel%5D.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/src%2Fpages%2F%5Bchannel%5D.astro?ref=6900b2dadbf8e4e7b120732761dccbe2d585fbc2",
-        "patch": "@@ -26,7 +26,7 @@ const nav = await env.DB.prepare(\n \t.bind(channel, channel)\n \t.first();\n \n-const data = new Map((await getData(channel as string)).map((c) => [c.id, c]));\n+const data = new Map((await getData()).map((c) => [c.id, c]));\n const channelName = data.get(channel as string)?.name;\n ---\n "
-      },
-      {
-        "sha": "0e18cd6ab9594d81b53eac03788e660959e2212d",
-        "filename": "src/pages/index.astro",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/orbit/blob/6900b2dadbf8e4e7b120732761dccbe2d585fbc2/src%2Fpages%2Findex.astro",
-        "raw_url": "https://github.com/jrwnnnn/orbit/raw/6900b2dadbf8e4e7b120732761dccbe2d585fbc2/src%2Fpages%2Findex.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/src%2Fpages%2Findex.astro?ref=6900b2dadbf8e4e7b120732761dccbe2d585fbc2",
-        "patch": "@@ -13,7 +13,7 @@ const list: List = await env.DB.prepare(\n \t\"SELECT * FROM channels ORDER BY id\",\n ).all();\n \n-const data = new Map((await getData(\"all\")).map((c) => [c.id, c]));\n+const data = new Map((await getData()).map((c) => [c.id, c]));\n ---\n \n <Layout title=\"Orbit\">"
-      },
-      {
-        "sha": "25fe2e1c18275405c7d4b4451a6bec8057492f65",
-        "filename": "wrangler.json",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/orbit/blob/6900b2dadbf8e4e7b120732761dccbe2d585fbc2/wrangler.json",
-        "raw_url": "https://github.com/jrwnnnn/orbit/raw/6900b2dadbf8e4e7b120732761dccbe2d585fbc2/wrangler.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/wrangler.json?ref=6900b2dadbf8e4e7b120732761dccbe2d585fbc2",
-        "patch": "@@ -18,7 +18,7 @@\n \t\"kv_namespaces\": [\n \t\t{\n \t\t\t\"binding\": \"SESSION\",\n-\t\t\t\"id\": \"cb3a658fdebe4f81b5c41ad5bd389754\",\n+\t\t\t\"id\": \"2cfa199f278847dbb3ef342bf638af4d\",\n \t\t\t\"remote\": true\n \t\t}\n \t],"
       }
     ]
   }
