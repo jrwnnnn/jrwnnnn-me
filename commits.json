@@ -1,5 +1,106 @@
 [
   {
+    "sha": "7d8b81c69c381d0fcfd72ce071fce75556baac14",
+    "node_id": "C_kwDOQdLhx9oAKDdkOGI4MWM2OWMzODFkMGZjZmQ3MmNlMDcxZmNlNzU1NTZiYWFjMTQ",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-08-09T10:46:43Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-08-09T10:47:41Z"
+      },
+      "message": "docs: Update README\n\nUpdated project description and installation instructions for Orbit.",
+      "tree": {
+        "sha": "b5fa4de1e99aeba89ff1893d8fc4e1f18b571094",
+        "url": "https://api.github.com/repos/jrwnnnn/orbit/git/trees/b5fa4de1e99aeba89ff1893d8fc4e1f18b571094"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/orbit/git/commits/7d8b81c69c381d0fcfd72ce071fce75556baac14",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQJbuK4aRzt+UNyBP8bK2gR/rNPYPKENygghSheAyACEmKt50kR145Z0BO8xPRPjtby\nFjvCXsUPkMLzfqKvnhyA8=\n-----END SSH SIGNATURE-----",
+        "payload": "tree b5fa4de1e99aeba89ff1893d8fc4e1f18b571094\nparent fcd67309aa263dfc1d4f20a6236e019d1ea1bd6c\nauthor Mark Jerwin <git@jrwnnnn.me> 1786272403 +0800\ncommitter Mark Jerwin <git@jrwnnnn.me> 1786272461 +0800\n\ndocs: Update README\n\nUpdated project description and installation instructions for Orbit.\n",
+        "verified_at": "2026-08-09T10:48:00Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/7d8b81c69c381d0fcfd72ce071fce75556baac14",
+    "html_url": "https://github.com/jrwnnnn/orbit/commit/7d8b81c69c381d0fcfd72ce071fce75556baac14",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/orbit/commits/7d8b81c69c381d0fcfd72ce071fce75556baac14/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fcd67309aa263dfc1d4f20a6236e019d1ea1bd6c",
+        "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/fcd67309aa263dfc1d4f20a6236e019d1ea1bd6c",
+        "html_url": "https://github.com/jrwnnnn/orbit/commit/fcd67309aa263dfc1d4f20a6236e019d1ea1bd6c"
+      }
+    ],
+    "stats": {
+      "total": 112,
+      "additions": 57,
+      "deletions": 55
+    },
+    "files": [
+      {
+        "sha": "1b5f0b654d60c3c5db7363886bf131425ae6ccf1",
+        "filename": "README.md",
+        "status": "modified",
+        "additions": 57,
+        "deletions": 55,
+        "changes": 112,
+        "blob_url": "https://github.com/jrwnnnn/orbit/blob/7d8b81c69c381d0fcfd72ce071fce75556baac14/README.md",
+        "raw_url": "https://github.com/jrwnnnn/orbit/raw/7d8b81c69c381d0fcfd72ce071fce75556baac14/README.md",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/README.md?ref=7d8b81c69c381d0fcfd72ce071fce75556baac14",
+        "patch": "@@ -1,60 +1,62 @@\n-<h1 align=\"center\">Just TV</h1>\n-\n-<p align=\"center\"><i>A simple, lightweight web client for HLS streams.</i></p>\n-\n-<p align=\"center\">\n-   <img src=\"https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white\">\n-   <img src=\"https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white\">\n-  <a href=\"https://opensource.org/license/mit\"><img src=\"https://img.shields.io/badge/MIT-green?style=for-the-badge\"></a>\n-   <a href=\"https://github.com/jrwnnnn/template-global\"><img src=\"https://img.shields.io/github/stars/jrwnnnn/template-global?style=for-the-badge\"></a>\n-</p>\n-\n-## Prerequisites\n-Ensure you have the following installed:\n-- [PHP 8.x](https://www.php.net/)\n-- [Composer](https://getcomposer.org/)\n-- [Node.js & npm](https://nodejs.org/)\n-- [MySQL](https://www.mysql.com/)\n-\n-## Quickstart Guide\n-\n-1. **Clone the repository**\n-   ```bash\n-   git clone https://github.com/jrwnnnn/just-tv.git\n-   cd just-tv\n-   ```\n-\n-2. **Install Dependencies**\n-   ```bash\n-   composer install\n-   npm install\n-   ```\n-\n-3. **Configuration**\n-   - Create a `.env` file in the root directory and configure your database settings:\n-     ```env\n-     DB_HOST=localhost\n-     DB_USER=root\n-     DB_PASS=\n-     DB_NAME=\n-     ```\n-\n-4. **Build Assets**\n-   ```bash\n-   npm run build\n-   ```\n-\n-5. **Run the Application**\n-   You can use the built-in PHP server for development:\n-   ```bash\n-   php -S localhost:8000\n-   ```\n+<h1 align=\"center\">Orbit</h1>\n+\n+<p align=\"center\"><i>A simple, lightweight webOS app for HLS streaming.</i></p>\n+\n+<div align=\"center\">\n+   <!-- FIND PREMADE BADGES HERE: https://github.com/Ileriayo/markdown-badges -->\n+   <a href=\"https://vuejs.org\"><img src=\"https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D\"></a>\n+   <a href=\"https://www.typescriptlang.org/\"><img src=\"https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white\"></a>\n+   <a href=\"https://tailwindcss.com/\"><img src=\"https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white\"></a>\n+   <a href=\"./LICENSE\"><img src=\"https://img.shields.io/github/license/jrwnnnn/orbit?style=for-the-badge\"></a>\n+   <a href=\"https://github.com/jrwnnnn/orbit/stargazers\"><img src=\"https://img.shields.io/github/stars/jrwnnnn/orbit?style=for-the-badge\"></a>\n+</div>\n+\n+<br>\n+\n+Orbit is a lightweight HLS media player built for LG webOS Smart TVs. It streams curated free-to-air public channels sourced from [iptv-org](https://github.com/iptv-org/iptv) directly on the hardware without needing an external set-top box or heavy media server. Orbit is completely content-agnostic and hosts zero media assets.\n+\n+## Installation\n+\n+Your LG webOS TV must have Developer Mode enabled and connected to your local network before installing custom applications. Follow [these instructions](https://webostv.developer.lge.com/develop/getting-started/developer-mode-app) to enable it.\n+\n+### Option 1: webOS Dev Manager (Recommended)\n+\n+1. Download and install the [webOS Dev Manager](https://github.com/webosbrew/webos-dev-manager).\n+2. Connect the webOS Dev Manager to your TV using your Developer Mode credentials.\n+3. Download latest version of Orbit from the [Releases](https://github.com/jrwnnnn/orbit/releases/latest) page.\n+4. Open the webOS Dev Manager, click Install, and select the `.ipk` file.\n+\n+### Option 2: webOS CLI (Official)\n+\n+1. Install the [webOS TV CLI](https://webostv.developer.lge.com/develop/tools/cli-introduction).\n+2. Register and connect your TV with `ares-setup-device`.\n+3. Install the package:\n+```bash\n+   ares-install com.jrwnnnn.orbit_<REPLACE_WITH_YOUR_VERSION>_all.ipk -d <DEVICE_NAME>\n+```\n+\n+## Support\n+\n+If you run into any issues, please [open an issue](https://github.com/jrwnnnn/orbit/issues) and include all relevant details needed to diagnose the problem.\n \n ## License\n-This project uses the MIT license. For details, please refer to the LICENSE file.\n \n-## Acknowledgments\n+Distributed under the MIT License.\n+Copyright (c) 2026 Mark Jerwin(@jrwnnnn). All rights reserved.\n+\n+See the [LICENSE](LICENSE) file for full details.\n+\n+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n+\n+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n+\n+## Contributors\n+\n+<a href=\"https://github.com/jrwnnnn/orbit/graphs/contributors\">\n+  <img src=\"https://contrib.rocks/image?repo=jrwnnnn/orbit\" />\n+</a>\n \n-This web app does not host or store content. All video streams are provided by external third-party sources.\n+<br>\n+<br>\n \n-<img src=\"https://forthebadge.com/badges/built-with-love.svg\">\n+<img src=\"https://forthebadge.com/images/badges/built-with-love.svg\">"
+      }
+    ]
+  },
+  {
     "sha": "fcd67309aa263dfc1d4f20a6236e019d1ea1bd6c",
     "node_id": "C_kwDOQdLhx9oAKGZjZDY3MzA5YWEyNjNkZmMxZDRmMjBhNjIzNmUwMTlkMWVhMWJkNmM",
     "commit": {
@@ -851,119 +952,6 @@
         "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/3c0a65dfa01392e109d81623785dc39fdf68fd0f/src%2Fstyles%2Fglobal.css",
         "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fstyles%2Fglobal.css?ref=3c0a65dfa01392e109d81623785dc39fdf68fd0f",
         "patch": "@@ -2,12 +2,12 @@\n \n @font-face {\n \tfont-family: \"ibm\";\n-\tsrc: url(/fonts/vile-r/ibm-vga-8x16.woff2) format(\"woff2\");\n+\tsrc: url(../assets/fonts/vile-r/ibm-vga-8x16.woff2) format(\"woff2\");\n }\n \n @font-face {\n \tfont-family: \"Terminus\";\n-\tsrc: url(/fonts/terminus/Terminus.woff2) format(\"woff2\");\n+\tsrc: url(../assets/fonts/terminus/Terminus.woff2) format(\"woff2\");\n }\n \n @theme {"
-      }
-    ]
-  },
-  {
-    "sha": "3ace95206a41f42597f4111a3511b972bda6685a",
-    "node_id": "C_kwDOQdLhx9oAKDNhY2U5NTIwNmE0MWY0MjU5N2Y0MTExYTM1MTFiOTcyYmRhNjY4NWE",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-08-01T11:51:24Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-08-01T11:51:24Z"
-      },
-      "message": "feat: Add now/next EPG schedule to OSD (#11)\n\n* feat: Add now/next EPG schedule to OSD (#9)\n\n* fix: Render next schedule time on client",
-      "tree": {
-        "sha": "34f721d94169e0a374b1d0a043baaa3872d4a799",
-        "url": "https://api.github.com/repos/jrwnnnn/orbit/git/trees/34f721d94169e0a374b1d0a043baaa3872d4a799"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/orbit/git/commits/3ace95206a41f42597f4111a3511b972bda6685a",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqbd28CRC1aQ7uu5UhlAAAeBQQAKk7cY/1PvMR+GokrX5YDqK/\nsiGPPZI/jxJ7mkKLU5o4saVry9D/iJwa9vtaRsefzmg3mbsUI2DSuIq3tNgrXwLm\ni/YyN7lXgDXaAD/V4tD7rUKzGhE3VtghA9Vxjs4ATaJ8jGl283UVaKHH0XLd+2KX\nC78WJzyEHzjwe0dRlqf7HTYgXs4tXdof6RzFzOi88XiK6jYy7nvPBYqBqn7rUfYV\npxRXC0PX7hGnJTqrw3D6qTIVNtqjf+sPalbWKT2S5/Avaaw/4eMBRKJ+yk1S5CsJ\nB5fDyTNVsZwOrXUS/oszUnfIC3OTgwOu6Rwjh/sMdjzMGOp7he7nqejhwAwLUDz8\nUhe4uXCD7DkbD52EYge7zjevQE7+5dS1u4byckFPMqpIm/M/wsWCqAezPq4cVvki\nL7ItkyB0p53L19Ds34+5CD3TP+7uijYomYDAiCIUDNKAvUrE36SvuBRsch2d9G7r\ntKBANfROeMFyiO+7UjKfXzrQ1laWrasRXqqT7dYc19MbwDNos/+Nj5weZ2aPYOSl\ngrKdpJo5+JszoRXHnlMMrjPmZPjMWinQ1HTX/hjLdz9yPB+sBM36/ccWj0yNXIeo\n1ivgwsHs+5N7s/4FdGXBYgZcah3k+ikDt4qgl1s0V7N45vC50aRztND60dFxEEMY\nz85aCnV0np4ecV0VZ+xY\n=WCow\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 34f721d94169e0a374b1d0a043baaa3872d4a799\nparent e7c427adba96152e86f4e49baa861035d8f4a430\nauthor Mark Jerwin <git@jrwnnnn.me> 1785585084 +0800\ncommitter GitHub <noreply@github.com> 1785585084 +0800\n\nfeat: Add now/next EPG schedule to OSD (#11)\n\n* feat: Add now/next EPG schedule to OSD (#9)\n\n* fix: Render next schedule time on client",
-        "verified_at": "2026-08-01T11:51:24Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/3ace95206a41f42597f4111a3511b972bda6685a",
-    "html_url": "https://github.com/jrwnnnn/orbit/commit/3ace95206a41f42597f4111a3511b972bda6685a",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/orbit/commits/3ace95206a41f42597f4111a3511b972bda6685a/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "e7c427adba96152e86f4e49baa861035d8f4a430",
-        "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/e7c427adba96152e86f4e49baa861035d8f4a430",
-        "html_url": "https://github.com/jrwnnnn/orbit/commit/e7c427adba96152e86f4e49baa861035d8f4a430"
-      }
-    ],
-    "stats": {
-      "total": 88,
-      "additions": 86,
-      "deletions": 2
-    },
-    "files": [
-      {
-        "sha": "3cef2acc792971d1bec3c341470ff5780c655a45",
-        "filename": "src/lib/epg.ts",
-        "status": "added",
-        "additions": 53,
-        "deletions": 0,
-        "changes": 53,
-        "blob_url": "https://github.com/jrwnnnn/orbit/blob/3ace95206a41f42597f4111a3511b972bda6685a/src%2Flib%2Fepg.ts",
-        "raw_url": "https://github.com/jrwnnnn/orbit/raw/3ace95206a41f42597f4111a3511b972bda6685a/src%2Flib%2Fepg.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/src%2Flib%2Fepg.ts?ref=3ace95206a41f42597f4111a3511b972bda6685a",
-        "patch": "@@ -0,0 +1,53 @@\n+import { env } from \"cloudflare:workers\";\n+\n+interface EPG {\n+\tepg_list: {\n+\t\tdesc: string;\n+\t\tstart_date: Date;\n+\t\ttitle: string;\n+\t}[];\n+}\n+\n+export async function getNowNext(channel: string) {\n+\tconst EPGid = await env.DB.prepare(\"SELECT epg_id FROM channels WHERE id = ?\")\n+\t\t.bind(channel)\n+\t\t.first();\n+\n+\tlet epg: EPG;\n+\ttry {\n+\t\tif (!EPGid)\n+\t\t\tthrow new Error(`Channel ID for ${channel} not found in database`);\n+\n+\t\tconst res = await fetch(\n+\t\t\t`https://epg.pw/api/epg.json?lang=en&date=${new Date().toISOString().slice(0, 10).replace(/-/g, \"\")}&channel_id=${EPGid.epg_id}`,\n+\t\t);\n+\n+\t\tif (!res.ok) throw new Error(`${res.status} ${res.statusText}`);\n+\n+\t\tepg = await res.json();\n+\t} catch (e) {\n+\t\tconsole.error(`Error fetching EPG for channel ${channel}:`, e);\n+\t\treturn { now: null, next: null };\n+\t}\n+\n+\tconst list = epg.epg_list;\n+\tconst now = new Date().getTime();\n+\n+\tlet currentIndex = -1;\n+\tfor (let i = 0; i < list.length; i++) {\n+\t\tconst start = new Date(list[i].start_date).getTime();\n+\t\tif (start <= now) {\n+\t\t\tcurrentIndex = i;\n+\t\t} else {\n+\t\t\tbreak;\n+\t\t}\n+\t}\n+\n+\treturn {\n+\t\tnow: currentIndex >= 0 ? list[currentIndex] : null,\n+\t\tnext:\n+\t\t\tcurrentIndex >= 0 && currentIndex + 1 < list.length\n+\t\t\t\t? list[currentIndex + 1]\n+\t\t\t\t: null,\n+\t};\n+}\n\\ No newline at end of file"
-      },
-      {
-        "sha": "c7aaa77bce650e990b8282783b2ef57b99b7e13a",
-        "filename": "src/pages/[channel].astro",
-        "status": "modified",
-        "additions": 33,
-        "deletions": 2,
-        "changes": 35,
-        "blob_url": "https://github.com/jrwnnnn/orbit/blob/3ace95206a41f42597f4111a3511b972bda6685a/src%2Fpages%2F%5Bchannel%5D.astro",
-        "raw_url": "https://github.com/jrwnnnn/orbit/raw/3ace95206a41f42597f4111a3511b972bda6685a/src%2Fpages%2F%5Bchannel%5D.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/src%2Fpages%2F%5Bchannel%5D.astro?ref=3ace95206a41f42597f4111a3511b972bda6685a",
-        "patch": "@@ -1,6 +1,7 @@\n ---\n import { env } from \"cloudflare:workers\";\n import { getData } from \"../lib/iptv\";\n+import { getNowNext } from \"../lib/epg\";\n import Layout from \"../layouts/Layout.astro\";\n \n const { channel } = Astro.params;\n@@ -27,6 +28,7 @@ const nav = await env.DB.prepare(\n \t.first();\n \n const data = new Map((await getData()).map((c) => [c.id, c]));\n+const schedule = await getNowNext(channel as string);\n ---\n \n <Layout title={`${data.get(channel as string)?.name} - Orbit`}>\n@@ -57,8 +59,23 @@ const data = new Map((await getData()).map((c) => [c.id, c]));\n \t\t\t\t\t{data.get(channel as string)?.name}\n \t\t\t\t</p>\n \t\t\t\t<div id=\"osd-schedule\">\n-\t\t\t\t\t<p>Now:</p>\n-\t\t\t\t\t<p>Next:</p>\n+\t\t\t\t\t<p>Now: {schedule.now?.title}</p>\n+\t\t\t\t\t<p id=\"osd-schedule-next\">\n+\t\t\t\t\t\tNext: {schedule.next?.title}\n+\n+\t\t\t\t\t\t{\n+\t\t\t\t\t\t\tschedule.next?.start_date && (\n+\t\t\t\t\t\t\t\t<>\n+\t\t\t\t\t\t\t\t\t(\n+\t\t\t\t\t\t\t\t\t<span\n+\t\t\t\t\t\t\t\t\t\tid=\"osd-schedule-next-time\"\n+\t\t\t\t\t\t\t\t\t\tdata-start={schedule.next.start_date}\n+\t\t\t\t\t\t\t\t\t/>\n+\t\t\t\t\t\t\t\t\t)\n+\t\t\t\t\t\t\t\t</>\n+\t\t\t\t\t\t\t)\n+\t\t\t\t\t\t}\n+\t\t\t\t\t</p>\n \t\t\t\t</div>\n \t\t\t</div>\n \n@@ -128,3 +145,17 @@ const data = new Map((await getData()).map((c) => [c.id, c]));\n \n \tinitPlayer();\n </script>\n+\n+<script>\n+\tconst element = document.getElementById(\n+\t\t\"osd-schedule-next-time\",\n+\t) as HTMLSpanElement;\n+\tconst start = element.dataset.start;\n+\tif (start) {\n+\t\telement.textContent = new Date(start).toLocaleTimeString(\"en-US\", {\n+\t\t\thour: \"numeric\",\n+\t\t\tminute: \"2-digit\",\n+\t\t\thour12: true,\n+\t\t});\n+\t}\n+</script>"
       }
     ]
   }
