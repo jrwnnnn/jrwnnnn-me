@@ -1,5 +1,106 @@
 [
   {
+    "sha": "cd0b0c118b65c2dda51e563aa9559636292c7183",
+    "node_id": "C_kwDOQdLhx9oAKGNkMGIwYzExOGI2NWMyZGRhNTFlNTYzYWE5NTU5NjM2MjkyYzcxODM",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-08-09T12:56:49Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-08-09T12:56:49Z"
+      },
+      "message": "fix: Ignore stale errors from superseded channel switches (#15)",
+      "tree": {
+        "sha": "e8829bdab7a62841c4374ac3f529ae3c324e1382",
+        "url": "https://api.github.com/repos/jrwnnnn/orbit/git/trees/e8829bdab7a62841c4374ac3f529ae3c324e1382"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/orbit/git/commits/cd0b0c118b65c2dda51e563aa9559636292c7183",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqeHkRCRC1aQ7uu5UhlAAAWRYQAKf0MOrQJ2Cjc2/L35VNgmXP\nPDcmciQLqNJqvoQSZCPR9wPxmoHRwP4/mUSN7SWUP8+KXgA9B3w/sNqe6Kx7dLOj\nICpxA4rDuubeSqyq+xK38sqJ5jI0jcE1oM1q9plJNGnBOQmgIIFl2eO8SJBqMxu9\nP2oeMYWHvo86Ul3CGJY2LYkbO7UFDs+N/qxzy6wWheXllDm7NenNVza9i63gEJb+\n7XdA2g79nXHVN4iRlkCPz1hcq7RScQTg9pItcEexQhAwJzMauhL0/Nren8NxpGl0\nOif1xW+orBRjiM/9c9qHyC/kHr76z+SgrGpW6SgQQjO2eEiEPgtspKeSs91Rmy6G\n7U0jIzx7P5z/cq72YHE0rEMFRlerU04dBMutF3ZeZysKYGYB0Pws+U87fpQf8tWW\nH+dn5LPW+g9xJhODTrP1p5N4K3VK5ikQPu2D20cFxBqMHyeEXZ+DZGe/7bmt5yty\nGtVS1+b3tWyn8HqF7UXCRtNZ9ppMll1xw9J6eRjpLOQQBN8e+6lTGb9P+H00AF1O\neX5XpBLWmx5SyLbN9J4hs60mLMWtNu3UKFmbimVhNGlLB7qXzeDqGRh3AVd6lCdI\nJaQR+suTYO+PZZKUykuPLDpJ+RrWS8DYoBfgyfg8EShjp8XTimBdu9MBvrtTdgxT\n2h+q0zkSnqDQJFuAA88M\n=KuUk\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree e8829bdab7a62841c4374ac3f529ae3c324e1382\nparent 7d8b81c69c381d0fcfd72ce071fce75556baac14\nauthor Mark Jerwin <git@jrwnnnn.me> 1786280209 +0800\ncommitter GitHub <noreply@github.com> 1786280209 +0800\n\nfix: Ignore stale errors from superseded channel switches (#15)",
+        "verified_at": "2026-08-09T13:01:52Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/cd0b0c118b65c2dda51e563aa9559636292c7183",
+    "html_url": "https://github.com/jrwnnnn/orbit/commit/cd0b0c118b65c2dda51e563aa9559636292c7183",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/orbit/commits/cd0b0c118b65c2dda51e563aa9559636292c7183/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7d8b81c69c381d0fcfd72ce071fce75556baac14",
+        "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/7d8b81c69c381d0fcfd72ce071fce75556baac14",
+        "html_url": "https://github.com/jrwnnnn/orbit/commit/7d8b81c69c381d0fcfd72ce071fce75556baac14"
+      }
+    ],
+    "stats": {
+      "total": 26,
+      "additions": 17,
+      "deletions": 9
+    },
+    "files": [
+      {
+        "sha": "bada39c559664bee62aecff2c19fdd5362fb9a8d",
+        "filename": "src/App.vue",
+        "status": "modified",
+        "additions": 17,
+        "deletions": 9,
+        "changes": 26,
+        "blob_url": "https://github.com/jrwnnnn/orbit/blob/cd0b0c118b65c2dda51e563aa9559636292c7183/src%2FApp.vue",
+        "raw_url": "https://github.com/jrwnnnn/orbit/raw/cd0b0c118b65c2dda51e563aa9559636292c7183/src%2FApp.vue",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/src%2FApp.vue?ref=cd0b0c118b65c2dda51e563aa9559636292c7183",
+        "patch": "@@ -18,24 +18,27 @@ const epg = ref<NowNext>({\n \tnext: null,\n });\n \n-let player: Hls | null = null;\n+let hls: Hls | null = null;\n const hlsVideo = ref<HTMLVideoElement>();\n const smpte = ref<HTMLDivElement>();\n const osd = ref<HTMLDivElement>();\n const toast = ref<HTMLDivElement>();\n \n // Cleanup function to destroy the Hls instance and reset it\n function cleanup() {\n-\tplayer?.destroy();\n-\tplayer = null;\n+\thls?.destroy();\n+\thls = null;\n }\n \n watch(\n \tcurrentChannel,\n \tasync (id) => {\n+\t\t// Destroy the previous Hls instance and reset it to null to avoid memory leaks\n \t\tcleanup();\n+\n \t\tif (!id) return;\n \n+\t\t// Wait for the DOM to update.\n \t\tawait nextTick();\n \n \t\t// Fetch the current and next program information for the selected channel\n@@ -55,13 +58,16 @@ watch(\n \t\tif (!src || !hlsVideo.value) return;\n \n \t\tif (Hls.isSupported()) {\n-\t\t\tplayer = new Hls();\n-\t\t\tplayer.loadSource(src);\n-\t\t\tplayer.attachMedia(hlsVideo.value);\n+\t\t\t// Snapshot this instance so the error handler below can tell whether it's still the active player when it fires later\n+\t\t\tconst thisHls = new Hls();\n+\t\t\thls = thisHls;\n+\n+\t\t\thls.loadSource(src);\n+\t\t\thls.attachMedia(hlsVideo.value);\n \n-\t\t\t// Handle fatal HLS errors by cleaning up the player and showing an error message on the OSD\n-\t\t\tplayer.on(Hls.Events.ERROR, (_event, error) => {\n-\t\t\t\tconsole.warn(\"HLS error:\", error);\n+\t\t\thls.on(Hls.Events.ERROR, (_event, error) => {\n+\t\t\t\t// Ignore errors from previous Hls instances\n+\t\t\t\tif (hls !== thisHls) return;\n \n \t\t\t\tif (error.fatal) {\n \t\t\t\t\tconsole.error(\"HLS fatal error:\", error);\n@@ -74,6 +80,8 @@ watch(\n \t\t\t\t\t);\n \t\t\t\t\ttoast.value!.classList.remove(\"hidden\");\n \t\t\t\t\ttoast.value!.textContent = `Failed to load the stream: ${error.error?.message}`;\n+\t\t\t\t} else {\n+\t\t\t\t\tconsole.warn(\"HLS error:\", error);\n \t\t\t\t}\n \t\t\t});\n \t\t} else if (hlsVideo.value.canPlayType(\"application/vnd.apple.mpegurl\")) {"
+      }
+    ]
+  },
+  {
     "sha": "7d8b81c69c381d0fcfd72ce071fce75556baac14",
     "node_id": "C_kwDOQdLhx9oAKDdkOGI4MWM2OWMzODFkMGZjZmQ3MmNlMDcxZmNlNzU1NTZiYWFjMTQ",
     "commit": {
@@ -803,155 +904,6 @@
         "raw_url": "https://github.com/jrwnnnn/orbit/raw/3ace95206a41f42597f4111a3511b972bda6685a/wrangler.json",
         "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/wrangler.json?ref=3ace95206a41f42597f4111a3511b972bda6685a",
         "patch": "@@ -1,28 +0,0 @@\n-{\n-\t\"compatibility_date\": \"2026-04-01\",\n-\t\"compatibility_flags\": [\"global_fetch_strictly_public\", \"nodejs_compat\"],\n-\t\"name\": \"orbit\",\n-\t\"main\": \"@astrojs/cloudflare/entrypoints/server\",\n-\t\"assets\": {\n-\t\t\"directory\": \"./dist\",\n-\t\t\"binding\": \"ASSETS\"\n-\t},\n-\t\"d1_databases\": [\n-\t\t{\n-\t\t\t\"binding\": \"DB\",\n-\t\t\t\"database_name\": \"just-tv\",\n-\t\t\t\"database_id\": \"a0418840-d329-4090-b4d8-dae33f6008fb\",\n-\t\t\t\"remote\": true\n-\t\t}\n-\t],\n-\t\"kv_namespaces\": [\n-\t\t{\n-\t\t\t\"binding\": \"SESSION\",\n-\t\t\t\"id\": \"2cfa199f278847dbb3ef342bf638af4d\",\n-\t\t\t\"remote\": true\n-\t\t}\n-\t],\n-\t\"observability\": {\n-\t\t\"enabled\": true\n-\t}\n-}"
-      }
-    ]
-  },
-  {
-    "sha": "3c0a65dfa01392e109d81623785dc39fdf68fd0f",
-    "node_id": "C_kwDORCOQn9oAKDNjMGE2NWRmYTAxMzkyZTEwOWQ4MTYyMzc4NWRjMzlmZGY2OGZkMGY",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-08-05T11:02:11Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-08-05T11:02:11Z"
-      },
-      "message": "refactor: Move custom fonts into src assets (#129)",
-      "tree": {
-        "sha": "ddad39b9a9bd86bae7a90f38ecae19e5a9cd2da4",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/ddad39b9a9bd86bae7a90f38ecae19e5a9cd2da4"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/3c0a65dfa01392e109d81623785dc39fdf68fd0f",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqcxgzCRC1aQ7uu5UhlAAAjaQQABAzN9TQvzgchCw83wg+mV2z\ns741fLZl1WsAGv8IMaq08lhI/Q1rShnzPqMfcbXm4jpUaynMZ68orNnTfQGyCmVp\nQHWT/jKk5JNozFLUyMIk1vYNnDDyQepo8z+o3mLMQ9WP9O9fGr/4QkVzA00fNLje\ndrwKVACqLtQeJUGJRRdNUTjz2YFy8jrmwqn1BjH25kIApmwesg4EVBKgOzO44hnM\nc69XiTsI3kEiPn3t/f+mhNR4iCZ8WESfAUZLk67e38o0qiwPfotUygb7o834XsGM\nuCwJckE9cJin7sQ5Qf2URUmUfQVJzTJunnRgCQpjfeKrNfWlWx/H3d6aQK2fmxI/\n6YT9ealdZmn24e8Joq/VdV4u2PlgbxhgMW6Z4H6hSRH0iLMP7Uar4H6+crR9zUpx\nUthGYjf2JpzXdZ6kSxJCkWMVe2Gooql2tSnhEftM2fyxYecifstXSYBZnWswH7+v\nLuStMMP7FiG4ZMG3PpxNV/lUj9HCVt8eAiGdUCe05cVsiijdy7UmHUs3ifm+NWLG\nLmrrIlcuE4ZpOwmIQ+mW7dxQw7jwcStIh690XoH8fWsjriq2nHNZA7yoZJVXOdaC\nN9M2bhYe30WGve2OgbcLHqwj7B8I57DsQkmP4TB5EW+UvV6DhfMONA67DeD2oFvo\njCjIzR2nZjfmXPWN2X05\n=mCuu\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree ddad39b9a9bd86bae7a90f38ecae19e5a9cd2da4\nparent a9885c51ae2c9f60922ebd493c7172bc7b560e91\nauthor Mark Jerwin <git@jrwnnnn.me> 1785927731 +0800\ncommitter GitHub <noreply@github.com> 1785927731 +0800\n\nrefactor: Move custom fonts into src assets (#129)",
-        "verified_at": "2026-08-05T12:45:40Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/3c0a65dfa01392e109d81623785dc39fdf68fd0f",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/3c0a65dfa01392e109d81623785dc39fdf68fd0f",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/3c0a65dfa01392e109d81623785dc39fdf68fd0f/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "a9885c51ae2c9f60922ebd493c7172bc7b560e91",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/a9885c51ae2c9f60922ebd493c7172bc7b560e91",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/a9885c51ae2c9f60922ebd493c7172bc7b560e91"
-      }
-    ],
-    "stats": {
-      "total": 4,
-      "additions": 2,
-      "deletions": 2
-    },
-    "files": [
-      {
-        "sha": "a5c2627a14a253fdc4cc4f700c9faea70d22b893",
-        "filename": "src/assets/fonts/terminus/LICENSE",
-        "status": "renamed",
-        "additions": 0,
-        "deletions": 0,
-        "changes": 0,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/3c0a65dfa01392e109d81623785dc39fdf68fd0f/src%2Fassets%2Ffonts%2Fterminus%2FLICENSE",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/3c0a65dfa01392e109d81623785dc39fdf68fd0f/src%2Fassets%2Ffonts%2Fterminus%2FLICENSE",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fassets%2Ffonts%2Fterminus%2FLICENSE?ref=3c0a65dfa01392e109d81623785dc39fdf68fd0f",
-        "previous_filename": "public/fonts/terminus/LICENSE"
-      },
-      {
-        "sha": "728475bda3426140f604f44da5b155011979eedf",
-        "filename": "src/assets/fonts/terminus/Terminus.woff2",
-        "status": "renamed",
-        "additions": 0,
-        "deletions": 0,
-        "changes": 0,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/3c0a65dfa01392e109d81623785dc39fdf68fd0f/src%2Fassets%2Ffonts%2Fterminus%2FTerminus.woff2",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/3c0a65dfa01392e109d81623785dc39fdf68fd0f/src%2Fassets%2Ffonts%2Fterminus%2FTerminus.woff2",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fassets%2Ffonts%2Fterminus%2FTerminus.woff2?ref=3c0a65dfa01392e109d81623785dc39fdf68fd0f",
-        "previous_filename": "public/fonts/terminus/Terminus.woff2"
-      },
-      {
-        "sha": "7d4f96c54aa155a17387e64501c50b6a0469932c",
-        "filename": "src/assets/fonts/vile-r/LICENSE",
-        "status": "renamed",
-        "additions": 0,
-        "deletions": 0,
-        "changes": 0,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/3c0a65dfa01392e109d81623785dc39fdf68fd0f/src%2Fassets%2Ffonts%2Fvile-r%2FLICENSE",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/3c0a65dfa01392e109d81623785dc39fdf68fd0f/src%2Fassets%2Ffonts%2Fvile-r%2FLICENSE",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fassets%2Ffonts%2Fvile-r%2FLICENSE?ref=3c0a65dfa01392e109d81623785dc39fdf68fd0f",
-        "previous_filename": "public/fonts/vile-r/LICENSE"
-      },
-      {
-        "sha": "196aa2752f8c0d5c16e970dcef8c1a658a7470f4",
-        "filename": "src/assets/fonts/vile-r/ibm-vga-8x16.woff2",
-        "status": "renamed",
-        "additions": 0,
-        "deletions": 0,
-        "changes": 0,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/3c0a65dfa01392e109d81623785dc39fdf68fd0f/src%2Fassets%2Ffonts%2Fvile-r%2Fibm-vga-8x16.woff2",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/3c0a65dfa01392e109d81623785dc39fdf68fd0f/src%2Fassets%2Ffonts%2Fvile-r%2Fibm-vga-8x16.woff2",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fassets%2Ffonts%2Fvile-r%2Fibm-vga-8x16.woff2?ref=3c0a65dfa01392e109d81623785dc39fdf68fd0f",
-        "previous_filename": "public/fonts/vile-r/ibm-vga-8x16.woff2"
-      },
-      {
-        "sha": "e61ea98a0b50459586c2873eb1438cf602eb8ca8",
-        "filename": "src/styles/global.css",
-        "status": "modified",
-        "additions": 2,
-        "deletions": 2,
-        "changes": 4,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/3c0a65dfa01392e109d81623785dc39fdf68fd0f/src%2Fstyles%2Fglobal.css",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/3c0a65dfa01392e109d81623785dc39fdf68fd0f/src%2Fstyles%2Fglobal.css",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/src%2Fstyles%2Fglobal.css?ref=3c0a65dfa01392e109d81623785dc39fdf68fd0f",
-        "patch": "@@ -2,12 +2,12 @@\n \n @font-face {\n \tfont-family: \"ibm\";\n-\tsrc: url(/fonts/vile-r/ibm-vga-8x16.woff2) format(\"woff2\");\n+\tsrc: url(../assets/fonts/vile-r/ibm-vga-8x16.woff2) format(\"woff2\");\n }\n \n @font-face {\n \tfont-family: \"Terminus\";\n-\tsrc: url(/fonts/terminus/Terminus.woff2) format(\"woff2\");\n+\tsrc: url(../assets/fonts/terminus/Terminus.woff2) format(\"woff2\");\n }\n \n @theme {"
       }
     ]
   }
