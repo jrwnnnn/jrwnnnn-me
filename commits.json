@@ -1,5 +1,129 @@
 [
   {
+    "sha": "d38ab1ddd2e8424baf36befd2ff10c2f7e8ed48c",
+    "node_id": "C_kwDOQdLhx9oAKGQzOGFiMWRkZDJlODQyNGJhZjM2YmVmZDJmZjEwYzJmN2U4ZWQ0OGM",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-08-10T08:11:03Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-08-10T08:11:03Z"
+      },
+      "message": "chore: Allow vite dev server to run inside webOS simulator (#21)",
+      "tree": {
+        "sha": "3dd8397451d19f5668abd0d4f3a3b49b03e665ba",
+        "url": "https://api.github.com/repos/jrwnnnn/orbit/git/trees/3dd8397451d19f5668abd0d4f3a3b49b03e665ba"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/orbit/git/commits/d38ab1ddd2e8424baf36befd2ff10c2f7e8ed48c",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqeYeXCRC1aQ7uu5UhlAAAG+sQADLAj1UZTZq/7k1X9o6V6lyj\nZ0YRlEoNSyxKfx2ZFjX9sv6qBcsyE7hBwWmDIPX3t64b00/OmkKlq2/w7veNsDeX\nBxHECWBd6DijeHkCcQKRSWK3VVbKofSZTCVBOKuBQr0ZTMgKrfnIqNR2C1ADMFdy\nHOAhEgVHVSI8XNQ8f0wGXg+86vnUbrhJ4Rka9yPolyWDaHxtSfi32ylFCZtO+KR4\nB8gf/sS0H9ZgSoykE2e8cPmH8Jary7v7A4ID2/HrjCdMNsqJLq0p1t3oHzYJI3Qf\nlcASdoDYr96HNsnnzMJyeHFIxkalV1Ct7oojg12Ntj6PDPfivMyibaUcNRi4Wgbz\nD3ODrJah7IuHUNui5SdtY6ct10ah4MEE/lZCWTAxm044Lq+dHEgEhYDsUd3QJXqE\n1KMvaCMGEaJzJ8t4p8qmxSVfgiNBWj0gfSSomzZvRG5nWDE3t/FzQRWpzZjauXfY\nlEO7gm+Z6b/mNWskBl0v9gKsargJUzWz+oAjPLWPLGD69VdZe6cHwgj+g8wU/r8V\nzTWeql0qAadjmQLOOBN5J/B4G0bpT9rSSMrSDa6nxFSeBW2OP9tRlc7ojwivoy1z\n2zhz37S3dVVjFam5tvtqoZJmc7Mr9QosK4ZDJe+1OIUNE97d5BVNzOVgXU8M+S+n\n87t0bk6/uTS0OBkRIJpd\n=mgmK\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 3dd8397451d19f5668abd0d4f3a3b49b03e665ba\nparent 00e84d18035d7da10890395540b0b1a26f1905c5\nauthor Mark Jerwin <git@jrwnnnn.me> 1786349463 +0800\ncommitter GitHub <noreply@github.com> 1786349463 +0800\n\nchore: Allow vite dev server to run inside webOS simulator (#21)",
+        "verified_at": "2026-08-10T09:04:31Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/d38ab1ddd2e8424baf36befd2ff10c2f7e8ed48c",
+    "html_url": "https://github.com/jrwnnnn/orbit/commit/d38ab1ddd2e8424baf36befd2ff10c2f7e8ed48c",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/orbit/commits/d38ab1ddd2e8424baf36befd2ff10c2f7e8ed48c/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "00e84d18035d7da10890395540b0b1a26f1905c5",
+        "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/00e84d18035d7da10890395540b0b1a26f1905c5",
+        "html_url": "https://github.com/jrwnnnn/orbit/commit/00e84d18035d7da10890395540b0b1a26f1905c5"
+      }
+    ],
+    "stats": {
+      "total": 17,
+      "additions": 17,
+      "deletions": 0
+    },
+    "files": [
+      {
+        "sha": "083892ca33918e0b1456f4b7e9688a15a9906f31",
+        "filename": "dev/appinfo.json",
+        "status": "added",
+        "additions": 10,
+        "deletions": 0,
+        "changes": 10,
+        "blob_url": "https://github.com/jrwnnnn/orbit/blob/d38ab1ddd2e8424baf36befd2ff10c2f7e8ed48c/dev%2Fappinfo.json",
+        "raw_url": "https://github.com/jrwnnnn/orbit/raw/d38ab1ddd2e8424baf36befd2ff10c2f7e8ed48c/dev%2Fappinfo.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/dev%2Fappinfo.json?ref=d38ab1ddd2e8424baf36befd2ff10c2f7e8ed48c",
+        "patch": "@@ -0,0 +1,10 @@\n+{\n+\t\"id\": \"com.jrwnnnn.orbit\",\n+\t\"version\": \"1.0.0\",\n+\t\"vendor\": \"Orbit\",\n+\t\"type\": \"web\",\n+\t\"main\": \"index.html\",\n+\t\"title\": \"Orbit Developer\",\n+\t\"icon\": \"favicon.png\",\n+\t\"bgColor\": \"#000000\"\n+}"
+      },
+      {
+        "sha": "35c7221e5de4a062e018ecc6e01728853f7fbf5e",
+        "filename": "dev/favicon.png",
+        "status": "added",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/orbit/blob/d38ab1ddd2e8424baf36befd2ff10c2f7e8ed48c/dev%2Ffavicon.png",
+        "raw_url": "https://github.com/jrwnnnn/orbit/raw/d38ab1ddd2e8424baf36befd2ff10c2f7e8ed48c/dev%2Ffavicon.png",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/dev%2Ffavicon.png?ref=d38ab1ddd2e8424baf36befd2ff10c2f7e8ed48c"
+      },
+      {
+        "sha": "800ea67ab90c3f9cbaa8c3e51e09d91ad0f6dffe",
+        "filename": "dev/index.html",
+        "status": "added",
+        "additions": 7,
+        "deletions": 0,
+        "changes": 7,
+        "blob_url": "https://github.com/jrwnnnn/orbit/blob/d38ab1ddd2e8424baf36befd2ff10c2f7e8ed48c/dev%2Findex.html",
+        "raw_url": "https://github.com/jrwnnnn/orbit/raw/d38ab1ddd2e8424baf36befd2ff10c2f7e8ed48c/dev%2Findex.html",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/dev%2Findex.html?ref=d38ab1ddd2e8424baf36befd2ff10c2f7e8ed48c",
+        "patch": "@@ -0,0 +1,7 @@\n+<!doctype html>\n+<html>\n+\t<head>\n+\t\t<meta http-equiv=\"refresh\" content=\"0;url=http://localhost:5173/\" />\n+\t</head>\n+\t<body></body>\n+</html>"
+      }
+    ]
+  },
+  {
     "sha": "f6043ce724504985b71cc72c921328431ff1d403",
     "node_id": "C_kwDORz-DOdoAKGY2MDQzY2U3MjQ1MDQ5ODViNzFjYzcyYzkyMTMyODQzMWZmMWQ0MDM",
     "commit": {
@@ -549,107 +673,6 @@
         "raw_url": "https://github.com/jrwnnnn/scaffold-typescript/raw/58556359e79a320a696f51584f164471ac47e097/wrangler.json",
         "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold-typescript/contents/wrangler.json?ref=58556359e79a320a696f51584f164471ac47e097",
         "patch": "@@ -0,0 +1,11 @@\n+{\n+\t\"$schema\": \"node_modules/wrangler/config-schema.json\",\n+\t\"compatibility_date\": \"2026-04-01\",\n+\t\"compatibility_flags\": [\"nodejs_compat\"],\n+\t\"name\": \"scaffold-typescript\",\n+\t\"main\": \"src/index.ts\",\n+\t\"observability\": {\n+\t\t\"enabled\": true\n+\t},\n+\t\"upload_source_maps\": true\n+}"
-      }
-    ]
-  },
-  {
-    "sha": "cd0b0c118b65c2dda51e563aa9559636292c7183",
-    "node_id": "C_kwDOQdLhx9oAKGNkMGIwYzExOGI2NWMyZGRhNTFlNTYzYWE5NTU5NjM2MjkyYzcxODM",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-08-09T12:56:49Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-08-09T12:56:49Z"
-      },
-      "message": "fix: Ignore stale errors from superseded channel switches (#15)",
-      "tree": {
-        "sha": "e8829bdab7a62841c4374ac3f529ae3c324e1382",
-        "url": "https://api.github.com/repos/jrwnnnn/orbit/git/trees/e8829bdab7a62841c4374ac3f529ae3c324e1382"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/orbit/git/commits/cd0b0c118b65c2dda51e563aa9559636292c7183",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqeHkRCRC1aQ7uu5UhlAAAWRYQAKf0MOrQJ2Cjc2/L35VNgmXP\nPDcmciQLqNJqvoQSZCPR9wPxmoHRwP4/mUSN7SWUP8+KXgA9B3w/sNqe6Kx7dLOj\nICpxA4rDuubeSqyq+xK38sqJ5jI0jcE1oM1q9plJNGnBOQmgIIFl2eO8SJBqMxu9\nP2oeMYWHvo86Ul3CGJY2LYkbO7UFDs+N/qxzy6wWheXllDm7NenNVza9i63gEJb+\n7XdA2g79nXHVN4iRlkCPz1hcq7RScQTg9pItcEexQhAwJzMauhL0/Nren8NxpGl0\nOif1xW+orBRjiM/9c9qHyC/kHr76z+SgrGpW6SgQQjO2eEiEPgtspKeSs91Rmy6G\n7U0jIzx7P5z/cq72YHE0rEMFRlerU04dBMutF3ZeZysKYGYB0Pws+U87fpQf8tWW\nH+dn5LPW+g9xJhODTrP1p5N4K3VK5ikQPu2D20cFxBqMHyeEXZ+DZGe/7bmt5yty\nGtVS1+b3tWyn8HqF7UXCRtNZ9ppMll1xw9J6eRjpLOQQBN8e+6lTGb9P+H00AF1O\neX5XpBLWmx5SyLbN9J4hs60mLMWtNu3UKFmbimVhNGlLB7qXzeDqGRh3AVd6lCdI\nJaQR+suTYO+PZZKUykuPLDpJ+RrWS8DYoBfgyfg8EShjp8XTimBdu9MBvrtTdgxT\n2h+q0zkSnqDQJFuAA88M\n=KuUk\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree e8829bdab7a62841c4374ac3f529ae3c324e1382\nparent 7d8b81c69c381d0fcfd72ce071fce75556baac14\nauthor Mark Jerwin <git@jrwnnnn.me> 1786280209 +0800\ncommitter GitHub <noreply@github.com> 1786280209 +0800\n\nfix: Ignore stale errors from superseded channel switches (#15)",
-        "verified_at": "2026-08-09T13:01:52Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/cd0b0c118b65c2dda51e563aa9559636292c7183",
-    "html_url": "https://github.com/jrwnnnn/orbit/commit/cd0b0c118b65c2dda51e563aa9559636292c7183",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/orbit/commits/cd0b0c118b65c2dda51e563aa9559636292c7183/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "7d8b81c69c381d0fcfd72ce071fce75556baac14",
-        "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/7d8b81c69c381d0fcfd72ce071fce75556baac14",
-        "html_url": "https://github.com/jrwnnnn/orbit/commit/7d8b81c69c381d0fcfd72ce071fce75556baac14"
-      }
-    ],
-    "stats": {
-      "total": 26,
-      "additions": 17,
-      "deletions": 9
-    },
-    "files": [
-      {
-        "sha": "bada39c559664bee62aecff2c19fdd5362fb9a8d",
-        "filename": "src/App.vue",
-        "status": "modified",
-        "additions": 17,
-        "deletions": 9,
-        "changes": 26,
-        "blob_url": "https://github.com/jrwnnnn/orbit/blob/cd0b0c118b65c2dda51e563aa9559636292c7183/src%2FApp.vue",
-        "raw_url": "https://github.com/jrwnnnn/orbit/raw/cd0b0c118b65c2dda51e563aa9559636292c7183/src%2FApp.vue",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/src%2FApp.vue?ref=cd0b0c118b65c2dda51e563aa9559636292c7183",
-        "patch": "@@ -18,24 +18,27 @@ const epg = ref<NowNext>({\n \tnext: null,\n });\n \n-let player: Hls | null = null;\n+let hls: Hls | null = null;\n const hlsVideo = ref<HTMLVideoElement>();\n const smpte = ref<HTMLDivElement>();\n const osd = ref<HTMLDivElement>();\n const toast = ref<HTMLDivElement>();\n \n // Cleanup function to destroy the Hls instance and reset it\n function cleanup() {\n-\tplayer?.destroy();\n-\tplayer = null;\n+\thls?.destroy();\n+\thls = null;\n }\n \n watch(\n \tcurrentChannel,\n \tasync (id) => {\n+\t\t// Destroy the previous Hls instance and reset it to null to avoid memory leaks\n \t\tcleanup();\n+\n \t\tif (!id) return;\n \n+\t\t// Wait for the DOM to update.\n \t\tawait nextTick();\n \n \t\t// Fetch the current and next program information for the selected channel\n@@ -55,13 +58,16 @@ watch(\n \t\tif (!src || !hlsVideo.value) return;\n \n \t\tif (Hls.isSupported()) {\n-\t\t\tplayer = new Hls();\n-\t\t\tplayer.loadSource(src);\n-\t\t\tplayer.attachMedia(hlsVideo.value);\n+\t\t\t// Snapshot this instance so the error handler below can tell whether it's still the active player when it fires later\n+\t\t\tconst thisHls = new Hls();\n+\t\t\thls = thisHls;\n+\n+\t\t\thls.loadSource(src);\n+\t\t\thls.attachMedia(hlsVideo.value);\n \n-\t\t\t// Handle fatal HLS errors by cleaning up the player and showing an error message on the OSD\n-\t\t\tplayer.on(Hls.Events.ERROR, (_event, error) => {\n-\t\t\t\tconsole.warn(\"HLS error:\", error);\n+\t\t\thls.on(Hls.Events.ERROR, (_event, error) => {\n+\t\t\t\t// Ignore errors from previous Hls instances\n+\t\t\t\tif (hls !== thisHls) return;\n \n \t\t\t\tif (error.fatal) {\n \t\t\t\t\tconsole.error(\"HLS fatal error:\", error);\n@@ -74,6 +80,8 @@ watch(\n \t\t\t\t\t);\n \t\t\t\t\ttoast.value!.classList.remove(\"hidden\");\n \t\t\t\t\ttoast.value!.textContent = `Failed to load the stream: ${error.error?.message}`;\n+\t\t\t\t} else {\n+\t\t\t\t\tconsole.warn(\"HLS error:\", error);\n \t\t\t\t}\n \t\t\t});\n \t\t} else if (hlsVideo.value.canPlayType(\"application/vnd.apple.mpegurl\")) {"
       }
     ]
   }
