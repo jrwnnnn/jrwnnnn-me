@@ -1,5 +1,344 @@
 [
   {
+    "sha": "797457d9bcc4f6a05e0bbf5fa80fcf034a267477",
+    "node_id": "C_kwDOQdLhx9oAKDc5NzQ1N2Q5YmNjNGY2YTA1ZTBiYmY1ZmE4MGZjZjAzNGEyNjc0Nzc",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-08-11T02:25:05Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-08-11T02:25:05Z"
+      },
+      "message": "docs: Update README [skip ci]",
+      "tree": {
+        "sha": "7328869e559f5ba76a1dd79b8345060badd0d746",
+        "url": "https://api.github.com/repos/jrwnnnn/orbit/git/trees/7328869e559f5ba76a1dd79b8345060badd0d746"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/orbit/git/commits/797457d9bcc4f6a05e0bbf5fa80fcf034a267477",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQB1W1xHZYKvbfK94LJCv4odSbzFTE8EgyEBbJ500ZPaVf2hcRLiqLLd28gcS6NnYEe\nVTSCyDXUab8LBhhcAGYQU=\n-----END SSH SIGNATURE-----",
+        "payload": "tree 7328869e559f5ba76a1dd79b8345060badd0d746\nparent 78a8cdadd7f427f6ac09e720170f59844a7952ac\nauthor Mark Jerwin <git@jrwnnnn.me> 1786415105 +0800\ncommitter Mark Jerwin <git@jrwnnnn.me> 1786415105 +0800\n\ndocs: Update README [skip ci]\n",
+        "verified_at": "2026-08-11T02:25:38Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/797457d9bcc4f6a05e0bbf5fa80fcf034a267477",
+    "html_url": "https://github.com/jrwnnnn/orbit/commit/797457d9bcc4f6a05e0bbf5fa80fcf034a267477",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/orbit/commits/797457d9bcc4f6a05e0bbf5fa80fcf034a267477/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "78a8cdadd7f427f6ac09e720170f59844a7952ac",
+        "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/78a8cdadd7f427f6ac09e720170f59844a7952ac",
+        "html_url": "https://github.com/jrwnnnn/orbit/commit/78a8cdadd7f427f6ac09e720170f59844a7952ac"
+      }
+    ],
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1
+    },
+    "files": [
+      {
+        "sha": "1ca3575996e4bcee50838f07fc5ac0b679acec62",
+        "filename": "README.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/orbit/blob/797457d9bcc4f6a05e0bbf5fa80fcf034a267477/README.md",
+        "raw_url": "https://github.com/jrwnnnn/orbit/raw/797457d9bcc4f6a05e0bbf5fa80fcf034a267477/README.md",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/README.md?ref=797457d9bcc4f6a05e0bbf5fa80fcf034a267477",
+        "patch": "@@ -21,7 +21,7 @@ Your LG webOS TV must have Developer Mode enabled and connected to your local ne\n \n ### Option 1: webOS Dev Manager (Recommended)\n \n-1. Download and install the [webOS Dev Manager](https://github.com/webosbrew/webos-dev-manager).\n+1. Download and install the [webOS Dev Manager](https://github.com/webosbrew/dev-manager-desktop).\n 2. Connect the webOS Dev Manager to your TV using your Developer Mode credentials.\n 3. Download latest version of Orbit from the [Releases](https://github.com/jrwnnnn/orbit/releases/latest) page.\n 4. Open the webOS Dev Manager, click Install, and select the `.ipk` file."
+      }
+    ]
+  },
+  {
+    "sha": "78a8cdadd7f427f6ac09e720170f59844a7952ac",
+    "node_id": "C_kwDOQdLhx9oAKDc4YThjZGFkZDdmNDI3ZjZhYzA5ZTcyMDE3MGY1OTg0NGE3OTUyYWM",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-08-11T02:19:02Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-08-11T02:19:02Z"
+      },
+      "message": "chore: Bump version",
+      "tree": {
+        "sha": "95fd9ec3ab4b07a3d78d2b5ad733e2ba6bb468d8",
+        "url": "https://api.github.com/repos/jrwnnnn/orbit/git/trees/95fd9ec3ab4b07a3d78d2b5ad733e2ba6bb468d8"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/orbit/git/commits/78a8cdadd7f427f6ac09e720170f59844a7952ac",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQB+JKSQnrHywDQA80eAUPAx1HqwwYI4ajNMZfzjzNGkR9w6Y6efIbwOZnzKyqLdeDL\n70AJQc+RjtlE1xn2a+vgk=\n-----END SSH SIGNATURE-----",
+        "payload": "tree 95fd9ec3ab4b07a3d78d2b5ad733e2ba6bb468d8\nparent f9515df83bff78185d291f6c60ff9330dbad81b9\nauthor Mark Jerwin <git@jrwnnnn.me> 1786414742 +0800\ncommitter Mark Jerwin <git@jrwnnnn.me> 1786414742 +0800\n\nchore: Bump version\n",
+        "verified_at": "2026-08-11T02:22:44Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/78a8cdadd7f427f6ac09e720170f59844a7952ac",
+    "html_url": "https://github.com/jrwnnnn/orbit/commit/78a8cdadd7f427f6ac09e720170f59844a7952ac",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/orbit/commits/78a8cdadd7f427f6ac09e720170f59844a7952ac/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f9515df83bff78185d291f6c60ff9330dbad81b9",
+        "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/f9515df83bff78185d291f6c60ff9330dbad81b9",
+        "html_url": "https://github.com/jrwnnnn/orbit/commit/f9515df83bff78185d291f6c60ff9330dbad81b9"
+      }
+    ],
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1
+    },
+    "files": [
+      {
+        "sha": "15d2c870b75d60dbc0a699cf832fd4a79239fa33",
+        "filename": "public/appinfo.json",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/orbit/blob/78a8cdadd7f427f6ac09e720170f59844a7952ac/public%2Fappinfo.json",
+        "raw_url": "https://github.com/jrwnnnn/orbit/raw/78a8cdadd7f427f6ac09e720170f59844a7952ac/public%2Fappinfo.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/public%2Fappinfo.json?ref=78a8cdadd7f427f6ac09e720170f59844a7952ac",
+        "patch": "@@ -1,6 +1,6 @@\n {\n \t\"id\": \"com.jrwnnnn.orbit\",\n-\t\"version\": \"1.0.0\",\n+\t\"version\": \"1.1.0\",\n \t\"vendor\": \"Orbit\",\n \t\"type\": \"web\",\n \t\"main\": \"index.html\","
+      }
+    ]
+  },
+  {
+    "sha": "f9515df83bff78185d291f6c60ff9330dbad81b9",
+    "node_id": "C_kwDOQdLhx9oAKGY5NTE1ZGY4M2JmZjc4MTg1ZDI5MWY2YzYwZmY5MzMwZGJhZDgxYjk",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-08-11T02:09:33Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-08-11T02:09:33Z"
+      },
+      "message": "feat: Fetch channels from Orbit API instead of local JSON (#23)\n\n* feat: Fetch channels from Orbit API instead of local JSON\n\n* feat: Prevent OSD from rendering until channels have loaded\n\n* chore: Bump version",
+      "tree": {
+        "sha": "625e9297d203ea522e9d56dd7de7e5c449204183",
+        "url": "https://api.github.com/repos/jrwnnnn/orbit/git/trees/625e9297d203ea522e9d56dd7de7e5c449204183"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/orbit/git/commits/f9515df83bff78185d291f6c60ff9330dbad81b9",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqeoRdCRC1aQ7uu5UhlAAAblwQAJFgfNqdLu0pnrNzMNXUlu4m\nNAtEIqCw2KFsUI2ql724n+hAdP4HAibxBhtm46wl2+Dim5T2W2/hSgSRk4ZWOEJg\n8NOPktiL7RtiflDYGIyBIi/b2u5osnBbvyTqBTgM4RcyOlzacfdh5CoAmmykmcfv\nI+/0ndSBvD2N3vrbY0L3cqkqUgUKAdNsnZOFu+na8e/fY0u6dD3Q2wSvL7FS66uh\nua23tUEFuw5MUMG2P3ZLK/H80imwYeGC0FqQLSr010NselIspWZ71qFYHK5iXYJm\nsu6IValZMZnWHsHxWAmOBld3UBXvFGZD0oNAAOu4idrvKYtS3rH3F3SaOPB0c6ps\nLuzP3qzTXWpCip/G7f5B4gK1FCiiYkM3BBBbhJXaqt5pht1Pw4V9arT96JLoZlhK\ndaluRrZvZZlo+r5+jTeRWYZJIl3EL5n0THrVbahSsln/u8hZidPG636/wwD4FYMg\nw9uKbUTyz7W4tRx/J1SzHCyGeANLNu3hAEuP4MhTDIU45tcJZjRHLiKQrwFuTmZ5\nbz66RZq6cXpfUKZgczlKRDK6fqezSk3lZ8EWStiPlBXE5X1bQHwWqcm+0lI78Ayl\nKP6SnHDKklKq7RFVZf6VsDo/OhuIU2V/HFFlslWest37GxbzhBfD3wJxpPVUEVX7\nr3QxtYfBdP8YEcxVFbLr\n=U2Oc\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 625e9297d203ea522e9d56dd7de7e5c449204183\nparent 2c625f459bd49a2455c35046180afb68f2434eac\nauthor Mark Jerwin <git@jrwnnnn.me> 1786414173 +0800\ncommitter GitHub <noreply@github.com> 1786414173 +0800\n\nfeat: Fetch channels from Orbit API instead of local JSON (#23)\n\n* feat: Fetch channels from Orbit API instead of local JSON\n\n* feat: Prevent OSD from rendering until channels have loaded\n\n* chore: Bump version",
+        "verified_at": "2026-08-11T02:11:20Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/f9515df83bff78185d291f6c60ff9330dbad81b9",
+    "html_url": "https://github.com/jrwnnnn/orbit/commit/f9515df83bff78185d291f6c60ff9330dbad81b9",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/orbit/commits/f9515df83bff78185d291f6c60ff9330dbad81b9/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2c625f459bd49a2455c35046180afb68f2434eac",
+        "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/2c625f459bd49a2455c35046180afb68f2434eac",
+        "html_url": "https://github.com/jrwnnnn/orbit/commit/2c625f459bd49a2455c35046180afb68f2434eac"
+      }
+    ],
+    "stats": {
+      "total": 1345,
+      "additions": 61,
+      "deletions": 1284
+    },
+    "files": [
+      {
+        "sha": "b12082ba405b5e1e93e064384837e6bf64138df6",
+        "filename": "package.json",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/orbit/blob/f9515df83bff78185d291f6c60ff9330dbad81b9/package.json",
+        "raw_url": "https://github.com/jrwnnnn/orbit/raw/f9515df83bff78185d291f6c60ff9330dbad81b9/package.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/package.json?ref=f9515df83bff78185d291f6c60ff9330dbad81b9",
+        "patch": "@@ -1,7 +1,7 @@\n {\n \t\"name\": \"orbit\",\n \t\"private\": true,\n-\t\"version\": \"0.0.0\",\n+\t\"version\": \"1.1.0\",\n \t\"type\": \"module\",\n \t\"scripts\": {\n \t\t\"dev\": \"vite\","
+      },
+      {
+        "sha": "3872a9770ef65b0d9ab06b12a05d6f6aad178300",
+        "filename": "src/App.vue",
+        "status": "modified",
+        "additions": 54,
+        "deletions": 10,
+        "changes": 64,
+        "blob_url": "https://github.com/jrwnnnn/orbit/blob/f9515df83bff78185d291f6c60ff9330dbad81b9/src%2FApp.vue",
+        "raw_url": "https://github.com/jrwnnnn/orbit/raw/f9515df83bff78185d291f6c60ff9330dbad81b9/src%2FApp.vue",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/src%2FApp.vue?ref=f9515df83bff78185d291f6c60ff9330dbad81b9",
+        "patch": "@@ -1,15 +1,29 @@\n <script setup lang=\"ts\">\n-import channels from \"@/data/channels.json\";\n import { getNowNext, type NowNext } from \"@/lib/epg\";\n import Hls from \"hls.js\";\n import { nextTick, onBeforeUnmount, onMounted, ref, watch } from \"vue\";\n \n-// Create a map of channel IDs to channel objects\n-const channelsMap = new Map(channels.map((c) => [c.id, c]));\n+interface Channel {\n+\tid: string;\n+\tname: string;\n+\talt_names: string[];\n+\tnetwork: string | null;\n+\towners: string[];\n+\tcountry: string;\n+\tcategories: string[];\n+\tis_nsfw: boolean;\n+\tlaunched: string | null;\n+\tclosed: string | null;\n+\treplaced_by: string | null;\n+\twebsite: string;\n+\tlogo: string;\n+\turl: string;\n+\tepg_id: number;\n+}\n \n-// The channel to be displayed\n-// Set the initial channel to the first one in the channels list\n-const currentChannel = ref<string>(channels[0]?.id);\n+const channels = ref<Channel[]>([]);\n+const channelsMap = ref(new Map());\n+const currentChannel = ref<string>();\n \n // Store the current and next program information for the current channel\n // Set the initial values to null, populated later on watch()\n@@ -24,6 +38,34 @@ const smpte = ref<HTMLDivElement>();\n const osd = ref<HTMLDivElement>();\n const toast = ref<HTMLDivElement>();\n \n+// Fetch the list of channels from the Orbit API once so we dont stress the endpoint on quick channel switching\n+async function fetchChannels() {\n+\ttry {\n+\t\tconst res = await fetch(\"https://orbit-api.main-973.workers.dev/\");\n+\t\tif (!res.ok)\n+\t\t\tthrow new Error(\n+\t\t\t\t`Failed to fetch Orbit API: ${res.status} ${res.statusText}`,\n+\t\t\t);\n+\n+\t\treturn await res.json();\n+\t} catch (e) {\n+\t\tconsole.error(\"Error fetching Orbit API:\", e);\n+\t\treturn [];\n+\t}\n+}\n+\n+async function loadChannels() {\n+\t// Fetch the channels from the Orbit API and store them in the channels ref\n+\tchannels.value = await fetchChannels();\n+\n+\t// Create a map of channel IDs to channel objects\n+\tchannelsMap.value = new Map(channels.value.map((c) => [c.id, c]));\n+\n+\t// The channel to be displayed\n+\t// Set the initial channel to the first one in the channels list\n+\tcurrentChannel.value = channels.value[0]?.id;\n+}\n+\n // Cleanup function to destroy the Hls instance and reset it\n function cleanup() {\n \thls?.destroy();\n@@ -42,7 +84,7 @@ watch(\n \t\tawait nextTick();\n \n \t\t// Fetch the current and next program information for the selected channel\n-\t\tgetNowNext(id).then((result) => {\n+\t\tgetNowNext(id, channelsMap.value.get(id)?.epg_id).then((result) => {\n \t\t\tepg.value = result;\n \t\t});\n \n@@ -54,7 +96,7 @@ watch(\n \t\tvoid osd.value?.offsetWidth;\n \t\tosd.value?.classList.add(\"animate-[disappear_7s_step-end_forwards]\");\n \n-\t\tconst src = channelsMap.get(id)?.url;\n+\t\tconst src = channelsMap.value.get(id)?.url;\n \t\tif (!src || !hlsVideo.value) return;\n \n \t\tif (Hls.isSupported()) {\n@@ -94,7 +136,7 @@ watch(\n \n // Remote control navigation\n function handleKeydown(e: KeyboardEvent) {\n-\tconst channelIds = channels.map((c) => c.id);\n+\tconst channelIds = channels.value.map((c) => c.id);\n \tconst idx = channelIds.indexOf(currentChannel.value as string);\n \tswitch (e.key) {\n \t\tcase \"ArrowUp\":\n@@ -108,12 +150,13 @@ function handleKeydown(e: KeyboardEvent) {\n }\n \n onMounted(() => {\n+\tloadChannels();\n \tdocument.addEventListener(\"keydown\", handleKeydown);\n });\n \n onBeforeUnmount(() => {\n \tcleanup();\n-\tdocument.removeEventListener(\"keydown\", () => {});\n+\tdocument.removeEventListener(\"keydown\", handleKeydown);\n });\n </script>\n \n@@ -129,6 +172,7 @@ onBeforeUnmount(() => {\n \t\t\t<video ref=\"hlsVideo\" class=\"h-screen\" autoplay playsinline></video>\n \n \t\t\t<div\n+\t\t\t\tv-if=\"channels\"\n \t\t\t\tref=\"osd\"\n \t\t\t\tclass=\"pointer-events-none fixed inset-0 z-10 flex animate-[disappear_7s_step-end_forwards] flex-col justify-end gap-2 p-10\"\n \t\t\t>"
+      },
+      {
+        "sha": "4693ead307f5ba539f13e668a39b448e950ebd2b",
+        "filename": "src/data/channels.json",
+        "status": "removed",
+        "additions": 0,
+        "deletions": 1267,
+        "changes": 1267,
+        "blob_url": "https://github.com/jrwnnnn/orbit/blob/2c625f459bd49a2455c35046180afb68f2434eac/src%2Fdata%2Fchannels.json",
+        "raw_url": "https://github.com/jrwnnnn/orbit/raw/2c625f459bd49a2455c35046180afb68f2434eac/src%2Fdata%2Fchannels.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/src%2Fdata%2Fchannels.json?ref=2c625f459bd49a2455c35046180afb68f2434eac",
+        "patch": "@@ -1,1267 +0,0 @@\n-[\n-\t{\n-\t\t\"id\": \"A2Z.ph\",\n-\t\t\"name\": \"A2Z\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [\"ZOE Broadcasting Network\"],\n-\t\t\"country\": \"PH\",\n-\t\t\"categories\": [\"general\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"2020-10-10\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": null,\n-\t\t\"logo\": \"https://i.imgur.com/1zsdloF.png\",\n-\t\t\"url\": \"https://streams.comclark.com/pknsd/a2z/playlist.m3u8\",\n-\t\t\"epg_id\": null\n-\t},\n-\t{\n-\t\t\"id\": \"AdventureEarth.de\",\n-\t\t\"name\": \"Adventure Earth\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": \"Autentic\",\n-\t\t\"owners\": [\"OneGate Media GmbH\", \"Autentic GmbH\", \"Beta Film GmbH\"],\n-\t\t\"country\": \"DE\",\n-\t\t\"categories\": [\"documentary\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"2022-11-21\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://www.autentic.com/117/Channels.htm#adventure_earth\",\n-\t\t\"logo\": \"https://i.imgur.com/94Pq9Io.png\",\n-\t\t\"url\": \"https://autentic-adventure-earth-1-eu.rakuten.wurl.tv/playlist.m3u8\",\n-\t\t\"epg_id\": null\n-\t},\n-\t{\n-\t\t\"id\": \"AllTV.ph\",\n-\t\t\"name\": \"All TV\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [\"Advanced Media Broadcasting System\"],\n-\t\t\"country\": \"PH\",\n-\t\t\"categories\": [\"entertainment\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"2022-09-13\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://alltv.ph/\",\n-\t\t\"logo\": \"https://i.imgur.com/vuzKeNN.png\",\n-\t\t\"url\": \"https://streams.comclark.com/pknsd/alltv/playlist.m3u8\",\n-\t\t\"epg_id\": null\n-\t},\n-\t{\n-\t\t\"id\": \"ANC.ph\",\n-\t\t\"name\": \"ANC\",\n-\t\t\"alt_names\": [\"ABS-CBN News Channel\"],\n-\t\t\"network\": null,\n-\t\t\"owners\": [\"ABS-CBN Corporation\"],\n-\t\t\"country\": \"PH\",\n-\t\t\"categories\": [\"news\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"1996-05-01\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://news.abs-cbn.com/anc\",\n-\t\t\"logo\": \"https://i.imgur.com/odwRbRk.png\",\n-\t\t\"url\": \"https://streams.comclark.com/pknsd/anc/playlist.m3u8\",\n-\t\t\"epg_id\": null\n-\t},\n-\t{\n-\t\t\"id\": \"BBCAmerica.us\",\n-\t\t\"name\": \"BBC America\",\n-\t\t\"alt_names\": [\"BBCA\"],\n-\t\t\"network\": null,\n-\t\t\"owners\": [\"AMC Global Media\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"entertainment\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"1998-03-29\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"http://www.bbcamerica.com/\",\n-\t\t\"logo\": \"https://upload.wikimedia.org/wikipedia/commons/8/86/BBC_America_logo_2021.svg\",\n-\t\t\"url\": \"https://gpuserver3.tier1streams.com/BBC_AMERICA/index.m3u8\",\n-\t\t\"epg_id\": \"465025\"\n-\t},\n-\t{\n-\t\t\"id\": \"BBCEarth.uk\",\n-\t\t\"name\": \"BBC Earth\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [\"BBC Studios\"],\n-\t\t\"country\": \"UK\",\n-\t\t\"categories\": [\"documentary\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": null,\n-\t\t\"logo\": \"https://i.imgur.com/nGSsUd4.png\",\n-\t\t\"url\": \"https://aegis-cloudfront-1.tubi.video/bb1fc6ad-9948-42ea-aaf3-20acfcdeecac/playlist.m3u8\",\n-\t\t\"epg_id\": null\n-\t},\n-\t{\n-\t\t\"id\": \"Boomerang.us\",\n-\t\t\"name\": \"Boomerang\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [\"Warner Bros. Discovery Inc.\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"kids\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"http://www.cartoonnetwork.com/boomerang/\",\n-\t\t\"logo\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png\",\n-\t\t\"url\": \"http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8\",\n-\t\t\"epg_id\": \"464755\"\n-\t},\n-\t{\n-\t\t\"id\": \"CartoonNetwork.us\",\n-\t\t\"name\": \"Cartoon Network\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": \"Cartoon Network\",\n-\t\t\"owners\": [\"Warner Bros. Discovery EMEA\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"animation\", \"kids\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"1992-10-01\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"http://www.cartoonnetwork.com/\",\n-\t\t\"logo\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png\",\n-\t\t\"url\": \"http://23.237.104.106:8080/USA_CARTOON_NETWORK/index.m3u8\",\n-\t\t\"epg_id\": \"465267\"\n-\t},\n-\t{\n-\t\t\"id\": \"CineMo.ph\",\n-\t\t\"name\": \"Cine Mo!\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [\"ABS-CBN Corporation\", \"Creative Programs Inc.\"],\n-\t\t\"country\": \"PH\",\n-\t\t\"categories\": [\"movies\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"2011-01-03\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": null,\n-\t\t\"logo\": \"https://i.imgur.com/rGAOD3f.png\",\n-\t\t\"url\": \"https://streams.comclark.com/pknsd/cinemo/playlist.m3u8\",\n-\t\t\"epg_id\": null\n-\t},\n-\t{\n-\t\t\"id\": \"ComedyCentral.us\",\n-\t\t\"name\": \"Comedy Central\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [\n-\t\t\t\"Comedy Partners\",\n-\t\t\t\"Viacom International Inc.\",\n-\t\t\t\"Paramount Skydance Corporation\"\n-\t\t],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"comedy\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"1991-04-01\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://pluto.tv/live-tv/comedy-central-ca/details\",\n-\t\t\"logo\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png\",\n-\t\t\"url\": \"http://206.212.244.63/87/index.m3u8\",\n-\t\t\"epg_id\": \"464922\"\n-\t},\n-\t{\n-\t\t\"id\": \"CookingPanda.us\",\n-\t\t\"name\": \"Cooking Panda\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"cooking\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://cookingpanda.com/pages/contact-us\",\n-\t\t\"logo\": \"https://i.imgur.com/bhY0Zcs.png\",\n-\t\t\"url\": \"https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=46\",\n-\t\t\"epg_id\": null\n-\t},\n-\t{\n-\t\t\"id\": \"DiscoveryScience.us\",\n-\t\t\"name\": \"Discovery Science\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [\"Warner Bros. Discovery Inc.\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"science\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"http://www.sciencechannel.com/\",\n-\t\t\"logo\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Discovery_science_new_logo_2017.png/960px-Discovery_science_new_logo_2017.png\",\n-\t\t\"url\": \"https://gpuserver3.tier1streams.com/DISCOVERY_SCIENCE_HD/index.m3u8\",\n-\t\t\"epg_id\": null\n-\t},\n-\t{\n-\t\t\"id\": \"DisneyChannel.us\",\n-\t\t\"name\": \"Disney Channel\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": \"Disney Channels\",\n-\t\t\"owners\": [\"The Walt Disney Company\", \"Disney Kids & Family\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"kids\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"1983-04-18\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://www.disney.com/\",\n-\t\t\"logo\": \"https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg\",\n-\t\t\"url\": \"https://gpuserver3.tier1streams.com/Disney_Channel_HD/index.m3u8\",\n-\t\t\"epg_id\": \"465349\"\n-\t},\n-\t{\n-\t\t\"id\": \"DisneyJunior.us\",\n-\t\t\"name\": \"Disney Junior\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": \"Disney Channels\",\n-\t\t\"owners\": [\"The Walt Disney Company\", \"Disney Kids & Family\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"kids\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"2011-02-14\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"http://disney.go.com/disneyjunior/\",\n-\t\t\"logo\": \"https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg\",\n-\t\t\"url\": \"https://gpuserver3.tier1streams.com/Disney_JR/index.m3u8\",\n-\t\t\"epg_id\": \"465320\"\n-\t},\n-\t{\n-\t\t\"id\": \"DisneyXD.us\",\n-\t\t\"name\": \"Disney XD\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": \"Disney Channels\",\n-\t\t\"owners\": [\"The Walt Disney Company\", \"Disney Kids & Family\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"kids\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"2009-02-13\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://disneynow.com/all-shows/disney-xd\",\n-\t\t\"logo\": \"https://upload.wikimedia.org/wikipedia/commons/a/a8/2015_Disney_XD_logo.svg\",\n-\t\t\"url\": \"http://40.160.24.52/DISNEY_XD_HD/index.m3u8\",\n-\t\t\"epg_id\": \"464807\"\n-\t},\n-\t{\n-\t\t\"id\": \"FIFAPlus.uk\",\n-\t\t\"name\": \"FIFA+\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [\"FIFA\"],\n-\t\t\"country\": \"UK\",\n-\t\t\"categories\": [\"sports\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://www.plus.fifa.com/\",\n-\t\t\"logo\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png\",\n-\t\t\"url\": \"https://ba3e2e93.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9GSUZBUGx1c0VuZ2xpc2hfSExT/playlist.m3u8\",\n-\t\t\"epg_id\": \"492830\"\n-\t},\n-\t{\n-\t\t\"id\": \"Flix.us\",\n-\t\t\"name\": \"Flix\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": \"Paramount+ with SHOWTIME\",\n-\t\t\"owners\": [\"Showtime Networks Inc.\", \"Paramount Skydance Corporation\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"movies\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"1992-08-01\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://www.sho.com/\",\n-\t\t\"logo\": \"https://i.imgur.com/N1d23J3.png\",\n-\t\t\"url\": \"https://gpuserver3.tier1streams.com/FLIX/index.m3u8\",\n-\t\t\"epg_id\": \"465099\"\n-\t},\n-\t{\n-\t\t\"id\": \"Fox.us\",\n-\t\t\"name\": \"Fox\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [\"Fox Entertainment\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"general\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"1986-10-09\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://www.fox.com/\",\n-\t\t\"logo\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png\",\n-\t\t\"url\": \"http://stream.cammonitorplus.net/1799/index.m3u8\",\n-\t\t\"epg_id\": null\n-\t},\n-\t{\n-\t\t\"id\": \"FoxSports1.us\",\n-\t\t\"name\": \"Fox Sports 1\",\n-\t\t\"alt_names\": [\"FS1\"],\n-\t\t\"network\": \"Fox Sports\",\n-\t\t\"owners\": [\"Fox Sports Media Group\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"sports\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"2013-08-17\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://www.foxsports.com/\",\n-\t\t\"logo\": \"https://i.imgur.com/O9BapV9.png\",\n-\t\t\"url\": \"http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8\",\n-\t\t\"epg_id\": \"465291\"\n-\t},\n-\t{\n-\t\t\"id\": \"FoxWeather.us\",\n-\t\t\"name\": \"Fox Weather\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [\"Fox Corporation\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"weather\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"2021-10-25\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://www.foxweather.com/\",\n-\t\t\"logo\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Fox_Weather_logo.svg/960px-Fox_Weather_logo.svg.png\",\n-\t\t\"url\": \"https://247wlive.foxweather.com/stream/index.m3u8\",\n-\t\t\"epg_id\": null\n-\t},\n-\t{\n-\t\t\"id\": \"FX.us\",\n-\t\t\"name\": \"FX\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": \"FX Channels\",\n-\t\t\"owners\": [\"FX Networks LLC\", \"The Walt Disney Company\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"entertainment\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"http://www.fxnetworks.com/\",\n-\t\t\"logo\": \"https://i.imgur.com/ZScwrpi.png\",\n-\t\t\"url\": \"https://gpuserver3.tier1streams.com/FX/index.m3u8\",\n-\t\t\"epg_id\": \"464813\"\n-\t},\n-\t{\n-\t\t\"id\": \"FXX.us\",\n-\t\t\"name\": \"FXX\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": \"FX Channels\",\n-\t\t\"owners\": [\"FXX Networks LLC\", \"The Walt Disney Company\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"entertainment\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"2013-09-02\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://www.fxnetworks.com/fxx\",\n-\t\t\"logo\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/FXX_Logo.svg/960px-FXX_Logo.svg.png\",\n-\t\t\"url\": \"https://gpuserver3.tier1streams.com/FXX/index.m3u8\",\n-\t\t\"epg_id\": \"465357\"\n-\t},\n-\t{\n-\t\t\"id\": \"GordonRamsaysHellsKitchen.us\",\n-\t\t\"name\": \"Gordon Ramsay's Hell's Kitchen\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": \"Pluto TV\",\n-\t\t\"owners\": [],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"cooking\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://pluto.tv/en/live-tv/gordon-ramsays-hells-kitchen\",\n-\t\t\"logo\": \"https://i.imgur.com/WgN4T18.png\",\n-\t\t\"url\": \"https://aegis-cloudfront-1.tubi.video/c8364f36-c60b-4a39-8d86-0b92db4611c0/index.m3u8\",\n-\t\t\"epg_id\": null\n-\t},\n-\t{\n-\t\t\"id\": \"GTV.ph\",\n-\t\t\"name\": \"GTV\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [\"GMA Network Inc\"],\n-\t\t\"country\": \"PH\",\n-\t\t\"categories\": [\"news\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"2021-02-22\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://www.gmanetwork.com/news/\",\n-\t\t\"logo\": \"https://i.imgur.com/rWhamwh.png\",\n-\t\t\"url\": \"https://streams.comclark.com/pknsd/gtv/playlist.m3u8\",\n-\t\t\"epg_id\": null\n-\t},\n-\t{\n-\t\t\"id\": \"HellsKitchen.us\",\n-\t\t\"name\": \"Hell's Kitchen\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": \"Pluto TV\",\n-\t\t\"owners\": [],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"series\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://pluto.tv/en/live-tv/hells-kitchen-gb\",\n-\t\t\"logo\": \"https://i.imgur.com/P9eT0O9.png\",\n-\t\t\"url\": \"https://itv-hellskitchen-rakuten.amagi.tv/playlist.m3u8\",\n-\t\t\"epg_id\": null\n-\t},\n-\t{\n-\t\t\"id\": \"IntheKitchen.us\",\n-\t\t\"name\": \"In the Kitchen\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"shop\", \"cooking\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://plus.qvc.com/channels/in-the-kitchen\",\n-\t\t\"logo\": \"https://i.imgur.com/HrRUd6r.png\",\n-\t\t\"url\": \"https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc4us/master.m3u8\",\n-\t\t\"epg_id\": null\n-\t},\n-\t{\n-\t\t\"id\": \"JeepneyTV.ph\",\n-\t\t\"name\": \"Jeepney TV\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [\"ABS-CBN Corporation\", \"Creative Programs Inc.\"],\n-\t\t\"country\": \"PH\",\n-\t\t\"categories\": [\"general\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"2012-10-22\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://cablechannels.abs-cbn.com/jeepneytv\",\n-\t\t\"logo\": \"https://i.imgur.com/RNxfhcc.png\",\n-\t\t\"url\": \"https://streams.comclark.com/pknsd/jeepney/playlist.m3u8\",\n-\t\t\"epg_id\": null\n-\t},\n-\t{\n-\t\t\"id\": \"KapatidTV5.ph\",\n-\t\t\"name\": \"Kapatid TV 5\",\n-\t\t\"alt_names\": [\"TV5\"],\n-\t\t\"network\": null,\n-\t\t\"owners\": [],\n-\t\t\"country\": \"PH\",\n-\t\t\"categories\": [\"general\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"1960-06-19\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"http://www.kapatidinternational.com/\",\n-\t\t\"logo\": \"https://i.imgur.com/xb5lkwG.png\",\n-\t\t\"url\": \"https://thinkkast.dpdns.org/tkk-ph/i7/kapatid_hd/kapatid.m3u8\",\n-\t\t\"epg_id\": null\n-\t},\n-\t{\n-\t\t\"id\": \"KEYETV421.us\",\n-\t\t\"name\": \"KEYE-TV 42.1\",\n-\t\t\"alt_names\": [\"CBS 42\", \"CBS\"],\n-\t\t\"network\": \"CBS\",\n-\t\t\"owners\": [\"KEYE Licensee LLC\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"general\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"1983-12-04\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"http://www.keyetv.com/\",\n-\t\t\"logo\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png\",\n-\t\t\"url\": \"https://linear-704.frequency.stream/dist/stirr/704/hls/master/playlist.m3u8\",\n-\t\t\"epg_id\": \"466505\"\n-\t},\n-\t{\n-\t\t\"id\": \"KidsFlix.us\",\n-\t\t\"name\": \"KidsFlix\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [\"Viva Pictures Distribution LLC\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"kids\", \"movies\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://www.kidsflix.com/\",\n-\t\t\"logo\": \"https://i.imgur.com/4Pn0ADQ.png\",\n-\t\t\"url\": \"https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=50\",\n-\t\t\"epg_id\": null\n-\t},\n-\t{\n-\t\t\"id\": \"KnowledgeChannel.ph\",\n-\t\t\"name\": \"Knowledge Channel\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [\"ABS-CBN Corporation\", \"Knowledge Channel Foundation Inc\"],\n-\t\t\"country\": \"PH\",\n-\t\t\"categories\": [\"education\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"1999-11-06\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://www.knowledgechannel.org/\",\n-\t\t\"logo\": \"https://i.imgur.com/YrmMWXD.png\",\n-\t\t\"url\": \"https://thinkkast.dpdns.org/tkk-ph/i7/knowledge_channel/knowledge-channel.m3u8\",\n-\t\t\"epg_id\": null\n-\t},\n-\t{\n-\t\t\"id\": \"LegoChannel.us\",\n-\t\t\"name\": \"Lego Channel\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"kids\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": null,\n-\t\t\"logo\": \"https://i.imgur.com/xePwW13.png\",\n-\t\t\"url\": \"https://dh18i7whff86v.cloudfront.net/index.m3u8\",\n-\t\t\"epg_id\": null\n-\t},\n-\t{\n-\t\t\"id\": \"MGMPlus.us\",\n-\t\t\"name\": \"MGM+\",\n-\t\t\"alt_names\": [\"Epix East\"],\n-\t\t\"network\": null,\n-\t\t\"owners\": [\"Metro-Goldwyn-Mayer\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"movies\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"2009-10-01\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"http://www.epix.com/\",\n-\t\t\"logo\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/MGM%2B_logo.svg/960px-MGM%2B_logo.svg.png\",\n-\t\t\"url\": \"https://gpuserver3.tier1streams.com/EPIX/index.m3u8\",\n-\t\t\"epg_id\": \"465261\"\n-\t},\n-\t{\n-\t\t\"id\": \"MGMPlusDriveIn.us\",\n-\t\t\"name\": \"MGM+ Drive-In\",\n-\t\t\"alt_names\": [\"Epix Drive-In\", \"The 3 from Epix\"],\n-\t\t\"network\": null,\n-\t\t\"owners\": [\"Metro-Goldwyn-Mayer\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"movies\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"2010-01-01\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"http://www.epix.com/\",\n-\t\t\"logo\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/MGM%2B_Drive-In_2023.svg/960px-MGM%2B_Drive-In_2023.svg.png\",\n-\t\t\"url\": \"https://gpuserver3.tier1streams.com/EPIX_DRIVE-IN/index.m3u8\",\n-\t\t\"epg_id\": \"465375\"\n-\t},\n-\t{\n-\t\t\"id\": \"MrBeanAnimated.uk\",\n-\t\t\"name\": \"Mr Bean Animated\",\n-\t\t\"alt_names\": [\"Mr. Bean: The Animated Series\", \"mr Bean\"],\n-\t\t\"network\": null,\n-\t\t\"owners\": [\"Banijay Rights\"],\n-\t\t\"country\": \"UK\",\n-\t\t\"categories\": [\"animation\", \"kids\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"2024-06-21\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": null,\n-\t\t\"logo\": \"https://static.wikia.nocookie.net/logopedia/images/2/25/Mr._Bean_Animated_Series_stacked_logo.png\",\n-\t\t\"url\": \"https://amg00627-amg00627c28-rakuten-uk-3984.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanukcc-rakutenuk/playlist.m3u8\",\n-\t\t\"epg_id\": null\n-\t},\n-\t{\n-\t\t\"id\": \"MTV.us\",\n-\t\t\"name\": \"MTV\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [\"Viacom International Inc.\", \"Paramount Skydance Corporation\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"entertainment\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"1981-08-01\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"http://www.mtv.com/\",\n-\t\t\"logo\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png\",\n-\t\t\"url\": \"http://206.212.244.63/115/index.m3u8\",\n-\t\t\"epg_id\": \"465080\"\n-\t},\n-\t{\n-\t\t\"id\": \"NationalGeographic.us\",\n-\t\t\"name\": \"National Geographic\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [\"National Geographic Partners LLC.\", \"The Walt Disney Company\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"documentary\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"2001-01-07\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"http://channel.nationalgeographic.com/\",\n-\t\t\"logo\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png\",\n-\t\t\"url\": \"http://206.212.244.63/122/index.m3u8\",\n-\t\t\"epg_id\": \"465089\"\n-\t},\n-\t{\n-\t\t\"id\": \"NationalGeographicWild.us\",\n-\t\t\"name\": \"National Geographic Wild\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [\"National Geographic Partners LLC.\", \"The Walt Disney Company\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"documentary\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"2010-03-29\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"http://channel.nationalgeographic.com/wild/\",\n-\t\t\"logo\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png\",\n-\t\t\"url\": \"http://40.160.24.53/NAT_GEO_WILD/index.m3u8\",\n-\t\t\"epg_id\": \"464884\"\n-\t},\n-\t{\n-\t\t\"id\": \"NBATV.us\",\n-\t\t\"name\": \"NBA TV\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [\"National Basketball Association\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"sports\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"1999-11-02\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"http://www.nba.com/nba_tv/\",\n-\t\t\"logo\": \"https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/960px-NBA_TV.svg.png\",\n-\t\t\"url\": \"https://cdn1.ayitistream.com/NBATV/index.m3u8\",\n-\t\t\"epg_id\": \"464912\"\n-\t},\n-\t{\n-\t\t\"id\": \"Nickelodeon.us\",\n-\t\t\"name\": \"Nickelodeon\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": \"Nickelodeon\",\n-\t\t\"owners\": [\"Viacom International Inc.\", \"Paramount Skydance Corporation\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"kids\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"1979-04-01\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"http://www.nick.com/\",\n-\t\t\"logo\": \"https://i.imgur.com/E84jnP8.png\",\n-\t\t\"url\": \"http://198.58.104.90:8989/nickelodeon/index.m3u8\",\n-\t\t\"epg_id\": \"465251\"\n-\t},\n-\t{\n-\t\t\"id\": \"NickJr.us\",\n-\t\t\"name\": \"Nick Jr.\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": \"Nickelodeon\",\n-\t\t\"owners\": [\"Viacom International Inc.\", \"Paramount Skydance Corporation\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"kids\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"1988-01-04\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"http://www.nickjr.com/\",\n-\t\t\"logo\": \"https://i.imgur.com/KT4tdQs.png\",\n-\t\t\"url\": \"http://206.212.244.63/3150/index.m3u8\",\n-\t\t\"epg_id\": \"464911\"\n-\t},\n-\t{\n-\t\t\"id\": \"Nicktoons.us\",\n-\t\t\"name\": \"Nicktoons\",\n-\t\t\"alt_names\": [\"Nickelodeon NickToons\"],\n-\t\t\"network\": \"Nickelodeon\",\n-\t\t\"owners\": [\"Viacom International Inc.\", \"Paramount Skydance Corporation\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"kids\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"2002-05-01\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"http://nicktoons.nick.com/\",\n-\t\t\"logo\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Nicktoons_Network_logo_2009.svg/960px-Nicktoons_Network_logo_2009.svg.png\",\n-\t\t\"url\": \"http://206.212.244.63/3151/index.m3u8\",\n-\t\t\"epg_id\": \"465038\"\n-\t},\n-\t{\n-\t\t\"id\": \"ParamountNetwork.us\",\n-\t\t\"name\": \"Paramount Network\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [\n-\t\t\t\"Paramount Network Broadcasting Ltd\",\n-\t\t\t\"Paramount Skydance Corporation\"\n-\t\t],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"series\", \"movies\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"1983-03-07\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"http://www.paramountnetwork.com/\",\n-\t\t\"logo\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/960px-Paramount_Network.svg.png\",\n-\t\t\"url\": \"http://40.160.24.55/PARAMOUNT_CHANNEL/index.m3u8\",\n-\t\t\"epg_id\": \"464882\"\n-\t},\n-\t{\n-\t\t\"id\": \"PBSKidsEasternCentral.us\",\n-\t\t\"name\": \"PBS Kids Eastern/Central\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": \"PBS\",\n-\t\t\"owners\": [\"PBS Member Public Television Stations\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"education\", \"kids\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"1970-10-05\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://www.pbs.org/\",\n-\t\t\"logo\": \"https://upload.wikimedia.org/wikipedia/commons/e/e3/PBS_Kids_logo_%282022%29.svg\",\n-\t\t\"url\": \"https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8\",\n-\t\t\"epg_id\": \"464925\"\n-\t},\n-\t{\n-\t\t\"id\": \"PTV.ph\",\n-\t\t\"name\": \"PTV\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [],\n-\t\t\"country\": \"PH\",\n-\t\t\"categories\": [],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"1974-02-02\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://ptvnews.ph/\",\n-\t\t\"logo\": \"https://i.imgur.com/MMccHNd.png\",\n-\t\t\"url\": \"https://streams.comclark.com/pknsd/ptv/playlist.m3u8\",\n-\t\t\"epg_id\": null\n-\t},\n-\t{\n-\t\t\"id\": \"RedBullTV.at\",\n-\t\t\"name\": \"Red Bull TV\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [\"Red Bull Media House GmbH\"],\n-\t\t\"country\": \"AT\",\n-\t\t\"categories\": [\"sports\", \"outdoor\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://www.redbull.tv/\",\n-\t\t\"logo\": \"https://jiotvimages.cdn.jio.com/dare_images/images/Red_Bull_TV.png\",\n-\t\t\"url\": \"https://d1hlbgn3fph0cz.cloudfront.net/playlist.m3u8\",\n-\t\t\"epg_id\": null\n-\t},\n-\t{\n-\t\t\"id\": \"Showtime.us\",\n-\t\t\"name\": \"Showtime\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": \"Paramount+ with SHOWTIME\",\n-\t\t\"owners\": [\"Showtime Networks Inc.\", \"Paramount Skydance Corporation\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://www.sho.com/\",\n-\t\t\"logo\": \"https://i.imgur.com/Or0LKsu.png\",\n-\t\t\"url\": \"http://40.160.24.55/SHOWTIME_WEST/index.m3u8\",\n-\t\t\"epg_id\": \"465332\"\n-\t},\n-\t{\n-\t\t\"id\": \"Showtime2.us\",\n-\t\t\"name\": \"Showtime 2\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": \"Paramount+ with SHOWTIME\",\n-\t\t\"owners\": [\"Showtime Networks Inc.\", \"Paramount Skydance Corporation\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://www.sho.com/\",\n-\t\t\"logo\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Showtime.svg/960px-Showtime.svg.png\",\n-\t\t\"url\": \"http://40.160.24.55/SHOWTIME_2/index.m3u8\",\n-\t\t\"epg_id\": \"465402\"\n-\t},\n-\t{\n-\t\t\"id\": \"ShowtimeFamilyZone.us\",\n-\t\t\"name\": \"Showtime Family Zone\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": \"Paramount+ with SHOWTIME\",\n-\t\t\"owners\": [\"Showtime Networks Inc.\", \"Paramount Skydance Corporation\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"family\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://www.sho.com/\",\n-\t\t\"logo\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Showtime.svg/960px-Showtime.svg.png\",\n-\t\t\"url\": \"http://23.237.104.106:8080/USA_SHOWTIME_FAMILY/index.m3u8\",\n-\t\t\"epg_id\": \"464954\"\n-\t},\n-\t{\n-\t\t\"id\": \"ShowtimeNext.us\",\n-\t\t\"name\": \"Showtime Next\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": \"Paramount+ with SHOWTIME\",\n-\t\t\"owners\": [\"Showtime Networks Inc.\", \"Paramount Skydance Corporation\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://www.sho.com/\",\n-\t\t\"logo\": \"https://i.imgur.com/416F1kV.png\",\n-\t\t\"url\": \"http://40.160.24.55/SHOWTIME_NEXT/index.m3u8\",\n-\t\t\"epg_id\": \"465270\"\n-\t},\n-\t{\n-\t\t\"id\": \"ShowtimeWomen.us\",\n-\t\t\"name\": \"Showtime Women\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": \"Paramount+ with SHOWTIME\",\n-\t\t\"owners\": [\"Showtime Networks Inc.\", \"Paramount Skydance Corporation\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://www.sho.com/\",\n-\t\t\"logo\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Showtime.svg/960px-Showtime.svg.png\",\n-\t\t\"url\": \"https://messi.damitv.st/papi/ts/showtimewomen-usa/playlist.m3u8\",\n-\t\t\"epg_id\": \"464898\"\n-\t},\n-\t{\n-\t\t\"id\": \"Starz.us\",\n-\t\t\"name\": \"Starz\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": \"STARZ\",\n-\t\t\"owners\": [\"Starz Entertainment Corp.\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://www.starz.com/\",\n-\t\t\"logo\": \"https://i.imgur.com/N7oSm4d.png\",\n-\t\t\"url\": \"http://23.237.104.106:8080/USA_STARZ/index.m3u8\",\n-\t\t\"epg_id\": \"464975\"\n-\t},\n-\t{\n-\t\t\"id\": \"StarzCinema.us\",\n-\t\t\"name\": \"Starz Cinema\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": \"STARZ\",\n-\t\t\"owners\": [\"Starz Entertainment Corp.\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"movies\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://www.starz.com/\",\n-\t\t\"logo\": \"https://i.imgur.com/ghzzKoT.png\",\n-\t\t\"url\": \"http://23.237.104.106:8080/USA_STARZ_CINEMA/index.m3u8\",\n-\t\t\"epg_id\": \"465115\"\n-\t},\n-\t{\n-\t\t\"id\": \"StarzKidsFamily.us\",\n-\t\t\"name\": \"Starz Kids & Family\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": \"STARZ\",\n-\t\t\"owners\": [\"Starz Entertainment Corp.\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"kids\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://www.starz.com/\",\n-\t\t\"logo\": \"https://i.imgur.com/eE9FzEP.png\",\n-\t\t\"url\": \"http://23.237.104.106:8080/USA_STARZ_FAMILY/index.m3u8\",\n-\t\t\"epg_id\": \"465109\"\n-\t},\n-\t{\n-\t\t\"id\": \"StingrayClassicRock.ca\",\n-\t\t\"name\": \"Stingray Classic Rock\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [],\n-\t\t\"country\": \"CA\",\n-\t\t\"categories\": [\"music\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": null,\n-\t\t\"logo\": \"https://i.imgur.com/FBgu8yB.png\",\n-\t\t\"url\": \"https://lotus.stingray.com/manifest/ose-101ads-montreal/samsungtvplus/master.m3u8\",\n-\t\t\"epg_id\": null\n-\t},\n-\t{\n-\t\t\"id\": \"StingrayDJAZZ.ca\",\n-\t\t\"name\": \"Stingray DJAZZ\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [\"Stingray Group Inc.\"],\n-\t\t\"country\": \"CA\",\n-\t\t\"categories\": [\"music\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"2012-06-22\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://djazz.stingray.com/\",\n-\t\t\"logo\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Stingray_Djazz.png/960px-Stingray_Djazz.png\",\n-\t\t\"url\": \"https://lotus.stingray.com/manifest/djazz-djaads-montreal/samsungtvplus/master.m3u8\",\n-\t\t\"epg_id\": null\n-\t},\n-\t{\n-\t\t\"id\": \"StingrayEasyListening.ca\",\n-\t\t\"name\": \"Stingray Easy Listening\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [],\n-\t\t\"country\": \"CA\",\n-\t\t\"categories\": [\"music\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": null,\n-\t\t\"logo\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Stingray_Music_logo.svg/960px-Stingray_Music_logo.svg.png\",\n-\t\t\"url\": \"https://lotus.stingray.com/manifest/ose-137ads-montreal/samsungtvplus/master.m3u8\",\n-\t\t\"epg_id\": null\n-\t},\n-\t{\n-\t\t\"id\": \"StingrayEverything80s.ca\",\n-\t\t\"name\": \"Stingray Everything '80s\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [\"Stingray Group Inc.\"],\n-\t\t\"country\": \"CA\",\n-\t\t\"categories\": [\"music\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://music.stingray.com/en/BS/channels/128/everything-80s\",\n-\t\t\"logo\": \"https://i.imgur.com/6E3wYrb.png\",\n-\t\t\"url\": \"https://lotus.stingray.com/manifest/ose-128ads-montreal/samsungtvplus/master.m3u8\",\n-\t\t\"epg_id\": null\n-\t},\n-\t{\n-\t\t\"id\": \"StingrayFlashback70s.ca\",\n-\t\t\"name\": \"Stingray Flashback 70's\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [],\n-\t\t\"country\": \"CA\",\n-\t\t\"categories\": [\"music\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": null,\n-\t\t\"logo\": \"https://i.imgur.com/jf5C9QF.png\",\n-\t\t\"url\": \"https://lotus.stingray.com/manifest/ose-115ads-montreal/samsungtvplus/master.m3u8\",\n-\t\t\"epg_id\": null\n-\t},\n-\t{\n-\t\t\"id\": \"StingrayHitList.ca\",\n-\t\t\"name\": \"Stingray Hit List\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [],\n-\t\t\"country\": \"CA\",\n-\t\t\"categories\": [\"music\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://music.stingray.com/en/CA/channels/007/hit-list\",\n-\t\t\"logo\": \"https://i.imgur.com/lgpIwId.png\",\n-\t\t\"url\": \"https://lotus.stingray.com/manifest/ose-107ads-montreal/samsungtvplus/master.m3u8\",\n-\t\t\"epg_id\": null\n-\t},\n-\t{\n-\t\t\"id\": \"StingrayNothinBut90s.ca\",\n-\t\t\"name\": \"Stingray Nothin' But 90s\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [],\n-\t\t\"country\": \"CA\",\n-\t\t\"categories\": [\"music\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://music.stingray.com/en/channels/042/nothin-but-90s\",\n-\t\t\"logo\": \"https://i.imgur.com/Tq3I0po.png\",\n-\t\t\"url\": \"https://lotus.stingray.com/manifest/ose-142ads-montreal/samsungtvplus/master.m3u8\",\n-\t\t\"epg_id\": null\n-\t},\n-\t{\n-\t\t\"id\": \"StingraySmoothJazz.ca\",\n-\t\t\"name\": \"Stingray Smooth Jazz\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [],\n-\t\t\"country\": \"CA\",\n-\t\t\"categories\": [\"music\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://music.stingray.com/en/channels/040/smooth-jazz\",\n-\t\t\"logo\": \"https://i.imgur.com/h1DsOzH.png\",\n-\t\t\"url\": \"https://lotus.stingray.com/manifest/ose-140ads-montreal/samsungtvplus/master.m3u8\",\n-\t\t\"epg_id\": null\n-\t},\n-\t{\n-\t\t\"id\": \"StingraySoulStorm.ca\",\n-\t\t\"name\": \"Stingray Soul Storm\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [],\n-\t\t\"country\": \"CA\",\n-\t\t\"categories\": [\"music\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://music.stingray.com/en/channels/134/soul-storm\",\n-\t\t\"logo\": \"https://i.imgur.com/dU1KC3f.png\",\n-\t\t\"url\": \"https://lotus.stingray.com/manifest/ose-134ads-montreal/samsungtvplus/master.m3u8\",\n-\t\t\"epg_id\": null\n-\t},\n-\t{\n-\t\t\"id\": \"StingrayTodaysKPop.ca\",\n-\t\t\"name\": \"Stingray Today's K-Pop\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [],\n-\t\t\"country\": \"CA\",\n-\t\t\"categories\": [\"music\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://music.stingray.com/en/channels/317/todays-k-pop\",\n-\t\t\"logo\": \"https://i.imgur.com/mMbntB5.png\",\n-\t\t\"url\": \"https://lotus.stingray.com/manifest/ose-317ads-montreal/samsungtvplus/master.m3u8\",\n-\t\t\"epg_id\": null\n-\t},\n-\t{\n-\t\t\"id\": \"Tastemade.us\",\n-\t\t\"name\": \"Tastemade\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"cooking\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://www.tastemade.com/\",\n-\t\t\"logo\": \"https://i.imgur.com/xP7Ehn8.png\",\n-\t\t\"url\": \"https://tastemade-tdint-rakuten.amagi.tv/playlist.m3u8\",\n-\t\t\"epg_id\": \"465110\"\n-\t},\n-\t{\n-\t\t\"id\": \"TeenNick.us\",\n-\t\t\"name\": \"TeenNick\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": \"Nickelodeon\",\n-\t\t\"owners\": [\"Viacom International Inc.\", \"Paramount Skydance Corporation\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"kids\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"http://www.teennick.com/\",\n-\t\t\"logo\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/TeenNick_2019_logo.svg/960px-TeenNick_2019_logo.svg.png\",\n-\t\t\"url\": \"http://40.160.24.55/TEEN_NICK/index.m3u8\",\n-\t\t\"epg_id\": \"465180\"\n-\t},\n-\t{\n-\t\t\"id\": \"TSN1.ca\",\n-\t\t\"name\": \"TSN1\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [],\n-\t\t\"country\": \"CA\",\n-\t\t\"categories\": [\"sports\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"1984-09-01\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://www.tsn.ca/\",\n-\t\t\"logo\": \"https://i.imgur.com/eRFE0jZ.png\",\n-\t\t\"url\": \"http://40.160.24.55/TSN_1/index.m3u8\",\n-\t\t\"epg_id\": \"470446\"\n-\t},\n-\t{\n-\t\t\"id\": \"USANetwork.us\",\n-\t\t\"name\": \"USA Network\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [\"Versant Media Group Inc.\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"movies\", \"series\", \"sports\", \"comedy\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://www.usanetwork.com/\",\n-\t\t\"logo\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/USA_Network_logo_%282016%29.svg/960px-USA_Network_logo_%282016%29.svg.png\",\n-\t\t\"url\": \"http://40.160.24.55/USA_NETWORK/index.m3u8\",\n-\t\t\"epg_id\": \"465006\"\n-\t},\n-\t{\n-\t\t\"id\": \"Vevo2K.us\",\n-\t\t\"name\": \"Vevo 2K\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": \"Pluto TV\",\n-\t\t\"owners\": [],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"music\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://pluto.tv/en/live-tv/vevo-2k\",\n-\t\t\"logo\": \"https://images.pluto.tv/channels/5fd7bca3e0a4ee0007a38e8c/featuredImage.jpg\",\n-\t\t\"url\": \"https://d1s6jz7jeei17.cloudfront.net/playlist/amg00056-vevotv-vevo2kau-samsungau/playlist.m3u8\",\n-\t\t\"epg_id\": \"497977\"\n-\t},\n-\t{\n-\t\t\"id\": \"Vevo90s.us\",\n-\t\t\"name\": \"Vevo '90s\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": \"Pluto TV\",\n-\t\t\"owners\": [],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"music\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://pluto.tv/en/live-tv/vevo-90s\",\n-\t\t\"logo\": \"https://images.pluto.tv/channels/5fd7bb1f86d94a000796e2c2/featuredImage.jpg\",\n-\t\t\"url\": \"https://amg00056-vevotv-vevo90saunz-samsungau-n6a0d.amagi.tv/playlist/amg00056-vevotv-vevo90saunz-samsungau/playlist.m3u8\",\n-\t\t\"epg_id\": \"497976\"\n-\t},\n-\t{\n-\t\t\"id\": \"VevoPop.us\",\n-\t\t\"name\": \"Vevo Pop\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": \"Pluto TV\",\n-\t\t\"owners\": [],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [\"music\"],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://pluto.tv/en/live-tv/vevo-pop\",\n-\t\t\"logo\": \"https://i.imgur.com/dZHktKR.png\",\n-\t\t\"url\": \"https://amg00056-amg00056c6-rakuten-uk-3235.playouts.now.amagi.tv/playlist.m3u8\",\n-\t\t\"epg_id\": \"497971\"\n-\t},\n-\t{\n-\t\t\"id\": \"WildTV.ca\",\n-\t\t\"name\": \"Wild TV\",\n-\t\t\"alt_names\": [],\n-\t\t\"network\": null,\n-\t\t\"owners\": [\"Wild TV Inc.\"],\n-\t\t\"country\": \"CA\",\n-\t\t\"categories\": [],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": \"2004-09-01\",\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"https://wildtv.ca/\",\n-\t\t\"logo\": \"https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Wild_TV_logo_2020.png/960px-Wild_TV_logo_2020.png\",\n-\t\t\"url\": \"https://dfhsahpa45kk2.cloudfront.net/scheduler/scheduleMaster/476.m3u8\",\n-\t\t\"epg_id\": \"470710\"\n-\t},\n-\t{\n-\t\t\"id\": \"WMPT541.us\",\n-\t\t\"name\": \"WMPT 54.1\",\n-\t\t\"alt_names\": [\"CW Baltimore\", \"CWWNUV\"],\n-\t\t\"network\": \"CW\",\n-\t\t\"owners\": [\"Maryland Public Broadcasting Commission\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"http://www.mpt.org/\",\n-\t\t\"logo\": \"https://upload.wikimedia.org/wikipedia/commons/8/89/PBS_logo_2019.svg\",\n-\t\t\"url\": \"https://2-fss-2.streamhoster.com/pl_138/amlst:201814-1291584/playlist.m3u8\",\n-\t\t\"epg_id\": \"469325\"\n-\t},\n-\t{\n-\t\t\"id\": \"WNBC471.us\",\n-\t\t\"name\": \"WNBC 47.1\",\n-\t\t\"alt_names\": [\"Telemundo 47\", \"WNJU-HD\"],\n-\t\t\"network\": \"Telemundo\",\n-\t\t\"owners\": [\"NBC Telemundo License LLC\"],\n-\t\t\"country\": \"US\",\n-\t\t\"categories\": [],\n-\t\t\"is_nsfw\": false,\n-\t\t\"launched\": null,\n-\t\t\"closed\": null,\n-\t\t\"replaced_by\": null,\n-\t\t\"website\": \"http://www.nbcnewyork.com/\",\n-\t\t\"logo\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/WNBC_4_NY.svg/960px-WNBC_4_NY.svg.png\",\n-\t\t\"url\": \"https://d368vp0qqzvkid.cloudfront.net/11603/88889709/hls/master.m3u8?ads.xumo_channelId=88889709a&ads.xumo_ifaType=&ads.xumo_providerId=3816&ads.xumo_providerName=NBCNNY\",\n-\t\t\"epg_id\": \"467015\"\n-\t}\n-]"
+      },
+      {
+        "sha": "681b323257b2f61f6ccacf74042566bcf2942815",
+        "filename": "src/lib/epg.ts",
+        "status": "modified",
+        "additions": 6,
+        "deletions": 6,
+        "changes": 12,
+        "blob_url": "https://github.com/jrwnnnn/orbit/blob/f9515df83bff78185d291f6c60ff9330dbad81b9/src%2Flib%2Fepg.ts",
+        "raw_url": "https://github.com/jrwnnnn/orbit/raw/f9515df83bff78185d291f6c60ff9330dbad81b9/src%2Flib%2Fepg.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/src%2Flib%2Fepg.ts?ref=f9515df83bff78185d291f6c60ff9330dbad81b9",
+        "patch": "@@ -1,5 +1,3 @@\n-import channels from \"@/data/channels.json\";\n-\n interface EPG {\n \tepg_list: {\n \t\tdesc: string;\n@@ -13,14 +11,16 @@ export interface NowNext {\n \tnext: EPG[\"epg_list\"][number] | null;\n }\n \n-export async function getNowNext(channel: string): Promise<NowNext> {\n+export async function getNowNext(\n+\tchannel: string,\n+\tepg_id: number | null,\n+): Promise<NowNext> {\n \tlet epg: EPG;\n-\tconst channelsMap = new Map(channels.map((c) => [c.id, c]));\n-\n+\t\n \t// Fetch the EPG data for the given channel from the API\n \ttry {\n \t\tconst res = await fetch(\n-\t\t\t`https://epg.pw/api/epg.json?lang=en&date=${new Date().toISOString().slice(0, 10).replace(/-/g, \"\")}&channel_id=${channelsMap.get(channel)?.epg_id}`,\n+\t\t\t`https://epg.pw/api/epg.json?lang=en&date=${new Date().toISOString().slice(0, 10).replace(/-/g, \"\")}&channel_id=${epg_id}`,\n \t\t);\n \n \t\tif (!res.ok) throw new Error(`${res.status} ${res.statusText}`);"
+      }
+    ]
+  },
+  {
     "sha": "2c625f459bd49a2455c35046180afb68f2434eac",
     "node_id": "C_kwDOQdLhx9oAKDJjNjI1ZjQ1OWJkNDlhMjQ1NWMzNTA0NjE4MGFmYjY4ZjI0MzRlYWM",
     "commit": {
@@ -221,309 +560,6 @@
         "raw_url": "https://github.com/jrwnnnn/orbit/raw/d38ab1ddd2e8424baf36befd2ff10c2f7e8ed48c/dev%2Findex.html",
         "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/dev%2Findex.html?ref=d38ab1ddd2e8424baf36befd2ff10c2f7e8ed48c",
         "patch": "@@ -0,0 +1,7 @@\n+<!doctype html>\n+<html>\n+\t<head>\n+\t\t<meta http-equiv=\"refresh\" content=\"0;url=http://localhost:5173/\" />\n+\t</head>\n+\t<body></body>\n+</html>"
-      }
-    ]
-  },
-  {
-    "sha": "f6043ce724504985b71cc72c921328431ff1d403",
-    "node_id": "C_kwDORz-DOdoAKGY2MDQzY2U3MjQ1MDQ5ODViNzFjYzcyYzkyMTMyODQzMWZmMWQ0MDM",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "ping@jrwnnnn.me",
-        "date": "2026-08-10T02:56:41Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-08-10T02:56:41Z"
-      },
-      "message": "chore: Set npm as the package ecosystem for Dependabot",
-      "tree": {
-        "sha": "49878ec65af514554822360e15b2f8d6712be3d5",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/49878ec65af514554822360e15b2f8d6712be3d5"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/f6043ce724504985b71cc72c921328431ff1d403",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqeT3qCRC1aQ7uu5UhlAAA3rgQAHLlpSNGrwnAbcO43b1DeiGW\negtOAdsbF8lMsw2+RLmNAXykQPuW/A4CqXyqoFQSPIpl4lbmrX14Zcg4Ul5NceV+\n+fl3HG1lMVYw7S94w70DXQmg7wQDIkH97T25i/644xvMuA03ODj7YKThg8vsF18I\nOMe1RtypoWektdgp07zp4+rIcOo6mpUIelCsCahl5cA59tU+f0hR7KqO+g81j4JC\nrR/h3UdlnHGqNYY+UqBi0ijK7joaByIf0l0cs8cTcFkSembjFC6L6Ld2Rb1ZJxXG\nPpPOyIXxsvcuNhzVgVTfICd9CaIFziGez1/diIvi2Nm+UiWaOCJvJZa/BWWOKIoE\nLfTUhZIxEcY1hXpwSmu0w5OmgYTD36oiC6Gy+6pc1cTazDQJXPtj35A4SSE0ns/H\nxO4GvLTc3BLGPyErWsfvThAMzFWnW4pPPm8nvAv/RLK4/ovLFeY3XzWxsutnY2oz\n+NoNHahuseOTfodlxai55UhqXQ4P4b7K/A4MkwH3Q9p6gb4FBThnzd3/6TtxfpaZ\nj2Bhke+kZAbaDX6jyODxj4u5EMHEUm3INfSei/szP3/nryq7jiFVkaEW4Y/OTZu+\nCHGBpOkeJjovIu6sSnqJvJhdXvHZWIZNeIbfZuZTWHlL3MRvx4zw5DVyoVDNOICi\ngSVBXhmD2LI2mOjKpUwu\n=lFKS\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 49878ec65af514554822360e15b2f8d6712be3d5\nparent d693ba13340626ef409aca49c22634a1af272c8d\nauthor Mark Jerwin <ping@jrwnnnn.me> 1786330601 +0800\ncommitter GitHub <noreply@github.com> 1786330601 +0800\n\nchore: Set npm as the package ecosystem for Dependabot",
-        "verified_at": "2026-08-10T02:57:34Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/f6043ce724504985b71cc72c921328431ff1d403",
-    "html_url": "https://github.com/jrwnnnn/rekord/commit/f6043ce724504985b71cc72c921328431ff1d403",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/f6043ce724504985b71cc72c921328431ff1d403/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "d693ba13340626ef409aca49c22634a1af272c8d",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/d693ba13340626ef409aca49c22634a1af272c8d",
-        "html_url": "https://github.com/jrwnnnn/rekord/commit/d693ba13340626ef409aca49c22634a1af272c8d"
-      }
-    ],
-    "stats": {
-      "total": 11,
-      "additions": 11,
-      "deletions": 0
-    },
-    "files": [
-      {
-        "sha": "5f0889ce9169fbfa82e4044135bfe51cce939827",
-        "filename": ".github/dependabot.yml",
-        "status": "added",
-        "additions": 11,
-        "deletions": 0,
-        "changes": 11,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/f6043ce724504985b71cc72c921328431ff1d403/.github%2Fdependabot.yml",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/f6043ce724504985b71cc72c921328431ff1d403/.github%2Fdependabot.yml",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/.github%2Fdependabot.yml?ref=f6043ce724504985b71cc72c921328431ff1d403",
-        "patch": "@@ -0,0 +1,11 @@\n+# To get started with Dependabot version updates, you'll need to specify which\n+# package ecosystems to update and where the package manifests are located.\n+# Please see the documentation for all configuration options:\n+# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file\n+\n+version: 2\n+updates:\n+  - package-ecosystem: \"npm\" # See documentation for possible values\n+    directory: \"/\" # Location of package manifests\n+    schedule:\n+      interval: \"weekly\""
-      }
-    ]
-  },
-  {
-    "sha": "00e84d18035d7da10890395540b0b1a26f1905c5",
-    "node_id": "C_kwDOQdLhx9oAKDAwZTg0ZDE4MDM1ZDdkYTEwODkwMzk1NTQwYjBiMWEyNmYxOTA1YzU",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-08-10T02:51:49Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-08-10T02:51:49Z"
-      },
-      "message": "chore: Set npm as the package ecosystem for Dependabot",
-      "tree": {
-        "sha": "bd9eb3329311a46a4934944bd3c84d3cc3cc8444",
-        "url": "https://api.github.com/repos/jrwnnnn/orbit/git/trees/bd9eb3329311a46a4934944bd3c84d3cc3cc8444"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/orbit/git/commits/00e84d18035d7da10890395540b0b1a26f1905c5",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqeTzFCRC1aQ7uu5UhlAAAc8AQAAkipcxePAtHlRgkoHXTb8iq\n/blxJdIjdGAU42fx+870DsFKBFcpVN+dioUzi6H/hKi95YQJtwRvp06ovVh4CGzj\nMFpVreFbp4uRsFTNZkPo6joZsD94iQAD02JMU3PqRu1JzcMSu3nYu/IqiKOaTkSn\nVNne7NtmXLNYn8hfs6vEimEPdjZL9J93dLHpd8vZsPFLem/zDhMJEhG1CNmKQzih\nB6ANBJwcu4JPro1n3aEGsnLgR4vWJsgw5hgmID2GwO1v+Y9FN1jicl44f83bTuCA\nTk6NYtbNijKF4VCr6hLAWpkgHLg2cVYef/2WHVeNUsjrMoHtfSUsXRtugcqj/8xu\nt3qf/Y21Q0kkS2PPud5Pr9ZrObZ79e0RjHN15HxXJdJe/AWkWGmzLYPyVtIKcgWn\nUD2hKDmjnPb4OzPOXyZGPcYzbqk6B4BlDZFTcbhy6/KEp2eLZCFwa6i9uhSj3q+k\nHEbt7FFF337OhsAzDoqvY/n8qzSuwhlEYwTvLu1naTD++2C49HTtspTxEY4KbJtL\nGIWNUec4KdonEI6Hjc2bSIeMb76E0DgMq3A2xmPLk/KMFz7gncnVvjn2RpL8pbtJ\nb4rPJaM1Egqn4qciwZlBu69xenceKWtWtHOuoCHnFhILkZ1eieZZ4yC7d1E/OfNO\n4xpuG2EDWJD9YtGOMJ3S\n=O7uC\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree bd9eb3329311a46a4934944bd3c84d3cc3cc8444\nparent cd0b0c118b65c2dda51e563aa9559636292c7183\nauthor Mark Jerwin <git@jrwnnnn.me> 1786330309 +0800\ncommitter GitHub <noreply@github.com> 1786330309 +0800\n\nchore: Set npm as the package ecosystem for Dependabot",
-        "verified_at": "2026-08-10T02:52:37Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/00e84d18035d7da10890395540b0b1a26f1905c5",
-    "html_url": "https://github.com/jrwnnnn/orbit/commit/00e84d18035d7da10890395540b0b1a26f1905c5",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/orbit/commits/00e84d18035d7da10890395540b0b1a26f1905c5/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "cd0b0c118b65c2dda51e563aa9559636292c7183",
-        "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/cd0b0c118b65c2dda51e563aa9559636292c7183",
-        "html_url": "https://github.com/jrwnnnn/orbit/commit/cd0b0c118b65c2dda51e563aa9559636292c7183"
-      }
-    ],
-    "stats": {
-      "total": 11,
-      "additions": 11,
-      "deletions": 0
-    },
-    "files": [
-      {
-        "sha": "5f0889ce9169fbfa82e4044135bfe51cce939827",
-        "filename": ".github/dependabot.yml",
-        "status": "added",
-        "additions": 11,
-        "deletions": 0,
-        "changes": 11,
-        "blob_url": "https://github.com/jrwnnnn/orbit/blob/00e84d18035d7da10890395540b0b1a26f1905c5/.github%2Fdependabot.yml",
-        "raw_url": "https://github.com/jrwnnnn/orbit/raw/00e84d18035d7da10890395540b0b1a26f1905c5/.github%2Fdependabot.yml",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/.github%2Fdependabot.yml?ref=00e84d18035d7da10890395540b0b1a26f1905c5",
-        "patch": "@@ -0,0 +1,11 @@\n+# To get started with Dependabot version updates, you'll need to specify which\n+# package ecosystems to update and where the package manifests are located.\n+# Please see the documentation for all configuration options:\n+# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file\n+\n+version: 2\n+updates:\n+  - package-ecosystem: \"npm\" # See documentation for possible values\n+    directory: \"/\" # Location of package manifests\n+    schedule:\n+      interval: \"weekly\""
-      }
-    ]
-  },
-  {
-    "sha": "5e2fe8a6b230f55ce16e587bbd2c1ef280687745",
-    "node_id": "C_kwDOTzw-8NoAKDVlMmZlOGE2YjIzMGY1NWNlMTZlNTg3YmJkMmMxZWYyODA2ODc3NDU",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-08-10T02:49:27Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-08-10T02:49:27Z"
-      },
-      "message": "chore: Set npm as the package ecosystem for Dependabot",
-      "tree": {
-        "sha": "04855783125e01df5bbd7394a0bfda46b6365847",
-        "url": "https://api.github.com/repos/jrwnnnn/scaffold-typescript/git/trees/04855783125e01df5bbd7394a0bfda46b6365847"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/scaffold-typescript/git/commits/5e2fe8a6b230f55ce16e587bbd2c1ef280687745",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqeTw3CRC1aQ7uu5UhlAAAVbkQABaiPdjpD8LkNZ2zA5XeiQt1\n7OXWVQNks9OBIOSwrTXu/1V4iEzya5LX3Q9/8Z2kFCfBzN04dnOKKmVeS90eNL8L\nM32SxsXDL7sEPkoSvLVGuoVLLL+WkV8d8iED/E4ROq1VFfbqB95tvo+kO49tcqQH\nhzIblx5RERnGNbXjVSiolohgxDnByspsYTQ9drIYP1dggFTiCbYw3mq67ChZ2/w2\nxaItkGop3xRzyKOemjTRVn1H/KKuuWwiiqUpChwO+seql2nBjEupR9ZvJy4QRWIm\nz1zS3o7gpBOoj8yTlBzvoX97kK3vuF63A6IRby9SOLb1ylbE4cMXpeBe4997TVi2\nyPL8gKAFWc7dSbKqFI9mIC5TaRzesmTpZJTf7k3xCYkifP++XBNIHIQANeez0rv1\ng9jWWP/pEU5LO0ffTwjk6ZiBfR04mS6qJ6Lfb/LVaPnemJaqHD3tcpUsxLsdIo6I\no/Gnoa7P1miGe/5whuUNyYgu/hBWRLKqVPf8eCMSxYWo8pADrELO0gjT47kmEJ1R\noGN6FL36JEXPpb6Ya4vlLddcuEKFjGP9bga6bjwyy+g2MVHbfp94LZPBA/BwJ4Dm\nYKAG4hSkW9gnrp4JjrvKiqgK5YF+rrwkENFY9oaJPbgKhsPIGL6UoYLGcu1Itzic\nqhyKo37rZtwnOqkg7ogj\n=zfeP\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 04855783125e01df5bbd7394a0bfda46b6365847\nparent 58556359e79a320a696f51584f164471ac47e097\nauthor Mark Jerwin <git@jrwnnnn.me> 1786330167 +0800\ncommitter GitHub <noreply@github.com> 1786330167 +0800\n\nchore: Set npm as the package ecosystem for Dependabot",
-        "verified_at": "2026-08-10T02:50:31Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/scaffold-typescript/commits/5e2fe8a6b230f55ce16e587bbd2c1ef280687745",
-    "html_url": "https://github.com/jrwnnnn/scaffold-typescript/commit/5e2fe8a6b230f55ce16e587bbd2c1ef280687745",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/scaffold-typescript/commits/5e2fe8a6b230f55ce16e587bbd2c1ef280687745/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "58556359e79a320a696f51584f164471ac47e097",
-        "url": "https://api.github.com/repos/jrwnnnn/scaffold-typescript/commits/58556359e79a320a696f51584f164471ac47e097",
-        "html_url": "https://github.com/jrwnnnn/scaffold-typescript/commit/58556359e79a320a696f51584f164471ac47e097"
-      }
-    ],
-    "stats": {
-      "total": 11,
-      "additions": 11,
-      "deletions": 0
-    },
-    "files": [
-      {
-        "sha": "5f0889ce9169fbfa82e4044135bfe51cce939827",
-        "filename": ".github/dependabot.yml",
-        "status": "added",
-        "additions": 11,
-        "deletions": 0,
-        "changes": 11,
-        "blob_url": "https://github.com/jrwnnnn/scaffold-typescript/blob/5e2fe8a6b230f55ce16e587bbd2c1ef280687745/.github%2Fdependabot.yml",
-        "raw_url": "https://github.com/jrwnnnn/scaffold-typescript/raw/5e2fe8a6b230f55ce16e587bbd2c1ef280687745/.github%2Fdependabot.yml",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold-typescript/contents/.github%2Fdependabot.yml?ref=5e2fe8a6b230f55ce16e587bbd2c1ef280687745",
-        "patch": "@@ -0,0 +1,11 @@\n+# To get started with Dependabot version updates, you'll need to specify which\n+# package ecosystems to update and where the package manifests are located.\n+# Please see the documentation for all configuration options:\n+# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file\n+\n+version: 2\n+updates:\n+  - package-ecosystem: \"npm\" # See documentation for possible values\n+    directory: \"/\" # Location of package manifests\n+    schedule:\n+      interval: \"weekly\""
       }
     ]
   }
