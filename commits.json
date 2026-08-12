@@ -1,5 +1,106 @@
 [
   {
+    "sha": "a7b66591356d23faab2a8173cbbd45ae9e240c59",
+    "node_id": "C_kwDOQdLhx9oAKGE3YjY2NTkxMzU2ZDIzZmFhYjJhODE3M2NiYmQ0NWFlOWUyNDBjNTk",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-08-12T05:28:14Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-08-12T05:28:14Z"
+      },
+      "message": "refactor: HLS fatal error message display on OSD (#24)",
+      "tree": {
+        "sha": "32331356699299a1b501995bbaa454c8ea234389",
+        "url": "https://api.github.com/repos/jrwnnnn/orbit/git/trees/32331356699299a1b501995bbaa454c8ea234389"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/orbit/git/commits/a7b66591356d23faab2a8173cbbd45ae9e240c59",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqfARuCRC1aQ7uu5UhlAAA9LEQAAnbJ7iRKJRv+6olrswjfG3o\nYW2wvlzXqNfhQCFRG8tnIkifJ1rMndu9zT5CzyTlEWKEhUGPiYU3518QLaMc+mYo\nn/9Ap64J1+AL1U5AEIbi7jrdXbONloohlzo31uAXAUDzh5E83qxTfJq4pc557hyw\nFWB49fLdI7Sufq6twfalz2Z0QX4OoYY0YZAQWB4tYR4oAfQf2QhDe4gscKkGpEXk\nJH0S909GF8JQJ/KGz2kRZuq++XIAuQTFtj8qmjwKodQjPCutCoAZuoS2JoaLTWgd\ngeHqdFZi5U7ekD3IAtv5wkhQfVenWnsYLY1octL+9/8na8hQy5UZqT9dIv9fuHhn\nXObmK4xt0Ju1HFojPSXQIiwn7RigPUuCnsHH8aFD9ko5rWmFNQP3aYVI9vXmy8HP\nZx5UIJXfkE2SXc2aFiaw2T1ipi/2RoWi4pwTIdXwKOh6qeRHP83EteIVnK13jORP\nbEVtoJganJmjVRdTM8qgQ5D28pvtOjPn4guzNj9XrDoHvy6y1hD6xp+2G4a5/s4V\nqnBhNA8nxf18VD0frFNFUOmXqVEov1m6ZQjRqhcMIKmcMJmy/1gaLBlq5Y9K3fYa\nEUU1+a2gUuTfxdNOnEeKid1opsPfjoAu0AVR/D8a8LjXhHEJWYgycZyKwW3BWhxu\netJVyCzWO2guc7GN9J9V\n=7zMi\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 32331356699299a1b501995bbaa454c8ea234389\nparent 797457d9bcc4f6a05e0bbf5fa80fcf034a267477\nauthor Mark Jerwin <git@jrwnnnn.me> 1786512494 +0800\ncommitter GitHub <noreply@github.com> 1786512494 +0800\n\nrefactor: HLS fatal error message display on OSD (#24)",
+        "verified_at": "2026-08-12T05:33:17Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/a7b66591356d23faab2a8173cbbd45ae9e240c59",
+    "html_url": "https://github.com/jrwnnnn/orbit/commit/a7b66591356d23faab2a8173cbbd45ae9e240c59",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/orbit/commits/a7b66591356d23faab2a8173cbbd45ae9e240c59/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "797457d9bcc4f6a05e0bbf5fa80fcf034a267477",
+        "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/797457d9bcc4f6a05e0bbf5fa80fcf034a267477",
+        "html_url": "https://github.com/jrwnnnn/orbit/commit/797457d9bcc4f6a05e0bbf5fa80fcf034a267477"
+      }
+    ],
+    "stats": {
+      "total": 14,
+      "additions": 7,
+      "deletions": 7
+    },
+    "files": [
+      {
+        "sha": "5a1e5c6782fabbf350178a337dd7db3b8b07a3ea",
+        "filename": "src/App.vue",
+        "status": "modified",
+        "additions": 7,
+        "deletions": 7,
+        "changes": 14,
+        "blob_url": "https://github.com/jrwnnnn/orbit/blob/a7b66591356d23faab2a8173cbbd45ae9e240c59/src%2FApp.vue",
+        "raw_url": "https://github.com/jrwnnnn/orbit/raw/a7b66591356d23faab2a8173cbbd45ae9e240c59/src%2FApp.vue",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/src%2FApp.vue?ref=a7b66591356d23faab2a8173cbbd45ae9e240c59",
+        "patch": "@@ -36,7 +36,7 @@ let hls: Hls | null = null;\n const hlsVideo = ref<HTMLVideoElement>();\n const smpte = ref<HTMLDivElement>();\n const osd = ref<HTMLDivElement>();\n-const toast = ref<HTMLDivElement>();\n+const hlsFatalError = ref<string | null>(null);\n \n // Fetch the list of channels from the Orbit API once so we dont stress the endpoint on quick channel switching\n async function fetchChannels() {\n@@ -89,7 +89,6 @@ watch(\n \t\t});\n \n \t\tsmpte.value?.classList.add(\"hidden\");\n-\t\ttoast.value?.classList.add(\"hidden\");\n \t\thlsVideo.value!.style.display = \"\";\n \n \t\tosd.value?.classList.remove(\"animate-[disappear_7s_step-end_forwards]\");\n@@ -120,8 +119,7 @@ watch(\n \t\t\t\t\tosd.value!.classList.remove(\n \t\t\t\t\t\t\"animate-[disappear_7s_step-end_forwards]\",\n \t\t\t\t\t);\n-\t\t\t\t\ttoast.value!.classList.remove(\"hidden\");\n-\t\t\t\t\ttoast.value!.textContent = `Failed to load the stream: ${error.error?.message}`;\n+\t\t\t\t\thlsFatalError.value = error.error?.message;\n \t\t\t\t} else {\n \t\t\t\t\tconsole.warn(\"HLS error:\", error);\n \t\t\t\t}\n@@ -199,9 +197,11 @@ onBeforeUnmount(() => {\n \t\t\t\t</div>\n \n \t\t\t\t<p\n-\t\t\t\t\tref=\"toast\"\n-\t\t\t\t\tclass=\"hidden rounded-md bg-red-700 px-6 py-1 font-bold text-white\"\n-\t\t\t\t></p>\n+\t\t\t\t\tv-if=\"hlsFatalError\"\n+\t\t\t\t\tclass=\"rounded-md bg-red-700 px-6 py-1 font-bold text-white\"\n+\t\t\t\t>\n+\t\t\t\t\t{{ hlsFatalError }}\n+\t\t\t\t</p>\n \t\t\t</div>\n \t\t</div>\n \t</main>"
+      }
+    ]
+  },
+  {
     "sha": "eab64d96b4ee167a83ed28adaca0a426b5b1c8e2",
     "node_id": "C_kwDORCOQn9oAKGVhYjY0ZDk2YjRlZTE2N2E4M2VkMjhhZGFjYTBhNDI2YjViMWM4ZTI",
     "commit": {
@@ -436,107 +537,6 @@
         "raw_url": "https://github.com/jrwnnnn/orbit/raw/f9515df83bff78185d291f6c60ff9330dbad81b9/src%2Flib%2Fepg.ts",
         "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/src%2Flib%2Fepg.ts?ref=f9515df83bff78185d291f6c60ff9330dbad81b9",
         "patch": "@@ -1,5 +1,3 @@\n-import channels from \"@/data/channels.json\";\n-\n interface EPG {\n \tepg_list: {\n \t\tdesc: string;\n@@ -13,14 +11,16 @@ export interface NowNext {\n \tnext: EPG[\"epg_list\"][number] | null;\n }\n \n-export async function getNowNext(channel: string): Promise<NowNext> {\n+export async function getNowNext(\n+\tchannel: string,\n+\tepg_id: number | null,\n+): Promise<NowNext> {\n \tlet epg: EPG;\n-\tconst channelsMap = new Map(channels.map((c) => [c.id, c]));\n-\n+\t\n \t// Fetch the EPG data for the given channel from the API\n \ttry {\n \t\tconst res = await fetch(\n-\t\t\t`https://epg.pw/api/epg.json?lang=en&date=${new Date().toISOString().slice(0, 10).replace(/-/g, \"\")}&channel_id=${channelsMap.get(channel)?.epg_id}`,\n+\t\t\t`https://epg.pw/api/epg.json?lang=en&date=${new Date().toISOString().slice(0, 10).replace(/-/g, \"\")}&channel_id=${epg_id}`,\n \t\t);\n \n \t\tif (!res.ok) throw new Error(`${res.status} ${res.statusText}`);"
-      }
-    ]
-  },
-  {
-    "sha": "2c625f459bd49a2455c35046180afb68f2434eac",
-    "node_id": "C_kwDOQdLhx9oAKDJjNjI1ZjQ1OWJkNDlhMjQ1NWMzNTA0NjE4MGFmYjY4ZjI0MzRlYWM",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-08-11T00:37:19Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-08-11T00:37:19Z"
-      },
-      "message": "refactor: Keydown handler (#22)",
-      "tree": {
-        "sha": "943b8329139acb34b63557278eda17a0219d588c",
-        "url": "https://api.github.com/repos/jrwnnnn/orbit/git/trees/943b8329139acb34b63557278eda17a0219d588c"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/orbit/git/commits/2c625f459bd49a2455c35046180afb68f2434eac",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqem6/CRC1aQ7uu5UhlAAARlwQAAbYp/3iqiTvZIh9cvTvc27W\nTE9Ok52R6ge2UtRtk43b/ObjTm0wGHwq9u3f/M3q84/v2+esumiD+AI7OA8NmaHW\no52ZGA2Vy1TuM+xdUjQFjDT4D8D0c6QYMxq26F3O5pBrFEbpKi7FxxnB3RzE0+M0\ne+jyf0rO1ew8LnrLZi/IFGP6VNZcJdqcDDG8H5ejE2gskrQ92qQdpKUBCaycZKfh\nTMpWlQ0IZpGKr7nKpc1/Kt2Mpnx4LqkjfnFkW8tloPsEMsVZB4QnX8BlxEkc5yR8\nftqKTnn18H5ZauhTEL5STm/OwNdAL3E+0cpMtKko6w2FE1hqwyyJ/S7eN5K4TW1w\nlHo01aJ+lsq5mY7wKpSqScraV2n5HFZQ0jyc3jKhfGruErLsIn1qe9pg3pfpGXeJ\ngSMSMV48HnwZ4N9i0tSXz7UoZTTGPCHtbjl7L99bikX58gFQTdfvmkW8TrQp9LKa\nNIfcsOxwepu+1l5fjTMAvWYp9j6tXxBhfsb7HoIHmXuHjjf66FSseUKenVd0dGlE\ntO71zEQo56MrEGJgKOVa1WzF9GZbUf+IVkdTqKSKiM9ZAna3d02QU5mpaI88PERF\nrMdFOaPXKG+NPvRUMvUIoFILoH2b6r8u1ISdmo29SKacuzVaHnW17sm4sD8MJUVh\nCnmJPsw8hcgPaPRpsQXA\n=8nzM\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 943b8329139acb34b63557278eda17a0219d588c\nparent d38ab1ddd2e8424baf36befd2ff10c2f7e8ed48c\nauthor Mark Jerwin <git@jrwnnnn.me> 1786408639 +0800\ncommitter GitHub <noreply@github.com> 1786408639 +0800\n\nrefactor: Keydown handler (#22)",
-        "verified_at": "2026-08-11T00:43:24Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/2c625f459bd49a2455c35046180afb68f2434eac",
-    "html_url": "https://github.com/jrwnnnn/orbit/commit/2c625f459bd49a2455c35046180afb68f2434eac",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/orbit/commits/2c625f459bd49a2455c35046180afb68f2434eac/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "d38ab1ddd2e8424baf36befd2ff10c2f7e8ed48c",
-        "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/d38ab1ddd2e8424baf36befd2ff10c2f7e8ed48c",
-        "html_url": "https://github.com/jrwnnnn/orbit/commit/d38ab1ddd2e8424baf36befd2ff10c2f7e8ed48c"
-      }
-    ],
-    "stats": {
-      "total": 39,
-      "additions": 18,
-      "deletions": 21
-    },
-    "files": [
-      {
-        "sha": "10558229f696abfd5f470eaab58a29ed1ef5b76d",
-        "filename": "src/App.vue",
-        "status": "modified",
-        "additions": 18,
-        "deletions": 21,
-        "changes": 39,
-        "blob_url": "https://github.com/jrwnnnn/orbit/blob/2c625f459bd49a2455c35046180afb68f2434eac/src%2FApp.vue",
-        "raw_url": "https://github.com/jrwnnnn/orbit/raw/2c625f459bd49a2455c35046180afb68f2434eac/src%2FApp.vue",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/src%2FApp.vue?ref=2c625f459bd49a2455c35046180afb68f2434eac",
-        "patch": "@@ -93,21 +93,23 @@ watch(\n );\n \n // Remote control navigation\n-const channelIds = channels.map((c) => c.id);\n-onMounted(() =>\n-\tdocument.addEventListener(\"keydown\", (e: KeyboardEvent) => {\n-\t\tconst idx = channelIds.indexOf(currentChannel.value as string);\n-\t\tswitch (e.key) {\n-\t\t\tcase \"ArrowUp\":\n-\t\t\t\tif (idx > 0) currentChannel.value = channelIds[idx - 1];\n-\t\t\t\tbreak;\n-\t\t\tcase \"ArrowDown\":\n-\t\t\t\tif (idx < channelIds.length - 1)\n-\t\t\t\t\tcurrentChannel.value = channelIds[idx + 1];\n-\t\t\t\tbreak;\n-\t\t}\n-\t}),\n-);\n+function handleKeydown(e: KeyboardEvent) {\n+\tconst channelIds = channels.map((c) => c.id);\n+\tconst idx = channelIds.indexOf(currentChannel.value as string);\n+\tswitch (e.key) {\n+\t\tcase \"ArrowUp\":\n+\t\t\tif (idx > 0) currentChannel.value = channelIds[idx - 1];\n+\t\t\tbreak;\n+\t\tcase \"ArrowDown\":\n+\t\t\tif (idx < channelIds.length - 1)\n+\t\t\t\tcurrentChannel.value = channelIds[idx + 1];\n+\t\t\tbreak;\n+\t}\n+}\n+\n+onMounted(() => {\n+\tdocument.addEventListener(\"keydown\", handleKeydown);\n+});\n \n onBeforeUnmount(() => {\n \tcleanup();\n@@ -124,12 +126,7 @@ onBeforeUnmount(() => {\n \t\t\t\tclass=\"hidden h-screen w-full object-cover\"\n \t\t\t/>\n \n-\t\t\t<video\n-\t\t\t\tref=\"hlsVideo\"\n-\t\t\t\tclass=\"h-screen\"\n-\t\t\t\tautoplay\n-\t\t\t\tplaysinline\n-\t\t\t></video>\n+\t\t\t<video ref=\"hlsVideo\" class=\"h-screen\" autoplay playsinline></video>\n \n \t\t\t<div\n \t\t\t\tref=\"osd\""
       }
     ]
   }
