@@ -1,5 +1,106 @@
 [
   {
+    "sha": "f4b09cd749e161319f23f12d2fc7a4cb551a7280",
+    "node_id": "C_kwDORCOQn9oAKGY0YjA5Y2Q3NDllMTYxMzE5ZjIzZjEyZDJmYzdhNGNiNTUxYTcyODA",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-08-13T05:31:13Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-08-13T05:31:13Z"
+      },
+      "message": "chore: Remove prune dependency step on workflow (#133)",
+      "tree": {
+        "sha": "1ea2f7bf3f9e250a636cec43fb67458729f14312",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/1ea2f7bf3f9e250a636cec43fb67458729f14312"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/f4b09cd749e161319f23f12d2fc7a4cb551a7280",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqfVahCRC1aQ7uu5UhlAAAFi4QAFgMrVhHjccbrzdbzsPbcsCy\nsj/k8HdtEBVlSGcOJ2pXtGSBat86bEUMbzWbQvVlxB3Zr9Ns4/MnbbOWHO/kcMen\nHLj+d/VFjSFCT7NnOuwrHfMYtp/Q1WwHn+Sm7Ox/2hGtB8QSY/3hTgb+yoIOZj2b\ntmj57LikH0qLQDLhr7NIzayZ7dhRAHum7v5KFFsiC9iGExuRPPLh7q2eVjpKbEdz\nxk+rNo/x7WZCIyQXT9wNhJ25A01ipTZ92IfvKjIE/tqdxSt8PCcueJ5FW/MM8FU5\nElTPC4ESq8ocVFu03foNOlEBK27aDgL7gBLp4C1zsznVgnhHl1P2BKWft8lFUieY\nDo/khAH8aEVPN8j9ntMkps4tmryP+xPPGqUMHGASXUGaLQdzQp+hE3PvR95fqJJa\naQUNdQVxeVekW0nUHC2ngRGmFRwA6ra6Y64P8PT7yKb76fX1DyguMmKxG4Uq07/K\n1J8g19x5f4XrU+9suFzhRANZlaqeDtQnF/NraSzvd+PmEC2ioTV+Qt5TgryKd4v8\nlNDqmBdesEkr+wPjV48MQ5zImT2Q6nPXIvOaw/fpCO2gV1eg3K9iDCmbbQapuwJk\nMkgyJGqaq6eiV4yBEgXLrfeMYFg7kbfghe5MySzr1bpflQWcS9X+AF9ijj0/3iYc\nJ9Gl5q1UKFO3bnVPI42B\n=yxDa\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 1ea2f7bf3f9e250a636cec43fb67458729f14312\nparent f5c935d7118eb20aab37a88840a9c8159a484e6a\nauthor Mark Jerwin <git@jrwnnnn.me> 1786599073 +0800\ncommitter GitHub <noreply@github.com> 1786599073 +0800\n\nchore: Remove prune dependency step on workflow (#133)",
+        "verified_at": "2026-08-13T07:08:10Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/f4b09cd749e161319f23f12d2fc7a4cb551a7280",
+    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/f4b09cd749e161319f23f12d2fc7a4cb551a7280",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/f4b09cd749e161319f23f12d2fc7a4cb551a7280/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f5c935d7118eb20aab37a88840a9c8159a484e6a",
+        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/f5c935d7118eb20aab37a88840a9c8159a484e6a",
+        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/f5c935d7118eb20aab37a88840a9c8159a484e6a"
+      }
+    ],
+    "stats": {
+      "total": 3,
+      "additions": 0,
+      "deletions": 3
+    },
+    "files": [
+      {
+        "sha": "c7b8c2f7722c97e898d3cc01c687a2077b4b2110",
+        "filename": ".github/workflows/Main.yml",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 3,
+        "changes": 3,
+        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/f4b09cd749e161319f23f12d2fc7a4cb551a7280/.github%2Fworkflows%2FMain.yml",
+        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/f4b09cd749e161319f23f12d2fc7a4cb551a7280/.github%2Fworkflows%2FMain.yml",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/.github%2Fworkflows%2FMain.yml?ref=f4b09cd749e161319f23f12d2fc7a4cb551a7280",
+        "patch": "@@ -66,9 +66,6 @@ jobs:\n       - name: Build\n         run: npm run build\n \n-      - name: Prune dev dependencies\n-        run: npm prune --production\n-\n       - name: Upload Artifact\n         uses: actions/upload-artifact@v4\n         with:"
+      }
+    ]
+  },
+  {
     "sha": "bae22b517fc899854c44aa1be5267e7fb15bb96e",
     "node_id": "C_kwDOQdLhx9oAKGJhZTIyYjUxN2ZjODk5ODU0YzQ0YWExYmU1MjY3ZTdmYjE1YmI5NmU",
     "commit": {
@@ -400,107 +501,6 @@
         "raw_url": "https://github.com/jrwnnnn/orbit/raw/797457d9bcc4f6a05e0bbf5fa80fcf034a267477/README.md",
         "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/README.md?ref=797457d9bcc4f6a05e0bbf5fa80fcf034a267477",
         "patch": "@@ -21,7 +21,7 @@ Your LG webOS TV must have Developer Mode enabled and connected to your local ne\n \n ### Option 1: webOS Dev Manager (Recommended)\n \n-1. Download and install the [webOS Dev Manager](https://github.com/webosbrew/webos-dev-manager).\n+1. Download and install the [webOS Dev Manager](https://github.com/webosbrew/dev-manager-desktop).\n 2. Connect the webOS Dev Manager to your TV using your Developer Mode credentials.\n 3. Download latest version of Orbit from the [Releases](https://github.com/jrwnnnn/orbit/releases/latest) page.\n 4. Open the webOS Dev Manager, click Install, and select the `.ipk` file."
-      }
-    ]
-  },
-  {
-    "sha": "78a8cdadd7f427f6ac09e720170f59844a7952ac",
-    "node_id": "C_kwDOQdLhx9oAKDc4YThjZGFkZDdmNDI3ZjZhYzA5ZTcyMDE3MGY1OTg0NGE3OTUyYWM",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-08-11T02:19:02Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-08-11T02:19:02Z"
-      },
-      "message": "chore: Bump version",
-      "tree": {
-        "sha": "95fd9ec3ab4b07a3d78d2b5ad733e2ba6bb468d8",
-        "url": "https://api.github.com/repos/jrwnnnn/orbit/git/trees/95fd9ec3ab4b07a3d78d2b5ad733e2ba6bb468d8"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/orbit/git/commits/78a8cdadd7f427f6ac09e720170f59844a7952ac",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQB+JKSQnrHywDQA80eAUPAx1HqwwYI4ajNMZfzjzNGkR9w6Y6efIbwOZnzKyqLdeDL\n70AJQc+RjtlE1xn2a+vgk=\n-----END SSH SIGNATURE-----",
-        "payload": "tree 95fd9ec3ab4b07a3d78d2b5ad733e2ba6bb468d8\nparent f9515df83bff78185d291f6c60ff9330dbad81b9\nauthor Mark Jerwin <git@jrwnnnn.me> 1786414742 +0800\ncommitter Mark Jerwin <git@jrwnnnn.me> 1786414742 +0800\n\nchore: Bump version\n",
-        "verified_at": "2026-08-11T02:22:44Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/78a8cdadd7f427f6ac09e720170f59844a7952ac",
-    "html_url": "https://github.com/jrwnnnn/orbit/commit/78a8cdadd7f427f6ac09e720170f59844a7952ac",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/orbit/commits/78a8cdadd7f427f6ac09e720170f59844a7952ac/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "f9515df83bff78185d291f6c60ff9330dbad81b9",
-        "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/f9515df83bff78185d291f6c60ff9330dbad81b9",
-        "html_url": "https://github.com/jrwnnnn/orbit/commit/f9515df83bff78185d291f6c60ff9330dbad81b9"
-      }
-    ],
-    "stats": {
-      "total": 2,
-      "additions": 1,
-      "deletions": 1
-    },
-    "files": [
-      {
-        "sha": "15d2c870b75d60dbc0a699cf832fd4a79239fa33",
-        "filename": "public/appinfo.json",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/orbit/blob/78a8cdadd7f427f6ac09e720170f59844a7952ac/public%2Fappinfo.json",
-        "raw_url": "https://github.com/jrwnnnn/orbit/raw/78a8cdadd7f427f6ac09e720170f59844a7952ac/public%2Fappinfo.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/public%2Fappinfo.json?ref=78a8cdadd7f427f6ac09e720170f59844a7952ac",
-        "patch": "@@ -1,6 +1,6 @@\n {\n \t\"id\": \"com.jrwnnnn.orbit\",\n-\t\"version\": \"1.0.0\",\n+\t\"version\": \"1.1.0\",\n \t\"vendor\": \"Orbit\",\n \t\"type\": \"web\",\n \t\"main\": \"index.html\","
       }
     ]
   }
