@@ -108,7 +108,9 @@ const stack = [
 									class="bg-primary h-10 w-10 lg:w-12"
 									style={`mask: url('${language.icon}') no-repeat center / contain; -webkit-mask: url('${language.icon}') no-repeat center / contain;`}
 								/>
-								<p class="font-mono text-sm">{language.name}</p>
+								<p class="truncate text-center font-mono text-sm">
+									{language.name}
+								</p>
 							</div>
 						))
 					}
@@ -130,10 +132,7 @@ const stack = [
 			<Container
 				class="shadow-primary/50 break-inside-avoid space-y-5 bg-black! transition-shadow hover:shadow-lg"
 			>
-				<Ascii
-					ascii={siteSettings.get("index.art") as string}
-					class="glitch opacity-90"
-				/>
+				<Ascii ascii={siteSettings.get("index.art") as string} />
 				<hr class="border-primary/40 border" />
 				<p class="text-center font-mono text-sm italic">
 					{siteSettings.get("index.quote")}
