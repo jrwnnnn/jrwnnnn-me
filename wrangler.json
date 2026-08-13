@@ -1,6 +1,7 @@
 {
+	"$schema": "node_modules/wrangler/config-schema.json",
 	"compatibility_date": "2026-04-15",
-	"compatibility_flags": ["global_fetch_strictly_public", "nodejs_compat"],
+	"compatibility_flags": ["nodejs_compat"],
 	"name": "jrwnnnn-me",
 	"main": "@astrojs/cloudflare/entrypoints/server",
 	"assets": {
@@ -31,5 +32,6 @@
 	],
 	"observability": {
 		"enabled": true
-	}
+	},
+	"upload_source_maps": true
 }
