@@ -1,36 +1,36 @@
 [
   {
-    "sha": "f7210da0dffd4b5f7e5b111113602291defe7b38",
-    "node_id": "C_kwDORz-DOdoAKGY3MjEwZGEwZGZmZDRiNWY3ZTViMTExMTEzNjAyMjkxZGVmZTdiMzg",
+    "sha": "3f58da7e5f5a87fc045c2c38ee6ed5246802e9b8",
+    "node_id": "C_kwDORz-DOdoAKDNmNThkYTdlNWY1YTg3ZmMwNDVjMmMzOGVlNmVkNTI0NjgwMmU5Yjg",
     "commit": {
       "author": {
         "name": "Mark Jerwin",
         "email": "git@jrwnnnn.me",
-        "date": "2026-08-26T13:03:16Z"
+        "date": "2026-09-05T09:33:09Z"
       },
       "committer": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-08-26T13:03:16Z"
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-09-05T09:33:09Z"
       },
-      "message": "refactor: Sort imports alphabetically",
+      "message": "refactor: Move empty-CSV check earlier in validateCSV (#77)",
       "tree": {
-        "sha": "7cfb1002fda7f2e1bdbebbdea3b21f9acf9062e0",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/7cfb1002fda7f2e1bdbebbdea3b21f9acf9062e0"
+        "sha": "e2e473f6c83452fee1a94819f689e25fa2a74eca",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/e2e473f6c83452fee1a94819f689e25fa2a74eca"
       },
-      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/f7210da0dffd4b5f7e5b111113602291defe7b38",
+      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/3f58da7e5f5a87fc045c2c38ee6ed5246802e9b8",
       "comment_count": 0,
       "verification": {
         "verified": true,
         "reason": "valid",
-        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQGCvwArDig+ghnA+hMoCOJ1aI6ZzxVfgycjBa4Ad9enkg28YDW0Xn6+HLM9rZEbrf/\nD5pOl0Q1vl4AGXft5GTA8=\n-----END SSH SIGNATURE-----",
-        "payload": "tree 7cfb1002fda7f2e1bdbebbdea3b21f9acf9062e0\nparent 59c378f102ddbbcbeca85424583cae3d680c2d84\nauthor Mark Jerwin <git@jrwnnnn.me> 1787749396 +0800\ncommitter Mark Jerwin <git@jrwnnnn.me> 1787749396 +0800\n\nrefactor: Sort imports alphabetically\n",
-        "verified_at": "2026-08-26T13:03:22Z"
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqm+HVCRC1aQ7uu5UhlAAA290QAGBb9R2obIZ3wyvT7T/oU9zG\nf3qowHHj8qeyCbS8Otm4rQvq/0fRybaQNObkseVi/aN/aiRciaNbESx52FZYdLRe\n1BB4z740n+oPi3R9/MmpIVJEUCsMBt+8WCMypXrf0L5HYc0BO02aINfg23hyVV+v\nscERptbUda62TuMkvZ7IQgTiM/fSOxbzufKTleZPKX7edQ6gAY73/wFZhM0LTPFn\nql1krKEiOrUsmfALqYUPCmzwIJvynRWTLdnW+7xlMqBULliWezeSP6Hqiq+BW1fB\nPIUpnbr3+n0AQ04L781O7wWeuaWuBXSBe0qT7BtyAIsLa0y7hzWLDJxosYdCewej\n1c+rq52B7rMfuK4TI2HYbfteGpkHCxcagJItRbwS84pyl1m6e2ed456Uiz8bxBXr\niNn0Wm42y0euTKDp8Pv0TVuy60M+cMa4xki+skxxmldcRSYmc/SrzG14tH1/omMF\nn26jZa0DLlAaLfgXwZRGG0dcztuYSyh+VMZJKZgwtRWpz5NCuI2+H/EFVtZblB7n\nb7GEg7Fi9YwdZY/6zaM3392ssGtR11nRxCg1+q0iwE8riWcTVygBwVqgLwgPxq9T\nR1YRKT74JfXQAx4QdGMI4/C6pU33iwVXcjJrYE/7uIOY+abE338Vb2IrH170+Gu3\nifkata0osYp83N3ccOdQ\n=d7Qp\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree e2e473f6c83452fee1a94819f689e25fa2a74eca\nparent d90d7d9af692076e801505b0a5b3d7030b9c8e59\nauthor Mark Jerwin <git@jrwnnnn.me> 1788600789 +0800\ncommitter GitHub <noreply@github.com> 1788600789 +0800\n\nrefactor: Move empty-CSV check earlier in validateCSV (#77)",
+        "verified_at": "2026-09-05T09:33:09Z"
       }
     },
-    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/f7210da0dffd4b5f7e5b111113602291defe7b38",
-    "html_url": "https://github.com/jrwnnnn/rekord/commit/f7210da0dffd4b5f7e5b111113602291defe7b38",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/f7210da0dffd4b5f7e5b111113602291defe7b38/comments",
+    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/3f58da7e5f5a87fc045c2c38ee6ed5246802e9b8",
+    "html_url": "https://github.com/jrwnnnn/rekord/commit/3f58da7e5f5a87fc045c2c38ee6ed5246802e9b8",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/3f58da7e5f5a87fc045c2c38ee6ed5246802e9b8/comments",
     "author": {
       "login": "jrwnnnn",
       "id": 136870415,
@@ -53,85 +53,85 @@
       "site_admin": false
     },
     "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
       "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
       "type": "User",
       "user_view_type": "public",
       "site_admin": false
     },
     "parents": [
       {
-        "sha": "59c378f102ddbbcbeca85424583cae3d680c2d84",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/59c378f102ddbbcbeca85424583cae3d680c2d84",
-        "html_url": "https://github.com/jrwnnnn/rekord/commit/59c378f102ddbbcbeca85424583cae3d680c2d84"
+        "sha": "d90d7d9af692076e801505b0a5b3d7030b9c8e59",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/d90d7d9af692076e801505b0a5b3d7030b9c8e59",
+        "html_url": "https://github.com/jrwnnnn/rekord/commit/d90d7d9af692076e801505b0a5b3d7030b9c8e59"
       }
     ],
     "stats": {
-      "total": 6,
-      "additions": 3,
-      "deletions": 3
+      "total": 27,
+      "additions": 15,
+      "deletions": 12
     },
     "files": [
       {
-        "sha": "3747015c1b6220192bfc83e9946ac38466a58ad2",
-        "filename": "src/pages/index.astro",
+        "sha": "1e553d9396692192d40388d5ed9419a4ef81d8fe",
+        "filename": "src/lib/validateCSV.ts",
         "status": "modified",
-        "additions": 3,
-        "deletions": 3,
-        "changes": 6,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/f7210da0dffd4b5f7e5b111113602291defe7b38/src%2Fpages%2Findex.astro",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/f7210da0dffd4b5f7e5b111113602291defe7b38/src%2Fpages%2Findex.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Fpages%2Findex.astro?ref=f7210da0dffd4b5f7e5b111113602291defe7b38",
-        "patch": "@@ -182,11 +182,11 @@ import htmlFields from \"../data/htmlFields.json\";\n \n <script src=\"@utils/downloadTemplate.ts\"></script>\n <script>\n-\timport { populateFields } from \"@lib/populateFields\";\n-\timport { validateCSV } from \"@lib/validateCSV\";\n \timport { PDFDocument } from \"pdf-lib\";\n-\timport { updateProgressBanner } from \"@utils/progressBanner\";\n+\timport { populateFields } from \"@lib/populateFields\";\n \timport { saveAs } from \"file-saver\";\n+\timport { updateProgressBanner } from \"@utils/progressBanner\";\n+\timport { validateCSV } from \"@lib/validateCSV\";\n \timport fontkit from \"@pdf-lib/fontkit\";\n \timport JSZip from \"jszip\";\n \timport Papa from \"papaparse\";"
+        "additions": 15,
+        "deletions": 12,
+        "changes": 27,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/3f58da7e5f5a87fc045c2c38ee6ed5246802e9b8/src%2Flib%2FvalidateCSV.ts",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/3f58da7e5f5a87fc045c2c38ee6ed5246802e9b8/src%2Flib%2FvalidateCSV.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Flib%2FvalidateCSV.ts?ref=3f58da7e5f5a87fc045c2c38ee6ed5246802e9b8",
+        "patch": "@@ -22,14 +22,27 @@ export function validateCSV(file: File, grade: number): Promise<boolean> {\n \t\t\tcomplete: (results) => {\n \t\t\t\tconst columns = results.meta.fields;\n \n-\t\t\t\t// Check for missing columns based on the grade schema\n+\t\t\t\t// Check if the CSV is empty\n+\t\t\t\tif (results.data.length === 0) {\n+\t\t\t\t\tupdateProgressBanner(\n+\t\t\t\t\t\t\"CSV is empty.\",\n+\t\t\t\t\t\t\"The uploaded CSV file is empty.\",\n+\t\t\t\t\t\t\"https://cdn-icons-png.flaticon.com/512/6514/6514954.png\",\n+\t\t\t\t\t);\n+\t\t\t\t\treturn resolve(false);\n+\t\t\t\t}\n+\n+\t\t\t\t// Find the schema for the specified grade\n \t\t\t\tconst gradeSchema = schema.find((s) => s.grade === grade);\n+\n+\t\t\t\t// Check for missing columns based on the grade schema\n \t\t\t\tconst missingColumns = (gradeSchema ? gradeSchema.columns : []).filter(\n \t\t\t\t\t(col) => !columns!.includes(col),\n \t\t\t\t);\n+\t\t\t\t\n \t\t\t\tif (missingColumns.length > 0) {\n+\t\t\t\t\t// If there are more than 5 missing columns, show only the first 3 and indicate how many more are missing\n \t\t\t\t\tlet message = \"\";\n-\n \t\t\t\t\tif (missingColumns.length > 5) {\n \t\t\t\t\t\tconst shown = missingColumns.slice(0, 3).join(\", \");\n \t\t\t\t\t\tmessage = `Missing columns: ${shown}, and ${missingColumns.length - 3} more...`;\n@@ -49,16 +62,6 @@ export function validateCSV(file: File, grade: number): Promise<boolean> {\n \t\t\t\t\treturn resolve(false);\n \t\t\t\t}\n \n-\t\t\t\t// Check if CSV is empty\n-\t\t\t\tif (results.data.length === 0) {\n-\t\t\t\t\tupdateProgressBanner(\n-\t\t\t\t\t\t\"CSV is empty.\",\n-\t\t\t\t\t\t\"The uploaded CSV file is empty.\",\n-\t\t\t\t\t\t\"https://cdn-icons-png.flaticon.com/512/6514/6514954.png\",\n-\t\t\t\t\t);\n-\t\t\t\t\treturn resolve(false);\n-\t\t\t\t}\n-\n \t\t\t\tresolve(true);\n \t\t\t},\n \t\t\terror: (parseError) => {"
       }
     ]
   },
   {
-    "sha": "59c378f102ddbbcbeca85424583cae3d680c2d84",
-    "node_id": "C_kwDORz-DOdoAKDU5YzM3OGYxMDJkZGJiY2JlY2E4NTQyNDU4M2NhZTNkNjgwYzJkODQ",
+    "sha": "d90d7d9af692076e801505b0a5b3d7030b9c8e59",
+    "node_id": "C_kwDORz-DOdoAKGQ5MGQ3ZDlhZjY5MjA3NmU4MDE1MDViMGE1YjNkNzAzMGI5YzhlNTk",
     "commit": {
       "author": {
         "name": "Mark Jerwin",
         "email": "git@jrwnnnn.me",
-        "date": "2026-08-26T07:58:46Z"
+        "date": "2026-09-05T09:24:11Z"
       },
       "committer": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-08-26T07:58:46Z"
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-09-05T09:24:11Z"
       },
-      "message": "Update README.md\n\ndocs: Remove SQLite badge",
+      "message": "docs: Add comments for credential checkbox logic (#76)",
       "tree": {
-        "sha": "d2768799554a30909ff31e4a3a4c4e6bfb1ab592",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/d2768799554a30909ff31e4a3a4c4e6bfb1ab592"
+        "sha": "8aa43d9d861421f3733fd676fd2603f949077c88",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/8aa43d9d861421f3733fd676fd2603f949077c88"
       },
-      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/59c378f102ddbbcbeca85424583cae3d680c2d84",
+      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/d90d7d9af692076e801505b0a5b3d7030b9c8e59",
       "comment_count": 0,
       "verification": {
         "verified": true,
         "reason": "valid",
-        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQJlzB0YjEc0yj7EgBDf0qRaJ6eTysSQtgh9Z3qVMDj7GNcE9U0NkXW6Vu/l9QETkmI\nmsAP5p6UwZejtCbU3F/Aw=\n-----END SSH SIGNATURE-----",
-        "payload": "tree d2768799554a30909ff31e4a3a4c4e6bfb1ab592\nparent 6ef02b73931be13068d214951b8066f4d2ea5073\nauthor Mark Jerwin <git@jrwnnnn.me> 1787731126 +0800\ncommitter Mark Jerwin <git@jrwnnnn.me> 1787731126 +0800\n\nUpdate README.md\n\ndocs: Remove SQLite badge\n",
-        "verified_at": "2026-08-26T07:58:51Z"
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqm9+7CRC1aQ7uu5UhlAAAy7sQAGVEYFB3HLC9H8mGC+xDDH2G\n0CpufiqBppz5K9tGx+50dRms9U6b20aD3DnUxPTi1TPI26MRAILZAJGMGZt3AcYP\nG/6M6XKJD4sLtg9lSWir13kSH3+CV0IuQjuNX06PK7fy8RfBKQtXpgXywleUArzP\nl+io+pNtwSW5U1HLb5uPBX1rdPERT5/5XijyteQCUfP8ZUe5EOUES7PQqzkrMh1k\nbXzAL2YRH790JmkSbBoM8iFd+DM8HqSok9K0lDpL+4/E7KfJO2NiFT7QjADIsxZ3\n+JfC/uQ9P2+JU4H2f3yI3s/RRqQrXTyRVEcq2iQjxMlhUy4sDdBv/7VstYfeYyxo\nL+y+wD8LoOpMS+iWIUOu/c7bv0AFcf6NkP7XI0yy+LXdMLq9eMlLxjkNq9EDiCGq\na12w11C8mHszHCy32FHAdfvGc5nk62GoiEUGFTTlTfk+xPWqme80T2tAsFKQIcVs\nloQ6JFuTFnzZRPDsjmRiuiR3CnO9Eq71rEYhVqxHZElIyanjv1IOkz9RAcpZaUIi\n7I1x9ilH/WQoRIKuKqvcJUy6AVJEEV36cpz/eCatyVX9ufieBHwVJvyiD78yHwkB\nXPXQ5I1t+uwyQPRsfye9fP2AVTYZlZdfHOvnQ8EPbnDponLlv02waQSXhPIifFxB\n4E4fy7uhTFf4ocb4cJNR\n=z1cc\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 8aa43d9d861421f3733fd676fd2603f949077c88\nparent f1f1393db08a99773ea961426801130194c0cb1a\nauthor Mark Jerwin <git@jrwnnnn.me> 1788600251 +0800\ncommitter GitHub <noreply@github.com> 1788600251 +0800\n\ndocs: Add comments for credential checkbox logic (#76)",
+        "verified_at": "2026-09-05T09:24:11Z"
       }
     },
-    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/59c378f102ddbbcbeca85424583cae3d680c2d84",
-    "html_url": "https://github.com/jrwnnnn/rekord/commit/59c378f102ddbbcbeca85424583cae3d680c2d84",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/59c378f102ddbbcbeca85424583cae3d680c2d84/comments",
+    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/d90d7d9af692076e801505b0a5b3d7030b9c8e59",
+    "html_url": "https://github.com/jrwnnnn/rekord/commit/d90d7d9af692076e801505b0a5b3d7030b9c8e59",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/d90d7d9af692076e801505b0a5b3d7030b9c8e59/comments",
     "author": {
       "login": "jrwnnnn",
       "id": 136870415,
@@ -154,85 +154,85 @@
       "site_admin": false
     },
     "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
       "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
       "type": "User",
       "user_view_type": "public",
       "site_admin": false
     },
     "parents": [
       {
-        "sha": "6ef02b73931be13068d214951b8066f4d2ea5073",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/6ef02b73931be13068d214951b8066f4d2ea5073",
-        "html_url": "https://github.com/jrwnnnn/rekord/commit/6ef02b73931be13068d214951b8066f4d2ea5073"
+        "sha": "f1f1393db08a99773ea961426801130194c0cb1a",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/f1f1393db08a99773ea961426801130194c0cb1a",
+        "html_url": "https://github.com/jrwnnnn/rekord/commit/f1f1393db08a99773ea961426801130194c0cb1a"
       }
     ],
     "stats": {
-      "total": 1,
-      "additions": 0,
+      "total": 5,
+      "additions": 4,
       "deletions": 1
     },
     "files": [
       {
-        "sha": "2b16629d3dd54b658081cf866143ce4bb37dc74e",
-        "filename": "README.md",
+        "sha": "b49e433eec589c64e23d887b90a8750ba2d21897",
+        "filename": "src/lib/populateFields.ts",
         "status": "modified",
-        "additions": 0,
+        "additions": 4,
         "deletions": 1,
-        "changes": 1,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/59c378f102ddbbcbeca85424583cae3d680c2d84/README.md",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/59c378f102ddbbcbeca85424583cae3d680c2d84/README.md",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/README.md?ref=59c378f102ddbbcbeca85424583cae3d680c2d84",
-        "patch": "@@ -6,7 +6,6 @@\n    <!-- FIND PREMADE BADGES HERE: https://github.com/Ileriayo/markdown-badges -->\n    <a href=\"https://astro.build\"><img src=\"https://img.shields.io/badge/astro-%232C2052.svg?style=for-the-badge&logo=astro&logoColor=white\"></a>\n    <a href=\"https://www.typescriptlang.org/\"><img src=\"https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white\"></a>\n-   <a href=\"https://sqlite.org\"><img src=\"https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white\"></a>\n    <a href=\"./LICENSE\"><img src=\"https://img.shields.io/github/license/jrwnnnn/scaffold?style=for-the-badge\"></a>\n    <a href=\"https://github.com/jrwnnnn/scaffold/stargazers\"><img src=\"https://img.shields.io/github/stars/jrwnnnn/scaffold?style=for-the-badge\"></a>\n </div>"
+        "changes": 5,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/d90d7d9af692076e801505b0a5b3d7030b9c8e59/src%2Flib%2FpopulateFields.ts",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/d90d7d9af692076e801505b0a5b3d7030b9c8e59/src%2Flib%2FpopulateFields.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Flib%2FpopulateFields.ts?ref=d90d7d9af692076e801505b0a5b3d7030b9c8e59",
+        "patch": "@@ -38,7 +38,9 @@ export async function populateFields(\n \n \t// Populate the remaining fields based on the CSV\n \tfor (const [pdfFieldName, value] of Object.entries(csvRow)) {\n-\t\t// Handle checkbox fields\n+\t\t// Handle Credential Presented for Grade 1 checkbox.\n+\t\t// A student's list of presented credentials for grade 1 is stored as one comma-separated string (or \"All\" if every credential is present).\n+\t\t// checkboxMap.json maps each known label to its PDF checkbox field name, so we check every box whose label appears in the cell.\n \t\tif (pdfFieldName === \"credential_presented_for_grade_1\") {\n \t\t\tfor (const [label, fieldName] of Object.entries(checkboxMap)) {\n \t\t\t\tif (value === \"All\" || value.includes(label)) {\n@@ -53,6 +55,7 @@ export async function populateFields(\n \t\t\tconst subjectCode = pdfFieldName.slice(\n \t\t\t\t`record_${gradeLevel}.final_rating.`.length,\n \t\t\t);\n+\t\t\t\n \t\t\tform\n \t\t\t\t.getTextField(`record_${gradeLevel}.remarks.${subjectCode}`)\n \t\t\t\t.setText("
       }
     ]
   },
   {
-    "sha": "6ef02b73931be13068d214951b8066f4d2ea5073",
-    "node_id": "C_kwDORz-DOdoAKDZlZjAyYjczOTMxYmUxMzA2OGQyMTQ5NTFiODA2NmY0ZDJlYTUwNzM",
+    "sha": "f1f1393db08a99773ea961426801130194c0cb1a",
+    "node_id": "C_kwDORz-DOdoAKGYxZjEzOTNkYjA4YTk5NzczZWE5NjE0MjY4MDExMzAxOTRjMGNiMWE",
     "commit": {
       "author": {
         "name": "Mark Jerwin",
-        "email": "ping@jrwnnnn.me",
-        "date": "2026-08-26T07:55:42Z"
+        "email": "git@jrwnnnn.me",
+        "date": "2026-09-05T09:21:46Z"
       },
       "committer": {
         "name": "GitHub",
         "email": "noreply@github.com",
-        "date": "2026-08-26T07:55:42Z"
+        "date": "2026-09-05T09:21:46Z"
       },
-      "message": "refactor: Rename htmlFormValues to formValues (#69)",
+      "message": "refactor: Simplify CSV validation condition (#75)",
       "tree": {
-        "sha": "152d63d094801187313e4f9fd51ef15d51b6f1a8",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/152d63d094801187313e4f9fd51ef15d51b6f1a8"
+        "sha": "7c6653a968bfa76d9b17cdd642abb811cfe5ec03",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/7c6653a968bfa76d9b17cdd642abb811cfe5ec03"
       },
-      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/6ef02b73931be13068d214951b8066f4d2ea5073",
+      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/f1f1393db08a99773ea961426801130194c0cb1a",
       "comment_count": 0,
       "verification": {
         "verified": true,
         "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqjpv+CRC1aQ7uu5UhlAAAYekQABa1/FlYSkfFNt7LteBA3M0j\n889+FcP0MM+ojuX8Bw6gfdYsjEtI/qYNr699iDMYWBw4j50hnHZCOeiO8xIuSDjm\n2/T69e5i7UdKpFsVgu0wTY7CSfc8rpBV9I6LzINV6MwBVbqPIeXsCkwyDkh4dE8/\neYJxxJ6XvqU9DMQRW9GpzdC/dBWNinAwXtmNcDMBiKVFzK2A79bIrPpvCmXtL6fG\nGx3I5dvrO5U/1cIgyT4Eq/7XvKE9H7eQLhy8NKVGmMvwZQZA1Z2TjW5vdAwTu7mj\nSuVJVAwSoazdNltqpuiqpdGbRvMclmYymNDiXCHC7nYGvKxkiLwrKXtcdkdGXocq\nWd8rkO7y+WcOFATomR7MWTETtx5VBGxoC0V6TTM50HmCC+v0JDaUzLXNML0jtKvp\ntqHfL0ttJC7omQi6RvtTzfZd2+XMCESRGlALu3qBo2mrZB5Qf/GzF4FiZGp3n2CV\nEZCGEUV8dD3EpPFYRBhv2F0gBMBQxTvyzBIPI/Mjkg2K3vfS8pwnb/Frb9u67TBb\n4hc8e3xRCIgFBofnTMNO6NF0D9Ejjwhm1bePExOXr0IHBoNpm5vElk2UzebekwOk\nWLMMNq2GYsny64Ua+N9mNe3+phieGVx9WTMzySeTYfum34A9Km7W5rd+gI3llchh\nEBS2Y3yNwahHs6N/KvxT\n=qHhg\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 152d63d094801187313e4f9fd51ef15d51b6f1a8\nparent f6043ce724504985b71cc72c921328431ff1d403\nauthor Mark Jerwin <ping@jrwnnnn.me> 1787730942 +0800\ncommitter GitHub <noreply@github.com> 1787730942 +0800\n\nrefactor: Rename htmlFormValues to formValues (#69)",
-        "verified_at": "2026-08-26T07:55:43Z"
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqm98qCRC1aQ7uu5UhlAAAYMcQAC8GYgIiUpBDIpr4dBg6mQwE\nYLoA18jr/Q3bU1d9toLm1D2BlPbfuMdGuvg9498C1jMmfGT4/qwqwKS3f6xT3lYl\nS8FQvhK174SfE2mrwexeMO6BkvoaiFLiMn35+N+dsqC8NuzBoTJfkZsTZ0pJxEJE\n/ofVObVS80c8N1ARVW2frJX1pDcwWLHrm8vZRtGZ09gQLEPO9zFjIn8DszNQj7ij\ncedQaLNx9lbK67zMMlL2jkQtHHhjrDG4P9TU9UTJ2goWU3SlyYsynSuhneIfXPsK\nOauCGR6jY6uNvaFERSyXc4ARpMZoBAMv/orBQuKJgjqlF/bX/46CkiJFvq6/+hJz\nXX+sgZi27vYzdUOzef23tIUZF/ih4dLAJfiWw167vKJ7VIEUgUqgqK/xG7IiKvoQ\nHaC+LYInr8L6+oHl7P+F7NuvRN5H/bNVPvP9MiIvZ5qsAaaq8rCaoaTSjJML3KF7\nKbAsoWZozFrFnOroPNz6WfH74h5/PpK5C04ZCQIkOGRf01yqX6HUfSNwOI+QVS8r\ngtEy325ZTPNgxSh3q+VZmKDazXPOrssOVQjrvb7bmT4CRhWjmyqggK2ZMz8v8JPA\nNpitvD2YDoTw5OMOqRfCAL/7ci84JRowXjc5lZELUvZxxILTIsgbF7dPU30K545A\nbPsOz8S+qLQwiMt9iJXf\n=0Z/c\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 7c6653a968bfa76d9b17cdd642abb811cfe5ec03\nparent 8c5a8c61aa10fe231e0dbb3fb537777a36f94555\nauthor Mark Jerwin <git@jrwnnnn.me> 1788600106 +0800\ncommitter GitHub <noreply@github.com> 1788600106 +0800\n\nrefactor: Simplify CSV validation condition (#75)",
+        "verified_at": "2026-09-05T09:21:47Z"
       }
     },
-    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/6ef02b73931be13068d214951b8066f4d2ea5073",
-    "html_url": "https://github.com/jrwnnnn/rekord/commit/6ef02b73931be13068d214951b8066f4d2ea5073",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/6ef02b73931be13068d214951b8066f4d2ea5073/comments",
+    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/f1f1393db08a99773ea961426801130194c0cb1a",
+    "html_url": "https://github.com/jrwnnnn/rekord/commit/f1f1393db08a99773ea961426801130194c0cb1a",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/f1f1393db08a99773ea961426801130194c0cb1a/comments",
     "author": {
       "login": "jrwnnnn",
       "id": 136870415,
@@ -277,63 +277,63 @@
     },
     "parents": [
       {
-        "sha": "f6043ce724504985b71cc72c921328431ff1d403",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/f6043ce724504985b71cc72c921328431ff1d403",
-        "html_url": "https://github.com/jrwnnnn/rekord/commit/f6043ce724504985b71cc72c921328431ff1d403"
+        "sha": "8c5a8c61aa10fe231e0dbb3fb537777a36f94555",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/8c5a8c61aa10fe231e0dbb3fb537777a36f94555",
+        "html_url": "https://github.com/jrwnnnn/rekord/commit/8c5a8c61aa10fe231e0dbb3fb537777a36f94555"
       }
     ],
     "stats": {
-      "total": 10,
-      "additions": 5,
-      "deletions": 5
+      "total": 7,
+      "additions": 1,
+      "deletions": 6
     },
     "files": [
       {
-        "sha": "df8bf16d9cf559b36733559f3510e37109a6236a",
+        "sha": "f153664053ed9b4786b83192b0976db60ba5b59e",
         "filename": "src/pages/index.astro",
         "status": "modified",
-        "additions": 5,
-        "deletions": 5,
-        "changes": 10,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/6ef02b73931be13068d214951b8066f4d2ea5073/src%2Fpages%2Findex.astro",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/6ef02b73931be13068d214951b8066f4d2ea5073/src%2Fpages%2Findex.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Fpages%2Findex.astro?ref=6ef02b73931be13068d214951b8066f4d2ea5073",
-        "patch": "@@ -196,8 +196,8 @@ import htmlFields from \"../data/htmlFields.json\";\n \thtmlForm.addEventListener(\"submit\", async (e) => {\n \t\te.preventDefault();\n \n-\t\tconst htmlFormValues = Object.fromEntries(new FormData(htmlForm).entries());\n-\t\tconst csvFile = htmlFormValues.file as File;\n+\t\tconst formValues = Object.fromEntries(new FormData(htmlForm).entries());\n+\t\tconst csvFile = formValues.file as File;\n \n \t\tif (!csvFile) return;\n \n@@ -206,7 +206,7 @@ import htmlFields from \"../data/htmlFields.json\";\n \t\tif (\n \t\t\t!(await validateCSV(\n \t\t\t\tcsvFile,\n-\t\t\t\tparseInt(htmlFormValues.classified_as_grade as string),\n+\t\t\t\tparseInt(formValues.classified_as_grade as string),\n \t\t\t))\n \t\t) \n \t\t\treturn;\n@@ -255,9 +255,9 @@ import htmlFields from \"../data/htmlFields.json\";\n \t\t\t\t\t\t`Creating SF10 for ${row[\"learner.last_name\"]}, ${row[\"learner.first_name\"]}...`,\n \t\t\t\t\t);\n \n-\t\t\t\t\tpopulateFields(acroform, fonts, htmlFormValues, row);\n+\t\t\t\t\tpopulateFields(acroform, fonts, formValues, row);\n \n-\t\t\t\t\tif (htmlFormValues.flatten === \"on\") {\n+\t\t\t\t\tif (formValues.flatten === \"on\") {\n \t\t\t\t\t\tacroform.flatten();\n \t\t\t\t\t}\n "
+        "additions": 1,
+        "deletions": 6,
+        "changes": 7,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/f1f1393db08a99773ea961426801130194c0cb1a/src%2Fpages%2Findex.astro",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/f1f1393db08a99773ea961426801130194c0cb1a/src%2Fpages%2Findex.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Fpages%2Findex.astro?ref=f1f1393db08a99773ea961426801130194c0cb1a",
+        "patch": "@@ -203,12 +203,7 @@ import htmlFields from \"../data/htmlFields.json\";\n \n \t\tconsole.log(\"Parsing CSV file...\");\n \t\tupdateProgressBanner(\"Parsing CSV file...\");\n-\t\tif (\n-\t\t\t!(await validateCSV(\n-\t\t\t\tcsvFile,\n-\t\t\t\tparseInt(formValues.classified_as_grade as string),\n-\t\t\t))\n-\t\t) \n+\t\tif (!(await validateCSV(csvFile, Number(formValues.classified_as_grade))))\n \t\t\treturn;\n \n \t\t// Load the PDF template and fonts asynchronously"
       }
     ]
   },
   {
-    "sha": "f4b09cd749e161319f23f12d2fc7a4cb551a7280",
-    "node_id": "C_kwDORCOQn9oAKGY0YjA5Y2Q3NDllMTYxMzE5ZjIzZjEyZDJmYzdhNGNiNTUxYTcyODA",
+    "sha": "8c5a8c61aa10fe231e0dbb3fb537777a36f94555",
+    "node_id": "C_kwDORz-DOdoAKDhjNWE4YzYxYWExMGZlMjMxZTBkYmIzZmI1Mzc3NzdhMzZmOTQ1NTU",
     "commit": {
       "author": {
         "name": "Mark Jerwin",
         "email": "git@jrwnnnn.me",
-        "date": "2026-08-13T05:31:13Z"
+        "date": "2026-09-05T09:16:02Z"
       },
       "committer": {
         "name": "GitHub",
         "email": "noreply@github.com",
-        "date": "2026-08-13T05:31:13Z"
+        "date": "2026-09-05T09:16:02Z"
       },
-      "message": "chore: Remove prune dependency step on workflow (#133)",
+      "message": "refactor: Parallelize PDF asset loading (#74)",
       "tree": {
-        "sha": "1ea2f7bf3f9e250a636cec43fb67458729f14312",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/1ea2f7bf3f9e250a636cec43fb67458729f14312"
+        "sha": "357bc8c6395a42cfc106b09bf9234f74a63932f3",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/357bc8c6395a42cfc106b09bf9234f74a63932f3"
       },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/f4b09cd749e161319f23f12d2fc7a4cb551a7280",
+      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/8c5a8c61aa10fe231e0dbb3fb537777a36f94555",
       "comment_count": 0,
       "verification": {
         "verified": true,
         "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqfVahCRC1aQ7uu5UhlAAAFi4QAFgMrVhHjccbrzdbzsPbcsCy\nsj/k8HdtEBVlSGcOJ2pXtGSBat86bEUMbzWbQvVlxB3Zr9Ns4/MnbbOWHO/kcMen\nHLj+d/VFjSFCT7NnOuwrHfMYtp/Q1WwHn+Sm7Ox/2hGtB8QSY/3hTgb+yoIOZj2b\ntmj57LikH0qLQDLhr7NIzayZ7dhRAHum7v5KFFsiC9iGExuRPPLh7q2eVjpKbEdz\nxk+rNo/x7WZCIyQXT9wNhJ25A01ipTZ92IfvKjIE/tqdxSt8PCcueJ5FW/MM8FU5\nElTPC4ESq8ocVFu03foNOlEBK27aDgL7gBLp4C1zsznVgnhHl1P2BKWft8lFUieY\nDo/khAH8aEVPN8j9ntMkps4tmryP+xPPGqUMHGASXUGaLQdzQp+hE3PvR95fqJJa\naQUNdQVxeVekW0nUHC2ngRGmFRwA6ra6Y64P8PT7yKb76fX1DyguMmKxG4Uq07/K\n1J8g19x5f4XrU+9suFzhRANZlaqeDtQnF/NraSzvd+PmEC2ioTV+Qt5TgryKd4v8\nlNDqmBdesEkr+wPjV48MQ5zImT2Q6nPXIvOaw/fpCO2gV1eg3K9iDCmbbQapuwJk\nMkgyJGqaq6eiV4yBEgXLrfeMYFg7kbfghe5MySzr1bpflQWcS9X+AF9ijj0/3iYc\nJ9Gl5q1UKFO3bnVPI42B\n=yxDa\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 1ea2f7bf3f9e250a636cec43fb67458729f14312\nparent f5c935d7118eb20aab37a88840a9c8159a484e6a\nauthor Mark Jerwin <git@jrwnnnn.me> 1786599073 +0800\ncommitter GitHub <noreply@github.com> 1786599073 +0800\n\nchore: Remove prune dependency step on workflow (#133)",
-        "verified_at": "2026-08-13T07:08:10Z"
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqm93SCRC1aQ7uu5UhlAAAsFkQAFRoEdrt7OXEb7pSiPcmtPek\nzPkjH8QUNEMM0/KlWr8W2B6uf610ALGSdhHPybNRk6tjzA7NdMYkRrlMP43MWxYP\n1GjjGf9XJOi5/20TI1VgKfbBS0ra7WQyZ9lcVqi9fd39tTn79OKa6aaCKCPK7rRw\nQEnsrv4rE/G/qChilE0eFJz1yoNjijvV1tl8eES9eTKf/I4Ipek60j24TQsQRm0v\nIQNhcyPv9AO4qBfLDzQ/P6FpRsbCYUZj2avTDIaQNOv2JLWE34IDkhmklZsGKbyE\ndO3Al9CXI9S5au709UVBKAm7Q557+1U/vLr2Aa3dkVq+myJaM7Loe6kkyUcMVTjR\nug/jCwmv6i2LrYWWLfDaVITc6ioqbttxqxqTDJ8CM4ts7Wk7sxcFP6Wh0dL5taqU\n5iGgOEAoZluCZkof1FbM3gvkgW2zLAdFBgPR/eZTnKFCvRogruIN8NgGc2O6mrri\nyhrwvQlszyqPCz7ll3eI4T83ZUX3/drP4Nf/nP7eTI5rpPy6Uzj5Hy4vwWvXVbFg\nRJOj9FyR6qv38m9h3yfTeKVbpVbQnfG2fN0Ti1mm0+67JukyTSXh8qZklmYmfR8K\nrirZ3kz5FoCdNl1bkjOpgNUF/oKCg1AOXt0osVrrjSvrxluY+aC8kQIAUvqZMjWD\n/bt/J2rlK4+B87ggFQ+h\n=pCZo\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 357bc8c6395a42cfc106b09bf9234f74a63932f3\nparent 33045d10bdf32bc7ef8020dad829df6e163d95db\nauthor Mark Jerwin <git@jrwnnnn.me> 1788599762 +0800\ncommitter GitHub <noreply@github.com> 1788599762 +0800\n\nrefactor: Parallelize PDF asset loading (#74)",
+        "verified_at": "2026-09-05T09:16:03Z"
       }
     },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/f4b09cd749e161319f23f12d2fc7a4cb551a7280",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/f4b09cd749e161319f23f12d2fc7a4cb551a7280",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/f4b09cd749e161319f23f12d2fc7a4cb551a7280/comments",
+    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/8c5a8c61aa10fe231e0dbb3fb537777a36f94555",
+    "html_url": "https://github.com/jrwnnnn/rekord/commit/8c5a8c61aa10fe231e0dbb3fb537777a36f94555",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/8c5a8c61aa10fe231e0dbb3fb537777a36f94555/comments",
     "author": {
       "login": "jrwnnnn",
       "id": 136870415,
@@ -378,63 +378,63 @@
     },
     "parents": [
       {
-        "sha": "f5c935d7118eb20aab37a88840a9c8159a484e6a",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/f5c935d7118eb20aab37a88840a9c8159a484e6a",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/f5c935d7118eb20aab37a88840a9c8159a484e6a"
+        "sha": "33045d10bdf32bc7ef8020dad829df6e163d95db",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/33045d10bdf32bc7ef8020dad829df6e163d95db",
+        "html_url": "https://github.com/jrwnnnn/rekord/commit/33045d10bdf32bc7ef8020dad829df6e163d95db"
       }
     ],
     "stats": {
-      "total": 3,
-      "additions": 0,
-      "deletions": 3
+      "total": 18,
+      "additions": 8,
+      "deletions": 10
     },
     "files": [
       {
-        "sha": "c7b8c2f7722c97e898d3cc01c687a2077b4b2110",
-        "filename": ".github/workflows/Main.yml",
+        "sha": "4cad1e3c086629e1e719c2c1fa6a79ebaa82c73b",
+        "filename": "src/pages/index.astro",
         "status": "modified",
-        "additions": 0,
-        "deletions": 3,
-        "changes": 3,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/f4b09cd749e161319f23f12d2fc7a4cb551a7280/.github%2Fworkflows%2FMain.yml",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/f4b09cd749e161319f23f12d2fc7a4cb551a7280/.github%2Fworkflows%2FMain.yml",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/.github%2Fworkflows%2FMain.yml?ref=f4b09cd749e161319f23f12d2fc7a4cb551a7280",
-        "patch": "@@ -66,9 +66,6 @@ jobs:\n       - name: Build\n         run: npm run build\n \n-      - name: Prune dev dependencies\n-        run: npm prune --production\n-\n       - name: Upload Artifact\n         uses: actions/upload-artifact@v4\n         with:"
+        "additions": 8,
+        "deletions": 10,
+        "changes": 18,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/8c5a8c61aa10fe231e0dbb3fb537777a36f94555/src%2Fpages%2Findex.astro",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/8c5a8c61aa10fe231e0dbb3fb537777a36f94555/src%2Fpages%2Findex.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Fpages%2Findex.astro?ref=8c5a8c61aa10fe231e0dbb3fb537777a36f94555",
+        "patch": "@@ -211,11 +211,9 @@ import htmlFields from \"../data/htmlFields.json\";\n \t\t) \n \t\t\treturn;\n \n-\t\t// Load the PDF template and fonts\n-\t\tconst template = await fetch(\"/acroforms/es.pdf\").then((r) =>\n-\t\t\tr.arrayBuffer(),\n-\t\t);\n-\t\tconst [arialBoldBytes, arialNarrowBoldBytes] = await Promise.all([\n+\t\t// Load the PDF template and fonts asynchronously\n+\t\tconst [template, arialBoldBytes, arialNarrowBoldBytes] = await Promise.all([\n+\t\t\tfetch(\"/acroforms/es.pdf\").then((r) => r.arrayBuffer()),\n \t\t\tfetch(\"/fonts/Arial-Bold.ttf\").then((r) => r.arrayBuffer()),\n \t\t\tfetch(\"/fonts/Arial-Narrow-Bold.ttf\").then((r) => r.arrayBuffer()),\n \t\t]);\n@@ -240,15 +238,15 @@ import htmlFields from \"../data/htmlFields.json\";\n \t\t\t\t\t}\n \n \t\t\t\t\t// Load the PDF template and register fontkit\n-\t\t\t\t\tconst pdfDoc = await PDFDocument.load(template).then((doc) => {\n-\t\t\t\t\t\tdoc.registerFontkit(fontkit);\n-\t\t\t\t\t\treturn doc;\n-\t\t\t\t\t});\n-\t\t\t\t\t// Embed the fonts\n+\t\t\t\t\tconst pdfDoc = await PDFDocument.load(template);\n+\t\t\t\t\tpdfDoc.registerFontkit(fontkit);\n+\n+\t\t\t\t\t// Embed the fonts to the PDF document\n \t\t\t\t\tconst fonts = {\n \t\t\t\t\t\tarialBold: await pdfDoc.embedFont(arialBoldBytes),\n \t\t\t\t\t\tarialNarrowBold: await pdfDoc.embedFont(arialNarrowBoldBytes),\n \t\t\t\t\t};\n+\n \t\t\t\t\tconst acroform = pdfDoc.getForm();\n \n \t\t\t\t\tupdateProgressBanner("
       }
     ]
   },
   {
-    "sha": "bae22b517fc899854c44aa1be5267e7fb15bb96e",
-    "node_id": "C_kwDOQdLhx9oAKGJhZTIyYjUxN2ZjODk5ODU0YzQ0YWExYmU1MjY3ZTdmYjE1YmI5NmU",
+    "sha": "865b129b4329d012a88fb26df44ffc8d73ccdcf7",
+    "node_id": "C_kwDORz-DOdoAKDg2NWIxMjliNDMyOWQwMTJhODhmYjI2ZGY0NGZmYzhkNzNjY2RjZjc",
     "commit": {
       "author": {
         "name": "Mark Jerwin",
         "email": "git@jrwnnnn.me",
-        "date": "2026-08-12T07:16:26Z"
+        "date": "2026-09-05T09:04:15Z"
       },
       "committer": {
         "name": "GitHub",
         "email": "noreply@github.com",
-        "date": "2026-08-12T07:16:26Z"
+        "date": "2026-09-05T09:04:15Z"
       },
-      "message": "fix: HLS fatal error display on OSD persisting on channel switch (#25)\n\n* fix: HLS fatal error display on OSD persisting on channel switch",
+      "message": "refactor: Variable names and element IDs (#73)\n\n* refactor: Rename htmlFormValues to formValues\n\n* refactor: Rename template select element ID",
       "tree": {
-        "sha": "f03201a85abb19113306c2ee67988cd9c18bb704",
-        "url": "https://api.github.com/repos/jrwnnnn/orbit/git/trees/f03201a85abb19113306c2ee67988cd9c18bb704"
+        "sha": "d0c08c405101064dff5e387a676a508edf825014",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/d0c08c405101064dff5e387a676a508edf825014"
       },
-      "url": "https://api.github.com/repos/jrwnnnn/orbit/git/commits/bae22b517fc899854c44aa1be5267e7fb15bb96e",
+      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/865b129b4329d012a88fb26df44ffc8d73ccdcf7",
       "comment_count": 0,
       "verification": {
         "verified": true,
         "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqfB3KCRC1aQ7uu5UhlAAAdsIQADbivb9BUWznWi/lg6lYQDm9\n7iokuAdSu2ekENJWuqk7R64gIy6uGYtf7XpyQPJ0OmeVh0xhqE9LDH/1OR7DHGYF\nmCrDDX/SqTAaGg+UvVTV9PeJSqOWraAFDni3bKNqR2sVkRUGyh4GKtPS4depbiXS\nP7S+KRGpRt/sezSBZtnHcuvJBRgEys305pKLiXBW4ZAvaDuHvC4VHbbRhMLwOz64\n0jYmO8yBcTR3tuTe0CUjU0UUGrI4vBQOqLOaWchXGGeqFYzGUFXyydxra//cX26C\nxx0l11HnDsnPvHLcx+PxSSdATKzulEb7qTuqukzHa/F9DYLdMwm+L3gHW8B2cfPO\nebP7PhhySjMY3dSVZTOJ90D9TP0O3tTJozOn2SIXUL7yWLdpo+Ggwth1zPiBPfus\nXRX2uByITlW39eRwWnR/Nj5IjPVQKJDWn5DqBvDvR9Zx8ffv0KvYHPxrBQ3Uh2/q\nmqk+nCfop9m15u5T7XebqBOBCTEqyZVXB58zG/ZhsmXfDPxEF2yd6EA3AXvEmJEG\nlGSk9PcsymDQCaS/xH1nUVnwhX61ZA+0LGaEKtNSA8kACGPLhWa7ZNR1vY00myks\nv82n5mDs0eqjU94XlvDK2I4n8V/FCLXbB5z7xBYHMSO83HAmZPkxl9612vPXGgAV\nwTSxnMk6pJBMtHogz3A1\n=+6ZE\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree f03201a85abb19113306c2ee67988cd9c18bb704\nparent a7b66591356d23faab2a8173cbbd45ae9e240c59\nauthor Mark Jerwin <git@jrwnnnn.me> 1786518986 +0800\ncommitter GitHub <noreply@github.com> 1786518986 +0800\n\nfix: HLS fatal error display on OSD persisting on channel switch (#25)\n\n* fix: HLS fatal error display on OSD persisting on channel switch",
-        "verified_at": "2026-08-12T07:17:05Z"
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqm9sPCRC1aQ7uu5UhlAAA8kcQAAOpL9n3oshXkTBae2GlAoph\ng+tdS/uWWZWDB2u7IpTJC4DmIxOHqaT6FK+BjcmCrOmEaPiQBByfj4nYodCKC+v5\ng+U9PWToQUG8nTRyXzDVWYEHjeFTmfbQJtH1P8siEihb+z6WHK14jiW8RoY/cu2s\n7J8cwTs4m7/SbhCMf7pXRw/E3/BpehdFfwTKMtBBARwTuXkEmCLPwua+9n8d8qCB\nSEqQMu92RsR6U2MxNWa5RLDmjopDMf/d6xjwpDyK2BAnDeqiJ7pTTrOq2ItaZ29T\nmI15PeL252+vDGryMWUFfc4NhNifGx8yR52GljFyZHQmFl9eU2dJCZ0zIs+MOzy8\nPaVaIeJoc6sDQTkFIp21yYDn/mTKU3ntQ85sTFHOUABlA1yrUEue35KvYw+Nolx/\nauNcv48gasoowXfMI1ewvCNoAGTF7qAiBmbubj96Q4mRA7LxH7E5DUArgnokyU7N\nlEWT9W861mQTIhSBDDRUNanSeyivHsLVy7kpyj6bbHcUL8Sm13Jj3RvAM3jSZF+F\np1f/af77WnOoXMYVyTLVWXrWx0342pKj88bwPTWg7yKYrpa+vqhfX/UCTbA7fzbi\nwlPXeilKNeD+DFNa+nAvP/+XHJNibZ8sl3o/CEDmZ950EZ8JsaoxVhbkmY2l0Hl0\ncKaRmk8FCMlNgdoOZ3WK\n=cX0A\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree d0c08c405101064dff5e387a676a508edf825014\nparent f7210da0dffd4b5f7e5b111113602291defe7b38\nauthor Mark Jerwin <git@jrwnnnn.me> 1788599055 +0800\ncommitter GitHub <noreply@github.com> 1788599055 +0800\n\nrefactor: Variable names and element IDs (#73)\n\n* refactor: Rename htmlFormValues to formValues\n\n* refactor: Rename template select element ID",
+        "verified_at": "2026-09-05T09:04:15Z"
       }
     },
-    "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/bae22b517fc899854c44aa1be5267e7fb15bb96e",
-    "html_url": "https://github.com/jrwnnnn/orbit/commit/bae22b517fc899854c44aa1be5267e7fb15bb96e",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/orbit/commits/bae22b517fc899854c44aa1be5267e7fb15bb96e/comments",
+    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/865b129b4329d012a88fb26df44ffc8d73ccdcf7",
+    "html_url": "https://github.com/jrwnnnn/rekord/commit/865b129b4329d012a88fb26df44ffc8d73ccdcf7",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/865b129b4329d012a88fb26df44ffc8d73ccdcf7/comments",
     "author": {
       "login": "jrwnnnn",
       "id": 136870415,
@@ -479,28 +479,40 @@
     },
     "parents": [
       {
-        "sha": "a7b66591356d23faab2a8173cbbd45ae9e240c59",
-        "url": "https://api.github.com/repos/jrwnnnn/orbit/commits/a7b66591356d23faab2a8173cbbd45ae9e240c59",
-        "html_url": "https://github.com/jrwnnnn/orbit/commit/a7b66591356d23faab2a8173cbbd45ae9e240c59"
+        "sha": "f7210da0dffd4b5f7e5b111113602291defe7b38",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/f7210da0dffd4b5f7e5b111113602291defe7b38",
+        "html_url": "https://github.com/jrwnnnn/rekord/commit/f7210da0dffd4b5f7e5b111113602291defe7b38"
       }
     ],
     "stats": {
-      "total": 1,
-      "additions": 1,
-      "deletions": 0
+      "total": 8,
+      "additions": 4,
+      "deletions": 4
     },
     "files": [
       {
-        "sha": "102bb0fb8b2f6a564a8a6c9baa1e05e7e6c44c46",
-        "filename": "src/App.vue",
+        "sha": "9b1236721c9a43f3446fb8aad2c97eb83472c96e",
+        "filename": "src/pages/index.astro",
         "status": "modified",
         "additions": 1,
-        "deletions": 0,
-        "changes": 1,
-        "blob_url": "https://github.com/jrwnnnn/orbit/blob/bae22b517fc899854c44aa1be5267e7fb15bb96e/src%2FApp.vue",
-        "raw_url": "https://github.com/jrwnnnn/orbit/raw/bae22b517fc899854c44aa1be5267e7fb15bb96e/src%2FApp.vue",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/orbit/contents/src%2FApp.vue?ref=bae22b517fc899854c44aa1be5267e7fb15bb96e",
-        "patch": "@@ -89,6 +89,7 @@ watch(\n \t\t});\n \n \t\tsmpte.value?.classList.add(\"hidden\");\n+\t\thlsFatalError.value = null;\n \t\thlsVideo.value!.style.display = \"\";\n \n \t\tosd.value?.classList.remove(\"animate-[disappear_7s_step-end_forwards]\");"
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/865b129b4329d012a88fb26df44ffc8d73ccdcf7/src%2Fpages%2Findex.astro",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/865b129b4329d012a88fb26df44ffc8d73ccdcf7/src%2Fpages%2Findex.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Fpages%2Findex.astro?ref=865b129b4329d012a88fb26df44ffc8d73ccdcf7",
+        "patch": "@@ -21,7 +21,7 @@ import htmlFields from \"../data/htmlFields.json\";\n \t\t\t<div class=\"space-y-2\">\n \t\t\t\t<p class=\"font-bold\">1. Download Template</p>\n \t\t\t\t<select\n-\t\t\t\t\tid=\"template-select\"\n+\t\t\t\t\tid=\"template-selection-dropdown\"\n \t\t\t\t\tclass=\"w-full cursor-pointer border border-black bg-white px-3 py-2 text-sm focus:border-blue-600 focus:ring-1 focus:ring-blue-600 focus:outline-none\"\n \t\t\t\t>\n \t\t\t\t\t<option value=\"\" disabled selected>Select an option...</option>"
+      },
+      {
+        "sha": "247149c7c8031f14ab9be0520d2cbf3826d3025d",
+        "filename": "src/utils/downloadTemplate.ts",
+        "status": "modified",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/865b129b4329d012a88fb26df44ffc8d73ccdcf7/src%2Futils%2FdownloadTemplate.ts",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/865b129b4329d012a88fb26df44ffc8d73ccdcf7/src%2Futils%2FdownloadTemplate.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Futils%2FdownloadTemplate.ts?ref=865b129b4329d012a88fb26df44ffc8d73ccdcf7",
+        "patch": "@@ -1,10 +1,10 @@\n import { saveAs } from \"file-saver\";\n \n-const templateSelect = document.getElementById(\n-\t\"template-select\",\n+const dropdown = document.getElementById(\n+\t\"template-selection-dropdown\",\n ) as HTMLSelectElement;\n \n-templateSelect.addEventListener(\"change\", function () {\n+dropdown.addEventListener(\"change\", function () {\n \tconst fileUrl = this.value;\n \tif (fileUrl) {\n \t\tconst fileName = fileUrl.split(\"/\").pop();"
       }
     ]
   }
