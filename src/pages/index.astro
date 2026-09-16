@@ -54,17 +54,19 @@ const stack = [
 				</div>
 			</div>
 		</div>
-		<section class="space-y-5">
-			<div class="grid grid-cols-1 gap-6 font-mono font-bold lg:grid-cols-3">
-				<div class="button group" onclick="location.href='projects'">
-					<span class="mr-2 group-hover:animate-ping">&gt; </span> [ DIR ] PROJECTS
-				</div>
-				<div class="button group" onclick="location.href='transmission'">
-					<span class="mr-2 group-hover:animate-ping">&gt; </span> [ LOG ] TRANSMISSION_LOG
-				</div>
-				<div class="button group" onclick="location.href='gallery'">
-					<span class="mr-2 group-hover:animate-ping">&gt; </span> [ PCX ] GALLERY
-				</div>
+
+		<section class="grid grid-cols-1 gap-6 font-mono font-bold lg:grid-cols-3">
+			<div class="button" onclick="location.href='projects'">
+				<p>&gt;</p>
+				<p>[ DIR ] PROJECTS</p>
+			</div>
+			<div class="button" onclick="location.href='transmission'">
+				<p>&gt;</p>
+				<p>[ LOG ] TRANSMISSION_LOG</p>
+			</div>
+			<div class="button" onclick="location.href='gallery'">
+				<p>&gt;</p>
+				<p>[ PCX ] GALLERY</p>
 			</div>
 		</section>
 		<section class="columns-1 gap-6 space-y-6 lg:columns-2">
@@ -121,6 +123,6 @@ const stack = [
 	@reference "../styles/global.css";
 
 	.button {
-		@apply border-primary hover:bg-primary focus:bg-primary shadow-primary/50 cursor-pointer border p-3 text-left hover:text-black hover:shadow-lg;
+		@apply bg-primary shadow-primary/50 flex cursor-pointer gap-2 border p-3 text-black hover:shadow-lg focus:shadow-lg;
 	}
 </style>
