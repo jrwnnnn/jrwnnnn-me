@@ -97,6 +97,7 @@ const stack = [
 				<LastFM client:idle />
 			</div>
 			<div class="container">
+				<Ascii ascii={siteSettings.get("index.art") as string} />
 				<hr class="border-primary/40 border" />
 				<p class="text-center font-mono text-sm italic">
 					{siteSettings.get("index.quote")}
