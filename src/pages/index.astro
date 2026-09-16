@@ -21,36 +21,33 @@ const stack = [
 
 <Layout title="Mark Jerwin // BOOT">
 	<main class="flex flex-col space-y-10">
-		<div class="space-y-15">
-			<div class="mt-15 space-y-5">
-				<p
-					class="text-shadow-primary/50 text-5xl tracking-wider text-balance text-shadow-lg md:text-6xl"
-				>
-					Yo, Jerwin Here!
-				</p>
-				<p class="font-mono md:w-2/3 md:text-lg">
-					I'm a student based in Manila, PH. I build things for the web. My code
-					is held together by duct tape and prayers. I spend more time
-					customizing my VS Code theme than actually coding. If you see a bug,
-					no you didn't.
-				</p>
-				<div class="flex cursor-pointer items-center space-x-9">
-					{
-						socials.map((social) => (
-							<a
-								href={social.href}
-								target="_blank"
-								class="flex items-center space-x-2 hover:brightness-125"
-							>
-								<span
-									class="bg-primary inline-block h-5 w-5"
-									style={`-webkit-mask: url(${social.icon}) no-repeat center; mask: url(${social.icon}) no-repeat center; mask-size: contain;`}
-								/>
-								<p class="font-mono">{social.name}</p>
-							</a>
-						))
-					}
-				</div>
+		<div class="mt-15 space-y-5">
+			<p
+				class="text-shadow-primary/50 text-5xl tracking-wider text-balance text-shadow-lg md:text-6xl"
+			>
+				Yo, Jerwin Here!
+			</p>
+			<p class="font-mono md:w-2/3 md:text-lg">
+				I'm a student based in Manila, PH. I build things for the web. My code
+				is held together by duct tape and prayers. I spend more time customizing
+				my VS Code theme than actually coding. If you see a bug, no you didn't.
+			</p>
+			<div class="flex cursor-pointer items-center space-x-9">
+				{
+					socials.map((social) => (
+						<a
+							href={social.href}
+							target="_blank"
+							class="flex items-center space-x-2 hover:brightness-125"
+						>
+							<span
+								class="bg-primary inline-block h-5 w-5"
+								style={`-webkit-mask: url(${social.icon}) no-repeat center; mask: url(${social.icon}) no-repeat center; mask-size: contain;`}
+							/>
+							<p class="font-mono">{social.name}</p>
+						</a>
+					))
+				}
 			</div>
 		</div>
 
