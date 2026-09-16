@@ -8,6 +8,15 @@ import Layout from "@/layouts/Layout.astro";
 import socials from "@/data/socials.json";
 
 const siteSettings = await env.SESSION.get(["index.quote", "index.art"]);
+
+const stack = [
+	{ icon: "icons/stack/javascript.svg", name: "JavaScript" },
+	{ icon: "icons/stack/astro.svg", name: "Astro" },
+	{ icon: "icons/stack/php.svg", name: "PHP" },
+	{ icon: "icons/stack/react.svg", name: "React" },
+	{ icon: "icons/stack/tailwindcss.svg", name: "Tailwind CSS" },
+	{ icon: "icons/stack/mariadb.svg", name: "MariaDB" },
+];
 ---
 
 <Layout title="Mark Jerwin // BOOT">
@@ -60,6 +69,23 @@ const siteSettings = await env.SESSION.get(["index.quote", "index.art"]);
 			<div class="container">
 				<p class="text-lg font-bold tracking-widest">&gt; STACK</p>
 				<hr class="border-primary/40 border" />
+				<div
+					class="grid grid-cols-3 place-items-center gap-4 brightness-90 md:grid-cols-5"
+				>
+					{
+						stack.map((language) => (
+							<div class="flex flex-col items-center gap-2">
+								<span
+									class="bg-primary h-10 w-10 lg:w-12"
+									style={`mask: url('${language.icon}') no-repeat center / contain; -webkit-mask: url('${language.icon}') no-repeat center / contain;`}
+								/>
+								<p class="truncate text-center font-mono text-sm">
+									{language.name}
+								</p>
+							</div>
+						))
+					}
+				</div>
 			</div>
 			<div class="container">
 				<p class="text-lg font-bold tracking-widest">&gt; COMMIT_LOG</p>
