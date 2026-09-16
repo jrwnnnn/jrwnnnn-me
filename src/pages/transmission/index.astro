@@ -1,7 +1,6 @@
 ---
 import { env } from "cloudflare:workers";
 import Ascii from "@/components/AsciiContainer.astro";
-import Container from "@/components/Container.astro";
 import Header from "@/layouts/Header.astro";
 import Layout from "@/layouts/Layout.astro";
 
@@ -38,7 +37,7 @@ const cfJwt = Astro.cookies.get("CF_Authorization")?.value;
 			{
 				transmissions.results.map((transmission) => (
 					<>
-						<time class="text-primary/70 mb-3 font-mono text-sm tracking-wide italic">
+						<time class="text-primary/50 mb-3 font-mono text-sm tracking-wide italic">
 							[{" "}
 							{new Date(transmission.date_created as string).toLocaleDateString(
 								"en-US",
@@ -51,8 +50,8 @@ const cfJwt = Astro.cookies.get("CF_Authorization")?.value;
 							)}{" "}
 							]
 						</time>
-						<Container
-							class="shadow-primary/50 flex flex-col border border-green-900/50 bg-black font-mono hover:bg-green-900/10 hover:shadow-lg md:flex-row md:gap-5"
+						<div
+							class="shadow-primary/50 border-primary/50 flex cursor-pointer flex-col border bg-black p-5 font-mono hover:shadow-lg md:flex-row md:gap-5"
 							onclick={`window.location.href = '/transmission/${transmission.slug}'`}
 						>
 							{transmission.art && (
@@ -72,7 +71,7 @@ const cfJwt = Astro.cookies.get("CF_Authorization")?.value;
 										{transmission.title}
 									</p>
 									{transmission.subtitle && (
-										<p class="text-primary/80 line-clamp-3 text-sm">
+										<p class="text-primary/90 line-clamp-3 text-sm">
 											{">"} {transmission.subtitle}
 										</p>
 									)}
@@ -80,14 +79,14 @@ const cfJwt = Astro.cookies.get("CF_Authorization")?.value;
 								{transmission.tags && (
 									<div class="mt-3 flex flex-wrap gap-2">
 										{(transmission.tags as string).split(",").map((tag) => (
-											<span class="border-primary/80 bg-primary/10 text-primary/80 border px-3 py-1 text-[0.7rem] tracking-widest uppercase">
+											<span class="border-primary/50 bg-primary/10 text-primary/80 border px-2 py-1 text-[0.7rem] tracking-widest uppercase">
 												{tag}
 											</span>
 										))}
 									</div>
 								)}
 							</div>
-						</Container>
+						</div>
 					</>
 				))
 			}
