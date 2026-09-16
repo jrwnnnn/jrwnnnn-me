@@ -2,7 +2,6 @@
 import { env } from "cloudflare:workers";
 import Ascii from "@/components/AsciiContainer.astro";
 import CommitLog from "@/components/homepage/CommitLog.astro";
-import Container from "@/components/Container.astro";
 import Heatmap from "@/components/homepage/Heatmap.astro";
 import LastFM from "@/components/homepage/Scrobble.vue";
 import Layout from "@/layouts/Layout.astro";
@@ -70,9 +69,7 @@ const stack = [
 			</div>
 		</section>
 		<section class="columns-1 gap-6 space-y-6 lg:columns-2">
-			<Container
-				class="shadow-primary/50 break-inside-avoid space-y-5 bg-black! transition-shadow hover:shadow-lg"
-			>
+			<div class="container">
 				<p class="text-lg font-bold tracking-widest">&gt; STACK</p>
 				<hr class="border-primary/40 border" />
 				<div
@@ -92,29 +89,22 @@ const stack = [
 						))
 					}
 				</div>
-			</Container>
-			<Container
-				class="shadow-primary/50 break-inside-avoid space-y-5 bg-black! transition-shadow hover:shadow-lg"
-			>
+			</div>
+			<div class="container">
 				<p class="text-lg font-bold tracking-widest">&gt; COMMIT_LOG</p>
 				<hr class="border-primary/40 border" />
 				<CommitLog />
 				<Heatmap />
-			</Container>
-			<Container
-				class="shadow-primary/50 break-inside-avoid space-y-5 bg-black! transition-shadow hover:shadow-lg"
-			>
+			</div>
+			<div class="container">
 				<LastFM client:idle />
-			</Container>
-			<Container
-				class="shadow-primary/50 break-inside-avoid space-y-5 bg-black! transition-shadow hover:shadow-lg"
-			>
-				<Ascii ascii={siteSettings.get("index.art") as string} />
+			</div>
+			<div class="container">
 				<hr class="border-primary/40 border" />
 				<p class="text-center font-mono text-sm italic">
 					{siteSettings.get("index.quote")}
 				</p>
-			</Container>
+			</div>
 		</section>
 	</main>
 </Layout>
@@ -124,5 +114,9 @@ const stack = [
 
 	.button {
 		@apply bg-primary shadow-primary/50 flex cursor-pointer gap-2 border p-3 text-black hover:shadow-lg focus:shadow-lg;
+	}
+
+	.container {
+		@apply border-primary shadow-primary/50 break-inside-avoid space-y-5 border bg-black! p-5 shadow-lg;
 	}
 </style>
