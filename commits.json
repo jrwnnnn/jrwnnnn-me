@@ -1,5 +1,130 @@
 [
   {
+    "sha": "c9f82dbf1fb521baf5a4fa195a56fc3f3826710a",
+    "node_id": "C_kwDORz-DOdoAKGM5ZjgyZGJmMWZiNTIxYmFmNWE0ZmExOTVhNTZmYzNmMzgyNjcxMGE",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-09-18T00:25:00Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-09-18T00:25:00Z"
+      },
+      "message": "refactor: Simplify font handling and field styling (#83)\n\n* refactor: Simplify font handling and field styling\n\n* refactor: Replace shrinkToFit loop with proportional scaling\n\n* refactor: Rename font key to arial-narrow-bold for accuracy",
+      "tree": {
+        "sha": "13bdd8e4b68864989290bb88c8db9a592f33430d",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/13bdd8e4b68864989290bb88c8db9a592f33430d"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/c9f82dbf1fb521baf5a4fa195a56fc3f3826710a",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqrITcCRC1aQ7uu5UhlAAA1noQAFfMKQM6e92yyl2M2rHRWeY5\ngZprUhP1Sc3mOaktNEF0VxgzhQ3lG9z36uOBdkDFzMQuwK5XQMzZ8deDWppeday4\nfgmNTQPZkVWSM5cF3lk7D/9A8+iYvdcuOsv3F3YCuteCDV2D2rQUzgHBhIim37mF\nxHNmqyh/Np6z7BMo5W0DGMMnpoTwkm1mWlpymZrt7qw8velFrVJsXjeoE1Kg9lYx\nS36QFAGz3tkjJQFLThqu9b9tvzYHGKOGLLbRhD6Fk6uZf7F0nJzdNWAqXe18VCX0\ntLab+b3ofA/FTOObwayNuZMSxJHzqqMbT8/DlQsJMrwR7K67/lgfig5+UpHleT6c\n1KZ1r/KFXCBEChYMCIcpqCQtd2ypiUm2zNGFRktfcpte0uGkz3Q4P4x4/D4Sj2AO\nlMvctjJs1Z+hlTVTFESG9eT1mhJXCIyiXEZO0aw9tZ3EGX5M5tung3S/TGIJmfrJ\nf1bS7Pq+Sq4vyPIAdfecTH16gMLZ+KpOQ0VSJUGK1IFwOjiq+UdQztMn5kkty95Z\nzRxEnB/LfzPkmt2S+V4PZLuITlIfxBChkR4YsojDlXAIn3DJgVkueMU0hXZ9Qrj4\nA8Z5hRPeti6o0kEF/xsIGPcmA+OV1htRteki5Ff7TE9/bkzLdnoaACBw2e/zO/1o\nsGP2jddlVcVG+BdlJPPQ\n=tvN0\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 13bdd8e4b68864989290bb88c8db9a592f33430d\nparent e4077b76cd2237237a8c66b64ad9e3acaeae5fe0\nauthor Mark Jerwin <git@jrwnnnn.me> 1789691100 +0800\ncommitter GitHub <noreply@github.com> 1789691100 +0800\n\nrefactor: Simplify font handling and field styling (#83)\n\n* refactor: Simplify font handling and field styling\n\n* refactor: Replace shrinkToFit loop with proportional scaling\n\n* refactor: Rename font key to arial-narrow-bold for accuracy",
+        "verified_at": "2026-09-18T00:25:01Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/c9f82dbf1fb521baf5a4fa195a56fc3f3826710a",
+    "html_url": "https://github.com/jrwnnnn/rekord/commit/c9f82dbf1fb521baf5a4fa195a56fc3f3826710a",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/c9f82dbf1fb521baf5a4fa195a56fc3f3826710a/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e4077b76cd2237237a8c66b64ad9e3acaeae5fe0",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/e4077b76cd2237237a8c66b64ad9e3acaeae5fe0",
+        "html_url": "https://github.com/jrwnnnn/rekord/commit/e4077b76cd2237237a8c66b64ad9e3acaeae5fe0"
+      }
+    ],
+    "stats": {
+      "total": 98,
+      "additions": 54,
+      "deletions": 44
+    },
+    "files": [
+      {
+        "sha": "12b36cd7143d88f0649a0bfd4fb87f5e7e537ff3",
+        "filename": "src/lib/populateFields.ts",
+        "status": "modified",
+        "additions": 9,
+        "deletions": 10,
+        "changes": 19,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/c9f82dbf1fb521baf5a4fa195a56fc3f3826710a/src%2Flib%2FpopulateFields.ts",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/c9f82dbf1fb521baf5a4fa195a56fc3f3826710a/src%2Flib%2FpopulateFields.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Flib%2FpopulateFields.ts?ref=c9f82dbf1fb521baf5a4fa195a56fc3f3826710a",
+        "patch": "@@ -1,16 +1,10 @@\n-﻿import type { PDFForm, PDFFont } from \"pdf-lib\";\n+﻿import type { PDFForm } from \"pdf-lib\";\n+import checkboxMap from \"../data/checkboxMap.json\";\n import { PDFName, PDFTextField } from \"pdf-lib\";\n import { styleField } from \"@utils/styleField\";\n-import checkboxMap from \"../data/checkboxMap.json\";\n-\n-interface Fonts {\n-\tarialBold: PDFFont;\n-\tarialNarrowBold: PDFFont;\n-}\n \n export async function populateFields(\n \tform: PDFForm,\n-\tfonts: Fonts,\n \thtmlFormValues: Record<string, FormDataEntryValue>,\n \tcsvRow: Record<string, string>,\n ) {\n@@ -55,7 +49,7 @@ export async function populateFields(\n \t\t\tconst subjectCode = pdfFieldName.slice(\n \t\t\t\t`record_${gradeLevel}.final_rating.`.length,\n \t\t\t);\n-\t\t\t\n+\n \t\t\tform\n \t\t\t\t.getTextField(`record_${gradeLevel}.remarks.${subjectCode}`)\n \t\t\t\t.setText(\n@@ -100,6 +94,11 @@ export async function populateFields(\n \t\tif (!field.acroField.getDefaultAppearance()) {\n \t\t\tfield.acroField.setDefaultAppearance(\"/Arial 12 Tf 0 g\");\n \t\t}\n-\t\tstyleField(field, fonts, field.getName());\n+\n+\t\tif (field.getName().startsWith(\"enrollment.\")) {\n+\t\t\tstyleField(field, \"arial-narrow-bold\", 11, \"left\");\n+\t\t} else {\n+\t\t\tstyleField(field, \"arial-bold\", 12, \"center\");\n+\t\t}\n \t}\n }"
+      },
+      {
+        "sha": "c8cbd837f17b1043d2143f09b9a79067c2b7fbd6",
+        "filename": "src/pages/index.astro",
+        "status": "modified",
+        "additions": 7,
+        "deletions": 12,
+        "changes": 19,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/c9f82dbf1fb521baf5a4fa195a56fc3f3826710a/src%2Fpages%2Findex.astro",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/c9f82dbf1fb521baf5a4fa195a56fc3f3826710a/src%2Fpages%2Findex.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Fpages%2Findex.astro?ref=c9f82dbf1fb521baf5a4fa195a56fc3f3826710a",
+        "patch": "@@ -182,6 +182,7 @@ import htmlFields from \"../data/htmlFields.json\";\n \n <script src=\"@utils/downloadTemplate.ts\"></script>\n <script>\n+\timport { initFonts } from \"@utils/styleField\";\n \timport { PDFDocument } from \"pdf-lib\";\n \timport { populateFields } from \"@lib/populateFields\";\n \timport { saveAs } from \"file-saver\";\n@@ -206,12 +207,10 @@ import htmlFields from \"../data/htmlFields.json\";\n \t\tif (!(await validateCSV(csvFile, Number(formValues.classified_as_grade))))\n \t\t\treturn;\n \n-\t\t// Load the PDF template and fonts asynchronously\n-\t\tconst [template, arialBoldBytes, arialNarrowBoldBytes] = await Promise.all([\n-\t\t\tfetch(\"/acroforms/es.pdf\").then((r) => r.arrayBuffer()),\n-\t\t\tfetch(\"/fonts/Arial-Bold.ttf\").then((r) => r.arrayBuffer()),\n-\t\t\tfetch(\"/fonts/Arial-Narrow-Bold.ttf\").then((r) => r.arrayBuffer()),\n-\t\t]);\n+\t\t// Load the PDF template\n+\t\tconst template = await fetch(\"/acroforms/es.pdf\").then((r) =>\n+\t\t\tr.arrayBuffer(),\n+\t\t);\n \n \t\tPapa.parse(csvFile, {\n \t\t\theader: true,\n@@ -236,19 +235,15 @@ import htmlFields from \"../data/htmlFields.json\";\n \t\t\t\t\tconst pdfDoc = await PDFDocument.load(template);\n \t\t\t\t\tpdfDoc.registerFontkit(fontkit);\n \n-\t\t\t\t\t// Embed the fonts to the PDF document\n-\t\t\t\t\tconst fonts = {\n-\t\t\t\t\t\tarialBold: await pdfDoc.embedFont(arialBoldBytes),\n-\t\t\t\t\t\tarialNarrowBold: await pdfDoc.embedFont(arialNarrowBoldBytes),\n-\t\t\t\t\t};\n+\t\t\t\t\tawait initFonts(pdfDoc);\n \n \t\t\t\t\tconst acroform = pdfDoc.getForm();\n \n \t\t\t\t\tupdateProgressBanner(\n \t\t\t\t\t\t`Creating SF10 for ${row[\"learner.last_name\"]}, ${row[\"learner.first_name\"]}...`,\n \t\t\t\t\t);\n \n-\t\t\t\t\tpopulateFields(acroform, fonts, formValues, row);\n+\t\t\t\t\tpopulateFields(acroform, formValues, row);\n \n \t\t\t\t\tif (formValues.flatten === \"on\") {\n \t\t\t\t\t\tacroform.flatten();"
+      },
+      {
+        "sha": "4e83cae84d929d6fcaec5af8d2195f5ae83d85e2",
+        "filename": "src/utils/styleField.ts",
+        "status": "modified",
+        "additions": 38,
+        "deletions": 22,
+        "changes": 60,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/c9f82dbf1fb521baf5a4fa195a56fc3f3826710a/src%2Futils%2FstyleField.ts",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/c9f82dbf1fb521baf5a4fa195a56fc3f3826710a/src%2Futils%2FstyleField.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Futils%2FstyleField.ts?ref=c9f82dbf1fb521baf5a4fa195a56fc3f3826710a",
+        "patch": "@@ -1,9 +1,29 @@\n-import type { PDFFont } from \"pdf-lib\";\n-import { PDFTextField, TextAlignment } from \"pdf-lib\";\n+import type { PDFDocument, PDFFont, PDFTextField } from \"pdf-lib\";\n+import { TextAlignment } from \"pdf-lib\";\n \n-interface Fonts {\n-\tarialBold: PDFFont;\n-\tarialNarrowBold: PDFFont;\n+const alignmentMap = {\n+\tleft: TextAlignment.Left,\n+\tcenter: TextAlignment.Center,\n+\tright: TextAlignment.Right,\n+};\n+\n+export type FontName = \"arial-bold\" | \"arial-narrow-bold\";\n+let arialBoldBytes: ArrayBuffer | null = null;\n+let arialNarrowBoldBytes: ArrayBuffer | null = null;\n+let fontMap: Record<FontName, PDFFont>;\n+\n+export async function initFonts(pdfDoc: PDFDocument): Promise<void> {\n+\tif (!arialBoldBytes || !arialNarrowBoldBytes) {\n+\t\t[arialBoldBytes, arialNarrowBoldBytes] = await Promise.all([\n+\t\t\tfetch(\"/fonts/Arial-Bold.ttf\").then((r) => r.arrayBuffer()),\n+\t\t\tfetch(\"/fonts/Arial-Narrow-Bold.ttf\").then((r) => r.arrayBuffer()),\n+\t\t]);\n+\t}\n+\n+\tfontMap = {\n+\t\t\"arial-bold\": await pdfDoc.embedFont(arialBoldBytes),\n+\t\t\"arial-narrow-bold\": await pdfDoc.embedFont(arialNarrowBoldBytes),\n+\t};\n }\n \n function shrinkToFit(\n@@ -12,32 +32,28 @@ function shrinkToFit(\n \tmaxSize: number,\n \tfieldWidth: number,\n \tminSize = 6,\n+\tpadding = 4,\n ): number {\n \tif (!text) return maxSize;\n-\tfor (let size = maxSize; size >= minSize; size -= 1) {\n-\t\tif (font.widthOfTextAtSize(text, size) <= fieldWidth) {\n-\t\t\treturn size;\n-\t\t}\n-\t}\n-\treturn minSize;\n+\tconst availableWidth = fieldWidth - padding;\n+\tconst currentWidth = font.widthOfTextAtSize(text, maxSize);\n+\tif (currentWidth <= availableWidth) return maxSize;\n+\tconst fitSize = (availableWidth / currentWidth) * maxSize;\n+\treturn Math.max(minSize, fitSize);\n }\n \n export function styleField(\n \tfield: PDFTextField,\n-\tfonts: Fonts,\n-\tpdfFieldName: string,\n+\tfontName: FontName = \"arial-bold\",\n+\tmaxSize = 12,\n+\talignment: \"left\" | \"center\" | \"right\" = \"center\",\n ): void {\n+\tconst font = fontMap[fontName];\n \tconst text = field.getText() ?? \"\";\n \tconst fieldWidth =\n \t\tfield.acroField.getWidgets()[0]?.getRectangle().width ?? Infinity;\n \n-\tif (pdfFieldName.startsWith(\"enrollment.\")) {\n-\t\tfield.setFontSize(shrinkToFit(text, fonts.arialNarrowBold, 11, fieldWidth));\n-\t\tfield.setAlignment(TextAlignment.Left);\n-\t\tfield.updateAppearances(fonts.arialNarrowBold);\n-\t} else {\n-\t\tfield.setFontSize(shrinkToFit(text, fonts.arialBold, 12, fieldWidth));\n-\t\tfield.setAlignment(TextAlignment.Center);\n-\t\tfield.updateAppearances(fonts.arialBold);\n-\t}\n+\tfield.setFontSize(shrinkToFit(text, font, maxSize, fieldWidth));\n+\tfield.setAlignment(alignmentMap[alignment]);\n+\tfield.updateAppearances(font);\n }"
+      }
+    ]
+  },
+  {
     "sha": "08d82252e9306b752450d3bf6a9953bc83374026",
     "node_id": "C_kwDOLiSlg9oAKDA4ZDgyMjUyZTkzMDZiNzUyNDUwZDNiZjZhOTk1M2JjODMzNzQwMjY",
     "commit": {
@@ -492,118 +617,6 @@
         "raw_url": "https://github.com/jrwnnnn/scaffold-astro/raw/2a55955b5ec5ec15320380f2252aa4e0daad8bd0/package.json",
         "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/contents/package.json?ref=2a55955b5ec5ec15320380f2252aa4e0daad8bd0",
         "patch": "@@ -10,15 +10,14 @@\n     \"test\": \"npx eslint . && npx astro check && npm run build\"\n   },\n   \"dependencies\": {\n-    \"@astrojs/cloudflare\": \"^13.1.10\",\n+    \"@astrojs/cloudflare\": \"^14.3.1\",\n     \"@tailwindcss/vite\": \"^4.1.18\",\n-    \"astro\": \"^6.3.2\",\n-    \"tailwindcss\": \"^4.1.18\",\n-    \"wrangler\": \"^4.95.0\"\n+    \"astro\": \"^7.3.2\",\n+    \"tailwindcss\": \"^4.1.18\"\n   },\n   \"devDependencies\": {\n-    \"@astrojs/check\": \"^0.9.8\",\n-    \"@cloudflare/workers-types\": \"^4.20260418.1\",\n+    \"@astrojs/check\": \"^0.9.10\",\n+    \"@cloudflare/workers-types\": \"^5.20260915.1\",\n     \"@eslint/js\": \"^10.0.1\",\n     \"@types/node\": \"^25.6.0\",\n     \"eslint\": \"^10.0.2\",\n@@ -27,7 +26,8 @@\n     \"prettier-plugin-astro\": \"^0.14.1\",\n     \"prettier-plugin-tailwindcss\": \"^0.7.2\",\n     \"typescript\": \"^5.9.3\",\n-    \"typescript-eslint\": \"^8.56.1\"\n+    \"typescript-eslint\": \"^8.56.1\",\n+    \"wrangler\": \"^4.131.2\"\n   },\n   \"overrides\": {\n     \"vite\": \"^7\""
-      }
-    ]
-  },
-  {
-    "sha": "5ddf5d8287da345040f7ffd8bda3de28732054d1",
-    "node_id": "C_kwDORCOQn9oAKDVkZGY1ZDgyODdkYTM0NTA0MGY3ZmZkOGJkYTNkZTI4NzMyMDU0ZDE",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-09-15T12:11:16Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-09-15T12:11:16Z"
-      },
-      "message": "chore: Run npm audit fix (#146)",
-      "tree": {
-        "sha": "7472ebfc6a16e43da7cabce37c707b7c1979494f",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/trees/7472ebfc6a16e43da7cabce37c707b7c1979494f"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/git/commits/5ddf5d8287da345040f7ffd8bda3de28732054d1",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqqTXkCRC1aQ7uu5UhlAAAa24QAHjjil3kx1nNuoM7WbtL454d\nx4YJRcTRFFw//K4HHk+rQSxrCHgl7tGN+noLjx6eXtg6Ycbqe7J2eJLgiLJrgGed\nm6u80BT0SuVcz72tPFm8uvlEAZ7hobNceysYFcqdgin43ZAa5V+4oMcGv5l00hsD\nah8RArlhbff3Bsq9I9bDoRgpLgBtr9bqnnwqVSdVypDZZug6IdQQrpptykpBcHyX\nRfLNPwv7N5LsIN2czLF2p1ha/sE9jMpQ5fBzKiulvNhdz6D647H2BAC/2yajrlyP\nCJ92BdQ9zpij9wIzLql57q6HCp2PXkCtFdSt3xxEHU84F0o4qpZ5FRjaFLaFlEKO\n4Vkwt/AjdnMv7KyITjePJ2PaPYwl2hlejNfAg01LZF1SX9LssAsNaFbyyP62BirH\n5Sc4iB7RQSxAVFAH6Gzq/t1BAyJGQN8xgAg540NGc1LBIEQBMsi6FtU7CAlwJdYG\n43yPQZMD+C0LEYLeC91gcFOHdpVQKT9Sh6ure3T2dExszjYaanVOHZAGd6xDzNxh\nKJqH5BUaHCNmmewEmt4XXFmooGKn9D3DAyujfkvH6CyT4K0zUufdx9esx7fp9iCk\nV9VwZTNkD4Km5gD+DtNx1/XpD/BUp/48CsvLQSH6mZFyoQ/ubtz5X7Xxd9SGNAJG\nEt79RvmtAGfowIc1LenL\n=gjRw\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 7472ebfc6a16e43da7cabce37c707b7c1979494f\nparent 32900a590d5a198768d186fdbfb48c31b5eac596\nauthor Mark Jerwin <git@jrwnnnn.me> 1789474276 +0800\ncommitter GitHub <noreply@github.com> 1789474276 +0800\n\nchore: Run npm audit fix (#146)",
-        "verified_at": "2026-09-15T12:11:17Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/5ddf5d8287da345040f7ffd8bda3de28732054d1",
-    "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/5ddf5d8287da345040f7ffd8bda3de28732054d1",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/5ddf5d8287da345040f7ffd8bda3de28732054d1/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "32900a590d5a198768d186fdbfb48c31b5eac596",
-        "url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/commits/32900a590d5a198768d186fdbfb48c31b5eac596",
-        "html_url": "https://github.com/jrwnnnn/jrwnnnn-me/commit/32900a590d5a198768d186fdbfb48c31b5eac596"
-      }
-    ],
-    "stats": {
-      "total": 1981,
-      "additions": 691,
-      "deletions": 1290
-    },
-    "files": [
-      {
-        "sha": "e01d7de1b0a5d888033c7ebec484730000a852eb",
-        "filename": "package-lock.json",
-        "status": "modified",
-        "additions": 690,
-        "deletions": 1289,
-        "changes": 1979,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/5ddf5d8287da345040f7ffd8bda3de28732054d1/package-lock.json",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/5ddf5d8287da345040f7ffd8bda3de28732054d1/package-lock.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/package-lock.json?ref=5ddf5d8287da345040f7ffd8bda3de28732054d1"
-      },
-      {
-        "sha": "9d12befaf40965c78027e697adb98a94cb11e55a",
-        "filename": "package.json",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/jrwnnnn-me/blob/5ddf5d8287da345040f7ffd8bda3de28732054d1/package.json",
-        "raw_url": "https://github.com/jrwnnnn/jrwnnnn-me/raw/5ddf5d8287da345040f7ffd8bda3de28732054d1/package.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/jrwnnnn-me/contents/package.json?ref=5ddf5d8287da345040f7ffd8bda3de28732054d1",
-        "patch": "@@ -23,7 +23,7 @@\n \t},\n \t\"devDependencies\": {\n \t\t\"@astrojs/check\": \"^0.9.9\",\n-\t\t\"@cloudflare/workers-types\": \"^4.20260624.1\",\n+\t\t\"@cloudflare/workers-types\": \"^5.20260915.1\",\n \t\t\"@eslint/js\": \"^10.0.1\",\n \t\t\"@types/bcrypt\": \"^6.0.0\",\n \t\t\"@types/node\": \"^26.4.1\","
       }
     ]
   }
