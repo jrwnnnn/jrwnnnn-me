@@ -1,5 +1,118 @@
 [
   {
+    "sha": "87a5d5a809df491bfd957a3eed14cad21efdc0d6",
+    "node_id": "C_kwDORz-DOdoAKDg3YTVkNWE4MDlkZjQ5MWJmZDk1N2EzZWVkMTRjYWQyMWVmZGMwZDY",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-09-19T04:02:01Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-09-19T04:02:01Z"
+      },
+      "message": "refactor: Extract PDF setup into a helper (#84)",
+      "tree": {
+        "sha": "85bb12e3fa58a896a49bfe24ccddd1cc6f3d1671",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/85bb12e3fa58a896a49bfe24ccddd1cc6f3d1671"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/87a5d5a809df491bfd957a3eed14cad21efdc0d6",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqrgk5CRC1aQ7uu5UhlAAAqWoQAE6Q/g2PgV8svLTzpBMxXZbT\nA9L7LT2bdHKgyQi/qgRTbmfVdmL5rTd+17BzPGdfIace05Wpyu4b2ywqzfRlaNeu\n0ifeFo7OVO7NQDWLvpfiQWAraq+CS2iGrGWQL7XURYhl4EHh/TWfvMkwWsbFjUWY\nM2W+Xki1nHBs4alYbk7oMARjTILOcobmyLu9C8osxPD3EFiH/yg2m+JR3yCvG903\nHWhisnf1/AjGj3vxg0JZZbxTt5j9Di7Vlvevk4YSx3flm2Ry4epT0Xjb6u6t05BX\nBUjC/v9Hvjny4GLWDkAwrM6Ck/NC+ealR1skItDsm/janXpvWt6QzMFZKkdAXbC+\nT8onVWmf+RTKrFUkhYC+9XYt5AY3Vs3aVyrX6OU1fIBcBIXF8PhNuYxC5Ly6ekaq\nubOgUzLi0iUbDZawXdDDOpMcT4thT6sOX2A5o5wa9U5AIItR84A9OAP7wEyIG3pS\n24N6UFcLIwxpTtPG35YRWum//qw52DLWxlOK0wo8ZXL7W8O+AURLWcSHPru6mMJ2\nUzpxnT1HmsykJ9MzW74NGJaJJMN7w6kVQArRZnDTJ3fGlLIMKZkLHSotypakZZ41\nvLgHeoZYMtmKTY4Q7DWwNr3PwzCHmJptu7SQkaez+//NlOcDv/cogwS+Nhs1KTl3\nRlBro8ZmG6ZCZLvT1oy7\n=cW3V\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 85bb12e3fa58a896a49bfe24ccddd1cc6f3d1671\nparent c9f82dbf1fb521baf5a4fa195a56fc3f3826710a\nauthor Mark Jerwin <git@jrwnnnn.me> 1789790521 +0800\ncommitter GitHub <noreply@github.com> 1789790521 +0800\n\nrefactor: Extract PDF setup into a helper (#84)",
+        "verified_at": "2026-09-19T04:02:02Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/87a5d5a809df491bfd957a3eed14cad21efdc0d6",
+    "html_url": "https://github.com/jrwnnnn/rekord/commit/87a5d5a809df491bfd957a3eed14cad21efdc0d6",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/87a5d5a809df491bfd957a3eed14cad21efdc0d6/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c9f82dbf1fb521baf5a4fa195a56fc3f3826710a",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/c9f82dbf1fb521baf5a4fa195a56fc3f3826710a",
+        "html_url": "https://github.com/jrwnnnn/rekord/commit/c9f82dbf1fb521baf5a4fa195a56fc3f3826710a"
+      }
+    ],
+    "stats": {
+      "total": 28,
+      "additions": 16,
+      "deletions": 12
+    },
+    "files": [
+      {
+        "sha": "32561c7134d498a7984fea5f3b11643dfdbffdff",
+        "filename": "src/pages/index.astro",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 12,
+        "changes": 14,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/87a5d5a809df491bfd957a3eed14cad21efdc0d6/src%2Fpages%2Findex.astro",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/87a5d5a809df491bfd957a3eed14cad21efdc0d6/src%2Fpages%2Findex.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Fpages%2Findex.astro?ref=87a5d5a809df491bfd957a3eed14cad21efdc0d6",
+        "patch": "@@ -182,13 +182,11 @@ import htmlFields from \"../data/htmlFields.json\";\n \n <script src=\"@utils/downloadTemplate.ts\"></script>\n <script>\n-\timport { initFonts } from \"@utils/styleField\";\n-\timport { PDFDocument } from \"pdf-lib\";\n+\timport { createDocument } from \"@utils/createDocument\";\n \timport { populateFields } from \"@lib/populateFields\";\n \timport { saveAs } from \"file-saver\";\n \timport { updateProgressBanner } from \"@utils/progressBanner\";\n \timport { validateCSV } from \"@lib/validateCSV\";\n-\timport fontkit from \"@pdf-lib/fontkit\";\n \timport JSZip from \"jszip\";\n \timport Papa from \"papaparse\";\n \n@@ -231,18 +229,10 @@ import htmlFields from \"../data/htmlFields.json\";\n \t\t\t\t\t\tcontinue;\n \t\t\t\t\t}\n \n-\t\t\t\t\t// Load the PDF template and register fontkit\n-\t\t\t\t\tconst pdfDoc = await PDFDocument.load(template);\n-\t\t\t\t\tpdfDoc.registerFontkit(fontkit);\n-\n-\t\t\t\t\tawait initFonts(pdfDoc);\n-\n-\t\t\t\t\tconst acroform = pdfDoc.getForm();\n-\n \t\t\t\t\tupdateProgressBanner(\n \t\t\t\t\t\t`Creating SF10 for ${row[\"learner.last_name\"]}, ${row[\"learner.first_name\"]}...`,\n \t\t\t\t\t);\n-\n+\t\t\t\t\tconst { pdfDoc, acroform } = await createDocument(template);\n \t\t\t\t\tpopulateFields(acroform, formValues, row);\n \n \t\t\t\t\tif (formValues.flatten === \"on\") {"
+      },
+      {
+        "sha": "47bff9fb6d4e7a7448ef1ae039a096b65a029d29",
+        "filename": "src/utils/createDocument.ts",
+        "status": "added",
+        "additions": 14,
+        "deletions": 0,
+        "changes": 14,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/87a5d5a809df491bfd957a3eed14cad21efdc0d6/src%2Futils%2FcreateDocument.ts",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/87a5d5a809df491bfd957a3eed14cad21efdc0d6/src%2Futils%2FcreateDocument.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Futils%2FcreateDocument.ts?ref=87a5d5a809df491bfd957a3eed14cad21efdc0d6",
+        "patch": "@@ -0,0 +1,14 @@\n+import { initFonts } from \"@utils/styleField\";\n+import { PDFDocument } from \"pdf-lib\";\n+import fontkit from \"@pdf-lib/fontkit\";\n+\n+export async function createDocument(template: ArrayBuffer) {\n+\tconst pdfDoc = await PDFDocument.load(template);\n+\tpdfDoc.registerFontkit(fontkit);\n+\tawait initFonts(pdfDoc);\n+\n+\treturn {\n+\t\tpdfDoc,\n+\t\tacroform: pdfDoc.getForm(),\n+\t};\n+}"
+      }
+    ]
+  },
+  {
     "sha": "ddb01465b04007c53e4d9ec21fd8ac158b86d64b",
     "node_id": "C_kwDOUgMql9oAKGRkYjAxNDY1YjA0MDA3YzUzZTRkOWVjMjFmZDhhYzE1OGI4NmQ2NGI",
     "commit": {
@@ -476,131 +589,6 @@
         "raw_url": "https://github.com/jrwnnnn/CSELEC1-week-2/raw/c148c6bf02f51bdbb3a565cc0813f813253d199e/LICENSE",
         "contents_url": "https://api.github.com/repos/jrwnnnn/CSELEC1-week-2/contents/LICENSE?ref=c148c6bf02f51bdbb3a565cc0813f813253d199e",
         "patch": "@@ -0,0 +1,21 @@\n+MIT License\n+\n+Copyright (c) 2026 Mark Jerwin\n+\n+Permission is hereby granted, free of charge, to any person obtaining a copy\n+of this software and associated documentation files (the \"Software\"), to deal\n+in the Software without restriction, including without limitation the rights\n+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n+copies of the Software, and to permit persons to whom the Software is\n+furnished to do so, subject to the following conditions:\n+\n+The above copyright notice and this permission notice shall be included in all\n+copies or substantial portions of the Software.\n+\n+THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n+SOFTWARE."
-      }
-    ]
-  },
-  {
-    "sha": "c9f82dbf1fb521baf5a4fa195a56fc3f3826710a",
-    "node_id": "C_kwDORz-DOdoAKGM5ZjgyZGJmMWZiNTIxYmFmNWE0ZmExOTVhNTZmYzNmMzgyNjcxMGE",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-09-18T00:25:00Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-09-18T00:25:00Z"
-      },
-      "message": "refactor: Simplify font handling and field styling (#83)\n\n* refactor: Simplify font handling and field styling\n\n* refactor: Replace shrinkToFit loop with proportional scaling\n\n* refactor: Rename font key to arial-narrow-bold for accuracy",
-      "tree": {
-        "sha": "13bdd8e4b68864989290bb88c8db9a592f33430d",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/13bdd8e4b68864989290bb88c8db9a592f33430d"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/c9f82dbf1fb521baf5a4fa195a56fc3f3826710a",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqrITcCRC1aQ7uu5UhlAAA1noQAFfMKQM6e92yyl2M2rHRWeY5\ngZprUhP1Sc3mOaktNEF0VxgzhQ3lG9z36uOBdkDFzMQuwK5XQMzZ8deDWppeday4\nfgmNTQPZkVWSM5cF3lk7D/9A8+iYvdcuOsv3F3YCuteCDV2D2rQUzgHBhIim37mF\nxHNmqyh/Np6z7BMo5W0DGMMnpoTwkm1mWlpymZrt7qw8velFrVJsXjeoE1Kg9lYx\nS36QFAGz3tkjJQFLThqu9b9tvzYHGKOGLLbRhD6Fk6uZf7F0nJzdNWAqXe18VCX0\ntLab+b3ofA/FTOObwayNuZMSxJHzqqMbT8/DlQsJMrwR7K67/lgfig5+UpHleT6c\n1KZ1r/KFXCBEChYMCIcpqCQtd2ypiUm2zNGFRktfcpte0uGkz3Q4P4x4/D4Sj2AO\nlMvctjJs1Z+hlTVTFESG9eT1mhJXCIyiXEZO0aw9tZ3EGX5M5tung3S/TGIJmfrJ\nf1bS7Pq+Sq4vyPIAdfecTH16gMLZ+KpOQ0VSJUGK1IFwOjiq+UdQztMn5kkty95Z\nzRxEnB/LfzPkmt2S+V4PZLuITlIfxBChkR4YsojDlXAIn3DJgVkueMU0hXZ9Qrj4\nA8Z5hRPeti6o0kEF/xsIGPcmA+OV1htRteki5Ff7TE9/bkzLdnoaACBw2e/zO/1o\nsGP2jddlVcVG+BdlJPPQ\n=tvN0\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 13bdd8e4b68864989290bb88c8db9a592f33430d\nparent e4077b76cd2237237a8c66b64ad9e3acaeae5fe0\nauthor Mark Jerwin <git@jrwnnnn.me> 1789691100 +0800\ncommitter GitHub <noreply@github.com> 1789691100 +0800\n\nrefactor: Simplify font handling and field styling (#83)\n\n* refactor: Simplify font handling and field styling\n\n* refactor: Replace shrinkToFit loop with proportional scaling\n\n* refactor: Rename font key to arial-narrow-bold for accuracy",
-        "verified_at": "2026-09-18T00:25:01Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/c9f82dbf1fb521baf5a4fa195a56fc3f3826710a",
-    "html_url": "https://github.com/jrwnnnn/rekord/commit/c9f82dbf1fb521baf5a4fa195a56fc3f3826710a",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/c9f82dbf1fb521baf5a4fa195a56fc3f3826710a/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "e4077b76cd2237237a8c66b64ad9e3acaeae5fe0",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/e4077b76cd2237237a8c66b64ad9e3acaeae5fe0",
-        "html_url": "https://github.com/jrwnnnn/rekord/commit/e4077b76cd2237237a8c66b64ad9e3acaeae5fe0"
-      }
-    ],
-    "stats": {
-      "total": 98,
-      "additions": 54,
-      "deletions": 44
-    },
-    "files": [
-      {
-        "sha": "12b36cd7143d88f0649a0bfd4fb87f5e7e537ff3",
-        "filename": "src/lib/populateFields.ts",
-        "status": "modified",
-        "additions": 9,
-        "deletions": 10,
-        "changes": 19,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/c9f82dbf1fb521baf5a4fa195a56fc3f3826710a/src%2Flib%2FpopulateFields.ts",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/c9f82dbf1fb521baf5a4fa195a56fc3f3826710a/src%2Flib%2FpopulateFields.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Flib%2FpopulateFields.ts?ref=c9f82dbf1fb521baf5a4fa195a56fc3f3826710a",
-        "patch": "@@ -1,16 +1,10 @@\n-﻿import type { PDFForm, PDFFont } from \"pdf-lib\";\n+﻿import type { PDFForm } from \"pdf-lib\";\n+import checkboxMap from \"../data/checkboxMap.json\";\n import { PDFName, PDFTextField } from \"pdf-lib\";\n import { styleField } from \"@utils/styleField\";\n-import checkboxMap from \"../data/checkboxMap.json\";\n-\n-interface Fonts {\n-\tarialBold: PDFFont;\n-\tarialNarrowBold: PDFFont;\n-}\n \n export async function populateFields(\n \tform: PDFForm,\n-\tfonts: Fonts,\n \thtmlFormValues: Record<string, FormDataEntryValue>,\n \tcsvRow: Record<string, string>,\n ) {\n@@ -55,7 +49,7 @@ export async function populateFields(\n \t\t\tconst subjectCode = pdfFieldName.slice(\n \t\t\t\t`record_${gradeLevel}.final_rating.`.length,\n \t\t\t);\n-\t\t\t\n+\n \t\t\tform\n \t\t\t\t.getTextField(`record_${gradeLevel}.remarks.${subjectCode}`)\n \t\t\t\t.setText(\n@@ -100,6 +94,11 @@ export async function populateFields(\n \t\tif (!field.acroField.getDefaultAppearance()) {\n \t\t\tfield.acroField.setDefaultAppearance(\"/Arial 12 Tf 0 g\");\n \t\t}\n-\t\tstyleField(field, fonts, field.getName());\n+\n+\t\tif (field.getName().startsWith(\"enrollment.\")) {\n+\t\t\tstyleField(field, \"arial-narrow-bold\", 11, \"left\");\n+\t\t} else {\n+\t\t\tstyleField(field, \"arial-bold\", 12, \"center\");\n+\t\t}\n \t}\n }"
-      },
-      {
-        "sha": "c8cbd837f17b1043d2143f09b9a79067c2b7fbd6",
-        "filename": "src/pages/index.astro",
-        "status": "modified",
-        "additions": 7,
-        "deletions": 12,
-        "changes": 19,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/c9f82dbf1fb521baf5a4fa195a56fc3f3826710a/src%2Fpages%2Findex.astro",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/c9f82dbf1fb521baf5a4fa195a56fc3f3826710a/src%2Fpages%2Findex.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Fpages%2Findex.astro?ref=c9f82dbf1fb521baf5a4fa195a56fc3f3826710a",
-        "patch": "@@ -182,6 +182,7 @@ import htmlFields from \"../data/htmlFields.json\";\n \n <script src=\"@utils/downloadTemplate.ts\"></script>\n <script>\n+\timport { initFonts } from \"@utils/styleField\";\n \timport { PDFDocument } from \"pdf-lib\";\n \timport { populateFields } from \"@lib/populateFields\";\n \timport { saveAs } from \"file-saver\";\n@@ -206,12 +207,10 @@ import htmlFields from \"../data/htmlFields.json\";\n \t\tif (!(await validateCSV(csvFile, Number(formValues.classified_as_grade))))\n \t\t\treturn;\n \n-\t\t// Load the PDF template and fonts asynchronously\n-\t\tconst [template, arialBoldBytes, arialNarrowBoldBytes] = await Promise.all([\n-\t\t\tfetch(\"/acroforms/es.pdf\").then((r) => r.arrayBuffer()),\n-\t\t\tfetch(\"/fonts/Arial-Bold.ttf\").then((r) => r.arrayBuffer()),\n-\t\t\tfetch(\"/fonts/Arial-Narrow-Bold.ttf\").then((r) => r.arrayBuffer()),\n-\t\t]);\n+\t\t// Load the PDF template\n+\t\tconst template = await fetch(\"/acroforms/es.pdf\").then((r) =>\n+\t\t\tr.arrayBuffer(),\n+\t\t);\n \n \t\tPapa.parse(csvFile, {\n \t\t\theader: true,\n@@ -236,19 +235,15 @@ import htmlFields from \"../data/htmlFields.json\";\n \t\t\t\t\tconst pdfDoc = await PDFDocument.load(template);\n \t\t\t\t\tpdfDoc.registerFontkit(fontkit);\n \n-\t\t\t\t\t// Embed the fonts to the PDF document\n-\t\t\t\t\tconst fonts = {\n-\t\t\t\t\t\tarialBold: await pdfDoc.embedFont(arialBoldBytes),\n-\t\t\t\t\t\tarialNarrowBold: await pdfDoc.embedFont(arialNarrowBoldBytes),\n-\t\t\t\t\t};\n+\t\t\t\t\tawait initFonts(pdfDoc);\n \n \t\t\t\t\tconst acroform = pdfDoc.getForm();\n \n \t\t\t\t\tupdateProgressBanner(\n \t\t\t\t\t\t`Creating SF10 for ${row[\"learner.last_name\"]}, ${row[\"learner.first_name\"]}...`,\n \t\t\t\t\t);\n \n-\t\t\t\t\tpopulateFields(acroform, fonts, formValues, row);\n+\t\t\t\t\tpopulateFields(acroform, formValues, row);\n \n \t\t\t\t\tif (formValues.flatten === \"on\") {\n \t\t\t\t\t\tacroform.flatten();"
-      },
-      {
-        "sha": "4e83cae84d929d6fcaec5af8d2195f5ae83d85e2",
-        "filename": "src/utils/styleField.ts",
-        "status": "modified",
-        "additions": 38,
-        "deletions": 22,
-        "changes": 60,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/c9f82dbf1fb521baf5a4fa195a56fc3f3826710a/src%2Futils%2FstyleField.ts",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/c9f82dbf1fb521baf5a4fa195a56fc3f3826710a/src%2Futils%2FstyleField.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Futils%2FstyleField.ts?ref=c9f82dbf1fb521baf5a4fa195a56fc3f3826710a",
-        "patch": "@@ -1,9 +1,29 @@\n-import type { PDFFont } from \"pdf-lib\";\n-import { PDFTextField, TextAlignment } from \"pdf-lib\";\n+import type { PDFDocument, PDFFont, PDFTextField } from \"pdf-lib\";\n+import { TextAlignment } from \"pdf-lib\";\n \n-interface Fonts {\n-\tarialBold: PDFFont;\n-\tarialNarrowBold: PDFFont;\n+const alignmentMap = {\n+\tleft: TextAlignment.Left,\n+\tcenter: TextAlignment.Center,\n+\tright: TextAlignment.Right,\n+};\n+\n+export type FontName = \"arial-bold\" | \"arial-narrow-bold\";\n+let arialBoldBytes: ArrayBuffer | null = null;\n+let arialNarrowBoldBytes: ArrayBuffer | null = null;\n+let fontMap: Record<FontName, PDFFont>;\n+\n+export async function initFonts(pdfDoc: PDFDocument): Promise<void> {\n+\tif (!arialBoldBytes || !arialNarrowBoldBytes) {\n+\t\t[arialBoldBytes, arialNarrowBoldBytes] = await Promise.all([\n+\t\t\tfetch(\"/fonts/Arial-Bold.ttf\").then((r) => r.arrayBuffer()),\n+\t\t\tfetch(\"/fonts/Arial-Narrow-Bold.ttf\").then((r) => r.arrayBuffer()),\n+\t\t]);\n+\t}\n+\n+\tfontMap = {\n+\t\t\"arial-bold\": await pdfDoc.embedFont(arialBoldBytes),\n+\t\t\"arial-narrow-bold\": await pdfDoc.embedFont(arialNarrowBoldBytes),\n+\t};\n }\n \n function shrinkToFit(\n@@ -12,32 +32,28 @@ function shrinkToFit(\n \tmaxSize: number,\n \tfieldWidth: number,\n \tminSize = 6,\n+\tpadding = 4,\n ): number {\n \tif (!text) return maxSize;\n-\tfor (let size = maxSize; size >= minSize; size -= 1) {\n-\t\tif (font.widthOfTextAtSize(text, size) <= fieldWidth) {\n-\t\t\treturn size;\n-\t\t}\n-\t}\n-\treturn minSize;\n+\tconst availableWidth = fieldWidth - padding;\n+\tconst currentWidth = font.widthOfTextAtSize(text, maxSize);\n+\tif (currentWidth <= availableWidth) return maxSize;\n+\tconst fitSize = (availableWidth / currentWidth) * maxSize;\n+\treturn Math.max(minSize, fitSize);\n }\n \n export function styleField(\n \tfield: PDFTextField,\n-\tfonts: Fonts,\n-\tpdfFieldName: string,\n+\tfontName: FontName = \"arial-bold\",\n+\tmaxSize = 12,\n+\talignment: \"left\" | \"center\" | \"right\" = \"center\",\n ): void {\n+\tconst font = fontMap[fontName];\n \tconst text = field.getText() ?? \"\";\n \tconst fieldWidth =\n \t\tfield.acroField.getWidgets()[0]?.getRectangle().width ?? Infinity;\n \n-\tif (pdfFieldName.startsWith(\"enrollment.\")) {\n-\t\tfield.setFontSize(shrinkToFit(text, fonts.arialNarrowBold, 11, fieldWidth));\n-\t\tfield.setAlignment(TextAlignment.Left);\n-\t\tfield.updateAppearances(fonts.arialNarrowBold);\n-\t} else {\n-\t\tfield.setFontSize(shrinkToFit(text, fonts.arialBold, 12, fieldWidth));\n-\t\tfield.setAlignment(TextAlignment.Center);\n-\t\tfield.updateAppearances(fonts.arialBold);\n-\t}\n+\tfield.setFontSize(shrinkToFit(text, font, maxSize, fieldWidth));\n+\tfield.setAlignment(alignmentMap[alignment]);\n+\tfield.updateAppearances(font);\n }"
       }
     ]
   }
