@@ -1,5 +1,416 @@
 [
   {
+    "sha": "3d4202bd674e6014176d91e1a59b6229bef81e82",
+    "node_id": "C_kwDORz-DOdoAKDNkNDIwMmJkNjc0ZTYwMTQxNzZkOTFlMWE1OWI2MjI5YmVmODFlODI",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-09-22T14:36:43Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-09-22T14:36:43Z"
+      },
+      "message": "Remove flattening issue warning banner (#105)",
+      "tree": {
+        "sha": "547aacf478f12022e29b2aecc44aead3eca0bbc6",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/547aacf478f12022e29b2aecc44aead3eca0bbc6"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/3d4202bd674e6014176d91e1a59b6229bef81e82",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqspJ7CRC1aQ7uu5UhlAAA8uAQAGPGc2jTJvtQhee3ZRNYyvjZ\nSdpA5FWD+eT5J+yc50spNh+gxX1ybMWxnSrMqJQ+Laqn0VScayBMlGtZe7UHUVh9\nY/RfhMr6aZCDopFq1Nsx1ipAMbzemT9Au+XZgK24gfG1CNrFOVGFB47GyMhuI7XC\nSaOnFKKEad+s6nwf33tmZryiDxi/rUhi086ZoXNQgAeWu8C0C8OM8fdN81rJxbSz\nVmMhnS+ZmxJ8tXZ+fI6w7IKSUKJ0NgNguEiQnMPPHXdLt0iz5OsKAvZGNB0hgUU4\nG63KXACH7Ub+LeLBQCEgo+RSfFlwctFJFaNw3H+hlhD1DANLY4sdjb5SKzWDLDsZ\nacx11Q5Db1KnoLeQcH4yxzTTaXQiptfKK0Gf2irWD0pOCKK5Rg9m99Q0rvAg1WW5\ngkoQl9D54TGIxYBBM/UwPMNkei414rr69or4/460coNTilGxksnKG1wcDWLNOItb\nFi3HLcD3Vmw/XhVek0S6YunsKvs+8h7QZ+UB/j27CoDvIyAbXd5vrMLXX3E3qYpL\nqc7eHIEwj7ZMm27Jsrg5qHK6jggqjnsAxhkersm7L0+0pqRWjBZcc14ZtHhsi4/n\nsl0twy7MCIxb3Rkytij3AZHoKPZLb12ovALJjrdR7bJyaXxHmH+DeBa+yS7XUqD1\nfbwOEFu0clSa2oP/Pg6k\n=/CzK\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 547aacf478f12022e29b2aecc44aead3eca0bbc6\nparent 43a3b3356ebdcc3890d60b263692978932f6117a\nauthor Mark Jerwin <git@jrwnnnn.me> 1790087803 +0800\ncommitter GitHub <noreply@github.com> 1790087803 +0800\n\nRemove flattening issue warning banner (#105)",
+        "verified_at": "2026-09-22T14:36:43Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/3d4202bd674e6014176d91e1a59b6229bef81e82",
+    "html_url": "https://github.com/jrwnnnn/rekord/commit/3d4202bd674e6014176d91e1a59b6229bef81e82",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/3d4202bd674e6014176d91e1a59b6229bef81e82/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "43a3b3356ebdcc3890d60b263692978932f6117a",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/43a3b3356ebdcc3890d60b263692978932f6117a",
+        "html_url": "https://github.com/jrwnnnn/rekord/commit/43a3b3356ebdcc3890d60b263692978932f6117a"
+      }
+    ],
+    "stats": {
+      "total": 8,
+      "additions": 0,
+      "deletions": 8
+    },
+    "files": [
+      {
+        "sha": "ea711209d87ad826b6577a70ec519934131060e1",
+        "filename": "src/pages/index.astro",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 8,
+        "changes": 8,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/3d4202bd674e6014176d91e1a59b6229bef81e82/src%2Fpages%2Findex.astro",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/3d4202bd674e6014176d91e1a59b6229bef81e82/src%2Fpages%2Findex.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Fpages%2Findex.astro?ref=3d4202bd674e6014176d91e1a59b6229bef81e82",
+        "patch": "@@ -47,14 +47,6 @@ import Layout from \"../layouts/Layout.astro\";\n \t\t\t\t\tthem non-editable, check the \"Flatten PDFs\" option. This will merge\n \t\t\t\t\tthe form fields with the PDF content, preventing any further changes.\n \t\t\t\t</p>\n-\t\t\t\t<a href=\"https://github.com/jrwnnnn/rekord/issues/6\" target=\"_blank\">\n-\t\t\t\t\t<p\n-\t\t\t\t\t\tclass=\"cursor-pointer border border-dashed border-red-600 px-3 py-2 text-sm text-red-600 hover:bg-red-50\"\n-\t\t\t\t\t>\n-\t\t\t\t\t\t⚠ There is a known issue where flattening may cause issues with\n-\t\t\t\t\t\tAdobe Acrobat.\n-\t\t\t\t\t</p>\n-\t\t\t\t</a>\n \n \t\t\t\t<div class=\"mt-5 flex items-center gap-2\">\n \t\t\t\t\t<input"
+      }
+    ]
+  },
+  {
+    "sha": "43a3b3356ebdcc3890d60b263692978932f6117a",
+    "node_id": "C_kwDORz-DOdoAKDQzYTNiMzM1NmViZGNjMzg5MGQ2MGIyNjM2OTI5Nzg5MzJmNjExN2E",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-09-22T14:24:57Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-09-22T14:24:57Z"
+      },
+      "message": "feat: Add support for School Form 9 (SF-9) generation (#97)\n\n* feat: Update subheader (#95)\n\n* feat: Automatically detect schema and load matching PDF template (#96)\n\n* feat: Simplify CSV validation to only do basic sanity checks\n\n* feat: Automatically detect schema and load matching PDF template\n\n* feat: Add SF9 excel template and update download dropdown (#98)\n\n* feat: Add SF9 Grade 4-10.xlsx\n\n* feat: Update excel template download dropdown on home page\n\n* fix: SF9 spreadsheet filename\n\n* feat: Adapt PDF generation for SF9 acroform (#100)\n\n* feat: Adapt PDF generation for SF9 acroform\n\n* feat: Remove school information and criteria form sections\n\n* Revert \"feat: Remove school information and criteria form sections\"\n\nThis reverts commit a4ea003b7efc7c4a7cf2460b9262e5bff429308c.\n\n* fix: Remove unused `styleField` function import\n\n* feat: Remove school information and passing criteria sections (#101)\n\n* fix: Align batch export names with SF9 output (#102)\n\n* feat: Style PDF fields; add Bookman Old Style font support (#103)\n\n* feat: Style PDF fields; add Bookman Old Style font support\n\n* fix: Reduce form field font size to 7.8",
+      "tree": {
+        "sha": "fd2a4dc29967c769e1e0685e6289e97abdc4f51d",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/fd2a4dc29967c769e1e0685e6289e97abdc4f51d"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/43a3b3356ebdcc3890d60b263692978932f6117a",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqso+5CRC1aQ7uu5UhlAAAeHgQAGp8yn4abHCy5XnThjvVzJpu\nGnWXJMLQfQDaWVIyfuBQck52aBqeD+9qPd0zBsDSMW6TRaYRA0Y//lVokHTbUz6f\nnQZGq96L3kcF/x+JF+Je1iSnjdhZzCQg2xDproEUiaLIf7yYtod8CzEvzLIHvrQq\nQbYyIhyDmlrBZ2VpA7KmqobcqlcE3J8edD1SURsJphG035KnZlTOLCApwXouUdSL\nFQyvIUQWFiINxf0Axm8KJYRRi+1JrxFbAY1XcMZQ9w+IhO2F+54Tzua0UxZNA1+Z\n/S7xtWjhf2JCW6gV8vRFlVIATVW12rNrbegcKbsCFgw90Vneg92rxxQ0StxAn9GU\n/GcxvtkhmITG7TfgkZIYcni0Amg4b5LJ7K8l0AU0fdC8ancdORrN+Y99R0POcfvw\nezWo8wQ8+FP54bUo7sGaOXNqYf7cFdmkIyBIU/HIjRoLFU45FOwDzK6UQJcAwvU9\ni184hvSsWXBaqgRMu41EUc1jFnxfYoObj1M1ntYa/JnRE1Z3C1qakpJDaCEI2GqB\nQo/ChCJncMW5cW4giJ++hi/ZgGCxq/ccmTQiFAPUPBksXNrv1KYN8F6hdBHHuraj\nAaJOBkqHVUzcjDp5pX2W4mA6sO/1i9vSp6ONOuEiRWTugAFmLh6ULs4s2L3JXtK3\n0CGs7e9hkPj/Z3xn8v4a\n=GAV+\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree fd2a4dc29967c769e1e0685e6289e97abdc4f51d\nparent 54e76bf47fcf905c47182cf6a976679557a7221f\nauthor Mark Jerwin <git@jrwnnnn.me> 1790087097 +0800\ncommitter GitHub <noreply@github.com> 1790087097 +0800\n\nfeat: Add support for School Form 9 (SF-9) generation (#97)\n\n* feat: Update subheader (#95)\n\n* feat: Automatically detect schema and load matching PDF template (#96)\n\n* feat: Simplify CSV validation to only do basic sanity checks\n\n* feat: Automatically detect schema and load matching PDF template\n\n* feat: Add SF9 excel template and update download dropdown (#98)\n\n* feat: Add SF9 Grade 4-10.xlsx\n\n* feat: Update excel template download dropdown on home page\n\n* fix: SF9 spreadsheet filename\n\n* feat: Adapt PDF generation for SF9 acroform (#100)\n\n* feat: Adapt PDF generation for SF9 acroform\n\n* feat: Remove school information and criteria form sections\n\n* Revert \"feat: Remove school information and criteria form sections\"\n\nThis reverts commit a4ea003b7efc7c4a7cf2460b9262e5bff429308c.\n\n* fix: Remove unused `styleField` function import\n\n* feat: Remove school information and passing criteria sections (#101)\n\n* fix: Align batch export names with SF9 output (#102)\n\n* feat: Style PDF fields; add Bookman Old Style font support (#103)\n\n* feat: Style PDF fields; add Bookman Old Style font support\n\n* fix: Reduce form field font size to 7.8",
+        "verified_at": "2026-09-22T14:24:58Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/43a3b3356ebdcc3890d60b263692978932f6117a",
+    "html_url": "https://github.com/jrwnnnn/rekord/commit/43a3b3356ebdcc3890d60b263692978932f6117a",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/43a3b3356ebdcc3890d60b263692978932f6117a/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "54e76bf47fcf905c47182cf6a976679557a7221f",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/54e76bf47fcf905c47182cf6a976679557a7221f",
+        "html_url": "https://github.com/jrwnnnn/rekord/commit/54e76bf47fcf905c47182cf6a976679557a7221f"
+      }
+    ],
+    "stats": {
+      "total": 478,
+      "additions": 154,
+      "deletions": 324
+    },
+    "files": [
+      {
+        "sha": "813028354578238a8ba5164e20afaf9ca9876586",
+        "filename": "public/acroforms/sf9-4-10.pdf",
+        "status": "added",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Facroforms%2Fsf9-4-10.pdf",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Facroforms%2Fsf9-4-10.pdf",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/public%2Facroforms%2Fsf9-4-10.pdf?ref=43a3b3356ebdcc3890d60b263692978932f6117a"
+      },
+      {
+        "sha": "1d895f0be1bc86bee7afd99ab1ea13e1d3cc3342",
+        "filename": "public/excel/SF9 Grade 4-10.xlsx",
+        "status": "added",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Fexcel%2FSF9%20Grade%204-10.xlsx",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Fexcel%2FSF9%20Grade%204-10.xlsx",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/public%2Fexcel%2FSF9%20Grade%204-10.xlsx?ref=43a3b3356ebdcc3890d60b263692978932f6117a"
+      },
+      {
+        "sha": "a6037e6865db7dcd220a631e7b9f4a8eb6417c42",
+        "filename": "public/fonts/arial/bold.ttf",
+        "status": "renamed",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Farial%2Fbold.ttf",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Farial%2Fbold.ttf",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/public%2Ffonts%2Farial%2Fbold.ttf?ref=43a3b3356ebdcc3890d60b263692978932f6117a",
+        "previous_filename": "public/fonts/Arial-Bold.ttf"
+      },
+      {
+        "sha": "62437f02f8888fc54432c67a468ec71e7b917b67",
+        "filename": "public/fonts/arial/narrow-bold.ttf",
+        "status": "renamed",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Farial%2Fnarrow-bold.ttf",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Farial%2Fnarrow-bold.ttf",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/public%2Ffonts%2Farial%2Fnarrow-bold.ttf?ref=43a3b3356ebdcc3890d60b263692978932f6117a",
+        "previous_filename": "public/fonts/Arial-Narrow-Bold.ttf"
+      },
+      {
+        "sha": "94907a3dfc67bedb2ba9f245afe628ae98c07f1f",
+        "filename": "public/fonts/arial/narrow.ttf",
+        "status": "renamed",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Farial%2Fnarrow.ttf",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Farial%2Fnarrow.ttf",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/public%2Ffonts%2Farial%2Fnarrow.ttf?ref=43a3b3356ebdcc3890d60b263692978932f6117a",
+        "previous_filename": "public/fonts/Arial-Narrow.ttf"
+      },
+      {
+        "sha": "8682d94623e575a4ecc9586a35fc909dff37fb2c",
+        "filename": "public/fonts/arial/regular.ttf",
+        "status": "renamed",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Farial%2Fregular.ttf",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Farial%2Fregular.ttf",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/public%2Ffonts%2Farial%2Fregular.ttf?ref=43a3b3356ebdcc3890d60b263692978932f6117a",
+        "previous_filename": "public/fonts/Arial.ttf"
+      },
+      {
+        "sha": "2c7e674489aad2b353059e52b7cf10eaf9030153",
+        "filename": "public/fonts/bookman-old-style/COPYRIGHT.txt",
+        "status": "added",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Fbookman-old-style%2FCOPYRIGHT.txt",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Fbookman-old-style%2FCOPYRIGHT.txt",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/public%2Ffonts%2Fbookman-old-style%2FCOPYRIGHT.txt?ref=43a3b3356ebdcc3890d60b263692978932f6117a",
+        "patch": "@@ -0,0 +1 @@\n+Digitized data copyright The Monotype Corporation 1991-1995. All rights reserved. Bookman Old Style™ is a trademark of The Monotype Corporation which may be registered in certain jurisdictions.\n\\ No newline at end of file"
+      },
+      {
+        "sha": "2d4df3de2ff588e031bb21b6b1922c7b2c189753",
+        "filename": "public/fonts/bookman-old-style/bold-italic.ttf",
+        "status": "added",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Fbookman-old-style%2Fbold-italic.ttf",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Fbookman-old-style%2Fbold-italic.ttf",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/public%2Ffonts%2Fbookman-old-style%2Fbold-italic.ttf?ref=43a3b3356ebdcc3890d60b263692978932f6117a"
+      },
+      {
+        "sha": "f1c46c5c1367f2395ca8546eb5e5628692d2eeb2",
+        "filename": "public/fonts/bookman-old-style/bold.ttf",
+        "status": "added",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Fbookman-old-style%2Fbold.ttf",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Fbookman-old-style%2Fbold.ttf",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/public%2Ffonts%2Fbookman-old-style%2Fbold.ttf?ref=43a3b3356ebdcc3890d60b263692978932f6117a"
+      },
+      {
+        "sha": "6b1ac380ed7d11356e0aaac8d994b4b6a671ceb1",
+        "filename": "public/fonts/bookman-old-style/italic.ttf",
+        "status": "added",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Fbookman-old-style%2Fitalic.ttf",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Fbookman-old-style%2Fitalic.ttf",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/public%2Ffonts%2Fbookman-old-style%2Fitalic.ttf?ref=43a3b3356ebdcc3890d60b263692978932f6117a"
+      },
+      {
+        "sha": "d1e0c93e3fc410d7316cd41c201975cdd070f104",
+        "filename": "public/fonts/bookman-old-style/regular.ttf",
+        "status": "added",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Fbookman-old-style%2Fregular.ttf",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Fbookman-old-style%2Fregular.ttf",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/public%2Ffonts%2Fbookman-old-style%2Fregular.ttf?ref=43a3b3356ebdcc3890d60b263692978932f6117a"
+      },
+      {
+        "sha": "179e4aedb94042bc5cabf7365dcab0b20f286491",
+        "filename": "public/templates/Rekord Template - Grade 4.xlsx",
+        "status": "removed",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/54e76bf47fcf905c47182cf6a976679557a7221f/public%2Ftemplates%2FRekord%20Template%20-%20Grade%204.xlsx",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/54e76bf47fcf905c47182cf6a976679557a7221f/public%2Ftemplates%2FRekord%20Template%20-%20Grade%204.xlsx",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/public%2Ftemplates%2FRekord%20Template%20-%20Grade%204.xlsx?ref=54e76bf47fcf905c47182cf6a976679557a7221f"
+      },
+      {
+        "sha": "ad7631411149b802d34893b65582277c96e4bc04",
+        "filename": "src/data/htmlFields.json",
+        "status": "removed",
+        "additions": 0,
+        "deletions": 34,
+        "changes": 34,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/54e76bf47fcf905c47182cf6a976679557a7221f/src%2Fdata%2FhtmlFields.json",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/54e76bf47fcf905c47182cf6a976679557a7221f/src%2Fdata%2FhtmlFields.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Fdata%2FhtmlFields.json?ref=54e76bf47fcf905c47182cf6a976679557a7221f",
+        "patch": "@@ -1,34 +0,0 @@\n-[\n-\t{\n-\t\t\"name\": \"name_of_school\",\n-\t\t\"label\": \"School Name\"\n-\t},\n-\t{\n-\t\t\"name\": \"school_id\",\n-\t\t\"label\": \"School ID\"\n-\t},\n-\t{\n-\t\t\"name\": \"district\",\n-\t\t\"label\": \"District\"\n-\t},\n-\t{\n-\t\t\"name\": \"division\",\n-\t\t\"label\": \"Division\"\n-\t},\n-\t{\n-\t\t\"name\": \"region\",\n-\t\t\"label\": \"Region\"\n-\t},\n-\t{\n-\t\t\"name\": \"section\",\n-\t\t\"label\": \"Section\"\n-\t},\n-\t{\n-\t\t\"name\": \"school_year\",\n-\t\t\"label\": \"School Year\"\n-\t},\n-\t{\n-\t\t\"name\": \"name_of_adviser\",\n-\t\t\"label\": \"Name of Adviser/Teacher\"\n-\t}\n-]"
+      },
+      {
+        "sha": "8a4049bc8d94bfadef62b5e8f7b278878d80f172",
+        "filename": "src/data/schema.json",
+        "status": "modified",
+        "additions": 67,
+        "deletions": 75,
+        "changes": 142,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/src%2Fdata%2Fschema.json",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/src%2Fdata%2Fschema.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Fdata%2Fschema.json?ref=43a3b3356ebdcc3890d60b263692978932f6117a",
+        "patch": "@@ -1,81 +1,73 @@\n [\n \t{\n-\t\t\"grade\": 4,\n+\t\t\"name\": \"sf9-4-10\",\n \t\t\"columns\": [\n-\t\t\t\"learner.lrn\",\n-\t\t\t\"learner.last_name\",\n-\t\t\t\"learner.first_name\",\n-\t\t\t\"learner.middle_name\",\n-\t\t\t\"learner.extn\",\n-\t\t\t\"learner.birthdate\",\n-\t\t\t\"learner.sex\",\n-\t\t\t\"credential_presented_for_grade_1\",\n-\t\t\t\"enrollment.name_of_school\",\n-\t\t\t\"enrollment.school_address\",\n-\t\t\t\"enrollment.pept.rating\",\n-\t\t\t\"enrollment.pept.date_of_examination\",\n-\t\t\t\"enrollment.pept.name_of_testing_center\",\n-\t\t\t\"enrollment.others\",\n-\t\t\t\"enrollment.remark\",\n-\t\t\t\"record_4.quarterly.filipino.quarter_1\",\n-\t\t\t\"record_4.quarterly.filipino.quarter_2\",\n-\t\t\t\"record_4.quarterly.filipino.quarter_3\",\n-\t\t\t\"record_4.quarterly.filipino.quarter_4\",\n-\t\t\t\"record_4.quarterly.english.quarter_1\",\n-\t\t\t\"record_4.quarterly.english.quarter_2\",\n-\t\t\t\"record_4.quarterly.english.quarter_3\",\n-\t\t\t\"record_4.quarterly.english.quarter_4\",\n-\t\t\t\"record_4.quarterly.mathematics.quarter_1\",\n-\t\t\t\"record_4.quarterly.mathematics.quarter_2\",\n-\t\t\t\"record_4.quarterly.mathematics.quarter_3\",\n-\t\t\t\"record_4.quarterly.mathematics.quarter_4\",\n-\t\t\t\"record_4.quarterly.science.quarter_1\",\n-\t\t\t\"record_4.quarterly.science.quarter_2\",\n-\t\t\t\"record_4.quarterly.science.quarter_3\",\n-\t\t\t\"record_4.quarterly.science.quarter_4\",\n-\t\t\t\"record_4.quarterly.gmrc.quarter_1\",\n-\t\t\t\"record_4.quarterly.gmrc.quarter_2\",\n-\t\t\t\"record_4.quarterly.gmrc.quarter_3\",\n-\t\t\t\"record_4.quarterly.gmrc.quarter_4\",\n-\t\t\t\"record_4.quarterly.araling_panlipunan.quarter_1\",\n-\t\t\t\"record_4.quarterly.araling_panlipunan.quarter_2\",\n-\t\t\t\"record_4.quarterly.araling_panlipunan.quarter_3\",\n-\t\t\t\"record_4.quarterly.araling_panlipunan.quarter_4\",\n-\t\t\t\"record_4.quarterly.epp.quarter_1\",\n-\t\t\t\"record_4.quarterly.epp.quarter_2\",\n-\t\t\t\"record_4.quarterly.epp.quarter_3\",\n-\t\t\t\"record_4.quarterly.epp.quarter_4\",\n-\t\t\t\"record_4.quarterly.mapeh.quarter_1\",\n-\t\t\t\"record_4.quarterly.mapeh.quarter_2\",\n-\t\t\t\"record_4.quarterly.mapeh.quarter_3\",\n-\t\t\t\"record_4.quarterly.mapeh.quarter_4\",\n-\t\t\t\"record_4.quarterly.music_and_arts.quarter_1\",\n-\t\t\t\"record_4.quarterly.music_and_arts.quarter_2\",\n-\t\t\t\"record_4.quarterly.music_and_arts.quarter_3\",\n-\t\t\t\"record_4.quarterly.music_and_arts.quarter_4\",\n-\t\t\t\"record_4.quarterly.physical_education_and_health.quarter_1\",\n-\t\t\t\"record_4.quarterly.physical_education_and_health.quarter_2\",\n-\t\t\t\"record_4.quarterly.physical_education_and_health.quarter_3\",\n-\t\t\t\"record_4.quarterly.physical_education_and_health.quarter_4\",\n-\t\t\t\"record_4.quarterly.arabic_language.quarter_1\",\n-\t\t\t\"record_4.quarterly.arabic_language.quarter_2\",\n-\t\t\t\"record_4.quarterly.arabic_language.quarter_3\",\n-\t\t\t\"record_4.quarterly.arabic_language.quarter_4\",\n-\t\t\t\"record_4.quarterly.islamic_values_education.quarter_1\",\n-\t\t\t\"record_4.quarterly.islamic_values_education.quarter_2\",\n-\t\t\t\"record_4.quarterly.islamic_values_education.quarter_3\",\n-\t\t\t\"record_4.quarterly.islamic_values_education.quarter_4\",\n-\t\t\t\"record_4.final_rating.filipino\",\n-\t\t\t\"record_4.final_rating.english\",\n-\t\t\t\"record_4.final_rating.mathematics\",\n-\t\t\t\"record_4.final_rating.science\",\n-\t\t\t\"record_4.final_rating.gmrc\",\n-\t\t\t\"record_4.final_rating.araling_panlipunan\",\n-\t\t\t\"record_4.final_rating.epp\",\n-\t\t\t\"record_4.final_rating.mapeh\",\n-\t\t\t\"record_4.final_rating.arabic_language\",\n-\t\t\t\"record_4.final_rating.islamic_values_education\",\n-\t\t\t\"record_4.general_average\"\n+\t\t\t\"region\",\n+\t\t\t\"division\",\n+\t\t\t\"district\",\n+\t\t\t\"location\",\n+\t\t\t\"school_name\",\n+\t\t\t\"school_year\",\n+\t\t\t\"adviser\",\n+\t\t\t\"grade\",\n+\t\t\t\"section\",\n+\t\t\t\"school_head\",\n+\t\t\t\"name\",\n+\t\t\t\"lrn\",\n+\t\t\t\"age\",\n+\t\t\t\"sex\",\n+\t\t\t\"t1.filipino\",\n+\t\t\t\"t2.filipino\",\n+\t\t\t\"t3.filipino\",\n+\t\t\t\"final_grade.filipino\",\n+\t\t\t\"remarks.filipino\",\n+\t\t\t\"t1.english\",\n+\t\t\t\"t2.english\",\n+\t\t\t\"t3.english\",\n+\t\t\t\"final_grade.english\",\n+\t\t\t\"remarks.english\",\n+\t\t\t\"t1.mathematics\",\n+\t\t\t\"t2.mathematics\",\n+\t\t\t\"t3.mathematics\",\n+\t\t\t\"final_grade.mathematics\",\n+\t\t\t\"remarks.mathematics\",\n+\t\t\t\"t1.science\",\n+\t\t\t\"t2.science\",\n+\t\t\t\"t3.science\",\n+\t\t\t\"final_grade.science\",\n+\t\t\t\"remarks.science\",\n+\t\t\t\"t1.araling_panlipunan\",\n+\t\t\t\"t2.araling_panlipunan\",\n+\t\t\t\"t3.araling_panlipunan\",\n+\t\t\t\"final_grade.araling_panlipunan\",\n+\t\t\t\"remarks.araling_panlipunan\",\n+\t\t\t\"t1.gmrc\",\n+\t\t\t\"t2.gmrc\",\n+\t\t\t\"t3.gmrc\",\n+\t\t\t\"final_grade.gmrc\",\n+\t\t\t\"remarks.gmrc\",\n+\t\t\t\"t1.epp\",\n+\t\t\t\"t2.epp\",\n+\t\t\t\"t3.epp\",\n+\t\t\t\"final_grade.epp\",\n+\t\t\t\"remarks.epp\",\n+\t\t\t\"t1.mapeh\",\n+\t\t\t\"t2.mapeh\",\n+\t\t\t\"t3.mapeh\",\n+\t\t\t\"final_grade.mapeh\",\n+\t\t\t\"remarks.mapeh\",\n+\t\t\t\"t1.music_and_arts\",\n+\t\t\t\"t2.music_and_arts\",\n+\t\t\t\"t3.music_and_arts\",\n+\t\t\t\"final_grade.music_and_arts\",\n+\t\t\t\"remarks.music_and_arts\",\n+\t\t\t\"t1.pe_and_health\",\n+\t\t\t\"t2.pe_and_health\",\n+\t\t\t\"t3.pe_and_health\",\n+\t\t\t\"final_grade.pe_and_health\",\n+\t\t\t\"remarks.pe_and_health\",\n+\t\t\t\"general_average\",\n+\t\t\t\"general_remarks\"\n \t\t]\n \t}\n ]"
+      },
+      {
+        "sha": "2df82bc8de5a628cb0b1d066d965c1494e33b9d7",
+        "filename": "src/lib/getSchema.ts",
+        "status": "added",
+        "additions": 33,
+        "deletions": 0,
+        "changes": 33,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/src%2Flib%2FgetSchema.ts",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/src%2Flib%2FgetSchema.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Flib%2FgetSchema.ts?ref=43a3b3356ebdcc3890d60b263692978932f6117a",
+        "patch": "@@ -0,0 +1,33 @@\n+import Papa from \"papaparse\";\n+import schema from \"../data/schema.json\";\n+\n+export function getSchema(file: File): Promise<string | boolean> {\n+\treturn new Promise((resolve) => {\n+\t\tPapa.parse(file, {\n+\t\t\theader: true,\n+\t\t\tcomments: \"#\",\n+\t\t\tskipEmptyLines: true,\n+\t\t\tcomplete: (results) => {\n+\t\t\t\tconst matchedSchema = schema.find((s) =>\n+\t\t\t\t\ts.columns.every((col) => results.meta.fields!.includes(col)),\n+\t\t\t\t);\n+\n+\t\t\t\tif (!matchedSchema) {\n+\t\t\t\t\tconsole.error(\n+\t\t\t\t\t\t\"Invalid CSV. The columns do not match any known schema.\",\n+\t\t\t\t\t);\n+\t\t\t\t\treturn resolve(false);\n+\t\t\t\t}\n+\n+\t\t\t\tconsole.log(\n+\t\t\t\t\t`Successfully matched CSV to ${matchedSchema.name} schema.`,\n+\t\t\t\t);\n+\t\t\t\tresolve(matchedSchema.name);\n+\t\t\t},\n+\t\t\terror: (parseError) => {\n+\t\t\t\tconsole.error(\"Error parsing CSV:\", parseError);\n+\t\t\t\tresolve(false);\n+\t\t\t},\n+\t\t});\n+\t});\n+}"
+      },
+      {
+        "sha": "10bda092a0c10b9d5d1776fb98f42f89b3111fa2",
+        "filename": "src/lib/populateFields.ts",
+        "status": "modified",
+        "additions": 7,
+        "deletions": 83,
+        "changes": 90,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/src%2Flib%2FpopulateFields.ts",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/src%2Flib%2FpopulateFields.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Flib%2FpopulateFields.ts?ref=43a3b3356ebdcc3890d60b263692978932f6117a",
+        "patch": "@@ -1,104 +1,28 @@\n ﻿import type { PDFForm } from \"pdf-lib\";\n-import checkboxMap from \"../data/checkboxMap.json\";\n import { PDFName, PDFTextField } from \"pdf-lib\";\n-import { styleField } from \"@utils/styleField\";\n+import { styleField } from \"@utils/styleField.ts\";\n \n export async function populateFields(\n \tform: PDFForm,\n-\thtmlFormValues: Record<string, FormDataEntryValue>,\n \tcsvRow: Record<string, string>,\n ) {\n-\tconsole.log(\n-\t\t`Creating SF10 for ${csvRow[\"learner.last_name\"]}, ${csvRow[\"learner.first_name\"]}...`,\n-\t);\n+\tconsole.log(`Creating SF9 for ${csvRow[\"name\"]}...`);\n \n-\tconst gradeLevel = htmlFormValues.classified_as_grade;\n-\n-\t//Populate school/class info fields based of the HTML form\n-\tconst SKIP_FIELDS = [\n-\t\t\"file\",\n-\t\t\"flatten\",\n-\t\t\"passing_criteria\",\n-\t\t\"promotion_criteria\",\n-\t\t\"classified_as_grade\",\n-\t];\n-\n-\tfor (const [htmlFieldName, value] of Object.entries(htmlFormValues)) {\n-\t\tif (SKIP_FIELDS.includes(htmlFieldName)) continue;\n-\t\tform\n-\t\t\t.getTextField(`record_${gradeLevel}.${htmlFieldName}`)\n-\t\t\t.setText(String(value || \"\"));\n-\t}\n-\n-\t// Populate the remaining fields based on the CSV\n \tfor (const [pdfFieldName, value] of Object.entries(csvRow)) {\n-\t\t// Handle Credential Presented for Grade 1 checkbox.\n-\t\t// A student's list of presented credentials for grade 1 is stored as one comma-separated string (or \"All\" if every credential is present).\n-\t\t// checkboxMap.json maps each known label to its PDF checkbox field name, so we check every box whose label appears in the cell.\n-\t\tif (pdfFieldName === \"credential_presented_for_grade_1\") {\n-\t\t\tfor (const [label, fieldName] of Object.entries(checkboxMap)) {\n-\t\t\t\tif (value === \"All\" || value.includes(label)) {\n-\t\t\t\t\tform.getCheckBox(fieldName).check();\n-\t\t\t\t}\n-\t\t\t}\n-\t\t\tcontinue;\n-\t\t}\n-\n-\t\t// Handle remarks field based on final_rating\n-\t\tif (pdfFieldName.startsWith(`record_${gradeLevel}.final_rating.`)) {\n-\t\t\tconst subjectCode = pdfFieldName.slice(\n-\t\t\t\t`record_${gradeLevel}.final_rating.`.length,\n-\t\t\t);\n-\n-\t\t\tform\n-\t\t\t\t.getTextField(`record_${gradeLevel}.remarks.${subjectCode}`)\n-\t\t\t\t.setText(\n-\t\t\t\t\tNumber(value) >= Number(htmlFormValues.passing_criteria)\n-\t\t\t\t\t\t? \"Passed\"\n-\t\t\t\t\t\t: \"Failed\",\n-\t\t\t\t);\n+\t\ttry {\n+\t\t\tform.getTextField(pdfFieldName).setText(value || \"\");\n+\t\t} catch (error) {\n+\t\t\tconsole.error(`Error setting text for field ${pdfFieldName}:`, error);\n \t\t}\n-\n-\t\tform.getTextField(pdfFieldName).setText(\n-\t\t\t// For fields in the \"learner.\" namespace, convert to uppercase.\n-\t\t\tpdfFieldName.includes(\"learner.\")\n-\t\t\t\t? (value || \"\").toUpperCase()\n-\t\t\t\t: value || \"\",\n-\t\t);\n \t}\n \n-\t// Handle special cases for school_id and general_remark\n-\tform\n-\t\t.getTextField(\"enrollment.school_id\")\n-\t\t.setText(csvRow[\"learner.lrn\"]?.slice(0, 6) || \"\");\n-\tform\n-\t\t.getTextField(`record_${gradeLevel}.general_remark`)\n-\t\t.setText(\n-\t\t\tNumber(csvRow[`record_${gradeLevel}.general_average`]) >=\n-\t\t\t\tNumber(htmlFormValues.promotion_criteria)\n-\t\t\t\t? \"Promoted\"\n-\t\t\t\t: \"Retained\",\n-\t\t);\n-\n-\t// Handle special cases for \"Other Credential Presented\" checkboxes\n-\tif (csvRow[\"enrollment.others\"])\n-\t\tform.getCheckBox(\"enrollment.checkbox.others\").check();\n-\n-\tif (csvRow[\"enrollment.pept.rating\"])\n-\t\tform.getCheckBox(\"enrollment.checkbox.pept\").check();\n-\n-\t// Scrape /AP and seed missing /DA for all text fields, then apply styling\n \tfor (const field of form.getFields()) {\n \t\tif (!(field instanceof PDFTextField)) continue;\n \t\tfield.acroField.dict.delete(PDFName.of(\"AP\"));\n \t\tif (!field.acroField.getDefaultAppearance()) {\n \t\t\tfield.acroField.setDefaultAppearance(\"/Arial 12 Tf 0 g\");\n \t\t}\n \n-\t\tif (field.getName().startsWith(\"enrollment.\")) {\n-\t\t\tstyleField(field, \"arial-narrow-bold\", 11, \"left\");\n-\t\t} else {\n-\t\t\tstyleField(field, \"arial-bold\", 12, \"center\");\n-\t\t}\n+\t\tstyleField(field, \"bookman-old-style-bold\", 7.8, \"center\");\n \t}\n }"
+      },
+      {
+        "sha": "eee7acab6926a3c16261f327390af7fae2bb64c1",
+        "filename": "src/lib/validateCSV.ts",
+        "status": "modified",
+        "additions": 7,
+        "deletions": 34,
+        "changes": 41,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/src%2Flib%2FvalidateCSV.ts",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/src%2Flib%2FvalidateCSV.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Flib%2FvalidateCSV.ts?ref=43a3b3356ebdcc3890d60b263692978932f6117a",
+        "patch": "@@ -1,10 +1,8 @@\n import { updateProgressBanner } from \"@utils/progressBanner\";\n import Papa from \"papaparse\";\n-import schema from \"../data/schema.json\";\n \n-export function validateCSV(file: File, grade: number): Promise<boolean> {\n+export function validateCSV(file: File): Promise<boolean> {\n \treturn new Promise((resolve) => {\n-\t\t// Check if the file is a CSV based on MIME type and extension\n \t\tif (file.type !== \"text/csv\" && !file.name.toLowerCase().endsWith(\".csv\")) {\n \t\t\tconsole.error(\"Invalid file type. Expected CSV.\");\n \t\t\tupdateProgressBanner(\n@@ -20,10 +18,8 @@ export function validateCSV(file: File, grade: number): Promise<boolean> {\n \t\t\tcomments: \"#\",\n \t\t\tskipEmptyLines: true,\n \t\t\tcomplete: (results) => {\n-\t\t\t\tconst columns = results.meta.fields;\n-\n-\t\t\t\t// Check if the CSV is empty\n \t\t\t\tif (results.data.length === 0) {\n+\t\t\t\t\tconsole.error(\"CSV is empty.\");\n \t\t\t\t\tupdateProgressBanner(\n \t\t\t\t\t\t\"CSV is empty.\",\n \t\t\t\t\t\t\"The uploaded CSV file is empty.\",\n@@ -32,45 +28,22 @@ export function validateCSV(file: File, grade: number): Promise<boolean> {\n \t\t\t\t\treturn resolve(false);\n \t\t\t\t}\n \n-\t\t\t\t// Find the schema for the specified grade\n-\t\t\t\tconst gradeSchema = schema.find((s) => s.grade === grade);\n-\n-\t\t\t\t// Check for missing columns based on the grade schema\n-\t\t\t\tconst missingColumns = (gradeSchema ? gradeSchema.columns : []).filter(\n-\t\t\t\t\t(col) => !columns!.includes(col),\n-\t\t\t\t);\n-\t\t\t\t\n-\t\t\t\tif (missingColumns.length > 0) {\n-\t\t\t\t\t// If there are more than 5 missing columns, show only the first 3 and indicate how many more are missing\n-\t\t\t\t\tlet message = \"\";\n-\t\t\t\t\tif (missingColumns.length > 5) {\n-\t\t\t\t\t\tconst shown = missingColumns.slice(0, 3).join(\", \");\n-\t\t\t\t\t\tmessage = `Missing columns: ${shown}, and ${missingColumns.length - 3} more...`;\n-\t\t\t\t\t} else {\n-\t\t\t\t\t\tmessage = `Missing columns: ${missingColumns.join(\", \")}`;\n-\t\t\t\t\t}\n+\t\t\t\tconst columns = results.meta.fields;\n \n-\t\t\t\t\tconsole.error(\n-\t\t\t\t\t\t`Invalid CSV. ${missingColumns.length} missing columns: ${missingColumns}`,\n-\t\t\t\t\t);\n+\t\t\t\tif (!columns) {\n+\t\t\t\t\tconsole.error(\"No columns found in CSV.\");\n \t\t\t\t\tupdateProgressBanner(\n-\t\t\t\t\t\t\"Invalid CSV.\",\n-\t\t\t\t\t\tmessage,\n+\t\t\t\t\t\t\"No columns found in CSV.\",\n+\t\t\t\t\t\t\"The uploaded CSV file does not contain any columns.\",\n \t\t\t\t\t\t\"https://cdn-icons-png.flaticon.com/512/6514/6514954.png\",\n \t\t\t\t\t);\n-\n \t\t\t\t\treturn resolve(false);\n \t\t\t\t}\n \n \t\t\t\tresolve(true);\n \t\t\t},\n \t\t\terror: (parseError) => {\n \t\t\t\tconsole.error(\"Error parsing CSV:\", parseError);\n-\t\t\t\tupdateProgressBanner(\n-\t\t\t\t\t\"Error parsing CSV.\",\n-\t\t\t\t\tparseError.message as string,\n-\t\t\t\t\t\"https://cdn-icons-png.flaticon.com/512/6514/6514954.png\",\n-\t\t\t\t);\n \t\t\t\tresolve(false);\n \t\t\t},\n \t\t});"
+      },
+      {
+        "sha": "b1c81609aa5906e704dc7a6546b75daf9b2cadd0",
+        "filename": "src/pages/index.astro",
+        "status": "modified",
+        "additions": 17,
+        "deletions": 95,
+        "changes": 112,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/src%2Fpages%2Findex.astro",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/src%2Fpages%2Findex.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Fpages%2Findex.astro?ref=43a3b3356ebdcc3890d60b263692978932f6117a",
+        "patch": "@@ -1,6 +1,5 @@\n ---\n import Layout from \"../layouts/Layout.astro\";\n-import htmlFields from \"../data/htmlFields.json\";\n ---\n \n <Layout title=\"Rekord BETA\">\n@@ -12,7 +11,7 @@ import htmlFields from \"../data/htmlFields.json\";\n \t\t\t\t\t<span class=\"text-blue-700\">WIP</span>\n \t\t\t\t</div>\n \t\t\t\t<p class=\"mt-2 text-sm text-gray-700\">\n-\t\t\t\t\tBatch fill your SF10 forms in one click. Just download the template,\n+\t\t\t\t\tBatch fill your SF9 forms in one click. Just download the template,\n \t\t\t\t\tfill it out with your students' info, and upload it back here to get a\n \t\t\t\t\tzip file of ready-to-print PDFs.\n \t\t\t\t</p>\n@@ -25,9 +24,7 @@ import htmlFields from \"../data/htmlFields.json\";\n \t\t\t\t\tclass=\"w-full cursor-pointer border border-black bg-white px-3 py-2 text-sm focus:border-blue-600 focus:ring-1 focus:ring-blue-600 focus:outline-none\"\n \t\t\t\t>\n \t\t\t\t\t<option value=\"\" disabled selected>Select an option...</option>\n-\t\t\t\t\t<option value=\"templates/Rekord Template - Grade 4.xlsx\"\n-\t\t\t\t\t\t>Grade 4</option\n-\t\t\t\t\t>\n+\t\t\t\t\t<option value=\"excel/SF9 Grade 4-10.xlsx\">SF9 Grade 4-10</option>\n \t\t\t\t</select>\n \t\t\t</div>\n \n@@ -44,76 +41,7 @@ import htmlFields from \"../data/htmlFields.json\";\n \t\t\t</div>\n \n \t\t\t<div class=\"space-y-2\">\n-\t\t\t\t<h2 class=\"font-bold\">3. Define School and Class Info</h2>\n-\t\t\t\t<div class=\"space-y-4\">\n-\t\t\t\t\t<div class=\"flex flex-col\">\n-\t\t\t\t\t\t<label\n-\t\t\t\t\t\t\tfor=\"classified_as_grade\"\n-\t\t\t\t\t\t\tclass=\"mb-1 text-sm font-medium text-gray-700\"\n-\t\t\t\t\t\t>\n-\t\t\t\t\t\t\tClassified as Grade:\n-\t\t\t\t\t\t</label>\n-\t\t\t\t\t\t<select\n-\t\t\t\t\t\t\tid=\"classified_as_grade\"\n-\t\t\t\t\t\t\tname=\"classified_as_grade\"\n-\t\t\t\t\t\t\tclass=\"w-full cursor-pointer border border-black bg-white px-3 py-2 text-sm focus:border-blue-600 focus:ring-1 focus:ring-blue-600 focus:outline-none\"\n-\t\t\t\t\t\t\trequired\n-\t\t\t\t\t\t>\n-\t\t\t\t\t\t\t<option value=\"\" disabled selected>Select an option...</option>\n-\t\t\t\t\t\t\t<option value=\"4\">Grade 4</option>\n-\t\t\t\t\t\t</select>\n-\t\t\t\t\t</div>\n-\t\t\t\t\t{\n-\t\t\t\t\t\thtmlFields.map((field) => (\n-\t\t\t\t\t\t\t<div class=\"flex flex-col\">\n-\t\t\t\t\t\t\t\t<label\n-\t\t\t\t\t\t\t\t\tfor={`${field.name}`}\n-\t\t\t\t\t\t\t\t\tclass=\"mb-1 text-sm font-medium text-gray-700\"\n-\t\t\t\t\t\t\t\t>\n-\t\t\t\t\t\t\t\t\t{field.label}:\n-\t\t\t\t\t\t\t\t</label>\n-\t\t\t\t\t\t\t\t<input\n-\t\t\t\t\t\t\t\t\tid={`${field.name}`}\n-\t\t\t\t\t\t\t\t\tname={`${field.name}`}\n-\t\t\t\t\t\t\t\t\ttype=\"text\"\n-\t\t\t\t\t\t\t\t\tclass=\"grow border border-black px-2 py-2 text-sm focus:border-blue-600 focus:ring-1 focus:ring-blue-600 focus:outline-none\"\n-\t\t\t\t\t\t\t\t/>\n-\t\t\t\t\t\t\t</div>\n-\t\t\t\t\t\t))\n-\t\t\t\t\t}\n-\t\t\t\t</div>\n-\t\t\t</div>\n-\n-\t\t\t<div class=\"space-y-2\">\n-\t\t\t\t<h2 class=\"font-bold\">4. Define Passing Criteria</h2>\n-\t\t\t\t<div class=\"flex flex-wrap space-y-4\">\n-\t\t\t\t\t<p class=\"text-sm text-gray-700\">\n-\t\t\t\t\t\tMark a learning area as <strong>\"Passed\"</strong> if the student's grade\n-\t\t\t\t\t\tis greater than or equal to\n-\t\t\t\t\t\t<input\n-\t\t\t\t\t\t\ttype=\"text\"\n-\t\t\t\t\t\t\tid=\"passing_criteria\"\n-\t\t\t\t\t\t\tname=\"passing_criteria\"\n-\t\t\t\t\t\t\tvalue=\"75\"\n-\t\t\t\t\t\t\tclass=\"w-10 border-b border-gray-700 px-2 py-px text-sm font-bold focus:border-b-2 focus:border-blue-600 focus:outline-none\"\n-\t\t\t\t\t\t/>. Otherwise, mark as <strong>\"Failed\"</strong>.\n-\t\t\t\t\t</p>\n-\n-\t\t\t\t\t<p class=\"text-sm text-gray-700\">\n-\t\t\t\t\t\tPromote a student if his/her grade is greater than or equal to\n-\t\t\t\t\t\t<input\n-\t\t\t\t\t\t\ttype=\"text\"\n-\t\t\t\t\t\t\tid=\"promotion_criteria\"\n-\t\t\t\t\t\t\tname=\"promotion_criteria\"\n-\t\t\t\t\t\t\tvalue=\"75\"\n-\t\t\t\t\t\t\tclass=\"w-10 border-b border-gray-700 px-2 py-px text-sm font-bold focus:border-b-2 focus:border-blue-600 focus:outline-none\"\n-\t\t\t\t\t\t/>. Otherwise, mark as <strong>\"Retained\"</strong>.\n-\t\t\t\t\t</p>\n-\t\t\t\t</div>\n-\t\t\t</div>\n-\n-\t\t\t<div class=\"space-y-2\">\n-\t\t\t\t<h2 class=\"font-bold\">5. Flatten?</h2>\n+\t\t\t\t<h2 class=\"font-bold\">3. Flatten?</h2>\n \t\t\t\t<p class=\"text-sm text-gray-700\">\n \t\t\t\t\tBy default, the generated PDFs will be editable. If you want to make\n \t\t\t\t\tthem non-editable, check the \"Flatten PDFs\" option. This will merge\n@@ -183,6 +111,7 @@ import htmlFields from \"../data/htmlFields.json\";\n <script src=\"@utils/downloadTemplate.ts\"></script>\n <script>\n \timport { createDocument } from \"@utils/createDocument\";\n+\timport { getSchema } from \"@lib/getSchema\";\n \timport { populateFields } from \"@lib/populateFields\";\n \timport { saveAs } from \"file-saver\";\n \timport { updateProgressBanner } from \"@utils/progressBanner\";\n@@ -202,11 +131,13 @@ import htmlFields from \"../data/htmlFields.json\";\n \n \t\tconsole.log(\"Parsing CSV file...\");\n \t\tupdateProgressBanner(\"Parsing CSV file...\");\n-\t\tif (!(await validateCSV(csvFile, Number(formValues.classified_as_grade))))\n-\t\t\treturn;\n \n-\t\t// Load the PDF template\n-\t\tconst template = await fetch(\"/acroforms/es.pdf\").then((r) =>\n+\t\tif (!(await validateCSV(csvFile))) return;\n+\n+\t\tconst schema = await getSchema(csvFile);\n+\t\tif (!schema) return;\n+\n+\t\tconst template = await fetch(`/acroforms/${schema}.pdf`).then((r) =>\n \t\t\tr.arrayBuffer(),\n \t\t);\n \n@@ -222,28 +153,19 @@ import htmlFields from \"../data/htmlFields.json\";\n \t\t\t\tconst zip = new JSZip();\n \n \t\t\t\tfor (const row of rows) {\n-\t\t\t\t\tif (!row[\"learner.lrn\"]) {\n-\t\t\t\t\t\tconsole.warn(\n-\t\t\t\t\t\t\t`Skipped row ${rows.indexOf(row) + 1} with missing LRN`,\n-\t\t\t\t\t\t);\n-\t\t\t\t\t\tcontinue;\n-\t\t\t\t\t}\n+\t\t\t\t\tupdateProgressBanner(`Creating SF9 for ${row[\"name\"]}...`);\n \n-\t\t\t\t\tupdateProgressBanner(\n-\t\t\t\t\t\t`Creating SF10 for ${row[\"learner.last_name\"]}, ${row[\"learner.first_name\"]}...`,\n-\t\t\t\t\t);\n \t\t\t\t\tconst { pdfDoc, acroform } = await createDocument(template);\n-\t\t\t\t\tpopulateFields(acroform, formValues, row);\n+\t\t\t\t\tpopulateFields(acroform, row);\n \n \t\t\t\t\tif (formValues.flatten === \"on\") {\n \t\t\t\t\t\tacroform.flatten();\n \t\t\t\t\t}\n \n-\t\t\t\t\tconst fileName =\n-\t\t\t\t\t\t`${row[\"learner.last_name\"]}_${row[\"learner.first_name\"]}.pdf`.replace(\n-\t\t\t\t\t\t\t/\\s+/g,\n-\t\t\t\t\t\t\t\"_\",\n-\t\t\t\t\t\t);\n+\t\t\t\t\tconst fileName = `${row[\"name\"]}_${row[\"lrn\"]}.pdf`.replace(\n+\t\t\t\t\t\t/\\s+/g,\n+\t\t\t\t\t\t\"_\",\n+\t\t\t\t\t);\n \n \t\t\t\t\tzip.file(fileName, await pdfDoc.save());\n \t\t\t\t}\n@@ -252,7 +174,7 @@ import htmlFields from \"../data/htmlFields.json\";\n \t\t\t\tupdateProgressBanner(\"Generating ZIP file...\");\n \n \t\t\t\tconst content = await zip.generateAsync({ type: \"blob\" });\n-\t\t\t\tsaveAs(content, \"SF10_Batch_Export.zip\");\n+\t\t\t\tsaveAs(content, \"SF9_Batch_Export.zip\");\n \n \t\t\t\tconsole.log(\"Done.\");\n \t\t\t\tupdateProgressBanner("
+      },
+      {
+        "sha": "30499600f6ec73ae404bf287d3738a26480bed77",
+        "filename": "src/utils/styleField.ts",
+        "status": "modified",
+        "additions": 22,
+        "deletions": 3,
+        "changes": 25,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/src%2Futils%2FstyleField.ts",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/src%2Futils%2FstyleField.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Futils%2FstyleField.ts?ref=43a3b3356ebdcc3890d60b263692978932f6117a",
+        "patch": "@@ -7,22 +7,41 @@ const alignmentMap = {\n \tright: TextAlignment.Right,\n };\n \n-export type FontName = \"arial-bold\" | \"arial-narrow-bold\";\n+export type FontName =\n+\t| \"arial-bold\"\n+\t| \"arial-narrow-bold\"\n+\t| \"bookman-old-style\"\n+\t| \"bookman-old-style-bold\";\n+\n let arialBoldBytes: ArrayBuffer | null = null;\n let arialNarrowBoldBytes: ArrayBuffer | null = null;\n+let bookmanOldStyleBytes: ArrayBuffer | null = null;\n+let bookmanOldStyleBoldBytes: ArrayBuffer | null = null;\n+\n let fontMap: Record<FontName, PDFFont>;\n \n export async function initFonts(pdfDoc: PDFDocument): Promise<void> {\n \tif (!arialBoldBytes || !arialNarrowBoldBytes) {\n \t\t[arialBoldBytes, arialNarrowBoldBytes] = await Promise.all([\n-\t\t\tfetch(\"/fonts/Arial-Bold.ttf\").then((r) => r.arrayBuffer()),\n-\t\t\tfetch(\"/fonts/Arial-Narrow-Bold.ttf\").then((r) => r.arrayBuffer()),\n+\t\t\tfetch(\"/fonts/arial/bold.ttf\").then((r) => r.arrayBuffer()),\n+\t\t\tfetch(\"/fonts/arial/narrow-bold.ttf\").then((r) => r.arrayBuffer()),\n+\t\t]);\n+\t}\n+\n+\tif (!bookmanOldStyleBytes || !bookmanOldStyleBoldBytes) {\n+\t\t[bookmanOldStyleBytes, bookmanOldStyleBoldBytes] = await Promise.all([\n+\t\t\tfetch(\"/fonts/bookman-old-style/regular.ttf\").then((r) =>\n+\t\t\t\tr.arrayBuffer(),\n+\t\t\t),\n+\t\t\tfetch(\"/fonts/bookman-old-style/bold.ttf\").then((r) => r.arrayBuffer()),\n \t\t]);\n \t}\n \n \tfontMap = {\n \t\t\"arial-bold\": await pdfDoc.embedFont(arialBoldBytes),\n \t\t\"arial-narrow-bold\": await pdfDoc.embedFont(arialNarrowBoldBytes),\n+\t\t\"bookman-old-style\": await pdfDoc.embedFont(bookmanOldStyleBytes),\n+\t\t\"bookman-old-style-bold\": await pdfDoc.embedFont(bookmanOldStyleBoldBytes),\n \t};\n }\n "
+      }
+    ]
+  },
+  {
     "sha": "54e76bf47fcf905c47182cf6a976679557a7221f",
     "node_id": "C_kwDORz-DOdoAKDU0ZTc2YmY0N2ZjZjkwNWM0NzE4MmNmNmE5NzY2Nzk1NTdhNzIyMWY",
     "commit": {
@@ -299,231 +710,6 @@
         "raw_url": "https://github.com/jrwnnnn/rekord/raw/7d19c6325eaa0a101b3806356bdedea3abcb505f/package.json",
         "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/package.json?ref=7d19c6325eaa0a101b3806356bdedea3abcb505f",
         "patch": "@@ -17,8 +17,7 @@\n     \"jszip\": \"^3.10.1\",\n     \"papaparse\": \"^5.5.3\",\n     \"pdf-lib\": \"^1.17.1\",\n-    \"tailwindcss\": \"^4.1.18\",\n-    \"wrangler\": \"^4.128.0\"\n+    \"tailwindcss\": \"^4.1.18\"\n   },\n   \"devDependencies\": {\n     \"@astrojs/check\": \"^0.9.10\",\n@@ -33,6 +32,7 @@\n     \"prettier-plugin-tailwindcss\": \"^0.8.1\",\n     \"typescript\": \"^5.9.3\",\n     \"typescript-eslint\": \"^8.69.0\",\n-    \"vite\": \"^8.3.0\"\n+    \"vite\": \"^8.3.0\",\n+    \"wrangler\": \"^4.128.0\"\n   }\n }"
-      }
-    ]
-  },
-  {
-    "sha": "9b1e280676297415f202ef8434419d863a431c7d",
-    "node_id": "C_kwDORz-DOdoAKDliMWUyODA2NzYyOTc0MTVmMjAyZWY4NDM0NDE5ZDg2M2E0MzFjN2Q",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-09-19T10:24:28Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-09-19T10:24:28Z"
-      },
-      "message": "chore: Astro, Vite, Tailwind dependency update (#86)\n\n* chore: Upgrade Astro and Cloudflare adapter\n\n* chore: Upgrade to Vite 8 and Tailwind plugin",
-      "tree": {
-        "sha": "4efd671fea605f026c0652028157559fd432118f",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/4efd671fea605f026c0652028157559fd432118f"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/9b1e280676297415f202ef8434419d863a431c7d",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqrmLcCRC1aQ7uu5UhlAAAMHQQAA10O2RMLa/q5Tx/AwLE1dTA\nnCsjfgh9rUlu48X5sAc4VJN3b/IWioIIw0/GzvrLZVlge7qGEIIViCzLPnLbbG34\nliSk5CDietbkn9bUbGNOxhqyHfNkMmpCVjSXHuMrlOzKj8gN5s5fgr/tMrOw6stF\nTYBu4E6H2Mq5XJg5+kxECH6ukKfvxqgJPPuMH0QLL2xDCAbq+txdKwwIwXJn7NKd\n4TCA0v4Z1IJpbxEWtM9pJg9TrtLeN6lNhwhcY5Ht3cJjVEeUgA/X0ZK6oboS73ei\n+LzD17168+JGK4tlD1dVawHhDZvcx2vFbdE1hn3k8OYZOSQaPYIA9ZPZTIt/6KzQ\nA4V3P9xfbWEkbsM0tDwf8RRe8stqHKGp/F2xvx98JsbnvRJJ2ZB98p84j9AYnBmI\nvoCD7TuRVq+JdMlO2AvUkekngsG/4GUzHpVGW9QSk6EYpj66dan+tswA8gh3A1w+\n+XzbSHHo0yR1jRCAuWNMput4D+twDvtqrlGL3vPnaG4FiFSjAhSDVZerFUsEpjNq\nX6851OJsuJaypNn25Sy/FBl+lj/VnBBs/S1igbZNO1acE8nYwK2APthuszb8T683\np4XxMEYMFnrtZNe/9QIy/4u2EBeSBhzr6Wo2sZi8Bw0Ab10xmIV3jIE87jSvuvPJ\nII9xOF/VWzS+fPOiS7xC\n=V2ZM\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 4efd671fea605f026c0652028157559fd432118f\nparent 87a5d5a809df491bfd957a3eed14cad21efdc0d6\nauthor Mark Jerwin <git@jrwnnnn.me> 1789813468 +0800\ncommitter GitHub <noreply@github.com> 1789813468 +0800\n\nchore: Astro, Vite, Tailwind dependency update (#86)\n\n* chore: Upgrade Astro and Cloudflare adapter\n\n* chore: Upgrade to Vite 8 and Tailwind plugin",
-        "verified_at": "2026-09-19T10:24:28Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/9b1e280676297415f202ef8434419d863a431c7d",
-    "html_url": "https://github.com/jrwnnnn/rekord/commit/9b1e280676297415f202ef8434419d863a431c7d",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/9b1e280676297415f202ef8434419d863a431c7d/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "87a5d5a809df491bfd957a3eed14cad21efdc0d6",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/87a5d5a809df491bfd957a3eed14cad21efdc0d6",
-        "html_url": "https://github.com/jrwnnnn/rekord/commit/87a5d5a809df491bfd957a3eed14cad21efdc0d6"
-      }
-    ],
-    "stats": {
-      "total": 13266,
-      "additions": 5821,
-      "deletions": 7445
-    },
-    "files": [
-      {
-        "sha": "e197d3b7502b0a14ca8bdb6be8cb7b44c771f163",
-        "filename": "package-lock.json",
-        "status": "modified",
-        "additions": 5814,
-        "deletions": 7436,
-        "changes": 13250,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/9b1e280676297415f202ef8434419d863a431c7d/package-lock.json",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/9b1e280676297415f202ef8434419d863a431c7d/package-lock.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/package-lock.json?ref=9b1e280676297415f202ef8434419d863a431c7d"
-      },
-      {
-        "sha": "2ea7126751ffa39b5350cd8f887f42acd60980d3",
-        "filename": "package.json",
-        "status": "modified",
-        "additions": 7,
-        "deletions": 9,
-        "changes": 16,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/9b1e280676297415f202ef8434419d863a431c7d/package.json",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/9b1e280676297415f202ef8434419d863a431c7d/package.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/package.json?ref=9b1e280676297415f202ef8434419d863a431c7d",
-        "patch": "@@ -10,10 +10,9 @@\n     \"generate-types\": \"wrangler types\"\n   },\n   \"dependencies\": {\n-    \"@astrojs/cloudflare\": \"^13.1.10\",\n+    \"@astrojs/cloudflare\": \"^14.3.2\",\n     \"@pdf-lib/fontkit\": \"^1.1.1\",\n-    \"@tailwindcss/vite\": \"^4.1.18\",\n-    \"astro\": \"^6.3.6\",\n+    \"astro\": \"^7.3.3\",\n     \"file-saver\": \"^2.0.5\",\n     \"jszip\": \"^3.10.1\",\n     \"papaparse\": \"^5.5.3\",\n@@ -22,8 +21,9 @@\n     \"wrangler\": \"^4.128.0\"\n   },\n   \"devDependencies\": {\n-    \"@astrojs/check\": \"^0.9.8\",\n+    \"@astrojs/check\": \"^0.9.10\",\n     \"@eslint/js\": \"^10.0.1\",\n+    \"@tailwindcss/vite\": \"^4.3.3\",\n     \"@types/file-saver\": \"^2.0.7\",\n     \"@types/papaparse\": \"^5.5.2\",\n     \"eslint\": \"^10.9.1\",\n@@ -32,9 +32,7 @@\n     \"prettier-plugin-astro\": \"^0.14.1\",\n     \"prettier-plugin-tailwindcss\": \"^0.8.1\",\n     \"typescript\": \"^5.9.3\",\n-    \"typescript-eslint\": \"^8.69.0\"\n-  },\n-  \"overrides\": {\n-    \"vite\": \"^7\"\n+    \"typescript-eslint\": \"^8.69.0\",\n+    \"vite\": \"^8.3.0\"\n   }\n-}\n\\ No newline at end of file\n+}"
-      }
-    ]
-  },
-  {
-    "sha": "87a5d5a809df491bfd957a3eed14cad21efdc0d6",
-    "node_id": "C_kwDORz-DOdoAKDg3YTVkNWE4MDlkZjQ5MWJmZDk1N2EzZWVkMTRjYWQyMWVmZGMwZDY",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-09-19T04:02:01Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-09-19T04:02:01Z"
-      },
-      "message": "refactor: Extract PDF setup into a helper (#84)",
-      "tree": {
-        "sha": "85bb12e3fa58a896a49bfe24ccddd1cc6f3d1671",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/85bb12e3fa58a896a49bfe24ccddd1cc6f3d1671"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/87a5d5a809df491bfd957a3eed14cad21efdc0d6",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqrgk5CRC1aQ7uu5UhlAAAqWoQAE6Q/g2PgV8svLTzpBMxXZbT\nA9L7LT2bdHKgyQi/qgRTbmfVdmL5rTd+17BzPGdfIace05Wpyu4b2ywqzfRlaNeu\n0ifeFo7OVO7NQDWLvpfiQWAraq+CS2iGrGWQL7XURYhl4EHh/TWfvMkwWsbFjUWY\nM2W+Xki1nHBs4alYbk7oMARjTILOcobmyLu9C8osxPD3EFiH/yg2m+JR3yCvG903\nHWhisnf1/AjGj3vxg0JZZbxTt5j9Di7Vlvevk4YSx3flm2Ry4epT0Xjb6u6t05BX\nBUjC/v9Hvjny4GLWDkAwrM6Ck/NC+ealR1skItDsm/janXpvWt6QzMFZKkdAXbC+\nT8onVWmf+RTKrFUkhYC+9XYt5AY3Vs3aVyrX6OU1fIBcBIXF8PhNuYxC5Ly6ekaq\nubOgUzLi0iUbDZawXdDDOpMcT4thT6sOX2A5o5wa9U5AIItR84A9OAP7wEyIG3pS\n24N6UFcLIwxpTtPG35YRWum//qw52DLWxlOK0wo8ZXL7W8O+AURLWcSHPru6mMJ2\nUzpxnT1HmsykJ9MzW74NGJaJJMN7w6kVQArRZnDTJ3fGlLIMKZkLHSotypakZZ41\nvLgHeoZYMtmKTY4Q7DWwNr3PwzCHmJptu7SQkaez+//NlOcDv/cogwS+Nhs1KTl3\nRlBro8ZmG6ZCZLvT1oy7\n=cW3V\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 85bb12e3fa58a896a49bfe24ccddd1cc6f3d1671\nparent c9f82dbf1fb521baf5a4fa195a56fc3f3826710a\nauthor Mark Jerwin <git@jrwnnnn.me> 1789790521 +0800\ncommitter GitHub <noreply@github.com> 1789790521 +0800\n\nrefactor: Extract PDF setup into a helper (#84)",
-        "verified_at": "2026-09-19T04:02:02Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/87a5d5a809df491bfd957a3eed14cad21efdc0d6",
-    "html_url": "https://github.com/jrwnnnn/rekord/commit/87a5d5a809df491bfd957a3eed14cad21efdc0d6",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/87a5d5a809df491bfd957a3eed14cad21efdc0d6/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "c9f82dbf1fb521baf5a4fa195a56fc3f3826710a",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/c9f82dbf1fb521baf5a4fa195a56fc3f3826710a",
-        "html_url": "https://github.com/jrwnnnn/rekord/commit/c9f82dbf1fb521baf5a4fa195a56fc3f3826710a"
-      }
-    ],
-    "stats": {
-      "total": 28,
-      "additions": 16,
-      "deletions": 12
-    },
-    "files": [
-      {
-        "sha": "32561c7134d498a7984fea5f3b11643dfdbffdff",
-        "filename": "src/pages/index.astro",
-        "status": "modified",
-        "additions": 2,
-        "deletions": 12,
-        "changes": 14,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/87a5d5a809df491bfd957a3eed14cad21efdc0d6/src%2Fpages%2Findex.astro",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/87a5d5a809df491bfd957a3eed14cad21efdc0d6/src%2Fpages%2Findex.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Fpages%2Findex.astro?ref=87a5d5a809df491bfd957a3eed14cad21efdc0d6",
-        "patch": "@@ -182,13 +182,11 @@ import htmlFields from \"../data/htmlFields.json\";\n \n <script src=\"@utils/downloadTemplate.ts\"></script>\n <script>\n-\timport { initFonts } from \"@utils/styleField\";\n-\timport { PDFDocument } from \"pdf-lib\";\n+\timport { createDocument } from \"@utils/createDocument\";\n \timport { populateFields } from \"@lib/populateFields\";\n \timport { saveAs } from \"file-saver\";\n \timport { updateProgressBanner } from \"@utils/progressBanner\";\n \timport { validateCSV } from \"@lib/validateCSV\";\n-\timport fontkit from \"@pdf-lib/fontkit\";\n \timport JSZip from \"jszip\";\n \timport Papa from \"papaparse\";\n \n@@ -231,18 +229,10 @@ import htmlFields from \"../data/htmlFields.json\";\n \t\t\t\t\t\tcontinue;\n \t\t\t\t\t}\n \n-\t\t\t\t\t// Load the PDF template and register fontkit\n-\t\t\t\t\tconst pdfDoc = await PDFDocument.load(template);\n-\t\t\t\t\tpdfDoc.registerFontkit(fontkit);\n-\n-\t\t\t\t\tawait initFonts(pdfDoc);\n-\n-\t\t\t\t\tconst acroform = pdfDoc.getForm();\n-\n \t\t\t\t\tupdateProgressBanner(\n \t\t\t\t\t\t`Creating SF10 for ${row[\"learner.last_name\"]}, ${row[\"learner.first_name\"]}...`,\n \t\t\t\t\t);\n-\n+\t\t\t\t\tconst { pdfDoc, acroform } = await createDocument(template);\n \t\t\t\t\tpopulateFields(acroform, formValues, row);\n \n \t\t\t\t\tif (formValues.flatten === \"on\") {"
-      },
-      {
-        "sha": "47bff9fb6d4e7a7448ef1ae039a096b65a029d29",
-        "filename": "src/utils/createDocument.ts",
-        "status": "added",
-        "additions": 14,
-        "deletions": 0,
-        "changes": 14,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/87a5d5a809df491bfd957a3eed14cad21efdc0d6/src%2Futils%2FcreateDocument.ts",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/87a5d5a809df491bfd957a3eed14cad21efdc0d6/src%2Futils%2FcreateDocument.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Futils%2FcreateDocument.ts?ref=87a5d5a809df491bfd957a3eed14cad21efdc0d6",
-        "patch": "@@ -0,0 +1,14 @@\n+import { initFonts } from \"@utils/styleField\";\n+import { PDFDocument } from \"pdf-lib\";\n+import fontkit from \"@pdf-lib/fontkit\";\n+\n+export async function createDocument(template: ArrayBuffer) {\n+\tconst pdfDoc = await PDFDocument.load(template);\n+\tpdfDoc.registerFontkit(fontkit);\n+\tawait initFonts(pdfDoc);\n+\n+\treturn {\n+\t\tpdfDoc,\n+\t\tacroform: pdfDoc.getForm(),\n+\t};\n+}"
       }
     ]
   }
