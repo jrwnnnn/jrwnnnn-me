@@ -1,5 +1,308 @@
 [
   {
+    "sha": "0671164fde9b020e0f9b695b8f8248854d873a5f",
+    "node_id": "C_kwDORz-DOdoAKDA2NzExNjRmZGU5YjAyMGUwZjliNjk1YjhmODI0ODg1NGQ4NzNhNWY",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-09-23T06:01:36Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-09-23T06:01:36Z"
+      },
+      "message": "docs: Update CONTRIBUTING.md [skip ci]",
+      "tree": {
+        "sha": "c42902d878185b44f50c337e54f310bd79a50c72",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/c42902d878185b44f50c337e54f310bd79a50c72"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/0671164fde9b020e0f9b695b8f8248854d873a5f",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQAzF15Gg0WAVK+d3CwekPpfIgke3sHnZXltyqj5UCTZZMUlTytA5VKqs6Trx+rAU2U\nnaB1r++2PjU1scdCjV3wI=\n-----END SSH SIGNATURE-----",
+        "payload": "tree c42902d878185b44f50c337e54f310bd79a50c72\nparent a7bdf16276b0cf288946de257453abc26aefa175\nauthor Mark Jerwin <git@jrwnnnn.me> 1790143296 +0800\ncommitter Mark Jerwin <git@jrwnnnn.me> 1790143296 +0800\n\ndocs: Update CONTRIBUTING.md [skip ci]\n",
+        "verified_at": "2026-09-23T06:01:40Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/0671164fde9b020e0f9b695b8f8248854d873a5f",
+    "html_url": "https://github.com/jrwnnnn/rekord/commit/0671164fde9b020e0f9b695b8f8248854d873a5f",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/0671164fde9b020e0f9b695b8f8248854d873a5f/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a7bdf16276b0cf288946de257453abc26aefa175",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/a7bdf16276b0cf288946de257453abc26aefa175",
+        "html_url": "https://github.com/jrwnnnn/rekord/commit/a7bdf16276b0cf288946de257453abc26aefa175"
+      }
+    ],
+    "stats": {
+      "total": 59,
+      "additions": 38,
+      "deletions": 21
+    },
+    "files": [
+      {
+        "sha": "eb42daa67536a61e96fb8da99b8e792f748141c2",
+        "filename": "CONTRIBUTING.md",
+        "status": "modified",
+        "additions": 38,
+        "deletions": 21,
+        "changes": 59,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/0671164fde9b020e0f9b695b8f8248854d873a5f/CONTRIBUTING.md",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/0671164fde9b020e0f9b695b8f8248854d873a5f/CONTRIBUTING.md",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/CONTRIBUTING.md?ref=0671164fde9b020e0f9b695b8f8248854d873a5f",
+        "patch": "@@ -2,55 +2,72 @@\n \n First off, thanks for taking the time to contribute! These are the guidelines for contributing to this project.\n \n+## Code of Conduct\n+\n+All contributors are expected to adhere to the [Code of Conduct](CODE_OF_CONDUCT.md). \n+\n+## Reporting Issues\n+\n+Before writing any code, please [open an issue](https://github.com/jrwnnnn/rekord/issues) or comment on an existing one. This ensures we do not have multiple people working on the same feature and allows us to discuss the approach before you invest time in building it.\n+\n ## Development Setup\n \n Make sure you have the latest LTS version of [Node.js](https://nodejs.org/en/download/current) installed.\n \n Clone the repository:\n+\n ```bash\n git clone https://github.com/jrwnnnn/rekord.git\n cd rekord\n ```\n+\n Install the required dependencies:\n+\n ```bash\n-npm ci\n+npm install\n ```\n+\n Start the development server:\n+\n ```bash\n-npm run dev       # optional: pass --host flag expose the server to the local network\n+npm run dev       # optional: pass --host flag to expose the server to the local network\n ```\n+\n Bundle the project for production:\n+\n ```bash\n npm run build\n ```\n-## Testing\n-Before submitting a pull request, ensure everything passes locally:\n+\n+## Development Guidelines\n+\n+### Branching Strategy\n+\n+- `main` contains the latest stable development code.\n+- Create a new branch for each feature or bug fix. Use descriptive names, e.g., `feat/new-feature-name` or `fix/issue-description`.\n+\n+### Testing\n+\n+Ensure all checks pass before submitting a pull request by running:\n \n ```bash\n-# Run all unit tests\n npm run test\n \n-# Run linting\n-npx eslint .\n-\n-# Run typechecking\n-npx astro check\n ```\n-## CI Checks\n \n-All pull requests must pass the [GitHub Actions](https://github.com/jrwnnnn/rekord/actions/workflows/main.yml) before they can be merged. The CI runs the following checks:\n-\n-- Linting\n-- Typechecking\n-- Build\n-- CodeQL analysis\n-  \n-## Code Style\n+### Code Style\n \n This project enforces a consistent code style using [Prettier](https://prettier.io/). \n \n A `.prettierrc` file is included in the project root to configure Prettier. Please ensure that your code adheres to the formatting rules defined in this file before submitting a pull request.\n \n-## Commit Messages\n+### Commit Messages\n+\n+Follow the [Conventional Commits v1.0.0](https://www.conventionalcommits.org/en/v1.0.0/) specification.\n \n-Follow the [Conventional Commits v1.0.0](https://www.conventionalcommits.org/en/v1.0.0/) specification.\n\\ No newline at end of file\n+## Submitting a Pull Request\n+1. Push your branch to your fork.\n+2. Open a Pull Request against the main branch.\n+3. Provide a concise summary of changes, problem analysis, and testing steps in the PR description.\n+4. Ensure continuous integration checks pass.\n+5. Address reviewer feedback promptly."
+      }
+    ]
+  },
+  {
+    "sha": "a7bdf16276b0cf288946de257453abc26aefa175",
+    "node_id": "C_kwDORz-DOdoAKGE3YmRmMTYyNzZiMGNmMjg4OTQ2ZGUyNTc0NTNhYmMyNmFlZmExNzU",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-09-23T05:48:40Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-09-23T05:48:40Z"
+      },
+      "message": "docs: Add CODE_OF_CONDUCT.md [skip ci]",
+      "tree": {
+        "sha": "ddd0c09cdb965272fc565297d3d7b99154d00f00",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/ddd0c09cdb965272fc565297d3d7b99154d00f00"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/a7bdf16276b0cf288946de257453abc26aefa175",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQNUxJpUiQM5gvfdwtMQNHslhMy7A6aJPayinSuCXAJUo/7fRIW/6ZJbqeNvcvzzd38\n859GhYjawtBbgDeT6NUQE=\n-----END SSH SIGNATURE-----",
+        "payload": "tree ddd0c09cdb965272fc565297d3d7b99154d00f00\nparent 35296f94cb13db56dac4b6f0e3a13785eb8844a9\nauthor Mark Jerwin <git@jrwnnnn.me> 1790142520 +0800\ncommitter Mark Jerwin <git@jrwnnnn.me> 1790142520 +0800\n\ndocs: Add CODE_OF_CONDUCT.md [skip ci]\n",
+        "verified_at": "2026-09-23T05:48:45Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/a7bdf16276b0cf288946de257453abc26aefa175",
+    "html_url": "https://github.com/jrwnnnn/rekord/commit/a7bdf16276b0cf288946de257453abc26aefa175",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/a7bdf16276b0cf288946de257453abc26aefa175/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "35296f94cb13db56dac4b6f0e3a13785eb8844a9",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/35296f94cb13db56dac4b6f0e3a13785eb8844a9",
+        "html_url": "https://github.com/jrwnnnn/rekord/commit/35296f94cb13db56dac4b6f0e3a13785eb8844a9"
+      }
+    ],
+    "stats": {
+      "total": 85,
+      "additions": 85,
+      "deletions": 0
+    },
+    "files": [
+      {
+        "sha": "e99b1eb608cb021b26b82977b038f7f7436387ff",
+        "filename": "CODE_OF_CONDUCT.md",
+        "status": "added",
+        "additions": 85,
+        "deletions": 0,
+        "changes": 85,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/a7bdf16276b0cf288946de257453abc26aefa175/CODE_OF_CONDUCT.md",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/a7bdf16276b0cf288946de257453abc26aefa175/CODE_OF_CONDUCT.md",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/CODE_OF_CONDUCT.md?ref=a7bdf16276b0cf288946de257453abc26aefa175",
+        "patch": "@@ -0,0 +1,85 @@\n+\n+# Contributor Covenant Code of Conduct\n+\n+## Our Pledge\n+\n+We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.\n+\n+We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.\n+\n+## Our Standards\n+\n+Examples of behavior that contributes to a positive environment for our community include:\n+\n+* Demonstrating empathy and kindness toward other people\n+* Being respectful of differing opinions, viewpoints, and experiences\n+* Giving and gracefully accepting constructive feedback\n+* Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience\n+* Focusing on what is best not just for us as individuals, but for the overall community\n+\n+Examples of unacceptable behavior include:\n+\n+* The use of sexualized language or imagery, and sexual attention or advances of any kind\n+* Trolling, insulting or derogatory comments, and personal or political attacks\n+* Public or private harassment\n+* Publishing others' private information, such as a physical or email address, without their explicit permission\n+* Other conduct which could reasonably be considered inappropriate in a professional setting\n+\n+## Enforcement Responsibilities\n+\n+Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.\n+\n+Community leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.\n+\n+## Scope\n+\n+This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event.\n+\n+## Enforcement\n+\n+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at [ping@jrwnnnn.me](mailto:ping@jrwnnnn.me). All complaints will be reviewed and investigated promptly and fairly.\n+\n+All community leaders are obligated to respect the privacy and security of the reporter of any incident.\n+\n+## Enforcement Guidelines\n+\n+Community leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:\n+\n+### 1. Correction\n+\n+**Community Impact**: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.\n+\n+**Consequence**: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.\n+\n+### 2. Warning\n+\n+**Community Impact**: A violation through a single incident or series of actions.\n+\n+**Consequence**: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.\n+\n+### 3. Temporary Ban\n+\n+**Community Impact**: A serious violation of community standards, including sustained inappropriate behavior.\n+\n+**Consequence**: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.\n+\n+### 4. Permanent Ban\n+\n+**Community Impact**: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.\n+\n+**Consequence**: A permanent ban from any sort of public interaction within the community.\n+\n+## Attribution\n+\n+This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 2.1, available at [https://www.contributor-covenant.org/version/2/1/code_of_conduct.html][v2.1].\n+\n+Community Impact Guidelines were inspired by [Mozilla's code of conduct enforcement ladder][Mozilla CoC].\n+\n+For answers to common questions about this code of conduct, see the FAQ at [https://www.contributor-covenant.org/faq][FAQ]. Translations are available at [https://www.contributor-covenant.org/translations][translations].\n+\n+[homepage]: https://www.contributor-covenant.org\n+[v2.1]: https://www.contributor-covenant.org/version/2/1/code_of_conduct.html\n+[Mozilla CoC]: https://github.com/mozilla/diversity\n+[FAQ]: https://www.contributor-covenant.org/faq\n+[translations]: https://www.contributor-covenant.org/translations\n+"
+      }
+    ]
+  },
+  {
+    "sha": "35296f94cb13db56dac4b6f0e3a13785eb8844a9",
+    "node_id": "C_kwDORz-DOdoAKDM1Mjk2Zjk0Y2IxM2RiNTZkYWM0YjZmMGUzYTEzNzg1ZWI4ODQ0YTk",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-09-23T05:20:33Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-09-23T05:20:33Z"
+      },
+      "message": "docs: Update README.md",
+      "tree": {
+        "sha": "ee3d5e38c6e7428a5afdba95cc7f442c423f716d",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/ee3d5e38c6e7428a5afdba95cc7f442c423f716d"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/35296f94cb13db56dac4b6f0e3a13785eb8844a9",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQKm2NauLXAky98xKm4nu52hF3LiJj1kqT2EVbV7v+ClDXRxznnnRALuCRj9TLWfXSg\nuEqgB7dORP8SFMjvBagAg=\n-----END SSH SIGNATURE-----",
+        "payload": "tree ee3d5e38c6e7428a5afdba95cc7f442c423f716d\nparent 0bd72a72267dda3a0124ac5a09d8b94e9812d59e\nauthor Mark Jerwin <git@jrwnnnn.me> 1790140833 +0800\ncommitter Mark Jerwin <git@jrwnnnn.me> 1790140833 +0800\n\ndocs: Update README.md\n",
+        "verified_at": "2026-09-23T05:21:04Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/35296f94cb13db56dac4b6f0e3a13785eb8844a9",
+    "html_url": "https://github.com/jrwnnnn/rekord/commit/35296f94cb13db56dac4b6f0e3a13785eb8844a9",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/35296f94cb13db56dac4b6f0e3a13785eb8844a9/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0bd72a72267dda3a0124ac5a09d8b94e9812d59e",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/0bd72a72267dda3a0124ac5a09d8b94e9812d59e",
+        "html_url": "https://github.com/jrwnnnn/rekord/commit/0bd72a72267dda3a0124ac5a09d8b94e9812d59e"
+      }
+    ],
+    "stats": {
+      "total": 39,
+      "additions": 24,
+      "deletions": 15
+    },
+    "files": [
+      {
+        "sha": "cdd379919c1fd6fb609086d8542d7461f6c14cee",
+        "filename": "README.md",
+        "status": "modified",
+        "additions": 24,
+        "deletions": 15,
+        "changes": 39,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/35296f94cb13db56dac4b6f0e3a13785eb8844a9/README.md",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/35296f94cb13db56dac4b6f0e3a13785eb8844a9/README.md",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/README.md?ref=35296f94cb13db56dac4b6f0e3a13785eb8844a9",
+        "patch": "@@ -1,25 +1,38 @@\n <h1 align=\"center\">Rekord</h1>\n \n-<p align=\"center\"><i>Turn one CSV into a full class set of SF10 forms in minutes.</i></p>\n+<p align=\"center\"><i>CSV to print-ready DepEd school forms.</i></p>\n \n <div align=\"center\">\n-   <!-- FIND PREMADE BADGES HERE: https://github.com/Ileriayo/markdown-badges -->\n    <a href=\"https://astro.build\"><img src=\"https://img.shields.io/badge/astro-%232C2052.svg?style=for-the-badge&logo=astro&logoColor=white\"></a>\n    <a href=\"https://www.typescriptlang.org/\"><img src=\"https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white\"></a>\n-   <a href=\"./LICENSE\"><img src=\"https://img.shields.io/github/license/jrwnnnn/scaffold?style=for-the-badge\"></a>\n-   <a href=\"https://github.com/jrwnnnn/scaffold/stargazers\"><img src=\"https://img.shields.io/github/stars/jrwnnnn/scaffold?style=for-the-badge\"></a>\n+   <a href=\"https://tailwindcss.com/\"><img src=\"https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwindcss&logoColor=white\"></a>\n+   <a href=\"https://github.com/jrwnnnn/rekord/stargazers\"><img src=\"https://img.shields.io/github/stars/jrwnnnn/rekord?style=for-the-badge\"></a>\n+   <a href=\"https://github.com/jrwnnnn/rekord/actions\"><img src=\"https://img.shields.io/github/actions/workflow/status/jrwnnnn/rekord/main.yml?style=for-the-badge\"></a>\n </div>\n \n <br>\n \n-Rekord is a practical tool for schools that need to produce many SF10 forms quickly and consistently. Instead of manually filling each PDF one by one, you can prepare your class data once in an Excel file, export to CSV, upload it, and let Rekord generate a ready-to-print output for the entire section.\n+Rekord is a web app that automates the generation of DepEd School Form 9 and 10 (SF9/SF10) PDFs. It turns a single CSV into a zip file of print-ready PDFs in a matter of seconds.\n \n-It is designed to reduce repetitive clerical work, minimize encoding mistakes, and make reporting periods less stressful for teachers alike.\n+Parsing and PDF/ZIP generation occur entirely in the browser. Generated files are downloaded directly to your device. No student records, LRNs, names, grades, or documents are ever uploaded, transmitted, or saved to any external server.\n+\n+Rekord is built with [Astro](https://astro.build) and [TypeScript](https://www.typescriptlang.org/).\n \n > [!NOTE]  \n-> Development for grade levels other than Grade 4 is currently on hold. Following DepEd's transition to a trimestral system, a new SF10 layout is expected for the upcoming school year. I will update this project once the new layout is released and I have the time to work on it. :)\n+> SF10 support is temporarily paused pending DepEd's new trimestral layouts.\n+\n+## Features\n+\n+- Extremely fast bulk generation of editable SF9 PDFs\n+- Automatic school form type detection\n+- DepEd-standard typography\n+- Option to flatten the generated PDFs\n+- Direct ZIP archive download\n+- Private by design\n \n-![Preview](.github/README/Screenshot%202026-04-16%20at%2013-10-25%20Rekord%20BETA.png)\n+## Disclaimer\n+\n+Rekord is an independent, open-source project. It is not affiliated with, authorized, maintained, sponsored, or endorsed by the Department of Education (DepEd) or any government agency of the Republic of the Philippines.\n \n ## Support\n \n@@ -28,18 +41,14 @@ If you run into any issues, please [open an issue](https://github.com/jrwnnnn/re\n ## License\n \n Distributed under the MIT License.\n-Copyright (c) 2026 Mark Jerwin(@jrwnnnn). All rights reserved.\n+Copyright (c) 2026 Mark Jerwin (@jrwnnnn)\n \n See the [LICENSE](LICENSE) file for full details.\n \n-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n-\n-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n-\n ## Contributors\n \n-<a href=\"https://github.com/jrwnnnn/scaffold/graphs/contributors\">\n-  <img src=\"https://contrib.rocks/image?repo=jrwnnnn/scaffold\" />\n+<a href=\"https://github.com/jrwnnnn/rekord/graphs/contributors\">\n+  <img src=\"https://contrib.rocks/image?repo=jrwnnnn/rekord\" />\n </a>\n \n <br>"
+      }
+    ]
+  },
+  {
     "sha": "3d4202bd674e6014176d91e1a59b6229bef81e82",
     "node_id": "C_kwDORz-DOdoAKDNkNDIwMmJkNjc0ZTYwMTQxNzZkOTFlMWE1OWI2MjI5YmVmODFlODI",
     "commit": {
@@ -407,309 +710,6 @@
         "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/src%2Futils%2FstyleField.ts",
         "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Futils%2FstyleField.ts?ref=43a3b3356ebdcc3890d60b263692978932f6117a",
         "patch": "@@ -7,22 +7,41 @@ const alignmentMap = {\n \tright: TextAlignment.Right,\n };\n \n-export type FontName = \"arial-bold\" | \"arial-narrow-bold\";\n+export type FontName =\n+\t| \"arial-bold\"\n+\t| \"arial-narrow-bold\"\n+\t| \"bookman-old-style\"\n+\t| \"bookman-old-style-bold\";\n+\n let arialBoldBytes: ArrayBuffer | null = null;\n let arialNarrowBoldBytes: ArrayBuffer | null = null;\n+let bookmanOldStyleBytes: ArrayBuffer | null = null;\n+let bookmanOldStyleBoldBytes: ArrayBuffer | null = null;\n+\n let fontMap: Record<FontName, PDFFont>;\n \n export async function initFonts(pdfDoc: PDFDocument): Promise<void> {\n \tif (!arialBoldBytes || !arialNarrowBoldBytes) {\n \t\t[arialBoldBytes, arialNarrowBoldBytes] = await Promise.all([\n-\t\t\tfetch(\"/fonts/Arial-Bold.ttf\").then((r) => r.arrayBuffer()),\n-\t\t\tfetch(\"/fonts/Arial-Narrow-Bold.ttf\").then((r) => r.arrayBuffer()),\n+\t\t\tfetch(\"/fonts/arial/bold.ttf\").then((r) => r.arrayBuffer()),\n+\t\t\tfetch(\"/fonts/arial/narrow-bold.ttf\").then((r) => r.arrayBuffer()),\n+\t\t]);\n+\t}\n+\n+\tif (!bookmanOldStyleBytes || !bookmanOldStyleBoldBytes) {\n+\t\t[bookmanOldStyleBytes, bookmanOldStyleBoldBytes] = await Promise.all([\n+\t\t\tfetch(\"/fonts/bookman-old-style/regular.ttf\").then((r) =>\n+\t\t\t\tr.arrayBuffer(),\n+\t\t\t),\n+\t\t\tfetch(\"/fonts/bookman-old-style/bold.ttf\").then((r) => r.arrayBuffer()),\n \t\t]);\n \t}\n \n \tfontMap = {\n \t\t\"arial-bold\": await pdfDoc.embedFont(arialBoldBytes),\n \t\t\"arial-narrow-bold\": await pdfDoc.embedFont(arialNarrowBoldBytes),\n+\t\t\"bookman-old-style\": await pdfDoc.embedFont(bookmanOldStyleBytes),\n+\t\t\"bookman-old-style-bold\": await pdfDoc.embedFont(bookmanOldStyleBoldBytes),\n \t};\n }\n "
-      }
-    ]
-  },
-  {
-    "sha": "54e76bf47fcf905c47182cf6a976679557a7221f",
-    "node_id": "C_kwDORz-DOdoAKDU0ZTc2YmY0N2ZjZjkwNWM0NzE4MmNmNmE5NzY2Nzk1NTdhNzIyMWY",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-09-19T10:51:40Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-09-19T10:51:40Z"
-      },
-      "message": "chore: Run npm audit fix (#89)",
-      "tree": {
-        "sha": "372985dd9a90b9a1714f353b6f16783c9c982a6b",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/372985dd9a90b9a1714f353b6f16783c9c982a6b"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/54e76bf47fcf905c47182cf6a976679557a7221f",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqrmk8CRC1aQ7uu5UhlAAAr5oQAGaGNyrPFWdpDxUgVVpQlvZj\nMhVPsXE/2mxGov8yXyFS0HbHuhSXvl5o1MAtJBCwWJwlQX/l1G7jdKgPnL4xKgZ2\nzEIgNkLy3n2zNh2B2/U1fq0cyEI1gnJWwZAnKc9zUbOqAm+1zvTdShK1YA7oeVaM\nfMVLxeTzHP1X3X/GJS6GP3IgbUdfgnEhO8bev+Jxaerd+z9YCIbG/6PakMZntxXQ\nTcWTDSm9fi7wAcPk0quNp19Oo2m0ENUWuf5eE7kTFsLvzECkZoqwgrgigQhMRR0w\ntq1XEWD8HM8jrINXekFoOjSpVSWuWTTDDHKCh892Rr6c4E723lEAQ4nXvBJrB3fS\naeHcxv5GNBX1WjbF1ZZhqHbywk9qZ3LpdSUii2osISB4lTlWRK8gzaNUCpdFWZRT\ntD1HbN2fsCcmS9Zc2+RBgQvJUyRLsKq3NoQe9QKIINkTnwcgZ+ugnHD6wFaq5bbF\nVkNIEi5GGIKaDs4ODZlGpTQRG0fg/UB72YMpft3xzSI1sZSldGPE0LsUvGcBYUnV\nSdPR+hsigNsGQ2THueMY7acJUsm9dYALK3AIskNWh8lkaWi8FYhdkxSXED0dOLlf\nDp7QBXjS8F93z74pFhED7zPJl9A635sh3XmrNDbnZ1unLgc0AJ54uMTCr6gyPOqV\nPRYtjrPMQz3HTbH0QosZ\n=wrMz\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 372985dd9a90b9a1714f353b6f16783c9c982a6b\nparent c9b58b8a1ac779c788fbf110ffddffa04ec0096b\nauthor Mark Jerwin <git@jrwnnnn.me> 1789815100 +0800\ncommitter GitHub <noreply@github.com> 1789815100 +0800\n\nchore: Run npm audit fix (#89)",
-        "verified_at": "2026-09-19T10:51:40Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/54e76bf47fcf905c47182cf6a976679557a7221f",
-    "html_url": "https://github.com/jrwnnnn/rekord/commit/54e76bf47fcf905c47182cf6a976679557a7221f",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/54e76bf47fcf905c47182cf6a976679557a7221f/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "c9b58b8a1ac779c788fbf110ffddffa04ec0096b",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/c9b58b8a1ac779c788fbf110ffddffa04ec0096b",
-        "html_url": "https://github.com/jrwnnnn/rekord/commit/c9b58b8a1ac779c788fbf110ffddffa04ec0096b"
-      }
-    ],
-    "stats": {
-      "total": 76,
-      "additions": 66,
-      "deletions": 10
-    },
-    "files": [
-      {
-        "sha": "1879365e84f775e2642907ec36a35b882851f281",
-        "filename": "package-lock.json",
-        "status": "modified",
-        "additions": 66,
-        "deletions": 10,
-        "changes": 76,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/54e76bf47fcf905c47182cf6a976679557a7221f/package-lock.json",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/54e76bf47fcf905c47182cf6a976679557a7221f/package-lock.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/package-lock.json?ref=54e76bf47fcf905c47182cf6a976679557a7221f",
-        "patch": "@@ -10,28 +10,28 @@\n       \"dependencies\": {\n         \"@astrojs/cloudflare\": \"^14.3.2\",\n         \"@pdf-lib/fontkit\": \"^1.1.1\",\n-        \"@tailwindcss/vite\": \"^4.3.3\",\n         \"astro\": \"^7.3.3\",\n         \"file-saver\": \"^2.0.5\",\n         \"jszip\": \"^3.10.1\",\n         \"papaparse\": \"^5.5.3\",\n-        \"pdf-lib\": \"^1.17.1\",\n-        \"tailwindcss\": \"^4.1.18\",\n-        \"vite\": \"^8.3.0\",\n-        \"wrangler\": \"^4.128.0\"\n+        \"pdf-lib\": \"^1.17.1\"\n       },\n       \"devDependencies\": {\n         \"@astrojs/check\": \"^0.9.10\",\n         \"@eslint/js\": \"^10.0.1\",\n+        \"@tailwindcss/vite\": \"^4.3.3\",\n         \"@types/file-saver\": \"^2.0.7\",\n         \"@types/papaparse\": \"^5.5.2\",\n         \"eslint\": \"^10.9.1\",\n         \"eslint-plugin-astro\": \"^1.6.0\",\n         \"prettier\": \"^3.8.1\",\n         \"prettier-plugin-astro\": \"^0.14.1\",\n         \"prettier-plugin-tailwindcss\": \"^0.8.1\",\n+        \"tailwindcss\": \"^4.1.18\",\n         \"typescript\": \"^5.9.3\",\n-        \"typescript-eslint\": \"^8.69.0\"\n+        \"typescript-eslint\": \"^8.69.0\",\n+        \"vite\": \"^8.3.0\",\n+        \"wrangler\": \"^4.128.0\"\n       }\n     },\n     \"node_modules/@astrojs/astro2tsx\": {\n@@ -1048,25 +1048,43 @@\n       }\n     },\n     \"node_modules/@humanfs/core\": {\n-      \"version\": \"0.19.1\",\n+      \"version\": \"0.19.2\",\n+      \"resolved\": \"https://registry.npmjs.org/@humanfs/core/-/core-0.19.2.tgz\",\n+      \"integrity\": \"sha512-UhXNm+CFMWcbChXywFwkmhqjs3PRCmcSa/hfBgLIb7oQ5HNb1wS0icWsGtSAUNgefHeI+eBrA8I1fxmbHsGdvA==\",\n       \"dev\": true,\n       \"license\": \"Apache-2.0\",\n+      \"dependencies\": {\n+        \"@humanfs/types\": \"^0.15.0\"\n+      },\n       \"engines\": {\n         \"node\": \">=18.18.0\"\n       }\n     },\n     \"node_modules/@humanfs/node\": {\n-      \"version\": \"0.16.7\",\n+      \"version\": \"0.16.8\",\n+      \"resolved\": \"https://registry.npmjs.org/@humanfs/node/-/node-0.16.8.tgz\",\n+      \"integrity\": \"sha512-gE1eQNZ3R++kTzFUpdGlpmy8kDZD/MLyHqDwqjkVQI0JMdI1D51sy1H958PNXYkM2rAac7e5/CnIKZrHtPh3BQ==\",\n       \"dev\": true,\n       \"license\": \"Apache-2.0\",\n       \"dependencies\": {\n-        \"@humanfs/core\": \"^0.19.1\",\n+        \"@humanfs/core\": \"^0.19.2\",\n+        \"@humanfs/types\": \"^0.15.0\",\n         \"@humanwhocodes/retry\": \"^0.4.0\"\n       },\n       \"engines\": {\n         \"node\": \">=18.18.0\"\n       }\n     },\n+    \"node_modules/@humanfs/types\": {\n+      \"version\": \"0.15.0\",\n+      \"resolved\": \"https://registry.npmjs.org/@humanfs/types/-/types-0.15.0.tgz\",\n+      \"integrity\": \"sha512-ZZ1w0aoQkwuUuC7Yf+7sdeaNfqQiiLcSRbfI08oAxqLtpXQr9AIVX7Ay7HLDuiLYAaFPu8oBYNq/QIi9URHJ3Q==\",\n+      \"dev\": true,\n+      \"license\": \"Apache-2.0\",\n+      \"engines\": {\n+        \"node\": \">=18.18.0\"\n+      }\n+    },\n     \"node_modules/@humanwhocodes/module-importer\": {\n       \"version\": \"1.0.1\",\n       \"dev\": true,\n@@ -1643,6 +1661,7 @@\n       \"version\": \"0.3.13\",\n       \"resolved\": \"https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz\",\n       \"integrity\": \"sha512-2kkt/7niJ6MgEPxF0bYdQ6etZaA+fQvDcLKckhy1yIQOzaoKjBBjSj63/aLVjYE3qhRt5dvM+uUyfCg6UKCBbA==\",\n+      \"dev\": true,\n       \"license\": \"MIT\",\n       \"dependencies\": {\n         \"@jridgewell/sourcemap-codec\": \"^1.5.0\",\n@@ -1653,6 +1672,7 @@\n       \"version\": \"2.3.5\",\n       \"resolved\": \"https://registry.npmjs.org/@jridgewell/remapping/-/remapping-2.3.5.tgz\",\n       \"integrity\": \"sha512-LI9u/+laYG4Ds1TDKSJW2YPrIlcVYOwi2fUC6xB43lueCjgxV4lffOCZCtYFiH6TNOX+tQKXx97T4IKHbhyHEQ==\",\n+      \"dev\": true,\n       \"license\": \"MIT\",\n       \"dependencies\": {\n         \"@jridgewell/gen-mapping\": \"^0.3.5\",\n@@ -1676,6 +1696,7 @@\n       \"version\": \"0.3.31\",\n       \"resolved\": \"https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz\",\n       \"integrity\": \"sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==\",\n+      \"dev\": true,\n       \"license\": \"MIT\",\n       \"dependencies\": {\n         \"@jridgewell/resolve-uri\": \"^3.1.0\",\n@@ -2200,6 +2221,7 @@\n       \"version\": \"4.3.3\",\n       \"resolved\": \"https://registry.npmjs.org/@tailwindcss/node/-/node-4.3.3.tgz\",\n       \"integrity\": \"sha512-/T8IKEsf9VTU6tLjgC7+sv2mOPtQxzE2jMw7u4Tt40Tx+QSZxpzh95/H6cMKoja9XuW7iMdLJYBB0o9G1CaAgg==\",\n+      \"dev\": true,\n       \"license\": \"MIT\",\n       \"dependencies\": {\n         \"@jridgewell/remapping\": \"^2.3.5\",\n@@ -2215,6 +2237,7 @@\n       \"version\": \"4.3.3\",\n       \"resolved\": \"https://registry.npmjs.org/@tailwindcss/oxide/-/oxide-4.3.3.tgz\",\n       \"integrity\": \"sha512-krXjAikiaFSPaK/FkAQT5UTx3VormQaiZ5hBFlJZ9UFQGB/rwg1MZIhHAG9smMQRTdyJxP6Qt5MwMtdyU5FWrA==\",\n+      \"dev\": true,\n       \"license\": \"MIT\",\n       \"engines\": {\n         \"node\": \">= 20\"\n@@ -2241,6 +2264,7 @@\n       \"cpu\": [\n         \"arm64\"\n       ],\n+      \"dev\": true,\n       \"license\": \"MIT\",\n       \"optional\": true,\n       \"os\": [\n@@ -2257,6 +2281,7 @@\n       \"cpu\": [\n         \"arm64\"\n       ],\n+      \"dev\": true,\n       \"license\": \"MIT\",\n       \"optional\": true,\n       \"os\": [\n@@ -2273,6 +2298,7 @@\n       \"cpu\": [\n         \"x64\"\n       ],\n+      \"dev\": true,\n       \"license\": \"MIT\",\n       \"optional\": true,\n       \"os\": [\n@@ -2289,6 +2315,7 @@\n       \"cpu\": [\n         \"x64\"\n       ],\n+      \"dev\": true,\n       \"license\": \"MIT\",\n       \"optional\": true,\n       \"os\": [\n@@ -2305,6 +2332,7 @@\n       \"cpu\": [\n         \"arm\"\n       ],\n+      \"dev\": true,\n       \"license\": \"MIT\",\n       \"optional\": true,\n       \"os\": [\n@@ -2321,6 +2349,7 @@\n       \"cpu\": [\n         \"arm64\"\n       ],\n+      \"dev\": true,\n       \"libc\": [\n         \"glibc\"\n       ],\n@@ -2340,6 +2369,7 @@\n       \"cpu\": [\n         \"arm64\"\n       ],\n+      \"dev\": true,\n       \"libc\": [\n         \"musl\"\n       ],\n@@ -2359,6 +2389,7 @@\n       \"cpu\": [\n         \"x64\"\n       ],\n+      \"dev\": true,\n       \"libc\": [\n         \"glibc\"\n       ],\n@@ -2378,6 +2409,7 @@\n       \"cpu\": [\n         \"x64\"\n       ],\n+      \"dev\": true,\n       \"libc\": [\n         \"musl\"\n       ],\n@@ -2405,6 +2437,7 @@\n       \"cpu\": [\n         \"wasm32\"\n       ],\n+      \"dev\": true,\n       \"license\": \"MIT\",\n       \"optional\": true,\n       \"dependencies\": {\n@@ -2426,6 +2459,7 @@\n       \"cpu\": [\n         \"arm64\"\n       ],\n+      \"dev\": true,\n       \"license\": \"MIT\",\n       \"optional\": true,\n       \"os\": [\n@@ -2442,6 +2476,7 @@\n       \"cpu\": [\n         \"x64\"\n       ],\n+      \"dev\": true,\n       \"license\": \"MIT\",\n       \"optional\": true,\n       \"os\": [\n@@ -2455,6 +2490,7 @@\n       \"version\": \"4.3.3\",\n       \"resolved\": \"https://registry.npmjs.org/@tailwindcss/vite/-/vite-4.3.3.tgz\",\n       \"integrity\": \"sha512-yYU8cogLeSh/ms2jh8Fj7jaba/EWa7Ja6GoUqYZaraEuCI5YS6ms6ObZgjjedm+jm6XZjdNRWBpPP6Z86oOxcw==\",\n+      \"dev\": true,\n       \"license\": \"MIT\",\n       \"dependencies\": {\n         \"@tailwindcss/node\": \"4.3.3\",\n@@ -4169,6 +4205,7 @@\n       \"version\": \"5.25.1\",\n       \"resolved\": \"https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.25.1.tgz\",\n       \"integrity\": \"sha512-nGXts5znJzmWPu+mIE9izCOzdg63oJca2mDzGWWTth7sr4aCToKcoyFVBQwN75Ij5Pf6p510EwkTqViTRzDV+w==\",\n+      \"dev\": true,\n       \"license\": \"MIT\",\n       \"dependencies\": {\n         \"graceful-fs\": \"^4.2.4\",\n@@ -4710,6 +4747,7 @@\n       \"version\": \"4.2.11\",\n       \"resolved\": \"https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz\",\n       \"integrity\": \"sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==\",\n+      \"dev\": true,\n       \"license\": \"ISC\"\n     },\n     \"node_modules/h3\": {\n@@ -4893,6 +4931,7 @@\n       \"version\": \"2.7.0\",\n       \"resolved\": \"https://registry.npmjs.org/jiti/-/jiti-2.7.0.tgz\",\n       \"integrity\": \"sha512-AC/7JofJvZGrrneWNaEnJeOLUx+JlGt7tNa0wZiRPT4MY1wmfKjt2+6O2p2uz2+skll8OZZmJMNqeke7kKbNgQ==\",\n+      \"devOptional\": true,\n       \"license\": \"MIT\",\n       \"bin\": {\n         \"jiti\": \"lib/jiti-cli.mjs\"\n@@ -4996,6 +5035,7 @@\n       \"version\": \"1.32.0\",\n       \"resolved\": \"https://registry.npmjs.org/lightningcss/-/lightningcss-1.32.0.tgz\",\n       \"integrity\": \"sha512-NXYBzinNrblfraPGyrbPoD19C1h9lfI/1mzgWYvXUTe414Gz/X1FD2XBZSZM7rRTrMA8JL3OtAaGifrIKhQ5yQ==\",\n+      \"dev\": true,\n       \"license\": \"MPL-2.0\",\n       \"dependencies\": {\n         \"detect-libc\": \"^2.0.3\"\n@@ -5028,6 +5068,7 @@\n       \"cpu\": [\n         \"arm64\"\n       ],\n+      \"dev\": true,\n       \"license\": \"MPL-2.0\",\n       \"optional\": true,\n       \"os\": [\n@@ -5048,6 +5089,7 @@\n       \"cpu\": [\n         \"arm64\"\n       ],\n+      \"dev\": true,\n       \"license\": \"MPL-2.0\",\n       \"optional\": true,\n       \"os\": [\n@@ -5068,6 +5110,7 @@\n       \"cpu\": [\n         \"x64\"\n       ],\n+      \"dev\": true,\n       \"license\": \"MPL-2.0\",\n       \"optional\": true,\n       \"os\": [\n@@ -5088,6 +5131,7 @@\n       \"cpu\": [\n         \"x64\"\n       ],\n+      \"dev\": true,\n       \"license\": \"MPL-2.0\",\n       \"optional\": true,\n       \"os\": [\n@@ -5108,6 +5152,7 @@\n       \"cpu\": [\n         \"arm\"\n       ],\n+      \"dev\": true,\n       \"license\": \"MPL-2.0\",\n       \"optional\": true,\n       \"os\": [\n@@ -5128,6 +5173,7 @@\n       \"cpu\": [\n         \"arm64\"\n       ],\n+      \"dev\": true,\n       \"libc\": [\n         \"glibc\"\n       ],\n@@ -5151,6 +5197,7 @@\n       \"cpu\": [\n         \"arm64\"\n       ],\n+      \"dev\": true,\n       \"libc\": [\n         \"musl\"\n       ],\n@@ -5174,6 +5221,7 @@\n       \"cpu\": [\n         \"x64\"\n       ],\n+      \"dev\": true,\n       \"libc\": [\n         \"glibc\"\n       ],\n@@ -5197,6 +5245,7 @@\n       \"cpu\": [\n         \"x64\"\n       ],\n+      \"dev\": true,\n       \"libc\": [\n         \"musl\"\n       ],\n@@ -5220,6 +5269,7 @@\n       \"cpu\": [\n         \"arm64\"\n       ],\n+      \"dev\": true,\n       \"license\": \"MPL-2.0\",\n       \"optional\": true,\n       \"os\": [\n@@ -5240,6 +5290,7 @@\n       \"cpu\": [\n         \"x64\"\n       ],\n+      \"dev\": true,\n       \"license\": \"MPL-2.0\",\n       \"optional\": true,\n       \"os\": [\n@@ -5280,6 +5331,7 @@\n       \"version\": \"0.30.21\",\n       \"resolved\": \"https://registry.npmjs.org/magic-string/-/magic-string-0.30.21.tgz\",\n       \"integrity\": \"sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==\",\n+      \"dev\": true,\n       \"license\": \"MIT\",\n       \"dependencies\": {\n         \"@jridgewell/sourcemap-codec\": \"^1.5.5\"\n@@ -5844,7 +5896,9 @@\n       }\n     },\n     \"node_modules/postcss-selector-parser\": {\n-      \"version\": \"7.1.1\",\n+      \"version\": \"7.1.6\",\n+      \"resolved\": \"https://registry.npmjs.org/postcss-selector-parser/-/postcss-selector-parser-7.1.6.tgz\",\n+      \"integrity\": \"sha512-7qASPzhKF2l2KLboRZux8CCTRMdGiV08vWmyKzPz22qZ7ZjQBOeY7rNzNoCLSUiftJ7HUq0GERHmxw/t0dCdMw==\",\n       \"dev\": true,\n       \"license\": \"MIT\",\n       \"dependencies\": {\n@@ -6503,12 +6557,14 @@\n       \"version\": \"4.3.3\",\n       \"resolved\": \"https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.3.3.tgz\",\n       \"integrity\": \"sha512-gOhV3P7ufE62QDGg1zVaTgCR+EtPv92k2nIhVcVKcLmxT1sUBsQGhnZj175j+MqRt4zLF7ic+sCYjfhxMxj7YQ==\",\n+      \"dev\": true,\n       \"license\": \"MIT\"\n     },\n     \"node_modules/tapable\": {\n       \"version\": \"2.3.3\",\n       \"resolved\": \"https://registry.npmjs.org/tapable/-/tapable-2.3.3.tgz\",\n       \"integrity\": \"sha512-uxc/zpqFg6x7C8vOE7lh6Lbda8eEL9zmVm/PLeTPBRhh1xCgdWaQ+J1CUieGpIfm2HdtsUpRv+HshiasBMcc6A==\",\n+      \"dev\": true,\n       \"license\": \"MIT\",\n       \"engines\": {\n         \"node\": \">=6\""
-      }
-    ]
-  },
-  {
-    "sha": "c9b58b8a1ac779c788fbf110ffddffa04ec0096b",
-    "node_id": "C_kwDORz-DOdoAKGM5YjU4YjhhMWFjNzc5Yzc4OGZiZjExMGZmZGRmZmEwNGVjMDA5NmI",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-09-19T10:42:27Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-09-19T10:42:27Z"
-      },
-      "message": "chore: Move Tailwind to devDependencies [skip ci] (#88)",
-      "tree": {
-        "sha": "1bf22b9fdc66d960d5078d8d6f25abc862865d0b",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/1bf22b9fdc66d960d5078d8d6f25abc862865d0b"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/c9b58b8a1ac779c788fbf110ffddffa04ec0096b",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqrmcTCRC1aQ7uu5UhlAAAQPEQAAz2zRuC0ivgE2FAQRIgQdaj\nzedUe4EmAySNP2YTQ4mh5bAwqe0BXpxAjr0sTa3ELYlCY7ns3Ssx35+F2iYlfGJy\nvebNjF0KANW2Xm02uf/KaAALPG8egbNr9HObbN+z0L+ecoLE/14Sv+6ncrI2Zf/t\nTL+c27IKsZcvoMVJ5zDv28xQbQyCYUXhqx7P/D45pXzjfAErtrasdvQuRKYZWkJU\nt0deWX5i7REt20K7ukV0dU5gXX7tEMcCM4r5LaugQn6QsZF7BLV04/On7LCblKjV\nS5YrC0RMDK1qKBeihtrb0I0j753iXSz9tOZiQZHJxWPUPQEA47cRnlca5+NgPk5i\nTUidmPSpNJ7fIwAdCtrPG8TqH36sIyzyTSjH+SOErjAcsB+wM2Bzxn1pqzF9WlE/\nf6n+kkIaUZLewBMqMvk63y6cZtveqgF3PVVttbGLwK9ZuZeSyj5ADNv9R/ab/KqF\n5WmF0dlr6TQbi+k4IO7G91e1ENmedy4xDuNIH3k2Fe1sBp7r2/v2r7dZZdfED3FI\nbZdQdaNrT3U4L+GsH9sY1V8Y/VklryouDo8tNNrslBkjB19PJNpXtqMZ+2coMs5d\nFzcHil4e5uylxtidF3kRserrngL4CIsBK4e0Wdzbd28O0RL8md2NIow97n8L9M53\nn8740HRRAcZjVrT2Kghp\n=Hvk3\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 1bf22b9fdc66d960d5078d8d6f25abc862865d0b\nparent 7d19c6325eaa0a101b3806356bdedea3abcb505f\nauthor Mark Jerwin <git@jrwnnnn.me> 1789814547 +0800\ncommitter GitHub <noreply@github.com> 1789814547 +0800\n\nchore: Move Tailwind to devDependencies [skip ci] (#88)",
-        "verified_at": "2026-09-19T10:42:28Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/c9b58b8a1ac779c788fbf110ffddffa04ec0096b",
-    "html_url": "https://github.com/jrwnnnn/rekord/commit/c9b58b8a1ac779c788fbf110ffddffa04ec0096b",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/c9b58b8a1ac779c788fbf110ffddffa04ec0096b/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "7d19c6325eaa0a101b3806356bdedea3abcb505f",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/7d19c6325eaa0a101b3806356bdedea3abcb505f",
-        "html_url": "https://github.com/jrwnnnn/rekord/commit/7d19c6325eaa0a101b3806356bdedea3abcb505f"
-      }
-    ],
-    "stats": {
-      "total": 4,
-      "additions": 2,
-      "deletions": 2
-    },
-    "files": [
-      {
-        "sha": "bc57f4bd4d6d3b3eaff8078931b3650ef42fb30f",
-        "filename": "package.json",
-        "status": "modified",
-        "additions": 2,
-        "deletions": 2,
-        "changes": 4,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/c9b58b8a1ac779c788fbf110ffddffa04ec0096b/package.json",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/c9b58b8a1ac779c788fbf110ffddffa04ec0096b/package.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/package.json?ref=c9b58b8a1ac779c788fbf110ffddffa04ec0096b",
-        "patch": "@@ -16,8 +16,7 @@\n     \"file-saver\": \"^2.0.5\",\n     \"jszip\": \"^3.10.1\",\n     \"papaparse\": \"^5.5.3\",\n-    \"pdf-lib\": \"^1.17.1\",\n-    \"tailwindcss\": \"^4.1.18\"\n+    \"pdf-lib\": \"^1.17.1\"\n   },\n   \"devDependencies\": {\n     \"@astrojs/check\": \"^0.9.10\",\n@@ -30,6 +29,7 @@\n     \"prettier\": \"^3.8.1\",\n     \"prettier-plugin-astro\": \"^0.14.1\",\n     \"prettier-plugin-tailwindcss\": \"^0.8.1\",\n+    \"tailwindcss\": \"^4.1.18\",\n     \"typescript\": \"^5.9.3\",\n     \"typescript-eslint\": \"^8.69.0\",\n     \"vite\": \"^8.3.0\","
-      }
-    ]
-  },
-  {
-    "sha": "7d19c6325eaa0a101b3806356bdedea3abcb505f",
-    "node_id": "C_kwDORz-DOdoAKDdkMTljNjMyNWVhYTBhMTAxYjM4MDYzNTZiZGVkZWEzYWJjYjUwNWY",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-09-19T10:35:15Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-09-19T10:35:15Z"
-      },
-      "message": "chore: Move Wrangler to devDependencies [skip ci] (#87)",
-      "tree": {
-        "sha": "b34c2b03b7c51b1f8649a97b62dbf3a4d7d97fee",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/b34c2b03b7c51b1f8649a97b62dbf3a4d7d97fee"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/7d19c6325eaa0a101b3806356bdedea3abcb505f",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqrmVjCRC1aQ7uu5UhlAAAkHEQAK6bE52SeLpoV+fKI/OMC/Sp\nAsz9CZAHvXL27R1xlVhLxtwXSMiBokFaYi7KmjZxEGiooKpTR7HgvHja+zh1sjOg\nbOmsOHG9eM0oVd6rko2C95GnesMGY8ORQbcG3DCxFCNZmnrOUhwMmUUpfbDB6xP8\n1cc1xkC2xUZmAlLlL4NVmWSW4X3EVmND7uOGjNa0TGqzCjxXSpYSIMHCv+G5vDbg\n/ejcsUlpxdHMkWQ0igGedCKe7w485CQksf+NerCbN3sriDmSM+IC9GlKqUBqIKOh\nBYLe8LS2BewcFnpUHa75fNw6NglLyt5m+zd3ieY7QMhOLNByzpg7luKVAq8tHDCB\nyrHhsEC9e0PjYrsb/cMFjmyrrMwLyZe2eVHQA9oWC1216mJGxzGDyzELbStIrrnu\nYaeSxYVV9r8jMMfM3xgg0xc0Pn/cSAITOD/lm3fOTG+ImlqUuyTFdSXcZ0QnHI+V\n2WSzABJaxsVuHM0z9Kw2ZHCbapuJs7JrLtTM2FuJk3n0PAPTvevOeoeA7XAyTd2V\n0brY8rD7YUaun3sxTxVY4gL/Vdwzg5kMKuh07LXD0JGMs7nKAwto0WOlpCiFbAY3\ndJnDXiKdzqgZWeE66ifXfqbC8Dxf9XoRzLke75ymnVboIiy2KPEhZkS8MjZ57vTk\nkx7LM1WUrZkav1JlJop+\n=tEWX\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree b34c2b03b7c51b1f8649a97b62dbf3a4d7d97fee\nparent 9b1e280676297415f202ef8434419d863a431c7d\nauthor Mark Jerwin <git@jrwnnnn.me> 1789814115 +0800\ncommitter GitHub <noreply@github.com> 1789814115 +0800\n\nchore: Move Wrangler to devDependencies [skip ci] (#87)",
-        "verified_at": "2026-09-19T10:35:16Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/7d19c6325eaa0a101b3806356bdedea3abcb505f",
-    "html_url": "https://github.com/jrwnnnn/rekord/commit/7d19c6325eaa0a101b3806356bdedea3abcb505f",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/7d19c6325eaa0a101b3806356bdedea3abcb505f/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "9b1e280676297415f202ef8434419d863a431c7d",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/9b1e280676297415f202ef8434419d863a431c7d",
-        "html_url": "https://github.com/jrwnnnn/rekord/commit/9b1e280676297415f202ef8434419d863a431c7d"
-      }
-    ],
-    "stats": {
-      "total": 6,
-      "additions": 3,
-      "deletions": 3
-    },
-    "files": [
-      {
-        "sha": "3b0eaf34e4f76bc75e967e2cda88bd0e941aa33f",
-        "filename": "package.json",
-        "status": "modified",
-        "additions": 3,
-        "deletions": 3,
-        "changes": 6,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/7d19c6325eaa0a101b3806356bdedea3abcb505f/package.json",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/7d19c6325eaa0a101b3806356bdedea3abcb505f/package.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/package.json?ref=7d19c6325eaa0a101b3806356bdedea3abcb505f",
-        "patch": "@@ -17,8 +17,7 @@\n     \"jszip\": \"^3.10.1\",\n     \"papaparse\": \"^5.5.3\",\n     \"pdf-lib\": \"^1.17.1\",\n-    \"tailwindcss\": \"^4.1.18\",\n-    \"wrangler\": \"^4.128.0\"\n+    \"tailwindcss\": \"^4.1.18\"\n   },\n   \"devDependencies\": {\n     \"@astrojs/check\": \"^0.9.10\",\n@@ -33,6 +32,7 @@\n     \"prettier-plugin-tailwindcss\": \"^0.8.1\",\n     \"typescript\": \"^5.9.3\",\n     \"typescript-eslint\": \"^8.69.0\",\n-    \"vite\": \"^8.3.0\"\n+    \"vite\": \"^8.3.0\",\n+    \"wrangler\": \"^4.128.0\"\n   }\n }"
       }
     ]
   }
