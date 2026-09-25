@@ -1,5 +1,130 @@
 [
   {
+    "sha": "dfaedf91d926c4c626dd839003db61f02af15b30",
+    "node_id": "C_kwDORz-DOdoAKGRmYWVkZjkxZDkyNmM0YzYyNmRkODM5MDAzZGI2MWYwMmFmMTViMzA",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-09-25T05:38:35Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-09-25T05:38:35Z"
+      },
+      "message": "refactor: Move PDF font loading into dedicated util (#107)",
+      "tree": {
+        "sha": "b3bdbbd82663afd255012c79fe2283be4a03bf06",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/b3bdbbd82663afd255012c79fe2283be4a03bf06"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/dfaedf91d926c4c626dd839003db61f02af15b30",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqtgjbCRC1aQ7uu5UhlAAARloQABUloxJMAx4EEKAYOEg0wouy\n+VwsWH8uNIEED77afGZ4zYmiExEZATOFNYwZbEHG66W314bEf913xqVJr5VeIH/5\nUlbIZRggytfiqx/MQGI1CstL7yE3HoVxPtBYBNNjRc75GWDH2J+rP/j4WvMC1yMb\nADMjTQBOzKljcUl4EaidF3CrxD3SC8IaIsK4iMLJ+r2K+0iQpmIrXizDAZ+LF5Je\nDB3mIhqTjsC6Ry6etaJNFjKT5JXmUyYKbEXxo8QlucSEo30Fs0p65LU6Dv1F6OFa\noDcqjE7/Ji/5hTF6xw+DKNxCbM/+n1881y+4Q3RfEJHkb6pT0jPlLpjhzpVuAuDs\neZd0lnR58WrOY8qu0dSIb0/zsSZuhRm4j89t0LUzMgqsUUPIEjN+rKZjKLHI6V5t\noswZciIcKzM3orpDI6xR60nchyCIpTxMy98XZ86cuS+sHAZykoemg5m7eyGqtHLN\nGCRkuTFTUnk50DCRZZBdnIvT7ztd9jJNeuIcpmBcIlnBUIB8lBFHCfAJbna/nK+J\nA4rQjgYkVDRYT2/Z91Caia7wYnc4d75V0qMtZDkktkVM7DTNw2OI9Yjb1jyPGdz7\nkJpzQMKrPHIW98Zmh+rEvzYgG2s2EMJObGnrKpIxjq7L17/okBIMaUZF6ZgLJNqn\nC/FxpZR4F+GjMr0P/UhJ\n=wzXL\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree b3bdbbd82663afd255012c79fe2283be4a03bf06\nparent 0671164fde9b020e0f9b695b8f8248854d873a5f\nauthor Mark Jerwin <git@jrwnnnn.me> 1790314715 +0800\ncommitter GitHub <noreply@github.com> 1790314715 +0800\n\nrefactor: Move PDF font loading into dedicated util (#107)",
+        "verified_at": "2026-09-25T05:38:36Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/dfaedf91d926c4c626dd839003db61f02af15b30",
+    "html_url": "https://github.com/jrwnnnn/rekord/commit/dfaedf91d926c4c626dd839003db61f02af15b30",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/dfaedf91d926c4c626dd839003db61f02af15b30/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0671164fde9b020e0f9b695b8f8248854d873a5f",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/0671164fde9b020e0f9b695b8f8248854d873a5f",
+        "html_url": "https://github.com/jrwnnnn/rekord/commit/0671164fde9b020e0f9b695b8f8248854d873a5f"
+      }
+    ],
+    "stats": {
+      "total": 88,
+      "additions": 47,
+      "deletions": 41
+    },
+    "files": [
+      {
+        "sha": "f1ec4345e0d70e87c3f014cbaa0a3c17b295d486",
+        "filename": "src/utils/createDocument.ts",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/dfaedf91d926c4c626dd839003db61f02af15b30/src%2Futils%2FcreateDocument.ts",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/dfaedf91d926c4c626dd839003db61f02af15b30/src%2Futils%2FcreateDocument.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Futils%2FcreateDocument.ts?ref=dfaedf91d926c4c626dd839003db61f02af15b30",
+        "patch": "@@ -1,4 +1,4 @@\n-import { initFonts } from \"@utils/styleField\";\n+import { initFonts } from \"@utils/fonts\";\n import { PDFDocument } from \"pdf-lib\";\n import fontkit from \"@pdf-lib/fontkit\";\n "
+      },
+      {
+        "sha": "531c3777d109f40c00d9cd63cbca87ff51cc5049",
+        "filename": "src/utils/fonts.ts",
+        "status": "added",
+        "additions": 43,
+        "deletions": 0,
+        "changes": 43,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/dfaedf91d926c4c626dd839003db61f02af15b30/src%2Futils%2Ffonts.ts",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/dfaedf91d926c4c626dd839003db61f02af15b30/src%2Futils%2Ffonts.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Futils%2Ffonts.ts?ref=dfaedf91d926c4c626dd839003db61f02af15b30",
+        "patch": "@@ -0,0 +1,43 @@\n+import type { PDFDocument, PDFFont } from \"pdf-lib\";\n+\n+export type FontName =\n+\t| \"arial-bold\"\n+\t| \"arial-narrow-bold\"\n+\t| \"bookman-old-style\"\n+\t| \"bookman-old-style-bold\";\n+\n+let arialBoldBytes: ArrayBuffer | null = null;\n+let arialNarrowBoldBytes: ArrayBuffer | null = null;\n+let bookmanOldStyleBytes: ArrayBuffer | null = null;\n+let bookmanOldStyleBoldBytes: ArrayBuffer | null = null;\n+\n+let fontMap: Record<FontName, PDFFont>;\n+\n+export async function initFonts(pdfDoc: PDFDocument): Promise<void> {\n+\tif (!arialBoldBytes || !arialNarrowBoldBytes) {\n+\t\t[arialBoldBytes, arialNarrowBoldBytes] = await Promise.all([\n+\t\t\tfetch(\"/fonts/arial/bold.ttf\").then((r) => r.arrayBuffer()),\n+\t\t\tfetch(\"/fonts/arial/narrow-bold.ttf\").then((r) => r.arrayBuffer()),\n+\t\t]);\n+\t}\n+\n+\tif (!bookmanOldStyleBytes || !bookmanOldStyleBoldBytes) {\n+\t\t[bookmanOldStyleBytes, bookmanOldStyleBoldBytes] = await Promise.all([\n+\t\t\tfetch(\"/fonts/bookman-old-style/regular.ttf\").then((r) =>\n+\t\t\t\tr.arrayBuffer(),\n+\t\t\t),\n+\t\t\tfetch(\"/fonts/bookman-old-style/bold.ttf\").then((r) => r.arrayBuffer()),\n+\t\t]);\n+\t}\n+\n+\tfontMap = {\n+\t\t\"arial-bold\": await pdfDoc.embedFont(arialBoldBytes),\n+\t\t\"arial-narrow-bold\": await pdfDoc.embedFont(arialNarrowBoldBytes),\n+\t\t\"bookman-old-style\": await pdfDoc.embedFont(bookmanOldStyleBytes),\n+\t\t\"bookman-old-style-bold\": await pdfDoc.embedFont(bookmanOldStyleBoldBytes),\n+\t};\n+}\n+\n+export function getFont(fontName: FontName): PDFFont {\n+\treturn fontMap[fontName];\n+}"
+      },
+      {
+        "sha": "90ca52f1ddbf5a7be1549e6a29c4e406ef9d5eeb",
+        "filename": "src/utils/styleField.ts",
+        "status": "modified",
+        "additions": 3,
+        "deletions": 40,
+        "changes": 43,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/dfaedf91d926c4c626dd839003db61f02af15b30/src%2Futils%2FstyleField.ts",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/dfaedf91d926c4c626dd839003db61f02af15b30/src%2Futils%2FstyleField.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Futils%2FstyleField.ts?ref=dfaedf91d926c4c626dd839003db61f02af15b30",
+        "patch": "@@ -1,50 +1,13 @@\n-import type { PDFDocument, PDFFont, PDFTextField } from \"pdf-lib\";\n+import type { PDFFont, PDFTextField } from \"pdf-lib\";\n import { TextAlignment } from \"pdf-lib\";\n+import { getFont, type FontName } from \"@utils/fonts\";\n \n const alignmentMap = {\n \tleft: TextAlignment.Left,\n \tcenter: TextAlignment.Center,\n \tright: TextAlignment.Right,\n };\n \n-export type FontName =\n-\t| \"arial-bold\"\n-\t| \"arial-narrow-bold\"\n-\t| \"bookman-old-style\"\n-\t| \"bookman-old-style-bold\";\n-\n-let arialBoldBytes: ArrayBuffer | null = null;\n-let arialNarrowBoldBytes: ArrayBuffer | null = null;\n-let bookmanOldStyleBytes: ArrayBuffer | null = null;\n-let bookmanOldStyleBoldBytes: ArrayBuffer | null = null;\n-\n-let fontMap: Record<FontName, PDFFont>;\n-\n-export async function initFonts(pdfDoc: PDFDocument): Promise<void> {\n-\tif (!arialBoldBytes || !arialNarrowBoldBytes) {\n-\t\t[arialBoldBytes, arialNarrowBoldBytes] = await Promise.all([\n-\t\t\tfetch(\"/fonts/arial/bold.ttf\").then((r) => r.arrayBuffer()),\n-\t\t\tfetch(\"/fonts/arial/narrow-bold.ttf\").then((r) => r.arrayBuffer()),\n-\t\t]);\n-\t}\n-\n-\tif (!bookmanOldStyleBytes || !bookmanOldStyleBoldBytes) {\n-\t\t[bookmanOldStyleBytes, bookmanOldStyleBoldBytes] = await Promise.all([\n-\t\t\tfetch(\"/fonts/bookman-old-style/regular.ttf\").then((r) =>\n-\t\t\t\tr.arrayBuffer(),\n-\t\t\t),\n-\t\t\tfetch(\"/fonts/bookman-old-style/bold.ttf\").then((r) => r.arrayBuffer()),\n-\t\t]);\n-\t}\n-\n-\tfontMap = {\n-\t\t\"arial-bold\": await pdfDoc.embedFont(arialBoldBytes),\n-\t\t\"arial-narrow-bold\": await pdfDoc.embedFont(arialNarrowBoldBytes),\n-\t\t\"bookman-old-style\": await pdfDoc.embedFont(bookmanOldStyleBytes),\n-\t\t\"bookman-old-style-bold\": await pdfDoc.embedFont(bookmanOldStyleBoldBytes),\n-\t};\n-}\n-\n function shrinkToFit(\n \ttext: string,\n \tfont: PDFFont,\n@@ -67,7 +30,7 @@ export function styleField(\n \tmaxSize = 12,\n \talignment: \"left\" | \"center\" | \"right\" = \"center\",\n ): void {\n-\tconst font = fontMap[fontName];\n+\tconst font = getFont(fontName);\n \tconst text = field.getText() ?? \"\";\n \tconst fieldWidth =\n \t\tfield.acroField.getWidgets()[0]?.getRectangle().width ?? Infinity;"
+      }
+    ]
+  },
+  {
     "sha": "0671164fde9b020e0f9b695b8f8248854d873a5f",
     "node_id": "C_kwDORz-DOdoAKDA2NzExNjRmZGU5YjAyMGUwZjliNjk1YjhmODI0ODg1NGQ4NzNhNWY",
     "commit": {
@@ -400,316 +525,6 @@
         "raw_url": "https://github.com/jrwnnnn/rekord/raw/3d4202bd674e6014176d91e1a59b6229bef81e82/src%2Fpages%2Findex.astro",
         "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Fpages%2Findex.astro?ref=3d4202bd674e6014176d91e1a59b6229bef81e82",
         "patch": "@@ -47,14 +47,6 @@ import Layout from \"../layouts/Layout.astro\";\n \t\t\t\t\tthem non-editable, check the \"Flatten PDFs\" option. This will merge\n \t\t\t\t\tthe form fields with the PDF content, preventing any further changes.\n \t\t\t\t</p>\n-\t\t\t\t<a href=\"https://github.com/jrwnnnn/rekord/issues/6\" target=\"_blank\">\n-\t\t\t\t\t<p\n-\t\t\t\t\t\tclass=\"cursor-pointer border border-dashed border-red-600 px-3 py-2 text-sm text-red-600 hover:bg-red-50\"\n-\t\t\t\t\t>\n-\t\t\t\t\t\t⚠ There is a known issue where flattening may cause issues with\n-\t\t\t\t\t\tAdobe Acrobat.\n-\t\t\t\t\t</p>\n-\t\t\t\t</a>\n \n \t\t\t\t<div class=\"mt-5 flex items-center gap-2\">\n \t\t\t\t\t<input"
-      }
-    ]
-  },
-  {
-    "sha": "43a3b3356ebdcc3890d60b263692978932f6117a",
-    "node_id": "C_kwDORz-DOdoAKDQzYTNiMzM1NmViZGNjMzg5MGQ2MGIyNjM2OTI5Nzg5MzJmNjExN2E",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-09-22T14:24:57Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-09-22T14:24:57Z"
-      },
-      "message": "feat: Add support for School Form 9 (SF-9) generation (#97)\n\n* feat: Update subheader (#95)\n\n* feat: Automatically detect schema and load matching PDF template (#96)\n\n* feat: Simplify CSV validation to only do basic sanity checks\n\n* feat: Automatically detect schema and load matching PDF template\n\n* feat: Add SF9 excel template and update download dropdown (#98)\n\n* feat: Add SF9 Grade 4-10.xlsx\n\n* feat: Update excel template download dropdown on home page\n\n* fix: SF9 spreadsheet filename\n\n* feat: Adapt PDF generation for SF9 acroform (#100)\n\n* feat: Adapt PDF generation for SF9 acroform\n\n* feat: Remove school information and criteria form sections\n\n* Revert \"feat: Remove school information and criteria form sections\"\n\nThis reverts commit a4ea003b7efc7c4a7cf2460b9262e5bff429308c.\n\n* fix: Remove unused `styleField` function import\n\n* feat: Remove school information and passing criteria sections (#101)\n\n* fix: Align batch export names with SF9 output (#102)\n\n* feat: Style PDF fields; add Bookman Old Style font support (#103)\n\n* feat: Style PDF fields; add Bookman Old Style font support\n\n* fix: Reduce form field font size to 7.8",
-      "tree": {
-        "sha": "fd2a4dc29967c769e1e0685e6289e97abdc4f51d",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/fd2a4dc29967c769e1e0685e6289e97abdc4f51d"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/43a3b3356ebdcc3890d60b263692978932f6117a",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqso+5CRC1aQ7uu5UhlAAAeHgQAGp8yn4abHCy5XnThjvVzJpu\nGnWXJMLQfQDaWVIyfuBQck52aBqeD+9qPd0zBsDSMW6TRaYRA0Y//lVokHTbUz6f\nnQZGq96L3kcF/x+JF+Je1iSnjdhZzCQg2xDproEUiaLIf7yYtod8CzEvzLIHvrQq\nQbYyIhyDmlrBZ2VpA7KmqobcqlcE3J8edD1SURsJphG035KnZlTOLCApwXouUdSL\nFQyvIUQWFiINxf0Axm8KJYRRi+1JrxFbAY1XcMZQ9w+IhO2F+54Tzua0UxZNA1+Z\n/S7xtWjhf2JCW6gV8vRFlVIATVW12rNrbegcKbsCFgw90Vneg92rxxQ0StxAn9GU\n/GcxvtkhmITG7TfgkZIYcni0Amg4b5LJ7K8l0AU0fdC8ancdORrN+Y99R0POcfvw\nezWo8wQ8+FP54bUo7sGaOXNqYf7cFdmkIyBIU/HIjRoLFU45FOwDzK6UQJcAwvU9\ni184hvSsWXBaqgRMu41EUc1jFnxfYoObj1M1ntYa/JnRE1Z3C1qakpJDaCEI2GqB\nQo/ChCJncMW5cW4giJ++hi/ZgGCxq/ccmTQiFAPUPBksXNrv1KYN8F6hdBHHuraj\nAaJOBkqHVUzcjDp5pX2W4mA6sO/1i9vSp6ONOuEiRWTugAFmLh6ULs4s2L3JXtK3\n0CGs7e9hkPj/Z3xn8v4a\n=GAV+\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree fd2a4dc29967c769e1e0685e6289e97abdc4f51d\nparent 54e76bf47fcf905c47182cf6a976679557a7221f\nauthor Mark Jerwin <git@jrwnnnn.me> 1790087097 +0800\ncommitter GitHub <noreply@github.com> 1790087097 +0800\n\nfeat: Add support for School Form 9 (SF-9) generation (#97)\n\n* feat: Update subheader (#95)\n\n* feat: Automatically detect schema and load matching PDF template (#96)\n\n* feat: Simplify CSV validation to only do basic sanity checks\n\n* feat: Automatically detect schema and load matching PDF template\n\n* feat: Add SF9 excel template and update download dropdown (#98)\n\n* feat: Add SF9 Grade 4-10.xlsx\n\n* feat: Update excel template download dropdown on home page\n\n* fix: SF9 spreadsheet filename\n\n* feat: Adapt PDF generation for SF9 acroform (#100)\n\n* feat: Adapt PDF generation for SF9 acroform\n\n* feat: Remove school information and criteria form sections\n\n* Revert \"feat: Remove school information and criteria form sections\"\n\nThis reverts commit a4ea003b7efc7c4a7cf2460b9262e5bff429308c.\n\n* fix: Remove unused `styleField` function import\n\n* feat: Remove school information and passing criteria sections (#101)\n\n* fix: Align batch export names with SF9 output (#102)\n\n* feat: Style PDF fields; add Bookman Old Style font support (#103)\n\n* feat: Style PDF fields; add Bookman Old Style font support\n\n* fix: Reduce form field font size to 7.8",
-        "verified_at": "2026-09-22T14:24:58Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/43a3b3356ebdcc3890d60b263692978932f6117a",
-    "html_url": "https://github.com/jrwnnnn/rekord/commit/43a3b3356ebdcc3890d60b263692978932f6117a",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/43a3b3356ebdcc3890d60b263692978932f6117a/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "54e76bf47fcf905c47182cf6a976679557a7221f",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/54e76bf47fcf905c47182cf6a976679557a7221f",
-        "html_url": "https://github.com/jrwnnnn/rekord/commit/54e76bf47fcf905c47182cf6a976679557a7221f"
-      }
-    ],
-    "stats": {
-      "total": 478,
-      "additions": 154,
-      "deletions": 324
-    },
-    "files": [
-      {
-        "sha": "813028354578238a8ba5164e20afaf9ca9876586",
-        "filename": "public/acroforms/sf9-4-10.pdf",
-        "status": "added",
-        "additions": 0,
-        "deletions": 0,
-        "changes": 0,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Facroforms%2Fsf9-4-10.pdf",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Facroforms%2Fsf9-4-10.pdf",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/public%2Facroforms%2Fsf9-4-10.pdf?ref=43a3b3356ebdcc3890d60b263692978932f6117a"
-      },
-      {
-        "sha": "1d895f0be1bc86bee7afd99ab1ea13e1d3cc3342",
-        "filename": "public/excel/SF9 Grade 4-10.xlsx",
-        "status": "added",
-        "additions": 0,
-        "deletions": 0,
-        "changes": 0,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Fexcel%2FSF9%20Grade%204-10.xlsx",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Fexcel%2FSF9%20Grade%204-10.xlsx",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/public%2Fexcel%2FSF9%20Grade%204-10.xlsx?ref=43a3b3356ebdcc3890d60b263692978932f6117a"
-      },
-      {
-        "sha": "a6037e6865db7dcd220a631e7b9f4a8eb6417c42",
-        "filename": "public/fonts/arial/bold.ttf",
-        "status": "renamed",
-        "additions": 0,
-        "deletions": 0,
-        "changes": 0,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Farial%2Fbold.ttf",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Farial%2Fbold.ttf",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/public%2Ffonts%2Farial%2Fbold.ttf?ref=43a3b3356ebdcc3890d60b263692978932f6117a",
-        "previous_filename": "public/fonts/Arial-Bold.ttf"
-      },
-      {
-        "sha": "62437f02f8888fc54432c67a468ec71e7b917b67",
-        "filename": "public/fonts/arial/narrow-bold.ttf",
-        "status": "renamed",
-        "additions": 0,
-        "deletions": 0,
-        "changes": 0,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Farial%2Fnarrow-bold.ttf",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Farial%2Fnarrow-bold.ttf",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/public%2Ffonts%2Farial%2Fnarrow-bold.ttf?ref=43a3b3356ebdcc3890d60b263692978932f6117a",
-        "previous_filename": "public/fonts/Arial-Narrow-Bold.ttf"
-      },
-      {
-        "sha": "94907a3dfc67bedb2ba9f245afe628ae98c07f1f",
-        "filename": "public/fonts/arial/narrow.ttf",
-        "status": "renamed",
-        "additions": 0,
-        "deletions": 0,
-        "changes": 0,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Farial%2Fnarrow.ttf",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Farial%2Fnarrow.ttf",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/public%2Ffonts%2Farial%2Fnarrow.ttf?ref=43a3b3356ebdcc3890d60b263692978932f6117a",
-        "previous_filename": "public/fonts/Arial-Narrow.ttf"
-      },
-      {
-        "sha": "8682d94623e575a4ecc9586a35fc909dff37fb2c",
-        "filename": "public/fonts/arial/regular.ttf",
-        "status": "renamed",
-        "additions": 0,
-        "deletions": 0,
-        "changes": 0,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Farial%2Fregular.ttf",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Farial%2Fregular.ttf",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/public%2Ffonts%2Farial%2Fregular.ttf?ref=43a3b3356ebdcc3890d60b263692978932f6117a",
-        "previous_filename": "public/fonts/Arial.ttf"
-      },
-      {
-        "sha": "2c7e674489aad2b353059e52b7cf10eaf9030153",
-        "filename": "public/fonts/bookman-old-style/COPYRIGHT.txt",
-        "status": "added",
-        "additions": 1,
-        "deletions": 0,
-        "changes": 1,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Fbookman-old-style%2FCOPYRIGHT.txt",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Fbookman-old-style%2FCOPYRIGHT.txt",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/public%2Ffonts%2Fbookman-old-style%2FCOPYRIGHT.txt?ref=43a3b3356ebdcc3890d60b263692978932f6117a",
-        "patch": "@@ -0,0 +1 @@\n+Digitized data copyright The Monotype Corporation 1991-1995. All rights reserved. Bookman Old Style™ is a trademark of The Monotype Corporation which may be registered in certain jurisdictions.\n\\ No newline at end of file"
-      },
-      {
-        "sha": "2d4df3de2ff588e031bb21b6b1922c7b2c189753",
-        "filename": "public/fonts/bookman-old-style/bold-italic.ttf",
-        "status": "added",
-        "additions": 0,
-        "deletions": 0,
-        "changes": 0,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Fbookman-old-style%2Fbold-italic.ttf",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Fbookman-old-style%2Fbold-italic.ttf",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/public%2Ffonts%2Fbookman-old-style%2Fbold-italic.ttf?ref=43a3b3356ebdcc3890d60b263692978932f6117a"
-      },
-      {
-        "sha": "f1c46c5c1367f2395ca8546eb5e5628692d2eeb2",
-        "filename": "public/fonts/bookman-old-style/bold.ttf",
-        "status": "added",
-        "additions": 0,
-        "deletions": 0,
-        "changes": 0,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Fbookman-old-style%2Fbold.ttf",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Fbookman-old-style%2Fbold.ttf",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/public%2Ffonts%2Fbookman-old-style%2Fbold.ttf?ref=43a3b3356ebdcc3890d60b263692978932f6117a"
-      },
-      {
-        "sha": "6b1ac380ed7d11356e0aaac8d994b4b6a671ceb1",
-        "filename": "public/fonts/bookman-old-style/italic.ttf",
-        "status": "added",
-        "additions": 0,
-        "deletions": 0,
-        "changes": 0,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Fbookman-old-style%2Fitalic.ttf",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Fbookman-old-style%2Fitalic.ttf",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/public%2Ffonts%2Fbookman-old-style%2Fitalic.ttf?ref=43a3b3356ebdcc3890d60b263692978932f6117a"
-      },
-      {
-        "sha": "d1e0c93e3fc410d7316cd41c201975cdd070f104",
-        "filename": "public/fonts/bookman-old-style/regular.ttf",
-        "status": "added",
-        "additions": 0,
-        "deletions": 0,
-        "changes": 0,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Fbookman-old-style%2Fregular.ttf",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/public%2Ffonts%2Fbookman-old-style%2Fregular.ttf",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/public%2Ffonts%2Fbookman-old-style%2Fregular.ttf?ref=43a3b3356ebdcc3890d60b263692978932f6117a"
-      },
-      {
-        "sha": "179e4aedb94042bc5cabf7365dcab0b20f286491",
-        "filename": "public/templates/Rekord Template - Grade 4.xlsx",
-        "status": "removed",
-        "additions": 0,
-        "deletions": 0,
-        "changes": 0,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/54e76bf47fcf905c47182cf6a976679557a7221f/public%2Ftemplates%2FRekord%20Template%20-%20Grade%204.xlsx",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/54e76bf47fcf905c47182cf6a976679557a7221f/public%2Ftemplates%2FRekord%20Template%20-%20Grade%204.xlsx",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/public%2Ftemplates%2FRekord%20Template%20-%20Grade%204.xlsx?ref=54e76bf47fcf905c47182cf6a976679557a7221f"
-      },
-      {
-        "sha": "ad7631411149b802d34893b65582277c96e4bc04",
-        "filename": "src/data/htmlFields.json",
-        "status": "removed",
-        "additions": 0,
-        "deletions": 34,
-        "changes": 34,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/54e76bf47fcf905c47182cf6a976679557a7221f/src%2Fdata%2FhtmlFields.json",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/54e76bf47fcf905c47182cf6a976679557a7221f/src%2Fdata%2FhtmlFields.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Fdata%2FhtmlFields.json?ref=54e76bf47fcf905c47182cf6a976679557a7221f",
-        "patch": "@@ -1,34 +0,0 @@\n-[\n-\t{\n-\t\t\"name\": \"name_of_school\",\n-\t\t\"label\": \"School Name\"\n-\t},\n-\t{\n-\t\t\"name\": \"school_id\",\n-\t\t\"label\": \"School ID\"\n-\t},\n-\t{\n-\t\t\"name\": \"district\",\n-\t\t\"label\": \"District\"\n-\t},\n-\t{\n-\t\t\"name\": \"division\",\n-\t\t\"label\": \"Division\"\n-\t},\n-\t{\n-\t\t\"name\": \"region\",\n-\t\t\"label\": \"Region\"\n-\t},\n-\t{\n-\t\t\"name\": \"section\",\n-\t\t\"label\": \"Section\"\n-\t},\n-\t{\n-\t\t\"name\": \"school_year\",\n-\t\t\"label\": \"School Year\"\n-\t},\n-\t{\n-\t\t\"name\": \"name_of_adviser\",\n-\t\t\"label\": \"Name of Adviser/Teacher\"\n-\t}\n-]"
-      },
-      {
-        "sha": "8a4049bc8d94bfadef62b5e8f7b278878d80f172",
-        "filename": "src/data/schema.json",
-        "status": "modified",
-        "additions": 67,
-        "deletions": 75,
-        "changes": 142,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/src%2Fdata%2Fschema.json",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/src%2Fdata%2Fschema.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Fdata%2Fschema.json?ref=43a3b3356ebdcc3890d60b263692978932f6117a",
-        "patch": "@@ -1,81 +1,73 @@\n [\n \t{\n-\t\t\"grade\": 4,\n+\t\t\"name\": \"sf9-4-10\",\n \t\t\"columns\": [\n-\t\t\t\"learner.lrn\",\n-\t\t\t\"learner.last_name\",\n-\t\t\t\"learner.first_name\",\n-\t\t\t\"learner.middle_name\",\n-\t\t\t\"learner.extn\",\n-\t\t\t\"learner.birthdate\",\n-\t\t\t\"learner.sex\",\n-\t\t\t\"credential_presented_for_grade_1\",\n-\t\t\t\"enrollment.name_of_school\",\n-\t\t\t\"enrollment.school_address\",\n-\t\t\t\"enrollment.pept.rating\",\n-\t\t\t\"enrollment.pept.date_of_examination\",\n-\t\t\t\"enrollment.pept.name_of_testing_center\",\n-\t\t\t\"enrollment.others\",\n-\t\t\t\"enrollment.remark\",\n-\t\t\t\"record_4.quarterly.filipino.quarter_1\",\n-\t\t\t\"record_4.quarterly.filipino.quarter_2\",\n-\t\t\t\"record_4.quarterly.filipino.quarter_3\",\n-\t\t\t\"record_4.quarterly.filipino.quarter_4\",\n-\t\t\t\"record_4.quarterly.english.quarter_1\",\n-\t\t\t\"record_4.quarterly.english.quarter_2\",\n-\t\t\t\"record_4.quarterly.english.quarter_3\",\n-\t\t\t\"record_4.quarterly.english.quarter_4\",\n-\t\t\t\"record_4.quarterly.mathematics.quarter_1\",\n-\t\t\t\"record_4.quarterly.mathematics.quarter_2\",\n-\t\t\t\"record_4.quarterly.mathematics.quarter_3\",\n-\t\t\t\"record_4.quarterly.mathematics.quarter_4\",\n-\t\t\t\"record_4.quarterly.science.quarter_1\",\n-\t\t\t\"record_4.quarterly.science.quarter_2\",\n-\t\t\t\"record_4.quarterly.science.quarter_3\",\n-\t\t\t\"record_4.quarterly.science.quarter_4\",\n-\t\t\t\"record_4.quarterly.gmrc.quarter_1\",\n-\t\t\t\"record_4.quarterly.gmrc.quarter_2\",\n-\t\t\t\"record_4.quarterly.gmrc.quarter_3\",\n-\t\t\t\"record_4.quarterly.gmrc.quarter_4\",\n-\t\t\t\"record_4.quarterly.araling_panlipunan.quarter_1\",\n-\t\t\t\"record_4.quarterly.araling_panlipunan.quarter_2\",\n-\t\t\t\"record_4.quarterly.araling_panlipunan.quarter_3\",\n-\t\t\t\"record_4.quarterly.araling_panlipunan.quarter_4\",\n-\t\t\t\"record_4.quarterly.epp.quarter_1\",\n-\t\t\t\"record_4.quarterly.epp.quarter_2\",\n-\t\t\t\"record_4.quarterly.epp.quarter_3\",\n-\t\t\t\"record_4.quarterly.epp.quarter_4\",\n-\t\t\t\"record_4.quarterly.mapeh.quarter_1\",\n-\t\t\t\"record_4.quarterly.mapeh.quarter_2\",\n-\t\t\t\"record_4.quarterly.mapeh.quarter_3\",\n-\t\t\t\"record_4.quarterly.mapeh.quarter_4\",\n-\t\t\t\"record_4.quarterly.music_and_arts.quarter_1\",\n-\t\t\t\"record_4.quarterly.music_and_arts.quarter_2\",\n-\t\t\t\"record_4.quarterly.music_and_arts.quarter_3\",\n-\t\t\t\"record_4.quarterly.music_and_arts.quarter_4\",\n-\t\t\t\"record_4.quarterly.physical_education_and_health.quarter_1\",\n-\t\t\t\"record_4.quarterly.physical_education_and_health.quarter_2\",\n-\t\t\t\"record_4.quarterly.physical_education_and_health.quarter_3\",\n-\t\t\t\"record_4.quarterly.physical_education_and_health.quarter_4\",\n-\t\t\t\"record_4.quarterly.arabic_language.quarter_1\",\n-\t\t\t\"record_4.quarterly.arabic_language.quarter_2\",\n-\t\t\t\"record_4.quarterly.arabic_language.quarter_3\",\n-\t\t\t\"record_4.quarterly.arabic_language.quarter_4\",\n-\t\t\t\"record_4.quarterly.islamic_values_education.quarter_1\",\n-\t\t\t\"record_4.quarterly.islamic_values_education.quarter_2\",\n-\t\t\t\"record_4.quarterly.islamic_values_education.quarter_3\",\n-\t\t\t\"record_4.quarterly.islamic_values_education.quarter_4\",\n-\t\t\t\"record_4.final_rating.filipino\",\n-\t\t\t\"record_4.final_rating.english\",\n-\t\t\t\"record_4.final_rating.mathematics\",\n-\t\t\t\"record_4.final_rating.science\",\n-\t\t\t\"record_4.final_rating.gmrc\",\n-\t\t\t\"record_4.final_rating.araling_panlipunan\",\n-\t\t\t\"record_4.final_rating.epp\",\n-\t\t\t\"record_4.final_rating.mapeh\",\n-\t\t\t\"record_4.final_rating.arabic_language\",\n-\t\t\t\"record_4.final_rating.islamic_values_education\",\n-\t\t\t\"record_4.general_average\"\n+\t\t\t\"region\",\n+\t\t\t\"division\",\n+\t\t\t\"district\",\n+\t\t\t\"location\",\n+\t\t\t\"school_name\",\n+\t\t\t\"school_year\",\n+\t\t\t\"adviser\",\n+\t\t\t\"grade\",\n+\t\t\t\"section\",\n+\t\t\t\"school_head\",\n+\t\t\t\"name\",\n+\t\t\t\"lrn\",\n+\t\t\t\"age\",\n+\t\t\t\"sex\",\n+\t\t\t\"t1.filipino\",\n+\t\t\t\"t2.filipino\",\n+\t\t\t\"t3.filipino\",\n+\t\t\t\"final_grade.filipino\",\n+\t\t\t\"remarks.filipino\",\n+\t\t\t\"t1.english\",\n+\t\t\t\"t2.english\",\n+\t\t\t\"t3.english\",\n+\t\t\t\"final_grade.english\",\n+\t\t\t\"remarks.english\",\n+\t\t\t\"t1.mathematics\",\n+\t\t\t\"t2.mathematics\",\n+\t\t\t\"t3.mathematics\",\n+\t\t\t\"final_grade.mathematics\",\n+\t\t\t\"remarks.mathematics\",\n+\t\t\t\"t1.science\",\n+\t\t\t\"t2.science\",\n+\t\t\t\"t3.science\",\n+\t\t\t\"final_grade.science\",\n+\t\t\t\"remarks.science\",\n+\t\t\t\"t1.araling_panlipunan\",\n+\t\t\t\"t2.araling_panlipunan\",\n+\t\t\t\"t3.araling_panlipunan\",\n+\t\t\t\"final_grade.araling_panlipunan\",\n+\t\t\t\"remarks.araling_panlipunan\",\n+\t\t\t\"t1.gmrc\",\n+\t\t\t\"t2.gmrc\",\n+\t\t\t\"t3.gmrc\",\n+\t\t\t\"final_grade.gmrc\",\n+\t\t\t\"remarks.gmrc\",\n+\t\t\t\"t1.epp\",\n+\t\t\t\"t2.epp\",\n+\t\t\t\"t3.epp\",\n+\t\t\t\"final_grade.epp\",\n+\t\t\t\"remarks.epp\",\n+\t\t\t\"t1.mapeh\",\n+\t\t\t\"t2.mapeh\",\n+\t\t\t\"t3.mapeh\",\n+\t\t\t\"final_grade.mapeh\",\n+\t\t\t\"remarks.mapeh\",\n+\t\t\t\"t1.music_and_arts\",\n+\t\t\t\"t2.music_and_arts\",\n+\t\t\t\"t3.music_and_arts\",\n+\t\t\t\"final_grade.music_and_arts\",\n+\t\t\t\"remarks.music_and_arts\",\n+\t\t\t\"t1.pe_and_health\",\n+\t\t\t\"t2.pe_and_health\",\n+\t\t\t\"t3.pe_and_health\",\n+\t\t\t\"final_grade.pe_and_health\",\n+\t\t\t\"remarks.pe_and_health\",\n+\t\t\t\"general_average\",\n+\t\t\t\"general_remarks\"\n \t\t]\n \t}\n ]"
-      },
-      {
-        "sha": "2df82bc8de5a628cb0b1d066d965c1494e33b9d7",
-        "filename": "src/lib/getSchema.ts",
-        "status": "added",
-        "additions": 33,
-        "deletions": 0,
-        "changes": 33,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/src%2Flib%2FgetSchema.ts",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/src%2Flib%2FgetSchema.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Flib%2FgetSchema.ts?ref=43a3b3356ebdcc3890d60b263692978932f6117a",
-        "patch": "@@ -0,0 +1,33 @@\n+import Papa from \"papaparse\";\n+import schema from \"../data/schema.json\";\n+\n+export function getSchema(file: File): Promise<string | boolean> {\n+\treturn new Promise((resolve) => {\n+\t\tPapa.parse(file, {\n+\t\t\theader: true,\n+\t\t\tcomments: \"#\",\n+\t\t\tskipEmptyLines: true,\n+\t\t\tcomplete: (results) => {\n+\t\t\t\tconst matchedSchema = schema.find((s) =>\n+\t\t\t\t\ts.columns.every((col) => results.meta.fields!.includes(col)),\n+\t\t\t\t);\n+\n+\t\t\t\tif (!matchedSchema) {\n+\t\t\t\t\tconsole.error(\n+\t\t\t\t\t\t\"Invalid CSV. The columns do not match any known schema.\",\n+\t\t\t\t\t);\n+\t\t\t\t\treturn resolve(false);\n+\t\t\t\t}\n+\n+\t\t\t\tconsole.log(\n+\t\t\t\t\t`Successfully matched CSV to ${matchedSchema.name} schema.`,\n+\t\t\t\t);\n+\t\t\t\tresolve(matchedSchema.name);\n+\t\t\t},\n+\t\t\terror: (parseError) => {\n+\t\t\t\tconsole.error(\"Error parsing CSV:\", parseError);\n+\t\t\t\tresolve(false);\n+\t\t\t},\n+\t\t});\n+\t});\n+}"
-      },
-      {
-        "sha": "10bda092a0c10b9d5d1776fb98f42f89b3111fa2",
-        "filename": "src/lib/populateFields.ts",
-        "status": "modified",
-        "additions": 7,
-        "deletions": 83,
-        "changes": 90,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/src%2Flib%2FpopulateFields.ts",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/src%2Flib%2FpopulateFields.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Flib%2FpopulateFields.ts?ref=43a3b3356ebdcc3890d60b263692978932f6117a",
-        "patch": "@@ -1,104 +1,28 @@\n ﻿import type { PDFForm } from \"pdf-lib\";\n-import checkboxMap from \"../data/checkboxMap.json\";\n import { PDFName, PDFTextField } from \"pdf-lib\";\n-import { styleField } from \"@utils/styleField\";\n+import { styleField } from \"@utils/styleField.ts\";\n \n export async function populateFields(\n \tform: PDFForm,\n-\thtmlFormValues: Record<string, FormDataEntryValue>,\n \tcsvRow: Record<string, string>,\n ) {\n-\tconsole.log(\n-\t\t`Creating SF10 for ${csvRow[\"learner.last_name\"]}, ${csvRow[\"learner.first_name\"]}...`,\n-\t);\n+\tconsole.log(`Creating SF9 for ${csvRow[\"name\"]}...`);\n \n-\tconst gradeLevel = htmlFormValues.classified_as_grade;\n-\n-\t//Populate school/class info fields based of the HTML form\n-\tconst SKIP_FIELDS = [\n-\t\t\"file\",\n-\t\t\"flatten\",\n-\t\t\"passing_criteria\",\n-\t\t\"promotion_criteria\",\n-\t\t\"classified_as_grade\",\n-\t];\n-\n-\tfor (const [htmlFieldName, value] of Object.entries(htmlFormValues)) {\n-\t\tif (SKIP_FIELDS.includes(htmlFieldName)) continue;\n-\t\tform\n-\t\t\t.getTextField(`record_${gradeLevel}.${htmlFieldName}`)\n-\t\t\t.setText(String(value || \"\"));\n-\t}\n-\n-\t// Populate the remaining fields based on the CSV\n \tfor (const [pdfFieldName, value] of Object.entries(csvRow)) {\n-\t\t// Handle Credential Presented for Grade 1 checkbox.\n-\t\t// A student's list of presented credentials for grade 1 is stored as one comma-separated string (or \"All\" if every credential is present).\n-\t\t// checkboxMap.json maps each known label to its PDF checkbox field name, so we check every box whose label appears in the cell.\n-\t\tif (pdfFieldName === \"credential_presented_for_grade_1\") {\n-\t\t\tfor (const [label, fieldName] of Object.entries(checkboxMap)) {\n-\t\t\t\tif (value === \"All\" || value.includes(label)) {\n-\t\t\t\t\tform.getCheckBox(fieldName).check();\n-\t\t\t\t}\n-\t\t\t}\n-\t\t\tcontinue;\n-\t\t}\n-\n-\t\t// Handle remarks field based on final_rating\n-\t\tif (pdfFieldName.startsWith(`record_${gradeLevel}.final_rating.`)) {\n-\t\t\tconst subjectCode = pdfFieldName.slice(\n-\t\t\t\t`record_${gradeLevel}.final_rating.`.length,\n-\t\t\t);\n-\n-\t\t\tform\n-\t\t\t\t.getTextField(`record_${gradeLevel}.remarks.${subjectCode}`)\n-\t\t\t\t.setText(\n-\t\t\t\t\tNumber(value) >= Number(htmlFormValues.passing_criteria)\n-\t\t\t\t\t\t? \"Passed\"\n-\t\t\t\t\t\t: \"Failed\",\n-\t\t\t\t);\n+\t\ttry {\n+\t\t\tform.getTextField(pdfFieldName).setText(value || \"\");\n+\t\t} catch (error) {\n+\t\t\tconsole.error(`Error setting text for field ${pdfFieldName}:`, error);\n \t\t}\n-\n-\t\tform.getTextField(pdfFieldName).setText(\n-\t\t\t// For fields in the \"learner.\" namespace, convert to uppercase.\n-\t\t\tpdfFieldName.includes(\"learner.\")\n-\t\t\t\t? (value || \"\").toUpperCase()\n-\t\t\t\t: value || \"\",\n-\t\t);\n \t}\n \n-\t// Handle special cases for school_id and general_remark\n-\tform\n-\t\t.getTextField(\"enrollment.school_id\")\n-\t\t.setText(csvRow[\"learner.lrn\"]?.slice(0, 6) || \"\");\n-\tform\n-\t\t.getTextField(`record_${gradeLevel}.general_remark`)\n-\t\t.setText(\n-\t\t\tNumber(csvRow[`record_${gradeLevel}.general_average`]) >=\n-\t\t\t\tNumber(htmlFormValues.promotion_criteria)\n-\t\t\t\t? \"Promoted\"\n-\t\t\t\t: \"Retained\",\n-\t\t);\n-\n-\t// Handle special cases for \"Other Credential Presented\" checkboxes\n-\tif (csvRow[\"enrollment.others\"])\n-\t\tform.getCheckBox(\"enrollment.checkbox.others\").check();\n-\n-\tif (csvRow[\"enrollment.pept.rating\"])\n-\t\tform.getCheckBox(\"enrollment.checkbox.pept\").check();\n-\n-\t// Scrape /AP and seed missing /DA for all text fields, then apply styling\n \tfor (const field of form.getFields()) {\n \t\tif (!(field instanceof PDFTextField)) continue;\n \t\tfield.acroField.dict.delete(PDFName.of(\"AP\"));\n \t\tif (!field.acroField.getDefaultAppearance()) {\n \t\t\tfield.acroField.setDefaultAppearance(\"/Arial 12 Tf 0 g\");\n \t\t}\n \n-\t\tif (field.getName().startsWith(\"enrollment.\")) {\n-\t\t\tstyleField(field, \"arial-narrow-bold\", 11, \"left\");\n-\t\t} else {\n-\t\t\tstyleField(field, \"arial-bold\", 12, \"center\");\n-\t\t}\n+\t\tstyleField(field, \"bookman-old-style-bold\", 7.8, \"center\");\n \t}\n }"
-      },
-      {
-        "sha": "eee7acab6926a3c16261f327390af7fae2bb64c1",
-        "filename": "src/lib/validateCSV.ts",
-        "status": "modified",
-        "additions": 7,
-        "deletions": 34,
-        "changes": 41,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/src%2Flib%2FvalidateCSV.ts",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/src%2Flib%2FvalidateCSV.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Flib%2FvalidateCSV.ts?ref=43a3b3356ebdcc3890d60b263692978932f6117a",
-        "patch": "@@ -1,10 +1,8 @@\n import { updateProgressBanner } from \"@utils/progressBanner\";\n import Papa from \"papaparse\";\n-import schema from \"../data/schema.json\";\n \n-export function validateCSV(file: File, grade: number): Promise<boolean> {\n+export function validateCSV(file: File): Promise<boolean> {\n \treturn new Promise((resolve) => {\n-\t\t// Check if the file is a CSV based on MIME type and extension\n \t\tif (file.type !== \"text/csv\" && !file.name.toLowerCase().endsWith(\".csv\")) {\n \t\t\tconsole.error(\"Invalid file type. Expected CSV.\");\n \t\t\tupdateProgressBanner(\n@@ -20,10 +18,8 @@ export function validateCSV(file: File, grade: number): Promise<boolean> {\n \t\t\tcomments: \"#\",\n \t\t\tskipEmptyLines: true,\n \t\t\tcomplete: (results) => {\n-\t\t\t\tconst columns = results.meta.fields;\n-\n-\t\t\t\t// Check if the CSV is empty\n \t\t\t\tif (results.data.length === 0) {\n+\t\t\t\t\tconsole.error(\"CSV is empty.\");\n \t\t\t\t\tupdateProgressBanner(\n \t\t\t\t\t\t\"CSV is empty.\",\n \t\t\t\t\t\t\"The uploaded CSV file is empty.\",\n@@ -32,45 +28,22 @@ export function validateCSV(file: File, grade: number): Promise<boolean> {\n \t\t\t\t\treturn resolve(false);\n \t\t\t\t}\n \n-\t\t\t\t// Find the schema for the specified grade\n-\t\t\t\tconst gradeSchema = schema.find((s) => s.grade === grade);\n-\n-\t\t\t\t// Check for missing columns based on the grade schema\n-\t\t\t\tconst missingColumns = (gradeSchema ? gradeSchema.columns : []).filter(\n-\t\t\t\t\t(col) => !columns!.includes(col),\n-\t\t\t\t);\n-\t\t\t\t\n-\t\t\t\tif (missingColumns.length > 0) {\n-\t\t\t\t\t// If there are more than 5 missing columns, show only the first 3 and indicate how many more are missing\n-\t\t\t\t\tlet message = \"\";\n-\t\t\t\t\tif (missingColumns.length > 5) {\n-\t\t\t\t\t\tconst shown = missingColumns.slice(0, 3).join(\", \");\n-\t\t\t\t\t\tmessage = `Missing columns: ${shown}, and ${missingColumns.length - 3} more...`;\n-\t\t\t\t\t} else {\n-\t\t\t\t\t\tmessage = `Missing columns: ${missingColumns.join(\", \")}`;\n-\t\t\t\t\t}\n+\t\t\t\tconst columns = results.meta.fields;\n \n-\t\t\t\t\tconsole.error(\n-\t\t\t\t\t\t`Invalid CSV. ${missingColumns.length} missing columns: ${missingColumns}`,\n-\t\t\t\t\t);\n+\t\t\t\tif (!columns) {\n+\t\t\t\t\tconsole.error(\"No columns found in CSV.\");\n \t\t\t\t\tupdateProgressBanner(\n-\t\t\t\t\t\t\"Invalid CSV.\",\n-\t\t\t\t\t\tmessage,\n+\t\t\t\t\t\t\"No columns found in CSV.\",\n+\t\t\t\t\t\t\"The uploaded CSV file does not contain any columns.\",\n \t\t\t\t\t\t\"https://cdn-icons-png.flaticon.com/512/6514/6514954.png\",\n \t\t\t\t\t);\n-\n \t\t\t\t\treturn resolve(false);\n \t\t\t\t}\n \n \t\t\t\tresolve(true);\n \t\t\t},\n \t\t\terror: (parseError) => {\n \t\t\t\tconsole.error(\"Error parsing CSV:\", parseError);\n-\t\t\t\tupdateProgressBanner(\n-\t\t\t\t\t\"Error parsing CSV.\",\n-\t\t\t\t\tparseError.message as string,\n-\t\t\t\t\t\"https://cdn-icons-png.flaticon.com/512/6514/6514954.png\",\n-\t\t\t\t);\n \t\t\t\tresolve(false);\n \t\t\t},\n \t\t});"
-      },
-      {
-        "sha": "b1c81609aa5906e704dc7a6546b75daf9b2cadd0",
-        "filename": "src/pages/index.astro",
-        "status": "modified",
-        "additions": 17,
-        "deletions": 95,
-        "changes": 112,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/src%2Fpages%2Findex.astro",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/src%2Fpages%2Findex.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Fpages%2Findex.astro?ref=43a3b3356ebdcc3890d60b263692978932f6117a",
-        "patch": "@@ -1,6 +1,5 @@\n ---\n import Layout from \"../layouts/Layout.astro\";\n-import htmlFields from \"../data/htmlFields.json\";\n ---\n \n <Layout title=\"Rekord BETA\">\n@@ -12,7 +11,7 @@ import htmlFields from \"../data/htmlFields.json\";\n \t\t\t\t\t<span class=\"text-blue-700\">WIP</span>\n \t\t\t\t</div>\n \t\t\t\t<p class=\"mt-2 text-sm text-gray-700\">\n-\t\t\t\t\tBatch fill your SF10 forms in one click. Just download the template,\n+\t\t\t\t\tBatch fill your SF9 forms in one click. Just download the template,\n \t\t\t\t\tfill it out with your students' info, and upload it back here to get a\n \t\t\t\t\tzip file of ready-to-print PDFs.\n \t\t\t\t</p>\n@@ -25,9 +24,7 @@ import htmlFields from \"../data/htmlFields.json\";\n \t\t\t\t\tclass=\"w-full cursor-pointer border border-black bg-white px-3 py-2 text-sm focus:border-blue-600 focus:ring-1 focus:ring-blue-600 focus:outline-none\"\n \t\t\t\t>\n \t\t\t\t\t<option value=\"\" disabled selected>Select an option...</option>\n-\t\t\t\t\t<option value=\"templates/Rekord Template - Grade 4.xlsx\"\n-\t\t\t\t\t\t>Grade 4</option\n-\t\t\t\t\t>\n+\t\t\t\t\t<option value=\"excel/SF9 Grade 4-10.xlsx\">SF9 Grade 4-10</option>\n \t\t\t\t</select>\n \t\t\t</div>\n \n@@ -44,76 +41,7 @@ import htmlFields from \"../data/htmlFields.json\";\n \t\t\t</div>\n \n \t\t\t<div class=\"space-y-2\">\n-\t\t\t\t<h2 class=\"font-bold\">3. Define School and Class Info</h2>\n-\t\t\t\t<div class=\"space-y-4\">\n-\t\t\t\t\t<div class=\"flex flex-col\">\n-\t\t\t\t\t\t<label\n-\t\t\t\t\t\t\tfor=\"classified_as_grade\"\n-\t\t\t\t\t\t\tclass=\"mb-1 text-sm font-medium text-gray-700\"\n-\t\t\t\t\t\t>\n-\t\t\t\t\t\t\tClassified as Grade:\n-\t\t\t\t\t\t</label>\n-\t\t\t\t\t\t<select\n-\t\t\t\t\t\t\tid=\"classified_as_grade\"\n-\t\t\t\t\t\t\tname=\"classified_as_grade\"\n-\t\t\t\t\t\t\tclass=\"w-full cursor-pointer border border-black bg-white px-3 py-2 text-sm focus:border-blue-600 focus:ring-1 focus:ring-blue-600 focus:outline-none\"\n-\t\t\t\t\t\t\trequired\n-\t\t\t\t\t\t>\n-\t\t\t\t\t\t\t<option value=\"\" disabled selected>Select an option...</option>\n-\t\t\t\t\t\t\t<option value=\"4\">Grade 4</option>\n-\t\t\t\t\t\t</select>\n-\t\t\t\t\t</div>\n-\t\t\t\t\t{\n-\t\t\t\t\t\thtmlFields.map((field) => (\n-\t\t\t\t\t\t\t<div class=\"flex flex-col\">\n-\t\t\t\t\t\t\t\t<label\n-\t\t\t\t\t\t\t\t\tfor={`${field.name}`}\n-\t\t\t\t\t\t\t\t\tclass=\"mb-1 text-sm font-medium text-gray-700\"\n-\t\t\t\t\t\t\t\t>\n-\t\t\t\t\t\t\t\t\t{field.label}:\n-\t\t\t\t\t\t\t\t</label>\n-\t\t\t\t\t\t\t\t<input\n-\t\t\t\t\t\t\t\t\tid={`${field.name}`}\n-\t\t\t\t\t\t\t\t\tname={`${field.name}`}\n-\t\t\t\t\t\t\t\t\ttype=\"text\"\n-\t\t\t\t\t\t\t\t\tclass=\"grow border border-black px-2 py-2 text-sm focus:border-blue-600 focus:ring-1 focus:ring-blue-600 focus:outline-none\"\n-\t\t\t\t\t\t\t\t/>\n-\t\t\t\t\t\t\t</div>\n-\t\t\t\t\t\t))\n-\t\t\t\t\t}\n-\t\t\t\t</div>\n-\t\t\t</div>\n-\n-\t\t\t<div class=\"space-y-2\">\n-\t\t\t\t<h2 class=\"font-bold\">4. Define Passing Criteria</h2>\n-\t\t\t\t<div class=\"flex flex-wrap space-y-4\">\n-\t\t\t\t\t<p class=\"text-sm text-gray-700\">\n-\t\t\t\t\t\tMark a learning area as <strong>\"Passed\"</strong> if the student's grade\n-\t\t\t\t\t\tis greater than or equal to\n-\t\t\t\t\t\t<input\n-\t\t\t\t\t\t\ttype=\"text\"\n-\t\t\t\t\t\t\tid=\"passing_criteria\"\n-\t\t\t\t\t\t\tname=\"passing_criteria\"\n-\t\t\t\t\t\t\tvalue=\"75\"\n-\t\t\t\t\t\t\tclass=\"w-10 border-b border-gray-700 px-2 py-px text-sm font-bold focus:border-b-2 focus:border-blue-600 focus:outline-none\"\n-\t\t\t\t\t\t/>. Otherwise, mark as <strong>\"Failed\"</strong>.\n-\t\t\t\t\t</p>\n-\n-\t\t\t\t\t<p class=\"text-sm text-gray-700\">\n-\t\t\t\t\t\tPromote a student if his/her grade is greater than or equal to\n-\t\t\t\t\t\t<input\n-\t\t\t\t\t\t\ttype=\"text\"\n-\t\t\t\t\t\t\tid=\"promotion_criteria\"\n-\t\t\t\t\t\t\tname=\"promotion_criteria\"\n-\t\t\t\t\t\t\tvalue=\"75\"\n-\t\t\t\t\t\t\tclass=\"w-10 border-b border-gray-700 px-2 py-px text-sm font-bold focus:border-b-2 focus:border-blue-600 focus:outline-none\"\n-\t\t\t\t\t\t/>. Otherwise, mark as <strong>\"Retained\"</strong>.\n-\t\t\t\t\t</p>\n-\t\t\t\t</div>\n-\t\t\t</div>\n-\n-\t\t\t<div class=\"space-y-2\">\n-\t\t\t\t<h2 class=\"font-bold\">5. Flatten?</h2>\n+\t\t\t\t<h2 class=\"font-bold\">3. Flatten?</h2>\n \t\t\t\t<p class=\"text-sm text-gray-700\">\n \t\t\t\t\tBy default, the generated PDFs will be editable. If you want to make\n \t\t\t\t\tthem non-editable, check the \"Flatten PDFs\" option. This will merge\n@@ -183,6 +111,7 @@ import htmlFields from \"../data/htmlFields.json\";\n <script src=\"@utils/downloadTemplate.ts\"></script>\n <script>\n \timport { createDocument } from \"@utils/createDocument\";\n+\timport { getSchema } from \"@lib/getSchema\";\n \timport { populateFields } from \"@lib/populateFields\";\n \timport { saveAs } from \"file-saver\";\n \timport { updateProgressBanner } from \"@utils/progressBanner\";\n@@ -202,11 +131,13 @@ import htmlFields from \"../data/htmlFields.json\";\n \n \t\tconsole.log(\"Parsing CSV file...\");\n \t\tupdateProgressBanner(\"Parsing CSV file...\");\n-\t\tif (!(await validateCSV(csvFile, Number(formValues.classified_as_grade))))\n-\t\t\treturn;\n \n-\t\t// Load the PDF template\n-\t\tconst template = await fetch(\"/acroforms/es.pdf\").then((r) =>\n+\t\tif (!(await validateCSV(csvFile))) return;\n+\n+\t\tconst schema = await getSchema(csvFile);\n+\t\tif (!schema) return;\n+\n+\t\tconst template = await fetch(`/acroforms/${schema}.pdf`).then((r) =>\n \t\t\tr.arrayBuffer(),\n \t\t);\n \n@@ -222,28 +153,19 @@ import htmlFields from \"../data/htmlFields.json\";\n \t\t\t\tconst zip = new JSZip();\n \n \t\t\t\tfor (const row of rows) {\n-\t\t\t\t\tif (!row[\"learner.lrn\"]) {\n-\t\t\t\t\t\tconsole.warn(\n-\t\t\t\t\t\t\t`Skipped row ${rows.indexOf(row) + 1} with missing LRN`,\n-\t\t\t\t\t\t);\n-\t\t\t\t\t\tcontinue;\n-\t\t\t\t\t}\n+\t\t\t\t\tupdateProgressBanner(`Creating SF9 for ${row[\"name\"]}...`);\n \n-\t\t\t\t\tupdateProgressBanner(\n-\t\t\t\t\t\t`Creating SF10 for ${row[\"learner.last_name\"]}, ${row[\"learner.first_name\"]}...`,\n-\t\t\t\t\t);\n \t\t\t\t\tconst { pdfDoc, acroform } = await createDocument(template);\n-\t\t\t\t\tpopulateFields(acroform, formValues, row);\n+\t\t\t\t\tpopulateFields(acroform, row);\n \n \t\t\t\t\tif (formValues.flatten === \"on\") {\n \t\t\t\t\t\tacroform.flatten();\n \t\t\t\t\t}\n \n-\t\t\t\t\tconst fileName =\n-\t\t\t\t\t\t`${row[\"learner.last_name\"]}_${row[\"learner.first_name\"]}.pdf`.replace(\n-\t\t\t\t\t\t\t/\\s+/g,\n-\t\t\t\t\t\t\t\"_\",\n-\t\t\t\t\t\t);\n+\t\t\t\t\tconst fileName = `${row[\"name\"]}_${row[\"lrn\"]}.pdf`.replace(\n+\t\t\t\t\t\t/\\s+/g,\n+\t\t\t\t\t\t\"_\",\n+\t\t\t\t\t);\n \n \t\t\t\t\tzip.file(fileName, await pdfDoc.save());\n \t\t\t\t}\n@@ -252,7 +174,7 @@ import htmlFields from \"../data/htmlFields.json\";\n \t\t\t\tupdateProgressBanner(\"Generating ZIP file...\");\n \n \t\t\t\tconst content = await zip.generateAsync({ type: \"blob\" });\n-\t\t\t\tsaveAs(content, \"SF10_Batch_Export.zip\");\n+\t\t\t\tsaveAs(content, \"SF9_Batch_Export.zip\");\n \n \t\t\t\tconsole.log(\"Done.\");\n \t\t\t\tupdateProgressBanner("
-      },
-      {
-        "sha": "30499600f6ec73ae404bf287d3738a26480bed77",
-        "filename": "src/utils/styleField.ts",
-        "status": "modified",
-        "additions": 22,
-        "deletions": 3,
-        "changes": 25,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/43a3b3356ebdcc3890d60b263692978932f6117a/src%2Futils%2FstyleField.ts",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/43a3b3356ebdcc3890d60b263692978932f6117a/src%2Futils%2FstyleField.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Futils%2FstyleField.ts?ref=43a3b3356ebdcc3890d60b263692978932f6117a",
-        "patch": "@@ -7,22 +7,41 @@ const alignmentMap = {\n \tright: TextAlignment.Right,\n };\n \n-export type FontName = \"arial-bold\" | \"arial-narrow-bold\";\n+export type FontName =\n+\t| \"arial-bold\"\n+\t| \"arial-narrow-bold\"\n+\t| \"bookman-old-style\"\n+\t| \"bookman-old-style-bold\";\n+\n let arialBoldBytes: ArrayBuffer | null = null;\n let arialNarrowBoldBytes: ArrayBuffer | null = null;\n+let bookmanOldStyleBytes: ArrayBuffer | null = null;\n+let bookmanOldStyleBoldBytes: ArrayBuffer | null = null;\n+\n let fontMap: Record<FontName, PDFFont>;\n \n export async function initFonts(pdfDoc: PDFDocument): Promise<void> {\n \tif (!arialBoldBytes || !arialNarrowBoldBytes) {\n \t\t[arialBoldBytes, arialNarrowBoldBytes] = await Promise.all([\n-\t\t\tfetch(\"/fonts/Arial-Bold.ttf\").then((r) => r.arrayBuffer()),\n-\t\t\tfetch(\"/fonts/Arial-Narrow-Bold.ttf\").then((r) => r.arrayBuffer()),\n+\t\t\tfetch(\"/fonts/arial/bold.ttf\").then((r) => r.arrayBuffer()),\n+\t\t\tfetch(\"/fonts/arial/narrow-bold.ttf\").then((r) => r.arrayBuffer()),\n+\t\t]);\n+\t}\n+\n+\tif (!bookmanOldStyleBytes || !bookmanOldStyleBoldBytes) {\n+\t\t[bookmanOldStyleBytes, bookmanOldStyleBoldBytes] = await Promise.all([\n+\t\t\tfetch(\"/fonts/bookman-old-style/regular.ttf\").then((r) =>\n+\t\t\t\tr.arrayBuffer(),\n+\t\t\t),\n+\t\t\tfetch(\"/fonts/bookman-old-style/bold.ttf\").then((r) => r.arrayBuffer()),\n \t\t]);\n \t}\n \n \tfontMap = {\n \t\t\"arial-bold\": await pdfDoc.embedFont(arialBoldBytes),\n \t\t\"arial-narrow-bold\": await pdfDoc.embedFont(arialNarrowBoldBytes),\n+\t\t\"bookman-old-style\": await pdfDoc.embedFont(bookmanOldStyleBytes),\n+\t\t\"bookman-old-style-bold\": await pdfDoc.embedFont(bookmanOldStyleBoldBytes),\n \t};\n }\n "
       }
     ]
   }
