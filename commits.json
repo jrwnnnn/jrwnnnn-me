@@ -1,5 +1,106 @@
 [
   {
+    "sha": "b8f3b6095b10b128a16950970429457acda5ddcb",
+    "node_id": "C_kwDORz-DOdoAKGI4ZjNiNjA5NWIxMGIxMjhhMTY5NTA5NzA0Mjk0NTdhY2RhNWRkY2I",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-10-09T10:46:17Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-10-09T10:46:17Z"
+      },
+      "message": "refactor: Use @data alias for schema.json import (#120)",
+      "tree": {
+        "sha": "1f5461a4486d4ea506e25673de1d5f097d0bbff8",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/1f5461a4486d4ea506e25673de1d5f097d0bbff8"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/b8f3b6095b10b128a16950970429457acda5ddcb",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqyMX5CRC1aQ7uu5UhlAAAL5IQADe/vd6CuDCrdjTGSSQisr3f\nojjAVFG9PvtfxNFrRjWHUxgAibvsD4WXDPKuKdKAk58ewTBoRpG4Ca1DDGDiG+5L\nycHAjDbeMmJ80ItlJs5W9k64oJ826vGW+r78tgD+CFIJV2oCzyJg+D1hbAq3S/uf\nYzoGHh527VClVds6FtObDybZOeigcXXm//CR1OLRRuRcVru6ts2jg5frE2ttobny\n4FC6JvRyxr42e4Ts+d8SWrMugdJtGwORtMy3oMFUBonmgzc8U0nr3mbco2h2FYA0\nT++QXPYudj4vL3YsGmuLgtFTOHGMhrDQ0GlcMeCVVJf/MCSJaTRugYIYiHzuNODk\nGU+2ULyOMsl7jAHf2KHgIYRlsfLh6/x4w87KXXg1vWYfzeUkgWHHsnHO4rk1arkg\nOGdPo4kxuKG00lQp43bbmYW5lk0uIM1jYQXsZnqPcB09S9EzPMRz5vH2pf7oyRhU\nkiZJzm6PBmDNu3j3q6+APOgUD7uAduiTD55QrgsgreH5bu+xmFYDagekhQlU4j9+\nZMg6LG4uv/3AUsOe5ucCGaeQfUyODHx16QB+7hcWAiQCTlSqE7yJGhwLAcJiOsQY\nLctCnzqEDgK6xK8cIZtqDx09sDYT8VzcKIsLefQBWXgbmnwxatGF6qJIm47t2K25\nZOOCBQqcKFQ7hnqq4WYs\n=vBA0\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 1f5461a4486d4ea506e25673de1d5f097d0bbff8\nparent 0ecc38bec1f593c5eeecbd9dd560447bc05602c6\nauthor Mark Jerwin <git@jrwnnnn.me> 1791542777 +0800\ncommitter GitHub <noreply@github.com> 1791542777 +0800\n\nrefactor: Use @data alias for schema.json import (#120)",
+        "verified_at": "2026-10-09T10:46:17Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/b8f3b6095b10b128a16950970429457acda5ddcb",
+    "html_url": "https://github.com/jrwnnnn/rekord/commit/b8f3b6095b10b128a16950970429457acda5ddcb",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/b8f3b6095b10b128a16950970429457acda5ddcb/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0ecc38bec1f593c5eeecbd9dd560447bc05602c6",
+        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/0ecc38bec1f593c5eeecbd9dd560447bc05602c6",
+        "html_url": "https://github.com/jrwnnnn/rekord/commit/0ecc38bec1f593c5eeecbd9dd560447bc05602c6"
+      }
+    ],
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1
+    },
+    "files": [
+      {
+        "sha": "3e5ee6be0b294ec670213d955ab1a6633b2fa0fb",
+        "filename": "src/lib/getSchema.ts",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/rekord/blob/b8f3b6095b10b128a16950970429457acda5ddcb/src%2Flib%2FgetSchema.ts",
+        "raw_url": "https://github.com/jrwnnnn/rekord/raw/b8f3b6095b10b128a16950970429457acda5ddcb/src%2Flib%2FgetSchema.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/src%2Flib%2FgetSchema.ts?ref=b8f3b6095b10b128a16950970429457acda5ddcb",
+        "patch": "@@ -1,5 +1,5 @@\n import Papa from \"papaparse\";\n-import schema from \"../data/schema.json\";\n+import schema from \"@data/schema.json\";\n \n export function getSchema(file: File): Promise<string | boolean> {\n \treturn new Promise((resolve) => {"
+      }
+    ]
+  },
+  {
     "sha": "0ecc38bec1f593c5eeecbd9dd560447bc05602c6",
     "node_id": "C_kwDORz-DOdoAKDBlY2MzOGJlYzFmNTkzYzVlZWVjYmQ5ZGQ1NjA0NDdiYzA1NjAyYzY",
     "commit": {
@@ -445,106 +546,6 @@
         "blob_url": "https://github.com/jrwnnnn/rekord/blob/45be4fd3563e720aff6d18a421810eca692c5d8c/public%2Fexcel%2FSF9%20Grade%204-10.xlsx",
         "raw_url": "https://github.com/jrwnnnn/rekord/raw/45be4fd3563e720aff6d18a421810eca692c5d8c/public%2Fexcel%2FSF9%20Grade%204-10.xlsx",
         "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/public%2Fexcel%2FSF9%20Grade%204-10.xlsx?ref=45be4fd3563e720aff6d18a421810eca692c5d8c"
-      }
-    ]
-  },
-  {
-    "sha": "ed0a03e3f99a5bf00b6527dd9f9788aa83bab3fa",
-    "node_id": "C_kwDORz-DOdoAKGVkMGEwM2UzZjk5YTViZjAwYjY1MjdkZDlmOTc4OGFhODNiYWIzZmE",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-09-25T07:16:51Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-09-25T07:16:51Z"
-      },
-      "message": "feat: Update sf9-4-10.pdf fields (#109)\n\n* chore: Add `@data` path alias in tsconfig\n\n* feat: Update sf9-4-10.pdf fields\n\n* Revert \"chore: Add `@data` path alias in tsconfig\"\n\nThis reverts commit 94a3ad2f22de6936a8c81b10c746d46d1caad4b5.",
-      "tree": {
-        "sha": "f789da8b700a7e4e5a2844912cae364bb7a4e60b",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/git/trees/f789da8b700a7e4e5a2844912cae364bb7a4e60b"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/rekord/git/commits/ed0a03e3f99a5bf00b6527dd9f9788aa83bab3fa",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqth/jCRC1aQ7uu5UhlAAAUNcQAAU3+DdjXVk7owxvY/58uc8Z\nv/uYux1bR2vViEKmr5oLBwM2tcChfqVWq9lHRYkTQ9ydT2uCLXv3VmkpSiB4g25r\nUhLxrZ+P/JVqGon/ILAE+OskQ/RNDpZZEg1Xgg3BM/zqFVWVOB5BeU1ajDP3YuOV\nzIX1y18N4QdMkaPHnKMCzHCC/605HxCK+gDW8CrbwYXmShFQm2uQQbYmeAgDlknz\nUVDNRyIQNIr+A2hznncjOYJXR0DNIjzS0lByEPz7dA5gKan3l53n3mMKfBzJFt7k\n0XTFRtVXmbjG9MLogvF4qcB4tQ1f7wFbs7ecb4jDn9d2IvRLOB/s0g97j9ENnLu9\neFgd5hW7Q7qgof+Ybznas6o2g8Hq9P3SsR+rlxvB4z0XNAK7CQiJqW/qUiaIV23M\nerkaZsdXpRrOiVvoUnK1yddfzUjFVTnQSsOTOmBNQIl78k/alnzka/gWvRK6yfV2\nATFFnFYVVtlxj4Q0oK89Ego5HvFDaVTB4jHPKXxxx46sMWvjVqsA5fNiMHrsH/Sj\ntTfx+slsLEk8Ns0Z/b/8fohAobRGNvj/Yu7u3qhJ1qqKC3lfmP6Ejgl8xJdNUPsr\nk6KFieU/yyS8ciW2J3kbDhnouFHtzhmci/TfoDk3Xl+mVzOypub/J+5f663/1Vqs\noaIewWarPUqopuKmced2\n=WsuC\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree f789da8b700a7e4e5a2844912cae364bb7a4e60b\nparent dfaedf91d926c4c626dd839003db61f02af15b30\nauthor Mark Jerwin <git@jrwnnnn.me> 1790320611 +0800\ncommitter GitHub <noreply@github.com> 1790320611 +0800\n\nfeat: Update sf9-4-10.pdf fields (#109)\n\n* chore: Add `@data` path alias in tsconfig\n\n* feat: Update sf9-4-10.pdf fields\n\n* Revert \"chore: Add `@data` path alias in tsconfig\"\n\nThis reverts commit 94a3ad2f22de6936a8c81b10c746d46d1caad4b5.",
-        "verified_at": "2026-09-25T07:16:52Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/ed0a03e3f99a5bf00b6527dd9f9788aa83bab3fa",
-    "html_url": "https://github.com/jrwnnnn/rekord/commit/ed0a03e3f99a5bf00b6527dd9f9788aa83bab3fa",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/rekord/commits/ed0a03e3f99a5bf00b6527dd9f9788aa83bab3fa/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "dfaedf91d926c4c626dd839003db61f02af15b30",
-        "url": "https://api.github.com/repos/jrwnnnn/rekord/commits/dfaedf91d926c4c626dd839003db61f02af15b30",
-        "html_url": "https://github.com/jrwnnnn/rekord/commit/dfaedf91d926c4c626dd839003db61f02af15b30"
-      }
-    ],
-    "stats": {
-      "total": 0,
-      "additions": 0,
-      "deletions": 0
-    },
-    "files": [
-      {
-        "sha": "910543bdf58763d91c9a69a7af2d8e158bc83422",
-        "filename": "public/acroforms/sf9-4-10.pdf",
-        "status": "modified",
-        "additions": 0,
-        "deletions": 0,
-        "changes": 0,
-        "blob_url": "https://github.com/jrwnnnn/rekord/blob/ed0a03e3f99a5bf00b6527dd9f9788aa83bab3fa/public%2Facroforms%2Fsf9-4-10.pdf",
-        "raw_url": "https://github.com/jrwnnnn/rekord/raw/ed0a03e3f99a5bf00b6527dd9f9788aa83bab3fa/public%2Facroforms%2Fsf9-4-10.pdf",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/rekord/contents/public%2Facroforms%2Fsf9-4-10.pdf?ref=ed0a03e3f99a5bf00b6527dd9f9788aa83bab3fa"
       }
     ]
   }
