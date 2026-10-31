@@ -1,5 +1,610 @@
 [
   {
+    "sha": "4b2ec77c021b2252d57553402bfc39abc2535dff",
+    "node_id": "C_kwDOVd34gdoAKDRiMmVjNzdjMDIxYjIyNTJkNTc1NTM0MDJiZmMzOWFiYzI1MzVkZmY",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "jrwn.xyz@gmail.com",
+        "date": "2026-10-31T07:17:36Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-10-31T07:17:36Z"
+      },
+      "message": "Initial commit",
+      "tree": {
+        "sha": "5de05b1c844910375d2ea87e11596afa85c72c54",
+        "url": "https://api.github.com/repos/jrwnnnn/scaffold/git/trees/5de05b1c844910375d2ea87e11596afa85c72c54"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/scaffold/git/commits/4b2ec77c021b2252d57553402bfc39abc2535dff",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq5ZYQCRC1aQ7uu5UhlAAAyd0QAHXSXzDGpmHU4c19k4Xh7z+7\ntMze6uoNkONxND1syHRuD1TtWgiYHaruTQZpYLjTxPDp+K7Pt4/CyA2pzH2J681f\nEFHFvDmH5TbZEmu5pMWxyv4I27jCweAqIio5XtZ4e+kI0Qhcm5WUUHXDOCtHNur3\nQKGCkS7a63t4PHtvl4RH+yU6HIQT/rzmkXjVGUAtU0zT2jRAWQnbzFR9hqCkcqK1\nNY/1Ea+7w2EQRbF9y91NXDWbEZUEMZ506s9xikNUo8YRJI1forb3g3RAkmZEGiSu\nriSyqfzJmGdoAsA2LsZ40djzzqTIXegQkX88oH/OCc6TR8ldzmBP+2fbyk8+1uaU\n83rqrrWgw07KjQERRV2Jt7fKeE/I8nnuvC2RJstTH4zZa2mJe1MOgSkS4+5Xa/73\napjbc9jXzBd/n/3kwCzMNYgnd6Px7ZNCXpO/1k7znKyBy+SSLZN0mQn0X5He/0fo\n9RymmR58BarL9o8KHuXliTN2oSQ8KrBHocBrIF8IJS8w7O93JuytjXPIz6vDvj3P\n6hjiBeWYGXd1UAAltM/dqBtK55N+6dhbP522hD6n3I386TlH8ubZ3lnLTff7AA1F\nn/pKAFpGUByPLJ1V9dF70EaR/AngFVxj/eQC3DlKOJxcLhUfKrYVQmrX0yXKWZ5j\n4rPp1HrTVntF81sssE+t\n=ojUj\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 5de05b1c844910375d2ea87e11596afa85c72c54\nauthor Mark Jerwin <jrwn.xyz@gmail.com> 1793431056 +0800\ncommitter GitHub <noreply@github.com> 1793431056 +0800\n\nInitial commit",
+        "verified_at": "2026-10-31T07:17:37Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/4b2ec77c021b2252d57553402bfc39abc2535dff",
+    "html_url": "https://github.com/jrwnnnn/scaffold/commit/4b2ec77c021b2252d57553402bfc39abc2535dff",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/4b2ec77c021b2252d57553402bfc39abc2535dff/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [],
+    "stats": {
+      "total": 21500,
+      "additions": 21500,
+      "deletions": 0
+    },
+    "files": [
+      {
+        "sha": "ab6d72fefa3c9aa405d960a73af2b80c3c4d18c3",
+        "filename": ".github/ISSUE_TEMPLATE/bug_report.yml",
+        "status": "added",
+        "additions": 62,
+        "deletions": 0,
+        "changes": 62,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/4b2ec77c021b2252d57553402bfc39abc2535dff/.github%2FISSUE_TEMPLATE%2Fbug_report.yml",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/4b2ec77c021b2252d57553402bfc39abc2535dff/.github%2FISSUE_TEMPLATE%2Fbug_report.yml",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/.github%2FISSUE_TEMPLATE%2Fbug_report.yml?ref=4b2ec77c021b2252d57553402bfc39abc2535dff",
+        "patch": "@@ -0,0 +1,62 @@\n+name: \"Bug report\"\n+description: Report an issue or possible bug\n+title: \"bug: \"\n+labels:\n+  - bug\n+body:\n+  - type: markdown\n+    attributes:\n+      value: |\n+        Thank you for taking the time to report a bug! Please include as much relevant information as possible.\n+\n+  - type: textarea\n+    attributes:\n+      label: Describe the bug\n+      description: A clear and concise description of what the bug is.\n+    validations:\n+      required: true\n+\n+  - type: textarea\n+    attributes:\n+      label: What's the expected result?\n+      description: Describe what you expect to happen.\n+    validations:\n+      required: true\n+\n+  - type: textarea\n+    attributes:\n+      label: Steps to reproduce\n+      description: How do you trigger this bug? Please walk us through it step by step.\n+    validations:\n+      required: true\n+\n+  - type: textarea\n+    attributes:\n+      label: System information\n+      description: OS and version, browser and version, Node.js version, Astro version, package manager, and any relevant environment details.\n+    validations:\n+      required: true\n+\n+  - type: textarea\n+    attributes:\n+      label: Additional information\n+      description: Is there anything else you think we should know?\n+\n+  - type: checkboxes\n+    attributes:\n+      label: Contributing a fix (thanks!)\n+      description: If you feel like you could contribute to this issue, please check the box below. This would tell us and other people looking for contributions that someone's working on it.\n+      options:\n+        - label: I would be willing to submit a pull request for this issue.\n+\n+  - type: checkboxes\n+    attributes:\n+      label: Self-check\n+      description: Before submitting the issue, please make sure you do the following.\n+      options:\n+        - label: Follow our [Code of Conduct](https://github.com/jrwnnnn/scaffold-astro/blob/main/CODE_OF_CONDUCT.md)\n+          required: true\n+        - label: Read the [Contributing Guidelines](https://github.com/jrwnnnn/scaffold-astro/blob/main/CONTRIBUTING.md).\n+          required: true\n+        - label: Check that there isn't [already an issue](https://github.com/jrwnnnn/scaffold-astro/issues) that reports the same bug to avoid creating a duplicate.\n+          required: true"
+      },
+      {
+        "sha": "1ffd4af1a245a80339ae1d6da884f592370abc07",
+        "filename": ".github/ISSUE_TEMPLATE/feature_request.yml",
+        "status": "added",
+        "additions": 48,
+        "deletions": 0,
+        "changes": 48,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/4b2ec77c021b2252d57553402bfc39abc2535dff/.github%2FISSUE_TEMPLATE%2Ffeature_request.yml",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/4b2ec77c021b2252d57553402bfc39abc2535dff/.github%2FISSUE_TEMPLATE%2Ffeature_request.yml",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/.github%2FISSUE_TEMPLATE%2Ffeature_request.yml?ref=4b2ec77c021b2252d57553402bfc39abc2535dff",
+        "patch": "@@ -0,0 +1,48 @@\n+name: \"Feature Request\"\n+description: Suggest an idea, feature, or enhancement\n+title: \"feat: \"\n+labels:\n+  - enhancement\n+body:\n+  - type: markdown\n+    attributes:\n+      value: |\n+        Thank you for taking the time to suggest an idea or enhancement!\n+\n+  - type: textarea\n+    attributes:\n+      label: Problem statement\n+      description: What is the problem this feature would solve?\n+    validations:\n+      required: true\n+\n+  - type: textarea\n+    attributes:\n+      label: Proposed solution\n+      description: What change or behavior would you like to see?\n+    validations:\n+      required: true\n+\n+  - type: textarea\n+    attributes:\n+      label: Alternatives considered\n+      description: Any workarounds or alternative approaches you considered.\n+\n+  - type: checkboxes\n+    attributes:\n+      label: Contributing to this feature (thanks!)\n+      description: If you plan to contribute a pull request for this feature, please check the box below. This lets us and others know that someone is interested in working on it.\n+      options:\n+        - label: I would be willing to submit a pull request for this feature.\n+\n+  - type: checkboxes\n+    attributes:\n+      label: Self-check\n+      description: Before submitting the issue, please make sure you do the following.\n+      options:\n+        - label: Follow our [Code of Conduct](https://github.com/jrwnnnn/scaffold-astro/blob/main/CODE_OF_CONDUCT.md)\n+          required: true\n+        - label: Read the [Contributing Guidelines](https://github.com/jrwnnnn/scaffold-astro/blob/main/CONTRIBUTING.md).\n+          required: true\n+        - label: Check that there isn't [already an issue](https://github.com/jrwnnnn/scaffold-astro/issues) that is requesting the same feature to avoid creating a duplicate.\n+          required: true"
+      },
+      {
+        "sha": "040baa00309c92905dc3a6509818fc640823b525",
+        "filename": ".github/workflows/main.yml",
+        "status": "added",
+        "additions": 87,
+        "deletions": 0,
+        "changes": 87,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/4b2ec77c021b2252d57553402bfc39abc2535dff/.github%2Fworkflows%2Fmain.yml",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/4b2ec77c021b2252d57553402bfc39abc2535dff/.github%2Fworkflows%2Fmain.yml",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/.github%2Fworkflows%2Fmain.yml?ref=4b2ec77c021b2252d57553402bfc39abc2535dff",
+        "patch": "@@ -0,0 +1,87 @@\n+name: CI/CD\n+\n+on:\n+  push:\n+    branches: [main]\n+  pull_request:\n+  workflow_dispatch:\n+\n+jobs:\n+  prettier:\n+    runs-on: ubuntu-latest\n+    steps:\n+      - uses: actions/checkout@v4\n+      - uses: actions/setup-node@v4\n+        with:\n+          node-version: 24\n+          cache: \"npm\"\n+      - run: npm ci\n+      - run: npx prettier --check .\n+\n+  lint:\n+    runs-on: ubuntu-latest\n+    steps:\n+      - uses: actions/checkout@v4\n+      - uses: actions/setup-node@v4\n+        with:\n+          node-version: 24\n+          cache: \"npm\"\n+      - run: npm ci\n+      - run: npx eslint .\n+\n+  typecheck:\n+    runs-on: ubuntu-latest\n+    steps:\n+      - uses: actions/checkout@v4\n+      - uses: actions/setup-node@v4\n+        with:\n+          node-version: 24\n+          cache: \"npm\"\n+      - run: npm ci\n+      - run: npx astro check\n+\n+  codeql:\n+    runs-on: ubuntu-latest\n+    permissions:\n+      security-events: write\n+      actions: read\n+      contents: read\n+    steps:\n+      - uses: actions/checkout@v4\n+\n+      - name: Initialize CodeQL\n+        uses: github/codeql-action/init@v4\n+        with:\n+          languages: javascript-typescript\n+\n+      - name: Perform Analysis\n+        uses: github/codeql-action/analyze@v4\n+\n+  build:\n+    needs: [lint, typecheck, codeql]\n+    runs-on: ubuntu-latest\n+    permissions:\n+      contents: read\n+    steps:\n+      - uses: actions/checkout@v4\n+\n+      - name: Set up Node.js version\n+        uses: actions/setup-node@v4\n+        with:\n+          node-version: 24\n+          cache: \"npm\"\n+\n+      - name: Install dependencies\n+        run: npm ci\n+\n+      - name: Build\n+        run: npm run build\n+\n+      - name: Prune dev dependencies\n+        run: npm prune --production\n+\n+      - name: Upload Artifact\n+        uses: actions/upload-artifact@v4\n+        with:\n+          name: scaffold\n+          path: ."
+      },
+      {
+        "sha": "d2b7a2ce43b218c6c34ee0b01b0922dafa2b9c89",
+        "filename": ".gitignore",
+        "status": "added",
+        "additions": 40,
+        "deletions": 0,
+        "changes": 40,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/4b2ec77c021b2252d57553402bfc39abc2535dff/.gitignore",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/4b2ec77c021b2252d57553402bfc39abc2535dff/.gitignore",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/.gitignore?ref=4b2ec77c021b2252d57553402bfc39abc2535dff",
+        "patch": "@@ -0,0 +1,40 @@\n+# build output\n+dist/\n+\n+# generated types\n+.astro/\n+\n+# wrangler files\n+.wrangler/\n+\n+# dependencies\n+node_modules/\n+\n+# test Files\n+test*\n+\n+# logs\n+npm-debug.log*\n+yarn-debug.log*\n+yarn-error.log*\n+pnpm-debug.log*\n+\n+# environment variables\n+.env\n+.env.production\n+.dev.vars\n+\n+# private keys and certificates\n+*.key\n+*.pem\n+\n+# windows\n+Thumbs.db\n+ehthumbs.db\n+Desktop.ini\n+\n+# macOS-specific files\n+.DS_Store\n+\n+# jetbrains setting folder\n+.idea/"
+      },
+      {
+        "sha": "1b621c0a96ee7f9e262c8cc1ac3b0e384be2ffe8",
+        "filename": ".husky/pre-commit",
+        "status": "added",
+        "additions": 2,
+        "deletions": 0,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/4b2ec77c021b2252d57553402bfc39abc2535dff/.husky%2Fpre-commit",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/4b2ec77c021b2252d57553402bfc39abc2535dff/.husky%2Fpre-commit",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/.husky%2Fpre-commit?ref=4b2ec77c021b2252d57553402bfc39abc2535dff",
+        "patch": "@@ -0,0 +1,2 @@\n+npm test\n+npx lint-staged"
+      },
+      {
+        "sha": "e722fb8767697b98b458d41c962714f99f9a1733",
+        "filename": ".prettierignore",
+        "status": "added",
+        "additions": 5,
+        "deletions": 0,
+        "changes": 5,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/4b2ec77c021b2252d57553402bfc39abc2535dff/.prettierignore",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/4b2ec77c021b2252d57553402bfc39abc2535dff/.prettierignore",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/.prettierignore?ref=4b2ec77c021b2252d57553402bfc39abc2535dff",
+        "patch": "@@ -0,0 +1,5 @@\n+package-lock.json\n+dist\n+.astro\n+node_modules\n+worker-configuration.d.ts"
+      },
+      {
+        "sha": "d6b0f458304218b0417dd55ba8aeeb646956424c",
+        "filename": ".prettierrc",
+        "status": "added",
+        "additions": 13,
+        "deletions": 0,
+        "changes": 13,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/4b2ec77c021b2252d57553402bfc39abc2535dff/.prettierrc",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/4b2ec77c021b2252d57553402bfc39abc2535dff/.prettierrc",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/.prettierrc?ref=4b2ec77c021b2252d57553402bfc39abc2535dff",
+        "patch": "@@ -0,0 +1,13 @@\n+{\n+\t\"useTabs\": true,\n+\t\"bracketSameLine\": false,\n+\t\"plugins\": [\"prettier-plugin-astro\", \"prettier-plugin-tailwindcss\"],\n+\t\"overrides\": [\n+\t\t{\n+\t\t\t\"files\": \"*.astro\",\n+\t\t\t\"options\": {\n+\t\t\t\t\"parser\": \"astro\"\n+\t\t\t}\n+\t\t}\n+\t]\n+}"
+      },
+      {
+        "sha": "b28082103d04cbaaeaac42c048f87f8ae84be288",
+        "filename": ".vscode/extensions.json",
+        "status": "added",
+        "additions": 8,
+        "deletions": 0,
+        "changes": 8,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/4b2ec77c021b2252d57553402bfc39abc2535dff/.vscode%2Fextensions.json",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/4b2ec77c021b2252d57553402bfc39abc2535dff/.vscode%2Fextensions.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/.vscode%2Fextensions.json?ref=4b2ec77c021b2252d57553402bfc39abc2535dff",
+        "patch": "@@ -0,0 +1,8 @@\n+{\n+\t\"recommendations\": [\n+\t\t\"esbenp.prettier-vscode\",\n+\t\t\"astro-build.astro-vscode\",\n+\t\t\"bradlc.vscode-tailwindcss\",\n+\t\t\"yzhang.markdown-all-in-one\"\n+\t]\n+}"
+      },
+      {
+        "sha": "383f369beef586e9c7da9f0d530579c37c9c7c24",
+        "filename": ".vscode/settings.json",
+        "status": "added",
+        "additions": 6,
+        "deletions": 0,
+        "changes": 6,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/4b2ec77c021b2252d57553402bfc39abc2535dff/.vscode%2Fsettings.json",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/4b2ec77c021b2252d57553402bfc39abc2535dff/.vscode%2Fsettings.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/.vscode%2Fsettings.json?ref=4b2ec77c021b2252d57553402bfc39abc2535dff",
+        "patch": "@@ -0,0 +1,6 @@\n+{\n+\t\"[astro]\": {\n+\t\t\"editor.defaultFormatter\": \"esbenp.prettier-vscode\"\n+\t},\n+\t\"editor.formatOnSave\": true\n+}"
+      },
+      {
+        "sha": "154a9e91c5a13c7b6949181220ecf2653fa606d4",
+        "filename": "CODE_OF_CONDUCT.md",
+        "status": "added",
+        "additions": 83,
+        "deletions": 0,
+        "changes": 83,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/4b2ec77c021b2252d57553402bfc39abc2535dff/CODE_OF_CONDUCT.md",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/4b2ec77c021b2252d57553402bfc39abc2535dff/CODE_OF_CONDUCT.md",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/CODE_OF_CONDUCT.md?ref=4b2ec77c021b2252d57553402bfc39abc2535dff",
+        "patch": "@@ -0,0 +1,83 @@\n+# Contributor Covenant Code of Conduct\n+\n+## Our Pledge\n+\n+We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.\n+\n+We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.\n+\n+## Our Standards\n+\n+Examples of behavior that contributes to a positive environment for our community include:\n+\n+- Demonstrating empathy and kindness toward other people\n+- Being respectful of differing opinions, viewpoints, and experiences\n+- Giving and gracefully accepting constructive feedback\n+- Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience\n+- Focusing on what is best not just for us as individuals, but for the overall community\n+\n+Examples of unacceptable behavior include:\n+\n+- The use of sexualized language or imagery, and sexual attention or advances of any kind\n+- Trolling, insulting or derogatory comments, and personal or political attacks\n+- Public or private harassment\n+- Publishing others' private information, such as a physical or email address, without their explicit permission\n+- Other conduct which could reasonably be considered inappropriate in a professional setting\n+\n+## Enforcement Responsibilities\n+\n+Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.\n+\n+Community leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.\n+\n+## Scope\n+\n+This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event.\n+\n+## Enforcement\n+\n+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at [ping@jrwnnnn.me](mailto:ping@jrwnnnn.me). All complaints will be reviewed and investigated promptly and fairly.\n+\n+All community leaders are obligated to respect the privacy and security of the reporter of any incident.\n+\n+## Enforcement Guidelines\n+\n+Community leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:\n+\n+### 1. Correction\n+\n+**Community Impact**: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.\n+\n+**Consequence**: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.\n+\n+### 2. Warning\n+\n+**Community Impact**: A violation through a single incident or series of actions.\n+\n+**Consequence**: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.\n+\n+### 3. Temporary Ban\n+\n+**Community Impact**: A serious violation of community standards, including sustained inappropriate behavior.\n+\n+**Consequence**: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.\n+\n+### 4. Permanent Ban\n+\n+**Community Impact**: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.\n+\n+**Consequence**: A permanent ban from any sort of public interaction within the community.\n+\n+## Attribution\n+\n+This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 2.1, available at [https://www.contributor-covenant.org/version/2/1/code_of_conduct.html][v2.1].\n+\n+Community Impact Guidelines were inspired by [Mozilla's code of conduct enforcement ladder][Mozilla CoC].\n+\n+For answers to common questions about this code of conduct, see the FAQ at [https://www.contributor-covenant.org/faq][FAQ]. Translations are available at [https://www.contributor-covenant.org/translations][translations].\n+\n+[homepage]: https://www.contributor-covenant.org\n+[v2.1]: https://www.contributor-covenant.org/version/2/1/code_of_conduct.html\n+[Mozilla CoC]: https://github.com/mozilla/diversity\n+[FAQ]: https://www.contributor-covenant.org/faq\n+[translations]: https://www.contributor-covenant.org/translations"
+      },
+      {
+        "sha": "93b35761b5347db08f71a9f459fd136bd3b28308",
+        "filename": "CONTRIBUTING.md",
+        "status": "added",
+        "additions": 72,
+        "deletions": 0,
+        "changes": 72,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/4b2ec77c021b2252d57553402bfc39abc2535dff/CONTRIBUTING.md",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/4b2ec77c021b2252d57553402bfc39abc2535dff/CONTRIBUTING.md",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/CONTRIBUTING.md?ref=4b2ec77c021b2252d57553402bfc39abc2535dff",
+        "patch": "@@ -0,0 +1,72 @@\n+# Contributing\n+\n+First off, thanks for taking the time to contribute! These are the guidelines for contributing to this project.\n+\n+## Code of Conduct\n+\n+All contributors are expected to adhere to the [Code of Conduct](CODE_OF_CONDUCT.md).\n+\n+## Reporting Issues\n+\n+Before writing any code, please [open an issue](https://github.com/jrwnnnn/scaffold-astro/issues) or comment on an existing one. This ensures we do not have multiple people working on the same feature and allows us to discuss the approach before you invest time in building it.\n+\n+## Development Setup\n+\n+Make sure you have the latest LTS version of [Node.js](https://nodejs.org/en/download/current) installed.\n+\n+Clone the repository:\n+\n+```bash\n+git clone https://github.com/jrwnnnn/scaffold-astro.git\n+cd rekord\n+```\n+\n+Install the required dependencies:\n+\n+```bash\n+npm install\n+```\n+\n+Start the development server:\n+\n+```bash\n+npm run dev       # optional: pass --host flag to expose the server to the local network\n+```\n+\n+Bundle the project for production:\n+\n+```bash\n+npm run build\n+```\n+\n+## Development Guidelines\n+\n+### Branching Strategy\n+\n+- `main` contains the latest stable development code.\n+- Create a new branch for each feature or bug fix. Use descriptive names like `feat/new-feature-name` or `fix/issue-description`.\n+\n+### Testing\n+\n+Ensure all checks pass before submitting a pull request by running:\n+\n+```bash\n+npm run test\n+\n+```\n+\n+### Code Style\n+\n+This project enforces a consistent code style using [Prettier](https://prettier.io/). A `.prettierrc` file is included in the project root to configure Prettier.\n+\n+### Commit Messages\n+\n+Follow the [Conventional Commits v1.0.0](https://www.conventionalcommits.org/en/v1.0.0/) specification.\n+\n+## Submitting a Pull Request\n+\n+1. Push your branch to your fork.\n+2. Open a Pull Request against the main branch.\n+3. Provide a concise summary of changes, problem analysis, and testing steps in the PR description.\n+4. Ensure continuous integration checks pass.\n+5. Address reviewer feedback promptly."
+      },
+      {
+        "sha": "43dbf8d66df86108df5fc08ad3b457adde54a782",
+        "filename": "LICENSE",
+        "status": "added",
+        "additions": 21,
+        "deletions": 0,
+        "changes": 21,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/4b2ec77c021b2252d57553402bfc39abc2535dff/LICENSE",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/4b2ec77c021b2252d57553402bfc39abc2535dff/LICENSE",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/LICENSE?ref=4b2ec77c021b2252d57553402bfc39abc2535dff",
+        "patch": "@@ -0,0 +1,21 @@\n+MIT License\n+\n+Copyright (c) 2026 Mark Jerwin\n+\n+Permission is hereby granted, free of charge, to any person obtaining a copy\n+of this software and associated documentation files (the \"Software\"), to deal\n+in the Software without restriction, including without limitation the rights\n+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n+copies of the Software, and to permit persons to whom the Software is\n+furnished to do so, subject to the following conditions:\n+\n+The above copyright notice and this permission notice shall be included in all\n+copies or substantial portions of the Software.\n+\n+THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n+SOFTWARE."
+      },
+      {
+        "sha": "50c8c697e88bdf5bb01d850497ef88d21d7c236b",
+        "filename": "README.md",
+        "status": "added",
+        "additions": 42,
+        "deletions": 0,
+        "changes": 42,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/4b2ec77c021b2252d57553402bfc39abc2535dff/README.md",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/4b2ec77c021b2252d57553402bfc39abc2535dff/README.md",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/README.md?ref=4b2ec77c021b2252d57553402bfc39abc2535dff",
+        "patch": "@@ -0,0 +1,42 @@\n+<h1 align=\"center\">Project Name</h1>\n+\n+<p align=\"center\"><i>Quick one-liner about what this project does.</i></p>\n+\n+<div align=\"center\">\n+   <!-- FIND PREMADE BADGES HERE: https://github.com/Ileriayo/markdown-badges -->\n+   <a href=\"https://astro.build\"><img src=\"https://img.shields.io/badge/astro-%232C2052.svg?style=for-the-badge&logo=astro&logoColor=white\"></a>\n+   <a href=\"https://www.typescriptlang.org/\"><img src=\"https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white\"></a>\n+   <a href=\"https://sqlite.org\"><img src=\"https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white\"></a>\n+   <a href=\"./LICENSE\"><img src=\"https://img.shields.io/github/license/jrwnnnn/scaffold?style=for-the-badge\"></a>\n+   <a href=\"https://github.com/jrwnnnn/scaffold/stargazers\"><img src=\"https://img.shields.io/github/stars/jrwnnnn/scaffold?style=for-the-badge\"></a>\n+</div>\n+\n+<br>\n+\n+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n+\n+## Support\n+\n+If you run into any issues, please [open an issue](https://github.com/jrwnnnn/scaffold/issues) and include all relevant details needed to diagnose the problem.\n+\n+## License\n+\n+Distributed under the MIT License.\n+Copyright (c) 2026 Mark Jerwin(@jrwnnnn). All rights reserved.\n+\n+See the [LICENSE](LICENSE) file for full details.\n+\n+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n+\n+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n+\n+## Contributors\n+\n+<a href=\"https://github.com/jrwnnnn/scaffold/graphs/contributors\">\n+  <img src=\"https://contrib.rocks/image?repo=jrwnnnn/scaffold\" />\n+</a>\n+\n+<br>\n+<br>\n+\n+<img src=\"https://forthebadge.com/images/badges/built-with-love.svg\">"
+      },
+      {
+        "sha": "970cedc902073db7bda56c02b9d0bee6894a52d6",
+        "filename": "astro.config.mjs",
+        "status": "added",
+        "additions": 15,
+        "deletions": 0,
+        "changes": 15,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/4b2ec77c021b2252d57553402bfc39abc2535dff/astro.config.mjs",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/4b2ec77c021b2252d57553402bfc39abc2535dff/astro.config.mjs",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/astro.config.mjs?ref=4b2ec77c021b2252d57553402bfc39abc2535dff",
+        "patch": "@@ -0,0 +1,15 @@\n+// @ts-check\n+import { defineConfig } from \"astro/config\";\n+import tailwindcss from \"@tailwindcss/vite\";\n+import cloudflare from \"@astrojs/cloudflare\";\n+\n+export default defineConfig({\n+\tsite: \"https://jrwnnnn.me\",\n+\toutput: \"server\",\n+\tadapter: cloudflare({\n+\t\tremoteBindings: !process.env.CI,\n+\t}),\n+\tvite: {\n+\t\tplugins: [tailwindcss()],\n+\t},\n+});"
+      },
+      {
+        "sha": "ac90a47b4ff8d1a786a9bf982d0200d9907b3c56",
+        "filename": "eslint.config.mjs",
+        "status": "added",
+        "additions": 8,
+        "deletions": 0,
+        "changes": 8,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/4b2ec77c021b2252d57553402bfc39abc2535dff/eslint.config.mjs",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/4b2ec77c021b2252d57553402bfc39abc2535dff/eslint.config.mjs",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/eslint.config.mjs?ref=4b2ec77c021b2252d57553402bfc39abc2535dff",
+        "patch": "@@ -0,0 +1,8 @@\n+import eslintPluginAstro from \"eslint-plugin-astro\";\n+import tseslint from \"typescript-eslint\";\n+\n+export default [\n+\t{ ignores: [\".astro/**\", \"dist/**\", \"node_modules/**\", \".wrangler/**\"] },\n+\t...tseslint.configs.recommended,\n+\t...eslintPluginAstro.configs.recommended,\n+];"
+      },
+      {
+        "sha": "bdb143736933fff2986eb08a16b08f499fb29789",
+        "filename": "package-lock.json",
+        "status": "added",
+        "additions": 7893,
+        "deletions": 0,
+        "changes": 7893,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/4b2ec77c021b2252d57553402bfc39abc2535dff/package-lock.json",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/4b2ec77c021b2252d57553402bfc39abc2535dff/package-lock.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/package-lock.json?ref=4b2ec77c021b2252d57553402bfc39abc2535dff"
+      },
+      {
+        "sha": "b32722028cfccbc96ab3d91b978dc81fcdc24766",
+        "filename": "package.json",
+        "status": "added",
+        "additions": 39,
+        "deletions": 0,
+        "changes": 39,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/4b2ec77c021b2252d57553402bfc39abc2535dff/package.json",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/4b2ec77c021b2252d57553402bfc39abc2535dff/package.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/package.json?ref=4b2ec77c021b2252d57553402bfc39abc2535dff",
+        "patch": "@@ -0,0 +1,39 @@\n+{\n+\t\"name\": \"jrwnnnn\",\n+\t\"type\": \"module\",\n+\t\"version\": \"0.0.1\",\n+\t\"scripts\": {\n+\t\t\"dev\": \"astro dev\",\n+\t\t\"build\": \"astro build\",\n+\t\t\"preview\": \"astro preview\",\n+\t\t\"generate-types\": \"wrangler types\",\n+\t\t\"test\": \"npx eslint . && npx astro check && npm run build\",\n+\t\t\"prepare\": \"husky\"\n+\t},\n+\t\"lint-staged\": {\n+\t\t\"*.{astro,css,js,json,md,mjs,ts,yaml}\": \"prettier --write\"\n+\t},\n+\t\"dependencies\": {\n+\t\t\"@astrojs/cloudflare\": \"^14.3.1\",\n+\t\t\"@tailwindcss/vite\": \"^4.3.3\",\n+\t\t\"astro\": \"^7.3.2\",\n+\t\t\"tailwindcss\": \"^4.3.3\"\n+\t},\n+\t\"devDependencies\": {\n+\t\t\"@astrojs/check\": \"^0.9.10\",\n+\t\t\"@cloudflare/workers-types\": \"^5.20260915.1\",\n+\t\t\"@eslint/js\": \"^10.0.1\",\n+\t\t\"@types/node\": \"^25.6.0\",\n+\t\t\"eslint\": \"^10.0.2\",\n+\t\t\"eslint-plugin-astro\": \"^1.6.0\",\n+\t\t\"husky\": \"^9.1.7\",\n+\t\t\"lint-staged\": \"^17.6.0\",\n+\t\t\"prettier\": \"^3.8.1\",\n+\t\t\"prettier-plugin-astro\": \"^0.14.1\",\n+\t\t\"prettier-plugin-tailwindcss\": \"^0.7.2\",\n+\t\t\"typescript\": \"^5.9.3\",\n+\t\t\"typescript-eslint\": \"^8.56.1\",\n+\t\t\"vite\": \"^8.3.5\",\n+\t\t\"wrangler\": \"^4.131.2\"\n+\t}\n+}"
+      },
+      {
+        "sha": "052c94d7c10212160e85ebb91694d296147d7f8e",
+        "filename": "public/favicon.png",
+        "status": "added",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/4b2ec77c021b2252d57553402bfc39abc2535dff/public%2Ffavicon.png",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/4b2ec77c021b2252d57553402bfc39abc2535dff/public%2Ffavicon.png",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/public%2Ffavicon.png?ref=4b2ec77c021b2252d57553402bfc39abc2535dff"
+      },
+      {
+        "sha": "a1b841463779887050058f2b6136655626028752",
+        "filename": "public/meta/meta-image.jpg",
+        "status": "added",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/4b2ec77c021b2252d57553402bfc39abc2535dff/public%2Fmeta%2Fmeta-image.jpg",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/4b2ec77c021b2252d57553402bfc39abc2535dff/public%2Fmeta%2Fmeta-image.jpg",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/public%2Fmeta%2Fmeta-image.jpg?ref=4b2ec77c021b2252d57553402bfc39abc2535dff"
+      },
+      {
+        "sha": "339f8ae914ccdc270ecb2e59e11c4d3911dff4f3",
+        "filename": "src/layouts/Layout.astro",
+        "status": "added",
+        "additions": 41,
+        "deletions": 0,
+        "changes": 41,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/4b2ec77c021b2252d57553402bfc39abc2535dff/src%2Flayouts%2FLayout.astro",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/4b2ec77c021b2252d57553402bfc39abc2535dff/src%2Flayouts%2FLayout.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/src%2Flayouts%2FLayout.astro?ref=4b2ec77c021b2252d57553402bfc39abc2535dff",
+        "patch": "@@ -0,0 +1,41 @@\n+---\n+import \"../styles/global.css\";\n+\n+const {\n+\ttitle,\n+\tdescription = \"Hello! It's Jerwin! I'm a student based in Manila, PH. I build things for the web. My code is held together by duct tape and prayers. I spend more time customizing my VS Code theme than actually coding. If you see a bug, no you didn't.\",\n+\trobots = \"index, follow\",\n+\togType = \"website\",\n+\timage = \"https://scaffold.main-973.workers.dev/meta/meta-image.jpg\",\n+} = Astro.props;\n+---\n+\n+<!doctype html>\n+<html lang=\"en\">\n+\t<head>\n+\t\t<meta charset=\"UTF-8\" />\n+\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n+\t\t<link rel=\"canonical\" href={new URL(Astro.url.pathname, Astro.site).href} />\n+\n+\t\t<title>{title}</title>\n+\t\t<meta name=\"description\" content={description} />\n+\t\t<meta name=\"robots\" content={robots} />\n+\n+\t\t<meta property=\"og:type\" content={ogType} />\n+\t\t<meta\n+\t\t\tproperty=\"og:url\"\n+\t\t\tcontent={new URL(Astro.url.pathname, Astro.site).href}\n+\t\t/>\n+\t\t<meta property=\"og:title\" content={title} />\n+\t\t<meta property=\"og:description\" content={description} />\n+\t\t<meta property=\"og:image\" content={image} />\n+\n+\t\t<meta name=\"twitter:card\" content=\"summary_large_image\" />\n+\n+\t\t<meta name=\"theme-color\" content=\"#000000\" />\n+\t\t<link rel=\"icon\" type=\"image/png\" href=\"/favicon.png\" />\n+\t</head>\n+\t<body>\n+\t\t<slot />\n+\t</body>\n+</html>"
+      },
+      {
+        "sha": "4a58a3aee59dd0faefa6d71641231d7049c5a810",
+        "filename": "src/pages/index.astro",
+        "status": "added",
+        "additions": 7,
+        "deletions": 0,
+        "changes": 7,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/4b2ec77c021b2252d57553402bfc39abc2535dff/src%2Fpages%2Findex.astro",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/4b2ec77c021b2252d57553402bfc39abc2535dff/src%2Fpages%2Findex.astro",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/src%2Fpages%2Findex.astro?ref=4b2ec77c021b2252d57553402bfc39abc2535dff",
+        "patch": "@@ -0,0 +1,7 @@\n+---\n+import Layout from \"../layouts/Layout.astro\";\n+---\n+\n+<Layout title=\"Astro Scaffold\">\n+\t<main>Hello World</main>\n+</Layout>"
+      },
+      {
+        "sha": "6fa6350df5527743c36e5e58611a127edb7566b5",
+        "filename": "src/styles/global.css",
+        "status": "added",
+        "additions": 8,
+        "deletions": 0,
+        "changes": 8,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/4b2ec77c021b2252d57553402bfc39abc2535dff/src%2Fstyles%2Fglobal.css",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/4b2ec77c021b2252d57553402bfc39abc2535dff/src%2Fstyles%2Fglobal.css",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/src%2Fstyles%2Fglobal.css?ref=4b2ec77c021b2252d57553402bfc39abc2535dff",
+        "patch": "@@ -0,0 +1,8 @@\n+@import \"tailwindcss\";\n+body {\n+\t@apply flex min-h-dvh flex-col overflow-x-hidden;\n+}\n+\n+main {\n+\t@apply grow px-5 py-20 md:px-20 lg:px-30;\n+}"
+      },
+      {
+        "sha": "f71060c681db78047323445ba8ac80f4f444f91e",
+        "filename": "tsconfig.json",
+        "status": "added",
+        "additions": 11,
+        "deletions": 0,
+        "changes": 11,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/4b2ec77c021b2252d57553402bfc39abc2535dff/tsconfig.json",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/4b2ec77c021b2252d57553402bfc39abc2535dff/tsconfig.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/tsconfig.json?ref=4b2ec77c021b2252d57553402bfc39abc2535dff",
+        "patch": "@@ -0,0 +1,11 @@\n+{\n+\t\"extends\": \"astro/tsconfigs/strict\",\n+\t\"include\": [\".astro/types.d.ts\", \"**/*\", \"./worker-configuration.d.ts\"],\n+\t\"exclude\": [\"dist\"],\n+\t\"compilerOptions\": {\n+\t\t\"paths\": {\n+\t\t\t\"@utils/*\": [\"./src/utils/*\"]\n+\t\t},\n+\t\t\"types\": [\"@cloudflare/workers-types\"]\n+\t}\n+}"
+      },
+      {
+        "sha": "f36316a1a7d9b9c97439ad1bae987873872b9358",
+        "filename": "worker-configuration.d.ts",
+        "status": "added",
+        "additions": 12976,
+        "deletions": 0,
+        "changes": 12976,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/4b2ec77c021b2252d57553402bfc39abc2535dff/worker-configuration.d.ts",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/4b2ec77c021b2252d57553402bfc39abc2535dff/worker-configuration.d.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/worker-configuration.d.ts?ref=4b2ec77c021b2252d57553402bfc39abc2535dff"
+      },
+      {
+        "sha": "516ce13855106b47b0a5863ca765924a35d70482",
+        "filename": "wrangler.json",
+        "status": "added",
+        "additions": 13,
+        "deletions": 0,
+        "changes": 13,
+        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/4b2ec77c021b2252d57553402bfc39abc2535dff/wrangler.json",
+        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/4b2ec77c021b2252d57553402bfc39abc2535dff/wrangler.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/wrangler.json?ref=4b2ec77c021b2252d57553402bfc39abc2535dff",
+        "patch": "@@ -0,0 +1,13 @@\n+{\n+\t\"compatibility_date\": \"2026-04-01\",\n+\t\"compatibility_flags\": [\"global_fetch_strictly_public\", \"nodejs_compat\"],\n+\t\"name\": \"scaffold\",\n+\t\"main\": \"@astrojs/cloudflare/entrypoints/server\",\n+\t\"assets\": {\n+\t\t\"directory\": \"./dist\",\n+\t\t\"binding\": \"ASSETS\"\n+\t},\n+\t\"observability\": {\n+\t\t\"enabled\": true\n+\t}\n+}"
+      }
+    ]
+  },
+  {
+    "sha": "be4920525b80b3766573ac1d59ebac310d369419",
+    "node_id": "C_kwDORJSDNtoAKGJlNDkyMDUyNWI4MGIzNzY2NTczYWMxZDU5ZWJhYzMxMGQzNjk0MTk",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "ping@jrwnnnn.me",
+        "date": "2026-10-31T07:16:43Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-10-31T07:16:43Z"
+      },
+      "message": "fix: Issue template directory name [skip ci] (#58)",
+      "tree": {
+        "sha": "5de05b1c844910375d2ea87e11596afa85c72c54",
+        "url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/git/trees/5de05b1c844910375d2ea87e11596afa85c72c54"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/git/commits/be4920525b80b3766573ac1d59ebac310d369419",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq5ZXbCRC1aQ7uu5UhlAAASEMQAD5BhKfbRT0qj5KowmPsG7pI\njWrsjhkfqHP2GuY43RCdRzN2TeBg34q+cK7/FvFdF3ng2QOE3o9s3CDfJOY9rb5w\nOsi8yxCbsJQzNkN5c6072zBYL5BnP2eCd0TAHwpu7r2JUT3w1u9QEI3prqtoCebe\nGw6YCKuI9j2s0hBq65grnPAIIivgohHgfrtSrXvGsbHX9ZuHZig9gWbH/YNYBTrD\nhzr0slpX+wpXygawROfoTj8NgsJ3mLIOpg5fd+u3mZgrjT+GR5wcMEVonSkYDIPZ\nPRheqc8bq++fTcjXqi+K+3KDg2waC19adBgc3pk1srUaOcD2fsggyWUAqHQK8hYf\nPyshDtUQkSqhVXnGcGrt4vd9V56DRvasEUCLLOO/p2qdx5X4Y+moLHZHL+FQEJTp\npu8PZ74moYGqSbxl3fb0eaVKD1V5inBkxAcwCKVWeEpRb7aK9Eige7e6nvwvZn5x\nUi5SVSOAzHEh3QPyD+HpVjMslDd3jz2n+vJlGM/YSelreZnT9zKiJzGivj5EQU7q\nKqNU8z6C7o3fbw/csJQatT79AixjbSqeYa+Z0nZIoBJtgpK8wETtNZXVNu6LHbf1\nacnaz0xA7ZfUE3y7KxTXwVFL1aOr1hyv5oROiVWhMiGXye/JI3kSNOLZutqn4Kzb\nwrYOxGaekcv0ON1r2o37\n=22A3\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 5de05b1c844910375d2ea87e11596afa85c72c54\nparent 7630b43d492291abd84cf5f447bb47ef8bebca38\nauthor Mark Jerwin <ping@jrwnnnn.me> 1793431003 +0800\ncommitter GitHub <noreply@github.com> 1793431003 +0800\n\nfix: Issue template directory name [skip ci] (#58)",
+        "verified_at": "2026-10-31T07:16:44Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/commits/be4920525b80b3766573ac1d59ebac310d369419",
+    "html_url": "https://github.com/jrwnnnn/scaffold-astro/commit/be4920525b80b3766573ac1d59ebac310d369419",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/commits/be4920525b80b3766573ac1d59ebac310d369419/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7630b43d492291abd84cf5f447bb47ef8bebca38",
+        "url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/commits/7630b43d492291abd84cf5f447bb47ef8bebca38",
+        "html_url": "https://github.com/jrwnnnn/scaffold-astro/commit/7630b43d492291abd84cf5f447bb47ef8bebca38"
+      }
+    ],
+    "stats": {
+      "total": 0,
+      "additions": 0,
+      "deletions": 0
+    },
+    "files": [
+      {
+        "sha": "ab6d72fefa3c9aa405d960a73af2b80c3c4d18c3",
+        "filename": ".github/ISSUE_TEMPLATE/bug_report.yml",
+        "status": "renamed",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/scaffold-astro/blob/be4920525b80b3766573ac1d59ebac310d369419/.github%2FISSUE_TEMPLATE%2Fbug_report.yml",
+        "raw_url": "https://github.com/jrwnnnn/scaffold-astro/raw/be4920525b80b3766573ac1d59ebac310d369419/.github%2FISSUE_TEMPLATE%2Fbug_report.yml",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/contents/.github%2FISSUE_TEMPLATE%2Fbug_report.yml?ref=be4920525b80b3766573ac1d59ebac310d369419",
+        "previous_filename": ".github/ISSUE_TEMPLATES/bug_report.yml"
+      },
+      {
+        "sha": "1ffd4af1a245a80339ae1d6da884f592370abc07",
+        "filename": ".github/ISSUE_TEMPLATE/feature_request.yml",
+        "status": "renamed",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/scaffold-astro/blob/be4920525b80b3766573ac1d59ebac310d369419/.github%2FISSUE_TEMPLATE%2Ffeature_request.yml",
+        "raw_url": "https://github.com/jrwnnnn/scaffold-astro/raw/be4920525b80b3766573ac1d59ebac310d369419/.github%2FISSUE_TEMPLATE%2Ffeature_request.yml",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/contents/.github%2FISSUE_TEMPLATE%2Ffeature_request.yml?ref=be4920525b80b3766573ac1d59ebac310d369419",
+        "previous_filename": ".github/ISSUE_TEMPLATES/feature_request.yml"
+      }
+    ]
+  },
+  {
+    "sha": "7630b43d492291abd84cf5f447bb47ef8bebca38",
+    "node_id": "C_kwDORJSDNtoAKDc2MzBiNDNkNDkyMjkxYWJkODRjZjVmNDQ3YmI0N2VmOGJlYmNhMzg",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "ping@jrwnnnn.me",
+        "date": "2026-10-31T07:07:07Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-10-31T07:07:07Z"
+      },
+      "message": "chore: Create issue templates [skip ci] (#57)",
+      "tree": {
+        "sha": "bbc62a668c5bbae6c63eed6f7fb575b430eda00f",
+        "url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/git/trees/bbc62a668c5bbae6c63eed6f7fb575b430eda00f"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/git/commits/7630b43d492291abd84cf5f447bb47ef8bebca38",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq5ZObCRC1aQ7uu5UhlAAAukwQADoIpBFdl5rRkiYwBbWxOARb\nFi2BSj8mlFnNHxG1szbiWXY22lE+y4Sm3KNE3kkgQMyxungvVecmzgSeUEbnNbCP\nN4w+UFarPK6oc0m2ONXE0TT4D+sJ2Dnn14uXiOHlOWR+DKfV4kVwzNjc00WnADN8\n9HVkELjdDsF/17z0OrWXYe4wADDoSHNSB1BwsmuqVq3Jk7vqCFr6Qk9m/7J6RXnX\nJaBFWCv2UvXu1iAkGBhfVfg1pu3OEYe63GFoij/Eo42DOOk+HLuH3zKLZbm96Era\nEDFd/FiMMKpzp1/1zs2ZIR8i6x+mOwCC4PcnnDET5fhX1F2IvEUOWpVwCGrmsdaK\nM4OvdQ/C6O9D6QqwFJUDjRDGd4HxjrKHoU4xgPphrLGeri23efebnXxBF3RtWy98\nSTErSz7LAtzdDiOMz9shYNvGszmnrMHjWb/DVTniC1Khd9CYov5V/UEcM377IXYY\ngGdvHfoJ6HmMsZcPhiTLvSmxsACrwIt7B4G8aErOS87mHN6fKBst22NT0NqYG9H6\n7gBsE6Iyj/wQMZoMmBZPdly+JOKG+yI7q36UHCy3U3V7GFxzm+vy81z/Pbba8l7W\nrUC0sbTsGz135TCSIqnfD88d07HitMhNYFrf3cNLSgO8bZC7T//ybKAqZCJJRtIA\nJWI0MFtxN+ebLKXMXmAG\n=qSOt\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree bbc62a668c5bbae6c63eed6f7fb575b430eda00f\nparent bb960b6bd52aa65133f2d8077a304b5eb492b1eb\nauthor Mark Jerwin <ping@jrwnnnn.me> 1793430427 +0800\ncommitter GitHub <noreply@github.com> 1793430427 +0800\n\nchore: Create issue templates [skip ci] (#57)",
+        "verified_at": "2026-10-31T07:07:07Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/commits/7630b43d492291abd84cf5f447bb47ef8bebca38",
+    "html_url": "https://github.com/jrwnnnn/scaffold-astro/commit/7630b43d492291abd84cf5f447bb47ef8bebca38",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/commits/7630b43d492291abd84cf5f447bb47ef8bebca38/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bb960b6bd52aa65133f2d8077a304b5eb492b1eb",
+        "url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/commits/bb960b6bd52aa65133f2d8077a304b5eb492b1eb",
+        "html_url": "https://github.com/jrwnnnn/scaffold-astro/commit/bb960b6bd52aa65133f2d8077a304b5eb492b1eb"
+      }
+    ],
+    "stats": {
+      "total": 110,
+      "additions": 110,
+      "deletions": 0
+    },
+    "files": [
+      {
+        "sha": "ab6d72fefa3c9aa405d960a73af2b80c3c4d18c3",
+        "filename": ".github/ISSUE_TEMPLATES/bug_report.yml",
+        "status": "added",
+        "additions": 62,
+        "deletions": 0,
+        "changes": 62,
+        "blob_url": "https://github.com/jrwnnnn/scaffold-astro/blob/7630b43d492291abd84cf5f447bb47ef8bebca38/.github%2FISSUE_TEMPLATES%2Fbug_report.yml",
+        "raw_url": "https://github.com/jrwnnnn/scaffold-astro/raw/7630b43d492291abd84cf5f447bb47ef8bebca38/.github%2FISSUE_TEMPLATES%2Fbug_report.yml",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/contents/.github%2FISSUE_TEMPLATES%2Fbug_report.yml?ref=7630b43d492291abd84cf5f447bb47ef8bebca38",
+        "patch": "@@ -0,0 +1,62 @@\n+name: \"Bug report\"\n+description: Report an issue or possible bug\n+title: \"bug: \"\n+labels:\n+  - bug\n+body:\n+  - type: markdown\n+    attributes:\n+      value: |\n+        Thank you for taking the time to report a bug! Please include as much relevant information as possible.\n+\n+  - type: textarea\n+    attributes:\n+      label: Describe the bug\n+      description: A clear and concise description of what the bug is.\n+    validations:\n+      required: true\n+\n+  - type: textarea\n+    attributes:\n+      label: What's the expected result?\n+      description: Describe what you expect to happen.\n+    validations:\n+      required: true\n+\n+  - type: textarea\n+    attributes:\n+      label: Steps to reproduce\n+      description: How do you trigger this bug? Please walk us through it step by step.\n+    validations:\n+      required: true\n+\n+  - type: textarea\n+    attributes:\n+      label: System information\n+      description: OS and version, browser and version, Node.js version, Astro version, package manager, and any relevant environment details.\n+    validations:\n+      required: true\n+\n+  - type: textarea\n+    attributes:\n+      label: Additional information\n+      description: Is there anything else you think we should know?\n+\n+  - type: checkboxes\n+    attributes:\n+      label: Contributing a fix (thanks!)\n+      description: If you feel like you could contribute to this issue, please check the box below. This would tell us and other people looking for contributions that someone's working on it.\n+      options:\n+        - label: I would be willing to submit a pull request for this issue.\n+\n+  - type: checkboxes\n+    attributes:\n+      label: Self-check\n+      description: Before submitting the issue, please make sure you do the following.\n+      options:\n+        - label: Follow our [Code of Conduct](https://github.com/jrwnnnn/scaffold-astro/blob/main/CODE_OF_CONDUCT.md)\n+          required: true\n+        - label: Read the [Contributing Guidelines](https://github.com/jrwnnnn/scaffold-astro/blob/main/CONTRIBUTING.md).\n+          required: true\n+        - label: Check that there isn't [already an issue](https://github.com/jrwnnnn/scaffold-astro/issues) that reports the same bug to avoid creating a duplicate.\n+          required: true"
+      },
+      {
+        "sha": "1ffd4af1a245a80339ae1d6da884f592370abc07",
+        "filename": ".github/ISSUE_TEMPLATES/feature_request.yml",
+        "status": "added",
+        "additions": 48,
+        "deletions": 0,
+        "changes": 48,
+        "blob_url": "https://github.com/jrwnnnn/scaffold-astro/blob/7630b43d492291abd84cf5f447bb47ef8bebca38/.github%2FISSUE_TEMPLATES%2Ffeature_request.yml",
+        "raw_url": "https://github.com/jrwnnnn/scaffold-astro/raw/7630b43d492291abd84cf5f447bb47ef8bebca38/.github%2FISSUE_TEMPLATES%2Ffeature_request.yml",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/contents/.github%2FISSUE_TEMPLATES%2Ffeature_request.yml?ref=7630b43d492291abd84cf5f447bb47ef8bebca38",
+        "patch": "@@ -0,0 +1,48 @@\n+name: \"Feature Request\"\n+description: Suggest an idea, feature, or enhancement\n+title: \"feat: \"\n+labels:\n+  - enhancement\n+body:\n+  - type: markdown\n+    attributes:\n+      value: |\n+        Thank you for taking the time to suggest an idea or enhancement!\n+\n+  - type: textarea\n+    attributes:\n+      label: Problem statement\n+      description: What is the problem this feature would solve?\n+    validations:\n+      required: true\n+\n+  - type: textarea\n+    attributes:\n+      label: Proposed solution\n+      description: What change or behavior would you like to see?\n+    validations:\n+      required: true\n+\n+  - type: textarea\n+    attributes:\n+      label: Alternatives considered\n+      description: Any workarounds or alternative approaches you considered.\n+\n+  - type: checkboxes\n+    attributes:\n+      label: Contributing to this feature (thanks!)\n+      description: If you plan to contribute a pull request for this feature, please check the box below. This lets us and others know that someone is interested in working on it.\n+      options:\n+        - label: I would be willing to submit a pull request for this feature.\n+\n+  - type: checkboxes\n+    attributes:\n+      label: Self-check\n+      description: Before submitting the issue, please make sure you do the following.\n+      options:\n+        - label: Follow our [Code of Conduct](https://github.com/jrwnnnn/scaffold-astro/blob/main/CODE_OF_CONDUCT.md)\n+          required: true\n+        - label: Read the [Contributing Guidelines](https://github.com/jrwnnnn/scaffold-astro/blob/main/CONTRIBUTING.md).\n+          required: true\n+        - label: Check that there isn't [already an issue](https://github.com/jrwnnnn/scaffold-astro/issues) that is requesting the same feature to avoid creating a duplicate.\n+          required: true"
+      }
+    ]
+  },
+  {
     "sha": "bb960b6bd52aa65133f2d8077a304b5eb492b1eb",
     "node_id": "C_kwDORJSDNtoAKGJiOTYwYjZiZDUyYWE2NTEzM2YyZDgwNzdhMzA0YjVlYjQ5MmIxZWI",
     "commit": {
@@ -306,343 +911,6 @@
         "raw_url": "https://github.com/jrwnnnn/scaffold-astro/raw/40a61f2a2bb6008816aacbce6641e553393e2d0e/package.json",
         "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/contents/package.json?ref=40a61f2a2bb6008816aacbce6641e553393e2d0e",
         "patch": "@@ -10,6 +10,9 @@\n \t\t\"test\": \"npx eslint . && npx astro check && npm run build\",\n \t\t\"prepare\": \"husky\"\n \t},\n+\t\"lint-staged\": {\n+\t\t\"*.{astro,css,js,json,md,mjs,ts,yaml}\": \"prettier --write\"\n+\t},\n \t\"dependencies\": {\n \t\t\"@astrojs/cloudflare\": \"^14.3.1\",\n \t\t\"@tailwindcss/vite\": \"^4.3.3\",\n@@ -24,6 +27,7 @@\n \t\t\"eslint\": \"^10.0.2\",\n \t\t\"eslint-plugin-astro\": \"^1.6.0\",\n \t\t\"husky\": \"^9.1.7\",\n+\t\t\"lint-staged\": \"^17.6.0\",\n \t\t\"prettier\": \"^3.8.1\",\n \t\t\"prettier-plugin-astro\": \"^0.14.1\",\n \t\t\"prettier-plugin-tailwindcss\": \"^0.7.2\","
-      }
-    ]
-  },
-  {
-    "sha": "ef95ba9cb26bdc8a8a3fdf3d36945be86faa8dc5",
-    "node_id": "C_kwDORJSDNtoAKGVmOTViYTljYjI2YmRjOGE4YTNmZGYzZDM2OTQ1YmU4NmZhYThkYzU",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "ping@jrwnnnn.me",
-        "date": "2026-10-30T23:53:42Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-10-30T23:53:42Z"
-      },
-      "message": "chore: Add Husky pre-commit hook (#53)",
-      "tree": {
-        "sha": "2787bf27a7804aa6c23463cd8287053d7b24e997",
-        "url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/git/trees/2787bf27a7804aa6c23463cd8287053d7b24e997"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/git/commits/ef95ba9cb26bdc8a8a3fdf3d36945be86faa8dc5",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq5S4GCRC1aQ7uu5UhlAAAA6wQADwqyDN2t+Z7IMLlGW9b6OZw\n767h617N8pYtM/0pPseyLT9zFD+1HLqh99aboVuTEfvBTQ4ICvbbDqbH+m23+hP5\nUNP3vITGm23tF7cyPfue/p+6nsz/syTaFKWTStB8ThddMAb2zcVQjEAbUdNSiteK\nPi+LofpDqqfQOmRZTVF0+6KdNUPe09ie+V05pO8WmukPKQOVlPxJEgqFMq8WHxSN\nC0PK2YRzktXYwjuxv8jNq2trsoi3HOjU0gHvNLBcVeMorfJh33QbpR0AEaXiZtiY\nTjRP7k7F0969v35v88nxj/BqMLofH3YnoZFN8COqVJ6fQPlNLr5Qdb2bkFjSJ3jo\nAwVRdyzyFuM7E5O4kYOXuis+cMlYZmJdoB1BkaAwLjwBjZQcAZkln4rKa3LuFK+S\nIITBBdUnujCwRfpyKcrfXnOMwfvzBwub6/JTiBiHM5G/nC4hbwLiJS6lcSv/uA7P\nAM+OVQ9Cm81D2S7BBnpjZ8iMWQgFcx7PnOm/ZCvqNDDaNxdSZuHXt9qpeiYzPYtV\nZj4YP35MR+F0ZM0RMinENPLbO/3GfJMvu2wOjff0B+n8rFMgwokz+6PI4lOTWZub\nQrUZfl+pOSpqhrsOJz+UJSQl+DGBKMZhSuBoqqkX+AAwdI5yh93uomocq69/rRFd\n8/5XbLZ7hmXUkStMSVqj\n=oGZO\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 2787bf27a7804aa6c23463cd8287053d7b24e997\nparent 9c75b45334ef564635bd9ee64e086394fef4a01d\nauthor Mark Jerwin <ping@jrwnnnn.me> 1793404422 +0800\ncommitter GitHub <noreply@github.com> 1793404422 +0800\n\nchore: Add Husky pre-commit hook (#53)",
-        "verified_at": "2026-10-30T23:53:42Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/commits/ef95ba9cb26bdc8a8a3fdf3d36945be86faa8dc5",
-    "html_url": "https://github.com/jrwnnnn/scaffold-astro/commit/ef95ba9cb26bdc8a8a3fdf3d36945be86faa8dc5",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/commits/ef95ba9cb26bdc8a8a3fdf3d36945be86faa8dc5/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "9c75b45334ef564635bd9ee64e086394fef4a01d",
-        "url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/commits/9c75b45334ef564635bd9ee64e086394fef4a01d",
-        "html_url": "https://github.com/jrwnnnn/scaffold-astro/commit/9c75b45334ef564635bd9ee64e086394fef4a01d"
-      }
-    ],
-    "stats": {
-      "total": 15760,
-      "additions": 7890,
-      "deletions": 7870
-    },
-    "files": [
-      {
-        "sha": "72c4429bc9a61555402dcf820d8e2638d4d1f5a3",
-        "filename": ".husky/pre-commit",
-        "status": "added",
-        "additions": 1,
-        "deletions": 0,
-        "changes": 1,
-        "blob_url": "https://github.com/jrwnnnn/scaffold-astro/blob/ef95ba9cb26bdc8a8a3fdf3d36945be86faa8dc5/.husky%2Fpre-commit",
-        "raw_url": "https://github.com/jrwnnnn/scaffold-astro/raw/ef95ba9cb26bdc8a8a3fdf3d36945be86faa8dc5/.husky%2Fpre-commit",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/contents/.husky%2Fpre-commit?ref=ef95ba9cb26bdc8a8a3fdf3d36945be86faa8dc5",
-        "patch": "@@ -0,0 +1 @@\n+npm test"
-      },
-      {
-        "sha": "752bfd59b66bd937f7215d257aee875de40c5f45",
-        "filename": "package-lock.json",
-        "status": "modified",
-        "additions": 7856,
-        "deletions": 7839,
-        "changes": 15695,
-        "blob_url": "https://github.com/jrwnnnn/scaffold-astro/blob/ef95ba9cb26bdc8a8a3fdf3d36945be86faa8dc5/package-lock.json",
-        "raw_url": "https://github.com/jrwnnnn/scaffold-astro/raw/ef95ba9cb26bdc8a8a3fdf3d36945be86faa8dc5/package-lock.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/contents/package-lock.json?ref=ef95ba9cb26bdc8a8a3fdf3d36945be86faa8dc5"
-      },
-      {
-        "sha": "cd2e6ab3ee7dd4c77202f898764139083056c5fe",
-        "filename": "package.json",
-        "status": "modified",
-        "additions": 33,
-        "deletions": 31,
-        "changes": 64,
-        "blob_url": "https://github.com/jrwnnnn/scaffold-astro/blob/ef95ba9cb26bdc8a8a3fdf3d36945be86faa8dc5/package.json",
-        "raw_url": "https://github.com/jrwnnnn/scaffold-astro/raw/ef95ba9cb26bdc8a8a3fdf3d36945be86faa8dc5/package.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/contents/package.json?ref=ef95ba9cb26bdc8a8a3fdf3d36945be86faa8dc5",
-        "patch": "@@ -1,33 +1,35 @@\n {\n-  \"name\": \"jrwnnnn\",\n-  \"type\": \"module\",\n-  \"version\": \"0.0.1\",\n-  \"scripts\": {\n-    \"dev\": \"astro dev\",\n-    \"build\": \"astro build\",\n-    \"preview\": \"astro preview\",\n-    \"generate-types\": \"wrangler types\",\n-    \"test\": \"npx eslint . && npx astro check && npm run build\"\n-  },\n-  \"dependencies\": {\n-    \"@astrojs/cloudflare\": \"^14.3.1\",\n-    \"@tailwindcss/vite\": \"^4.3.3\",\n-    \"astro\": \"^7.3.2\",\n-    \"tailwindcss\": \"^4.3.3\"\n-  },\n-  \"devDependencies\": {\n-    \"@astrojs/check\": \"^0.9.10\",\n-    \"@cloudflare/workers-types\": \"^5.20260915.1\",\n-    \"@eslint/js\": \"^10.0.1\",\n-    \"@types/node\": \"^25.6.0\",\n-    \"eslint\": \"^10.0.2\",\n-    \"eslint-plugin-astro\": \"^1.6.0\",\n-    \"prettier\": \"^3.8.1\",\n-    \"prettier-plugin-astro\": \"^0.14.1\",\n-    \"prettier-plugin-tailwindcss\": \"^0.7.2\",\n-    \"typescript\": \"^5.9.3\",\n-    \"typescript-eslint\": \"^8.56.1\",\n-    \"vite\": \"^8.3.5\",\n-    \"wrangler\": \"^4.131.2\"\n-  }\n+\t\"name\": \"jrwnnnn\",\n+\t\"type\": \"module\",\n+\t\"version\": \"0.0.1\",\n+\t\"scripts\": {\n+\t\t\"dev\": \"astro dev\",\n+\t\t\"build\": \"astro build\",\n+\t\t\"preview\": \"astro preview\",\n+\t\t\"generate-types\": \"wrangler types\",\n+\t\t\"test\": \"npx eslint . && npx astro check && npm run build\",\n+\t\t\"prepare\": \"husky\"\n+\t},\n+\t\"dependencies\": {\n+\t\t\"@astrojs/cloudflare\": \"^14.3.1\",\n+\t\t\"@tailwindcss/vite\": \"^4.3.3\",\n+\t\t\"astro\": \"^7.3.2\",\n+\t\t\"tailwindcss\": \"^4.3.3\"\n+\t},\n+\t\"devDependencies\": {\n+\t\t\"@astrojs/check\": \"^0.9.10\",\n+\t\t\"@cloudflare/workers-types\": \"^5.20260915.1\",\n+\t\t\"@eslint/js\": \"^10.0.1\",\n+\t\t\"@types/node\": \"^25.6.0\",\n+\t\t\"eslint\": \"^10.0.2\",\n+\t\t\"eslint-plugin-astro\": \"^1.6.0\",\n+\t\t\"husky\": \"^9.1.7\",\n+\t\t\"prettier\": \"^3.8.1\",\n+\t\t\"prettier-plugin-astro\": \"^0.14.1\",\n+\t\t\"prettier-plugin-tailwindcss\": \"^0.7.2\",\n+\t\t\"typescript\": \"^5.9.3\",\n+\t\t\"typescript-eslint\": \"^8.56.1\",\n+\t\t\"vite\": \"^8.3.5\",\n+\t\t\"wrangler\": \"^4.131.2\"\n+\t}\n }"
-      }
-    ]
-  },
-  {
-    "sha": "9c75b45334ef564635bd9ee64e086394fef4a01d",
-    "node_id": "C_kwDORJSDNtoAKDljNzViNDUzMzRlZjU2NDYzNWJkOWVlNjRlMDg2Mzk0ZmVmNGEwMWQ",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "ping@jrwnnnn.me",
-        "date": "2026-10-30T10:59:22Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-10-30T10:59:22Z"
-      },
-      "message": "chore: Update dependencies (#52)",
-      "tree": {
-        "sha": "c6dbceab16f184891d5243eea45a4521319f215a",
-        "url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/git/trees/c6dbceab16f184891d5243eea45a4521319f215a"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/git/commits/9c75b45334ef564635bd9ee64e086394fef4a01d",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq5HiKCRC1aQ7uu5UhlAAA/cEQAGnnduYMYk3fbhKl9InPCw5i\nsNwO8XNMI1xtv9jPdTMymmSA5Ph60BpIPYrzPRa6qI32Y2DRIoDexOHHcQGV7ADC\nkbWCYeQW6FOnE4Ifi4+ZHaT5CTh7uBrK4GD+faXrextGWSkzjHP6oM5MIwMrZiMX\n5Wf3UZgGRkYVS5tKMJXfbYUM7TITNeb1YsHAFtMKfQr3nQlXAhcQ8WIf/HWqgyR5\n1KVcnd6oukmDQeyfBKu8bHg90zvX4ph5i/PfKHEYZV0ng0E67AGbOfj5Fn+nPqRo\n8dbE8h9Bm+N5CnN0EayuNYIdh67vj3VVm0siejFFh+JChfgUJms0Rygey4kTSX3O\nUtg3RLLOE9x9/qWuuKNwR0m1nT8Nf9MbMmdBK8nObprJq4mpA7RQ7APr9uGndpY9\nKX91jJma5WPf7Ova2BlNj+gpn1mL+sb1ydJH9Hj5RpLCGY80jsIyixs7X9gTKsw4\nvZB+b4SyEij60QDsnSBxmNnj1VzYP/BO3Wtoj6I/yuUPxmUDvva6gb+JS73HiXE4\n5JqCFcXWNnik2GtvXPeBdwxQg0sqTjFHbBCSVWz1hv1uzayfY3KDHdhWLcX5GBM4\nfPanfPVbLWbJOSPW0PDk0jSpCFUAFNtWBmuW8qOK1CM6lquGVGFLOhXmBn4Datz9\nIEO5J+usX7kQJxIjY528\n=uAJT\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree c6dbceab16f184891d5243eea45a4521319f215a\nparent 6727cf86a10a310e58f37f1023b1bcf0b4d333ec\nauthor Mark Jerwin <ping@jrwnnnn.me> 1793357962 +0800\ncommitter GitHub <noreply@github.com> 1793357962 +0800\n\nchore: Update dependencies (#52)",
-        "verified_at": "2026-10-30T10:59:23Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/commits/9c75b45334ef564635bd9ee64e086394fef4a01d",
-    "html_url": "https://github.com/jrwnnnn/scaffold-astro/commit/9c75b45334ef564635bd9ee64e086394fef4a01d",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/commits/9c75b45334ef564635bd9ee64e086394fef4a01d/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "6727cf86a10a310e58f37f1023b1bcf0b4d333ec",
-        "url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/commits/6727cf86a10a310e58f37f1023b1bcf0b4d333ec",
-        "html_url": "https://github.com/jrwnnnn/scaffold-astro/commit/6727cf86a10a310e58f37f1023b1bcf0b4d333ec"
-      }
-    ],
-    "stats": {
-      "total": 9197,
-      "additions": 4029,
-      "deletions": 5168
-    },
-    "files": [
-      {
-        "sha": "76957a0942736d674aab2b0b3ab24d95cd62a625",
-        "filename": "package-lock.json",
-        "status": "modified",
-        "additions": 4026,
-        "deletions": 5163,
-        "changes": 9189,
-        "blob_url": "https://github.com/jrwnnnn/scaffold-astro/blob/9c75b45334ef564635bd9ee64e086394fef4a01d/package-lock.json",
-        "raw_url": "https://github.com/jrwnnnn/scaffold-astro/raw/9c75b45334ef564635bd9ee64e086394fef4a01d/package-lock.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/contents/package-lock.json?ref=9c75b45334ef564635bd9ee64e086394fef4a01d"
-      },
-      {
-        "sha": "8f8e58f6f8a7d164166fecb292c42f10c3716508",
-        "filename": "package.json",
-        "status": "modified",
-        "additions": 3,
-        "deletions": 5,
-        "changes": 8,
-        "blob_url": "https://github.com/jrwnnnn/scaffold-astro/blob/9c75b45334ef564635bd9ee64e086394fef4a01d/package.json",
-        "raw_url": "https://github.com/jrwnnnn/scaffold-astro/raw/9c75b45334ef564635bd9ee64e086394fef4a01d/package.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/contents/package.json?ref=9c75b45334ef564635bd9ee64e086394fef4a01d",
-        "patch": "@@ -11,9 +11,9 @@\n   },\n   \"dependencies\": {\n     \"@astrojs/cloudflare\": \"^14.3.1\",\n-    \"@tailwindcss/vite\": \"^4.1.18\",\n+    \"@tailwindcss/vite\": \"^4.3.3\",\n     \"astro\": \"^7.3.2\",\n-    \"tailwindcss\": \"^4.1.18\"\n+    \"tailwindcss\": \"^4.3.3\"\n   },\n   \"devDependencies\": {\n     \"@astrojs/check\": \"^0.9.10\",\n@@ -27,9 +27,7 @@\n     \"prettier-plugin-tailwindcss\": \"^0.7.2\",\n     \"typescript\": \"^5.9.3\",\n     \"typescript-eslint\": \"^8.56.1\",\n+    \"vite\": \"^8.3.5\",\n     \"wrangler\": \"^4.131.2\"\n-  },\n-  \"overrides\": {\n-    \"vite\": \"^7\"\n   }\n }"
-      }
-    ]
-  },
-  {
-    "sha": "6727cf86a10a310e58f37f1023b1bcf0b4d333ec",
-    "node_id": "C_kwDORJSDNtoAKDY3MjdjZjg2YTEwYTMxMGU1OGYzN2YxMDIzYjFiY2YwYjRkMzMzZWM",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-10-30T10:33:57Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-10-30T10:33:57Z"
-      },
-      "message": "docs: Update CONTRIBUTING.md",
-      "tree": {
-        "sha": "88b055cb74558b7902798bd2b4b531f914e0468d",
-        "url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/git/trees/88b055cb74558b7902798bd2b4b531f914e0468d"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/git/commits/6727cf86a10a310e58f37f1023b1bcf0b4d333ec",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQFVID7s2wUxHaxQDCSJE3R+Sf+DMyjEx/4trM69KFlNR4BghRxJMy1NOvQRpm6wcAJ\nfCY+Ic/tRe9oRbUlo10AU=\n-----END SSH SIGNATURE-----",
-        "payload": "tree 88b055cb74558b7902798bd2b4b531f914e0468d\nparent 97d971d16f8edbf04d9e4b7f5ae0186a6cb18dd1\nauthor Mark Jerwin <git@jrwnnnn.me> 1793356437 +0800\ncommitter Mark Jerwin <git@jrwnnnn.me> 1793356437 +0800\n\ndocs: Update CONTRIBUTING.md\n",
-        "verified_at": "2026-10-30T10:34:12Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/commits/6727cf86a10a310e58f37f1023b1bcf0b4d333ec",
-    "html_url": "https://github.com/jrwnnnn/scaffold-astro/commit/6727cf86a10a310e58f37f1023b1bcf0b4d333ec",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/commits/6727cf86a10a310e58f37f1023b1bcf0b4d333ec/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "97d971d16f8edbf04d9e4b7f5ae0186a6cb18dd1",
-        "url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/commits/97d971d16f8edbf04d9e4b7f5ae0186a6cb18dd1",
-        "html_url": "https://github.com/jrwnnnn/scaffold-astro/commit/97d971d16f8edbf04d9e4b7f5ae0186a6cb18dd1"
-      }
-    ],
-    "stats": {
-      "total": 65,
-      "additions": 40,
-      "deletions": 25
-    },
-    "files": [
-      {
-        "sha": "43485f1a5ea327acc2db7192dc247db3ee16cdbb",
-        "filename": "CONTRIBUTING.md",
-        "status": "modified",
-        "additions": 40,
-        "deletions": 25,
-        "changes": 65,
-        "blob_url": "https://github.com/jrwnnnn/scaffold-astro/blob/6727cf86a10a310e58f37f1023b1bcf0b4d333ec/CONTRIBUTING.md",
-        "raw_url": "https://github.com/jrwnnnn/scaffold-astro/raw/6727cf86a10a310e58f37f1023b1bcf0b4d333ec/CONTRIBUTING.md",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold-astro/contents/CONTRIBUTING.md?ref=6727cf86a10a310e58f37f1023b1bcf0b4d333ec",
-        "patch": "@@ -2,55 +2,70 @@\n \n First off, thanks for taking the time to contribute! These are the guidelines for contributing to this project.\n \n+## Code of Conduct\n+\n+All contributors are expected to adhere to the [Code of Conduct](CODE_OF_CONDUCT.md). \n+\n+## Reporting Issues\n+\n+Before writing any code, please [open an issue](https://github.com/jrwnnnn/scaffold-astro/issues) or comment on an existing one. This ensures we do not have multiple people working on the same feature and allows us to discuss the approach before you invest time in building it.\n+\n ## Development Setup\n \n Make sure you have the latest LTS version of [Node.js](https://nodejs.org/en/download/current) installed.\n \n Clone the repository:\n+\n ```bash\n-git clone https://github.com/jrwnnnn/scaffold.git\n-cd scaffold\n+git clone https://github.com/jrwnnnn/scaffold-astro.git\n+cd rekord\n ```\n+\n Install the required dependencies:\n+\n ```bash\n-npm ci\n+npm install\n ```\n+\n Start the development server:\n+\n ```bash\n-npm run dev       # optional: pass --host flag expose the server to the local network\n+npm run dev       # optional: pass --host flag to expose the server to the local network\n ```\n+\n Bundle the project for production:\n+\n ```bash\n npm run build\n ```\n-## Testing\n-Before submitting a pull request, ensure everything passes locally:\n \n-```bash\n-# Run all unit tests\n-npm run test\n+## Development Guidelines\n \n-# Run linting\n-npx eslint .\n+### Branching Strategy\n \n-# Run typechecking\n-npx astro check\n-```\n-## CI Checks\n+- `main` contains the latest stable development code.\n+- Create a new branch for each feature or bug fix. Use descriptive names like `feat/new-feature-name` or `fix/issue-description`.\n+\n+### Testing\n \n-All pull requests must pass the [GitHub Actions](https://github.com/jrwnnnn/scaffold/actions/workflows/main.yml) before they can be merged. The CI runs the following checks:\n+Ensure all checks pass before submitting a pull request by running:\n \n-- Linting\n-- Typechecking\n-- Build\n-- CodeQL analysis\n-  \n-## Code Style\n+```bash\n+npm run test\n \n-This project enforces a consistent code style using [Prettier](https://prettier.io/). \n+```\n \n-A `.prettierrc` file is included in the project root to configure Prettier. Please ensure that your code adheres to the formatting rules defined in this file before submitting a pull request.\n+### Code Style\n \n-## Commit Messages\n+This project enforces a consistent code style using [Prettier](https://prettier.io/). A `.prettierrc` file is included in the project root to configure Prettier. \n+\n+### Commit Messages\n \n Follow the [Conventional Commits v1.0.0](https://www.conventionalcommits.org/en/v1.0.0/) specification.\n+\n+## Submitting a Pull Request\n+1. Push your branch to your fork.\n+2. Open a Pull Request against the main branch.\n+3. Provide a concise summary of changes, problem analysis, and testing steps in the PR description.\n+4. Ensure continuous integration checks pass.\n+5. Address reviewer feedback promptly.\n\\ No newline at end of file"
       }
     ]
   }
