@@ -1,5 +1,106 @@
 [
   {
+    "sha": "588cc7cea977eacb775be2b4c5e776a256039e85",
+    "node_id": "C_kwDOVd-iudoAKDU4OGNjN2NlYTk3N2VhY2I3NzViZTJiNGM1ZTc3NmEyNTYwMzllODU",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-11-01T06:50:03Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-11-01T06:50:03Z"
+      },
+      "message": "Set npm as the package ecosystem for Dependabot",
+      "tree": {
+        "sha": "9a48967279dc5a33c02877c75b40440c37d25978",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/9a48967279dc5a33c02877c75b40440c37d25978"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/588cc7cea977eacb775be2b4c5e776a256039e85",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq5uEcCRC1aQ7uu5UhlAAADz4QAKviXT36axORL8P4KaLJOyZh\nGunn3HccK1WungDw14ZR0rVRZoZaDRn7UNtEIy4tJJZi93SZcRObKN5+MqBQwZwY\nw4tRwhhfD98GaDJATGZ57giyXpz4/n2a0iq2Yhy4E4LyEojvSywLTInfjNFmBNi5\nL3+HzrdfP3Pfoq9fVuXe2fHNq6T9dA85YXt6MURXokAAjKaHeatqZQ8TCDS/5J7k\niaySfMot8jX7tdBeZrVLoejgCfXpWWA1csy9aaGC0VVz01sei0YE37uzVqMX7qrP\n5+BtaEGmNxP2+x7A7osCFM4LJuObRBCBps9iL4lluoBnTAJdW37XeThqFoG6t8rL\n1EDDaU414losNJk475TrYvKl2ZERrnCZMpUhRXADkVnM+q111sRwxtG7ngjwCYOu\nYYycVI4jvwdoGvm16FI2W+cS9PYCuM08NYN6/sGPFELMUMf+2sQpvNOPjgZ71Mcf\nv1F1Dn3a1r/7JRw6aI+q9RGXRqRAVOshUX/smk2K+5ao6/L7gll/DkaY+GyAkdnj\n5CIsFSwe6nZcy7ziSoiKOgakXtr0ZXEZskEiFdqPvtzo/sq8ZXSLrCeDeXr2TuRo\njFe70yoIxZbTR7JrXr0pPucdAyEguyWC/cfjsYvfZQiloho7tqULZUUDUFc9sDTz\n2aHvYzsW+9y6zyO7bLYr\n=tG+f\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 9a48967279dc5a33c02877c75b40440c37d25978\nparent 331b1c1bba182caa0e9990a859c3a53f5589016e\nauthor Mark Jerwin <git@jrwnnnn.me> 1793515803 +0800\ncommitter GitHub <noreply@github.com> 1793515803 +0800\n\nSet npm as the package ecosystem for Dependabot",
+        "verified_at": "2026-11-01T06:50:04Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/588cc7cea977eacb775be2b4c5e776a256039e85",
+    "html_url": "https://github.com/jrwnnnn/zipo/commit/588cc7cea977eacb775be2b4c5e776a256039e85",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/588cc7cea977eacb775be2b4c5e776a256039e85/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "331b1c1bba182caa0e9990a859c3a53f5589016e",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/331b1c1bba182caa0e9990a859c3a53f5589016e",
+        "html_url": "https://github.com/jrwnnnn/zipo/commit/331b1c1bba182caa0e9990a859c3a53f5589016e"
+      }
+    ],
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0
+    },
+    "files": [
+      {
+        "sha": "5f0889ce9169fbfa82e4044135bfe51cce939827",
+        "filename": ".github/dependabot.yml",
+        "status": "added",
+        "additions": 11,
+        "deletions": 0,
+        "changes": 11,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/588cc7cea977eacb775be2b4c5e776a256039e85/.github%2Fdependabot.yml",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/588cc7cea977eacb775be2b4c5e776a256039e85/.github%2Fdependabot.yml",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/.github%2Fdependabot.yml?ref=588cc7cea977eacb775be2b4c5e776a256039e85",
+        "patch": "@@ -0,0 +1,11 @@\n+# To get started with Dependabot version updates, you'll need to specify which\n+# package ecosystems to update and where the package manifests are located.\n+# Please see the documentation for all configuration options:\n+# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file\n+\n+version: 2\n+updates:\n+  - package-ecosystem: \"npm\" # See documentation for possible values\n+    directory: \"/\" # Location of package manifests\n+    schedule:\n+      interval: \"weekly\""
+      }
+    ]
+  },
+  {
     "sha": "331b1c1bba182caa0e9990a859c3a53f5589016e",
     "node_id": "C_kwDOVd-iudoAKDMzMWIxYzFiYmExODJjYWEwZTk5OTBhODU5YzNhNTNmNTU4OTAxNmU",
     "commit": {
@@ -763,225 +864,6 @@
         "raw_url": "https://github.com/jrwnnnn/scaffold/raw/49e399cf99b5f430e490f8f9bdb434e7c1c136c1/eslint.config.js",
         "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/eslint.config.js?ref=49e399cf99b5f430e490f8f9bdb434e7c1c136c1",
         "patch": "@@ -11,6 +11,7 @@ export default defineConfig([\n \t\textends: [\"js/recommended\"],\n \t\tlanguageOptions: { globals: globals.browser },\n \t},\n+\t{ ignores: [\".astro/**\", \"dist/**\", \"node_modules/**\", \".wrangler/**\"] },\n \ttseslint.configs.recommended,\n \t...eslintPluginAstro.configs.recommended,\n ]);"
-      }
-    ]
-  },
-  {
-    "sha": "88b9f4345361ee2ecab8a6f37e9f07b97e511bb9",
-    "node_id": "C_kwDORJSDNtoAKDg4YjlmNDM0NTM2MWVlMmVjYWI4YTZmMzdlOWYwN2I5N2U1MTFiYjk",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-10-31T08:44:21Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-10-31T08:44:21Z"
-      },
-      "message": "feat: Simplify Astro deployment setup",
-      "tree": {
-        "sha": "d7192c1c8ec513bb9fed41ac8803e504589f04f9",
-        "url": "https://api.github.com/repos/jrwnnnn/scaffold/git/trees/d7192c1c8ec513bb9fed41ac8803e504589f04f9"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/scaffold/git/commits/88b9f4345361ee2ecab8a6f37e9f07b97e511bb9",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQNgwY3imdzI0vIQHmiRAwM+WX4n4wF3jBg4Yr6osm6gGroARzeeX99H4E88zoR3rKL\nmpBl6EPA63dMfIa7yKLgQ=\n-----END SSH SIGNATURE-----",
-        "payload": "tree d7192c1c8ec513bb9fed41ac8803e504589f04f9\nparent be4920525b80b3766573ac1d59ebac310d369419\nauthor Mark Jerwin <git@jrwnnnn.me> 1793436261 +0800\ncommitter Mark Jerwin <git@jrwnnnn.me> 1793436261 +0800\n\nfeat: Simplify Astro deployment setup\n",
-        "verified_at": "2026-10-31T08:45:24Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/88b9f4345361ee2ecab8a6f37e9f07b97e511bb9",
-    "html_url": "https://github.com/jrwnnnn/scaffold/commit/88b9f4345361ee2ecab8a6f37e9f07b97e511bb9",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/88b9f4345361ee2ecab8a6f37e9f07b97e511bb9/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "be4920525b80b3766573ac1d59ebac310d369419",
-        "url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/be4920525b80b3766573ac1d59ebac310d369419",
-        "html_url": "https://github.com/jrwnnnn/scaffold/commit/be4920525b80b3766573ac1d59ebac310d369419"
-      }
-    ],
-    "stats": {
-      "total": 15519,
-      "additions": 808,
-      "deletions": 14711
-    },
-    "files": [
-      {
-        "sha": "4d035ee577c82f5c4453c05bef248544c388f4d6",
-        "filename": ".gitignore",
-        "status": "modified",
-        "additions": 0,
-        "deletions": 7,
-        "changes": 7,
-        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/88b9f4345361ee2ecab8a6f37e9f07b97e511bb9/.gitignore",
-        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/88b9f4345361ee2ecab8a6f37e9f07b97e511bb9/.gitignore",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/.gitignore?ref=88b9f4345361ee2ecab8a6f37e9f07b97e511bb9",
-        "patch": "@@ -1,18 +1,11 @@\n # build output\n dist/\n-\n # generated types\n .astro/\n \n-# wrangler files\n-.wrangler/\n-\n # dependencies\n node_modules/\n \n-# test Files\n-test*\n-\n # logs\n npm-debug.log*\n yarn-debug.log*"
-      },
-      {
-        "sha": "0858376d3a1703d09b79ec89dd401e69b80e0baf",
-        "filename": ".prettierignore",
-        "status": "modified",
-        "additions": 0,
-        "deletions": 1,
-        "changes": 1,
-        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/88b9f4345361ee2ecab8a6f37e9f07b97e511bb9/.prettierignore",
-        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/88b9f4345361ee2ecab8a6f37e9f07b97e511bb9/.prettierignore",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/.prettierignore?ref=88b9f4345361ee2ecab8a6f37e9f07b97e511bb9",
-        "patch": "@@ -2,4 +2,3 @@ package-lock.json\n dist\n .astro\n node_modules\n-worker-configuration.d.ts"
-      },
-      {
-        "sha": "f061ae5fb157c5871fe9026c08c429ffe1be61d0",
-        "filename": "astro.config.mjs",
-        "status": "modified",
-        "additions": 0,
-        "deletions": 6,
-        "changes": 6,
-        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/88b9f4345361ee2ecab8a6f37e9f07b97e511bb9/astro.config.mjs",
-        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/88b9f4345361ee2ecab8a6f37e9f07b97e511bb9/astro.config.mjs",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/astro.config.mjs?ref=88b9f4345361ee2ecab8a6f37e9f07b97e511bb9",
-        "patch": "@@ -1,14 +1,8 @@\n // @ts-check\n import { defineConfig } from \"astro/config\";\n import tailwindcss from \"@tailwindcss/vite\";\n-import cloudflare from \"@astrojs/cloudflare\";\n \n export default defineConfig({\n-\tsite: \"https://jrwnnnn.me\",\n-\toutput: \"server\",\n-\tadapter: cloudflare({\n-\t\tremoteBindings: !process.env.CI,\n-\t}),\n \tvite: {\n \t\tplugins: [tailwindcss()],\n \t},"
-      },
-      {
-        "sha": "281002c9319f1a404b442e5c0e9effb779ebaa8d",
-        "filename": "eslint.config.js",
-        "status": "added",
-        "additions": 16,
-        "deletions": 0,
-        "changes": 16,
-        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/88b9f4345361ee2ecab8a6f37e9f07b97e511bb9/eslint.config.js",
-        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/88b9f4345361ee2ecab8a6f37e9f07b97e511bb9/eslint.config.js",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/eslint.config.js?ref=88b9f4345361ee2ecab8a6f37e9f07b97e511bb9",
-        "patch": "@@ -0,0 +1,16 @@\n+import { defineConfig } from \"eslint/config\";\n+import eslintPluginAstro from \"eslint-plugin-astro\";\n+import globals from \"globals\";\n+import js from \"@eslint/js\";\n+import tseslint from \"typescript-eslint\";\n+\n+export default defineConfig([\n+\t{\n+\t\tfiles: [\"**/*.{js,mjs,cjs,ts,mts,cts}\"],\n+\t\tplugins: { js },\n+\t\textends: [\"js/recommended\"],\n+\t\tlanguageOptions: { globals: globals.browser },\n+\t},\n+\ttseslint.configs.recommended,\n+\t...eslintPluginAstro.configs.recommended,\n+]);"
-      },
-      {
-        "sha": "ac90a47b4ff8d1a786a9bf982d0200d9907b3c56",
-        "filename": "eslint.config.mjs",
-        "status": "removed",
-        "additions": 0,
-        "deletions": 8,
-        "changes": 8,
-        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/be4920525b80b3766573ac1d59ebac310d369419/eslint.config.mjs",
-        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/be4920525b80b3766573ac1d59ebac310d369419/eslint.config.mjs",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/eslint.config.mjs?ref=be4920525b80b3766573ac1d59ebac310d369419",
-        "patch": "@@ -1,8 +0,0 @@\n-import eslintPluginAstro from \"eslint-plugin-astro\";\n-import tseslint from \"typescript-eslint\";\n-\n-export default [\n-\t{ ignores: [\".astro/**\", \"dist/**\", \"node_modules/**\", \".wrangler/**\"] },\n-\t...tseslint.configs.recommended,\n-\t...eslintPluginAstro.configs.recommended,\n-];"
-      },
-      {
-        "sha": "cd275ff67a05e43250ff4707330dd8949f30d016",
-        "filename": "package-lock.json",
-        "status": "modified",
-        "additions": 778,
-        "deletions": 1677,
-        "changes": 2455,
-        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/88b9f4345361ee2ecab8a6f37e9f07b97e511bb9/package-lock.json",
-        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/88b9f4345361ee2ecab8a6f37e9f07b97e511bb9/package-lock.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/package-lock.json?ref=88b9f4345361ee2ecab8a6f37e9f07b97e511bb9"
-      },
-      {
-        "sha": "207aab9c5dff27a491312e8afd595dc40815a55b",
-        "filename": "package.json",
-        "status": "modified",
-        "additions": 9,
-        "deletions": 14,
-        "changes": 23,
-        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/88b9f4345361ee2ecab8a6f37e9f07b97e511bb9/package.json",
-        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/88b9f4345361ee2ecab8a6f37e9f07b97e511bb9/package.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/package.json?ref=88b9f4345361ee2ecab8a6f37e9f07b97e511bb9",
-        "patch": "@@ -6,34 +6,29 @@\n \t\t\"dev\": \"astro dev\",\n \t\t\"build\": \"astro build\",\n \t\t\"preview\": \"astro preview\",\n-\t\t\"generate-types\": \"wrangler types\",\n \t\t\"test\": \"npx eslint . && npx astro check && npm run build\",\n \t\t\"prepare\": \"husky\"\n \t},\n \t\"lint-staged\": {\n-\t\t\"*.{astro,css,js,json,md,mjs,ts,yaml}\": \"prettier --write\"\n+\t\t\"*.{astro,cjs,css,js,json,md,mjs,ts,yaml}\": \"prettier --write\"\n \t},\n \t\"dependencies\": {\n-\t\t\"@astrojs/cloudflare\": \"^14.3.1\",\n-\t\t\"@tailwindcss/vite\": \"^4.3.3\",\n-\t\t\"astro\": \"^7.3.2\",\n-\t\t\"tailwindcss\": \"^4.3.3\"\n+\t\t\"astro\": \"^7.3.2\"\n \t},\n \t\"devDependencies\": {\n \t\t\"@astrojs/check\": \"^0.9.10\",\n-\t\t\"@cloudflare/workers-types\": \"^5.20260915.1\",\n \t\t\"@eslint/js\": \"^10.0.1\",\n-\t\t\"@types/node\": \"^25.6.0\",\n-\t\t\"eslint\": \"^10.0.2\",\n-\t\t\"eslint-plugin-astro\": \"^1.6.0\",\n+\t\t\"@tailwindcss/vite\": \"^4.3.3\",\n+\t\t\"eslint\": \"^10.14.0\",\n+\t\t\"eslint-plugin-astro\": \"^3.2.1\",\n+\t\t\"globals\": \"^17.13.0\",\n \t\t\"husky\": \"^9.1.7\",\n \t\t\"lint-staged\": \"^17.6.0\",\n \t\t\"prettier\": \"^3.8.1\",\n \t\t\"prettier-plugin-astro\": \"^0.14.1\",\n \t\t\"prettier-plugin-tailwindcss\": \"^0.7.2\",\n-\t\t\"typescript\": \"^5.9.3\",\n-\t\t\"typescript-eslint\": \"^8.56.1\",\n-\t\t\"vite\": \"^8.3.5\",\n-\t\t\"wrangler\": \"^4.131.2\"\n+\t\t\"tailwindcss\": \"^4.3.3\",\n+\t\t\"typescript-eslint\": \"^8.72.1\",\n+\t\t\"vite\": \"^8.3.5\"\n \t}\n }"
-      },
-      {
-        "sha": "4d6f157ae18bb71d7ad48eaee4c58f87a2b56f1c",
-        "filename": "src/layouts/Layout.astro",
-        "status": "modified",
-        "additions": 2,
-        "deletions": 5,
-        "changes": 7,
-        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/88b9f4345361ee2ecab8a6f37e9f07b97e511bb9/src%2Flayouts%2FLayout.astro",
-        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/88b9f4345361ee2ecab8a6f37e9f07b97e511bb9/src%2Flayouts%2FLayout.astro",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/src%2Flayouts%2FLayout.astro?ref=88b9f4345361ee2ecab8a6f37e9f07b97e511bb9",
-        "patch": "@@ -15,17 +15,14 @@ const {\n \t<head>\n \t\t<meta charset=\"UTF-8\" />\n \t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n-\t\t<link rel=\"canonical\" href={new URL(Astro.url.pathname, Astro.site).href} />\n+\t\t<link rel=\"canonical\" href=\"https://jrwnnnn.me\" />\n \n \t\t<title>{title}</title>\n \t\t<meta name=\"description\" content={description} />\n \t\t<meta name=\"robots\" content={robots} />\n \n \t\t<meta property=\"og:type\" content={ogType} />\n-\t\t<meta\n-\t\t\tproperty=\"og:url\"\n-\t\t\tcontent={new URL(Astro.url.pathname, Astro.site).href}\n-\t\t/>\n+\t\t<meta property=\"og:url\" content=\"https://jrwnnnn.me\" />\n \t\t<meta property=\"og:title\" content={title} />\n \t\t<meta property=\"og:description\" content={description} />\n \t\t<meta property=\"og:image\" content={image} />"
-      },
-      {
-        "sha": "61a61e1e8fa26c59277cc1351c3887d98e6ad57f",
-        "filename": "tsconfig.json",
-        "status": "modified",
-        "additions": 3,
-        "deletions": 4,
-        "changes": 7,
-        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/88b9f4345361ee2ecab8a6f37e9f07b97e511bb9/tsconfig.json",
-        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/88b9f4345361ee2ecab8a6f37e9f07b97e511bb9/tsconfig.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/tsconfig.json?ref=88b9f4345361ee2ecab8a6f37e9f07b97e511bb9",
-        "patch": "@@ -1,11 +1,10 @@\n {\n \t\"extends\": \"astro/tsconfigs/strict\",\n-\t\"include\": [\".astro/types.d.ts\", \"**/*\", \"./worker-configuration.d.ts\"],\n+\t\"include\": [\".astro/types.d.ts\", \"**/*\"],\n \t\"exclude\": [\"dist\"],\n \t\"compilerOptions\": {\n \t\t\"paths\": {\n-\t\t\t\"@utils/*\": [\"./src/utils/*\"]\n-\t\t},\n-\t\t\"types\": [\"@cloudflare/workers-types\"]\n+\t\t\t\"@\": [\"./src/*\"]\n+\t\t}\n \t}\n }"
-      },
-      {
-        "sha": "f36316a1a7d9b9c97439ad1bae987873872b9358",
-        "filename": "worker-configuration.d.ts",
-        "status": "removed",
-        "additions": 0,
-        "deletions": 12976,
-        "changes": 12976,
-        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/be4920525b80b3766573ac1d59ebac310d369419/worker-configuration.d.ts",
-        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/be4920525b80b3766573ac1d59ebac310d369419/worker-configuration.d.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/worker-configuration.d.ts?ref=be4920525b80b3766573ac1d59ebac310d369419"
-      },
-      {
-        "sha": "516ce13855106b47b0a5863ca765924a35d70482",
-        "filename": "wrangler.json",
-        "status": "removed",
-        "additions": 0,
-        "deletions": 13,
-        "changes": 13,
-        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/be4920525b80b3766573ac1d59ebac310d369419/wrangler.json",
-        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/be4920525b80b3766573ac1d59ebac310d369419/wrangler.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/wrangler.json?ref=be4920525b80b3766573ac1d59ebac310d369419",
-        "patch": "@@ -1,13 +0,0 @@\n-{\n-\t\"compatibility_date\": \"2026-04-01\",\n-\t\"compatibility_flags\": [\"global_fetch_strictly_public\", \"nodejs_compat\"],\n-\t\"name\": \"scaffold\",\n-\t\"main\": \"@astrojs/cloudflare/entrypoints/server\",\n-\t\"assets\": {\n-\t\t\"directory\": \"./dist\",\n-\t\t\"binding\": \"ASSETS\"\n-\t},\n-\t\"observability\": {\n-\t\t\"enabled\": true\n-\t}\n-}"
       }
     ]
   }
