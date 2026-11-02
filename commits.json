@@ -1,5 +1,153 @@
 [
   {
+    "sha": "93ce29b3118da1fc066a9d1c613ee00a3226c880",
+    "node_id": "C_kwDOVd-iudoAKDkzY2UyOWIzMTE4ZGExZmMwNjZhOWQxYzYxM2VlMDBhMzIyNmM4ODA",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-11-02T03:17:45Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-11-02T03:17:45Z"
+      },
+      "message": "chore: Add @tailwindcss/vite (#4)\n\n* chore: Add @tailwindcss/vite\n\n* feat: Update home page to use TailwindCSS\n\n* fix: Playwright E2E unable to find #container\n\n* fix: Sync package-lock.json",
+      "tree": {
+        "sha": "ac92c8e3f0f18b21591442c82942f5b39ad6a1f1",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/ac92c8e3f0f18b21591442c82942f5b39ad6a1f1"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/93ce29b3118da1fc066a9d1c613ee00a3226c880",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq6ADaCRC1aQ7uu5UhlAAA3O8QAJ4t+5dZTW2avPPdcPXkF9RF\niiBO6MTjQt9IE2motPRQdZMOn5iDKe9canVuhLdqMBYMPBCn1ub8dVd70iirEcu7\n+Wct9yJKMk3pVO0NA2MZRfMf2FgY8hUCxh++48uWHrkQMuVB+vm5H0Ndunof8ZRd\nYZpgl80ZZsG5WuhyFEvkdoFfj6E/cj+QQAMBSZuceEKurF6OcF5s07kVM4VzYhVj\nHw86vyysC2LPNo8y1HaJKHm0vpyXi5VsQ/1ncAxkFHUV3Cuh2jlrcoVqjEensNw/\nWLMvLrGScDtJY01gxT+x0vIIK0OfXkpoVD81Ow8KhoL9l+vhCd92ZnhCKWSYydFQ\ndkOIHFsOqkiyMTRa5/JzP023emd9RRe26llXLHpvZ7Rjdc/hfDl0yb9kfXLtMY8/\nOxpIscljggGmlnP86WWxg02bwRgoO+elMUslYJ+k5r1k0w6I4QL38LSMqaxyCuqQ\n8qP71oec95oxk7sjkxpNq1rCOKnvgtlliv4bXWNxK//5v4IywsSSFafZ95ilTkob\nI0yLfDlndjFVO0C/cn8S2bWS/J1Ipw9T6ICkNJXvD6YHF7NGKTT8qDXysp8IuBWX\nIVXnXW7/7IVKz/x4L7Jufri01utWhhqzikrNb0OycO3+uOY6wJLi4TqNivbd0ISz\nWTBCFn0N2YwNFuMvVc8T\n=tQpe\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree ac92c8e3f0f18b21591442c82942f5b39ad6a1f1\nparent 8d858e063c811af4c31a7529f291dccfde14b71d\nauthor Mark Jerwin <git@jrwnnnn.me> 1793589465 +0800\ncommitter GitHub <noreply@github.com> 1793589465 +0800\n\nchore: Add @tailwindcss/vite (#4)\n\n* chore: Add @tailwindcss/vite\n\n* feat: Update home page to use TailwindCSS\n\n* fix: Playwright E2E unable to find #container\n\n* fix: Sync package-lock.json",
+        "verified_at": "2026-11-02T03:17:46Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/93ce29b3118da1fc066a9d1c613ee00a3226c880",
+    "html_url": "https://github.com/jrwnnnn/zipo/commit/93ce29b3118da1fc066a9d1c613ee00a3226c880",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/93ce29b3118da1fc066a9d1c613ee00a3226c880/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8d858e063c811af4c31a7529f291dccfde14b71d",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/8d858e063c811af4c31a7529f291dccfde14b71d",
+        "html_url": "https://github.com/jrwnnnn/zipo/commit/8d858e063c811af4c31a7529f291dccfde14b71d"
+      }
+    ],
+    "stats": {
+      "total": 1728,
+      "additions": 613,
+      "deletions": 1115
+    },
+    "files": [
+      {
+        "sha": "b4f7f4c040c2388fe00d99cdb589c022b6287460",
+        "filename": "package-lock.json",
+        "status": "modified",
+        "additions": 596,
+        "deletions": 1058,
+        "changes": 1654,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/93ce29b3118da1fc066a9d1c613ee00a3226c880/package-lock.json",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/93ce29b3118da1fc066a9d1c613ee00a3226c880/package-lock.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/package-lock.json?ref=93ce29b3118da1fc066a9d1c613ee00a3226c880"
+      },
+      {
+        "sha": "c3c76b8d4869001286cdcc55cdc7dfe5e32016ab",
+        "filename": "package.json",
+        "status": "modified",
+        "additions": 4,
+        "deletions": 2,
+        "changes": 6,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/93ce29b3118da1fc066a9d1c613ee00a3226c880/package.json",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/93ce29b3118da1fc066a9d1c613ee00a3226c880/package.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/package.json?ref=93ce29b3118da1fc066a9d1c613ee00a3226c880",
+        "patch": "@@ -40,7 +40,8 @@\n \t\t\"@ionic/eslint-config\": \"^0.5.0\",\n \t\t\"@ionic/prettier-config\": \"^4.0.0\",\n \t\t\"@playwright/test\": \"^1.64.1\",\n-\t\t\"@types/node\": \"^26.6.6\",\n+\t\t\"@tailwindcss/vite\": \"^4.3.3\",\n+\t\t\"@types/node\": \"^24.0.0\",\n \t\t\"@vitejs/plugin-legacy\": \"^8.0.0\",\n \t\t\"@vitejs/plugin-vue\": \"^6.0.0\",\n \t\t\"@vue/eslint-config-typescript\": \"^14.9.0\",\n@@ -49,9 +50,10 @@\n \t\t\"eslint-plugin-vue\": \"^10.11.1\",\n \t\t\"globals\": \"^17.13.0\",\n \t\t\"husky\": \"^9.1.7\",\n-\t\t\"lint-staged\": \"^17.6.0\",\n \t\t\"jsdom\": \"^30.1.3\",\n+\t\t\"lint-staged\": \"^17.6.0\",\n \t\t\"prettier\": \"^3.9.10\",\n+\t\t\"tailwindcss\": \"^4.3.3\",\n \t\t\"terser\": \"^5.16.0\",\n \t\t\"typescript\": \"~5.9.0\",\n \t\t\"vite\": \"^8.0.0\","
+      },
+      {
+        "sha": "f8c2b7b3f036c613e05e1eb92501643f074459a0",
+        "filename": "src/theme/variables.css",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 0,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/93ce29b3118da1fc066a9d1c613ee00a3226c880/src%2Ftheme%2Fvariables.css",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/93ce29b3118da1fc066a9d1c613ee00a3226c880/src%2Ftheme%2Fvariables.css",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Ftheme%2Fvariables.css?ref=93ce29b3118da1fc066a9d1c613ee00a3226c880",
+        "patch": "@@ -1,2 +1,4 @@\n /* For information on how to create your own theme, please refer to:\n http://ionicframework.com/docs/theming/ */\n+\n+@import \"tailwindcss\";"
+      },
+      {
+        "sha": "c914f299c42f7466145cb486d25b41fd6ff1534f",
+        "filename": "src/views/HomePage.vue",
+        "status": "modified",
+        "additions": 9,
+        "deletions": 54,
+        "changes": 63,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/93ce29b3118da1fc066a9d1c613ee00a3226c880/src%2Fviews%2FHomePage.vue",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/93ce29b3118da1fc066a9d1c613ee00a3226c880/src%2Fviews%2FHomePage.vue",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fviews%2FHomePage.vue?ref=93ce29b3118da1fc066a9d1c613ee00a3226c880",
+        "patch": "@@ -1,20 +1,15 @@\n+<script setup lang=\"ts\">\n+import { IonContent, IonPage } from \"@ionic/vue\";\n+</script>\n+\n <template>\n \t<ion-page>\n-\t\t<ion-header :translucent=\"true\">\n-\t\t\t<ion-toolbar>\n-\t\t\t\t<ion-title>Blank</ion-title>\n-\t\t\t</ion-toolbar>\n-\t\t</ion-header>\n-\n \t\t<ion-content :fullscreen=\"true\">\n-\t\t\t<ion-header collapse=\"condense\">\n-\t\t\t\t<ion-toolbar>\n-\t\t\t\t\t<ion-title size=\"large\">Blank</ion-title>\n-\t\t\t\t</ion-toolbar>\n-\t\t\t</ion-header>\n-\n-\t\t\t<div id=\"container\">\n-\t\t\t\t<strong>Ready to create an app?</strong>\n+\t\t\t<div\n+\t\t\t\tid=\"container\"\n+\t\t\t\tclass=\"h-full flex flex-col justify-center items-center gap-2\"\n+\t\t\t>\n+\t\t\t\t<p class=\"text-xl font-bold\">Ready to create an app?</p>\n \t\t\t\t<p>\n \t\t\t\t\tStart with Ionic\n \t\t\t\t\t<a\n@@ -28,43 +23,3 @@\n \t\t</ion-content>\n \t</ion-page>\n </template>\n-\n-<script setup lang=\"ts\">\n-import {\n-\tIonContent,\n-\tIonHeader,\n-\tIonPage,\n-\tIonTitle,\n-\tIonToolbar,\n-} from \"@ionic/vue\";\n-</script>\n-\n-<style scoped>\n-#container {\n-\ttext-align: center;\n-\n-\tposition: absolute;\n-\tleft: 0;\n-\tright: 0;\n-\ttop: 50%;\n-\ttransform: translateY(-50%);\n-}\n-\n-#container strong {\n-\tfont-size: 20px;\n-\tline-height: 26px;\n-}\n-\n-#container p {\n-\tfont-size: 16px;\n-\tline-height: 22px;\n-\n-\tcolor: #8c8c8c;\n-\n-\tmargin: 0;\n-}\n-\n-#container a {\n-\ttext-decoration: none;\n-}\n-</style>"
+      },
+      {
+        "sha": "35674099860a9a868a08e9e396010fc594ec8275",
+        "filename": "vite.config.ts",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/93ce29b3118da1fc066a9d1c613ee00a3226c880/vite.config.ts",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/93ce29b3118da1fc066a9d1c613ee00a3226c880/vite.config.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/vite.config.ts?ref=93ce29b3118da1fc066a9d1c613ee00a3226c880",
+        "patch": "@@ -1,11 +1,12 @@\n+import tailwindcss from \"@tailwindcss/vite\";\n import legacy from \"@vitejs/plugin-legacy\";\n import vue from \"@vitejs/plugin-vue\";\n import path from \"path\";\n import { defineConfig } from \"vitest/config\";\n \n // https://vitejs.dev/config/\n export default defineConfig({\n-\tplugins: [vue(), legacy()],\n+\tplugins: [vue(), legacy(), tailwindcss()],\n \tresolve: {\n \t\talias: {\n \t\t\t\"@\": path.resolve(import.meta.dirname, \"./src\"),"
+      }
+    ]
+  },
+  {
     "sha": "3dbf53b2450eb9cb7f759ac0d03091ded0d2971b",
     "node_id": "C_kwDOVd-iudoAKDNkYmY1M2IyNDUwZWI5Y2I3Zjc1OWFjMGQwMzA5MWRlZDBkMjk3MWI",
     "commit": {
@@ -1766,107 +1914,6 @@
         "raw_url": "https://github.com/jrwnnnn/scaffold/raw/1858fb3c4a147e12f933ef0e2deada79c1ccc47f/src%2Fstyles%2Fglobal.css",
         "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/src%2Fstyles%2Fglobal.css?ref=1858fb3c4a147e12f933ef0e2deada79c1ccc47f",
         "patch": "@@ -1,8 +0,0 @@\n-@import \"tailwindcss\";\n-body {\n-\t@apply flex min-h-dvh flex-col overflow-x-hidden;\n-}\n-\n-main {\n-\t@apply grow px-5 py-20 md:px-20 lg:px-30;\n-}"
-      }
-    ]
-  },
-  {
-    "sha": "1858fb3c4a147e12f933ef0e2deada79c1ccc47f",
-    "node_id": "C_kwDORJSDNtoAKDE4NThmYjNjNGExNDdlMTJmOTMzZWYwZTJkZWFkYTc5YzFjY2M0N2Y",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-10-31T08:52:07Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-10-31T08:52:07Z"
-      },
-      "message": "chore: Rename package to project-name",
-      "tree": {
-        "sha": "8fd16139987f42e99066c2b768dbf0c21eae3cd6",
-        "url": "https://api.github.com/repos/jrwnnnn/scaffold/git/trees/8fd16139987f42e99066c2b768dbf0c21eae3cd6"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/scaffold/git/commits/1858fb3c4a147e12f933ef0e2deada79c1ccc47f",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQPMrG7PUNQCNaNKcvgj2EKwbC5wZM4/ggOz4txooadwaIAWGTNE7+TjUNpktcmM+pj\n8ebvIVcJELOFNutJmKdAI=\n-----END SSH SIGNATURE-----",
-        "payload": "tree 8fd16139987f42e99066c2b768dbf0c21eae3cd6\nparent 49e399cf99b5f430e490f8f9bdb434e7c1c136c1\nauthor Mark Jerwin <git@jrwnnnn.me> 1793436727 +0800\ncommitter Mark Jerwin <git@jrwnnnn.me> 1793436727 +0800\n\nchore: Rename package to project-name\n",
-        "verified_at": "2026-10-31T08:52:40Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/1858fb3c4a147e12f933ef0e2deada79c1ccc47f",
-    "html_url": "https://github.com/jrwnnnn/scaffold/commit/1858fb3c4a147e12f933ef0e2deada79c1ccc47f",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/1858fb3c4a147e12f933ef0e2deada79c1ccc47f/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "49e399cf99b5f430e490f8f9bdb434e7c1c136c1",
-        "url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/49e399cf99b5f430e490f8f9bdb434e7c1c136c1",
-        "html_url": "https://github.com/jrwnnnn/scaffold/commit/49e399cf99b5f430e490f8f9bdb434e7c1c136c1"
-      }
-    ],
-    "stats": {
-      "total": 2,
-      "additions": 1,
-      "deletions": 1
-    },
-    "files": [
-      {
-        "sha": "7692c9ae2dcbf447f431e464c8cffccf94fdabc1",
-        "filename": "package.json",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/1858fb3c4a147e12f933ef0e2deada79c1ccc47f/package.json",
-        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/1858fb3c4a147e12f933ef0e2deada79c1ccc47f/package.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/package.json?ref=1858fb3c4a147e12f933ef0e2deada79c1ccc47f",
-        "patch": "@@ -1,5 +1,5 @@\n {\n-\t\"name\": \"jrwnnnn\",\n+\t\"name\": \"project-name\",\n \t\"type\": \"module\",\n \t\"version\": \"0.0.1\",\n \t\"scripts\": {"
       }
     ]
   }
