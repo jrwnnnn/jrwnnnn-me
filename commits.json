@@ -1,5 +1,438 @@
 [
   {
+    "sha": "099723d2628c1ea88208ae83e2acfeecbe909391",
+    "node_id": "C_kwDOVd-iudoAKDA5OTcyM2QyNjI4YzFlYTg4MjA4YWU4M2UyYWNmZWVjYmU5MDkzOTE",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-11-09T03:11:02Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-11-09T03:11:02Z"
+      },
+      "message": "ci: Move CodeQL to dedicated workflow (#17)",
+      "tree": {
+        "sha": "7bb8d1c1831cf41da5273d9686a73be14aef08b2",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/7bb8d1c1831cf41da5273d9686a73be14aef08b2"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/099723d2628c1ea88208ae83e2acfeecbe909391",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq8TnGCRC1aQ7uu5UhlAAAd/QQAGzdUYvWNRrGfQhAAaJB3yc5\ntm/+DyvicX8W3ah8h9iOs6yXj5aIm5+zxeysLrOdNwRoH6Z/OAFEPrqDOYfNRP0N\nnKy2V/xvHwuAsQuAIiIUuVYn1c3dnJCm/Z86QIWlr9GljtdStEf+m2qOSgps9Fqg\nsNm7jQTxiyBipcz9GPNTQLlYQrAxa9GD8KNs/8xsesyxPvAibjPyD8E8OlCriC9C\n4/PvA67EGu8IFlpIhc4BbQ0MDKt44wO41KY3ITiqUA3EvmXNabbLt+342NLM2hKp\n3DYKAD7jHD6Dl7h/vcMwKtcV/mYXejsgzzUusUS0oqJltpP1wk8M3UYfmqlF5Z2s\nZIB9YjlPu0aPICp8KKALypqsxTq/cpc3X8QUXPwKvgG+TVf3WdejHlsmCasjXd6p\nTK46+JrWaYDpW5YjSjP6VoAnowdsJ2EnHmdGfkGFarrgRqffUHRAx2djlLH92HtA\nBOuVwElUL+mfsi+sJTOLgcOh/mTIDh1S0BFGlFUURs7gEK70ItS/mky+78IFAJKq\nGQEIwZaWKp+PhYjZmEOAg9sZ6oMrtIteWPSuAUizpLA4QOSibZ24Mt6b3DIJQQ+y\nKW2h9TRy12PHVLKmlc4IvX721Hriko+dTV5PoAbonwwREgFa0kbvJ/M32jJZgk7W\ngU1Sw0sNlOu+erj1MG+P\n=M3Fk\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 7bb8d1c1831cf41da5273d9686a73be14aef08b2\nparent 5df51f4b5f9074ad28335d0fb14aa6f5faafa4da\nauthor Mark Jerwin <git@jrwnnnn.me> 1794193862 +0800\ncommitter GitHub <noreply@github.com> 1794193862 +0800\n\nci: Move CodeQL to dedicated workflow (#17)",
+        "verified_at": "2026-11-09T03:11:02Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/099723d2628c1ea88208ae83e2acfeecbe909391",
+    "html_url": "https://github.com/jrwnnnn/zipo/commit/099723d2628c1ea88208ae83e2acfeecbe909391",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/099723d2628c1ea88208ae83e2acfeecbe909391/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5df51f4b5f9074ad28335d0fb14aa6f5faafa4da",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/5df51f4b5f9074ad28335d0fb14aa6f5faafa4da",
+        "html_url": "https://github.com/jrwnnnn/zipo/commit/5df51f4b5f9074ad28335d0fb14aa6f5faafa4da"
+      }
+    ],
+    "stats": {
+      "total": 41,
+      "additions": 25,
+      "deletions": 16
+    },
+    "files": [
+      {
+        "sha": "90f0f630acc99d2a76f6e9555223a186bc5e7ede",
+        "filename": ".github/workflows/ci.yml",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 16,
+        "changes": 16,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/099723d2628c1ea88208ae83e2acfeecbe909391/.github%2Fworkflows%2Fci.yml",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/099723d2628c1ea88208ae83e2acfeecbe909391/.github%2Fworkflows%2Fci.yml",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/.github%2Fworkflows%2Fci.yml?ref=099723d2628c1ea88208ae83e2acfeecbe909391",
+        "patch": "@@ -67,22 +67,6 @@ jobs:\n           path: playwright-report/\n           retention-days: 7\n \n-  codeql:\n-    runs-on: ubuntu-latest\n-    permissions:\n-      security-events: write\n-      actions: read\n-      contents: read\n-    steps:\n-      - uses: actions/checkout@v4\n-      - name: Initialize CodeQL\n-        uses: github/codeql-action/init@v4\n-        with:\n-          languages: javascript-typescript\n-\n-      - name: Perform Analysis\n-        uses: github/codeql-action/analyze@v4\n-\n   build:\n     needs: [e2e, unit]\n     runs-on: ubuntu-latest"
+      },
+      {
+        "sha": "24a28b6e7d581f64e3e56db653d5f60faeb43ebd",
+        "filename": ".github/workflows/codeql.yml",
+        "status": "added",
+        "additions": 25,
+        "deletions": 0,
+        "changes": 25,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/099723d2628c1ea88208ae83e2acfeecbe909391/.github%2Fworkflows%2Fcodeql.yml",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/099723d2628c1ea88208ae83e2acfeecbe909391/.github%2Fworkflows%2Fcodeql.yml",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/.github%2Fworkflows%2Fcodeql.yml?ref=099723d2628c1ea88208ae83e2acfeecbe909391",
+        "patch": "@@ -0,0 +1,25 @@\n+name: CodeQL\n+\n+on:\n+  push:\n+    branches: [main]\n+  pull_request:\n+  workflow_dispatch:\n+\n+permissions:\n+  security-events: write\n+  actions: read\n+  contents: read\n+\n+jobs:\n+  codeql:\n+    runs-on: ubuntu-latest\n+    steps:\n+      - uses: actions/checkout@v4\n+      - name: Initialize CodeQL\n+        uses: github/codeql-action/init@v3\n+        with:\n+          languages: javascript-typescript\n+\n+      - name: Perform Analysis\n+        uses: github/codeql-action/analyze@v3"
+      }
+    ]
+  },
+  {
+    "sha": "5df51f4b5f9074ad28335d0fb14aa6f5faafa4da",
+    "node_id": "C_kwDOVd-iudoAKDVkZjUxZjRiNWY5MDc0YWQyODMzNWQwZmIxNGFhNmY1ZmFhZmE0ZGE",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-11-09T00:52:18Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-11-09T00:52:18Z"
+      },
+      "message": "ci: update E2E test dependencies (#16)",
+      "tree": {
+        "sha": "5b8cdfa05a6343e75f341e17d5aec0e08cf736c3",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/5b8cdfa05a6343e75f341e17d5aec0e08cf736c3"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/5df51f4b5f9074ad28335d0fb14aa6f5faafa4da",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq8RlCCRC1aQ7uu5UhlAAAoIYQADkGW+2gCYwu3TzSHAkTJD83\n/dHJzr6yfth6Mdd5mDuRlSOym0a4cShRyGnbANQgQb1VxlNP3qKTy4n+sXjGnaFO\nZSArmcmOXhXxcIesSpwDuewhD3z2J7RjFw+sVArLT8VYSdcsDBu0+xuPZryjTmck\nif4xpmWKzqFcqgM5zgYjr78ajuz+kQ/xaWajN8LFipJDzeWKsjoAsAkTrPCwa3mQ\ngegtIxPhxptVU2y1iflZuGJczM1OHgg7LVnxzq/HtCtZo0a2OuhjA9+D+zmoFtAA\nYFqyhlsL/GoBvCnaHdEQWZacCi6OZuj9m3FmVKBslyM8TNtFjaCPbmi1cQHQEfwg\nghtCcxXL4EEXAxquPs7OKLAqbhT5OrIKYwV6zPxOhtt14Zas+pVINJkHY0pr4J9q\nURU0VpZcDTj0f3Q5+BJdUu61vhJlbsSnVrpLxXymeJUjiXa/KIHX8rxxK/S61BVr\nqwLBxO6sYVvW1jrOOFiL8JusuZ4kQnp4O0/ppsW7pvcUxC8+P952bJXd3dzvtY5W\nUKofgdd2I75f2zxXG7+2hd9TaXCFT5EjbzO4yJzk6PLw75pqWJLsvfjlTfa0Vrt0\nKmbMWidJ7fOtYetoPu9cQPrM2MqI8Atzg5qL7dsqk1OJGBFDzkfifL5PECdQoXTy\nqAa3saX1O0ptPKQpdhpJ\n=OTP9\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 5b8cdfa05a6343e75f341e17d5aec0e08cf736c3\nparent 4fe92daa22cbe44f38e05bf106859a5372af688e\nauthor Mark Jerwin <git@jrwnnnn.me> 1794185538 +0800\ncommitter GitHub <noreply@github.com> 1794185538 +0800\n\nci: update E2E test dependencies (#16)",
+        "verified_at": "2026-11-09T00:52:19Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/5df51f4b5f9074ad28335d0fb14aa6f5faafa4da",
+    "html_url": "https://github.com/jrwnnnn/zipo/commit/5df51f4b5f9074ad28335d0fb14aa6f5faafa4da",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/5df51f4b5f9074ad28335d0fb14aa6f5faafa4da/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4fe92daa22cbe44f38e05bf106859a5372af688e",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/4fe92daa22cbe44f38e05bf106859a5372af688e",
+        "html_url": "https://github.com/jrwnnnn/zipo/commit/4fe92daa22cbe44f38e05bf106859a5372af688e"
+      }
+    ],
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1
+    },
+    "files": [
+      {
+        "sha": "a29ff9e91eec335d73c6f4d37c9ff51d6d590fce",
+        "filename": ".github/workflows/ci.yml",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/5df51f4b5f9074ad28335d0fb14aa6f5faafa4da/.github%2Fworkflows%2Fci.yml",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/5df51f4b5f9074ad28335d0fb14aa6f5faafa4da/.github%2Fworkflows%2Fci.yml",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/.github%2Fworkflows%2Fci.yml?ref=5df51f4b5f9074ad28335d0fb14aa6f5faafa4da",
+        "patch": "@@ -49,7 +49,7 @@ jobs:\n       - run: npm run test:unit\n \n   e2e:\n-    needs: [unit]\n+    needs: [lint, typecheck]\n     runs-on: ubuntu-latest\n     steps:\n       - uses: actions/checkout@v4"
+      }
+    ]
+  },
+  {
+    "sha": "4fe92daa22cbe44f38e05bf106859a5372af688e",
+    "node_id": "C_kwDOVd-iudoAKDRmZTkyZGFhMjJjYmU0NGYzOGUwNWJmMTA2ODU5YTUzNzJhZjY4OGU",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-11-09T00:22:12Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-11-09T00:22:12Z"
+      },
+      "message": "feat: build app theme (#9)\n\n* feat: build app theme\n\n* test: update home screen tests",
+      "tree": {
+        "sha": "c92a3d4e609c0ed1f1db8811353a7454e19dc856",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/c92a3d4e609c0ed1f1db8811353a7454e19dc856"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/4fe92daa22cbe44f38e05bf106859a5372af688e",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq8RI0CRC1aQ7uu5UhlAAAMFQQAETVrxiGr79mk5SBLQag2bOa\nTWB8fEbCFKVls7yoVp8EPlIYGbFypN/U8fezEs0+mpcnmkLoq+KBpc6+Z/azFcbx\nI8chcRG/H1X1ins8PBQVNFrbbXQX83IuPCwVgvD+neLGiLOcKz5KQ3ru0IcZuVzZ\niBiYN+2EeQfGOik1bN3xTa2un7byKhuZBxwQQuw7vUuIGCaWcbemYqvkqlRN/JcY\npwqDZ3m1PgI9p0QjQVNsJX115WYoLTgfA7ayMsMlp1TexpexobdPp1UQ6E0WRymV\niGpRoqANazWm5HgLmce4qMPMljwAQzjMwEbDoWzh7ZGXB5nAcpYxhsjmeWY3V6Ti\nUetnC0bF7n3MIUZ5oF3abvQCwLpqQ2ktg7lxPC2/33vkCOQLzOBMOmhuh5rquXmL\nswkfulm4SY15sfrVde8Bh4bKQqqbi077a/t7VqoJ4Lr1pwL5RIdNGC3+4lVVCo4Z\nsIhqH1BlIvXfKE2nev7F0u5aVFvws22/JvNns0a+r2U5/+hcba17dT17DB0zSWhw\nn67KQHzouhfUOrccjGH/tyBZm03SNaUSkKvgdRCI+3zgph1pQt1HrVp21hSjPgZj\n/k6wvc/kYiRP6k1hCf/Mcxo1h/JcudZvHRCmHQyo6TBuzMYOIEWcbltk5Cdnrj4+\nPXjSIzKM4eVUZCX0hbgN\n=CLNP\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree c92a3d4e609c0ed1f1db8811353a7454e19dc856\nparent ad059bb68161d0ddf44290535c9b34a8ded5d76b\nauthor Mark Jerwin <git@jrwnnnn.me> 1794183732 +0800\ncommitter GitHub <noreply@github.com> 1794183732 +0800\n\nfeat: build app theme (#9)\n\n* feat: build app theme\n\n* test: update home screen tests",
+        "verified_at": "2026-11-09T00:22:13Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/4fe92daa22cbe44f38e05bf106859a5372af688e",
+    "html_url": "https://github.com/jrwnnnn/zipo/commit/4fe92daa22cbe44f38e05bf106859a5372af688e",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/4fe92daa22cbe44f38e05bf106859a5372af688e/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ad059bb68161d0ddf44290535c9b34a8ded5d76b",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/ad059bb68161d0ddf44290535c9b34a8ded5d76b",
+        "html_url": "https://github.com/jrwnnnn/zipo/commit/ad059bb68161d0ddf44290535c9b34a8ded5d76b"
+      }
+    ],
+    "stats": {
+      "total": 282,
+      "additions": 261,
+      "deletions": 21
+    },
+    "files": [
+      {
+        "sha": "3b69ce89158cc070c59140ff49b4c9ec10b6c692",
+        "filename": ".vscode/settings.json",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/4fe92daa22cbe44f38e05bf106859a5372af688e/.vscode%2Fsettings.json",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/4fe92daa22cbe44f38e05bf106859a5372af688e/.vscode%2Fsettings.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/.vscode%2Fsettings.json?ref=4fe92daa22cbe44f38e05bf106859a5372af688e",
+        "patch": "@@ -1,3 +1,4 @@\n {\n+\t\"css.lint.unknownAtRules\": \"ignore\",\n \t\"editor.formatOnSave\": true\n }"
+      },
+      {
+        "sha": "6a314848b35ff0746801b3862714c239d1433e4a",
+        "filename": "src/assets/fonts/florian_karsten/OFL.txt",
+        "status": "added",
+        "additions": 93,
+        "deletions": 0,
+        "changes": 93,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/4fe92daa22cbe44f38e05bf106859a5372af688e/src%2Fassets%2Ffonts%2Fflorian_karsten%2FOFL.txt",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/4fe92daa22cbe44f38e05bf106859a5372af688e/src%2Fassets%2Ffonts%2Fflorian_karsten%2FOFL.txt",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fassets%2Ffonts%2Fflorian_karsten%2FOFL.txt?ref=4fe92daa22cbe44f38e05bf106859a5372af688e",
+        "patch": "@@ -0,0 +1,93 @@\n+Copyright 2020 The Space Grotesk Project Authors (https://github.com/floriankarsten/space-grotesk)\n+\n+This Font Software is licensed under the SIL Open Font License, Version 1.1.\n+This license is copied below, and is also available with a FAQ at:\n+https://openfontlicense.org\n+\n+\n+-----------------------------------------------------------\n+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007\n+-----------------------------------------------------------\n+\n+PREAMBLE\n+The goals of the Open Font License (OFL) are to stimulate worldwide\n+development of collaborative font projects, to support the font creation\n+efforts of academic and linguistic communities, and to provide a free and\n+open framework in which fonts may be shared and improved in partnership\n+with others.\n+\n+The OFL allows the licensed fonts to be used, studied, modified and\n+redistributed freely as long as they are not sold by themselves. The\n+fonts, including any derivative works, can be bundled, embedded, \n+redistributed and/or sold with any software provided that any reserved\n+names are not used by derivative works. The fonts and derivatives,\n+however, cannot be released under any other type of license. The\n+requirement for fonts to remain under this license does not apply\n+to any document created using the fonts or their derivatives.\n+\n+DEFINITIONS\n+\"Font Software\" refers to the set of files released by the Copyright\n+Holder(s) under this license and clearly marked as such. This may\n+include source files, build scripts and documentation.\n+\n+\"Reserved Font Name\" refers to any names specified as such after the\n+copyright statement(s).\n+\n+\"Original Version\" refers to the collection of Font Software components as\n+distributed by the Copyright Holder(s).\n+\n+\"Modified Version\" refers to any derivative made by adding to, deleting,\n+or substituting -- in part or in whole -- any of the components of the\n+Original Version, by changing formats or by porting the Font Software to a\n+new environment.\n+\n+\"Author\" refers to any designer, engineer, programmer, technical\n+writer or other person who contributed to the Font Software.\n+\n+PERMISSION & CONDITIONS\n+Permission is hereby granted, free of charge, to any person obtaining\n+a copy of the Font Software, to use, study, copy, merge, embed, modify,\n+redistribute, and sell modified and unmodified copies of the Font\n+Software, subject to the following conditions:\n+\n+1) Neither the Font Software nor any of its individual components,\n+in Original or Modified Versions, may be sold by itself.\n+\n+2) Original or Modified Versions of the Font Software may be bundled,\n+redistributed and/or sold with any software, provided that each copy\n+contains the above copyright notice and this license. These can be\n+included either as stand-alone text files, human-readable headers or\n+in the appropriate machine-readable metadata fields within text or\n+binary files as long as those fields can be easily viewed by the user.\n+\n+3) No Modified Version of the Font Software may use the Reserved Font\n+Name(s) unless explicit written permission is granted by the corresponding\n+Copyright Holder. This restriction only applies to the primary font name as\n+presented to the users.\n+\n+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font\n+Software shall not be used to promote, endorse or advertise any\n+Modified Version, except to acknowledge the contribution(s) of the\n+Copyright Holder(s) and the Author(s) or with their explicit written\n+permission.\n+\n+5) The Font Software, modified or unmodified, in part or in whole,\n+must be distributed entirely under this license, and must not be\n+distributed under any other license. The requirement for fonts to\n+remain under this license does not apply to any document created\n+using the Font Software.\n+\n+TERMINATION\n+This license becomes null and void if any of the above conditions are\n+not met.\n+\n+DISCLAIMER\n+THE FONT SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF\n+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\n+OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE\n+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\n+INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\n+DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\n+FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\n+OTHER DEALINGS IN THE FONT SOFTWARE."
+      },
+      {
+        "sha": "9591a3c8dda0a3f2b45aee1e6a0ee89218c56ac1",
+        "filename": "src/assets/fonts/florian_karsten/SpaceGrotesk.woff2",
+        "status": "added",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/4fe92daa22cbe44f38e05bf106859a5372af688e/src%2Fassets%2Ffonts%2Fflorian_karsten%2FSpaceGrotesk.woff2",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/4fe92daa22cbe44f38e05bf106859a5372af688e/src%2Fassets%2Ffonts%2Fflorian_karsten%2FSpaceGrotesk.woff2",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fassets%2Ffonts%2Fflorian_karsten%2FSpaceGrotesk.woff2?ref=4fe92daa22cbe44f38e05bf106859a5372af688e"
+      },
+      {
+        "sha": "0b138aa19ea42d3d90b3041a8d1fd37dfc506526",
+        "filename": "src/assets/fonts/nOS/NType82.woff2",
+        "status": "added",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/4fe92daa22cbe44f38e05bf106859a5372af688e/src%2Fassets%2Ffonts%2FnOS%2FNType82.woff2",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/4fe92daa22cbe44f38e05bf106859a5372af688e/src%2Fassets%2Ffonts%2FnOS%2FNType82.woff2",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fassets%2Ffonts%2FnOS%2FNType82.woff2?ref=4fe92daa22cbe44f38e05bf106859a5372af688e"
+      },
+      {
+        "sha": "eceabbc5ffafbbbc468d792e79dd3e2a1d6258bb",
+        "filename": "src/assets/fonts/vercel/Geist.woff2",
+        "status": "added",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/4fe92daa22cbe44f38e05bf106859a5372af688e/src%2Fassets%2Ffonts%2Fvercel%2FGeist.woff2",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/4fe92daa22cbe44f38e05bf106859a5372af688e/src%2Fassets%2Ffonts%2Fvercel%2FGeist.woff2",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fassets%2Ffonts%2Fvercel%2FGeist.woff2?ref=4fe92daa22cbe44f38e05bf106859a5372af688e"
+      },
+      {
+        "sha": "679a685a2343079632b0dd836fecb7cefbea6f0d",
+        "filename": "src/assets/fonts/vercel/OFL.txt",
+        "status": "added",
+        "additions": 93,
+        "deletions": 0,
+        "changes": 93,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/4fe92daa22cbe44f38e05bf106859a5372af688e/src%2Fassets%2Ffonts%2Fvercel%2FOFL.txt",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/4fe92daa22cbe44f38e05bf106859a5372af688e/src%2Fassets%2Ffonts%2Fvercel%2FOFL.txt",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fassets%2Ffonts%2Fvercel%2FOFL.txt?ref=4fe92daa22cbe44f38e05bf106859a5372af688e",
+        "patch": "@@ -0,0 +1,93 @@\n+Copyright 2024 The Geist Project Authors (https://github.com/vercel/geist-font.git)\n+\n+This Font Software is licensed under the SIL Open Font License, Version 1.1.\n+This license is copied below, and is also available with a FAQ at:\n+https://openfontlicense.org\n+\n+\n+-----------------------------------------------------------\n+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007\n+-----------------------------------------------------------\n+\n+PREAMBLE\n+The goals of the Open Font License (OFL) are to stimulate worldwide\n+development of collaborative font projects, to support the font creation\n+efforts of academic and linguistic communities, and to provide a free and\n+open framework in which fonts may be shared and improved in partnership\n+with others.\n+\n+The OFL allows the licensed fonts to be used, studied, modified and\n+redistributed freely as long as they are not sold by themselves. The\n+fonts, including any derivative works, can be bundled, embedded, \n+redistributed and/or sold with any software provided that any reserved\n+names are not used by derivative works. The fonts and derivatives,\n+however, cannot be released under any other type of license. The\n+requirement for fonts to remain under this license does not apply\n+to any document created using the fonts or their derivatives.\n+\n+DEFINITIONS\n+\"Font Software\" refers to the set of files released by the Copyright\n+Holder(s) under this license and clearly marked as such. This may\n+include source files, build scripts and documentation.\n+\n+\"Reserved Font Name\" refers to any names specified as such after the\n+copyright statement(s).\n+\n+\"Original Version\" refers to the collection of Font Software components as\n+distributed by the Copyright Holder(s).\n+\n+\"Modified Version\" refers to any derivative made by adding to, deleting,\n+or substituting -- in part or in whole -- any of the components of the\n+Original Version, by changing formats or by porting the Font Software to a\n+new environment.\n+\n+\"Author\" refers to any designer, engineer, programmer, technical\n+writer or other person who contributed to the Font Software.\n+\n+PERMISSION & CONDITIONS\n+Permission is hereby granted, free of charge, to any person obtaining\n+a copy of the Font Software, to use, study, copy, merge, embed, modify,\n+redistribute, and sell modified and unmodified copies of the Font\n+Software, subject to the following conditions:\n+\n+1) Neither the Font Software nor any of its individual components,\n+in Original or Modified Versions, may be sold by itself.\n+\n+2) Original or Modified Versions of the Font Software may be bundled,\n+redistributed and/or sold with any software, provided that each copy\n+contains the above copyright notice and this license. These can be\n+included either as stand-alone text files, human-readable headers or\n+in the appropriate machine-readable metadata fields within text or\n+binary files as long as those fields can be easily viewed by the user.\n+\n+3) No Modified Version of the Font Software may use the Reserved Font\n+Name(s) unless explicit written permission is granted by the corresponding\n+Copyright Holder. This restriction only applies to the primary font name as\n+presented to the users.\n+\n+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font\n+Software shall not be used to promote, endorse or advertise any\n+Modified Version, except to acknowledge the contribution(s) of the\n+Copyright Holder(s) and the Author(s) or with their explicit written\n+permission.\n+\n+5) The Font Software, modified or unmodified, in part or in whole,\n+must be distributed entirely under this license, and must not be\n+distributed under any other license. The requirement for fonts to\n+remain under this license does not apply to any document created\n+using the Font Software.\n+\n+TERMINATION\n+This license becomes null and void if any of the above conditions are\n+not met.\n+\n+DISCLAIMER\n+THE FONT SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF\n+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT\n+OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE\n+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\n+INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL\n+DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\n+FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM\n+OTHER DEALINGS IN THE FONT SOFTWARE."
+      },
+      {
+        "sha": "8006901f348510315ffdcb32ac92a18a6f30e4e2",
+        "filename": "src/main.ts",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/4fe92daa22cbe44f38e05bf106859a5372af688e/src%2Fmain.ts",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/4fe92daa22cbe44f38e05bf106859a5372af688e/src%2Fmain.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fmain.ts?ref=4fe92daa22cbe44f38e05bf106859a5372af688e",
+        "patch": "@@ -29,7 +29,7 @@ import \"@ionic/vue/css/display.css\";\n \n /* @import '@ionic/vue/css/palettes/dark.always.css'; */\n /* @import '@ionic/vue/css/palettes/dark.class.css'; */\n-import \"@ionic/vue/css/palettes/dark.system.css\";\n+/* @import '@ionic/vue/css/palettes/dark.system.css'; */\n \n /* Theme variables */\n import \"./theme/variables.css\";"
+      },
+      {
+        "sha": "a8e74afaff5b15dfdd50781a8b55cefe651005a9",
+        "filename": "src/theme/variables.css",
+        "status": "modified",
+        "additions": 34,
+        "deletions": 0,
+        "changes": 34,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/4fe92daa22cbe44f38e05bf106859a5372af688e/src%2Ftheme%2Fvariables.css",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/4fe92daa22cbe44f38e05bf106859a5372af688e/src%2Ftheme%2Fvariables.css",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Ftheme%2Fvariables.css?ref=4fe92daa22cbe44f38e05bf106859a5372af688e",
+        "patch": "@@ -2,3 +2,37 @@\n http://ionicframework.com/docs/theming/ */\n \n @import \"tailwindcss\";\n+\n+@font-face {\n+\tfont-family: \"Geist\";\n+\tsrc: url(\"../assets/fonts/vercel/Geist.woff2\") format(\"woff2\");\n+}\n+\n+@font-face {\n+\tfont-family: \"NType82\";\n+\tsrc: url(\"../assets/fonts/nOS/NType82.woff2\") format(\"woff2\");\n+}\n+\n+@font-face {\n+\tfont-family: \"SpaceGrotesk\";\n+\tsrc: url(\"../assets/fonts/florian_karsten/SpaceGrotesk.woff2\") format(\"woff2\");\n+}\n+\n+@theme {\n+\t--color-surface: #1c1c1c;\n+\t--color-line: #323232;\n+\t--color-muted: #a8a8a8;\n+}\n+\n+:root {\n+\tcolor-scheme: dark;\n+\t--ion-font-family: \"SpaceGrotesk\";\n+\t--ion-background-color: #000;\n+\t--ion-text-color: #fff;\n+\t--ion-toolbar-background: #000;\n+\t--ion-toolbar-color: #fff;\n+}\n+\n+.card {\n+\t@apply bg-surface rounded-2xl p-5;\n+}"
+      },
+      {
+        "sha": "c4dda27ef2d6770c6edfda11890021f11dbedfe5",
+        "filename": "src/views/HomePage.vue",
+        "status": "modified",
+        "additions": 37,
+        "deletions": 16,
+        "changes": 53,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/4fe92daa22cbe44f38e05bf106859a5372af688e/src%2Fviews%2FHomePage.vue",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/4fe92daa22cbe44f38e05bf106859a5372af688e/src%2Fviews%2FHomePage.vue",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fviews%2FHomePage.vue?ref=4fe92daa22cbe44f38e05bf106859a5372af688e",
+        "patch": "@@ -1,25 +1,46 @@\n <script setup lang=\"ts\">\n-import { IonContent, IonPage } from \"@ionic/vue\";\n+import {\n+\tIonContent,\n+\tIonHeader,\n+\tIonPage,\n+\tIonTitle,\n+\tIonToolbar,\n+} from \"@ionic/vue\";\n </script>\n \n <template>\n \t<ion-page>\n-\t\t<ion-content :fullscreen=\"true\">\n-\t\t\t<div\n-\t\t\t\tid=\"container\"\n-\t\t\t\tclass=\"flex h-full flex-col items-center justify-center gap-2\"\n-\t\t\t>\n-\t\t\t\t<p class=\"text-xl font-bold\">Ready to create an app?</p>\n-\t\t\t\t<p>\n-\t\t\t\t\tStart with Ionic\n-\t\t\t\t\t<a\n-\t\t\t\t\t\ttarget=\"_blank\"\n-\t\t\t\t\t\trel=\"noopener noreferrer\"\n-\t\t\t\t\t\thref=\"https://ionicframework.com/docs/components\"\n-\t\t\t\t\t\t>UI Components</a\n+\t\t<ion-content :fullscreen=\"true\" class=\"ion-padding\">\n+\t\t\t<ion-header class=\"ion-no-border\">\n+\t\t\t\t<ion-toolbar>\n+\t\t\t\t\t<ion-title\n+\t\t\t\t\t\tid=\"top-bar\"\n+\t\t\t\t\t\tclass=\"ion-text-center bg-primary font-[NType82] text-3xl\"\n \t\t\t\t\t>\n-\t\t\t\t</p>\n-\t\t\t</div>\n+\t\t\t\t\t\tZipo\n+\t\t\t\t\t</ion-title>\n+\t\t\t\t</ion-toolbar>\n+\t\t\t</ion-header>\n+\t\t\t<main class=\"flex min-h-full flex-col gap-3\">\n+\t\t\t\t<section class=\"mt-100 grid grid-cols-2 gap-2\">\n+\t\t\t\t\t<div\n+\t\t\t\t\t\tclass=\"flex aspect-square items-center justify-center rounded-full bg-white\"\n+\t\t\t\t\t></div>\n+\t\t\t\t\t<div class=\"card aspect-square\"></div>\n+\t\t\t\t</section>\n+\n+\t\t\t\t<section class=\"card\">\n+\t\t\t\t\t<p class=\"font-['Geist'] font-bold\">Activity log</p>\n+\t\t\t\t\t<p class=\"font-['SpaceGrotesk']\">\n+\t\t\t\t\t\tNul ne peut être soumis à une arrestation, une détention ou un exil\n+\t\t\t\t\t\tarbitraires. Toute personne a droit, en pleine égalité, à ce que sa\n+\t\t\t\t\t\tcause soit entendue équitablement et publiquement par un tribunal\n+\t\t\t\t\t\tindépendant et impartial, qui décidera, soit de ses droits et\n+\t\t\t\t\t\tobligations, soit du bien-fondé de toute accusation en matière\n+\t\t\t\t\t\tpénale dirigée contre elle.\n+\t\t\t\t\t</p>\n+\t\t\t\t</section>\n+\t\t\t</main>\n \t\t</ion-content>\n \t</ion-page>\n </template>"
+      },
+      {
+        "sha": "f9d0cea0cd61e707f4b539484c637f31e92f6945",
+        "filename": "tests/e2e/app.spec.ts",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 3,
+        "changes": 4,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/4fe92daa22cbe44f38e05bf106859a5372af688e/tests%2Fe2e%2Fapp.spec.ts",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/4fe92daa22cbe44f38e05bf106859a5372af688e/tests%2Fe2e%2Fapp.spec.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/tests%2Fe2e%2Fapp.spec.ts?ref=4fe92daa22cbe44f38e05bf106859a5372af688e",
+        "patch": "@@ -2,7 +2,5 @@ import { expect, test } from \"@playwright/test\";\n \n test(\"visits the app root url\", async ({ page }) => {\n \tawait page.goto(\"/\");\n-\tawait expect(page.locator(\"#container\")).toContainText(\n-\t\t\"Ready to create an app?\",\n-\t);\n+\tawait expect(page.locator(\"#top-bar\")).toContainText(\"Zipo\");\n });"
+      },
+      {
+        "sha": "01ff4693afb5d58cb207d14f04ff4681d2bf614c",
+        "filename": "tests/unit/HomePage.spec.ts",
+        "status": "renamed",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/4fe92daa22cbe44f38e05bf106859a5372af688e/tests%2Funit%2FHomePage.spec.ts",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/4fe92daa22cbe44f38e05bf106859a5372af688e/tests%2Funit%2FHomePage.spec.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/tests%2Funit%2FHomePage.spec.ts?ref=4fe92daa22cbe44f38e05bf106859a5372af688e",
+        "patch": "@@ -6,6 +6,6 @@ import HomePage from \"@/views/HomePage.vue\";\n describe(\"HomePage.vue\", () => {\n \ttest(\"renders home vue\", () => {\n \t\tconst wrapper = mount(HomePage);\n-\t\texpect(wrapper.text()).toMatch(\"Ready to create an app?\");\n+\t\texpect(wrapper.get(\"#top-bar\").text()).toBe(\"Zipo\");\n \t});\n });",
+        "previous_filename": "tests/unit/example.spec.ts"
+      }
+    ]
+  },
+  {
     "sha": "ad059bb68161d0ddf44290535c9b34a8ded5d76b",
     "node_id": "C_kwDOVd-iudoAKGFkMDU5YmI2ODE2MWQwZGRmNDQyOTA1MzVjOWIzNGE4ZGVkNWQ3NmI",
     "commit": {
@@ -234,309 +667,6 @@
         "raw_url": "https://github.com/jrwnnnn/zipo/raw/ced929d4663c2c8535574251a6dfd7161f00f6cb/src%2Fviews%2FHomePage.vue",
         "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fviews%2FHomePage.vue?ref=ced929d4663c2c8535574251a6dfd7161f00f6cb",
         "patch": "@@ -7,7 +7,7 @@ import { IonContent, IonPage } from \"@ionic/vue\";\n \t\t<ion-content :fullscreen=\"true\">\n \t\t\t<div\n \t\t\t\tid=\"container\"\n-\t\t\t\tclass=\"h-full flex flex-col justify-center items-center gap-2\"\n+\t\t\t\tclass=\"flex h-full flex-col items-center justify-center gap-2\"\n \t\t\t>\n \t\t\t\t<p class=\"text-xl font-bold\">Ready to create an app?</p>\n \t\t\t\t<p>"
-      }
-    ]
-  },
-  {
-    "sha": "cfaac77d4eb72d2754b1115b7b3966f597bdccc9",
-    "node_id": "C_kwDOVd-iudoAKGNmYWFjNzdkNGViNzJkMjc1NGIxMTE1YjdiMzk2NmY1OTdiZGNjYzk",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-11-04T09:02:00Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-11-04T09:02:00Z"
-      },
-      "message": "docs: Update contribution guidelines (#7)",
-      "tree": {
-        "sha": "acca15bb3c80c9b997071ec4bbcc856ce0727ef5",
-        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/acca15bb3c80c9b997071ec4bbcc856ce0727ef5"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/cfaac77d4eb72d2754b1115b7b3966f597bdccc9",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq6vSICRC1aQ7uu5UhlAAAd6kQAEDotGwk5qSXFmasBLbZUFEQ\n3k41Qgw3jQdEl9fMRd142JPgspCROZ8IPDYBZ5bJFq6CA3BTq6k2gG9RXj4CmTay\n6FGIF3JiwPqcUDo8z3PEK/dFhwjhjuC+UopiqTPB8/3dIDyQ6vCXv5CPQwZbLhYk\neHVpzk0w8uYA6aMXGp+pYKFZydKeDOHceSdqsABdCPetlGcUWC8jSGXr4mB0ADo7\n2mOZQvIiHiXZE3lpn+cK3MNl8oJHVeH2KVJk3DEJq5t5DK45/IXSQBn7Jnk47Ni6\nAam7QPUL32sk36e1gI8M1BMuvG8gdrD86RxSLoQJ5UXNWV/whTGANd2yGuzkXrX9\nYTSsbvvm70owvVOT2oZLlBvijwxr+NEPEp6CemknLPikLXsx7SjyOLu3nf4N5zqU\neEzxfyFlbq3ME9ccxaZQrbYtYGfiyfDLnIgR2cWN6wPDLj8Eiz7p2jmOYrx0CKh5\nYVu53vtMPCfVmaD+UB+IOfiAXl6uy9+6zISqt4rdz1lIs5sj3FZCHynobgVaXYhE\nZbkZZ9YVbVkEPk+D00R80inDs78Mj6JntgLK///9Hc2Al7lHhnRfmw/edlJ64P4p\njaYT5X84B88/YNpwMC4IY4CHgXZ0H1U8ovRML1X327vcnqu+x6n1A2gur80+CWkh\nCW50yLUs98gHfHzJYS4C\n=WMCW\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree acca15bb3c80c9b997071ec4bbcc856ce0727ef5\nparent 383f5cf2fde60796b10fa62b68ec87effbfe16f0\nauthor Mark Jerwin <git@jrwnnnn.me> 1793782920 +0800\ncommitter GitHub <noreply@github.com> 1793782920 +0800\n\ndocs: Update contribution guidelines (#7)",
-        "verified_at": "2026-11-04T09:02:01Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/cfaac77d4eb72d2754b1115b7b3966f597bdccc9",
-    "html_url": "https://github.com/jrwnnnn/zipo/commit/cfaac77d4eb72d2754b1115b7b3966f597bdccc9",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/cfaac77d4eb72d2754b1115b7b3966f597bdccc9/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "383f5cf2fde60796b10fa62b68ec87effbfe16f0",
-        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/383f5cf2fde60796b10fa62b68ec87effbfe16f0",
-        "html_url": "https://github.com/jrwnnnn/zipo/commit/383f5cf2fde60796b10fa62b68ec87effbfe16f0"
-      }
-    ],
-    "stats": {
-      "total": 86,
-      "additions": 56,
-      "deletions": 30
-    },
-    "files": [
-      {
-        "sha": "ba11dc1aaaa92e7d19b1b7906495cd21c27941e2",
-        "filename": "CONTRIBUTING.md",
-        "status": "modified",
-        "additions": 56,
-        "deletions": 30,
-        "changes": 86,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/cfaac77d4eb72d2754b1115b7b3966f597bdccc9/CONTRIBUTING.md",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/cfaac77d4eb72d2754b1115b7b3966f597bdccc9/CONTRIBUTING.md",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/CONTRIBUTING.md?ref=cfaac77d4eb72d2754b1115b7b3966f597bdccc9",
-        "patch": "@@ -6,67 +6,93 @@ First off, thanks for taking the time to contribute! These are the guidelines fo\n \n All contributors are expected to adhere to the [Code of Conduct](CODE_OF_CONDUCT.md).\n \n-## Reporting Issues\n+## Before Writing Code\n \n-Before writing any code, please [open an issue](https://github.com/jrwnnnn/scaffold/issues) or comment on an existing one. This ensures we do not have multiple people working on the same feature and allows us to discuss the approach before you invest time in building it.\n+For new features or significant changes, [open an issue](../../issues) or comment on an existing one first. This ensures we do not have multiple people working on the same feature and allows us to discuss the approach before you invest time in building it. For existing bugs, you can jump straight to a PR.\n \n ## Development Setup\n \n-Make sure you have the latest LTS version of [Node.js](https://nodejs.org/en/download/current) installed.\n+### Prerequisites\n \n-Clone the repository:\n+Make sure you have the following:\n \n-```bash\n-git clone https://github.com/jrwnnnn/scaffold.git\n-cd scaffold\n-```\n+- LTS version of [Node.js](https://nodejs.org/en/download)\n+- JDK [17](https://adoptium.net/temurin/releases/?version=17) or [21](https://adoptium.net/temurin/releases/?version=21)\n+- [Android SDK (API 36)](https://developer.android.com/tools/sdkmanager) with `ANDROID_HOME` configured\n+- [Git](https://git-scm.com/)\n \n-Install the required dependencies:\n+### Getting Started\n \n-```bash\n-npm install\n-```\n+1. [Fork](https://docs.github.com/en/pull-requests/how-tos/work-with-forks/fork-a-repo) the repository and [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) it locally.\n \n-Start the development server:\n+   ```bash\n+   git clone https://github.com/<your-username>/zipo.git\n+   cd zipo\n+   ```\n \n-```bash\n-npm run dev       # optional: pass --host flag to expose the server to the local network\n-```\n+2. Install the required dependencies:\n+\n+   ```bash\n+   npm install\n+   ```\n+\n+3. Run the app in development mode. `android:dev` needs a phone connected by USB with [USB debugging](https://developer.android.com/studio/debug/dev-options) on, and on the same Wi-Fi as your computer:\n+\n+   ```bash\n+   npm run dev             # browser preview for UI work only\n+   npm run android:dev     # run on your phone (recommended)\n+   ```\n \n-Bundle the project for production:\n+To generate a standalone debug APK:\n \n ```bash\n npm run build\n+npm run sync\n+cd android\n+./gradlew assembleDebug      # Windows: .\\gradlew assembleDebug\n ```\n \n+The compiled APK will be at `android/app/build/outputs/apk/debug/app-debug.apk`.\n+\n ## Development Guidelines\n \n ### Branching Strategy\n \n-- `main` contains the latest stable development code.\n-- Create a new branch for each feature or bug fix. Use descriptive names like `feat/new-feature-name` or `fix/issue-description`.\n+- `main` contains the latest development code.\n+- Create a dedicated branch for each feature or bug fix using clear prefixes like `feat/new-feature-name` or `fix/issue-description`.\n \n ### Testing\n \n-Ensure all checks pass before submitting a pull request by running:\n+Zipo uses [Vitest](https://vitest.dev/) for unit tests and [Playwright](https://playwright.dev/) for e2e tests.\n \n ```bash\n-npm run test\n-\n+npx playwright install      # install browsers for e2e tests, run this only once\n+npm run test                # run all tests\n+npm run test:unit           # run unit tests only\n+npm run test:e2e            # run e2e tests only\n ```\n \n ### Code Style\n \n-This project enforces a consistent code style using [Prettier](https://prettier.io/). A `.prettierrc` file is included in the project root to configure Prettier.\n+This project enforces a consistent code style using [Prettier](https://prettier.io/). A [Husky](https://typicode.github.io/husky/) pre-commit hook formats your staged files automatically when you commit. CI fails if any file isn't formatted correctly.\n+\n+```bash\n+npm run format          # format all files\n+npm run format:check    # check formatting of all files\n+```\n \n ### Commit Messages\n \n-Follow the [Conventional Commits v1.0.0](https://www.conventionalcommits.org/en/v1.0.0/) specification.\n+Follow the [Conventional Commits v1.0.0](https://www.conventionalcommits.org/en/v1.0.0/) specification. Read the guide through if you aren't familiar with it already.\n+\n+### Pull Request Guidelines\n+\n+If you're new to pull requests, GitHub's [guide to creating a pull request from a fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) walks through it.\n+\n+- Avoid including multiple unrelated features or fixes in a single PR. If unrelated changes can be separated, open separate PRs so they can be reviewed and merged independently.\n+\n+- If your PR fixes or resolves existing issues, make sure you mention them with a closing keyword, such as `Closes #123`.\n \n-## Submitting a Pull Request\n+- Make sure your PR title follows the [Conventional Commits v1.0.0](https://www.conventionalcommits.org/en/v1.0.0/) specification.\n \n-1. Push your branch to your fork.\n-2. Open a Pull Request against the main branch.\n-3. Provide a concise summary of changes, problem analysis, and testing steps in the PR description.\n-4. Ensure continuous integration checks pass.\n-5. Address reviewer feedback promptly.\n+- It's ok to have multiple commits in a single PR. You don't have to rebase or force push for your changes as we will squash the commits into one commit when merging."
-      }
-    ]
-  },
-  {
-    "sha": "845627c16a56e09f60a4d147e96b28e87c8c562d",
-    "node_id": "C_kwDORJSDNtoAKDg0NTYyN2MxNmE1NmUwOWY2MGE0ZDE0N2U5NmIyOGU4N2M4YzU2MmQ",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-11-04T08:44:46Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-11-04T08:44:46Z"
-      },
-      "message": "chore: Update contributing guidelines",
-      "tree": {
-        "sha": "881cc9659f47c8cc15afdbdd4818f10b8e3dbc10",
-        "url": "https://api.github.com/repos/jrwnnnn/scaffold/git/trees/881cc9659f47c8cc15afdbdd4818f10b8e3dbc10"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/scaffold/git/commits/845627c16a56e09f60a4d147e96b28e87c8c562d",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQP7dt5JbMfE/9q5z8ukb0AEOpqt9gwxGp6/Ea8D82owaBLm9poZSKjinVYnIlcuQvn\n0790mQiEEoqJ6V9shhzQo=\n-----END SSH SIGNATURE-----",
-        "payload": "tree 881cc9659f47c8cc15afdbdd4818f10b8e3dbc10\nparent 49efa501213e2c2cb9972ed260ed0933836655b4\nauthor Mark Jerwin <git@jrwnnnn.me> 1793781886 +0800\ncommitter Mark Jerwin <git@jrwnnnn.me> 1793781886 +0800\n\nchore: Update contributing guidelines\n",
-        "verified_at": "2026-11-04T08:45:06Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/845627c16a56e09f60a4d147e96b28e87c8c562d",
-    "html_url": "https://github.com/jrwnnnn/scaffold/commit/845627c16a56e09f60a4d147e96b28e87c8c562d",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/845627c16a56e09f60a4d147e96b28e87c8c562d/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "49efa501213e2c2cb9972ed260ed0933836655b4",
-        "url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/49efa501213e2c2cb9972ed260ed0933836655b4",
-        "html_url": "https://github.com/jrwnnnn/scaffold/commit/49efa501213e2c2cb9972ed260ed0933836655b4"
-      }
-    ],
-    "stats": {
-      "total": 73,
-      "additions": 37,
-      "deletions": 36
-    },
-    "files": [
-      {
-        "sha": "566363b59520aca244b31af64dbf1417d2ee4830",
-        "filename": "CONTRIBUTING.md",
-        "status": "modified",
-        "additions": 37,
-        "deletions": 36,
-        "changes": 73,
-        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/845627c16a56e09f60a4d147e96b28e87c8c562d/CONTRIBUTING.md",
-        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/845627c16a56e09f60a4d147e96b28e87c8c562d/CONTRIBUTING.md",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/CONTRIBUTING.md?ref=845627c16a56e09f60a4d147e96b28e87c8c562d",
-        "patch": "@@ -6,67 +6,68 @@ First off, thanks for taking the time to contribute! These are the guidelines fo\n \n All contributors are expected to adhere to the [Code of Conduct](CODE_OF_CONDUCT.md).\n \n-## Reporting Issues\n+## Before Writing Code\n \n-Before writing any code, please [open an issue](https://github.com/jrwnnnn/scaffold/issues) or comment on an existing one. This ensures we do not have multiple people working on the same feature and allows us to discuss the approach before you invest time in building it.\n+For new features or significant changes, [open an issue](../../issues) or comment on an existing one first. This ensures we do not have multiple people working on the same feature and allows us to discuss the approach before you invest time in building it. For existing bugs, you can jump straight to a PR.\n \n ## Development Setup\n \n-Make sure you have the latest LTS version of [Node.js](https://nodejs.org/en/download/current) installed.\n+### Prerequisites\n \n-Clone the repository:\n+Make sure you have the following:\n \n-```bash\n-git clone https://github.com/jrwnnnn/scaffold.git\n-cd scaffold\n-```\n+- LTS version of [Node.js](https://nodejs.org/en/download)\n+- [Git](https://git-scm.com/)\n \n-Install the required dependencies:\n+### Getting Started\n \n-```bash\n-npm install\n-```\n+1. [Fork](https://docs.github.com/en/pull-requests/how-tos/work-with-forks/fork-a-repo) the repository and [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) it locally.\n \n-Start the development server:\n+   ```bash\n+   git clone https://github.com/<your-username>/scaffold.git\n+   cd zipo\n+   ```\n \n-```bash\n-npm run dev       # optional: pass --host flag to expose the server to the local network\n-```\n+2. Install the required dependencies:\n \n-Bundle the project for production:\n+   ```bash\n+   npm install\n+   ```\n \n-```bash\n-npm run build\n-```\n+3. Start the development server:\n+\n+   ```bash\n+   npm run dev             # optional: pass --host flag to expose the server to the local network\n+   ```\n \n ## Development Guidelines\n \n ### Branching Strategy\n \n-- `main` contains the latest stable development code.\n-- Create a new branch for each feature or bug fix. Use descriptive names like `feat/new-feature-name` or `fix/issue-description`.\n+- `main` contains the latest development code.\n+- Create a dedicated branch for each feature or bug fix using clear prefixes like `feat/new-feature-name` or `fix/issue-description`.\n \n-### Testing\n+### Code Style\n \n-Ensure all checks pass before submitting a pull request by running:\n+This project enforces a consistent code style using [Prettier](https://prettier.io/). A [Husky](https://typicode.github.io/husky/) pre-commit hook formats your staged files automatically when you commit. CI fails if any file isn't formatted correctly.\n \n ```bash\n-npm run test\n-\n+npm run format          # format all files\n+npm run format:check    # check formatting of all files\n ```\n \n-### Code Style\n+### Commit Messages\n \n-This project enforces a consistent code style using [Prettier](https://prettier.io/). A `.prettierrc` file is included in the project root to configure Prettier.\n+Follow the [Conventional Commits v1.0.0](https://www.conventionalcommits.org/en/v1.0.0/) specification. Read the guide through if you aren't familiar with it already.\n \n-### Commit Messages\n+### Pull Request Guidelines\n+\n+If you're new to pull requests, GitHub's [guide to creating a pull request from a fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) walks through it.\n+\n+- Avoid including multiple unrelated features or fixes in a single PR. If unrelated changes can be separated, open separate PRs so they can be reviewed and merged independently.\n \n-Follow the [Conventional Commits v1.0.0](https://www.conventionalcommits.org/en/v1.0.0/) specification.\n+- If your PR fixes or resolves existing issues, make sure you mention them with a closing keyword, such as `Closes #123`.\n \n-## Submitting a Pull Request\n+- Make sure your PR title follows the [Conventional Commits v1.0.0](https://www.conventionalcommits.org/en/v1.0.0/) specification.\n \n-1. Push your branch to your fork.\n-2. Open a Pull Request against the main branch.\n-3. Provide a concise summary of changes, problem analysis, and testing steps in the PR description.\n-4. Ensure continuous integration checks pass.\n-5. Address reviewer feedback promptly.\n+- It's ok to have multiple commits in a single PR. You don't have to rebase or force push for your changes as we will squash the commits into one commit when merging."
-      }
-    ]
-  },
-  {
-    "sha": "49efa501213e2c2cb9972ed260ed0933836655b4",
-    "node_id": "C_kwDORJSDNtoAKDQ5ZWZhNTAxMjEzZTJjMmNiOTk3MmVkMjYwZWQwOTMzODM2NjU1YjQ",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-11-04T08:44:00Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-11-04T08:44:00Z"
-      },
-      "message": "ci: Update prettier job and its run command",
-      "tree": {
-        "sha": "d38211a3e380992b98ad116cf7b5d1417b8e87e5",
-        "url": "https://api.github.com/repos/jrwnnnn/scaffold/git/trees/d38211a3e380992b98ad116cf7b5d1417b8e87e5"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/scaffold/git/commits/49efa501213e2c2cb9972ed260ed0933836655b4",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQB50mKhdoyZ118ndjkyTS+WFQgBEhJyXTA8PTw3ruvMgHq2vfQUnhgMyy2FdE5ODl3\nGllACGdHhwKL9XE6wZ3AM=\n-----END SSH SIGNATURE-----",
-        "payload": "tree d38211a3e380992b98ad116cf7b5d1417b8e87e5\nparent 31f778755913517360af5c2c4ab8f749d388c343\nauthor Mark Jerwin <git@jrwnnnn.me> 1793781840 +0800\ncommitter Mark Jerwin <git@jrwnnnn.me> 1793781840 +0800\n\nci: Update prettier job and its run command\n",
-        "verified_at": "2026-11-04T08:45:06Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/49efa501213e2c2cb9972ed260ed0933836655b4",
-    "html_url": "https://github.com/jrwnnnn/scaffold/commit/49efa501213e2c2cb9972ed260ed0933836655b4",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/49efa501213e2c2cb9972ed260ed0933836655b4/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "31f778755913517360af5c2c4ab8f749d388c343",
-        "url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/31f778755913517360af5c2c4ab8f749d388c343",
-        "html_url": "https://github.com/jrwnnnn/scaffold/commit/31f778755913517360af5c2c4ab8f749d388c343"
-      }
-    ],
-    "stats": {
-      "total": 4,
-      "additions": 2,
-      "deletions": 2
-    },
-    "files": [
-      {
-        "sha": "38d48dcc6777203d45d57a9e8a6ca48d89d6c66f",
-        "filename": ".github/workflows/main.yml",
-        "status": "modified",
-        "additions": 2,
-        "deletions": 2,
-        "changes": 4,
-        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/49efa501213e2c2cb9972ed260ed0933836655b4/.github%2Fworkflows%2Fmain.yml",
-        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/49efa501213e2c2cb9972ed260ed0933836655b4/.github%2Fworkflows%2Fmain.yml",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/.github%2Fworkflows%2Fmain.yml?ref=49efa501213e2c2cb9972ed260ed0933836655b4",
-        "patch": "@@ -7,7 +7,7 @@ on:\n   workflow_dispatch:\n \n jobs:\n-  prettier:\n+  lint:\n     runs-on: ubuntu-latest\n     steps:\n       - uses: actions/checkout@v4\n@@ -16,4 +16,4 @@ jobs:\n           node-version: 24\n           cache: \"npm\"\n       - run: npm ci\n-      - run: npx prettier --check .\n+      - run: npm run lint"
       }
     ]
   }
