@@ -1,5 +1,106 @@
 [
   {
+    "sha": "ad059bb68161d0ddf44290535c9b34a8ded5d76b",
+    "node_id": "C_kwDOVd-iudoAKGFkMDU5YmI2ODE2MWQwZGRmNDQyOTA1MzVjOWIzNGE4ZGVkNWQ3NmI",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-11-08T23:50:11Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-11-08T23:50:11Z"
+      },
+      "message": "ci: build Android debug APK (#10)\n\n* ci: build Android debug APK\n\n* ci: rename artifact",
+      "tree": {
+        "sha": "335dbee226deabe399e3f77be26e06ae29d9ffb1",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/335dbee226deabe399e3f77be26e06ae29d9ffb1"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/ad059bb68161d0ddf44290535c9b34a8ded5d76b",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq8QqzCRC1aQ7uu5UhlAAAzosQAKRIq3/8z1rOI31LjIok8Nn+\nud6IQHj2UMK7TjyVUAm94CVkZkSpQ+F1xmTXeNMLs7zmJeTJgjivme/NTGHQBSqP\n4po+Sl1yzdC1llMC/UUyCce1+N32slfI4OX81fTuwuahzAvbmOQG6GTiUN9Tzh4G\nelU2tbDp4MX0ut+8dBLlcCu0uBL50PIli7FNRk87MALpDFxXGzWoLQjbxPiW5L3K\ntB6KMTcj3oeGGfbq10OGMQc4dHVyxmpjHneEMAxyT1sM6AsKBzKywm/6vLApzi5l\nOxUb+kZzyU1g06JTA/cUB++7F2Q5BpP4+IYJijLP9sxVzbbkJ99IbJN0clJPn+eO\nHM0y7rxpzccXeu2YJqn34ZVu/kR9pKjoLm5GuBwoWXgkw+MMGccMFxHM0bnC7HD0\nxg1B0dtp6ugHbqcgv5Yq4s1cxGa3okogkuS6QfX+sx9ZhSFm42W+pchWtzDkUI0l\nLFl3j/c7sg0w6tEJBvJGAMh/i6MEIdfzjvDnrROtMbWbkFro8rfcMLDnR/PSxQIW\nubb1G6WTLCVci1832qvJKtDa7ilusU3HL4JlSE3CRuEYQ+z/wsqVAi959wzp3aK7\nnUBPsAjgK5j20oLrnIab/VK/rjwW5ZK8oN9b8TBUBmjSL7h0ghX7J9gnzva7eMIM\nqxpAUt9837533bFZhpuQ\n=dMJL\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 335dbee226deabe399e3f77be26e06ae29d9ffb1\nparent ced929d4663c2c8535574251a6dfd7161f00f6cb\nauthor Mark Jerwin <git@jrwnnnn.me> 1794181811 +0800\ncommitter GitHub <noreply@github.com> 1794181811 +0800\n\nci: build Android debug APK (#10)\n\n* ci: build Android debug APK\n\n* ci: rename artifact",
+        "verified_at": "2026-11-08T23:50:12Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/ad059bb68161d0ddf44290535c9b34a8ded5d76b",
+    "html_url": "https://github.com/jrwnnnn/zipo/commit/ad059bb68161d0ddf44290535c9b34a8ded5d76b",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/ad059bb68161d0ddf44290535c9b34a8ded5d76b/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ced929d4663c2c8535574251a6dfd7161f00f6cb",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/ced929d4663c2c8535574251a6dfd7161f00f6cb",
+        "html_url": "https://github.com/jrwnnnn/zipo/commit/ced929d4663c2c8535574251a6dfd7161f00f6cb"
+      }
+    ],
+    "stats": {
+      "total": 43,
+      "additions": 26,
+      "deletions": 17
+    },
+    "files": [
+      {
+        "sha": "3f65c63a985a1108e5ad2b098707374c9130e63d",
+        "filename": ".github/workflows/ci.yml",
+        "status": "modified",
+        "additions": 26,
+        "deletions": 17,
+        "changes": 43,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/ad059bb68161d0ddf44290535c9b34a8ded5d76b/.github%2Fworkflows%2Fci.yml",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/ad059bb68161d0ddf44290535c9b34a8ded5d76b/.github%2Fworkflows%2Fci.yml",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/.github%2Fworkflows%2Fci.yml?ref=ad059bb68161d0ddf44290535c9b34a8ded5d76b",
+        "patch": "@@ -83,20 +83,29 @@ jobs:\n       - name: Perform Analysis\n         uses: github/codeql-action/analyze@v4\n \n-  # build:\n-  #   needs: [e2e, codeql]\n-  #   runs-on: ubuntu-latest\n-  #   permissions:\n-  #     contents: read\n-  #   steps:\n-  #     - uses: actions/checkout@v4\n-  #     - uses: actions/setup-node@v4\n-  #       with:\n-  #         node-version: 24\n-  #         cache: \"npm\"\n-  #     - run: npm ci\n-  #     - run: npm run build\n-  #     - uses: actions/upload-artifact@v4\n-  #       with:\n-  #         name: zippo\n-  #         path: dist/\n+  build:\n+    needs: [e2e, unit]\n+    runs-on: ubuntu-latest\n+    steps:\n+      - uses: actions/checkout@v4\n+      - uses: actions/setup-node@v4\n+        with:\n+          node-version: 24\n+          cache: \"npm\"\n+      - uses: actions/setup-java@v4\n+        with:\n+          distribution: \"temurin\"\n+          java-version: \"21\"\n+          cache: \"gradle\"\n+      - run: npm ci\n+      - run: npm run build\n+      - run: npm run sync\n+      - run: |\n+          chmod +x android/gradlew\n+          cd android && ./gradlew assembleDebug --no-daemon\n+      - uses: actions/upload-artifact@v4\n+        with:\n+          name: zipo-debug\n+          path: android/app/build/outputs/apk/debug/app-debug.apk\n+          if-no-files-found: error\n+          retention-days: 14"
+      }
+    ]
+  },
+  {
     "sha": "ced929d4663c2c8535574251a6dfd7161f00f6cb",
     "node_id": "C_kwDOVd-iudoAKGNlZDkyOWQ0NjYzYzJjODUzNTU3NDI1MWE2ZGZkNzE2MWYwMGY2Y2I",
     "commit": {
@@ -436,107 +537,6 @@
         "raw_url": "https://github.com/jrwnnnn/scaffold/raw/49efa501213e2c2cb9972ed260ed0933836655b4/.github%2Fworkflows%2Fmain.yml",
         "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/.github%2Fworkflows%2Fmain.yml?ref=49efa501213e2c2cb9972ed260ed0933836655b4",
         "patch": "@@ -7,7 +7,7 @@ on:\n   workflow_dispatch:\n \n jobs:\n-  prettier:\n+  lint:\n     runs-on: ubuntu-latest\n     steps:\n       - uses: actions/checkout@v4\n@@ -16,4 +16,4 @@ jobs:\n           node-version: 24\n           cache: \"npm\"\n       - run: npm ci\n-      - run: npx prettier --check .\n+      - run: npm run lint"
-      }
-    ]
-  },
-  {
-    "sha": "31f778755913517360af5c2c4ab8f749d388c343",
-    "node_id": "C_kwDORJSDNtoAKDMxZjc3ODc1NTkxMzUxNzM2MGFmNWMyYzRhYjhmNzQ5ZDM4OGMzNDM",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-11-04T08:42:52Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-11-04T08:42:52Z"
-      },
-      "message": "chore: Add formatting and lint scripts",
-      "tree": {
-        "sha": "7c192b167c3f4bab68e01c1ba90a64fb19fe5b4a",
-        "url": "https://api.github.com/repos/jrwnnnn/scaffold/git/trees/7c192b167c3f4bab68e01c1ba90a64fb19fe5b4a"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/scaffold/git/commits/31f778755913517360af5c2c4ab8f749d388c343",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQOfzK9SgmOtlFY+rosEhL1vV71hDvBQ/WQ5RVNPKPPRPXNeajymaGdUpNU7BAfQYzC\n1JyX/KGpYpdzGRzptYQgQ=\n-----END SSH SIGNATURE-----",
-        "payload": "tree 7c192b167c3f4bab68e01c1ba90a64fb19fe5b4a\nparent f2a510b246970bb8f6c94d328d76471dd1639169\nauthor Mark Jerwin <git@jrwnnnn.me> 1793781772 +0800\ncommitter Mark Jerwin <git@jrwnnnn.me> 1793781772 +0800\n\nchore: Add formatting and lint scripts\n",
-        "verified_at": "2026-11-04T08:45:06Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/31f778755913517360af5c2c4ab8f749d388c343",
-    "html_url": "https://github.com/jrwnnnn/scaffold/commit/31f778755913517360af5c2c4ab8f749d388c343",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/31f778755913517360af5c2c4ab8f749d388c343/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "f2a510b246970bb8f6c94d328d76471dd1639169",
-        "url": "https://api.github.com/repos/jrwnnnn/scaffold/commits/f2a510b246970bb8f6c94d328d76471dd1639169",
-        "html_url": "https://github.com/jrwnnnn/scaffold/commit/f2a510b246970bb8f6c94d328d76471dd1639169"
-      }
-    ],
-    "stats": {
-      "total": 3,
-      "additions": 3,
-      "deletions": 0
-    },
-    "files": [
-      {
-        "sha": "08a4a61b458bff75180ccab014a0c55a9cdaea3c",
-        "filename": "package.json",
-        "status": "modified",
-        "additions": 3,
-        "deletions": 0,
-        "changes": 3,
-        "blob_url": "https://github.com/jrwnnnn/scaffold/blob/31f778755913517360af5c2c4ab8f749d388c343/package.json",
-        "raw_url": "https://github.com/jrwnnnn/scaffold/raw/31f778755913517360af5c2c4ab8f749d388c343/package.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/scaffold/contents/package.json?ref=31f778755913517360af5c2c4ab8f749d388c343",
-        "patch": "@@ -7,6 +7,9 @@\n \t\t\"build\": \"echo \\\"No test build configured\\\" && exit 0\",\n \t\t\"preview\": \"echo \\\"No test preview configured\\\" && exit 0\",\n \t\t\"test\": \"echo \\\"No test command configured\\\" && exit 0\",\n+\t\t\"lint\": \"npm run format:check\",\n+\t\t\"format\": \"prettier --write .\",\n+\t\t\"format:check\": \"prettier --check .\",\n \t\t\"prepare\": \"husky\"\n \t},\n \t\"lint-staged\": {"
       }
     ]
   }
