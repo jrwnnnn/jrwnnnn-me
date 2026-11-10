@@ -1,5 +1,106 @@
 [
   {
+    "sha": "e44a5d877ec827edfa9d4663f67d17160e3d51d5",
+    "node_id": "C_kwDOVd-iudoAKGU0NGE1ZDg3N2VjODI3ZWRmYTlkNDY2M2Y2N2QxNzE2MGUzZDUxZDU",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-11-10T07:40:14Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-11-10T07:40:14Z"
+      },
+      "message": "docs: update required JDK version on CONTRIBUTING.md [skip ci] (#19)",
+      "tree": {
+        "sha": "fe5d5bf5e0502291e13239641daaacb920fca270",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/fe5d5bf5e0502291e13239641daaacb920fca270"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/e44a5d877ec827edfa9d4663f67d17160e3d51d5",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq8speCRC1aQ7uu5UhlAAAnm4QAIXmM5a9+PgT0oe4NiWufBA6\nfmRYZ5jX/RF3LVKicDL0sHYCMNuCeyAPW1IxwjzxEoNJWWD/I4V+YM2K/IseG9Fz\noo91fopKeGp+uhCJMbIQz0LJ4GsImo8UJivued8n6yKhp/mzk835TdC5WC/pn9IB\neiqJXlZ+hxkqemiA/tnrlsYj9QHszFnm4k8gOElvpvq4AZa50W3K0oM6fjE7u+UE\n7Y+jsgQDPUB07ztS6bHUYNGvCPjtXs7k+P/W0hMB3DJSBGQK0OAb/crorKqL8SeJ\nzTddxYYlf0hox3xAwtprRER+Kdn6/VbRtU0fQIfJzZ5RRyQFzCeiCJnEvKoC27r+\nH5sp1ospLFYpDITQ7AQxl1EQNi2zk+3wXEjfxmShupQUuo1+zF6p1vgQ/PbW0pOJ\nFulUnGgO+WzsDo7MC68h1fIwgyFqiOJXSBYBiEIE6Yh+gJAUn48pdMoys9Xs+3Kr\nW21aR+EFEvHxd0pOBO4INCtYYTl7sA+kacKfksZ/THvRV1kXX3tjWXeDiBraxyLA\n+mqSfWMb1bJaNO9BPk98zEZjDPflcXWERYO1vRhOhlSmYRRfF/6Ym9CtiKsYtLMv\n2HNMW5T3QItbromkhCgDallL3BGz1bvEv8XlU1y5UeRc03ExR890N0pNvn/exPJ3\nj7wckWeyiJKVulQN46wO\n=sgLB\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree fe5d5bf5e0502291e13239641daaacb920fca270\nparent 729a2bdaa53a77e27492790aa9d7d3f165c5f91d\nauthor Mark Jerwin <git@jrwnnnn.me> 1794296414 +0800\ncommitter GitHub <noreply@github.com> 1794296414 +0800\n\ndocs: update required JDK version on CONTRIBUTING.md [skip ci] (#19)",
+        "verified_at": "2026-11-10T07:40:14Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/e44a5d877ec827edfa9d4663f67d17160e3d51d5",
+    "html_url": "https://github.com/jrwnnnn/zipo/commit/e44a5d877ec827edfa9d4663f67d17160e3d51d5",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/e44a5d877ec827edfa9d4663f67d17160e3d51d5/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "729a2bdaa53a77e27492790aa9d7d3f165c5f91d",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/729a2bdaa53a77e27492790aa9d7d3f165c5f91d",
+        "html_url": "https://github.com/jrwnnnn/zipo/commit/729a2bdaa53a77e27492790aa9d7d3f165c5f91d"
+      }
+    ],
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1
+    },
+    "files": [
+      {
+        "sha": "d8558a5b8915c02b1412db9f42f5773119a754cc",
+        "filename": "CONTRIBUTING.md",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/e44a5d877ec827edfa9d4663f67d17160e3d51d5/CONTRIBUTING.md",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/e44a5d877ec827edfa9d4663f67d17160e3d51d5/CONTRIBUTING.md",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/CONTRIBUTING.md?ref=e44a5d877ec827edfa9d4663f67d17160e3d51d5",
+        "patch": "@@ -17,7 +17,7 @@ For new features or significant changes, [open an issue](../../issues) or commen\n Make sure you have the following:\n \n - LTS version of [Node.js](https://nodejs.org/en/download)\n-- JDK [17](https://adoptium.net/temurin/releases/?version=17) or [21](https://adoptium.net/temurin/releases/?version=21)\n+- JDK [21](https://adoptium.net/temurin/releases/?version=21)\n - [Android SDK (API 36)](https://developer.android.com/tools/sdkmanager) with `ANDROID_HOME` configured\n - [Git](https://git-scm.com/)\n "
+      }
+    ]
+  },
+  {
     "sha": "099723d2628c1ea88208ae83e2acfeecbe909391",
     "node_id": "C_kwDOVd-iudoAKDA5OTcyM2QyNjI4YzFlYTg4MjA4YWU4M2UyYWNmZWVjYmU5MDkzOTE",
     "commit": {
@@ -530,143 +631,6 @@
         "raw_url": "https://github.com/jrwnnnn/zipo/raw/ad059bb68161d0ddf44290535c9b34a8ded5d76b/.github%2Fworkflows%2Fci.yml",
         "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/.github%2Fworkflows%2Fci.yml?ref=ad059bb68161d0ddf44290535c9b34a8ded5d76b",
         "patch": "@@ -83,20 +83,29 @@ jobs:\n       - name: Perform Analysis\n         uses: github/codeql-action/analyze@v4\n \n-  # build:\n-  #   needs: [e2e, codeql]\n-  #   runs-on: ubuntu-latest\n-  #   permissions:\n-  #     contents: read\n-  #   steps:\n-  #     - uses: actions/checkout@v4\n-  #     - uses: actions/setup-node@v4\n-  #       with:\n-  #         node-version: 24\n-  #         cache: \"npm\"\n-  #     - run: npm ci\n-  #     - run: npm run build\n-  #     - uses: actions/upload-artifact@v4\n-  #       with:\n-  #         name: zippo\n-  #         path: dist/\n+  build:\n+    needs: [e2e, unit]\n+    runs-on: ubuntu-latest\n+    steps:\n+      - uses: actions/checkout@v4\n+      - uses: actions/setup-node@v4\n+        with:\n+          node-version: 24\n+          cache: \"npm\"\n+      - uses: actions/setup-java@v4\n+        with:\n+          distribution: \"temurin\"\n+          java-version: \"21\"\n+          cache: \"gradle\"\n+      - run: npm ci\n+      - run: npm run build\n+      - run: npm run sync\n+      - run: |\n+          chmod +x android/gradlew\n+          cd android && ./gradlew assembleDebug --no-daemon\n+      - uses: actions/upload-artifact@v4\n+        with:\n+          name: zipo-debug\n+          path: android/app/build/outputs/apk/debug/app-debug.apk\n+          if-no-files-found: error\n+          retention-days: 14"
-      }
-    ]
-  },
-  {
-    "sha": "ced929d4663c2c8535574251a6dfd7161f00f6cb",
-    "node_id": "C_kwDOVd-iudoAKGNlZDkyOWQ0NjYzYzJjODUzNTU3NDI1MWE2ZGZkNzE2MWYwMGY2Y2I",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-11-07T13:00:28Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-11-07T13:00:28Z"
-      },
-      "message": "chore: Add Tailwind CSS Prettier plugin [skip ci] (#8)\n\n* chore: Add Tailwind CSS Prettier plugin\n\n* style: Format HomePage.vue",
-      "tree": {
-        "sha": "22babc77abe7314929cf74dadd851509e1082d04",
-        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/22babc77abe7314929cf74dadd851509e1082d04"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/ced929d4663c2c8535574251a6dfd7161f00f6cb",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq7yDsCRC1aQ7uu5UhlAAAvicQAAS86gn7+dAaZRMOwvNRdew6\nzgxbFFDW66NY8vyyn4W07Rif+BTuLQpNJjbLOleSvoUGZokmXWsghk76Au79Yyn2\nxxxzLUEiVdT7RDTjCRU8OcBk8a/9ToyTxc6jK14bw11cpxxxgxOvf8dbMDvNUtsa\nmYRVs77CAfs9T8TTVepv36CKggHIHnUBzqiXYqaCN4UlL1sBLmlN1mQqdFtwJXvr\nSW1ZBH723ttvw4LP2alwVdrTtus9Zv0oAQJ8RYv8dV55ggX729Bz9d7ls282eEjF\nh1YRJnz9cMBIRLvzZudOdZIbAFBcdF9JWY18aFKh0gz+AODPdF8ZZsiwZX0RFGUb\nYEmMhM+FycTaqh+wTqJ/i3kvdnOxA7KuI5ceBjOSKHa6srzEInhaks4jgnV7FzAq\nC7beHUdYVtnWijlxQ9lc5G8YBlM+jKJYBtQMbAxRKFMgMinNu8MJ53gfP1iAEASf\nYh4J3HcyatRRbCOjZ6gnqQ1I5ouzuIo7mm9u983TheRz+40Z2CbYaUX++LKUkpd0\n0aEIBvU1ZXrDLTYAvu5abaI+UCABHCDluhfwaaapONPEAZSNJZhYLv7Q1tJ5hF1o\nL3ekB6ROuN9tzPwCCUuw9Gmzg/j+GS68MWNpzD5gdWbWTPW0tU/vZ4XHL34PIlvp\nREUuRCahoTPpxFJuRNtr\n=lFfq\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 22babc77abe7314929cf74dadd851509e1082d04\nparent cfaac77d4eb72d2754b1115b7b3966f597bdccc9\nauthor Mark Jerwin <git@jrwnnnn.me> 1794056428 +0800\ncommitter GitHub <noreply@github.com> 1794056428 +0800\n\nchore: Add Tailwind CSS Prettier plugin [skip ci] (#8)\n\n* chore: Add Tailwind CSS Prettier plugin\n\n* style: Format HomePage.vue",
-        "verified_at": "2026-11-07T13:00:29Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/ced929d4663c2c8535574251a6dfd7161f00f6cb",
-    "html_url": "https://github.com/jrwnnnn/zipo/commit/ced929d4663c2c8535574251a6dfd7161f00f6cb",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/ced929d4663c2c8535574251a6dfd7161f00f6cb/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "cfaac77d4eb72d2754b1115b7b3966f597bdccc9",
-        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/cfaac77d4eb72d2754b1115b7b3966f597bdccc9",
-        "html_url": "https://github.com/jrwnnnn/zipo/commit/cfaac77d4eb72d2754b1115b7b3966f597bdccc9"
-      }
-    ],
-    "stats": {
-      "total": 86,
-      "additions": 84,
-      "deletions": 2
-    },
-    "files": [
-      {
-        "sha": "ca1a94b0b2f13cbc8de2eeb26d6d50aaee268026",
-        "filename": ".prettierrc",
-        "status": "modified",
-        "additions": 2,
-        "deletions": 1,
-        "changes": 3,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/ced929d4663c2c8535574251a6dfd7161f00f6cb/.prettierrc",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/ced929d4663c2c8535574251a6dfd7161f00f6cb/.prettierrc",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/.prettierrc?ref=ced929d4663c2c8535574251a6dfd7161f00f6cb",
-        "patch": "@@ -1,5 +1,6 @@\n {\n \t\"useTabs\": true,\n \t\"bracketSameLine\": false,\n-\t\"singleQuote\": false\n+\t\"singleQuote\": false,\n+\t\"plugins\": [\"prettier-plugin-tailwindcss\"]\n }"
-      },
-      {
-        "sha": "da2bdf0633a3dffbf018086115bd60af69608f29",
-        "filename": "package-lock.json",
-        "status": "modified",
-        "additions": 80,
-        "deletions": 0,
-        "changes": 80,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/ced929d4663c2c8535574251a6dfd7161f00f6cb/package-lock.json",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/ced929d4663c2c8535574251a6dfd7161f00f6cb/package-lock.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/package-lock.json?ref=ced929d4663c2c8535574251a6dfd7161f00f6cb",
-        "patch": "@@ -39,6 +39,7 @@\n \t\t\t\t\"jsdom\": \"^30.1.3\",\n \t\t\t\t\"lint-staged\": \"^17.6.0\",\n \t\t\t\t\"prettier\": \"^3.9.10\",\n+\t\t\t\t\"prettier-plugin-tailwindcss\": \"^0.8.1\",\n \t\t\t\t\"tailwindcss\": \"^4.3.3\",\n \t\t\t\t\"terser\": \"^5.16.0\",\n \t\t\t\t\"typescript\": \"~5.9.0\",\n@@ -6588,6 +6589,85 @@\n \t\t\t\t\"url\": \"https://github.com/prettier/prettier?sponsor=1\"\n \t\t\t}\n \t\t},\n+\t\t\"node_modules/prettier-plugin-tailwindcss\": {\n+\t\t\t\"version\": \"0.8.1\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.8.1.tgz\",\n+\t\t\t\"integrity\": \"sha512-iaFMYqDsE4ffdDkn5qup0j5f2aCEBFZrdrZnvu9QKTlWx/iGPeQ4HHu7b7fCPMxeo9nwQBiOAh2nSypdFYWJkw==\",\n+\t\t\t\"dev\": true,\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=20.19\"\n+\t\t\t},\n+\t\t\t\"peerDependencies\": {\n+\t\t\t\t\"@ianvs/prettier-plugin-sort-imports\": \"*\",\n+\t\t\t\t\"@prettier/plugin-hermes\": \"*\",\n+\t\t\t\t\"@prettier/plugin-oxc\": \"*\",\n+\t\t\t\t\"@prettier/plugin-pug\": \"*\",\n+\t\t\t\t\"@shopify/prettier-plugin-liquid\": \"*\",\n+\t\t\t\t\"@trivago/prettier-plugin-sort-imports\": \"*\",\n+\t\t\t\t\"@zackad/prettier-plugin-twig\": \"*\",\n+\t\t\t\t\"prettier\": \"^3.0\",\n+\t\t\t\t\"prettier-plugin-astro\": \"*\",\n+\t\t\t\t\"prettier-plugin-css-order\": \"*\",\n+\t\t\t\t\"prettier-plugin-jsdoc\": \"*\",\n+\t\t\t\t\"prettier-plugin-marko\": \"*\",\n+\t\t\t\t\"prettier-plugin-multiline-arrays\": \"*\",\n+\t\t\t\t\"prettier-plugin-organize-attributes\": \"*\",\n+\t\t\t\t\"prettier-plugin-organize-imports\": \"*\",\n+\t\t\t\t\"prettier-plugin-sort-imports\": \"*\",\n+\t\t\t\t\"prettier-plugin-svelte\": \"*\"\n+\t\t\t},\n+\t\t\t\"peerDependenciesMeta\": {\n+\t\t\t\t\"@ianvs/prettier-plugin-sort-imports\": {\n+\t\t\t\t\t\"optional\": true\n+\t\t\t\t},\n+\t\t\t\t\"@prettier/plugin-hermes\": {\n+\t\t\t\t\t\"optional\": true\n+\t\t\t\t},\n+\t\t\t\t\"@prettier/plugin-oxc\": {\n+\t\t\t\t\t\"optional\": true\n+\t\t\t\t},\n+\t\t\t\t\"@prettier/plugin-pug\": {\n+\t\t\t\t\t\"optional\": true\n+\t\t\t\t},\n+\t\t\t\t\"@shopify/prettier-plugin-liquid\": {\n+\t\t\t\t\t\"optional\": true\n+\t\t\t\t},\n+\t\t\t\t\"@trivago/prettier-plugin-sort-imports\": {\n+\t\t\t\t\t\"optional\": true\n+\t\t\t\t},\n+\t\t\t\t\"@zackad/prettier-plugin-twig\": {\n+\t\t\t\t\t\"optional\": true\n+\t\t\t\t},\n+\t\t\t\t\"prettier-plugin-astro\": {\n+\t\t\t\t\t\"optional\": true\n+\t\t\t\t},\n+\t\t\t\t\"prettier-plugin-css-order\": {\n+\t\t\t\t\t\"optional\": true\n+\t\t\t\t},\n+\t\t\t\t\"prettier-plugin-jsdoc\": {\n+\t\t\t\t\t\"optional\": true\n+\t\t\t\t},\n+\t\t\t\t\"prettier-plugin-marko\": {\n+\t\t\t\t\t\"optional\": true\n+\t\t\t\t},\n+\t\t\t\t\"prettier-plugin-multiline-arrays\": {\n+\t\t\t\t\t\"optional\": true\n+\t\t\t\t},\n+\t\t\t\t\"prettier-plugin-organize-attributes\": {\n+\t\t\t\t\t\"optional\": true\n+\t\t\t\t},\n+\t\t\t\t\"prettier-plugin-organize-imports\": {\n+\t\t\t\t\t\"optional\": true\n+\t\t\t\t},\n+\t\t\t\t\"prettier-plugin-sort-imports\": {\n+\t\t\t\t\t\"optional\": true\n+\t\t\t\t},\n+\t\t\t\t\"prettier-plugin-svelte\": {\n+\t\t\t\t\t\"optional\": true\n+\t\t\t\t}\n+\t\t\t}\n+\t\t},\n \t\t\"node_modules/prompts\": {\n \t\t\t\"version\": \"2.4.2\",\n \t\t\t\"dev\": true,"
-      },
-      {
-        "sha": "a657e40256fc9449c3a2ade152cec739f40d50cc",
-        "filename": "package.json",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 0,
-        "changes": 1,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/ced929d4663c2c8535574251a6dfd7161f00f6cb/package.json",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/ced929d4663c2c8535574251a6dfd7161f00f6cb/package.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/package.json?ref=ced929d4663c2c8535574251a6dfd7161f00f6cb",
-        "patch": "@@ -53,6 +53,7 @@\n \t\t\"jsdom\": \"^30.1.3\",\n \t\t\"lint-staged\": \"^17.6.0\",\n \t\t\"prettier\": \"^3.9.10\",\n+\t\t\"prettier-plugin-tailwindcss\": \"^0.8.1\",\n \t\t\"tailwindcss\": \"^4.3.3\",\n \t\t\"terser\": \"^5.16.0\",\n \t\t\"typescript\": \"~5.9.0\","
-      },
-      {
-        "sha": "e6fed13e791902e3c3f674a4a63f1f39239e2724",
-        "filename": "src/views/HomePage.vue",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/ced929d4663c2c8535574251a6dfd7161f00f6cb/src%2Fviews%2FHomePage.vue",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/ced929d4663c2c8535574251a6dfd7161f00f6cb/src%2Fviews%2FHomePage.vue",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fviews%2FHomePage.vue?ref=ced929d4663c2c8535574251a6dfd7161f00f6cb",
-        "patch": "@@ -7,7 +7,7 @@ import { IonContent, IonPage } from \"@ionic/vue\";\n \t\t<ion-content :fullscreen=\"true\">\n \t\t\t<div\n \t\t\t\tid=\"container\"\n-\t\t\t\tclass=\"h-full flex flex-col justify-center items-center gap-2\"\n+\t\t\t\tclass=\"flex h-full flex-col items-center justify-center gap-2\"\n \t\t\t>\n \t\t\t\t<p class=\"text-xl font-bold\">Ready to create an app?</p>\n \t\t\t\t<p>"
       }
     ]
   }
