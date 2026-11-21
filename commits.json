@@ -1,5 +1,625 @@
 [
   {
+    "sha": "61852de5512f0377b12fb2001c77a40f807af068",
+    "node_id": "C_kwDOVd-iudoAKDYxODUyZGU1NTEyZjAzNzdiMTJmYjIwMDFjNzdhNDBmODA3YWYwNjg",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-11-21T07:30:54Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-11-21T07:30:54Z"
+      },
+      "message": "fix: reset state after connection failure (#64)\n\n- BUG: restore() left state on \"connecting\" when the connection failed, which blocked connect() until the app was restarted.\n- clarify console logs.",
+      "tree": {
+        "sha": "a84ae72481dae82744cce07d4ed51b28805c6b60",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/a84ae72481dae82744cce07d4ed51b28805c6b60"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/61852de5512f0377b12fb2001c77a40f807af068",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJrAUivCRC1aQ7uu5UhlAAAdksQAE2CiHUqxHpgwDe8lvueBp5x\nXRaNTxmNtbDzqeTck3X8oPMSQCQaF4l0WbvGgSj7UTOR4YBw4ryEmNGs0aOdtnlc\nqafK3dsT40oig99yTqoEck5bVyHMbVq2IY3tz7XptlQZAetjkYY7UnXEmYv7VQ7k\n5WkQRkhTDFmKmouODfAJqn2yVJta5oilelWrd9v6gEYz94qUQRWwnSI0c34AOFti\ntQ+zDzItfJY5F7Fp5aEe3pWI9/YmCMWRTkqovFY2GuJ2tMzL2IcGUu9XHolD/jvf\n8mvFLXz+vW4s3+3u/dWQuVVOr1XehKDr1p/jo6Ny3swYHt1hqr050gpcqkD5ugdG\nZ/SjA5TOlvuuqhndBzYkLD7KyXAdC9SmW2vV4hWFABIo6wqvcQ3SpSRwzMMY2Oka\nnZFIMJTIvwSfnikXWHflpja64YSzUC5xOGgDLVujVfDQOxrE+wrofyVjGZuMEH6o\nnK7NXS78bVaNmRDcPj2ZU5FQA9p/HWD5pcz0fT3CQrwzcFaSlFxSmAEMoiCfGQ2+\nc8kGHhuInOd6YJmLb/66lMGjpqfG0ZHKxvBL6wTTYPiz/eRZr9e07BALRT/R+PMj\npea1TUf/ZKojOqG4PWD68QkvznFOZj4POoZlHKzoVmv63C3TeCTKWlRzNfc7coiF\nrruUoQkL4rWPn/l/vnJX\n=Mrj9\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree a84ae72481dae82744cce07d4ed51b28805c6b60\nparent f2bc37fc174b1e9223e2ac417de37bd5d431418f\nauthor Mark Jerwin <git@jrwnnnn.me> 1795246254 +0800\ncommitter GitHub <noreply@github.com> 1795246254 +0800\n\nfix: reset state after connection failure (#64)\n\n- BUG: restore() left state on \"connecting\" when the connection failed, which blocked connect() until the app was restarted.\n- clarify console logs.",
+        "verified_at": "2026-11-21T07:30:55Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/61852de5512f0377b12fb2001c77a40f807af068",
+    "html_url": "https://github.com/jrwnnnn/zipo/commit/61852de5512f0377b12fb2001c77a40f807af068",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/61852de5512f0377b12fb2001c77a40f807af068/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f2bc37fc174b1e9223e2ac417de37bd5d431418f",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/f2bc37fc174b1e9223e2ac417de37bd5d431418f",
+        "html_url": "https://github.com/jrwnnnn/zipo/commit/f2bc37fc174b1e9223e2ac417de37bd5d431418f"
+      }
+    ],
+    "stats": {
+      "total": 5,
+      "additions": 3,
+      "deletions": 2
+    },
+    "files": [
+      {
+        "sha": "c3d2d2a0e3db0e233376fec8b2d8c37ad1ca3e4e",
+        "filename": "src/stores/connectivity.ts",
+        "status": "modified",
+        "additions": 3,
+        "deletions": 2,
+        "changes": 5,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/61852de5512f0377b12fb2001c77a40f807af068/src%2Fstores%2Fconnectivity.ts",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/61852de5512f0377b12fb2001c77a40f807af068/src%2Fstores%2Fconnectivity.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fstores%2Fconnectivity.ts?ref=61852de5512f0377b12fb2001c77a40f807af068",
+        "patch": "@@ -89,9 +89,10 @@ export const useConnectivityStore = defineStore(\"connectivity\", () => {\n \t\t\tstate.value = \"connected\";\n \t\t\tawait keepAlive(true);\n \n-\t\t\tconsole.log(\"Connected to \", esp.value.deviceId);\n+\t\t\tconsole.log(\"Restored connection to \", esp.value.deviceId);\n \t\t} catch (error) {\n-\t\t\tconsole.error(\"Connection failed:\", error);\n+\t\t\tstate.value = \"idle\";\n+\t\t\tconsole.error(\"Restore connection failed:\", error);\n \t\t}\n \t}\n "
+      }
+    ]
+  },
+  {
+    "sha": "f2bc37fc174b1e9223e2ac417de37bd5d431418f",
+    "node_id": "C_kwDOVd-iudoAKGYyYmMzN2ZjMTc0YjFlOTIyM2UyYWM0MTdkZTM3YmQ1ZDQzMTQxOGY",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-11-21T06:45:04Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-11-21T06:45:04Z"
+      },
+      "message": "feat: add foreground service support (#60)\n\n* feat: add foreground service support\n\n* fix: start foreground service after successful connection restore\n\n* refactor: return nothing from restore when no device is found\n\n* fix: reset state after connection failure\n\n- BUG: restore() left state on \"connecting\" when the connection failed, which blocked connect() until the app was restarted.\n- clarify console logs.\n\n* fix: deliver trigger alerts while app is in background\n\n- enable useLegacyBridge so BLE messages reach JS in the background\n- drop the 2s setTimeout in txHandle, which the WebView freezes. The debounce is now in the ESP32 code.\n\n* Revert \"fix: reset state after connection failure\"\n\nThis reverts commit 39e6ec1cfcbfe9951f48e51f56b47e0f122bf8f3.\n\n* Revert \"refactor: return nothing from restore when no device is found\"\n\nThis reverts commit 907510464939327c0e21973539297a214a5b76f7.",
+      "tree": {
+        "sha": "92f4d7cb52de9c34887b7de0dc901847ce503472",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/92f4d7cb52de9c34887b7de0dc901847ce503472"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/f2bc37fc174b1e9223e2ac417de37bd5d431418f",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJrAT3wCRC1aQ7uu5UhlAAAYykQAKn0Wu2JIeF0AOQPr9NIph+2\neJA+Q8jtdaHrui0gJH4cfzoSqPIyI29xwzuHkmXdb1DF2x2kw8iQOnNhmxotEwfF\nWADR7HdrU02/DIYZkm/JZg5cqEcs4nGNZSwCQ9PhTK7OE4x7u3U26sFHpQRLPanP\na7aHhzPGq8G+SlkuTtT+j7RLNs8qXDs637jSg3zY7lgJFmYpUsM4G9gM8YPo/wXP\nh4ilTL8Irwz+2kHk9UFR31dSRonNRxidjH0fvL7P9Kxbg0PVWkVIPgb+6t8fLnvk\n2qXwmJTOJOdxLizmon30bfTgIGPkG7+x4xZnaT2ptTx6RqBvWecWfGgxz8vqUroU\nrUmYQYCHQ54b+UlcmJB83qQKf1JOgQICzh5zFoc6xVjoZNZMLc7oJkZtUMpeEHXR\nESzTsenLqIHfw07Mi3DZuT07nea1EED1JlCfS9Tv9FEvWUX+d1EGvHxU/cv40jlR\n/2MUH7kKYNOzEtYrLRn/tOoBwj81rIdg8+npkiZLu4rXt4wgBTbdLxSIQsstNlMu\nhe2adv0CK7vs3/H8o9iNzQusQD2LeBid7BUiNImfQlncCQI5yzAiAYVb/WDDyjqC\nHjuEQdk+jefr1/FZvGgJcI2l8f45W+GN4EyrhDYJHBL/eMiuAwN5AKH2Ib+zZpKQ\nudAR3C8o8f1vZfTWaCwh\n=/pQc\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 92f4d7cb52de9c34887b7de0dc901847ce503472\nparent 5686115cea6987dd40c33bc9a2a32e2e96a7884e\nauthor Mark Jerwin <git@jrwnnnn.me> 1795243504 +0800\ncommitter GitHub <noreply@github.com> 1795243504 +0800\n\nfeat: add foreground service support (#60)\n\n* feat: add foreground service support\n\n* fix: start foreground service after successful connection restore\n\n* refactor: return nothing from restore when no device is found\n\n* fix: reset state after connection failure\n\n- BUG: restore() left state on \"connecting\" when the connection failed, which blocked connect() until the app was restarted.\n- clarify console logs.\n\n* fix: deliver trigger alerts while app is in background\n\n- enable useLegacyBridge so BLE messages reach JS in the background\n- drop the 2s setTimeout in txHandle, which the WebView freezes. The debounce is now in the ESP32 code.\n\n* Revert \"fix: reset state after connection failure\"\n\nThis reverts commit 39e6ec1cfcbfe9951f48e51f56b47e0f122bf8f3.\n\n* Revert \"refactor: return nothing from restore when no device is found\"\n\nThis reverts commit 907510464939327c0e21973539297a214a5b76f7.",
+        "verified_at": "2026-11-21T06:45:05Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/f2bc37fc174b1e9223e2ac417de37bd5d431418f",
+    "html_url": "https://github.com/jrwnnnn/zipo/commit/f2bc37fc174b1e9223e2ac417de37bd5d431418f",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/f2bc37fc174b1e9223e2ac417de37bd5d431418f/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5686115cea6987dd40c33bc9a2a32e2e96a7884e",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/5686115cea6987dd40c33bc9a2a32e2e96a7884e",
+        "html_url": "https://github.com/jrwnnnn/zipo/commit/5686115cea6987dd40c33bc9a2a32e2e96a7884e"
+      }
+    ],
+    "stats": {
+      "total": 274,
+      "additions": 259,
+      "deletions": 15
+    },
+    "files": [
+      {
+        "sha": "e237a20b266e315984c6b7441cefeb4f2350b1aa",
+        "filename": "android/app/capacitor.build.gradle",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/f2bc37fc174b1e9223e2ac417de37bd5d431418f/android%2Fapp%2Fcapacitor.build.gradle",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/f2bc37fc174b1e9223e2ac417de37bd5d431418f/android%2Fapp%2Fcapacitor.build.gradle",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/android%2Fapp%2Fcapacitor.build.gradle?ref=f2bc37fc174b1e9223e2ac417de37bd5d431418f",
+        "patch": "@@ -16,6 +16,7 @@ dependencies {\n     implementation project(':capacitor-local-notifications')\n     implementation project(':capacitor-status-bar')\n     implementation project(':capacitor-toast')\n+    implementation project(':capawesome-team-capacitor-android-foreground-service')\n \n }\n "
+      },
+      {
+        "sha": "7df849be53e0af636e7af42a6ed0872899185e3b",
+        "filename": "android/app/src/main/AndroidManifest.xml",
+        "status": "modified",
+        "additions": 5,
+        "deletions": 0,
+        "changes": 5,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/f2bc37fc174b1e9223e2ac417de37bd5d431418f/android%2Fapp%2Fsrc%2Fmain%2FAndroidManifest.xml",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/f2bc37fc174b1e9223e2ac417de37bd5d431418f/android%2Fapp%2Fsrc%2Fmain%2FAndroidManifest.xml",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/android%2Fapp%2Fsrc%2Fmain%2FAndroidManifest.xml?ref=f2bc37fc174b1e9223e2ac417de37bd5d431418f",
+        "patch": "@@ -33,9 +33,14 @@\n                 android:name=\"android.support.FILE_PROVIDER_PATHS\"\n                 android:resource=\"@xml/file_paths\"></meta-data>\n         </provider>\n+        <receiver android:name=\"io.capawesome.capacitorjs.plugins.foregroundservice.NotificationActionBroadcastReceiver\" />\n+        <service android:name=\"io.capawesome.capacitorjs.plugins.foregroundservice.AndroidForegroundService\" android:foregroundServiceType=\"connectedDevice\" />\n     </application>\n \n     <!-- Permissions -->\n \n     <uses-permission android:name=\"android.permission.INTERNET\" />\n+    <uses-permission android:name=\"android.permission.FOREGROUND_SERVICE\" />\n+    <uses-permission android:name=\"android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE\" />\n+    <uses-permission android:name=\"android.permission.WAKE_LOCK\" />\n </manifest>"
+      },
+      {
+        "sha": "160f63fc7cc82e3152b5e958dcbc52b24e38e906",
+        "filename": "android/app/src/main/res/drawable/ic_zipo.xml",
+        "status": "added",
+        "additions": 27,
+        "deletions": 0,
+        "changes": 27,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/f2bc37fc174b1e9223e2ac417de37bd5d431418f/android%2Fapp%2Fsrc%2Fmain%2Fres%2Fdrawable%2Fic_zipo.xml",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/f2bc37fc174b1e9223e2ac417de37bd5d431418f/android%2Fapp%2Fsrc%2Fmain%2Fres%2Fdrawable%2Fic_zipo.xml",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/android%2Fapp%2Fsrc%2Fmain%2Fres%2Fdrawable%2Fic_zipo.xml?ref=f2bc37fc174b1e9223e2ac417de37bd5d431418f",
+        "patch": "@@ -0,0 +1,27 @@\n+<vector xmlns:android=\"http://schemas.android.com/apk/res/android\" xmlns:aapt=\"http://schemas.android.com/aapt\"\n+    android:viewportWidth=\"3898\"\n+    android:viewportHeight=\"3898\"\n+    android:width=\"24dp\"\n+    android:height=\"24dp\">\n+    <group\n+        android:translateX=\"3314.27\"\n+        android:translateY=\"-0.203125\">\n+        <path\n+            android:pathData=\"M0 0C1.31 -0.01 2.62 -0.01 3.96 -0.02C8.16 -0.04 12.35 -0.05 16.54 -0.05C17.61 -0.05 17.61 -0.05 18.71 -0.05C40.53 -0.06 62.06 0.41 83.73 3.2C86.2 3.5 88.67 3.79 91.14 4.08C165.48 13.3 238.17 38.28 302.73 76.2C303.62 76.72 304.51 77.25 305.43 77.78C333.65 94.34 360.34 113.37 385.09 134.79C386.86 136.32 388.65 137.83 390.44 139.35C397.11 145.03 403.53 150.84 409.65 157.1C412.35 159.85 415.1 162.46 418.04 164.95C421.31 167.74 424.05 170.77 426.82 174.05C428.98 176.49 431.27 178.74 433.61 181.02C437.92 185.27 441.74 189.76 445.52 194.49C447.65 197.11 449.88 199.6 452.17 202.08C456.94 207.32 461.21 212.9 465.48 218.56C466.68 220.13 467.9 221.69 469.13 223.25C476.46 232.59 483.13 242.34 489.73 252.2C490.43 253.24 490.43 253.24 491.14 254.3C544.19 333.28 574.47 425.7 582.73 520.2C582.81 521.13 582.9 522.05 582.98 523C583.69 531.32 583.91 539.58 583.93 547.93C583.94 549.33 583.95 550.72 583.95 552.11C583.97 556.54 583.98 560.96 583.98 565.39C583.98 566.52 583.98 566.52 583.98 567.67C583.99 589.99 583.68 612.04 580.73 634.2C580.58 635.41 580.43 636.61 580.28 637.85C575.51 675.88 566.68 712.83 554.73 749.2C554.43 750.13 554.13 751.06 553.81 752.01C531.94 818.45 495.27 881.88 449.21 934.5C447.71 936.23 446.24 937.97 444.77 939.73C439.2 946.36 433.43 952.65 427.25 958.72C424.34 961.57 421.56 964.46 418.92 967.58C416.15 970.83 413.14 973.54 409.89 976.3C407.45 978.45 405.19 980.75 402.92 983.08C398.66 987.39 394.17 991.21 389.44 994.99C386.82 997.13 384.34 999.35 381.86 1001.64C376.65 1006.37 371.15 1010.63 365.53 1014.85C363.65 1016.26 361.78 1017.69 359.91 1019.12C336.74 1036.72 312.28 1052.29 286.73 1066.2C285.28 1067 285.28 1067 283.8 1067.81C225.09 1099.76 160.4 1119.6 94.33 1128.84C92.13 1129.15 89.94 1129.48 87.75 1129.82C65.94 1133.05 43.89 1133.54 21.89 1133.46C18.48 1133.45 15.07 1133.46 11.66 1133.47C-12.39 1133.54 -36.32 1132.44 -60.14 1128.95C-61.26 1128.79 -61.26 1128.79 -62.4 1128.63C-160.38 1114.61 -251.82 1075.24 -330.27 1015.2C-330.9 1014.72 -331.52 1014.25 -332.17 1013.75C-338.97 1008.53 -345.55 1003.18 -351.87 997.36C-354.3 995.17 -356.82 993.16 -359.39 991.14C-366.64 985.29 -373.05 978.58 -379.56 971.94C-383.01 968.43 -386.51 964.96 -390.01 961.5C-391.39 960.13 -392.77 958.76 -394.14 957.39C-394.83 956.72 -395.51 956.04 -396.21 955.35C-400.78 950.8 -405.08 946.1 -409.27 941.2C-410.24 940.09 -411.22 938.97 -412.19 937.85C-419.14 929.83 -425.84 921.65 -432.27 913.2C-432.79 912.52 -433.32 911.83 -433.85 911.12C-452.23 886.88 -468.53 861.25 -483.02 834.51C-483.86 832.96 -484.71 831.41 -485.56 829.86C-512.52 780.86 -529.34 726.84 -540.27 672.2C-540.56 670.78 -540.56 670.78 -540.85 669.33C-544.05 653.27 -545.76 637.04 -547.44 620.76C-547.54 619.75 -547.54 619.75 -547.65 618.73C-547.87 616.56 -548.07 614.38 -548.27 612.2C-548.36 611.24 -548.45 610.27 -548.54 609.28C-549.22 601.15 -549.44 593.07 -549.47 584.91C-549.48 583.56 -549.49 582.22 -549.49 580.87C-549.51 576.59 -549.52 572.3 -549.52 568.02C-549.52 567.29 -549.52 566.56 -549.52 565.81C-549.53 543.79 -549.14 522.06 -546.27 500.2C-546.12 499.02 -545.98 497.84 -545.83 496.63C-538.99 441.16 -524.02 387.24 -501.27 336.2C-500.87 335.3 -500.48 334.4 -500.07 333.47C-494.31 320.43 -488.17 307.68 -481.27 295.2C-480.74 294.24 -480.21 293.28 -479.66 292.28C-463.52 263.24 -444.95 235.54 -423.72 209.96C-421.65 207.45 -419.62 204.92 -417.58 202.39C-413.74 197.7 -409.71 193.22 -405.61 188.76C-403.62 186.58 -401.68 184.38 -399.77 182.14C-396.17 177.98 -392.25 174.15 -388.31 170.3C-386.23 168.37 -386.23 168.37 -385.27 166.2C-384.61 166.2 -383.95 166.2 -383.27 166.2C-383.27 165.54 -383.27 164.88 -383.27 164.2C-381.91 162.86 -381.91 162.86 -379.96 161.27C-376.43 158.28 -373.18 155.13 -369.96 151.83C-365.56 147.35 -360.92 143.35 -356.01 139.45C-353.2 137.15 -350.55 134.74 -347.89 132.27C-341.98 126.84 -335.7 121.99 -329.27 117.2C-328.54 116.66 -327.8 116.11 -327.05 115.54C-303.12 97.71 -278.49 81.48 -252.27 67.2C-251.3 66.67 -250.34 66.14 -249.34 65.6C-174.17 24.7 -85.78 0.31 0 0Z\"\n+            android:fillColor=\"#FFFFFF\" />\n+    </group>\n+    <group\n+        android:translateX=\"563.9687\"\n+        android:translateY=\"2764.682\">\n+        <path\n+            android:pathData=\"M0 0C2.07 0.01 4.14 0.01 6.2 0.01C27.28 0.04 48.11 0.67 69.03 3.32C70.23 3.46 71.43 3.61 72.66 3.76C143.78 12.48 213.96 34.52 276.42 69.84C278.97 71.28 281.54 72.7 284.12 74.11C310.32 88.59 335.22 106.03 358.38 124.97C359.92 126.23 361.47 127.47 363.02 128.72C368.69 133.29 374.12 138.05 379.48 142.99C381.63 144.95 383.81 146.86 386.03 148.76C391.3 153.33 396.13 158.35 401.03 163.32C403.93 166.23 406.85 169.13 409.77 172.02C411.15 173.39 412.53 174.76 413.91 176.13C414.93 177.14 414.93 177.14 415.97 178.17C420.54 182.72 424.84 187.42 429.03 192.32C430 193.44 430.98 194.55 431.95 195.67C458.97 226.86 482.33 261.08 502.03 297.32C502.57 298.31 503.11 299.31 503.67 300.33C540.61 368.78 561.28 444.05 568.03 521.32C568.11 522.25 568.2 523.17 568.28 524.13C568.98 532.3 569.21 540.41 569.23 548.61C569.24 549.96 569.25 551.3 569.26 552.65C569.27 556.94 569.28 561.22 569.28 565.51C569.28 566.6 569.28 566.6 569.28 567.71C569.3 589.73 568.86 611.45 566.03 633.32C565.74 635.79 565.45 638.26 565.15 640.72C558.57 693.87 543.94 746.46 522.03 795.32C521.59 796.3 521.16 797.29 520.71 798.3C498.85 847.5 470.1 894.02 434.56 934.56C432.96 936.39 431.39 938.24 429.81 940.1C424.15 946.74 418.38 953.14 412.14 959.24C409.38 961.94 406.77 964.69 404.28 967.63C401.49 970.9 398.46 973.64 395.19 976.41C392.75 978.57 390.49 980.86 388.22 983.19C383.96 987.5 379.47 991.33 374.74 995.11C372.12 997.24 369.64 999.47 367.16 1001.76C361.95 1006.49 356.44 1010.75 350.82 1014.97C348.98 1016.36 347.14 1017.76 345.31 1019.16C256.15 1087.12 144.04 1129.97 20.68 1133.52C19.33 1133.53 17.99 1133.54 16.65 1133.54C12.38 1133.56 8.11 1133.57 3.84 1133.57C2.75 1133.57 2.75 1133.57 1.64 1133.57C-20.7 1133.58 -42.78 1133.17 -64.97 1130.32C-66.19 1130.17 -67.41 1130.02 -68.67 1129.86C-144.67 1120.39 -219.08 1095.45 -284.97 1056.32C-286.2 1055.59 -286.2 1055.59 -287.45 1054.85C-314.97 1038.46 -341.1 1019.7 -365.33 998.73C-367.1 997.2 -368.89 995.69 -370.68 994.17C-377.35 988.49 -383.77 982.69 -389.89 976.42C-392.59 973.67 -395.34 971.06 -398.28 968.57C-401.55 965.78 -404.29 962.75 -407.06 959.47C-409.22 957.03 -411.51 954.78 -413.84 952.51C-418.15 948.25 -421.98 943.76 -425.76 939.03C-427.89 936.41 -430.12 933.93 -432.41 931.44C-437.18 926.2 -441.45 920.62 -445.72 914.96C-446.92 913.39 -448.14 911.83 -449.37 910.27C-467.47 887.21 -482.99 862.04 -496.97 836.32C-497.51 835.32 -498.05 834.33 -498.61 833.31C-539.04 758.39 -563.87 670.45 -564.17 584.93C-564.18 583.58 -564.19 582.24 -564.19 580.89C-564.21 576.62 -564.22 572.34 -564.22 568.07C-564.22 567.34 -564.22 566.61 -564.22 565.86C-564.23 543.86 -563.8 522.16 -560.97 500.32C-560.68 497.85 -560.38 495.38 -560.09 492.91C-554.56 448.27 -543.18 404.26 -526.97 362.32C-526.63 361.45 -526.3 360.59 -525.96 359.7C-506.17 308.99 -478.97 262.45 -445.97 219.32C-445.49 218.69 -445.01 218.07 -444.52 217.42C-438.63 209.76 -432.51 202.44 -425.97 195.32C-424.8 193.99 -423.63 192.66 -422.47 191.32C-415.54 183.39 -408.48 175.7 -400.97 168.32C-398.01 165.37 -395.07 162.41 -392.15 159.43C-385.16 152.34 -378.26 145.41 -370.42 139.27C-367.95 137.3 -365.65 135.22 -363.34 133.07C-356.91 127.21 -349.92 122.07 -342.97 116.84C-341.28 115.55 -339.6 114.23 -337.93 112.9C-330.4 106.89 -322.48 101.53 -314.47 96.19C-313.9 95.81 -313.33 95.43 -312.75 95.04C-240.41 46.83 -159.72 16.82 -73.72 4.57C-73.03 4.47 -72.33 4.37 -71.62 4.26C-47.85 0.83 -23.99 -0.07 0 0Z\"\n+            android:fillColor=\"#FFFFFF\" />\n+    </group>\n+    <group\n+        android:translateX=\"2427\"\n+        android:translateY=\"1298\">\n+        <path\n+            android:pathData=\"M0 0C2.83 1.37 4.9 2.65 7.13 4.89C7.73 5.48 8.32 6.07 8.94 6.68C9.59 7.33 10.23 7.98 10.9 8.66C11.94 9.69 11.94 9.69 13 10.75C15.33 13.08 17.65 15.41 19.97 17.74C21.63 19.41 23.3 21.07 24.96 22.74C29.49 27.26 34.01 31.8 38.53 36.33C42.78 40.58 47.02 44.83 51.27 49.09C59.69 57.5 68.1 65.93 76.51 74.36C84.67 82.54 92.84 90.72 101.02 98.91C101.77 99.66 101.77 99.66 102.54 100.43C105.07 102.96 107.6 105.49 110.12 108.02C131.09 129.01 152.05 150 173 171C171.64 174.03 170.13 176.12 167.79 178.46C167.12 179.14 166.45 179.81 165.76 180.5C165.02 181.24 164.29 181.97 163.53 182.72C162.74 183.51 161.95 184.3 161.15 185.11C158.49 187.78 155.82 190.43 153.15 193.09C151.23 195.02 149.3 196.95 147.38 198.87C143.17 203.09 138.95 207.3 134.74 211.51C128.42 217.82 122.12 224.12 115.81 230.43C105.06 241.19 94.31 251.93 83.56 262.68C72.66 273.57 61.76 284.47 50.86 295.37C50.17 296.05 49.48 296.74 48.78 297.45C45.27 300.96 41.77 304.46 38.26 307.97C12.87 333.36 -12.53 358.75 -37.93 384.14C-63.09 409.29 -88.24 434.44 -113.4 459.59C-114.18 460.37 -114.96 461.15 -115.76 461.95C-122.9 469.08 -130.03 476.21 -137.16 483.34C-154.88 501.07 -172.61 518.8 -190.34 536.52C-191.15 537.33 -191.95 538.13 -192.78 538.97C-232.07 578.25 -271.36 617.53 -310.66 656.81C-324.3 670.44 -337.93 684.08 -351.57 697.71C-352.42 698.55 -353.26 699.4 -354.13 700.27C-393.44 739.57 -432.75 778.86 -472.05 818.16C-474.6 820.71 -477.15 823.26 -479.71 825.81C-496.61 842.72 -513.52 859.62 -530.42 876.53C-564.06 910.16 -597.7 943.8 -631.35 977.43C-632.95 979.03 -634.55 980.63 -636.15 982.24C-708.29 1054.36 -780.43 1126.49 -852.58 1198.61C-853.59 1199.62 -853.59 1199.62 -854.62 1200.66C-888.42 1234.44 -922.21 1268.22 -956 1302C-958.83 1300.63 -960.9 1299.35 -963.13 1297.11C-963.73 1296.52 -964.32 1295.93 -964.94 1295.32C-965.59 1294.67 -966.23 1294.02 -966.9 1293.34C-967.59 1292.65 -968.28 1291.96 -969 1291.25C-971.33 1288.92 -973.65 1286.59 -975.97 1284.26C-977.63 1282.59 -979.3 1280.93 -980.96 1279.26C-985.49 1274.74 -990.01 1270.2 -994.53 1265.67C-998.78 1261.42 -1003.02 1257.17 -1007.27 1252.91C-1015.69 1244.5 -1024.1 1236.07 -1032.51 1227.64C-1040.67 1219.46 -1048.84 1211.28 -1057.02 1203.09C-1057.52 1202.59 -1058.02 1202.09 -1058.54 1201.57C-1061.07 1199.04 -1063.6 1196.51 -1066.12 1193.98C-1087.09 1172.99 -1108.05 1152 -1129 1131C-1127.64 1127.97 -1126.13 1125.88 -1123.79 1123.54C-1123.12 1122.86 -1122.45 1122.19 -1121.76 1121.5C-1121.02 1120.76 -1120.29 1120.03 -1119.53 1119.28C-1118.74 1118.49 -1117.95 1117.7 -1117.15 1116.89C-1114.49 1114.22 -1111.82 1111.57 -1109.15 1108.91C-1107.23 1106.98 -1105.3 1105.05 -1103.38 1103.13C-1099.17 1098.91 -1094.95 1094.7 -1090.74 1090.49C-1084.42 1084.18 -1078.12 1077.88 -1071.81 1071.57C-1061.06 1060.81 -1050.31 1050.07 -1039.56 1039.32C-1028.66 1028.43 -1017.76 1017.53 -1006.86 1006.63C-1006.17 1005.95 -1005.48 1005.26 -1004.78 1004.55C-1001.27 1001.04 -997.77 997.54 -994.26 994.03C-968.87 968.64 -943.47 943.25 -918.07 917.86C-892.91 892.71 -867.76 867.56 -842.6 842.41C-841.82 841.63 -841.04 840.85 -840.24 840.05C-833.1 832.92 -825.97 825.79 -818.84 818.66C-801.12 800.93 -783.39 783.2 -765.66 765.48C-764.85 764.67 -764.05 763.87 -763.22 763.03C-723.93 723.75 -684.64 684.47 -645.34 645.19C-631.7 631.56 -618.07 617.92 -604.43 604.29C-603.58 603.45 -602.74 602.6 -601.87 601.73C-562.56 562.43 -523.25 523.14 -483.95 483.84C-481.4 481.29 -478.85 478.74 -476.29 476.19C-459.39 459.28 -442.48 442.38 -425.58 425.47C-391.94 391.84 -358.3 358.2 -324.65 324.57C-323.05 322.97 -321.45 321.37 -319.85 319.76C-247.71 247.64 -175.57 175.51 -103.42 103.39C-102.75 102.72 -102.07 102.04 -101.38 101.34C-67.58 67.56 -33.79 33.78 0 0Z\"\n+            android:fillColor=\"#FFFFFF\" />\n+    </group>\n+</vector>\n\\ No newline at end of file"
+      },
+      {
+        "sha": "830e26a57200f723083d59bfd80b5781eddc2eef",
+        "filename": "android/capacitor.settings.gradle",
+        "status": "modified",
+        "additions": 3,
+        "deletions": 0,
+        "changes": 3,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/f2bc37fc174b1e9223e2ac417de37bd5d431418f/android%2Fcapacitor.settings.gradle",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/f2bc37fc174b1e9223e2ac417de37bd5d431418f/android%2Fcapacitor.settings.gradle",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/android%2Fcapacitor.settings.gradle?ref=f2bc37fc174b1e9223e2ac417de37bd5d431418f",
+        "patch": "@@ -22,3 +22,6 @@ project(':capacitor-status-bar').projectDir = new File('../node_modules/@capacit\n \n include ':capacitor-toast'\n project(':capacitor-toast').projectDir = new File('../node_modules/@capacitor/toast/android')\n+\n+include ':capawesome-team-capacitor-android-foreground-service'\n+project(':capawesome-team-capacitor-android-foreground-service').projectDir = new File('../node_modules/@capawesome-team/capacitor-android-foreground-service/android')"
+      },
+      {
+        "sha": "45949f046111d3ce39d7eafb11b1455a029c8973",
+        "filename": "capacitor.config.ts",
+        "status": "modified",
+        "additions": 3,
+        "deletions": 0,
+        "changes": 3,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/f2bc37fc174b1e9223e2ac417de37bd5d431418f/capacitor.config.ts",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/f2bc37fc174b1e9223e2ac417de37bd5d431418f/capacitor.config.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/capacitor.config.ts?ref=f2bc37fc174b1e9223e2ac417de37bd5d431418f",
+        "patch": "@@ -4,6 +4,9 @@ const config: CapacitorConfig = {\n \tappId: \"io.jrwnnnn.zipo\",\n \tappName: \"zipo\",\n \twebDir: \"dist\",\n+\tandroid: {\n+\t\tuseLegacyBridge: true,\n+\t},\n };\n \n export default config;"
+      },
+      {
+        "sha": "12ab38ff8e52f871422282442c7f99cd98eca955",
+        "filename": "package-lock.json",
+        "status": "modified",
+        "additions": 148,
+        "deletions": 0,
+        "changes": 148,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/f2bc37fc174b1e9223e2ac417de37bd5d431418f/package-lock.json",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/f2bc37fc174b1e9223e2ac417de37bd5d431418f/package-lock.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/package-lock.json?ref=f2bc37fc174b1e9223e2ac417de37bd5d431418f",
+        "patch": "@@ -17,6 +17,7 @@\n \t\t\t\t\"@capacitor/local-notifications\": \"^8.3.1\",\n \t\t\t\t\"@capacitor/status-bar\": \"8.0.4\",\n \t\t\t\t\"@capacitor/toast\": \"^8.0.1\",\n+\t\t\t\t\"@capawesome-team/capacitor-android-foreground-service\": \"^8.1.0\",\n \t\t\t\t\"@ionic/vue\": \"^9.0.0\",\n \t\t\t\t\"@ionic/vue-router\": \"^9.0.0\",\n \t\t\t\t\"@vueuse/core\": \"^15.0.0\",\n@@ -1561,6 +1562,153 @@\n \t\t\t\t\"@capacitor/core\": \">=8.0.0\"\n \t\t\t}\n \t\t},\n+\t\t\"node_modules/@capawesome-team/capacitor-android-foreground-service\": {\n+\t\t\t\"version\": \"8.1.0\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@capawesome-team/capacitor-android-foreground-service/-/capacitor-android-foreground-service-8.1.0.tgz\",\n+\t\t\t\"integrity\": \"sha512-q1LaZQ5K2cu2IXjbabwssF+RpUBikLxkOHYS69ahXz6a1kIsr2jC4RU1bwAEBTopRz0ccgfai0dSSTdqbtEwhw==\",\n+\t\t\t\"funding\": [\n+\t\t\t\t{\n+\t\t\t\t\t\"type\": \"github\",\n+\t\t\t\t\t\"url\": \"https://github.com/sponsors/capawesome-team/\"\n+\t\t\t\t},\n+\t\t\t\t{\n+\t\t\t\t\t\"type\": \"opencollective\",\n+\t\t\t\t\t\"url\": \"https://opencollective.com/capawesome\"\n+\t\t\t\t}\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"peerDependencies\": {\n+\t\t\t\t\"@capacitor/core\": \">=8.0.0\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/@csstools/color-helpers\": {\n+\t\t\t\"version\": \"6.1.2\",\n+\t\t\t\"dev\": true,\n+\t\t\t\"funding\": [\n+\t\t\t\t{\n+\t\t\t\t\t\"type\": \"github\",\n+\t\t\t\t\t\"url\": \"https://github.com/sponsors/csstools\"\n+\t\t\t\t},\n+\t\t\t\t{\n+\t\t\t\t\t\"type\": \"opencollective\",\n+\t\t\t\t\t\"url\": \"https://opencollective.com/csstools\"\n+\t\t\t\t}\n+\t\t\t],\n+\t\t\t\"license\": \"MIT-0\",\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=20.19.0\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/@csstools/css-calc\": {\n+\t\t\t\"version\": \"3.4.3\",\n+\t\t\t\"dev\": true,\n+\t\t\t\"funding\": [\n+\t\t\t\t{\n+\t\t\t\t\t\"type\": \"github\",\n+\t\t\t\t\t\"url\": \"https://github.com/sponsors/csstools\"\n+\t\t\t\t},\n+\t\t\t\t{\n+\t\t\t\t\t\"type\": \"opencollective\",\n+\t\t\t\t\t\"url\": \"https://opencollective.com/csstools\"\n+\t\t\t\t}\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=20.19.0\"\n+\t\t\t},\n+\t\t\t\"peerDependencies\": {\n+\t\t\t\t\"@csstools/css-parser-algorithms\": \"^4.0.2\",\n+\t\t\t\t\"@csstools/css-tokenizer\": \"^4.0.2\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/@csstools/css-color-parser\": {\n+\t\t\t\"version\": \"4.2.7\",\n+\t\t\t\"dev\": true,\n+\t\t\t\"funding\": [\n+\t\t\t\t{\n+\t\t\t\t\t\"type\": \"github\",\n+\t\t\t\t\t\"url\": \"https://github.com/sponsors/csstools\"\n+\t\t\t\t},\n+\t\t\t\t{\n+\t\t\t\t\t\"type\": \"opencollective\",\n+\t\t\t\t\t\"url\": \"https://opencollective.com/csstools\"\n+\t\t\t\t}\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"dependencies\": {\n+\t\t\t\t\"@csstools/color-helpers\": \"^6.1.2\",\n+\t\t\t\t\"@csstools/css-calc\": \"^3.4.3\"\n+\t\t\t},\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=20.19.0\"\n+\t\t\t},\n+\t\t\t\"peerDependencies\": {\n+\t\t\t\t\"@csstools/css-parser-algorithms\": \"^4.0.2\",\n+\t\t\t\t\"@csstools/css-tokenizer\": \"^4.0.2\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/@csstools/css-parser-algorithms\": {\n+\t\t\t\"version\": \"4.0.2\",\n+\t\t\t\"dev\": true,\n+\t\t\t\"funding\": [\n+\t\t\t\t{\n+\t\t\t\t\t\"type\": \"github\",\n+\t\t\t\t\t\"url\": \"https://github.com/sponsors/csstools\"\n+\t\t\t\t},\n+\t\t\t\t{\n+\t\t\t\t\t\"type\": \"opencollective\",\n+\t\t\t\t\t\"url\": \"https://opencollective.com/csstools\"\n+\t\t\t\t}\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=20.19.0\"\n+\t\t\t},\n+\t\t\t\"peerDependencies\": {\n+\t\t\t\t\"@csstools/css-tokenizer\": \"^4.0.2\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/@csstools/css-syntax-patches-for-csstree\": {\n+\t\t\t\"version\": \"1.1.16\",\n+\t\t\t\"dev\": true,\n+\t\t\t\"funding\": [\n+\t\t\t\t{\n+\t\t\t\t\t\"type\": \"github\",\n+\t\t\t\t\t\"url\": \"https://github.com/sponsors/csstools\"\n+\t\t\t\t},\n+\t\t\t\t{\n+\t\t\t\t\t\"type\": \"opencollective\",\n+\t\t\t\t\t\"url\": \"https://opencollective.com/csstools\"\n+\t\t\t\t}\n+\t\t\t],\n+\t\t\t\"license\": \"MIT-0\",\n+\t\t\t\"peerDependencies\": {\n+\t\t\t\t\"css-tree\": \"^3.2.1\"\n+\t\t\t},\n+\t\t\t\"peerDependenciesMeta\": {\n+\t\t\t\t\"css-tree\": {\n+\t\t\t\t\t\"optional\": true\n+\t\t\t\t}\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/@csstools/css-tokenizer\": {\n+\t\t\t\"version\": \"4.0.2\",\n+\t\t\t\"dev\": true,\n+\t\t\t\"funding\": [\n+\t\t\t\t{\n+\t\t\t\t\t\"type\": \"github\",\n+\t\t\t\t\t\"url\": \"https://github.com/sponsors/csstools\"\n+\t\t\t\t},\n+\t\t\t\t{\n+\t\t\t\t\t\"type\": \"opencollective\",\n+\t\t\t\t\t\"url\": \"https://opencollective.com/csstools\"\n+\t\t\t\t}\n+\t\t\t],\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"engines\": {\n+\t\t\t\t\"node\": \">=20.19.0\"\n+\t\t\t}\n+\t\t},\n \t\t\"node_modules/@emnapi/core\": {\n \t\t\t\"version\": \"1.10.0\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@emnapi/core/-/core-1.10.0.tgz\","
+      },
+      {
+        "sha": "dc1b32dc43817f12bdb14513da59987319bbe22e",
+        "filename": "package.json",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/f2bc37fc174b1e9223e2ac417de37bd5d431418f/package.json",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/f2bc37fc174b1e9223e2ac417de37bd5d431418f/package.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/package.json?ref=f2bc37fc174b1e9223e2ac417de37bd5d431418f",
+        "patch": "@@ -28,6 +28,7 @@\n \t\t\"@capacitor/local-notifications\": \"^8.3.1\",\n \t\t\"@capacitor/status-bar\": \"8.0.4\",\n \t\t\"@capacitor/toast\": \"^8.0.1\",\n+\t\t\"@capawesome-team/capacitor-android-foreground-service\": \"^8.1.0\",\n \t\t\"@ionic/vue\": \"^9.0.0\",\n \t\t\"@ionic/vue-router\": \"^9.0.0\",\n \t\t\"@vueuse/core\": \"^15.0.0\","
+      },
+      {
+        "sha": "04cb74b578266fd1ad6b38f7e4d9510af4403353",
+        "filename": "src/services/keepAlive.ts",
+        "status": "added",
+        "additions": 48,
+        "deletions": 0,
+        "changes": 48,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/f2bc37fc174b1e9223e2ac417de37bd5d431418f/src%2Fservices%2FkeepAlive.ts",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/f2bc37fc174b1e9223e2ac417de37bd5d431418f/src%2Fservices%2FkeepAlive.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fservices%2FkeepAlive.ts?ref=f2bc37fc174b1e9223e2ac417de37bd5d431418f",
+        "patch": "@@ -0,0 +1,48 @@\n+import { Capacitor } from \"@capacitor/core\";\n+import {\n+\tForegroundService,\n+\ttype ServiceType,\n+} from \"@capawesome-team/capacitor-android-foreground-service\";\n+\n+import { useConnectivityStore } from \"@/stores/connectivity\";\n+\n+const KEEP_ALIVE_CHANNEL_ID = \"keepAlive\";\n+\n+ForegroundService.addListener(\"buttonClicked\", async (e) => {\n+\tif (e.buttonId === 1) {\n+\t\tconst connectivity = useConnectivityStore();\n+\t\tawait keepAlive(false);\n+\t\tawait connectivity.disconnect();\n+\t}\n+});\n+\n+export async function keepAlive(on: boolean): Promise<void> {\n+\tif (!Capacitor.isNativePlatform()) return;\n+\ttry {\n+\t\tif (on) {\n+\t\t\tawait ForegroundService.deleteNotificationChannel({\n+\t\t\t\tid: \"default\",\n+\t\t\t});\n+\n+\t\t\tawait ForegroundService.createNotificationChannel({\n+\t\t\t\tid: KEEP_ALIVE_CHANNEL_ID,\n+\t\t\t\tname: \"Foreground service\",\n+\t\t\t\tdescription: \"Keeps Zipo running in the background.\",\n+\t\t\t\timportance: 3,\n+\t\t\t});\n+\n+\t\t\tawait ForegroundService.startForegroundService({\n+\t\t\t\tid: 1,\n+\t\t\t\ttitle: \"Zipo is running\",\n+\t\t\t\tbody: \"Tap to disconnect\",\n+\t\t\t\tsmallIcon: \"ic_zipo\",\n+\t\t\t\tserviceType: 16 as ServiceType,\n+\t\t\t\tnotificationChannelId: KEEP_ALIVE_CHANNEL_ID,\n+\t\t\t});\n+\t\t} else {\n+\t\t\tawait ForegroundService.stopForegroundService();\n+\t\t}\n+\t} catch (error) {\n+\t\tconsole.error(\"Foreground service failed:\", error);\n+\t}\n+}"
+      },
+      {
+        "sha": "7f56ea58bf83384f63282c90e38a085eac699997",
+        "filename": "src/services/txHandle.ts",
+        "status": "modified",
+        "additions": 17,
+        "deletions": 14,
+        "changes": 31,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/f2bc37fc174b1e9223e2ac417de37bd5d431418f/src%2Fservices%2FtxHandle.ts",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/f2bc37fc174b1e9223e2ac417de37bd5d431418f/src%2Fservices%2FtxHandle.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fservices%2FtxHandle.ts?ref=f2bc37fc174b1e9223e2ac417de37bd5d431418f",
+        "patch": "@@ -5,30 +5,33 @@ import { notifyLocal } from \"@/services/notifyLocal\";\n \n const { addActivity } = useActivityLog();\n let id: number;\n-let timer: ReturnType<typeof setTimeout> | undefined;\n \n+/**\n+ * Processes a protocol message received from the Zipo device.\n+ *\n+ * `TRIGGER.LOW` records a compromised event, schedules a local alert, and\n+ * vibrates the device for three seconds. `TRIGGER.HIGH` is reserved and\n+ * currently has no behavior. Other messages are ignored with a warning.\n+ *\n+ * @param incoming - Message received from the BLE TX characteristic.\n+ */\n export async function txHandle(incoming: string): Promise<void> {\n \tswitch (incoming) {\n \t\tcase \"TRIGGER.LOW\": {\n-\t\t\tclearTimeout(timer);\n+\t\t\tid = (Date.now() % 2_147_483_647) + 1;\n \n-\t\t\ttimer = setTimeout(async () => {\n-\t\t\t\tid = (Date.now() % 2_147_483_647) + 1;\n+\t\t\taddActivity(\"triggered\", id);\n+\t\t\tawait notifyLocal(\n+\t\t\t\tid,\n+\t\t\t\t\"Zipo triggered\",\n+\t\t\t\t`Detected at ${new Date().toLocaleTimeString()}`,\n+\t\t\t);\n \n-\t\t\t\taddActivity(\"triggered\", id);\n-\t\t\t\tawait notifyLocal(\n-\t\t\t\t\tid,\n-\t\t\t\t\t\"Zipo triggered\",\n-\t\t\t\t\t`Detected at ${new Date().toLocaleTimeString()}`,\n-\t\t\t\t);\n-\n-\t\t\t\tawait Haptics.vibrate({ duration: 3000 });\n-\t\t\t}, 2000);\n+\t\t\tawait Haptics.vibrate({ duration: 3000 });\n \t\t\tbreak;\n \t\t}\n \n \t\tcase \"TRIGGER.HIGH\": {\n-\t\t\tclearTimeout(timer);\n \t\t\tbreak;\n \t\t}\n "
+      },
+      {
+        "sha": "8c48fb1581918e1874fd4903c2186081ac0729d3",
+        "filename": "src/stores/connectivity.ts",
+        "status": "modified",
+        "additions": 6,
+        "deletions": 1,
+        "changes": 7,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/f2bc37fc174b1e9223e2ac417de37bd5d431418f/src%2Fstores%2Fconnectivity.ts",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/f2bc37fc174b1e9223e2ac417de37bd5d431418f/src%2Fstores%2Fconnectivity.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fstores%2Fconnectivity.ts?ref=f2bc37fc174b1e9223e2ac417de37bd5d431418f",
+        "patch": "@@ -5,6 +5,7 @@ import { ref } from \"vue\";\n \n import { useActivityLog } from \"@/composables/useActivityLog\";\n import { txListen } from \"@/services/characteristics\";\n+import { keepAlive } from \"@/services/keepAlive\";\n import { SERVICE_UUID } from \"@/services/uuids\";\n \n const activityLog = useActivityLog();\n@@ -28,6 +29,7 @@ export const useConnectivityStore = defineStore(\"connectivity\", () => {\n \t\t\t\t\t\tawait BleClient.stopLEScan();\n \t\t\t\t\t\tawait BleClient.connect(result.device.deviceId, onDisconnect);\n \t\t\t\t\t\tawait txListen(result.device.deviceId);\n+\t\t\t\t\t\tawait keepAlive(true);\n \n \t\t\t\t\t\tesp.value = {\n \t\t\t\t\t\t\tdeviceId: result.device.deviceId,\n@@ -85,14 +87,17 @@ export const useConnectivityStore = defineStore(\"connectivity\", () => {\n \n \t\t\tesp.value = { deviceId: d.deviceId, name: d.name };\n \t\t\tstate.value = \"connected\";\n+\t\t\tawait keepAlive(true);\n \n \t\t\tconsole.log(\"Connected to \", esp.value.deviceId);\n \t\t} catch (error) {\n \t\t\tconsole.error(\"Connection failed:\", error);\n \t\t}\n \t}\n \n-\tfunction onDisconnect(id: string) {\n+\tasync function onDisconnect(id: string) {\n+\t\tawait keepAlive(false);\n+\n \t\tesp.value = null;\n \t\tstate.value = \"idle\";\n "
+      }
+    ]
+  },
+  {
+    "sha": "5686115cea6987dd40c33bc9a2a32e2e96a7884e",
+    "node_id": "C_kwDOVd-iudoAKDU2ODYxMTVjZWE2OTg3ZGQ0MGMzM2JjOWEyYTMyZTJlOTZhNzg4NGU",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-11-21T06:45:04Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-11-21T06:45:04Z"
+      },
+      "message": "feat: add local notifications for trigger alerts (#59)\n\n* feat: add local notifications for trigger alerts\n\n* feat: update local notification icon",
+      "tree": {
+        "sha": "a56f8f235ac408e4ea5c37c21844d9de3a85fdd1",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/a56f8f235ac408e4ea5c37c21844d9de3a85fdd1"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/5686115cea6987dd40c33bc9a2a32e2e96a7884e",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJrAT3wCRC1aQ7uu5UhlAAAq28QAGZ8m6pi8lPfeK5M7UycT1lk\ngQD0Bh7EHEyGIK5349ME/G980zT061gvRa7K1YsDD1qJVmgd+6mm+0Jke5YocZjl\n3hXrKmB70+wAivv9epFLw2UI+EVgwv+F7OtG0F2tKgI32aXZqQL9EiVOz/MqfRoS\nlasYnYoz3fkiZ6WY8oFh+rFr1H9lHqHzA8Ye0mnMDoE4phRKoR3HJ4YBJjLOHvlU\nVYBBeGaGnmWaPBZapVQUdHO8lV7KKZG9J2pBDvR+kELLzSKlEr8wRPz3haOZNEkw\nxEatCMdeav8WtdPHl0NCgqElCmrN98bJYN3oYBppVfo8cN9bAwH0RPxwD4zleFTr\np26qcsLMry++S7ZsdFD961yG8m0AhAKGMSHqX7sP5vWpYV7g5uSafM1/p1fzUaF4\nM4g5GvleLtAisB+VdrriKpOgwwea37fdXoUgIsoW2PFZsWMKUWvODOqdCIgjcu0j\nSOp+GErLCuj313pdDFyvOowa3B/kT8TJSdCE08Qpl2sBF5JT3liF95lncSA6ar1w\nz2MyI654AsFXQ5+Fhcxm8SiGESlg9LmesyTxO2WGCb6pvtdbzjvXDdbaa6MSS8SK\n4jtmWMXTOFb6cYdAg4UYOYtk8SfssEeYgdoOieGbYo8TqS2Ox89EqMTC8/yZduED\nVoo1JZbJNFclMNUH7AVl\n=Waff\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree a56f8f235ac408e4ea5c37c21844d9de3a85fdd1\nparent 9c5821a2b6f352f729b420318e288087dc9a940b\nauthor Mark Jerwin <git@jrwnnnn.me> 1795243504 +0800\ncommitter GitHub <noreply@github.com> 1795243504 +0800\n\nfeat: add local notifications for trigger alerts (#59)\n\n* feat: add local notifications for trigger alerts\n\n* feat: update local notification icon",
+        "verified_at": "2026-11-21T06:45:04Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/5686115cea6987dd40c33bc9a2a32e2e96a7884e",
+    "html_url": "https://github.com/jrwnnnn/zipo/commit/5686115cea6987dd40c33bc9a2a32e2e96a7884e",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/5686115cea6987dd40c33bc9a2a32e2e96a7884e/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9c5821a2b6f352f729b420318e288087dc9a940b",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/9c5821a2b6f352f729b420318e288087dc9a940b",
+        "html_url": "https://github.com/jrwnnnn/zipo/commit/9c5821a2b6f352f729b420318e288087dc9a940b"
+      }
+    ],
+    "stats": {
+      "total": 98,
+      "additions": 88,
+      "deletions": 10
+    },
+    "files": [
+      {
+        "sha": "ef0fb8ab32554803731281a534903ef0b64c3f28",
+        "filename": "android/app/capacitor.build.gradle",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/5686115cea6987dd40c33bc9a2a32e2e96a7884e/android%2Fapp%2Fcapacitor.build.gradle",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/5686115cea6987dd40c33bc9a2a32e2e96a7884e/android%2Fapp%2Fcapacitor.build.gradle",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/android%2Fapp%2Fcapacitor.build.gradle?ref=5686115cea6987dd40c33bc9a2a32e2e96a7884e",
+        "patch": "@@ -13,6 +13,7 @@ dependencies {\n     implementation project(':capacitor-app')\n     implementation project(':capacitor-haptics')\n     implementation project(':capacitor-keyboard')\n+    implementation project(':capacitor-local-notifications')\n     implementation project(':capacitor-status-bar')\n     implementation project(':capacitor-toast')\n "
+      },
+      {
+        "sha": "5948f8f19063d1f19fecbd23fd6cf7d2a8ff7bca",
+        "filename": "android/app/src/main/res/drawable/ic_warning.xml",
+        "status": "added",
+        "additions": 13,
+        "deletions": 0,
+        "changes": 13,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/5686115cea6987dd40c33bc9a2a32e2e96a7884e/android%2Fapp%2Fsrc%2Fmain%2Fres%2Fdrawable%2Fic_warning.xml",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/5686115cea6987dd40c33bc9a2a32e2e96a7884e/android%2Fapp%2Fsrc%2Fmain%2Fres%2Fdrawable%2Fic_warning.xml",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/android%2Fapp%2Fsrc%2Fmain%2Fres%2Fdrawable%2Fic_warning.xml?ref=5686115cea6987dd40c33bc9a2a32e2e96a7884e",
+        "patch": "@@ -0,0 +1,13 @@\n+<vector xmlns:android=\"http://schemas.android.com/apk/res/android\" xmlns:aapt=\"http://schemas.android.com/aapt\"\n+    android:viewportWidth=\"1095\"\n+    android:viewportHeight=\"1095\"\n+    android:width=\"24dp\"\n+    android:height=\"24dp\">\n+    <path\n+        android:pathData=\"M515 0.17C536.67 0.17 558.33 0.17 580 0.17C586.25 3.44 593.62 0.96 600.47 2.03C603.49 2.5 606.51 3.5 609.53 3.97C612.13 4.38 614.87 3.62 617.47 4.03C621.79 4.71 626.12 5.35 630.47 6.03C653.72 9.67 676.4 15.53 699.31 21.19C710.89 24.04 721.92 28.9 733.31 32.19C736.18 33.02 738.89 34.75 741.69 35.81C752.28 39.85 762.63 43.9 772.69 48.81C785.31 54.98 798.35 59.63 810.34 67.16C814.13 69.53 818.09 72.45 822.03 74.47C840.87 84.11 858.79 96.99 875.97 109.53C880.17 112.59 883.83 116.41 888.03 119.47C904.4 131.41 919.02 145.52 933.5 160C942.54 169.04 952.09 177.77 959.53 187.97C961.57 190.77 964.57 193.15 966.81 195.69C973.29 203.03 979.69 211.11 985.47 219.03C996.38 233.99 1008.11 249.51 1016.53 265.97C1017.37 267.61 1018.85 269.08 1019.84 270.66C1024.44 277.99 1028.94 285.95 1032.81 293.69C1045.96 319.98 1058.94 347.72 1067.19 376.31C1068.11 379.51 1069.89 382.49 1070.81 385.69C1073.56 395.21 1076.27 404.71 1078.19 414.31C1079.63 421.51 1082.38 428.5 1083.81 435.69C1084.18 437.55 1083.83 439.45 1084.19 441.31C1085.68 449.05 1087.75 456.73 1088.97 464.53C1089.65 468.88 1090.29 473.21 1090.97 477.53C1091.38 480.13 1090.62 482.87 1091.03 485.47C1091.5 488.49 1092.5 491.51 1092.97 494.53C1094.04 501.38 1091.56 508.75 1094.83 515C1094.83 536.67 1094.83 558.33 1094.83 580C1091.56 586.25 1094.04 593.62 1092.97 600.47C1092.5 603.49 1091.5 606.51 1091.03 609.53C1090.62 612.13 1091.38 614.87 1090.97 617.47C1090.29 621.79 1089.65 626.12 1088.97 630.47C1087.47 640.04 1085.72 649.78 1083.81 659.31C1082.91 663.81 1081.09 668.19 1080.19 672.69C1079.88 674.22 1080.18 675.79 1079.81 677.31C1079.53 678.51 1078.47 679.49 1078.19 680.69C1077.82 682.21 1078.18 683.79 1077.81 685.31C1077.53 686.51 1076.48 687.49 1076.19 688.69C1072.45 703.84 1067.12 718.4 1062.81 733.31C1061.98 736.18 1060.25 738.89 1059.19 741.69C1055.15 752.28 1051.1 762.63 1046.19 772.69C1040 785.36 1035.35 798.37 1027.84 810.34C1024.99 814.89 1022.7 819.79 1019.84 824.34C1018.85 825.92 1017.37 827.39 1016.53 829.03C1008.11 845.49 996.38 861.01 985.47 875.97C982.41 880.17 978.59 883.83 975.53 888.03C963.32 904.76 948.82 919.68 934 934.5C924.98 943.52 916.24 953.08 906.03 960.53C903.76 962.19 902.24 964.81 899.97 966.47C891.73 972.48 884.21 979.46 875.97 985.47C861.01 996.38 845.49 1008.11 829.03 1016.53C827.39 1017.37 825.92 1018.85 824.34 1019.84C817.03 1024.43 809.02 1028.96 801.31 1032.81C757.8 1054.57 711.59 1072.61 663.69 1082.19C662.22 1082.48 660.78 1083.52 659.31 1083.81C639.81 1087.71 620.08 1089.9 600.47 1092.97C593.62 1094.04 586.25 1091.56 580 1094.83C558.33 1094.83 536.67 1094.83 515 1094.83C508.75 1091.56 501.38 1094.04 494.53 1092.97C491.51 1092.5 488.49 1091.5 485.47 1091.03C482.87 1090.62 480.13 1091.38 477.53 1090.97C473.21 1090.29 468.88 1089.65 464.53 1088.97C456.74 1087.75 449.04 1085.68 441.31 1084.19C439.45 1083.83 437.55 1084.18 435.69 1083.81C428.5 1082.38 421.51 1079.63 414.31 1078.19C404.71 1076.27 395.21 1073.56 385.69 1070.81C382.49 1069.89 379.51 1068.11 376.31 1067.19C349.17 1059.35 322.64 1047.29 297.69 1034.81C270.1 1021.02 243.88 1003.6 219.03 985.47C211.11 979.69 203.03 973.29 195.69 966.81C192.81 964.27 190.13 960.84 186.97 958.53C177.13 951.35 168.72 942.22 160 933.5C149.29 922.79 138.32 912.16 129.47 900.03C125.58 894.71 120.42 890.3 116.53 884.97C101.72 864.67 85.89 844.35 74.47 822.03C72.13 817.46 68.91 812.73 66.16 808.34C58.83 796.67 53.26 782.74 47.19 770.31C46.19 768.28 45.81 765.72 44.81 763.69C41.34 756.59 38.65 749.14 35.81 741.69C34.75 738.89 33.02 736.18 32.19 733.31C27.88 718.4 22.55 703.84 18.81 688.69C18.52 687.49 17.47 686.51 17.19 685.31C16.82 683.79 17.18 682.21 16.81 680.69C16.53 679.49 15.47 678.51 15.19 677.31C14.12 672.85 13.71 668.19 12.81 663.69C12.46 661.92 11.31 660.27 11.03 658.47C10.78 656.89 11.12 655.28 10.81 653.69C9.32 645.95 7.25 638.27 6.03 630.47C5.35 626.12 4.71 621.79 4.03 617.47C3.62 614.87 4.38 612.13 3.97 609.53C3.5 606.51 2.5 603.49 2.03 600.47C0.96 593.62 3.44 586.25 0.17 580C0.17 558.33 0.17 536.67 0.17 515C3.44 508.75 0.96 501.38 2.03 494.53C2.5 491.51 3.5 488.49 3.97 485.47C4.38 482.87 3.62 480.13 4.03 477.53C4.71 473.21 5.35 468.88 6.03 464.53C7.25 456.73 9.32 449.05 10.81 441.31C11.17 439.45 10.82 437.55 11.19 435.69C12.63 428.49 15.32 421.5 16.81 414.31C18.81 404.67 21.44 395.19 24.19 385.69C25.11 382.49 26.89 379.51 27.81 376.31C35.21 350.69 46.33 325.4 58.19 301.69C72.77 272.51 90.42 245.22 109.53 219.03C116.09 210.04 123.98 202.01 130.53 193.03C131.91 191.14 134.09 189.86 135.47 187.97C142.77 177.96 152.16 169.34 161 160.5C171.87 149.63 182.66 138.45 194.97 129.47C200.29 125.58 204.7 120.42 210.03 116.53C228.07 103.37 246.06 88.66 265.97 78.47C269.91 76.45 273.87 73.53 277.66 71.16C287 65.3 297.44 60.8 307.34 55.84C316.82 51.11 326.4 45.67 336.31 42.81C338.2 42.27 339.85 40.89 341.69 40.19C348.28 37.67 354.92 34.14 361.69 32.19C373.13 28.89 384.24 24.49 395.69 21.19C407.41 17.81 419.4 15.2 431.31 12.81C432.78 12.52 434.22 11.48 435.69 11.19C437.55 10.82 439.45 11.17 441.31 10.81C449.05 9.32 456.73 7.25 464.53 6.03C468.88 5.35 473.21 4.71 477.53 4.03C480.13 3.62 482.87 4.38 485.47 3.97C488.49 3.5 491.51 2.5 494.53 2.03C501.38 0.96 508.75 3.44 515 0.17ZM543.69 68.19C535.49 69.77 526.81 67.74 518.53 69.03C513.56 69.81 508.44 70.19 503.47 70.97C500.87 71.38 498.13 70.62 495.53 71.03C492.19 71.56 488.81 72.44 485.47 72.97C483.52 73.27 481.48 72.73 479.53 73.03C465.2 75.28 450.93 78.34 436.69 81.19C435.22 81.48 433.78 82.51 432.31 82.81C422.61 84.83 413.22 87.83 403.69 90.19C398.74 91.41 394.22 94.4 389.31 95.81C382.76 97.7 376.71 100.37 370.31 102.81C349.26 110.84 327.82 120.63 308.34 132.84C303.42 135.93 297.76 138.15 293.03 141.53C282.51 149.04 271.48 155.9 261.03 163.53C249.4 172.02 238.81 182.02 227.5 191C222.93 194.63 219.34 199.59 215 203.5C209.83 208.16 205.47 213.03 200.5 218C197.4 221.1 193.72 224.07 191 227.5C189.24 229.71 187.69 232.19 185.81 234.31C148.09 277.06 118.49 327.43 98.19 380.69C93.98 391.71 90.59 403.06 87.81 414.31C87.52 415.51 86.53 416.5 86.19 417.69C84.8 422.48 83.82 427.44 82.81 432.31C82.51 433.78 81.48 435.22 81.19 436.69C80.88 438.22 81.18 439.79 80.81 441.31C80.53 442.51 79.47 443.49 79.19 444.69C78.03 449.52 77.74 454.57 76.97 459.47C76.6 461.85 75.4 464.15 75.03 466.53C74.78 468.15 75.22 469.85 74.97 471.47C74.55 474.17 73.45 476.83 73.03 479.53C72.73 481.48 73.27 483.52 72.97 485.47C70.38 501.99 69 518.52 69 535.5C69 540.49 67.26 545.53 68.03 550.47C68.26 551.9 68.87 553.02 69 554.5C69.65 561.7 67.91 569.33 69.03 576.47C69.81 581.44 70.19 586.56 70.97 591.53C71.38 594.13 70.62 596.87 71.03 599.47C71.56 602.81 72.44 606.19 72.97 609.53C73.27 611.48 72.73 613.52 73.03 615.47C73.45 618.17 74.55 620.83 74.97 623.53C75.22 625.15 74.78 626.85 75.03 628.47C75.4 630.85 76.6 633.15 76.97 635.53C77.74 640.43 78.03 645.48 79.19 650.31C79.47 651.51 80.53 652.49 80.81 653.69C81.18 655.21 80.88 656.78 81.19 658.31C81.48 659.78 82.51 661.22 82.81 662.69C84.83 672.39 87.83 681.78 90.19 691.31C90.48 692.51 91.47 693.5 91.81 694.69C94.77 704.95 99 714.68 102.81 724.69C117.57 763.4 138.98 800.33 163.53 833.97C166.87 838.55 171.13 842.45 174.47 847.03C179.64 854.12 185.54 860.63 191 867.5C194.79 872.27 200.16 875.77 204 880.5C207.24 884.49 210.51 887.76 214.5 891C222.43 897.44 228.73 905.52 236.97 911.53C238.86 912.91 240.14 915.09 242.03 916.47C248.54 921.22 254.52 926.72 261.03 931.47C271.48 939.09 282.52 945.96 293.03 953.47C294.83 954.75 297.11 955.34 298.97 956.53C311.63 964.64 325.11 972.18 338.69 978.81C342.71 980.78 347.29 982.22 351.31 984.19C363.39 990.09 376.22 995.41 389.31 999.19C392.19 1000.02 394.81 1001.98 397.69 1002.81C403.24 1004.42 408.72 1005.81 414.31 1007.19C419.12 1008.37 423.78 1010.79 428.69 1011.81C437.46 1013.63 445.93 1016.13 454.69 1017.81C456.88 1018.23 459.12 1017.77 461.31 1018.19C467.05 1019.29 472.74 1021.06 478.53 1021.97C480.8 1022.32 483.2 1021.68 485.47 1022.03C491.8 1023.02 498.2 1023.98 504.53 1024.97C508.1 1025.53 511.9 1024.47 515.47 1025.03C522.65 1026.16 530.26 1024.9 537.47 1026.03C542.68 1026.85 548.07 1027.49 553.5 1027C554.98 1026.87 556.1 1026.26 557.53 1026.03C564.74 1024.9 572.35 1026.16 579.53 1025.03C583.1 1024.47 586.9 1025.53 590.47 1024.97C596.8 1023.98 603.2 1023.02 609.53 1022.03C611.8 1021.68 614.2 1022.32 616.47 1021.97C641.76 1018.01 666.57 1011.95 691.31 1004.81C700.68 1002.11 710.11 998.32 719.31 994.81C722.77 993.49 726.15 991.21 729.69 990.19C740.97 986.93 752.15 980.45 762.69 975.19C786.03 963.51 808.78 949.93 829.97 934.47C837.45 929.01 844.49 922.93 851.97 917.47C854.24 915.81 855.76 913.19 858.03 911.53C864.75 906.63 870.03 900.25 876.5 895C883.21 889.56 889.56 883.21 895 876.5C897.66 873.23 901.38 870.8 904 867.5C910.89 858.83 918.94 850.92 925.47 841.97C930.97 834.43 936.02 826.58 941.53 819.03C955.75 799.54 968.23 777.99 978.81 756.31C980.78 752.29 982.22 747.71 984.19 743.69C985.98 740.02 988.36 736.11 989.81 732.31C993.76 721.97 998.11 711.35 1001.19 700.69C1002.11 697.49 1003.89 694.51 1004.81 691.31C1011.94 666.6 1018.01 641.73 1021.97 616.47C1022.32 614.2 1021.68 611.8 1022.03 609.53C1023.02 603.2 1023.98 596.8 1024.97 590.47C1025.68 585.95 1025.22 581.26 1025.97 576.47C1027.1 569.26 1025.84 561.65 1026.97 554.47C1027.84 548.91 1026.87 542.82 1026.03 537.47C1024.9 530.26 1026.16 522.65 1025.03 515.47C1024.47 511.9 1025.53 508.1 1024.97 504.53C1023.98 498.2 1023.02 491.8 1022.03 485.47C1021.68 483.2 1022.32 480.8 1021.97 478.53C1019.34 461.73 1015.26 445.3 1011.81 428.69C1010.79 423.78 1008.37 419.12 1007.19 414.31C1004.38 402.94 1001.02 391.73 996.81 380.69C994.87 375.58 991.7 370.54 990.19 365.31C988.79 360.46 986.43 355.9 984.19 351.31C982.22 347.29 980.78 342.71 978.81 338.69C972.24 325.24 964.64 311.62 956.53 298.97C955.33 297.1 954.67 294.9 953.47 293.03C944.69 279.34 935.03 266.14 925.47 253.03C924.36 251.51 922.64 250.49 921.53 248.97C916.09 241.52 909.74 234.73 904 227.5C900.79 223.46 896.25 220.5 893 216.5C888.09 210.45 882.53 204.89 876.5 200C870.03 194.75 864.75 188.37 858.03 183.47C856.14 182.09 854.86 179.91 852.97 178.53C845.12 172.8 837.83 166.27 829.97 160.53C807.53 144.16 783.32 130.13 758.69 117.81C747.7 112.32 736.23 106.14 724.69 102.81C721.15 101.79 717.77 99.51 714.31 98.19C703.27 93.98 692.06 90.62 680.69 87.81C679.49 87.52 678.5 86.53 677.31 86.19C673.72 85.15 669.95 84.08 666.31 83.19C662.13 82.16 657.83 81.8 653.69 80.81C652.49 80.53 651.51 79.47 650.31 79.19C647.11 78.42 643.55 77.81 640.31 77.19C638.45 76.83 636.55 77.17 634.69 76.81C632.62 76.41 630.57 75.36 628.47 75.03C626.85 74.78 625.15 75.22 623.53 74.97C620.83 74.55 618.17 73.45 615.47 73.03C613.52 72.73 611.48 73.27 609.53 72.97C606.19 72.44 602.81 71.56 599.47 71.03C592.91 70 586.09 71 579.53 69.97C571.27 68.68 562.89 69.76 554.5 69C550.83 68.67 547.55 67.44 543.69 68.19ZM545.69 228.19C549.71 227.43 555.92 229.38 559.69 230.81C588.01 241.61 582 273.87 582 298.5C582 304.83 582 311.17 582 317.5C582 410.83 582 504.17 582 597.5C582 603.5 582 609.5 582 615.5C582 637.77 587.2 664.67 566.03 678.53C562.08 681.12 557.29 683.56 552.5 684C535.9 685.51 517.78 675.62 514.19 658.31C512.38 649.61 513 640.46 513 631.5C513 618.5 513 605.5 513 592.5C513 500.83 513 409.17 513 317.5C513 303.17 513 288.83 513 274.5C513 260.36 513.31 244.81 526.03 235.53C532.05 231.14 538.64 229.51 545.69 228.19ZM538.69 776.19C545.6 774.8 554.17 775.64 560.69 777.81C573.13 781.96 585.02 791.12 589.81 803.69C598.96 827.69 587.13 856.85 561.69 864.19C560.51 864.53 559.51 865.53 558.31 865.81C552.65 867.16 547.07 866.91 541.47 866.03C539.88 865.78 538.27 866.19 536.69 865.81C526.49 863.38 515.6 855.46 509.53 846.97C505.93 841.92 504.14 835.39 502.97 829.53C498.22 805.79 514.4 781.04 538.69 776.19Z\"\n+        android:fillType=\"evenOdd\"\n+        android:fillColor=\"#FFFFFF\"\n+        android:strokeColor=\"#FFFFFF\"\n+        android:strokeWidth=\"0.25\"\n+        android:strokeLineJoin=\"round\" />\n+</vector>\n\\ No newline at end of file"
+      },
+      {
+        "sha": "8d6f578c31ec2d32282f0199e30633a67dd19ed0",
+        "filename": "android/capacitor.settings.gradle",
+        "status": "modified",
+        "additions": 3,
+        "deletions": 0,
+        "changes": 3,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/5686115cea6987dd40c33bc9a2a32e2e96a7884e/android%2Fcapacitor.settings.gradle",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/5686115cea6987dd40c33bc9a2a32e2e96a7884e/android%2Fcapacitor.settings.gradle",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/android%2Fcapacitor.settings.gradle?ref=5686115cea6987dd40c33bc9a2a32e2e96a7884e",
+        "patch": "@@ -14,6 +14,9 @@ project(':capacitor-haptics').projectDir = new File('../node_modules/@capacitor/\n include ':capacitor-keyboard'\n project(':capacitor-keyboard').projectDir = new File('../node_modules/@capacitor/keyboard/android')\n \n+include ':capacitor-local-notifications'\n+project(':capacitor-local-notifications').projectDir = new File('../node_modules/@capacitor/local-notifications/android')\n+\n include ':capacitor-status-bar'\n project(':capacitor-status-bar').projectDir = new File('../node_modules/@capacitor/status-bar/android')\n "
+      },
+      {
+        "sha": "5c560f1b75985a788babd449546dd56b4104025a",
+        "filename": "package-lock.json",
+        "status": "modified",
+        "additions": 10,
+        "deletions": 0,
+        "changes": 10,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/5686115cea6987dd40c33bc9a2a32e2e96a7884e/package-lock.json",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/5686115cea6987dd40c33bc9a2a32e2e96a7884e/package-lock.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/package-lock.json?ref=5686115cea6987dd40c33bc9a2a32e2e96a7884e",
+        "patch": "@@ -14,6 +14,7 @@\n \t\t\t\t\"@capacitor/core\": \"8.6.0\",\n \t\t\t\t\"@capacitor/haptics\": \"8.0.2\",\n \t\t\t\t\"@capacitor/keyboard\": \"8.0.6\",\n+\t\t\t\t\"@capacitor/local-notifications\": \"^8.3.1\",\n \t\t\t\t\"@capacitor/status-bar\": \"8.0.4\",\n \t\t\t\t\"@capacitor/toast\": \"^8.0.1\",\n \t\t\t\t\"@ionic/vue\": \"^9.0.0\",\n@@ -1535,6 +1536,15 @@\n \t\t\t\t\"@capacitor/core\": \">=8.0.0\"\n \t\t\t}\n \t\t},\n+\t\t\"node_modules/@capacitor/local-notifications\": {\n+\t\t\t\"version\": \"8.3.1\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@capacitor/local-notifications/-/local-notifications-8.3.1.tgz\",\n+\t\t\t\"integrity\": \"sha512-F7zu/+p/mIR958YP4axOkeI5hBKRaXDyYjbNPrAil2wWfd7OxScPSTvP9t85NpQ0eULVRu0/sntoxOg6ck477A==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"peerDependencies\": {\n+\t\t\t\t\"@capacitor/core\": \">=8.0.0\"\n+\t\t\t}\n+\t\t},\n \t\t\"node_modules/@capacitor/status-bar\": {\n \t\t\t\"version\": \"8.0.4\",\n \t\t\t\"license\": \"MIT\","
+      },
+      {
+        "sha": "b8e1d9685e3b070abd82cb067ec3eab39d0bd756",
+        "filename": "package.json",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/5686115cea6987dd40c33bc9a2a32e2e96a7884e/package.json",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/5686115cea6987dd40c33bc9a2a32e2e96a7884e/package.json",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/package.json?ref=5686115cea6987dd40c33bc9a2a32e2e96a7884e",
+        "patch": "@@ -25,6 +25,7 @@\n \t\t\"@capacitor/core\": \"8.6.0\",\n \t\t\"@capacitor/haptics\": \"8.0.2\",\n \t\t\"@capacitor/keyboard\": \"8.0.6\",\n+\t\t\"@capacitor/local-notifications\": \"^8.3.1\",\n \t\t\"@capacitor/status-bar\": \"8.0.4\",\n \t\t\"@capacitor/toast\": \"^8.0.1\",\n \t\t\"@ionic/vue\": \"^9.0.0\","
+      },
+      {
+        "sha": "e94236e4e45b4288c0d972eac2dba3a1d233846a",
+        "filename": "src/App.vue",
+        "status": "modified",
+        "additions": 15,
+        "deletions": 4,
+        "changes": 19,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/5686115cea6987dd40c33bc9a2a32e2e96a7884e/src%2FApp.vue",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/5686115cea6987dd40c33bc9a2a32e2e96a7884e/src%2FApp.vue",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2FApp.vue?ref=5686115cea6987dd40c33bc9a2a32e2e96a7884e",
+        "patch": "@@ -1,9 +1,20 @@\n+<script setup lang=\"ts\">\n+import { IonApp, IonRouterOutlet } from \"@ionic/vue\";\n+import { onMounted } from \"vue\";\n+import { LocalNotifications } from \"@capacitor/local-notifications\";\n+\n+onMounted(async () => {\n+\tawait LocalNotifications.requestPermissions();\n+\tawait LocalNotifications.createChannel({\n+\t\tid: \"alerts\",\n+\t\tname: \"Alerts\",\n+\t\timportance: 5,\n+\t});\n+});\n+</script>\n+\n <template>\n \t<ion-app>\n \t\t<ion-router-outlet />\n \t</ion-app>\n </template>\n-\n-<script setup lang=\"ts\">\n-import { IonApp, IonRouterOutlet } from \"@ionic/vue\";\n-</script>"
+      },
+      {
+        "sha": "4cf15ca1290ce5606ee6f60b96ae99cc3c637983",
+        "filename": "src/composables/useActivityLog.ts",
+        "status": "modified",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/5686115cea6987dd40c33bc9a2a32e2e96a7884e/src%2Fcomposables%2FuseActivityLog.ts",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/5686115cea6987dd40c33bc9a2a32e2e96a7884e/src%2Fcomposables%2FuseActivityLog.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fcomposables%2FuseActivityLog.ts?ref=5686115cea6987dd40c33bc9a2a32e2e96a7884e",
+        "patch": "@@ -9,7 +9,7 @@ interface Activity {\n \n interface ActivityLog {\n \tactivities: RemovableRef<Activity[]>;\n-\taddActivity: (status: Status) => void;\n+\taddActivity: (status: Status, id?: number) => void;\n }\n \n const activities = useStorage<Activity[]>(\"activities\", []);\n@@ -22,9 +22,9 @@ const LABELS = {\n type Status = keyof typeof LABELS;\n \n export function useActivityLog(): ActivityLog {\n-\tfunction addActivity(status: Status) {\n+\tfunction addActivity(status: Status, id?: number) {\n \t\tactivities.value.unshift({\n-\t\t\tid: Date.now(),\n+\t\t\tid: id || (Date.now() % 2_147_483_647) + 1,\n \t\t\tstatus: status,\n \t\t\tlabel: LABELS[status],\n \t\t\ttimestamp: Date.now(),"
+      },
+      {
+        "sha": "101719fe0517231898be80929682901832a25af7",
+        "filename": "src/services/notifyLocal.ts",
+        "status": "added",
+        "additions": 20,
+        "deletions": 0,
+        "changes": 20,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/5686115cea6987dd40c33bc9a2a32e2e96a7884e/src%2Fservices%2FnotifyLocal.ts",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/5686115cea6987dd40c33bc9a2a32e2e96a7884e/src%2Fservices%2FnotifyLocal.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fservices%2FnotifyLocal.ts?ref=5686115cea6987dd40c33bc9a2a32e2e96a7884e",
+        "patch": "@@ -0,0 +1,20 @@\n+import { LocalNotifications } from \"@capacitor/local-notifications\";\n+\n+export async function notifyLocal(\n+\tid: number,\n+\ttitle: string,\n+\tbody: string,\n+): Promise<void> {\n+\tawait LocalNotifications.schedule({\n+\t\tnotifications: [\n+\t\t\t{\n+\t\t\t\tid: id,\n+\t\t\t\ttitle,\n+\t\t\t\tbody,\n+\t\t\t\tchannelId: \"alerts\",\n+\t\t\t\tsmallIcon: \"ic_warning\",\n+\t\t\t\tisExactNotification: false,\n+\t\t\t},\n+\t\t],\n+\t});\n+}"
+      },
+      {
+        "sha": "60d61ce3d0247bc6b57ca727c55d6e087db45ae5",
+        "filename": "src/services/txHandle.ts",
+        "status": "modified",
+        "additions": 22,
+        "deletions": 3,
+        "changes": 25,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/5686115cea6987dd40c33bc9a2a32e2e96a7884e/src%2Fservices%2FtxHandle.ts",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/5686115cea6987dd40c33bc9a2a32e2e96a7884e/src%2Fservices%2FtxHandle.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fservices%2FtxHandle.ts?ref=5686115cea6987dd40c33bc9a2a32e2e96a7884e",
+        "patch": "@@ -1,15 +1,34 @@\n+import { Haptics } from \"@capacitor/haptics\";\n+\n import { useActivityLog } from \"@/composables/useActivityLog\";\n+import { notifyLocal } from \"@/services/notifyLocal\";\n \n-export function txHandle(incoming: string): void {\n-\tconst { addActivity } = useActivityLog();\n+const { addActivity } = useActivityLog();\n+let id: number;\n+let timer: ReturnType<typeof setTimeout> | undefined;\n \n+export async function txHandle(incoming: string): Promise<void> {\n \tswitch (incoming) {\n \t\tcase \"TRIGGER.LOW\": {\n-\t\t\taddActivity(\"triggered\");\n+\t\t\tclearTimeout(timer);\n+\n+\t\t\ttimer = setTimeout(async () => {\n+\t\t\t\tid = (Date.now() % 2_147_483_647) + 1;\n+\n+\t\t\t\taddActivity(\"triggered\", id);\n+\t\t\t\tawait notifyLocal(\n+\t\t\t\t\tid,\n+\t\t\t\t\t\"Zipo triggered\",\n+\t\t\t\t\t`Detected at ${new Date().toLocaleTimeString()}`,\n+\t\t\t\t);\n+\n+\t\t\t\tawait Haptics.vibrate({ duration: 3000 });\n+\t\t\t}, 2000);\n \t\t\tbreak;\n \t\t}\n \n \t\tcase \"TRIGGER.HIGH\": {\n+\t\t\tclearTimeout(timer);\n \t\t\tbreak;\n \t\t}\n "
+      }
+    ]
+  },
+  {
+    "sha": "9c5821a2b6f352f729b420318e288087dc9a940b",
+    "node_id": "C_kwDOVd-iudoAKDljNTgyMWEyYjZmMzUyZjcyOWI0MjAzMThlMjg4MDg3ZGM5YTk0MGI",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-11-21T06:04:29Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-11-21T06:04:29Z"
+      },
+      "message": "feat: add BLE RX characteristic writes (#63)",
+      "tree": {
+        "sha": "88e09b3d65488b9ea093973c1528b5dcf57e0eb1",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/88e09b3d65488b9ea093973c1528b5dcf57e0eb1"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/9c5821a2b6f352f729b420318e288087dc9a940b",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJrATRtCRC1aQ7uu5UhlAAA8LAQAC2sipLRSkxquh8ZrdVPKIY1\nxsKVHfRffI/gVwI4tfDzM/UnfxdOKuLk0ZQ4P0CUG2aWkAonzJd2JKkrazXQwiMB\nlj0UUr434r2vF92/VxecPZkL7GpdRihMS5nqIsJg+Yj+UsclNzpCQtPHnT77pxHF\n13M+AvP67XpHp+6BNO86cflzgNeUm4eySeQGMAGVVnhiuc0oBBAhkBkpZWaMlfwJ\nu0eEEw4/f74Gpfk4kxPbGasQQkiegPACdIFW2aa4i8dsfSTRel4Y6xdhTYvE3WhY\nLA1uKUJ2uN28LHNKMGWOCB/W5oCrWUWj+Wk2ZwWuwkvGYpa9jBG0s8o2k5viGr8N\nhn/bI+qcYGSvx3i1L7JVQyZydNgCxqT+bsPhuQehWXPVP+Dr1OcT8VylpINYmJ/W\nuqQ7hvGHL2UG0h7ZLg7IW2j9COfg9DKQk8CIRT5HxXqx8arX5l5Z9LFVj7QGk7MS\nT4kGV2JzPPX0XBlWItV5EuDJXHi3OQO3a8wHpgUn/bQDWmOHQ3gZA2g2C4ECdQDA\nWImKyU0fOQqn9vNlBqnpUZbAFGTrLw5T6PIyMy7oc4IVXwqCJ1GifR65CpzNzBXL\nz13+3wzIiX75+sEIcz2RSV7pqiHVclsYrqmo5r0Ywmj3xch9GeIoxj/Zs0yZJ48p\nCsaDQMn8cuEhrBmb15ty\n=DmIA\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 88e09b3d65488b9ea093973c1528b5dcf57e0eb1\nparent d78e35e12b5c9079de95d70b0b8252bf71450742\nauthor Mark Jerwin <git@jrwnnnn.me> 1795241069 +0800\ncommitter GitHub <noreply@github.com> 1795241069 +0800\n\nfeat: add BLE RX characteristic writes (#63)",
+        "verified_at": "2026-11-21T06:04:30Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/9c5821a2b6f352f729b420318e288087dc9a940b",
+    "html_url": "https://github.com/jrwnnnn/zipo/commit/9c5821a2b6f352f729b420318e288087dc9a940b",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/9c5821a2b6f352f729b420318e288087dc9a940b/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d78e35e12b5c9079de95d70b0b8252bf71450742",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/d78e35e12b5c9079de95d70b0b8252bf71450742",
+        "html_url": "https://github.com/jrwnnnn/zipo/commit/d78e35e12b5c9079de95d70b0b8252bf71450742"
+      }
+    ],
+    "stats": {
+      "total": 22,
+      "additions": 19,
+      "deletions": 3
+    },
+    "files": [
+      {
+        "sha": "3bd202d9c6f0cc96c4960b6f47326c3f820347b6",
+        "filename": "src/services/characteristics.ts",
+        "status": "modified",
+        "additions": 19,
+        "deletions": 2,
+        "changes": 21,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/9c5821a2b6f352f729b420318e288087dc9a940b/src%2Fservices%2Fcharacteristics.ts",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/9c5821a2b6f352f729b420318e288087dc9a940b/src%2Fservices%2Fcharacteristics.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fservices%2Fcharacteristics.ts?ref=9c5821a2b6f352f729b420318e288087dc9a940b",
+        "patch": "@@ -1,12 +1,29 @@\n-import { BleClient, dataViewToText } from \"@capacitor-community/bluetooth-le\";\n+import {\n+\tBleClient,\n+\tdataViewToText,\n+\ttextToDataView,\n+} from \"@capacitor-community/bluetooth-le\";\n \n import { txHandle } from \"@/services/txHandle\";\n-import { SERVICE_UUID, TX_UUID } from \"@/services/uuids\";\n+import { SERVICE_UUID, TX_UUID, RX_UUID } from \"@/services/uuids\";\n+import { useConnectivityStore } from \"@/stores/connectivity\";\n \n+const connectivity = useConnectivityStore();\n export async function txListen(id: string): Promise<void> {\n \tawait BleClient.startNotifications(id, SERVICE_UUID, TX_UUID, (incoming) => {\n \t\tconst message = dataViewToText(incoming).trim();\n \t\tconsole.log(\"Received:\", message);\n \t\ttxHandle(message);\n \t});\n }\n+\n+export async function rxSend(outgoing: string): Promise<void> {\n+\tif (!connectivity.esp) return;\n+\n+\tawait BleClient.write(\n+\t\tconnectivity.esp.deviceId,\n+\t\tSERVICE_UUID,\n+\t\tRX_UUID,\n+\t\ttextToDataView(outgoing),\n+\t);\n+}"
+      },
+      {
+        "sha": "63991a226be27b686ff3860a6d7ccad9617c4e89",
+        "filename": "src/services/uuids.ts",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 1,
+        "changes": 1,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/9c5821a2b6f352f729b420318e288087dc9a940b/src%2Fservices%2Fuuids.ts",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/9c5821a2b6f352f729b420318e288087dc9a940b/src%2Fservices%2Fuuids.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fservices%2Fuuids.ts?ref=9c5821a2b6f352f729b420318e288087dc9a940b",
+        "patch": "@@ -1,4 +1,3 @@\n-/* eslint-disable @typescript-eslint/no-unused-vars */\n export const SERVICE_UUID = \"6e400001-b5a3-f393-e0a9-e50e24dcca9e\";\n export const RX_UUID = \"6e400002-b5a3-f393-e0a9-e50e24dcca9e\";\n export const TX_UUID = \"6e400003-b5a3-f393-e0a9-e50e24dcca9e\";"
+      }
+    ]
+  },
+  {
     "sha": "d78e35e12b5c9079de95d70b0b8252bf71450742",
     "node_id": "C_kwDOVd-iudoAKGQ3OGUzNWUxMmI1YzkwNzlkZTk1ZDcwYjBiODI1MmJmNzE0NTA3NDI",
     "commit": {
@@ -217,410 +837,6 @@
         "raw_url": "https://github.com/jrwnnnn/zipo/raw/d78e35e12b5c9079de95d70b0b8252bf71450742/vite.config.ts",
         "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/vite.config.ts?ref=d78e35e12b5c9079de95d70b0b8252bf71450742",
         "patch": "@@ -2,7 +2,7 @@ import tailwindcss from \"@tailwindcss/vite\";\n import legacy from \"@vitejs/plugin-legacy\";\n import vue from \"@vitejs/plugin-vue\";\n import path from \"path\";\n-import { defineConfig } from \"vitest/config\";\n+import { defineConfig } from \"vite\";\n \n // https://vitejs.dev/config/\n export default defineConfig({\n@@ -12,10 +12,4 @@ export default defineConfig({\n \t\t\t\"@\": path.resolve(import.meta.dirname, \"./src\"),\n \t\t},\n \t},\n-\ttest: {\n-\t\tglobals: true,\n-\t\tenvironment: \"jsdom\",\n-\t\t// Playwright e2e specs live in tests/e2e.\n-\t\tinclude: [\"tests/unit/**/*.spec.{js,ts}\"],\n-\t},\n });"
-      }
-    ]
-  },
-  {
-    "sha": "efaff8da6755d1165a7a27246f9aec85f805c936",
-    "node_id": "C_kwDOVd-iudoAKGVmYWZmOGRhNjc1NWQxMTY1YTdhMjcyNDZmOWFlYzg1ZjgwNWM5MzY",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-11-19T13:06:58Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-11-19T13:06:58Z"
-      },
-      "message": "fix: BLE scan timeout handling (#58)",
-      "tree": {
-        "sha": "b0ab64cd3df60bba55cb2865eec6d081e9e5dfba",
-        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/b0ab64cd3df60bba55cb2865eec6d081e9e5dfba"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/efaff8da6755d1165a7a27246f9aec85f805c936",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq/vRyCRC1aQ7uu5UhlAAApyUQAHnzzsbZmPpjE/zRB+6NDrjx\nIc6CgUkvUfYKAmnF9MlZ/MwCvEfnf51oGtG62+j6qiBGE8ldjX4ibeMStXE6x9SC\nl3YyWUdDW8s/epd/eK7kMt+P7Xce8wzT2v+wulW55mu41jJgOI/q2U93qODeQn4q\nBO4xRIFQwwKhdrOtsPRh+ZkUQ0Q8vZbkIm69hTlRDfUbRHHuaGyrP/WKwSIZA/F1\nsxyY2lWaoJmfS97NO+zhRvA9xitwL02YddFBDDnmKG3IEY25ZkL/IJckOo/FP2oY\nNlNfkPkJU4SQbIUZbFjCY9d8qv7noyzOwhglSMRvSG2MeR9JTyiFo2qJ+g0inpTf\nV7bqobK2osLtsfto8yJvAl1VFlys3oEvaqHXKWEBh13We1LMGQili6UfyNpeDBLX\n2nU59hbF96qE1fLQ2u7GNGde+Bfzt1MNVj7d89pMplPEf/TXSHny00DDXWuoZr0U\nK16OaAYLLDTWgEdxwWbj/TzIiGmzwzNtYLTEjpHS/DREFwFX6GkuPdCarFaHnRZp\nF1XNahRyOznrNDSP7CWfopTm0ENdP1qcJ372VChdrnX6ofbnsSL3Nn0j1h1DsxM5\nFLzxsz3Jesi64H8l5/dwQ78/qkFV6kjam71DQK+aI6DkPBG3/qbrte5HQyhLJJD5\n1TAWcml2Ju4cWTW2Bs/8\n=jEl2\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree b0ab64cd3df60bba55cb2865eec6d081e9e5dfba\nparent 3a26d34b19f1e0b0596c52c3fa3956c5f8b1707b\nauthor Mark Jerwin <git@jrwnnnn.me> 1795093618 +0800\ncommitter GitHub <noreply@github.com> 1795093618 +0800\n\nfix: BLE scan timeout handling (#58)",
-        "verified_at": "2026-11-19T13:06:58Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/efaff8da6755d1165a7a27246f9aec85f805c936",
-    "html_url": "https://github.com/jrwnnnn/zipo/commit/efaff8da6755d1165a7a27246f9aec85f805c936",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/efaff8da6755d1165a7a27246f9aec85f805c936/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "3a26d34b19f1e0b0596c52c3fa3956c5f8b1707b",
-        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/3a26d34b19f1e0b0596c52c3fa3956c5f8b1707b",
-        "html_url": "https://github.com/jrwnnnn/zipo/commit/3a26d34b19f1e0b0596c52c3fa3956c5f8b1707b"
-      }
-    ],
-    "stats": {
-      "total": 11,
-      "additions": 5,
-      "deletions": 6
-    },
-    "files": [
-      {
-        "sha": "2e3787fce3ed741f32196ef80fa7fd2306d5f066",
-        "filename": "src/stores/connectivity.ts",
-        "status": "modified",
-        "additions": 5,
-        "deletions": 6,
-        "changes": 11,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/efaff8da6755d1165a7a27246f9aec85f805c936/src%2Fstores%2Fconnectivity.ts",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/efaff8da6755d1165a7a27246f9aec85f805c936/src%2Fstores%2Fconnectivity.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fstores%2Fconnectivity.ts?ref=efaff8da6755d1165a7a27246f9aec85f805c936",
-        "patch": "@@ -8,23 +8,22 @@ import { txListen } from \"@/services/characteristics\";\n import { SERVICE_UUID } from \"@/services/uuids\";\n \n const activityLog = useActivityLog();\n+let timer: ReturnType<typeof setTimeout> | undefined;\n+\n export const useConnectivityStore = defineStore(\"connectivity\", () => {\n \tconst state = ref<\"connected\" | \"connecting\" | \"idle\">(\"idle\");\n \tconst esp = ref<BleDevice | null>(null);\n \n \tasync function connect() {\n \t\tif (state.value !== \"idle\") return;\n-\t\tlet found = false;\n \t\tstate.value = \"connecting\";\n \n \t\ttry {\n \t\t\tawait BleClient.initialize();\n \t\t\tawait BleClient.requestLEScan(\n \t\t\t\t{ services: [SERVICE_UUID] },\n \t\t\t\tasync (result) => {\n-\t\t\t\t\tif (found) return;\n-\t\t\t\t\tfound = true;\n-\n+\t\t\t\t\tclearTimeout(timer);\n \t\t\t\t\ttry {\n \t\t\t\t\t\tawait BleClient.stopLEScan();\n \t\t\t\t\t\tawait BleClient.connect(result.device.deviceId, onDisconnect);\n@@ -46,8 +45,8 @@ export const useConnectivityStore = defineStore(\"connectivity\", () => {\n \t\t\t\t},\n \t\t\t);\n \n-\t\t\tsetTimeout(async () => {\n-\t\t\t\tif (found) return;\n+\t\t\ttimer = setTimeout(async () => {\n+\t\t\t\tclearTimeout(timer);\n \n \t\t\t\tBleClient.stopLEScan();\n "
-      }
-    ]
-  },
-  {
-    "sha": "3a26d34b19f1e0b0596c52c3fa3956c5f8b1707b",
-    "node_id": "C_kwDOVd-iudoAKDNhMjZkMzRiMTlmMWUwYjA1OTZjNTJjM2ZhMzk1NmM1ZjhiMTcwN2I",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-11-19T10:45:23Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-11-19T10:45:23Z"
-      },
-      "message": "feat: remove connection failure toast (#51)",
-      "tree": {
-        "sha": "c99e1e72876226509fd9e58272d4c15bb63e6b80",
-        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/c99e1e72876226509fd9e58272d4c15bb63e6b80"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/3a26d34b19f1e0b0596c52c3fa3956c5f8b1707b",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq/tNDCRC1aQ7uu5UhlAAAVSkQACoqZXRLrejVRzSbXnMJbbWv\n1X7AMYMGFNX720Axi1ITrxPJqP8kwFqfkW0/TkSJHVYvG6Nb6vfeoWLvQywEUHwv\nDDx9eraEPivLLnt8rbnfG6Z8H6gE9FLJrjYavcgFfeXA4+xgv0OlemqG+SgbnicS\nyJjPL6wKxXhayR3riXQBWQ8h2rzzjVXF9qOahXN/Qd8hMayu8ZzNhCNFPbtXgFrz\no60zB07n+cCAxFNTSLjhQhByoY70FGU2lw8BnorDr4wqrxAh8I3/r3PVJK9N8HX9\nXYkhb2VfuOCWWsUM84RaJlpIOP1MRGHqjgdApj9qVt08p8Fx0mpCA6NRiDkSxPd9\nbdwq/7u50XgBeGVvXApb4sjsoIDTHg4dNCN23/ZP/6D6eGRVBpq7duCtE5NVsQ+z\nqVoptujQY6rpctfxOe/pSzeL4TYqXBlfiBhziQt9h6jmv49SJi4e1m7DgLM1fZJ1\n4qnH5ikyCLhmH841ltnoL77LFmXY3oJKBc506VAPrrb1IqS64O/gbNbmZVleC7NL\nCtQvj4+/PXCNPUjJj9uniF7dBlVE2CQl4UYBKpAS/JpWns1H4mUWwj82XeG6OhCs\n9GciqtO3KdUfV6yUcMOF15tlNvqQcOWvhymsq5rlJ9oQDm0ZSRUIUoYwyoNZirhn\nhPaOx7vRCo/nJwZ5SBGW\n=G2q8\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree c99e1e72876226509fd9e58272d4c15bb63e6b80\nparent 571f74382784a54b54c5b1dbc61aa1f94bce7353\nauthor Mark Jerwin <git@jrwnnnn.me> 1795085123 +0800\ncommitter GitHub <noreply@github.com> 1795085123 +0800\n\nfeat: remove connection failure toast (#51)",
-        "verified_at": "2026-11-19T10:45:24Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/3a26d34b19f1e0b0596c52c3fa3956c5f8b1707b",
-    "html_url": "https://github.com/jrwnnnn/zipo/commit/3a26d34b19f1e0b0596c52c3fa3956c5f8b1707b",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/3a26d34b19f1e0b0596c52c3fa3956c5f8b1707b/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "571f74382784a54b54c5b1dbc61aa1f94bce7353",
-        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/571f74382784a54b54c5b1dbc61aa1f94bce7353",
-        "html_url": "https://github.com/jrwnnnn/zipo/commit/571f74382784a54b54c5b1dbc61aa1f94bce7353"
-      }
-    ],
-    "stats": {
-      "total": 4,
-      "additions": 0,
-      "deletions": 4
-    },
-    "files": [
-      {
-        "sha": "ac550dc8156d8850807217c811ab0c2056e3f571",
-        "filename": "src/stores/connectivity.ts",
-        "status": "modified",
-        "additions": 0,
-        "deletions": 4,
-        "changes": 4,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/3a26d34b19f1e0b0596c52c3fa3956c5f8b1707b/src%2Fstores%2Fconnectivity.ts",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/3a26d34b19f1e0b0596c52c3fa3956c5f8b1707b/src%2Fstores%2Fconnectivity.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fstores%2Fconnectivity.ts?ref=3a26d34b19f1e0b0596c52c3fa3956c5f8b1707b",
-        "patch": "@@ -42,10 +42,6 @@ export const useConnectivityStore = defineStore(\"connectivity\", () => {\n \t\t\t\t\t\tstate.value = \"idle\";\n \n \t\t\t\t\t\tconsole.error(\"Connection failed:\", error);\n-\t\t\t\t\t\tawait Toast.show({\n-\t\t\t\t\t\t\ttext: `Can't connect to ${esp.value?.deviceId}`,\n-\t\t\t\t\t\t\tduration: \"long\",\n-\t\t\t\t\t\t});\n \t\t\t\t\t}\n \t\t\t\t},\n \t\t\t);"
-      }
-    ]
-  },
-  {
-    "sha": "571f74382784a54b54c5b1dbc61aa1f94bce7353",
-    "node_id": "C_kwDOVd-iudoAKDU3MWY3NDM4Mjc4NGE1NGI1NGM1YjFkYmM2MWFhMWY5NGJjZTczNTM",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-11-19T09:17:08Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-11-19T09:17:08Z"
-      },
-      "message": "refactor: rename connectivity store id (#50)",
-      "tree": {
-        "sha": "64c018a160cb173b4a1ebeac12ba96b9d76379a6",
-        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/64c018a160cb173b4a1ebeac12ba96b9d76379a6"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/571f74382784a54b54c5b1dbc61aa1f94bce7353",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq/r6UCRC1aQ7uu5UhlAAAna8QAAwpLmvUPmkzWnX0UC7Welzf\nvVeZ+s4TQdTpzUoA/WJepFfwpnqpNuYVn1vmdAvV6OOan1t2JtS4Eupxh528wFs0\nMWKefKgMq1Gb4/4KxOve5Hhr/rb+c/rUN94lScVovUrb2I5KvWrH0OkQPU1Qn8kA\nHF+Lgx+AtrPjJQ4fEHtN69EHp3aQXBJYMJpdD7Bh2RIQm1RuKLK1r/8zTFjuEObo\n5jbFD1wMEcrqQFuHIMejy3A2yp/gTBDcEW/Oq/5JL3CNklUen97om67IcxKZGBxR\ncHkt4QbNPYL+lc6AD15K7V8jxBYRn1NrdytbBYa9i/Wzw8bxmp/yqsDVFBe09AE8\nPwyDuqJk2H2yYKnf/QzY7GAiaTP5eWUfAcYtw1CcmW9v1n9sjjLfk9QWIB1KoZ3D\nl82eH/9ipwJ8gQGV8MHjp0UgHM2l1ESJ1a4+Z/cGOc5uRkVl+ZTcQ0l2N1ESC8YU\nKjeb1/o6BbXw9HS4jey4Kr/v+dRnKdw/sRf5/pdycVZKcl9wtvv02O5fCGTswoo4\nP9Cmzzh5zSwWVDadprnlinV1Yx6AI7y5msGcxW0UTrqWbQO1kPm5QwLn00AxoWWK\nYUslV8OecTJ2VKKeWuVyE0atPmlT+x2Za8t7o3C6YSjUMs+YJZbNTC7HKtjenhbR\nvlI751vjjFCvrxRC7/NV\n=kyc6\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 64c018a160cb173b4a1ebeac12ba96b9d76379a6\nparent 399faf8794b37b5c496ebe03359a6077b55f9b06\nauthor Mark Jerwin <git@jrwnnnn.me> 1795079828 +0800\ncommitter GitHub <noreply@github.com> 1795079828 +0800\n\nrefactor: rename connectivity store id (#50)",
-        "verified_at": "2026-11-19T09:17:08Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/571f74382784a54b54c5b1dbc61aa1f94bce7353",
-    "html_url": "https://github.com/jrwnnnn/zipo/commit/571f74382784a54b54c5b1dbc61aa1f94bce7353",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/571f74382784a54b54c5b1dbc61aa1f94bce7353/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "399faf8794b37b5c496ebe03359a6077b55f9b06",
-        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/399faf8794b37b5c496ebe03359a6077b55f9b06",
-        "html_url": "https://github.com/jrwnnnn/zipo/commit/399faf8794b37b5c496ebe03359a6077b55f9b06"
-      }
-    ],
-    "stats": {
-      "total": 2,
-      "additions": 1,
-      "deletions": 1
-    },
-    "files": [
-      {
-        "sha": "74f73626dba26571a8566cd3c2f189465acf0e49",
-        "filename": "src/stores/connectivity.ts",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/571f74382784a54b54c5b1dbc61aa1f94bce7353/src%2Fstores%2Fconnectivity.ts",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/571f74382784a54b54c5b1dbc61aa1f94bce7353/src%2Fstores%2Fconnectivity.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fstores%2Fconnectivity.ts?ref=571f74382784a54b54c5b1dbc61aa1f94bce7353",
-        "patch": "@@ -8,7 +8,7 @@ import { txListen } from \"@/services/characteristics\";\n import { SERVICE_UUID } from \"@/services/uuids\";\n \n const activityLog = useActivityLog();\n-export const useConnectivityStore = defineStore(\"zipo\", () => {\n+export const useConnectivityStore = defineStore(\"connectivity\", () => {\n \tconst state = ref<\"connected\" | \"connecting\" | \"idle\">(\"idle\");\n \tconst esp = ref<BleDevice | null>(null);\n "
-      }
-    ]
-  },
-  {
-    "sha": "399faf8794b37b5c496ebe03359a6077b55f9b06",
-    "node_id": "C_kwDOVd-iudoAKDM5OWZhZjg3OTRiMzdiNWM0OTZlYmUwMzM1OWE2MDc3YjU1ZjliMDY",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-11-19T08:48:59Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-11-19T08:48:59Z"
-      },
-      "message": "fix: handle BLE restore connection errors (#49)",
-      "tree": {
-        "sha": "55c2ce9423d13b9a32f07675fee28450be84661e",
-        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/55c2ce9423d13b9a32f07675fee28450be84661e"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/399faf8794b37b5c496ebe03359a6077b55f9b06",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq/rf7CRC1aQ7uu5UhlAAAhzUQAG9qUPJYar+6oZUXnLRz0HQT\nuFdplC18W8hihbj7F0+Ub3t5K5ELBGP907bn4SrdjsnUAG+cw0UtDJirXOw+OHGl\nL3Ue4MuMwp69pSLq2sCV/v6eyl2Cz5Z6UFkBvDZks8JbBIFTHFeGIy9Z7FzbbZgQ\nwAll4aISebYGpaPx7pvPjcbRxqNuJz2EG+FgSx5/CjJ4uyvK8oxhEvf3PJPAB03b\n2VnAl3j5tUD9OF+ZkBMl0eBPNZkF72Hw4H9XbiCdflc+ty35FfdrxA8QOJUVO4x4\ns0WbenNKVkX8TuXy5WPW2u/6d7OCAJsdUyHySqnxr1lazwzT3/lZtDO3WegeDzYf\nKqUc0jCypevDZCTsIM6awVIhBX96NmZngnlNVw4sj2XsB939cKXVgknEQnwfrPlN\nL8mMLgfcl/0BlK9Ir/qWhFHq0wELy8cxPi8vgaD9s/sC+z67d8lB5zpigl8DcbxV\niRb9KgFw3oyPMhs66ey4EuDYclCHnIte1ujaxsIs2OCV5tRmtLG+SREwDjQjbscO\nNB9A3zVzY1APVCfaKLsFaszcVenS85xigGbiHmY15YXtlgjOv+Fd91U/KletdLjO\nvZq/Ht1QizswFx5sAa4e61O0fxJqoruTQ8MraCMFv+e2udzMWbip44BlMz4ye9Cx\nrWiECWfsj2xJ1WjaEcQr\n=k/l2\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 55c2ce9423d13b9a32f07675fee28450be84661e\nparent ecdffd34bdd46a99a658cc463bf232e85763ec12\nauthor Mark Jerwin <git@jrwnnnn.me> 1795078139 +0800\ncommitter GitHub <noreply@github.com> 1795078139 +0800\n\nfix: handle BLE restore connection errors (#49)",
-        "verified_at": "2026-11-19T08:49:00Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/399faf8794b37b5c496ebe03359a6077b55f9b06",
-    "html_url": "https://github.com/jrwnnnn/zipo/commit/399faf8794b37b5c496ebe03359a6077b55f9b06",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/399faf8794b37b5c496ebe03359a6077b55f9b06/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "ecdffd34bdd46a99a658cc463bf232e85763ec12",
-        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/ecdffd34bdd46a99a658cc463bf232e85763ec12",
-        "html_url": "https://github.com/jrwnnnn/zipo/commit/ecdffd34bdd46a99a658cc463bf232e85763ec12"
-      }
-    ],
-    "stats": {
-      "total": 26,
-      "additions": 15,
-      "deletions": 11
-    },
-    "files": [
-      {
-        "sha": "2c11dcba8b5af7cc908ff98035fe96651d341e3b",
-        "filename": "src/stores/connectivity.ts",
-        "status": "modified",
-        "additions": 15,
-        "deletions": 11,
-        "changes": 26,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/399faf8794b37b5c496ebe03359a6077b55f9b06/src%2Fstores%2Fconnectivity.ts",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/399faf8794b37b5c496ebe03359a6077b55f9b06/src%2Fstores%2Fconnectivity.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fstores%2Fconnectivity.ts?ref=399faf8794b37b5c496ebe03359a6077b55f9b06",
-        "patch": "@@ -76,21 +76,25 @@ export const useConnectivityStore = defineStore(\"zipo\", () => {\n \t}\n \n \tasync function restore() {\n-\t\tawait BleClient.initialize();\n-\t\tconst d = (await BleClient.getConnectedDevices([SERVICE_UUID])).find(\n-\t\t\t(d) => d.name === \"Zipo\",\n-\t\t);\n-\t\tif (!d) return false;\n+\t\ttry {\n+\t\t\tawait BleClient.initialize();\n+\t\t\tconst d = (await BleClient.getConnectedDevices([SERVICE_UUID])).find(\n+\t\t\t\t(d) => d.name === \"Zipo\",\n+\t\t\t);\n+\t\t\tif (!d) return false;\n \n-\t\tstate.value = \"connecting\";\n+\t\t\tstate.value = \"connecting\";\n \n-\t\tawait BleClient.connect(d.deviceId, onDisconnect);\n-\t\tawait txListen(d.deviceId);\n+\t\t\tawait BleClient.connect(d.deviceId, onDisconnect);\n+\t\t\tawait txListen(d.deviceId);\n \n-\t\tesp.value = { deviceId: d.deviceId, name: d.name };\n-\t\tstate.value = \"connected\";\n+\t\t\tesp.value = { deviceId: d.deviceId, name: d.name };\n+\t\t\tstate.value = \"connected\";\n \n-\t\tconsole.log(\"Connected to \", esp.value.deviceId);\n+\t\t\tconsole.log(\"Connected to \", esp.value.deviceId);\n+\t\t} catch (error) {\n+\t\t\tconsole.error(\"Connection failed:\", error);\n+\t\t}\n \t}\n \n \tfunction onDisconnect(id: string) {"
       }
     ]
   }
