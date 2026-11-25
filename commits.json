@@ -1,5 +1,474 @@
 [
   {
+    "sha": "6542066dc03d6eae98aa25ee4ce45f972820f814",
+    "node_id": "C_kwDOVd-iudoAKDY1NDIwNjZkYzAzZDZlYWU5OGFhMjVlZTRjZTQ1Zjk3MjgyMGY4MTQ",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-11-25T17:34:09Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-11-25T17:34:09Z"
+      },
+      "message": "feat: log arm/disarm events (#76)\n\nCo-authored-by: Ame <166330494+AmeIgarashi@users.noreply.github.com>",
+      "tree": {
+        "sha": "50b78811a51034bf7986187708f274c92dba6096",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/50b78811a51034bf7986187708f274c92dba6096"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/6542066dc03d6eae98aa25ee4ce45f972820f814",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJrBxwRCRC1aQ7uu5UhlAAAZjcQAGp3iAZKqWVhXfjDHhqYTbXO\nbAxz3Lk5qgEWCwSkFMTm+eyKqBElAbwgods/uQB7ZyosCwaZsdnCXL4IR7kUaMkh\nAtj0wq2w+PhPgaAzmi0CH1jpXTxc5m1emo9ekfHazGbE4VHHwhA68sR7vj3wFcyv\n1t+PGIBFTDOv3Sa+0iKiDR2N7ZryFpkSCgsX/ab5m1dmrn11qgaBf8lSPn+QR62Z\n1KRb69fInMuXWmxhA/p4vo1u2p2dj+1JSMmc3c/5HpIDcoNCazXCrq4tVrdEJ/G5\noJxQl28iePkJZEdf7CRpnGVoFB55CgMSEiv2VerR704rJG8kGq8dWLCBo5G75qbr\ns/WY0LKdYrvpTXmEYfsXsv2KD6H1DqMWMejhgfMoP5DDOYUEY7/TH+wZfd4lfidh\nyxaUJIdPdjjP38r1TVMyCa7kBkOK5381fhucXiRg8Xvf/9+2MdbrCBvZusLJDTDv\nrc3YG/CNyXtkDAWwSDN74XrydO2rPQDs2DCYPmOzpsk9hfTWiGoQRxvW+FnXjL2U\nl6SmtNV/Fhbng6IrlxH69H34kjNaesolVV2xzZm9F0w7wUafnxHUda9Kqf+e4Hil\nPmQv8UC4y5KiY+Kc+QjtltpfNcKuQBSEmDxsFlueC/LcVSLEOhrUmwzh1d5PrJ7t\nWkoRwT9hxrQpZsJKkLHi\n=zppd\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 50b78811a51034bf7986187708f274c92dba6096\nparent 7a5ef9fa5bea1e7354fc35eebc3f7e52b964f60b\nauthor Mark Jerwin <git@jrwnnnn.me> 1795628049 +0800\ncommitter GitHub <noreply@github.com> 1795628049 +0800\n\nfeat: log arm/disarm events (#76)\n\nCo-authored-by: Ame <166330494+AmeIgarashi@users.noreply.github.com>",
+        "verified_at": "2026-11-25T17:34:09Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/6542066dc03d6eae98aa25ee4ce45f972820f814",
+    "html_url": "https://github.com/jrwnnnn/zipo/commit/6542066dc03d6eae98aa25ee4ce45f972820f814",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/6542066dc03d6eae98aa25ee4ce45f972820f814/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7a5ef9fa5bea1e7354fc35eebc3f7e52b964f60b",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/7a5ef9fa5bea1e7354fc35eebc3f7e52b964f60b",
+        "html_url": "https://github.com/jrwnnnn/zipo/commit/7a5ef9fa5bea1e7354fc35eebc3f7e52b964f60b"
+      }
+    ],
+    "stats": {
+      "total": 17,
+      "additions": 17,
+      "deletions": 0
+    },
+    "files": [
+      {
+        "sha": "015633ca801e702536d5b60f1d1588072f8927d7",
+        "filename": "src/assets/ui/armed-icon.png",
+        "status": "added",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/6542066dc03d6eae98aa25ee4ce45f972820f814/src%2Fassets%2Fui%2Farmed-icon.png",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/6542066dc03d6eae98aa25ee4ce45f972820f814/src%2Fassets%2Fui%2Farmed-icon.png",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fassets%2Fui%2Farmed-icon.png?ref=6542066dc03d6eae98aa25ee4ce45f972820f814"
+      },
+      {
+        "sha": "d8bf10bec5df4eb6ca4b1d7b5ffcf5bff0215ec7",
+        "filename": "src/assets/ui/disarmed-icon.png",
+        "status": "added",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/6542066dc03d6eae98aa25ee4ce45f972820f814/src%2Fassets%2Fui%2Fdisarmed-icon.png",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/6542066dc03d6eae98aa25ee4ce45f972820f814/src%2Fassets%2Fui%2Fdisarmed-icon.png",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fassets%2Fui%2Fdisarmed-icon.png?ref=6542066dc03d6eae98aa25ee4ce45f972820f814"
+      },
+      {
+        "sha": "72f818c9e0c3fc80bd26b94138f93d9b832dbdfc",
+        "filename": "src/components/ActivityLog.vue",
+        "status": "modified",
+        "additions": 4,
+        "deletions": 0,
+        "changes": 4,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/6542066dc03d6eae98aa25ee4ce45f972820f814/src%2Fcomponents%2FActivityLog.vue",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/6542066dc03d6eae98aa25ee4ce45f972820f814/src%2Fcomponents%2FActivityLog.vue",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fcomponents%2FActivityLog.vue?ref=6542066dc03d6eae98aa25ee4ce45f972820f814",
+        "patch": "@@ -4,6 +4,8 @@ import { activityLog } from \"@/stores/activityLog\";\n import connectIcon from \"@/assets/ui/connect-icon.png\";\n import disconnectIcon from \"@/assets/ui/disconnect-icon.png\";\n import warningIcon from \"@/assets/ui/warning-icon.png\";\n+import armedIcon from \"@/assets/ui/armed-icon.png\";\n+import disarmedIcon from \"@/assets/ui/disarmed-icon.png\";\n </script>\n \n <template>\n@@ -23,6 +25,8 @@ import warningIcon from \"@/assets/ui/warning-icon.png\";\n \t\t\t\t\t\t\ttriggered: warningIcon,\n \t\t\t\t\t\t\tconnected: connectIcon,\n \t\t\t\t\t\t\tdisconnected: disconnectIcon,\n+\t\t\t\t\t\t\tarmed: armedIcon,\n+\t\t\t\t\t\t\tdisarmed: disarmedIcon,\n \t\t\t\t\t\t}[activity.type]\n \t\t\t\t\t\"\n \t\t\t\t\tclass=\"aspect-square w-6\""
+      },
+      {
+        "sha": "1f010d3914a22eba09742deec91d10f07d6fbb28",
+        "filename": "src/stores/activityLog.ts",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 0,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/6542066dc03d6eae98aa25ee4ce45f972820f814/src%2Fstores%2FactivityLog.ts",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/6542066dc03d6eae98aa25ee4ce45f972820f814/src%2Fstores%2FactivityLog.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fstores%2FactivityLog.ts?ref=6542066dc03d6eae98aa25ee4ce45f972820f814",
+        "patch": "@@ -17,6 +17,8 @@ const LABELS = {\n \ttriggered: \"Compromised\",\n \tconnected: \"Connected\",\n \tdisconnected: \"Disconnected\",\n+\tarmed: \"Armed\",\n+\tdisarmed: \"Disarmed\",\n };\n \n export const activityLog = {"
+      },
+      {
+        "sha": "24fea8fde09cb18e4d5fa4fd2d117d4f3983e8ad",
+        "filename": "src/stores/zipo.ts",
+        "status": "modified",
+        "additions": 7,
+        "deletions": 0,
+        "changes": 7,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/6542066dc03d6eae98aa25ee4ce45f972820f814/src%2Fstores%2Fzipo.ts",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/6542066dc03d6eae98aa25ee4ce45f972820f814/src%2Fstores%2Fzipo.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fstores%2Fzipo.ts?ref=6542066dc03d6eae98aa25ee4ce45f972820f814",
+        "patch": "@@ -2,12 +2,14 @@ import { defineStore } from \"pinia\";\n import { ref } from \"vue\";\n \n import { characteristics } from \"@/services/characteristics\";\n+import { activityLog } from \"@/stores/activityLog\";\n \n export const useZipoStore = defineStore(\"zipo\", () => {\n \tconst isArmed = ref(false);\n \n \t/**\n \t * Arms the connected Zipo.\n+\t * Creates an \"armed\" activity entry in the activity log.\n \t *\n \t * @returns `true` if the command is sent successfully; otherwise, `false`.\n \t */\n@@ -16,12 +18,15 @@ export const useZipoStore = defineStore(\"zipo\", () => {\n \n \t\tif (!success) return false;\n \n+\t\tactivityLog.addActivity(\"armed\");\n+\n \t\tisArmed.value = true;\n \t\treturn true;\n \t}\n \n \t/**\n \t * Disarms the connected Zipo.\n+\t * Creates a \"disarmed\" activity entry in the activity log.\n \t *\n \t * @returns `true` if the command is sent successfully; otherwise, `false`.\n \t */\n@@ -30,6 +35,8 @@ export const useZipoStore = defineStore(\"zipo\", () => {\n \n \t\tif (!success) return false;\n \n+\t\tactivityLog.addActivity(\"disarmed\");\n+\n \t\tisArmed.value = false;\n \t\treturn true;\n \t}"
+      },
+      {
+        "sha": "502a5d27b9a0c758fa4481a3a7c3003a4d7e0c20",
+        "filename": "src/views/ActivitySummary.vue",
+        "status": "modified",
+        "additions": 4,
+        "deletions": 0,
+        "changes": 4,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/6542066dc03d6eae98aa25ee4ce45f972820f814/src%2Fviews%2FActivitySummary.vue",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/6542066dc03d6eae98aa25ee4ce45f972820f814/src%2Fviews%2FActivitySummary.vue",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fviews%2FActivitySummary.vue?ref=6542066dc03d6eae98aa25ee4ce45f972820f814",
+        "patch": "@@ -13,6 +13,8 @@ import connectIcon from \"@/assets/ui/connect-icon.png\";\n import disconnectIcon from \"@/assets/ui/disconnect-icon.png\";\n import warningIcon from \"@/assets/ui/warning-icon.png\";\n import { InAppBrowser } from \"@capacitor/inappbrowser\";\n+import armedIcon from \"@/assets/ui/armed-icon.png\";\n+import disarmedIcon from \"@/assets/ui/disarmed-icon.png\";\n \n const route = useRoute();\n \n@@ -50,6 +52,8 @@ const mapsUrl = geolocation\n \t\t\t\t\t\t\t\ttriggered: warningIcon,\n \t\t\t\t\t\t\t\tconnected: connectIcon,\n \t\t\t\t\t\t\t\tdisconnected: disconnectIcon,\n+\t\t\t\t\t\t\t\tarmed: armedIcon,\n+\t\t\t\t\t\t\t\tdisarmed: disarmedIcon,\n \t\t\t\t\t\t\t}[activity.type]\n \t\t\t\t\t\t\"\n \t\t\t\t\t\tclass=\"w-15\""
+      }
+    ]
+  },
+  {
+    "sha": "7a5ef9fa5bea1e7354fc35eebc3f7e52b964f60b",
+    "node_id": "C_kwDOVd-iudoAKDdhNWVmOWZhNWJlYTFlNzM1NGZjMzVlZWJjM2Y3ZTUyYjk2NGY2MGI",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-11-25T16:37:43Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-11-25T16:37:43Z"
+      },
+      "message": "feat: add dot matrix (#75)\n\n* feat: add dot matrix\n\n* feat: update connectivity and arming controls",
+      "tree": {
+        "sha": "f004a5fb95675e66bb18b10d9cfd57b922cc706f",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/f004a5fb95675e66bb18b10d9cfd57b922cc706f"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/7a5ef9fa5bea1e7354fc35eebc3f7e52b964f60b",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJrBw7XCRC1aQ7uu5UhlAAAhyAQAEJZZ9o5qQko5Uzkc7iiVD8x\n3mfPjpI6kkW7th9+KmYNwWDP05A+GslsJBfSISPUdWSO1Xh08IjkOdS9rUa1BCcA\n8l7vPxKdvKfRQ/GMBhgZPT5zGzb2nmSVyPpnJNTDjqhtC2iLBIu34fOaF+T/vZc0\ni5A4NjgwFURxIRT0BTdFDa7G+Xgo+LFvD5Hp6hktH65rjFm3zHdDvgtgvXSgGJlY\nvivD4KFgwHGzpWhIVbeyZsczTJ7ma5I6QcJak8YH/EwfXLWJVz8dzNhxB9oGyUSY\nxDndq0dUzQaEA6vI5b297BlUk4+kR5Fh4kUuEnPk8HTp2fJO80FcQ/0XadqFS4Sh\nGjMrA2GTRRWWY8EeSWiaeCnUqR+LuovbWTh6ffzrme3ISNzhKyhv6vButgv6NH4+\nfnTxnBMePAmqHdVGbLVxWgvi0VGq2CJK3lirA3TI2CsWDBEqGRawP1iupp6HjOzt\n7bn9VAxe7Wo3JAOLXDXVK2el+qEcX1sc1KuDyOmW2eqDKAhzvZVShgnKj5EjMkTl\nBCfShSi++nUhLNzu2vyKjXThHe61jIYRqXb+pPIGLpQvjaIRz9/0gbRvTa3qNyAQ\nNibwZAhNWy5RpPzVC3vEIF3VMOQ/IAQCXnDRujRcTk7VUpKQFcKezEXTg1LskIP9\nhd+/tpl7NuHOeeuBxUse\n=upZK\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree f004a5fb95675e66bb18b10d9cfd57b922cc706f\nparent ae3fad224f83535ff6f1c2bf3f4b2c3fda97090c\nauthor Mark Jerwin <git@jrwnnnn.me> 1795624663 +0800\ncommitter GitHub <noreply@github.com> 1795624663 +0800\n\nfeat: add dot matrix (#75)\n\n* feat: add dot matrix\n\n* feat: update connectivity and arming controls",
+        "verified_at": "2026-11-25T16:37:44Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/7a5ef9fa5bea1e7354fc35eebc3f7e52b964f60b",
+    "html_url": "https://github.com/jrwnnnn/zipo/commit/7a5ef9fa5bea1e7354fc35eebc3f7e52b964f60b",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/7a5ef9fa5bea1e7354fc35eebc3f7e52b964f60b/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ae3fad224f83535ff6f1c2bf3f4b2c3fda97090c",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/ae3fad224f83535ff6f1c2bf3f4b2c3fda97090c",
+        "html_url": "https://github.com/jrwnnnn/zipo/commit/ae3fad224f83535ff6f1c2bf3f4b2c3fda97090c"
+      }
+    ],
+    "stats": {
+      "total": 407,
+      "additions": 258,
+      "deletions": 149
+    },
+    "files": [
+      {
+        "sha": "93e8c9be45ee55fb8a208ea1496121578de19957",
+        "filename": "src/components/ArmStatusControl.vue",
+        "status": "removed",
+        "additions": 0,
+        "deletions": 100,
+        "changes": 100,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/ae3fad224f83535ff6f1c2bf3f4b2c3fda97090c/src%2Fcomponents%2FArmStatusControl.vue",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/ae3fad224f83535ff6f1c2bf3f4b2c3fda97090c/src%2Fcomponents%2FArmStatusControl.vue",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fcomponents%2FArmStatusControl.vue?ref=ae3fad224f83535ff6f1c2bf3f4b2c3fda97090c",
+        "patch": "@@ -1,100 +0,0 @@\n-<script setup lang=\"ts\">\n-import { computed } from \"vue\";\n-import { useZipoStore } from \"@/stores/zipo\";\n-\n-const zipo = useZipoStore();\n-\n-const shape = [\n-\t\"001111100\",\n-\t\"011000110\",\n-\t\"110000011\",\n-\t\"110000011\",\n-\t\"110000011\",\n-\t\"111111111\",\n-\t\"111111111\",\n-\t\"110000011\",\n-\t\"110000011\",\n-\t\"110000011\",\n-\t\"111111111\",\n-\t\"111111111\",\n-];\n-\n-const shapeOut = [\n-\t\"001111100\",\n-\t\"011000110\",\n-\t\"110000011\",\n-\t\"100000011\",\n-\t\"000000011\",\n-\t\"000000011\",\n-\t\"111111111\",\n-\t\"111111111\",\n-\t\"110000011\",\n-\t\"110000011\",\n-\t\"110000011\",\n-\t\"111111111\",\n-\t\"111111111\",\n-];\n-\n-const currentShape = computed(() => (zipo.isArmed ? shape : shapeOut));\n-</script>\n-\n-<template>\n-\t<main>\n-\t\t<div\n-\t\t\tclass=\"flex aspect-square items-center justify-center rounded-full bg-white\"\n-\t\t>\n-\t\t\t<button\n-\t\t\t\t@click=\"zipo.arm()\"\n-\t\t\t\tclass=\"bg-primary relative flex h-3/4 w-3/4 items-center justify-center rounded-full\"\n-\t\t\t>\n-\t\t\t\t<Transition name=\"fade\" mode=\"out-in\">\n-\t\t\t\t\t<div\n-\t\t\t\t\t\t:key=\"zipo.isArmed ? 'armed' : 'unarmed'\"\n-\t\t\t\t\t\tclass=\"absolute flex translate-y-0 flex-col items-center\"\n-\t\t\t\t\t>\n-\t\t\t\t\t\t<!-- Shape -->\n-\t\t\t\t\t\t<div class=\"grid grid-cols-9 gap-1\">\n-\t\t\t\t\t\t\t<template v-for=\"(row, y) in currentShape\" :key=\"y\">\n-\t\t\t\t\t\t\t\t<div\n-\t\t\t\t\t\t\t\t\tv-for=\"(dot, x) in row\"\n-\t\t\t\t\t\t\t\t\t:key=\"x\"\n-\t\t\t\t\t\t\t\t\tclass=\"h-1.5 w-1.5 rounded-full\"\n-\t\t\t\t\t\t\t\t\t:class=\"\n-\t\t\t\t\t\t\t\t\t\tdot === '1'\n-\t\t\t\t\t\t\t\t\t\t\t? zipo.isArmed\n-\t\t\t\t\t\t\t\t\t\t\t\t? 'bg-red-500'\n-\t\t\t\t\t\t\t\t\t\t\t\t: 'bg-black'\n-\t\t\t\t\t\t\t\t\t\t\t: 'bg-transparent'\n-\t\t\t\t\t\t\t\t\t\"\n-\t\t\t\t\t\t\t\t></div>\n-\t\t\t\t\t\t\t</template>\n-\t\t\t\t\t\t</div>\n-\n-\t\t\t\t\t\t<p\n-\t\t\t\t\t\t\tclass=\"mt-3 mb-0 font-[Geist] text-lg font-bold\"\n-\t\t\t\t\t\t\t:class=\"zipo.isArmed ? 'text-red-500' : 'text-black'\"\n-\t\t\t\t\t\t>\n-\t\t\t\t\t\t\t{{ zipo.isArmed ? \"Locked\" : \"Unlocked\" }}\n-\t\t\t\t\t\t</p>\n-\t\t\t\t\t</div>\n-\t\t\t\t</Transition>\n-\t\t\t\t<p>Lock</p>\n-\t\t\t</button>\n-\t\t</div>\n-\t</main>\n-</template>\n-\n-<style scoped>\n-.fade-enter-active {\n-\ttransition: opacity 0.3s ease;\n-}\n-\n-.fade-leave-active {\n-\ttransition: opacity 0.3s ease;\n-}\n-\n-.fade-enter-from,\n-.fade-leave-to {\n-\topacity: 0.4;\n-}\n-</style>"
+      },
+      {
+        "sha": "2d814ec60baa81d5023f3df668ff265835e47a6d",
+        "filename": "src/components/ConnectionStatus.vue",
+        "status": "removed",
+        "additions": 0,
+        "deletions": 44,
+        "changes": 44,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/ae3fad224f83535ff6f1c2bf3f4b2c3fda97090c/src%2Fcomponents%2FConnectionStatus.vue",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/ae3fad224f83535ff6f1c2bf3f4b2c3fda97090c/src%2Fcomponents%2FConnectionStatus.vue",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fcomponents%2FConnectionStatus.vue?ref=ae3fad224f83535ff6f1c2bf3f4b2c3fda97090c",
+        "patch": "@@ -1,44 +0,0 @@\n-<script setup lang=\"ts\">\n-import { useConnectivityStore } from \"@/stores/connectivity\";\n-\n-const connectivity = useConnectivityStore();\n-</script>\n-\n-<template>\n-\t<div class=\"my-20 flex flex-col items-center justify-center gap-5\">\n-\t\t<div\n-\t\t\tclass=\"flex w-full flex-col items-center justify-center gap-3\"\n-\t\t\t@click=\"\n-\t\t\t\tconnectivity.state == 'connected'\n-\t\t\t\t\t? connectivity.disconnect()\n-\t\t\t\t\t: connectivity.connect()\n-\t\t\t\"\n-\t\t>\n-\t\t\t<!--TODO: Replace this with 12x12 dot matrix icon or something else-->\n-\t\t\t<span\n-\t\t\t\tclass=\"aspect-square w-40\"\n-\t\t\t\t:class=\"connectivity.state == 'connected' ? 'bg-red-500' : 'bg-line'\"\n-\t\t\t>\n-\t\t\t</span>\n-\t\t\t<div class=\"text-center\">\n-\t\t\t\t<p\n-\t\t\t\t\tclass=\"font-[Geist] font-bold\"\n-\t\t\t\t\t:class=\"\n-\t\t\t\t\t\tconnectivity.state == 'connected' ? 'text-red-500' : 'text-muted'\n-\t\t\t\t\t\"\n-\t\t\t\t>\n-\t\t\t\t\t{{\n-\t\t\t\t\t\tconnectivity.state == \"connected\"\n-\t\t\t\t\t\t\t? \"Disconnect\"\n-\t\t\t\t\t\t\t: connectivity.state == \"idle\"\n-\t\t\t\t\t\t\t\t? \"Connect\"\n-\t\t\t\t\t\t\t\t: \"Connecting...\"\n-\t\t\t\t\t}}\n-\t\t\t\t</p>\n-\n-\t\t\t\t<p class=\"text-muted\">{{ connectivity.esp?.name || \"\" }}</p>\n-\t\t\t\t<p class=\"text-muted\">{{ connectivity.esp?.deviceId || \"\" }}</p>\n-\t\t\t</div>\n-\t\t</div>\n-\t</div>\n-</template>"
+      },
+      {
+        "sha": "8353c05275f6c2d0015cfffac2cc09a573879b33",
+        "filename": "src/components/DotMatrix.vue",
+        "status": "added",
+        "additions": 204,
+        "deletions": 0,
+        "changes": 204,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/7a5ef9fa5bea1e7354fc35eebc3f7e52b964f60b/src%2Fcomponents%2FDotMatrix.vue",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/7a5ef9fa5bea1e7354fc35eebc3f7e52b964f60b/src%2Fcomponents%2FDotMatrix.vue",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fcomponents%2FDotMatrix.vue?ref=7a5ef9fa5bea1e7354fc35eebc3f7e52b964f60b",
+        "patch": "@@ -0,0 +1,204 @@\n+<script setup lang=\"ts\">\n+import { ref, watch, computed } from \"vue\";\n+import { useIntervalFn } from \"@vueuse/core\";\n+import { useConnectivityStore } from \"@/stores/connectivity\";\n+import { useZipoStore } from \"@/stores/zipo\";\n+\n+const frames = [\n+\t[\n+\t\t\".............\",\n+\t\t\".............\",\n+\t\t\".............\",\n+\t\t\".............\",\n+\t\t\".............\",\n+\t\t\"......#......\",\n+\t\t\".....#.#.....\",\n+\t\t\"......#......\",\n+\t\t\".............\",\n+\t\t\".............\",\n+\t\t\".............\",\n+\t\t\".............\",\n+\t\t\".............\",\n+\t],\n+\t[\n+\t\t\".............\",\n+\t\t\".............\",\n+\t\t\".............\",\n+\t\t\".............\",\n+\t\t\".....#.#.....\",\n+\t\t\"....#...#....\",\n+\t\t\"....#.#.#....\",\n+\t\t\"....#...#....\",\n+\t\t\".....#.#.....\",\n+\t\t\".............\",\n+\t\t\".............\",\n+\t\t\".............\",\n+\t\t\".............\",\n+\t],\n+\t[\n+\t\t\".............\",\n+\t\t\".............\",\n+\t\t\".............\",\n+\t\t\"....#...#....\",\n+\t\t\"...#.....#...\",\n+\t\t\"...#..#..#...\",\n+\t\t\"...#.###.#...\",\n+\t\t\"...#..#..#...\",\n+\t\t\"...#.....#...\",\n+\t\t\"....#...#....\",\n+\t\t\".............\",\n+\t\t\".............\",\n+\t\t\".............\",\n+\t],\n+\t[\n+\t\t\".............\",\n+\t\t\".............\",\n+\t\t\"..#.......#..\",\n+\t\t\".#..#...#..#.\",\n+\t\t\"#..#.....#..#\",\n+\t\t\"#..#..#..#..#\",\n+\t\t\"#..#.###.#..#\",\n+\t\t\"#..#..#..#..#\",\n+\t\t\"#..#.....#..#\",\n+\t\t\".#..#...#..#.\",\n+\t\t\"..#.......#..\",\n+\t\t\".............\",\n+\t\t\".............\",\n+\t],\n+\t[\n+\t\t\".............\",\n+\t\t\"..#####......\",\n+\t\t\".#...........\",\n+\t\t\".#.####......\",\n+\t\t\".#.#.........\",\n+\t\t\".#.#.....#.#.\",\n+\t\t\".#.#..#..#.#.\",\n+\t\t\".#.#.....#.#.\",\n+\t\t\".........#.#.\",\n+\t\t\"......####.#.\",\n+\t\t\"...........#.\",\n+\t\t\"......#####..\",\n+\t\t\".............\",\n+\t],\n+\t[\n+\t\t\".............\",\n+\t\t\"..#########..\",\n+\t\t\".#.........#.\",\n+\t\t\".#.#######...\",\n+\t\t\".#.#.........\",\n+\t\t\".#.#.........\",\n+\t\t\".............\",\n+\t\t\".........#.#.\",\n+\t\t\".........#.#.\",\n+\t\t\"...#######.#.\",\n+\t\t\".#.........#.\",\n+\t\t\"..#########..\",\n+\t\t\".............\",\n+\t],\n+\t[\n+\t\t\".............\",\n+\t\t\"..#########..\",\n+\t\t\".#.........#.\",\n+\t\t\".#.#######.#.\",\n+\t\t\".#.#.....#.#.\",\n+\t\t\".............\",\n+\t\t\".............\",\n+\t\t\".............\",\n+\t\t\".#.#.....#.#.\",\n+\t\t\".#.#######.#.\",\n+\t\t\".#.........#.\",\n+\t\t\"..#########..\",\n+\t\t\".............\",\n+\t],\n+\t[\n+\t\t\".............\",\n+\t\t\"..#########..\",\n+\t\t\".#...........\",\n+\t\t\".#...#####...\",\n+\t\t\".#.......#...\",\n+\t\t\".#.#.....#.#.\",\n+\t\t\".#.#..#..#.#.\",\n+\t\t\".#.#.....#.#.\",\n+\t\t\"...#.......#.\",\n+\t\t\"...#####...#.\",\n+\t\t\"...........#.\",\n+\t\t\"..#########..\",\n+\t\t\".............\",\n+\t],\n+\t[\n+\t\t\".............\",\n+\t\t\"..######.....\",\n+\t\t\".#.........#.\",\n+\t\t\".#.##...##.#.\",\n+\t\t\".#.#.....#.#.\",\n+\t\t\".#.#.....#.#.\",\n+\t\t\".#.#..#..#.#.\",\n+\t\t\".#.#.....#.#.\",\n+\t\t\".#.#.....#.#.\",\n+\t\t\".#.##...##.#.\",\n+\t\t\".#.........#.\",\n+\t\t\".....######..\",\n+\t\t\".............\",\n+\t],\n+\t[\n+\t\t\".............\",\n+\t\t\"..###...###..\",\n+\t\t\".#.........#.\",\n+\t\t\".#.#####...#.\",\n+\t\t\".#.#.......#.\",\n+\t\t\".#.#..#..#.#.\",\n+\t\t\".#.#.###.#.#.\",\n+\t\t\".#.#..#..#.#.\",\n+\t\t\".#.......#.#.\",\n+\t\t\".#...#####.#.\",\n+\t\t\".#.........#.\",\n+\t\t\"..###...###..\",\n+\t\t\".............\",\n+\t],\n+];\n+\n+const FRAME_IDLE = 0;\n+const FRAME_CONNECTING = 3;\n+const FRAME_UNARMED = 6;\n+const FRAME_ARMED = 9;\n+\n+const connectivity = useConnectivityStore();\n+const zipo = useZipoStore();\n+\n+const target = computed(() => {\n+\tif (connectivity.state === \"idle\") return FRAME_IDLE;\n+\tif (connectivity.state === \"connecting\") return FRAME_CONNECTING;\n+\tif (connectivity.state === \"connected\") {\n+\t\treturn zipo.isArmed ? FRAME_ARMED : FRAME_UNARMED;\n+\t}\n+\treturn 0;\n+});\n+\n+const frame = ref(0);\n+useIntervalFn(() => {\n+\tframe.value += Math.sign(target.value - frame.value);\n+}, 70);\n+\n+watch(\n+\t() => connectivity.state,\n+\t(state) => {\n+\t\tif (state !== \"connected\") zipo.isArmed = false;\n+\t},\n+);\n+</script>\n+\n+<template>\n+\t<div\n+\t\tclass=\"grid w-full gap-0.5 p-23\"\n+\t\t:style=\"{\n+\t\t\tgridTemplateColumns: `repeat(${frames[frame][0].length}, 1fr)`,\n+\t\t}\"\n+\t>\n+\t\t<span\n+\t\t\tv-for=\"(c, i) in frames[frame].join('')\"\n+\t\t\t:key=\"i\"\n+\t\t\tclass=\"aspect-square rounded-full\"\n+\t\t\t:class=\"c === '#' ? 'bg-white' : 'bg-transparent'\"\n+\t\t></span>\n+\t</div>\n+</template>"
+      },
+      {
+        "sha": "91fa2676fdb06f86318262eac8a3176d42a73a2a",
+        "filename": "src/components/ZipoControls.vue",
+        "status": "added",
+        "additions": 48,
+        "deletions": 0,
+        "changes": 48,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/7a5ef9fa5bea1e7354fc35eebc3f7e52b964f60b/src%2Fcomponents%2FZipoControls.vue",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/7a5ef9fa5bea1e7354fc35eebc3f7e52b964f60b/src%2Fcomponents%2FZipoControls.vue",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fcomponents%2FZipoControls.vue?ref=7a5ef9fa5bea1e7354fc35eebc3f7e52b964f60b",
+        "patch": "@@ -0,0 +1,48 @@\n+<script setup lang=\"ts\">\n+import { useConnectivityStore } from \"@/stores/connectivity\";\n+import { useZipoStore } from \"@/stores/zipo\";\n+\n+const connectivity = useConnectivityStore();\n+const zipo = useZipoStore();\n+\n+async function toggleConnectivity() {\n+\tif (connectivity.state === \"connecting\") return;\n+\tif (connectivity.state === \"connected\") await connectivity.disconnect();\n+\telse await connectivity.connect();\n+}\n+\n+async function toggleModes() {\n+\tif (!zipo.isArmed) await zipo.arm();\n+\telse await zipo.unarm();\n+}\n+</script>\n+\n+<template>\n+\t<div class=\"flex gap-2 font-[Geist]! font-bold\">\n+\t\t<button\n+\t\t\ttype=\"button\"\n+\t\t\tv-if=\"connectivity.state === 'connected'\"\n+\t\t\tclass=\"card w-full rounded-full!\"\n+\t\t\t:class=\"zipo.isArmed ? 'text-red-600' : ''\"\n+\t\t\t@click=\"toggleModes()\"\n+\t\t>\n+\t\t\t{{ zipo.isArmed ? \"Disarm\" : \"Arm\" }}\n+\t\t</button>\n+\n+\t\t<button\n+\t\t\ttype=\"button\"\n+\t\t\tclass=\"card rounded-full!\"\n+\t\t\t:class=\"connectivity.state === 'connected' ? 'bg-red-600!' : 'w-full'\"\n+\t\t\t:disabled=\"connectivity.state === 'connecting'\"\n+\t\t\t@click=\"toggleConnectivity()\"\n+\t\t>\n+\t\t\t{{\n+\t\t\t\t{\n+\t\t\t\t\tconnecting: \"Connecting...\",\n+\t\t\t\t\tconnected: \"Disconnect\",\n+\t\t\t\t\tidle: \"Connect\",\n+\t\t\t\t}[connectivity.state]\n+\t\t\t}}\n+\t\t</button>\n+\t</div>\n+</template>"
+      },
+      {
+        "sha": "d62d7e0192e5c0d80c43310e6c78db558429a4a4",
+        "filename": "src/views/HomePage.vue",
+        "status": "modified",
+        "additions": 6,
+        "deletions": 5,
+        "changes": 11,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/7a5ef9fa5bea1e7354fc35eebc3f7e52b964f60b/src%2Fviews%2FHomePage.vue",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/7a5ef9fa5bea1e7354fc35eebc3f7e52b964f60b/src%2Fviews%2FHomePage.vue",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fviews%2FHomePage.vue?ref=7a5ef9fa5bea1e7354fc35eebc3f7e52b964f60b",
+        "patch": "@@ -1,6 +1,7 @@\n <script setup lang=\"ts\">\n-import ConnectionStatus from \"@/components/ConnectionStatus.vue\";\n+import DotMatrix from \"@/components/DotMatrix.vue\";\n import RssiComponent from \"@/components/RssiComponent.vue\";\n+import ZipoControls from \"@/components/ZipoControls.vue\";\n import {\n \tIonContent,\n \tIonHeader,\n@@ -9,7 +10,6 @@ import {\n \tIonToolbar,\n } from \"@ionic/vue\";\n import ActivityLog from \"@/components/ActivityLog.vue\";\n-import ArmControls from \"@/components/ArmStatusControl.vue\";\n </script>\n \n <template>\n@@ -26,11 +26,12 @@ import ArmControls from \"@/components/ArmStatusControl.vue\";\n \t\t\t\t</ion-toolbar>\n \t\t\t</ion-header>\n \n-\t\t\t<main class=\"flex min-h-full flex-col gap-3\">\n-\t\t\t\t<ConnectionStatus />\n+\t\t\t<main class=\"flex min-h-full flex-col gap-2\">\n+\t\t\t\t<DotMatrix />\n \n+\t\t\t\t<ZipoControls />\n \t\t\t\t<section class=\"grid grid-cols-2 gap-2\">\n-\t\t\t\t\t<ArmControls />\n+\t\t\t\t\t<div class=\"card aspect-square\"></div>\n \t\t\t\t\t<RssiComponent />\n \t\t\t\t</section>\n "
+      }
+    ]
+  },
+  {
+    "sha": "ae3fad224f83535ff6f1c2bf3f4b2c3fda97090c",
+    "node_id": "C_kwDOVd-iudoAKGFlM2ZhZDIyNGY4MzUzNWZmNmYxYzJiZjNmNGIyYzNmZGE5NzA5MGM",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-11-25T16:01:38Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-11-25T16:01:38Z"
+      },
+      "message": "refactor: move arm state into the zipo store (#74)\n\n* refactor: move arm state into the Zipo store\n\n* docs: add documentations",
+      "tree": {
+        "sha": "c27f50cf7817758165270116219edfe32d815483",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/c27f50cf7817758165270116219edfe32d815483"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/ae3fad224f83535ff6f1c2bf3f4b2c3fda97090c",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJrBwZiCRC1aQ7uu5UhlAAAvtEQAABwJQsRkPdlnWwkc13iW6Cx\n5zvJCr1aYQaORm6Hz6ukNkhquvHGHM8kj98X5V2vrjJqD043mxEXlYsPx4M0DBAm\nZ8dL9qCZzLdZgmH6uRtK+PkVGLKinsYWY3c6G5zWbMQ2GvENXcbiPT121Pv/c0KF\nXxi5VgkrO2km7MKSDoo/QiQ25J6fRARbL3rQmAa3Ygbf0GsKkU28fppV3rqQqafE\ns5QMwOeZx1qjRBehcXLvf1a85VKuqrMBj54EPhgphSSqUQTAQRVSPq5+EP7GCfsi\niG0nxPDmvvDY1DIfm+yp9qg5wvt606pYGxE9bjiIyWMRMrlPpl7k9rsKEhvti3nv\naEsZDUbX4tO7jMl9lMH3sg/+uzcuGcfat0YzPr0iF2M9QV8PM4kQNtaOIyxcH8p9\nQgtJktFfZSDnaHbi6r9qhlT6MWmwvT3uupotaSwknow0C/xdyWG2yaK/RX7KrOe2\nV32xFwHPeMC68ThKBOB54fKVN5f/7dBMfC1vvXTX1lhAlug8Z5PY+cyVocjPtlUp\nuNJ+ZzckUfok98g0lICT4YzCXnpitbSUlA2XIqJa2qzNGYhYD7WM6+acTEE9QuG/\nGyeeetCQOzEiCIdSk71glnQ2HLb3Yt1WUmDb5C+RmCTfkL0jSo3BrJNPREZRPqPG\njI2GQXka6bF2J1DbbvQv\n=0M2/\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree c27f50cf7817758165270116219edfe32d815483\nparent be79f91bce56f30b0fb105ec23382f1ff2e1a722\nauthor Mark Jerwin <git@jrwnnnn.me> 1795622498 +0800\ncommitter GitHub <noreply@github.com> 1795622498 +0800\n\nrefactor: move arm state into the zipo store (#74)\n\n* refactor: move arm state into the Zipo store\n\n* docs: add documentations",
+        "verified_at": "2026-11-25T16:01:39Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/ae3fad224f83535ff6f1c2bf3f4b2c3fda97090c",
+    "html_url": "https://github.com/jrwnnnn/zipo/commit/ae3fad224f83535ff6f1c2bf3f4b2c3fda97090c",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/ae3fad224f83535ff6f1c2bf3f4b2c3fda97090c/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "be79f91bce56f30b0fb105ec23382f1ff2e1a722",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/be79f91bce56f30b0fb105ec23382f1ff2e1a722",
+        "html_url": "https://github.com/jrwnnnn/zipo/commit/be79f91bce56f30b0fb105ec23382f1ff2e1a722"
+      }
+    ],
+    "stats": {
+      "total": 139,
+      "additions": 76,
+      "deletions": 63
+    },
+    "files": [
+      {
+        "sha": "93e8c9be45ee55fb8a208ea1496121578de19957",
+        "filename": "src/components/ArmStatusControl.vue",
+        "status": "modified",
+        "additions": 8,
+        "deletions": 8,
+        "changes": 16,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/ae3fad224f83535ff6f1c2bf3f4b2c3fda97090c/src%2Fcomponents%2FArmStatusControl.vue",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/ae3fad224f83535ff6f1c2bf3f4b2c3fda97090c/src%2Fcomponents%2FArmStatusControl.vue",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fcomponents%2FArmStatusControl.vue?ref=ae3fad224f83535ff6f1c2bf3f4b2c3fda97090c",
+        "patch": "@@ -1,8 +1,8 @@\n <script setup lang=\"ts\">\n import { computed } from \"vue\";\n-import { armControls } from \"@/services/armState\";\n+import { useZipoStore } from \"@/stores/zipo\";\n \n-const isArmed = armControls.isArmed;\n+const zipo = useZipoStore();\n \n const shape = [\n \t\"001111100\",\n@@ -35,7 +35,7 @@ const shapeOut = [\n \t\"111111111\",\n ];\n \n-const currentShape = computed(() => (isArmed.value ? shape : shapeOut));\n+const currentShape = computed(() => (zipo.isArmed ? shape : shapeOut));\n </script>\n \n <template>\n@@ -44,12 +44,12 @@ const currentShape = computed(() => (isArmed.value ? shape : shapeOut));\n \t\t\tclass=\"flex aspect-square items-center justify-center rounded-full bg-white\"\n \t\t>\n \t\t\t<button\n-\t\t\t\t@click=\"armControls.toggleArmState()\"\n+\t\t\t\t@click=\"zipo.arm()\"\n \t\t\t\tclass=\"bg-primary relative flex h-3/4 w-3/4 items-center justify-center rounded-full\"\n \t\t\t>\n \t\t\t\t<Transition name=\"fade\" mode=\"out-in\">\n \t\t\t\t\t<div\n-\t\t\t\t\t\t:key=\"isArmed ? 'armed' : 'unarmed'\"\n+\t\t\t\t\t\t:key=\"zipo.isArmed ? 'armed' : 'unarmed'\"\n \t\t\t\t\t\tclass=\"absolute flex translate-y-0 flex-col items-center\"\n \t\t\t\t\t>\n \t\t\t\t\t\t<!-- Shape -->\n@@ -61,7 +61,7 @@ const currentShape = computed(() => (isArmed.value ? shape : shapeOut));\n \t\t\t\t\t\t\t\t\tclass=\"h-1.5 w-1.5 rounded-full\"\n \t\t\t\t\t\t\t\t\t:class=\"\n \t\t\t\t\t\t\t\t\t\tdot === '1'\n-\t\t\t\t\t\t\t\t\t\t\t? isArmed\n+\t\t\t\t\t\t\t\t\t\t\t? zipo.isArmed\n \t\t\t\t\t\t\t\t\t\t\t\t? 'bg-red-500'\n \t\t\t\t\t\t\t\t\t\t\t\t: 'bg-black'\n \t\t\t\t\t\t\t\t\t\t\t: 'bg-transparent'\n@@ -72,9 +72,9 @@ const currentShape = computed(() => (isArmed.value ? shape : shapeOut));\n \n \t\t\t\t\t\t<p\n \t\t\t\t\t\t\tclass=\"mt-3 mb-0 font-[Geist] text-lg font-bold\"\n-\t\t\t\t\t\t\t:class=\"isArmed ? 'text-red-500' : 'text-black'\"\n+\t\t\t\t\t\t\t:class=\"zipo.isArmed ? 'text-red-500' : 'text-black'\"\n \t\t\t\t\t\t>\n-\t\t\t\t\t\t\t{{ isArmed ? \"Locked\" : \"Unlocked\" }}\n+\t\t\t\t\t\t\t{{ zipo.isArmed ? \"Locked\" : \"Unlocked\" }}\n \t\t\t\t\t\t</p>\n \t\t\t\t\t</div>\n \t\t\t\t</Transition>"
+      },
+      {
+        "sha": "e8ef42e7dc992f56ac415ab57fd44d21bf25222f",
+        "filename": "src/services/armState.ts",
+        "status": "removed",
+        "additions": 0,
+        "deletions": 43,
+        "changes": 43,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/be79f91bce56f30b0fb105ec23382f1ff2e1a722/src%2Fservices%2FarmState.ts",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/be79f91bce56f30b0fb105ec23382f1ff2e1a722/src%2Fservices%2FarmState.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fservices%2FarmState.ts?ref=be79f91bce56f30b0fb105ec23382f1ff2e1a722",
+        "patch": "@@ -1,43 +0,0 @@\n-import { isArmed } from \"@/services/armStatus\";\n-import { characteristics } from \"@/services/characteristics\";\n-\n-/**\n- * Waits for BLE Write to send either true or false.\n- * Sends the appropriate protocol command and updates the local state\n- *\n- * @property isArmed - Reactive state indicating whether the device is armed.\n- */\n-\n-export const armControls = {\n-\tisArmed,\n-\n-\tasync armState(): Promise<boolean> {\n-\t\tconst success = await characteristics.rxSend(\"STATE.ARM\");\n-\n-\t\tif (!success) return false;\n-\n-\t\tisArmed.value = true;\n-\t\treturn true;\n-\t},\n-\n-\tasync unarmState(): Promise<boolean> {\n-\t\tconst success = await characteristics.rxSend(\"STATE.DISARM\");\n-\n-\t\tif (!success) return false;\n-\n-\t\tisArmed.value = false;\n-\t\treturn true;\n-\t},\n-\n-\tasync toggleArmState(): Promise<void> {\n-\t\tif (isArmed.value) {\n-\t\t\tawait this.unarmState();\n-\t\t} else {\n-\t\t\tawait this.armState();\n-\t\t}\n-\t},\n-\n-\tasync syncArmState(): Promise<boolean> {\n-\t\treturn await characteristics.rxSend(\"STATE.GET\");\n-\t},\n-};"
+      },
+      {
+        "sha": "ce41cf3ac437bd5243d710222c76a5db771d9014",
+        "filename": "src/services/armStatus.ts",
+        "status": "removed",
+        "additions": 0,
+        "deletions": 5,
+        "changes": 5,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/be79f91bce56f30b0fb105ec23382f1ff2e1a722/src%2Fservices%2FarmStatus.ts",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/be79f91bce56f30b0fb105ec23382f1ff2e1a722/src%2Fservices%2FarmStatus.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fservices%2FarmStatus.ts?ref=be79f91bce56f30b0fb105ec23382f1ff2e1a722",
+        "patch": "@@ -1,5 +0,0 @@\n-import { ref } from \"vue\";\n-\n-export const isArmed = ref(false);\n-\n-// This file is implemented to prevent dependencies and cycling in armState.ts"
+      },
+      {
+        "sha": "90c72dfb0f27685855497ea01c68fc50541cd4e8",
+        "filename": "src/services/txHandle.ts",
+        "status": "modified",
+        "additions": 5,
+        "deletions": 4,
+        "changes": 9,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/ae3fad224f83535ff6f1c2bf3f4b2c3fda97090c/src%2Fservices%2FtxHandle.ts",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/ae3fad224f83535ff6f1c2bf3f4b2c3fda97090c/src%2Fservices%2FtxHandle.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fservices%2FtxHandle.ts?ref=ae3fad224f83535ff6f1c2bf3f4b2c3fda97090c",
+        "patch": "@@ -1,25 +1,26 @@\n import { Haptics } from \"@capacitor/haptics\";\n \n-import { isArmed } from \"@/services/armStatus\";\n import { geolocation } from \"@/services/geolocation\";\n import { notifyLocal } from \"@/services/notifyLocal\";\n import { activityLog } from \"@/stores/activityLog\";\n+import { useZipoStore } from \"@/stores/zipo\";\n \n /**\n  * Processes a command received from the Zipo device.\n  *\n  * @param incoming - Command received from the BLE TX characteristic.\n  */\n-\n export async function txHandle(incoming: string): Promise<void> {\n+\tconst zipo = useZipoStore();\n+\n \tswitch (incoming) {\n \t\tcase \"STATE.ARMED\": {\n-\t\t\tisArmed.value = true;\n+\t\t\tzipo.isArmed = true;\n \t\t\tbreak;\n \t\t}\n \n \t\tcase \"STATE.DISARMED\": {\n-\t\t\tisArmed.value = false;\n+\t\t\tzipo.isArmed = false;\n \t\t\tbreak;\n \t\t}\n "
+      },
+      {
+        "sha": "8f3e5527759e8be00785a4b8b1cfb2783cb2b771",
+        "filename": "src/stores/connectivity.ts",
+        "status": "modified",
+        "additions": 5,
+        "deletions": 3,
+        "changes": 8,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/ae3fad224f83535ff6f1c2bf3f4b2c3fda97090c/src%2Fstores%2Fconnectivity.ts",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/ae3fad224f83535ff6f1c2bf3f4b2c3fda97090c/src%2Fstores%2Fconnectivity.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fstores%2Fconnectivity.ts?ref=ae3fad224f83535ff6f1c2bf3f4b2c3fda97090c",
+        "patch": "@@ -3,7 +3,8 @@ import { BleClient, type BleDevice } from \"@capacitor-community/bluetooth-le\";\n import { defineStore } from \"pinia\";\n import { ref } from \"vue\";\n \n-import { armControls } from \"@/services/armState\";\n+import { useZipoStore } from \"./zipo\";\n+\n import { characteristics } from \"@/services/characteristics\";\n import { keepAlive } from \"@/services/keepAlive\";\n import { SERVICE_UUID } from \"@/services/uuids\";\n@@ -12,6 +13,7 @@ import { activityLog } from \"@/stores/activityLog\";\n let timer: ReturnType<typeof setTimeout> | undefined;\n \n export const useConnectivityStore = defineStore(\"connectivity\", () => {\n+\tconst zipo = useZipoStore();\n \tconst state = ref<\"connected\" | \"connecting\" | \"idle\">(\"idle\");\n \tconst esp = ref<BleDevice | null>(null);\n \n@@ -37,7 +39,7 @@ export const useConnectivityStore = defineStore(\"connectivity\", () => {\n \n \t\t\t\t\t\tstate.value = \"connected\";\n \n-\t\t\t\t\t\tawait armControls.syncArmState();\n+\t\t\t\t\t\tawait zipo.sync();\n \t\t\t\t\t\tawait keepAlive.start();\n \n \t\t\t\t\t\tactivityLog.addActivity(\"connected\");\n@@ -91,7 +93,7 @@ export const useConnectivityStore = defineStore(\"connectivity\", () => {\n \t\t\tesp.value = { deviceId: d.deviceId, name: d.name };\n \t\t\tstate.value = \"connected\";\n \n-\t\t\tawait armControls.syncArmState();\n+\t\t\tawait zipo.sync();\n \t\t\tawait keepAlive.start();\n \n \t\t\tconsole.log(\"Restored connection to \", esp.value.deviceId);"
+      },
+      {
+        "sha": "7c86ddcc349560c4ec7c38b62539aaa96b3164f3",
+        "filename": "src/stores/zipo.ts",
+        "status": "added",
+        "additions": 58,
+        "deletions": 0,
+        "changes": 58,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/ae3fad224f83535ff6f1c2bf3f4b2c3fda97090c/src%2Fstores%2Fzipo.ts",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/ae3fad224f83535ff6f1c2bf3f4b2c3fda97090c/src%2Fstores%2Fzipo.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fstores%2Fzipo.ts?ref=ae3fad224f83535ff6f1c2bf3f4b2c3fda97090c",
+        "patch": "@@ -0,0 +1,58 @@\n+import { defineStore } from \"pinia\";\n+import { ref } from \"vue\";\n+\n+import { characteristics } from \"@/services/characteristics\";\n+\n+export const useZipoStore = defineStore(\"zipo\", () => {\n+\tconst isArmed = ref(false);\n+\n+\t/**\n+\t * Arms the connected Zipo.\n+\t *\n+\t * @returns `true` if the command is sent successfully; otherwise, `false`.\n+\t */\n+\tasync function arm(): Promise<boolean> {\n+\t\tconst success = await characteristics.rxSend(\"ARM\");\n+\n+\t\tif (!success) return false;\n+\n+\t\tisArmed.value = true;\n+\t\treturn true;\n+\t}\n+\n+\t/**\n+\t * Disarms the connected Zipo.\n+\t *\n+\t * @returns `true` if the command is sent successfully; otherwise, `false`.\n+\t */\n+\tasync function unarm(): Promise<boolean> {\n+\t\tconst success = await characteristics.rxSend(\"DISARM\");\n+\n+\t\tif (!success) return false;\n+\n+\t\tisArmed.value = false;\n+\t\treturn true;\n+\t}\n+\n+\t/**\n+\t * Updates the client’s settings from the connected Zipo.\n+\t * Fired every connect/reconnect.\n+\t *\n+\t * @returns `true` if the command is sent successfully; otherwise, `false`.\n+\t */\n+\tasync function sync(): Promise<boolean> {\n+\t\tconst success = await characteristics.rxSend(\"SYNC\");\n+\n+\t\tif (!success) return false;\n+\n+\t\tisArmed.value = false;\n+\t\treturn true;\n+\t}\n+\n+\treturn {\n+\t\tisArmed,\n+\t\tarm,\n+\t\tunarm,\n+\t\tsync,\n+\t};\n+});"
+      }
+    ]
+  },
+  {
     "sha": "ab5a8df92d7a4ac0306ac7a42bd469f8ce2e53ea",
     "node_id": "C_kwDOVd-iudoAKGFiNWE4ZGY5MmQ3YTRhYzAzMDZhYzdhNDJiZDQ2OWY4Y2UyZTUzZWE",
     "commit": {
@@ -246,549 +715,6 @@
         "raw_url": "https://github.com/jrwnnnn/zipo/raw/3991e76ef3a1ef0c190b81cfb2eaaec9d178ec6a/src%2Fviews%2FActivitySummary.vue",
         "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fviews%2FActivitySummary.vue?ref=3991e76ef3a1ef0c190b81cfb2eaaec9d178ec6a",
         "patch": "@@ -8,7 +8,7 @@ import {\n \tIonToolbar,\n } from \"@ionic/vue\";\n import { useRoute } from \"vue-router\";\n-import { activityLog } from \"@/composables/useActivityLog\";\n+import { activityLog } from \"@/stores/activityLog\";\n import connectIcon from \"@/assets/ui/connect-icon.png\";\n import disconnectIcon from \"@/assets/ui/disconnect-icon.png\";\n import warningIcon from \"@/assets/ui/warning-icon.png\";"
-      }
-    ]
-  },
-  {
-    "sha": "33a3a04fbc867229cbdbb701e60ac205585475aa",
-    "node_id": "C_kwDOVd-iudoAKDMzYTNhMDRmYmM4NjcyMjljYmRiYjcwMWU2MGFjMjA1NTg1NDc1YWE",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-11-24T06:47:21Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-11-24T06:47:21Z"
-      },
-      "message": "feat: add activity summaries and geolocation support (#69)\n\n* refactor: activity log composable\n\n* feat: add activity summaries and geolocation support\n\n* refactor: rename status to type for clarity\n\n* fix: forgot to change this in dcbf8ff\n\n* chore: raise minimum Android SDK to 26\n\n* feat: open maps to external browser\n\n* feat: router-link for seamless view switching\n\n* fix: trigger alerts failed to work while at an activity summary\n\n* fix: rapid trigger fails to alert and retrieve geolocation",
-      "tree": {
-        "sha": "c9e5d22c32edbe108e9f36492ed34ba79336426f",
-        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/c9e5d22c32edbe108e9f36492ed34ba79336426f"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/33a3a04fbc867229cbdbb701e60ac205585475aa",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJrBTL5CRC1aQ7uu5UhlAAA66EQAAw5n8g58wGu2D7WB/YOTRU1\nI34Y5pZYPpI36MDfErMwONXMWrH9jKXdrXYr/CWbZIjadQyLlb2lUfXJlS/wZRqt\nVUAF4NlHyYP9UDZm/m3iNFYDkceVeNlaYk90lIZBN/OzAeJSAbpkIYIoipXGibPV\nPYrbBJWmEgD+qRul+lwE4dmmmfDvvku4YjgcGsbaZaaI4hW5jlqlGBKAh1cWMbmh\nMhYIV0HO+MDHH+RDh9mmjTRI1iARTX4A0ggSMSscNGJvMqISa3a69dvri+4zTLTc\nYEIhE5gA3I5LpCWRJg9dWjAdP5jVUuVx7WYBRMYkXyfXKHLQ1WyGd/9nA8IiIGoA\nDLIQVz4G/SAorDrl3GhbhrULFQVfrfOlSll5G9nf8miw3jL8zakDXMF4MXStAa0n\niAxUVuh1qXB14sSpxSync911nbgDk/lLGPSA1rv9/jYxv+VMRy9L6KcuM1xXdkSO\ngtmSrOzouSxHGHnTjOZguUugp5ccmAB/lygkQEEPSCb7K7KJdXX19z2vqNQ5kVfN\npOrJ6vPbFeu/MKuoovZcgqn+TjpGQVyln/dW6eLhSa8YmYXCY5QftwZ1PPLB+dWg\nvoLFZYPyoZM5+BzO3pCW/6jsyKN7++KxS9nmataLmCb2Nd6log8gEPch72XrNx0W\nbukD+oiFhtJkfe9GJoov\n=Z3aQ\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree c9e5d22c32edbe108e9f36492ed34ba79336426f\nparent 21a5333e024893d294a1042f7633fa751fc06dae\nauthor Mark Jerwin <git@jrwnnnn.me> 1795502841 +0800\ncommitter GitHub <noreply@github.com> 1795502841 +0800\n\nfeat: add activity summaries and geolocation support (#69)\n\n* refactor: activity log composable\n\n* feat: add activity summaries and geolocation support\n\n* refactor: rename status to type for clarity\n\n* fix: forgot to change this in dcbf8ff\n\n* chore: raise minimum Android SDK to 26\n\n* feat: open maps to external browser\n\n* feat: router-link for seamless view switching\n\n* fix: trigger alerts failed to work while at an activity summary\n\n* fix: rapid trigger fails to alert and retrieve geolocation",
-        "verified_at": "2026-11-24T06:47:22Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/33a3a04fbc867229cbdbb701e60ac205585475aa",
-    "html_url": "https://github.com/jrwnnnn/zipo/commit/33a3a04fbc867229cbdbb701e60ac205585475aa",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/33a3a04fbc867229cbdbb701e60ac205585475aa/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "21a5333e024893d294a1042f7633fa751fc06dae",
-        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/21a5333e024893d294a1042f7633fa751fc06dae",
-        "html_url": "https://github.com/jrwnnnn/zipo/commit/21a5333e024893d294a1042f7633fa751fc06dae"
-      }
-    ],
-    "stats": {
-      "total": 249,
-      "additions": 207,
-      "deletions": 42
-    },
-    "files": [
-      {
-        "sha": "d4b9937d34fcd646b9fc3f7bc1988a340c3f5a12",
-        "filename": "android/app/capacitor.build.gradle",
-        "status": "modified",
-        "additions": 2,
-        "deletions": 0,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/33a3a04fbc867229cbdbb701e60ac205585475aa/android%2Fapp%2Fcapacitor.build.gradle",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/33a3a04fbc867229cbdbb701e60ac205585475aa/android%2Fapp%2Fcapacitor.build.gradle",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/android%2Fapp%2Fcapacitor.build.gradle?ref=33a3a04fbc867229cbdbb701e60ac205585475aa",
-        "patch": "@@ -11,7 +11,9 @@ apply from: \"../capacitor-cordova-android-plugins/cordova.variables.gradle\"\n dependencies {\n     implementation project(':capacitor-community-bluetooth-le')\n     implementation project(':capacitor-app')\n+    implementation project(':capacitor-geolocation')\n     implementation project(':capacitor-haptics')\n+    implementation project(':capacitor-inappbrowser')\n     implementation project(':capacitor-keyboard')\n     implementation project(':capacitor-local-notifications')\n     implementation project(':capacitor-status-bar')"
-      },
-      {
-        "sha": "545957f8dfd5e89f76421c1fbee003a778e19547",
-        "filename": "android/app/src/main/AndroidManifest.xml",
-        "status": "modified",
-        "additions": 6,
-        "deletions": 1,
-        "changes": 7,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/33a3a04fbc867229cbdbb701e60ac205585475aa/android%2Fapp%2Fsrc%2Fmain%2FAndroidManifest.xml",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/33a3a04fbc867229cbdbb701e60ac205585475aa/android%2Fapp%2Fsrc%2Fmain%2FAndroidManifest.xml",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/android%2Fapp%2Fsrc%2Fmain%2FAndroidManifest.xml?ref=33a3a04fbc867229cbdbb701e60ac205585475aa",
-        "patch": "@@ -34,13 +34,18 @@\n                 android:resource=\"@xml/file_paths\"></meta-data>\n         </provider>\n         <receiver android:name=\"io.capawesome.capacitorjs.plugins.foregroundservice.NotificationActionBroadcastReceiver\" />\n-        <service android:name=\"io.capawesome.capacitorjs.plugins.foregroundservice.AndroidForegroundService\" android:foregroundServiceType=\"connectedDevice\" />\n+        <service android:name=\"io.capawesome.capacitorjs.plugins.foregroundservice.AndroidForegroundService\" android:foregroundServiceType=\"connectedDevice|location\" />\n     </application>\n \n     <!-- Permissions -->\n \n+    <uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />\n+    <uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />\n     <uses-permission android:name=\"android.permission.INTERNET\" />\n     <uses-permission android:name=\"android.permission.FOREGROUND_SERVICE\" />\n     <uses-permission android:name=\"android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE\" />\n+    <uses-permission android:name=\"android.permission.FOREGROUND_SERVICE_LOCATION\" />\n     <uses-permission android:name=\"android.permission.WAKE_LOCK\" />\n+    \n+    <uses-feature android:name=\"android.hardware.location.gps\" />\n </manifest>"
-      },
-      {
-        "sha": "597101929e4ade5585cca8aa5e11ee184fdc85f1",
-        "filename": "android/capacitor.settings.gradle",
-        "status": "modified",
-        "additions": 6,
-        "deletions": 0,
-        "changes": 6,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/33a3a04fbc867229cbdbb701e60ac205585475aa/android%2Fcapacitor.settings.gradle",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/33a3a04fbc867229cbdbb701e60ac205585475aa/android%2Fcapacitor.settings.gradle",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/android%2Fcapacitor.settings.gradle?ref=33a3a04fbc867229cbdbb701e60ac205585475aa",
-        "patch": "@@ -8,9 +8,15 @@ project(':capacitor-community-bluetooth-le').projectDir = new File('../node_modu\n include ':capacitor-app'\n project(':capacitor-app').projectDir = new File('../node_modules/@capacitor/app/android')\n \n+include ':capacitor-geolocation'\n+project(':capacitor-geolocation').projectDir = new File('../node_modules/@capacitor/geolocation/android')\n+\n include ':capacitor-haptics'\n project(':capacitor-haptics').projectDir = new File('../node_modules/@capacitor/haptics/android')\n \n+include ':capacitor-inappbrowser'\n+project(':capacitor-inappbrowser').projectDir = new File('../node_modules/@capacitor/inappbrowser/android')\n+\n include ':capacitor-keyboard'\n project(':capacitor-keyboard').projectDir = new File('../node_modules/@capacitor/keyboard/android')\n "
-      },
-      {
-        "sha": "0c479ae791ea55833a4eccbe605817428aadf727",
-        "filename": "android/variables.gradle",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/33a3a04fbc867229cbdbb701e60ac205585475aa/android%2Fvariables.gradle",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/33a3a04fbc867229cbdbb701e60ac205585475aa/android%2Fvariables.gradle",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/android%2Fvariables.gradle?ref=33a3a04fbc867229cbdbb701e60ac205585475aa",
-        "patch": "@@ -1,5 +1,5 @@\n ext {\n-    minSdkVersion = 24\n+    minSdkVersion = 26\n     compileSdkVersion = 36\n     targetSdkVersion = 36\n     androidxActivityVersion = '1.11.0'"
-      },
-      {
-        "sha": "b02924ea4ada0582ba369d740fff70645014fd6d",
-        "filename": "package-lock.json",
-        "status": "modified",
-        "additions": 29,
-        "deletions": 0,
-        "changes": 29,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/33a3a04fbc867229cbdbb701e60ac205585475aa/package-lock.json",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/33a3a04fbc867229cbdbb701e60ac205585475aa/package-lock.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/package-lock.json?ref=33a3a04fbc867229cbdbb701e60ac205585475aa",
-        "patch": "@@ -12,7 +12,9 @@\n \t\t\t\t\"@capacitor/android\": \"^8.6.0\",\n \t\t\t\t\"@capacitor/app\": \"8.1.2\",\n \t\t\t\t\"@capacitor/core\": \"8.6.0\",\n+\t\t\t\t\"@capacitor/geolocation\": \"^8.2.5\",\n \t\t\t\t\"@capacitor/haptics\": \"8.0.2\",\n+\t\t\t\t\"@capacitor/inappbrowser\": \"^4.1.0\",\n \t\t\t\t\"@capacitor/keyboard\": \"8.0.6\",\n \t\t\t\t\"@capacitor/local-notifications\": \"^8.3.1\",\n \t\t\t\t\"@capacitor/status-bar\": \"8.0.4\",\n@@ -1522,13 +1524,34 @@\n \t\t\t\t\"tslib\": \"^2.1.0\"\n \t\t\t}\n \t\t},\n+\t\t\"node_modules/@capacitor/geolocation\": {\n+\t\t\t\"version\": \"8.2.5\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@capacitor/geolocation/-/geolocation-8.2.5.tgz\",\n+\t\t\t\"integrity\": \"sha512-DFhbXDsp/5HrKmgLd12w25ERhDzesTqU4vKRS/8a7BLaVV8tt/lkDfqt6Fzqka7Vino6uU9cPFR9v/zMfZ1YFQ==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"dependencies\": {\n+\t\t\t\t\"@capacitor/synapse\": \"^1.0.4\"\n+\t\t\t},\n+\t\t\t\"peerDependencies\": {\n+\t\t\t\t\"@capacitor/core\": \">=8.0.0\"\n+\t\t\t}\n+\t\t},\n \t\t\"node_modules/@capacitor/haptics\": {\n \t\t\t\"version\": \"8.0.2\",\n \t\t\t\"license\": \"MIT\",\n \t\t\t\"peerDependencies\": {\n \t\t\t\t\"@capacitor/core\": \">=8.0.0\"\n \t\t\t}\n \t\t},\n+\t\t\"node_modules/@capacitor/inappbrowser\": {\n+\t\t\t\"version\": \"4.1.0\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@capacitor/inappbrowser/-/inappbrowser-4.1.0.tgz\",\n+\t\t\t\"integrity\": \"sha512-+tRl4uc4ZvRsX9A5pDGOU52LCW6T0fRXqysqIxl9oYcr2DLkg4lOEmoD+pp3l2JH5Vm/LJp8CofCFgeSI4uTUQ==\",\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"peerDependencies\": {\n+\t\t\t\t\"@capacitor/core\": \">=8.0.0\"\n+\t\t\t}\n+\t\t},\n \t\t\"node_modules/@capacitor/keyboard\": {\n \t\t\t\"version\": \"8.0.6\",\n \t\t\t\"license\": \"MIT\",\n@@ -1552,6 +1575,12 @@\n \t\t\t\t\"@capacitor/core\": \">=8.0.0\"\n \t\t\t}\n \t\t},\n+\t\t\"node_modules/@capacitor/synapse\": {\n+\t\t\t\"version\": \"1.0.4\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/@capacitor/synapse/-/synapse-1.0.4.tgz\",\n+\t\t\t\"integrity\": \"sha512-/C1FUo8/OkKuAT4nCIu/34ny9siNHr9qtFezu4kxm6GY1wNFxrCFWjfYx5C1tUhVGz3fxBABegupkpjXvjCHrw==\",\n+\t\t\t\"license\": \"ISC\"\n+\t\t},\n \t\t\"node_modules/@capacitor/toast\": {\n \t\t\t\"version\": \"8.0.1\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@capacitor/toast/-/toast-8.0.1.tgz\","
-      },
-      {
-        "sha": "c9b4e2aaaf09b2b8096ac03fd24debca293fc1b2",
-        "filename": "package.json",
-        "status": "modified",
-        "additions": 2,
-        "deletions": 0,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/33a3a04fbc867229cbdbb701e60ac205585475aa/package.json",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/33a3a04fbc867229cbdbb701e60ac205585475aa/package.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/package.json?ref=33a3a04fbc867229cbdbb701e60ac205585475aa",
-        "patch": "@@ -21,7 +21,9 @@\n \t\t\"@capacitor/android\": \"^8.6.0\",\n \t\t\"@capacitor/app\": \"8.1.2\",\n \t\t\"@capacitor/core\": \"8.6.0\",\n+\t\t\"@capacitor/geolocation\": \"^8.2.5\",\n \t\t\"@capacitor/haptics\": \"8.0.2\",\n+\t\t\"@capacitor/inappbrowser\": \"^4.1.0\",\n \t\t\"@capacitor/keyboard\": \"8.0.6\",\n \t\t\"@capacitor/local-notifications\": \"^8.3.1\",\n \t\t\"@capacitor/status-bar\": \"8.0.4\","
-      },
-      {
-        "sha": "4095b3999d887e933e1d49c207007a267751fc52",
-        "filename": "src/App.vue",
-        "status": "modified",
-        "additions": 3,
-        "deletions": 0,
-        "changes": 3,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/33a3a04fbc867229cbdbb701e60ac205585475aa/src%2FApp.vue",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/33a3a04fbc867229cbdbb701e60ac205585475aa/src%2FApp.vue",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2FApp.vue?ref=33a3a04fbc867229cbdbb701e60ac205585475aa",
-        "patch": "@@ -2,8 +2,11 @@\n import { IonApp, IonRouterOutlet } from \"@ionic/vue\";\n import { onMounted } from \"vue\";\n import { LocalNotifications } from \"@capacitor/local-notifications\";\n+import { useConnectivityStore } from \"./stores/connectivity\";\n \n onMounted(async () => {\n+\tawait useConnectivityStore().restore();\n+\n \tawait LocalNotifications.requestPermissions();\n \tawait LocalNotifications.createChannel({\n \t\tid: \"alerts\","
-      },
-      {
-        "sha": "fb6252d11459b910817a999880d522ef2094ac65",
-        "filename": "src/components/ActivityLog.vue",
-        "status": "modified",
-        "additions": 9,
-        "deletions": 11,
-        "changes": 20,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/33a3a04fbc867229cbdbb701e60ac205585475aa/src%2Fcomponents%2FActivityLog.vue",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/33a3a04fbc867229cbdbb701e60ac205585475aa/src%2Fcomponents%2FActivityLog.vue",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fcomponents%2FActivityLog.vue?ref=33a3a04fbc867229cbdbb701e60ac205585475aa",
-        "patch": "@@ -11,33 +11,31 @@ import warningIcon from \"@/assets/ui/warning-icon.png\";\n \t\t<p class=\"font-['Geist'] font-bold\">Activity log</p>\n \t\t<hr class=\"bg-line\" />\n \t\t<div class=\"flex flex-col gap-3\">\n-\t\t\t<div\n+\t\t\t<router-link\n \t\t\t\tv-for=\"activity in activityLog.getActivities().value\"\n \t\t\t\t:key=\"activity.id\"\n \t\t\t\tclass=\"flex items-center gap-3\"\n+\t\t\t\t:to=\"`/summary/${activity.id}`\"\n \t\t\t>\n \t\t\t\t<img\n \t\t\t\t\t:src=\"\n-\t\t\t\t\t\tactivity.status === 'connected'\n-\t\t\t\t\t\t\t? connectIcon\n-\t\t\t\t\t\t\t: activity.status === 'triggered'\n-\t\t\t\t\t\t\t\t? warningIcon\n-\t\t\t\t\t\t\t\t: disconnectIcon\n+\t\t\t\t\t\t{\n+\t\t\t\t\t\t\ttriggered: warningIcon,\n+\t\t\t\t\t\t\tconnected: connectIcon,\n+\t\t\t\t\t\t\tdisconnected: disconnectIcon,\n+\t\t\t\t\t\t}[activity.type]\n \t\t\t\t\t\"\n \t\t\t\t\tclass=\"aspect-square w-6\"\n \t\t\t\t/>\n \t\t\t\t<div>\n-\t\t\t\t\t<p\n-\t\t\t\t\t\tclass=\"font-[Geist]\"\n-\t\t\t\t\t\t:class=\"activity.status === 'triggered' ? 'text-red-500' : ''\"\n-\t\t\t\t\t>\n+\t\t\t\t\t<p class=\"font-[Geist] text-white\">\n \t\t\t\t\t\t{{ activity.label }}\n \t\t\t\t\t</p>\n \t\t\t\t\t<p class=\"text-muted text-xs\">\n \t\t\t\t\t\t{{ new Date(activity.timestamp).toLocaleString() }}\n \t\t\t\t\t</p>\n \t\t\t\t</div>\n-\t\t\t</div>\n+\t\t\t</router-link>\n \t\t</div>\n \t</div>\n </template>"
-      },
-      {
-        "sha": "2d814ec60baa81d5023f3df668ff265835e47a6d",
-        "filename": "src/components/ConnectionStatus.vue",
-        "status": "modified",
-        "additions": 0,
-        "deletions": 4,
-        "changes": 4,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/33a3a04fbc867229cbdbb701e60ac205585475aa/src%2Fcomponents%2FConnectionStatus.vue",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/33a3a04fbc867229cbdbb701e60ac205585475aa/src%2Fcomponents%2FConnectionStatus.vue",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fcomponents%2FConnectionStatus.vue?ref=33a3a04fbc867229cbdbb701e60ac205585475aa",
-        "patch": "@@ -1,11 +1,7 @@\n <script setup lang=\"ts\">\n import { useConnectivityStore } from \"@/stores/connectivity\";\n-import { onMounted } from \"vue\";\n \n const connectivity = useConnectivityStore();\n-onMounted(() => {\n-\tconnectivity.restore();\n-});\n </script>\n \n <template>"
-      },
-      {
-        "sha": "e90c9cbb70ff162feb1b8bdbb159f280918d6e06",
-        "filename": "src/composables/useActivityLog.ts",
-        "status": "modified",
-        "additions": 20,
-        "deletions": 10,
-        "changes": 30,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/33a3a04fbc867229cbdbb701e60ac205585475aa/src%2Fcomposables%2FuseActivityLog.ts",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/33a3a04fbc867229cbdbb701e60ac205585475aa/src%2Fcomposables%2FuseActivityLog.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fcomposables%2FuseActivityLog.ts?ref=33a3a04fbc867229cbdbb701e60ac205585475aa",
-        "patch": "@@ -1,35 +1,45 @@\n-import { useStorage, type RemovableRef } from \"@vueuse/core\";\n+import { type RemovableRef, useStorage } from \"@vueuse/core\";\n+\n+import { type Coords } from \"@/services/geolocation\";\n+\n+type ActivityType = keyof typeof LABELS;\n \n interface Activity {\n \tid: number;\n-\tstatus: string;\n+\ttype: ActivityType;\n \tlabel: string;\n \ttimestamp: number;\n+\tgeolocation: Coords | null;\n }\n \n const activities = useStorage<Activity[]>(\"activities\", []);\n const LABELS = {\n \ttriggered: \"Compromised\",\n \tconnected: \"Connected\",\n \tdisconnected: \"Disconnected\",\n-} as const;\n-\n-type Status = keyof typeof LABELS;\n+};\n \n export const activityLog = {\n \t/**\n \t * Adds a new entry to the  activity log.\n \t *\n \t * @param status - Activity type used to determine the displayed label.\n-\t * @param id - Optional entry ID. A generated numeric ID is used when omitted.\n \t */\n-\taddActivity(status: Status, id?: number): void {\n+\tasync addActivity(\n+\t\ttype: ActivityType,\n+\t\tgeolocation?: Coords | null,\n+\t): Promise<number> {\n+\t\tconst id = (Date.now() % 2_147_483_647) + 1;\n+\n \t\tactivities.value.unshift({\n-\t\t\tid: id || (Date.now() % 2_147_483_647) + 1,\n-\t\t\tstatus: status,\n-\t\t\tlabel: LABELS[status],\n+\t\t\tid,\n+\t\t\ttype,\n+\t\t\tlabel: LABELS[type],\n \t\t\ttimestamp: Date.now(),\n+\t\t\tgeolocation: geolocation || null,\n \t\t});\n+\n+\t\treturn id;\n \t},\n \n \tgetActivities(): RemovableRef<Activity[]> {"
-      },
-      {
-        "sha": "4b21df28ae4df2be7310f3fdf77c8dc6fb5d09b9",
-        "filename": "src/router/index.ts",
-        "status": "modified",
-        "additions": 6,
-        "deletions": 0,
-        "changes": 6,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/33a3a04fbc867229cbdbb701e60ac205585475aa/src%2Frouter%2Findex.ts",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/33a3a04fbc867229cbdbb701e60ac205585475aa/src%2Frouter%2Findex.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Frouter%2Findex.ts?ref=33a3a04fbc867229cbdbb701e60ac205585475aa",
-        "patch": "@@ -1,6 +1,7 @@\n import { createRouter, createWebHistory } from \"@ionic/vue-router\";\n import type { RouteRecordRaw } from \"vue-router\";\n \n+import AcitivitySummary from \"../views/ActivitySummary.vue\";\n import HomePage from \"../views/HomePage.vue\";\n \n const routes: RouteRecordRaw[] = [\n@@ -9,6 +10,11 @@ const routes: RouteRecordRaw[] = [\n \t\tredirect: \"/home\",\n \t},\n \t{ path: \"/home\", name: \"Home\", component: HomePage },\n+\t{\n+\t\tpath: \"/summary/:eventId\",\n+\t\tname: \"ActivitySummary\",\n+\t\tcomponent: AcitivitySummary,\n+\t},\n ];\n \n const router = createRouter({"
-      },
-      {
-        "sha": "c1b6f110a76d9d16990755b6e1c1744fcea10a29",
-        "filename": "src/services/geolocation.ts",
-        "status": "added",
-        "additions": 21,
-        "deletions": 0,
-        "changes": 21,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/33a3a04fbc867229cbdbb701e60ac205585475aa/src%2Fservices%2Fgeolocation.ts",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/33a3a04fbc867229cbdbb701e60ac205585475aa/src%2Fservices%2Fgeolocation.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fservices%2Fgeolocation.ts?ref=33a3a04fbc867229cbdbb701e60ac205585475aa",
-        "patch": "@@ -0,0 +1,21 @@\n+import { Geolocation, type Position } from \"@capacitor/geolocation\";\n+\n+export type Coords = Position[\"coords\"];\n+\n+export const geolocation = {\n+\t/**\n+\t * Gets the device's current geographic coordinates.\n+\t * Returns `null` when the location cannot be retrieved.\n+\t */\n+\tasync getPosition(): Promise<Position[\"coords\"] | null> {\n+\t\ttry {\n+\t\t\tconst geolocation = await Geolocation.getCurrentPosition({\n+\t\t\t\tmaximumAge: 10000,\n+\t\t\t});\n+\t\t\treturn geolocation.coords;\n+\t\t} catch (error) {\n+\t\t\tconsole.error(\"Failed to get current position:\", error);\n+\t\t\treturn null;\n+\t\t}\n+\t},\n+};"
-      },
-      {
-        "sha": "f6926c0d514e80a1cb975fe168ad198cd30df1a9",
-        "filename": "src/services/keepAlive.ts",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 5,
-        "changes": 6,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/33a3a04fbc867229cbdbb701e60ac205585475aa/src%2Fservices%2FkeepAlive.ts",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/33a3a04fbc867229cbdbb701e60ac205585475aa/src%2Fservices%2FkeepAlive.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fservices%2FkeepAlive.ts?ref=33a3a04fbc867229cbdbb701e60ac205585475aa",
-        "patch": "@@ -16,10 +16,6 @@ ForegroundService.addListener(\"buttonClicked\", async (e) => {\n \t}\n });\n \n-/**\n- * Controls the Android foreground service that keeps Zipo active while the app\n- * is running in the background.\n- */\n export const keepAlive = {\n \t/**\n \t * Starts the foreground service.\n@@ -43,7 +39,7 @@ export const keepAlive = {\n \t\t\t\ttitle: \"Zipo is running\",\n \t\t\t\tbody: \"Tap to disconnect\",\n \t\t\t\tsmallIcon: \"ic_zipo\",\n-\t\t\t\tserviceType: 16 as ServiceType,\n+\t\t\t\tserviceType: 24 as ServiceType,\n \t\t\t\tnotificationChannelId: KEEP_ALIVE_CHANNEL_ID,\n \t\t\t});\n \t\t} catch (error) {"
-      },
-      {
-        "sha": "c3116abc1fb67c6d9a844b5be5dc9f2b435ad754",
-        "filename": "src/services/txHandle.ts",
-        "status": "modified",
-        "additions": 6,
-        "deletions": 10,
-        "changes": 16,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/33a3a04fbc867229cbdbb701e60ac205585475aa/src%2Fservices%2FtxHandle.ts",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/33a3a04fbc867229cbdbb701e60ac205585475aa/src%2Fservices%2FtxHandle.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fservices%2FtxHandle.ts?ref=33a3a04fbc867229cbdbb701e60ac205585475aa",
-        "patch": "@@ -1,31 +1,27 @@\n import { Haptics } from \"@capacitor/haptics\";\n \n import { activityLog } from \"@/composables/useActivityLog\";\n+import { geolocation } from \"@/services/geolocation\";\n import { notifyLocal } from \"@/services/notifyLocal\";\n \n-let id: number;\n-\n /**\n- * Processes a protocol message received from the Zipo device.\n- *\n- * `TRIGGER.LOW` records a compromised event, schedules a local alert, and\n- * vibrates the device for three seconds. `TRIGGER.HIGH` is reserved and\n- * currently has no behavior. Other messages are ignored with a warning.\n+ * Processes a trigger message received from the Zipo device.\n  *\n  * @param incoming - Message received from the BLE TX characteristic.\n  */\n export async function txHandle(incoming: string): Promise<void> {\n \tswitch (incoming) {\n \t\tcase \"TRIGGER.LOW\": {\n-\t\t\tid = (Date.now() % 2_147_483_647) + 1;\n+\t\t\tconst id = await activityLog.addActivity(\n+\t\t\t\t\"triggered\",\n+\t\t\t\tawait geolocation.getPosition(),\n+\t\t\t);\n \n-\t\t\tactivityLog.addActivity(\"triggered\", id);\n \t\t\tawait notifyLocal(\n \t\t\t\tid,\n \t\t\t\t\"Zipo triggered\",\n \t\t\t\t`Detected at ${new Date().toLocaleTimeString()}`,\n \t\t\t);\n-\n \t\t\tawait Haptics.vibrate({ duration: 3000 });\n \t\t\tbreak;\n \t\t}"
-      },
-      {
-        "sha": "3e09d51f2bc9bb92303a79fa6021b75370479460",
-        "filename": "src/views/ActivitySummary.vue",
-        "status": "added",
-        "additions": 95,
-        "deletions": 0,
-        "changes": 95,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/33a3a04fbc867229cbdbb701e60ac205585475aa/src%2Fviews%2FActivitySummary.vue",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/33a3a04fbc867229cbdbb701e60ac205585475aa/src%2Fviews%2FActivitySummary.vue",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fviews%2FActivitySummary.vue?ref=33a3a04fbc867229cbdbb701e60ac205585475aa",
-        "patch": "@@ -0,0 +1,95 @@\n+<script setup lang=\"ts\">\n+import {\n+\tIonBackButton,\n+\tIonButtons,\n+\tIonContent,\n+\tIonHeader,\n+\tIonPage,\n+\tIonToolbar,\n+} from \"@ionic/vue\";\n+import { useRoute } from \"vue-router\";\n+import { activityLog } from \"@/composables/useActivityLog\";\n+import connectIcon from \"@/assets/ui/connect-icon.png\";\n+import disconnectIcon from \"@/assets/ui/disconnect-icon.png\";\n+import warningIcon from \"@/assets/ui/warning-icon.png\";\n+import { InAppBrowser } from \"@capacitor/inappbrowser\";\n+\n+const route = useRoute();\n+\n+async function openLocation() {\n+\tawait InAppBrowser.openInExternalBrowser({\n+\t\turl: mapsUrl,\n+\t});\n+}\n+\n+const activity = activityLog\n+\t.getActivities()\n+\t.value.find((activity) => activity.id === Number(route.params.eventId));\n+const geolocation = activity?.geolocation;\n+const mapsUrl = geolocation\n+\t? `https://maps.google.com/maps?q=${geolocation.latitude},${geolocation.longitude}&z=15&output=embed`\n+\t: \"\";\n+</script>\n+\n+<template>\n+\t<ion-page>\n+\t\t<ion-content :fullscreen=\"true\" class=\"ion-padding\">\n+\t\t\t<ion-header class=\"ion-no-border\">\n+\t\t\t\t<ion-toolbar>\n+\t\t\t\t\t<ion-buttons slot=\"start\">\n+\t\t\t\t\t\t<ion-back-button default-href=\"/home\"></ion-back-button>\n+\t\t\t\t\t</ion-buttons>\n+\t\t\t\t</ion-toolbar>\n+\t\t\t</ion-header>\n+\n+\t\t\t<main class=\"flex flex-col gap-3\" v-if=\"activity\">\n+\t\t\t\t<div class=\"flex h-60 flex-col items-center justify-center gap-5\">\n+\t\t\t\t\t<img\n+\t\t\t\t\t\t:src=\"\n+\t\t\t\t\t\t\t{\n+\t\t\t\t\t\t\t\ttriggered: warningIcon,\n+\t\t\t\t\t\t\t\tconnected: connectIcon,\n+\t\t\t\t\t\t\t\tdisconnected: disconnectIcon,\n+\t\t\t\t\t\t\t}[activity.type]\n+\t\t\t\t\t\t\"\n+\t\t\t\t\t\tclass=\"w-15\"\n+\t\t\t\t\t/>\n+\t\t\t\t\t<p class=\"text-center font-[NType82] text-3xl\">\n+\t\t\t\t\t\t{{ activity.label }}\n+\t\t\t\t\t</p>\n+\t\t\t\t</div>\n+\t\t\t\t<div class=\"card flex flex-col gap-2 text-sm\">\n+\t\t\t\t\t<div class=\"flex justify-between\">\n+\t\t\t\t\t\t<p class=\"text-m\">Timestamp</p>\n+\t\t\t\t\t\t<p class=\"text-muted\">\n+\t\t\t\t\t\t\t{{ new Date(activity.timestamp as number).toLocaleDateString() }}\n+\t\t\t\t\t\t\t{{ new Date(activity.timestamp as number).toLocaleTimeString() }}\n+\t\t\t\t\t\t</p>\n+\t\t\t\t\t</div>\n+\t\t\t\t\t<div class=\"flex justify-between\">\n+\t\t\t\t\t\t<p class=\"text-m\">Alert mode</p>\n+\t\t\t\t\t\t<p class=\"text-muted text-right\">Full</p>\n+\t\t\t\t\t</div>\n+\t\t\t\t\t<div v-if=\"geolocation\" class=\"flex justify-between\">\n+\t\t\t\t\t\t<p class=\"text-m\">Location</p>\n+\t\t\t\t\t\t<p class=\"text-muted text-right\">\n+\t\t\t\t\t\t\t{{ geolocation.latitude }}°\n+\t\t\t\t\t\t\t{{ geolocation.latitude >= 0 ? \"N\" : \"S\" }}<br />\n+\t\t\t\t\t\t\t{{ geolocation.longitude }}°\n+\t\t\t\t\t\t\t{{ geolocation.latitude >= 0 ? \"E\" : \"W\" }}\n+\t\t\t\t\t\t</p>\n+\t\t\t\t\t</div>\n+\n+\t\t\t\t\t<div v-if=\"geolocation\" @click=\"openLocation()\">\n+\t\t\t\t\t\t<iframe\n+\t\t\t\t\t\t\t:src=\"mapsUrl\"\n+\t\t\t\t\t\t\twidth=\"100%\"\n+\t\t\t\t\t\t\tloading=\"lazy\"\n+\t\t\t\t\t\t\tclass=\"pointer-events-none h-50 rounded-md border-none\"\n+\t\t\t\t\t\t></iframe>\n+\t\t\t\t\t</div>\n+\t\t\t\t</div>\n+\t\t\t</main>\n+\t\t</ion-content>\n+\t</ion-page>\n+</template>"
-      }
-    ]
-  },
-  {
-    "sha": "21a5333e024893d294a1042f7633fa751fc06dae",
-    "node_id": "C_kwDOVd-iudoAKDIxYTUzMzNlMDI0ODkzZDI5NGExMDQyZjc2MzNmYTc1MWZjMDZkYWU",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-11-24T06:14:46Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-11-24T06:14:46Z"
-      },
-      "message": "refactor: activity log composable (#70)\n\n* refactor: activity log composable\n\n* chore: add explicit return types",
-      "tree": {
-        "sha": "7b27c71c1716060be52a44ad08ee5642baa5bd39",
-        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/7b27c71c1716060be52a44ad08ee5642baa5bd39"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/21a5333e024893d294a1042f7633fa751fc06dae",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJrBStWCRC1aQ7uu5UhlAAAUBsQAIyRD2wI67YOqMkGRZU3WW48\nVTHNPk7CkJDPtB7UVLmSxLuJf7kJdpOtdYWuzVLn9Vs+uIbnKCLw9RehOjjrRIEt\nZsR8EPU9BvoFdu8HCVtu+TM1DRz14FIBdXTVSDqQMsC/+XDQ4ZkzTwPgq6NUFMEl\nS6bdKIJjqA4AW5SeNCov5SmDu0Lr0Qp1GnimGf936ptKsfRNZtSp8bqfCravuwca\nMwJ6gBRqP3lGjQAHQsRvSTL4ukcIvi/8ytZn47yTeXOY0veOzqtjxIdJ5DqoxPkk\ndwdM3YnnhBy4VpMFbEe8dqmeWP6+lENOc8lMIkGjGMWws1BQXr9tdkHKRQfnec+M\nFUfGjCmzpeEz8ML3jpW4n3Jn9+oFG3kF8ou+vz6U3p3ZOXwOpNcR1Sawee17yRnw\ncxINE6r3YwyivkaEa9QRCf0MeL9Si+NThcyzzbIKMswimfhALezzodxe/A4q9Suj\nahZO1VmK2lXn75vPWxPYiV+ZuFpoesEHt1sN72ZpX32WHCsU1ULiO+y+SC6sMnMu\nWUchjV1UcWTLCe8/cFGfmZtfZCqdGXP+w5h8OoeKsNX/H/+srbQ75rf2qZv7MKC1\nv7egpXcdQU8jIEMGSXawXF3fg5TEhQMc+gdKReylm6tZknlL6kGuvrt+JR8Uy/U9\nYL4uZE1P1np+I9Djr/Lt\n=ckdq\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 7b27c71c1716060be52a44ad08ee5642baa5bd39\nparent 881bfd97fae89eb644a1190541d8cd8db4d31135\nauthor Mark Jerwin <git@jrwnnnn.me> 1795500886 +0800\ncommitter GitHub <noreply@github.com> 1795500886 +0800\n\nrefactor: activity log composable (#70)\n\n* refactor: activity log composable\n\n* chore: add explicit return types",
-        "verified_at": "2026-11-24T06:14:47Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/21a5333e024893d294a1042f7633fa751fc06dae",
-    "html_url": "https://github.com/jrwnnnn/zipo/commit/21a5333e024893d294a1042f7633fa751fc06dae",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/21a5333e024893d294a1042f7633fa751fc06dae/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "881bfd97fae89eb644a1190541d8cd8db4d31135",
-        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/881bfd97fae89eb644a1190541d8cd8db4d31135",
-        "html_url": "https://github.com/jrwnnnn/zipo/commit/881bfd97fae89eb644a1190541d8cd8db4d31135"
-      }
-    ],
-    "stats": {
-      "total": 39,
-      "additions": 19,
-      "deletions": 20
-    },
-    "files": [
-      {
-        "sha": "2526a71af1f1fd0ff6123d0ed444bc9b9b06c8de",
-        "filename": "src/components/ActivityLog.vue",
-        "status": "modified",
-        "additions": 2,
-        "deletions": 4,
-        "changes": 6,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/21a5333e024893d294a1042f7633fa751fc06dae/src%2Fcomponents%2FActivityLog.vue",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/21a5333e024893d294a1042f7633fa751fc06dae/src%2Fcomponents%2FActivityLog.vue",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fcomponents%2FActivityLog.vue?ref=21a5333e024893d294a1042f7633fa751fc06dae",
-        "patch": "@@ -1,11 +1,9 @@\n <script setup lang=\"ts\">\n-import { useActivityLog } from \"@/composables/useActivityLog\";\n+import { activityLog } from \"@/composables/useActivityLog\";\n \n import connectIcon from \"@/assets/ui/connect-icon.png\";\n import disconnectIcon from \"@/assets/ui/disconnect-icon.png\";\n import warningIcon from \"@/assets/ui/warning-icon.png\";\n-\n-const { activities } = useActivityLog();\n </script>\n \n <template>\n@@ -14,7 +12,7 @@ const { activities } = useActivityLog();\n \t\t<hr class=\"bg-line\" />\n \t\t<div class=\"flex flex-col gap-3\">\n \t\t\t<div\n-\t\t\t\tv-for=\"activity in activities\"\n+\t\t\t\tv-for=\"activity in activityLog.getActivities().value\"\n \t\t\t\t:key=\"activity.id\"\n \t\t\t\tclass=\"flex items-center gap-3\"\n \t\t\t>"
-      },
-      {
-        "sha": "e8d1445f0967a1093834a2bb8cea2d02b6b9008c",
-        "filename": "src/composables/useActivityLog.ts",
-        "status": "modified",
-        "additions": 14,
-        "deletions": 11,
-        "changes": 25,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/21a5333e024893d294a1042f7633fa751fc06dae/src%2Fcomposables%2FuseActivityLog.ts",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/21a5333e024893d294a1042f7633fa751fc06dae/src%2Fcomposables%2FuseActivityLog.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fcomposables%2FuseActivityLog.ts?ref=21a5333e024893d294a1042f7633fa751fc06dae",
-        "patch": "@@ -1,4 +1,4 @@\n-import { type RemovableRef, useStorage } from \"@vueuse/core\";\n+import { useStorage, type RemovableRef } from \"@vueuse/core\";\n \n interface Activity {\n \tid: number;\n@@ -7,11 +7,6 @@ interface Activity {\n \ttimestamp: number;\n }\n \n-interface ActivityLog {\n-\tactivities: RemovableRef<Activity[]>;\n-\taddActivity: (status: Status, id?: number) => void;\n-}\n-\n const activities = useStorage<Activity[]>(\"activities\", []);\n const LABELS = {\n \ttriggered: \"Compromised\",\n@@ -21,15 +16,23 @@ const LABELS = {\n \n type Status = keyof typeof LABELS;\n \n-export function useActivityLog(): ActivityLog {\n-\tfunction addActivity(status: Status, id?: number) {\n+export const activityLog = {\n+\t/**\n+\t * Adds a new entry to the  activity log.\n+\t *\n+\t * @param status - Activity type used to determine the displayed label.\n+\t * @param id - Optional entry ID. A generated numeric ID is used when omitted.\n+\t */\n+\taddActivity(status: Status, id?: number): void {\n \t\tactivities.value.unshift({\n \t\t\tid: id || (Date.now() % 2_147_483_647) + 1,\n \t\t\tstatus: status,\n \t\t\tlabel: LABELS[status],\n \t\t\ttimestamp: Date.now(),\n \t\t});\n-\t}\n+\t},\n \n-\treturn { activities, addActivity };\n-}\n+\tgetActivities(): RemovableRef<Activity[]> {\n+\t\treturn activities;\n+\t},\n+};"
-      },
-      {
-        "sha": "92ee68e87a4346efd4288a0265b994244d884bd1",
-        "filename": "src/services/txHandle.ts",
-        "status": "modified",
-        "additions": 2,
-        "deletions": 3,
-        "changes": 5,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/21a5333e024893d294a1042f7633fa751fc06dae/src%2Fservices%2FtxHandle.ts",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/21a5333e024893d294a1042f7633fa751fc06dae/src%2Fservices%2FtxHandle.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fservices%2FtxHandle.ts?ref=21a5333e024893d294a1042f7633fa751fc06dae",
-        "patch": "@@ -1,9 +1,8 @@\n import { Haptics } from \"@capacitor/haptics\";\n \n-import { useActivityLog } from \"@/composables/useActivityLog\";\n+import { activityLog } from \"@/composables/useActivityLog\";\n import { notifyLocal } from \"@/services/notifyLocal\";\n \n-const { addActivity } = useActivityLog();\n let id: number;\n \n /**\n@@ -20,7 +19,7 @@ export async function txHandle(incoming: string): Promise<void> {\n \t\tcase \"TRIGGER.LOW\": {\n \t\t\tid = (Date.now() % 2_147_483_647) + 1;\n \n-\t\t\taddActivity(\"triggered\", id);\n+\t\t\tactivityLog.addActivity(\"triggered\", id);\n \t\t\tawait notifyLocal(\n \t\t\t\tid,\n \t\t\t\t\"Zipo triggered\","
-      },
-      {
-        "sha": "d020ed2e555f1ae3ef2a0085ba0d72eb57c77a4d",
-        "filename": "src/stores/connectivity.ts",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 2,
-        "changes": 3,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/21a5333e024893d294a1042f7633fa751fc06dae/src%2Fstores%2Fconnectivity.ts",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/21a5333e024893d294a1042f7633fa751fc06dae/src%2Fstores%2Fconnectivity.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fstores%2Fconnectivity.ts?ref=21a5333e024893d294a1042f7633fa751fc06dae",
-        "patch": "@@ -3,12 +3,11 @@ import { BleClient, type BleDevice } from \"@capacitor-community/bluetooth-le\";\n import { defineStore } from \"pinia\";\n import { ref } from \"vue\";\n \n-import { useActivityLog } from \"@/composables/useActivityLog\";\n+import { activityLog } from \"@/composables/useActivityLog\";\n import { characteristics } from \"@/services/characteristics\";\n import { keepAlive } from \"@/services/keepAlive\";\n import { SERVICE_UUID } from \"@/services/uuids\";\n \n-const activityLog = useActivityLog();\n let timer: ReturnType<typeof setTimeout> | undefined;\n \n export const useConnectivityStore = defineStore(\"connectivity\", () => {"
-      }
-    ]
-  },
-  {
-    "sha": "881bfd97fae89eb644a1190541d8cd8db4d31135",
-    "node_id": "C_kwDOVd-iudoAKDg4MWJmZDk3ZmFlODllYjY0NGExMTkwNTQxZDhjZDhkYjRkMzExMzU",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-11-22T05:30:54Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-11-22T05:30:54Z"
-      },
-      "message": "chore: migrate pre-commit hooks to Lefthook [skip ci] (#68)\n\n- replace Husky and lint-staged with Lefthook.",
-      "tree": {
-        "sha": "aa48f2192b0907dbad405c8b867d4430393c58ef",
-        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/aa48f2192b0907dbad405c8b867d4430393c58ef"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/881bfd97fae89eb644a1190541d8cd8db4d31135",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJrAn4OCRC1aQ7uu5UhlAAAfjsQACqqkrz2+yrnsAClPK4oklh8\n4ENJA6aB2JjGck1uS/IKUDjO4Kb9LCPqdRWXzP1rFfCDSK0g23TaLvmqCqHNB2+K\niH6FgkyTfO+X1GVNnwZ/WlucRbmA+dnzooWIB4S3bM1K3Srs/jd5w6HHAdTXLaRx\n9DUTukIFCD19sR9NPZAsT0krZ+6Ly6ZTeYtzHZn8LiMEjWKKPF1MTHtRWu6ioZTc\n39/sJCO98w3s335VP4oZXE0NZEuyVzW1R3Yv/SzfygvZx9HavTBsDO7KyFd5pW5a\n2otnwDafC85vvjNiLdukWTd1uj6oz+37PJvs2gswl1bDCUbtFHsX/7lXqowDEzon\nrhO/EGtKisDS9AGG2cwF5MrbHvDWkHtlzcN1B3izLgjSKdv9t/N0h6xwKFAfuJDM\ndFyHvSZlGjcTP2kSCXkob8SVTWf2YNwSYCfFGn0ag/EYq9Oq8HgjLjLeXyl0n0Ai\nzoj70bOyU5DWXh15WrqbddWKp/L/TXeFNk2lW6CIHl4BMgnu6X+VWVc5pJNv3ynf\nG9BCtjM5PWVWgns35Sj5BvKhdC3gmYYilMoi8uvvEHJLvOn5463mTFqYl7a7q6fK\nzcSd4dRHvMKlCJ+YCBbcCY2QueEiM2k5ZD5Ohje+DcEQBnzzOoMLWKm2biI0Ix70\nUb+GFTcIjLpOO0rO1az1\n=GfSG\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree aa48f2192b0907dbad405c8b867d4430393c58ef\nparent 2babdb5ee82695f81ead256da29dfe1c418518df\nauthor Mark Jerwin <git@jrwnnnn.me> 1795325454 +0800\ncommitter GitHub <noreply@github.com> 1795325454 +0800\n\nchore: migrate pre-commit hooks to Lefthook [skip ci] (#68)\n\n- replace Husky and lint-staged with Lefthook.",
-        "verified_at": "2026-11-22T05:30:55Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/881bfd97fae89eb644a1190541d8cd8db4d31135",
-    "html_url": "https://github.com/jrwnnnn/zipo/commit/881bfd97fae89eb644a1190541d8cd8db4d31135",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/881bfd97fae89eb644a1190541d8cd8db4d31135/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "2babdb5ee82695f81ead256da29dfe1c418518df",
-        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/2babdb5ee82695f81ead256da29dfe1c418518df",
-        "html_url": "https://github.com/jrwnnnn/zipo/commit/2babdb5ee82695f81ead256da29dfe1c418518df"
-      }
-    ],
-    "stats": {
-      "total": 399,
-      "additions": 193,
-      "deletions": 206
-    },
-    "files": [
-      {
-        "sha": "b808e0185a72d81fa20a4b530e9069d3272ff2a5",
-        "filename": ".husky/pre-commit",
-        "status": "removed",
-        "additions": 0,
-        "deletions": 3,
-        "changes": 3,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/2babdb5ee82695f81ead256da29dfe1c418518df/.husky%2Fpre-commit",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/2babdb5ee82695f81ead256da29dfe1c418518df/.husky%2Fpre-commit",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/.husky%2Fpre-commit?ref=2babdb5ee82695f81ead256da29dfe1c418518df",
-        "patch": "@@ -1,3 +0,0 @@\n-npx lint-staged\n-npm run eslint\n-npm run typecheck"
-      },
-      {
-        "sha": "be450737f86b143b7c90e1a97bf1947b23a597da",
-        "filename": "lefthook.yml",
-        "status": "added",
-        "additions": 10,
-        "deletions": 0,
-        "changes": 10,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/881bfd97fae89eb644a1190541d8cd8db4d31135/lefthook.yml",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/881bfd97fae89eb644a1190541d8cd8db4d31135/lefthook.yml",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/lefthook.yml?ref=881bfd97fae89eb644a1190541d8cd8db4d31135",
-        "patch": "@@ -0,0 +1,10 @@\n+pre-commit:\n+  parallel: false\n+  jobs:\n+    - run: npx eslint --fix {staged_files}\n+      glob: \"*.{astro,js,ts,tsx,vue}\"\n+      stage_fixed: true\n+\n+    - run: npx prettier --write {staged_files}\n+      glob: \"*.{cjs,css,html,js,json,md,mjs,ts,vue,yaml,yml}\"\n+      stage_fixed: true"
-      },
-      {
-        "sha": "8b00e123fa9ebe6fd0ddd4b328ceb190fa33c0d6",
-        "filename": "package-lock.json",
-        "status": "modified",
-        "additions": 179,
-        "deletions": 196,
-        "changes": 375,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/881bfd97fae89eb644a1190541d8cd8db4d31135/package-lock.json",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/881bfd97fae89eb644a1190541d8cd8db4d31135/package-lock.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/package-lock.json?ref=881bfd97fae89eb644a1190541d8cd8db4d31135",
-        "patch": "@@ -39,8 +39,7 @@\n \t\t\t\t\"eslint\": \"^10.13.0\",\n \t\t\t\t\"eslint-plugin-vue\": \"^10.11.1\",\n \t\t\t\t\"globals\": \"^17.13.0\",\n-\t\t\t\t\"husky\": \"^9.1.7\",\n-\t\t\t\t\"lint-staged\": \"^17.6.0\",\n+\t\t\t\t\"lefthook\": \"^2.2.2\",\n \t\t\t\t\"prettier\": \"^3.9.10\",\n \t\t\t\t\"prettier-plugin-tailwindcss\": \"^0.8.1\",\n \t\t\t\t\"tailwindcss\": \"^4.3.4\",\n@@ -1581,134 +1580,6 @@\n \t\t\t\t\"@capacitor/core\": \">=8.0.0\"\n \t\t\t}\n \t\t},\n-\t\t\"node_modules/@csstools/color-helpers\": {\n-\t\t\t\"version\": \"6.1.2\",\n-\t\t\t\"dev\": true,\n-\t\t\t\"funding\": [\n-\t\t\t\t{\n-\t\t\t\t\t\"type\": \"github\",\n-\t\t\t\t\t\"url\": \"https://github.com/sponsors/csstools\"\n-\t\t\t\t},\n-\t\t\t\t{\n-\t\t\t\t\t\"type\": \"opencollective\",\n-\t\t\t\t\t\"url\": \"https://opencollective.com/csstools\"\n-\t\t\t\t}\n-\t\t\t],\n-\t\t\t\"license\": \"MIT-0\",\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \">=20.19.0\"\n-\t\t\t}\n-\t\t},\n-\t\t\"node_modules/@csstools/css-calc\": {\n-\t\t\t\"version\": \"3.4.3\",\n-\t\t\t\"dev\": true,\n-\t\t\t\"funding\": [\n-\t\t\t\t{\n-\t\t\t\t\t\"type\": \"github\",\n-\t\t\t\t\t\"url\": \"https://github.com/sponsors/csstools\"\n-\t\t\t\t},\n-\t\t\t\t{\n-\t\t\t\t\t\"type\": \"opencollective\",\n-\t\t\t\t\t\"url\": \"https://opencollective.com/csstools\"\n-\t\t\t\t}\n-\t\t\t],\n-\t\t\t\"license\": \"MIT\",\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \">=20.19.0\"\n-\t\t\t},\n-\t\t\t\"peerDependencies\": {\n-\t\t\t\t\"@csstools/css-parser-algorithms\": \"^4.0.2\",\n-\t\t\t\t\"@csstools/css-tokenizer\": \"^4.0.2\"\n-\t\t\t}\n-\t\t},\n-\t\t\"node_modules/@csstools/css-color-parser\": {\n-\t\t\t\"version\": \"4.2.7\",\n-\t\t\t\"dev\": true,\n-\t\t\t\"funding\": [\n-\t\t\t\t{\n-\t\t\t\t\t\"type\": \"github\",\n-\t\t\t\t\t\"url\": \"https://github.com/sponsors/csstools\"\n-\t\t\t\t},\n-\t\t\t\t{\n-\t\t\t\t\t\"type\": \"opencollective\",\n-\t\t\t\t\t\"url\": \"https://opencollective.com/csstools\"\n-\t\t\t\t}\n-\t\t\t],\n-\t\t\t\"license\": \"MIT\",\n-\t\t\t\"dependencies\": {\n-\t\t\t\t\"@csstools/color-helpers\": \"^6.1.2\",\n-\t\t\t\t\"@csstools/css-calc\": \"^3.4.3\"\n-\t\t\t},\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \">=20.19.0\"\n-\t\t\t},\n-\t\t\t\"peerDependencies\": {\n-\t\t\t\t\"@csstools/css-parser-algorithms\": \"^4.0.2\",\n-\t\t\t\t\"@csstools/css-tokenizer\": \"^4.0.2\"\n-\t\t\t}\n-\t\t},\n-\t\t\"node_modules/@csstools/css-parser-algorithms\": {\n-\t\t\t\"version\": \"4.0.2\",\n-\t\t\t\"dev\": true,\n-\t\t\t\"funding\": [\n-\t\t\t\t{\n-\t\t\t\t\t\"type\": \"github\",\n-\t\t\t\t\t\"url\": \"https://github.com/sponsors/csstools\"\n-\t\t\t\t},\n-\t\t\t\t{\n-\t\t\t\t\t\"type\": \"opencollective\",\n-\t\t\t\t\t\"url\": \"https://opencollective.com/csstools\"\n-\t\t\t\t}\n-\t\t\t],\n-\t\t\t\"license\": \"MIT\",\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \">=20.19.0\"\n-\t\t\t},\n-\t\t\t\"peerDependencies\": {\n-\t\t\t\t\"@csstools/css-tokenizer\": \"^4.0.2\"\n-\t\t\t}\n-\t\t},\n-\t\t\"node_modules/@csstools/css-syntax-patches-for-csstree\": {\n-\t\t\t\"version\": \"1.1.16\",\n-\t\t\t\"dev\": true,\n-\t\t\t\"funding\": [\n-\t\t\t\t{\n-\t\t\t\t\t\"type\": \"github\",\n-\t\t\t\t\t\"url\": \"https://github.com/sponsors/csstools\"\n-\t\t\t\t},\n-\t\t\t\t{\n-\t\t\t\t\t\"type\": \"opencollective\",\n-\t\t\t\t\t\"url\": \"https://opencollective.com/csstools\"\n-\t\t\t\t}\n-\t\t\t],\n-\t\t\t\"license\": \"MIT-0\",\n-\t\t\t\"peerDependencies\": {\n-\t\t\t\t\"css-tree\": \"^3.2.1\"\n-\t\t\t},\n-\t\t\t\"peerDependenciesMeta\": {\n-\t\t\t\t\"css-tree\": {\n-\t\t\t\t\t\"optional\": true\n-\t\t\t\t}\n-\t\t\t}\n-\t\t},\n-\t\t\"node_modules/@csstools/css-tokenizer\": {\n-\t\t\t\"version\": \"4.0.2\",\n-\t\t\t\"dev\": true,\n-\t\t\t\"funding\": [\n-\t\t\t\t{\n-\t\t\t\t\t\"type\": \"github\",\n-\t\t\t\t\t\"url\": \"https://github.com/sponsors/csstools\"\n-\t\t\t\t},\n-\t\t\t\t{\n-\t\t\t\t\t\"type\": \"opencollective\",\n-\t\t\t\t\t\"url\": \"https://opencollective.com/csstools\"\n-\t\t\t\t}\n-\t\t\t],\n-\t\t\t\"license\": \"MIT\",\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \">=20.19.0\"\n-\t\t\t}\n-\t\t},\n \t\t\"node_modules/@emnapi/core\": {\n \t\t\t\"version\": \"1.10.0\",\n \t\t\t\"resolved\": \"https://registry.npmjs.org/@emnapi/core/-/core-1.10.0.tgz\",\n@@ -5360,20 +5231,6 @@\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"MIT\"\n \t\t},\n-\t\t\"node_modules/husky\": {\n-\t\t\t\"version\": \"9.1.7\",\n-\t\t\t\"dev\": true,\n-\t\t\t\"license\": \"MIT\",\n-\t\t\t\"bin\": {\n-\t\t\t\t\"husky\": \"bin.js\"\n-\t\t\t},\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \">=18\"\n-\t\t\t},\n-\t\t\t\"funding\": {\n-\t\t\t\t\"url\": \"https://github.com/sponsors/typicode\"\n-\t\t\t}\n-\t\t},\n \t\t\"node_modules/ignore\": {\n \t\t\t\"version\": \"7.0.14\",\n \t\t\t\"dev\": true,\n@@ -5561,6 +5418,184 @@\n \t\t\t\t\"node\": \">=6\"\n \t\t\t}\n \t\t},\n+\t\t\"node_modules/lefthook\": {\n+\t\t\t\"version\": \"2.2.2\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/lefthook/-/lefthook-2.2.2.tgz\",\n+\t\t\t\"integrity\": \"sha512-37fYHAhL12r1twaEV0PA5TwoIT491eTGGYjhhXxlYNMq3DSkiGZBQ++Jfk5maXj0vq52NRauLtMikBKtbNJs3Q==\",\n+\t\t\t\"dev\": true,\n+\t\t\t\"hasInstallScript\": true,\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"bin\": {\n+\t\t\t\t\"lefthook\": \"bin/index.js\"\n+\t\t\t},\n+\t\t\t\"optionalDependencies\": {\n+\t\t\t\t\"lefthook-android-arm64\": \"2.2.2\",\n+\t\t\t\t\"lefthook-darwin-arm64\": \"2.2.2\",\n+\t\t\t\t\"lefthook-darwin-x64\": \"2.2.2\",\n+\t\t\t\t\"lefthook-freebsd-arm64\": \"2.2.2\",\n+\t\t\t\t\"lefthook-freebsd-x64\": \"2.2.2\",\n+\t\t\t\t\"lefthook-linux-arm64\": \"2.2.2\",\n+\t\t\t\t\"lefthook-linux-x64\": \"2.2.2\",\n+\t\t\t\t\"lefthook-openbsd-arm64\": \"2.2.2\",\n+\t\t\t\t\"lefthook-openbsd-x64\": \"2.2.2\",\n+\t\t\t\t\"lefthook-windows-arm64\": \"2.2.2\",\n+\t\t\t\t\"lefthook-windows-x64\": \"2.2.2\"\n+\t\t\t}\n+\t\t},\n+\t\t\"node_modules/lefthook-android-arm64\": {\n+\t\t\t\"version\": \"2.2.2\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/lefthook-android-arm64/-/lefthook-android-arm64-2.2.2.tgz\",\n+\t\t\t\"integrity\": \"sha512-wb9rQQFLX7u1dJLxvMrq9VUfMYi5kxM7tJQ6Y4mWEOwaU+SmIm2wjoT/nromKq27Y8fh2Qd7FgCD3G1wfW8CnQ==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"arm64\"\n+\t\t\t],\n+\t\t\t\"dev\": true,\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"android\"\n+\t\t\t]\n+\t\t},\n+\t\t\"node_modules/lefthook-darwin-arm64\": {\n+\t\t\t\"version\": \"2.2.2\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/lefthook-darwin-arm64/-/lefthook-darwin-arm64-2.2.2.tgz\",\n+\t\t\t\"integrity\": \"sha512-6V8D3bLnD/60Xhqn0o2EQD6H3Fe/U9LGkt4WF1O/3eBHbux+5ZJqoH0hfrC+Bi9Dy1Ve1AWxiAY7U2asYl8qVA==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"arm64\"\n+\t\t\t],\n+\t\t\t\"dev\": true,\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"darwin\"\n+\t\t\t]\n+\t\t},\n+\t\t\"node_modules/lefthook-darwin-x64\": {\n+\t\t\t\"version\": \"2.2.2\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/lefthook-darwin-x64/-/lefthook-darwin-x64-2.2.2.tgz\",\n+\t\t\t\"integrity\": \"sha512-fH/kArZ9ZZ65wCFtvBMgGcq25qwQpkQ5jp93ba+8wpjgxxzjczYGluwHvM/NQDJWLOFXuKXW0yFs76SramQkyQ==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"x64\"\n+\t\t\t],\n+\t\t\t\"dev\": true,\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"darwin\"\n+\t\t\t]\n+\t\t},\n+\t\t\"node_modules/lefthook-freebsd-arm64\": {\n+\t\t\t\"version\": \"2.2.2\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/lefthook-freebsd-arm64/-/lefthook-freebsd-arm64-2.2.2.tgz\",\n+\t\t\t\"integrity\": \"sha512-MCRsU01ju989QQffOfS3gCeFfyVDXs5B/FzR65fmrNvqcxb98fldvfzzoAbnK2q6SBJlRT3QT1tNEMCxddCwlA==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"arm64\"\n+\t\t\t],\n+\t\t\t\"dev\": true,\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"freebsd\"\n+\t\t\t]\n+\t\t},\n+\t\t\"node_modules/lefthook-freebsd-x64\": {\n+\t\t\t\"version\": \"2.2.2\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/lefthook-freebsd-x64/-/lefthook-freebsd-x64-2.2.2.tgz\",\n+\t\t\t\"integrity\": \"sha512-LkKuJU0S2oLimeoHwPTy1TLWB6GcN0t5lLxiXNlsBKUkr6R47QRcvPMZMoXmu3IetQtd+WliXMLE8qTwi2fqBg==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"x64\"\n+\t\t\t],\n+\t\t\t\"dev\": true,\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"freebsd\"\n+\t\t\t]\n+\t\t},\n+\t\t\"node_modules/lefthook-linux-arm64\": {\n+\t\t\t\"version\": \"2.2.2\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/lefthook-linux-arm64/-/lefthook-linux-arm64-2.2.2.tgz\",\n+\t\t\t\"integrity\": \"sha512-d+HFtS2DEKaOnD7vRU0tUz8pNgHwsUYmQ22+1dyXpOrXGyzNXR0AqX5KsIRF36JGhVvO5X5Anw5QYgR3mxVSuA==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"arm64\"\n+\t\t\t],\n+\t\t\t\"dev\": true,\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"linux\"\n+\t\t\t]\n+\t\t},\n+\t\t\"node_modules/lefthook-linux-x64\": {\n+\t\t\t\"version\": \"2.2.2\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/lefthook-linux-x64/-/lefthook-linux-x64-2.2.2.tgz\",\n+\t\t\t\"integrity\": \"sha512-N/OlQyAhcU6RAXjrwFxLsh70sn96rBoi+XkuLJ8CVBkk9Ci3VDXQayDZTNz5B1xML8RwoMcV8Wblniy1xFOmSA==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"x64\"\n+\t\t\t],\n+\t\t\t\"dev\": true,\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"linux\"\n+\t\t\t]\n+\t\t},\n+\t\t\"node_modules/lefthook-openbsd-arm64\": {\n+\t\t\t\"version\": \"2.2.2\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/lefthook-openbsd-arm64/-/lefthook-openbsd-arm64-2.2.2.tgz\",\n+\t\t\t\"integrity\": \"sha512-6G/gKXcpIwC+XcODg7ELZYP/hIrVIHQxhy2GoRdVyecmpGMFj+BZo3iqcUmeWusQMuL+UdNexbkrUaeJalIkNw==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"arm64\"\n+\t\t\t],\n+\t\t\t\"dev\": true,\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"openbsd\"\n+\t\t\t]\n+\t\t},\n+\t\t\"node_modules/lefthook-openbsd-x64\": {\n+\t\t\t\"version\": \"2.2.2\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/lefthook-openbsd-x64/-/lefthook-openbsd-x64-2.2.2.tgz\",\n+\t\t\t\"integrity\": \"sha512-eMJGi3/tqKEqu7XCZlqwQWRtK5JlL/9diaqqgRlEdlRD7GxwzHZN21z6awbITum9emea3lALvXFe6V8odQLGOA==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"x64\"\n+\t\t\t],\n+\t\t\t\"dev\": true,\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"openbsd\"\n+\t\t\t]\n+\t\t},\n+\t\t\"node_modules/lefthook-windows-arm64\": {\n+\t\t\t\"version\": \"2.2.2\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/lefthook-windows-arm64/-/lefthook-windows-arm64-2.2.2.tgz\",\n+\t\t\t\"integrity\": \"sha512-4P1EaQb5xG1zhYD1RLJ6TEGdFkmHkB+Slqx6yRDPKuBDNxMiD0+kTAAdUY2E8xPuRR35xHpVPR+b3/HtzPrjQQ==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"arm64\"\n+\t\t\t],\n+\t\t\t\"dev\": true,\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"win32\"\n+\t\t\t]\n+\t\t},\n+\t\t\"node_modules/lefthook-windows-x64\": {\n+\t\t\t\"version\": \"2.2.2\",\n+\t\t\t\"resolved\": \"https://registry.npmjs.org/lefthook-windows-x64/-/lefthook-windows-x64-2.2.2.tgz\",\n+\t\t\t\"integrity\": \"sha512-9Ck4zancQilBfXT3ZeRipm7Lcq4RQfxyMpy8SAVINw0t/BrbjsT25V46ZuziERcwdajnE4myfMzC33GoCBwr7g==\",\n+\t\t\t\"cpu\": [\n+\t\t\t\t\"x64\"\n+\t\t\t],\n+\t\t\t\"dev\": true,\n+\t\t\t\"license\": \"MIT\",\n+\t\t\t\"optional\": true,\n+\t\t\t\"os\": [\n+\t\t\t\t\"win32\"\n+\t\t\t]\n+\t\t},\n \t\t\"node_modules/levn\": {\n \t\t\t\"version\": \"0.4.1\",\n \t\t\t\"dev\": true,\n@@ -5831,28 +5866,6 @@\n \t\t\t\t\"url\": \"https://opencollective.com/parcel\"\n \t\t\t}\n \t\t},\n-\t\t\"node_modules/lint-staged\": {\n-\t\t\t\"version\": \"17.6.0\",\n-\t\t\t\"dev\": true,\n-\t\t\t\"license\": \"MIT\",\n-\t\t\t\"dependencies\": {\n-\t\t\t\t\"picomatch\": \"^4.0.7\",\n-\t\t\t\t\"string-argv\": \"^0.3.2\",\n-\t\t\t\t\"tinyexec\": \"^1.3.1\"\n-\t\t\t},\n-\t\t\t\"bin\": {\n-\t\t\t\t\"lint-staged\": \"bin/lint-staged.js\"\n-\t\t\t},\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \">=22.22.1\"\n-\t\t\t},\n-\t\t\t\"funding\": {\n-\t\t\t\t\"url\": \"https://opencollective.com/lint-staged\"\n-\t\t\t},\n-\t\t\t\"optionalDependencies\": {\n-\t\t\t\t\"yaml\": \"^2.9.1\"\n-\t\t\t}\n-\t\t},\n \t\t\"node_modules/local-pkg\": {\n \t\t\t\"version\": \"1.2.1\",\n \t\t\t\"license\": \"MIT\",\n@@ -6863,14 +6876,6 @@\n \t\t\t\t\"safe-buffer\": \"~5.2.0\"\n \t\t\t}\n \t\t},\n-\t\t\"node_modules/string-argv\": {\n-\t\t\t\"version\": \"0.3.2\",\n-\t\t\t\"dev\": true,\n-\t\t\t\"license\": \"MIT\",\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \">=0.6.19\"\n-\t\t\t}\n-\t\t},\n \t\t\"node_modules/string-width\": {\n \t\t\t\"version\": \"4.2.3\",\n \t\t\t\"dev\": true,\n@@ -6983,14 +6988,6 @@\n \t\t\t\t\"readable-stream\": \"3\"\n \t\t\t}\n \t\t},\n-\t\t\"node_modules/tinyexec\": {\n-\t\t\t\"version\": \"1.3.1\",\n-\t\t\t\"dev\": true,\n-\t\t\t\"license\": \"MIT\",\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \">=18\"\n-\t\t\t}\n-\t\t},\n \t\t\"node_modules/tinyglobby\": {\n \t\t\t\"version\": \"0.2.17\",\n \t\t\t\"license\": \"MIT\",\n@@ -7611,20 +7608,6 @@\n \t\t\t\"dev\": true,\n \t\t\t\"license\": \"ISC\"\n \t\t},\n-\t\t\"node_modules/yaml\": {\n-\t\t\t\"version\": \"2.9.1\",\n-\t\t\t\"license\": \"ISC\",\n-\t\t\t\"optional\": true,\n-\t\t\t\"bin\": {\n-\t\t\t\t\"yaml\": \"bin.mjs\"\n-\t\t\t},\n-\t\t\t\"engines\": {\n-\t\t\t\t\"node\": \">= 14.6\"\n-\t\t\t},\n-\t\t\t\"funding\": {\n-\t\t\t\t\"url\": \"https://github.com/sponsors/eemeli\"\n-\t\t\t}\n-\t\t},\n \t\t\"node_modules/yauzl\": {\n \t\t\t\"version\": \"2.10.0\",\n \t\t\t\"dev\": true,"
-      },
-      {
-        "sha": "7f24dc7a4619b3c6142cf28143cebb33bb77ef0c",
-        "filename": "package.json",
-        "status": "modified",
-        "additions": 4,
-        "deletions": 7,
-        "changes": 11,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/881bfd97fae89eb644a1190541d8cd8db4d31135/package.json",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/881bfd97fae89eb644a1190541d8cd8db4d31135/package.json",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/package.json?ref=881bfd97fae89eb644a1190541d8cd8db4d31135",
-        "patch": "@@ -9,14 +9,12 @@\n \t\t\"android:dev\": \"ionic cap run android -l --external\",\n \t\t\"lint\": \"npm run eslint && npm run format:check\",\n \t\t\"eslint\": \"eslint .\",\n+\t\t\"eslint:fix\": \"eslint . --fix\",\n \t\t\"format\": \"prettier --write .\",\n \t\t\"format:check\": \"prettier --check .\",\n+\t\t\"format:fix\": \"prettier --write .\",\n \t\t\"typecheck\": \"vue-tsc --noEmit\",\n-\t\t\"sync\": \"npx cap sync android\",\n-\t\t\"prepare\": \"husky\"\n-\t},\n-\t\"lint-staged\": {\n-\t\t\"*.{cjs,css,html,js,json,md,mjs,ts,vue,yaml,yml}\": \"prettier --write\"\n+\t\t\"sync\": \"npx cap sync android\"\n \t},\n \t\"dependencies\": {\n \t\t\"@capacitor-community/bluetooth-le\": \"^8.3.0\",\n@@ -50,8 +48,7 @@\n \t\t\"eslint\": \"^10.13.0\",\n \t\t\"eslint-plugin-vue\": \"^10.11.1\",\n \t\t\"globals\": \"^17.13.0\",\n-\t\t\"husky\": \"^9.1.7\",\n-\t\t\"lint-staged\": \"^17.6.0\",\n+\t\t\"lefthook\": \"^2.2.2\",\n \t\t\"prettier\": \"^3.9.10\",\n \t\t\"prettier-plugin-tailwindcss\": \"^0.8.1\",\n \t\t\"tailwindcss\": \"^4.3.4\","
       }
     ]
   }
