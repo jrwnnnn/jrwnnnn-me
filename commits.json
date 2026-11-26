@@ -1,36 +1,36 @@
 [
   {
-    "sha": "fcd9ee54ffee1f4c633818b02c6eb09049c536ee",
-    "node_id": "C_kwDOVd-iudoAKGZjZDllZTU0ZmZlZTFmNGM2MzM4MThiMDJjNmViMDkwNDljNTM2ZWU",
+    "sha": "404c42f68dbe7b8799f3906372c250d77667fcd1",
+    "node_id": "C_kwDOVd-iudoAKDQwNGM0MmY2OGRiZTdiODc5OWYzOTA2MzcyYzI1MGQ3NzY2N2ZjZDE",
     "commit": {
       "author": {
         "name": "Mark Jerwin",
         "email": "git@jrwnnnn.me",
-        "date": "2026-11-26T05:07:59Z"
+        "date": "2026-11-26T08:41:58Z"
       },
       "committer": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-11-26T05:08:55Z"
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-11-26T08:41:58Z"
       },
-      "message": "feat: update switch cases for alert states (#84)",
+      "message": "feat: disarm before BLE disconnect (#92)",
       "tree": {
-        "sha": "33091245b753d0584387814b8e349eecc746a76f",
-        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/33091245b753d0584387814b8e349eecc746a76f"
+        "sha": "ac9a7ef4778a6176a127dd36d719e79898c21167",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/ac9a7ef4778a6176a127dd36d719e79898c21167"
       },
-      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/fcd9ee54ffee1f4c633818b02c6eb09049c536ee",
+      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/404c42f68dbe7b8799f3906372c250d77667fcd1",
       "comment_count": 0,
       "verification": {
         "verified": true,
         "reason": "valid",
-        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQMBpmrer3jyds1dpNZlguL9oOYsVcT1Jh+DYGkK361GmFLLSX+qWX3/uGZDvsvJpz2\naMglZTgy3rexGlN2JrFAA=\n-----END SSH SIGNATURE-----",
-        "payload": "tree 33091245b753d0584387814b8e349eecc746a76f\nparent dadbddebaddbd623598501905bdc098b3f700e5b\nauthor Mark Jerwin <git@jrwnnnn.me> 1795669679 +0800\ncommitter Mark Jerwin <git@jrwnnnn.me> 1795669735 +0800\n\nfeat: update switch cases for alert states (#84)\n",
-        "verified_at": "2026-11-26T05:08:59Z"
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJrB/DWCRC1aQ7uu5UhlAAAknUQAGI0+GLscFAmdUwhoRazhQcS\nNHWG/5UnGuQqmAqiWS9a7R2/cjL06T3sUiaQFaKQDRzN+xguy669/HFNz6nNESDe\n3umRT/CfIeppNLd6SwM6FV73YK7ks2cF2/mvlE374AMyxrVfWM12JinmfqnoUUCg\nbg9aUwqfP88M3Mg8wgU04jMlgc0dnf0Lxva3E3/FKzGOOa+psndHttprFbrnfqhF\nopqPo4PdyJaYuNXgBVQvyFpEOdyONL3lZl/kjVBcVkDWOX5j7fLeFwr/TROgO43d\n6sSVpskJ0NF1wbU6JFm0U/yYs3q7FakIEwQiX9PXM37jWld429uMoIuZYa+0zYI4\nYPcxuKiai17XRd+9fgLcLoBstEzlx2OsAbEIwczJwSDTePHzLwotE4RcVlGOouny\nnZPQRopz4d8VXg7sEN/aT15EN8M2zzIX/Edo2p4AF/SuYCOa5iKvk/bBJZ/U3ypn\nJZ+GziEMWubKUNx4/dZ+d/IcEek28wux/hW/9jwDyvFV5mZTOKAHUFIhi68hkW5U\nC45AYZdAmYi2HQOACoFJdeNKhJe58xiF/GBmnp6Hdar4ET290eua2H+KCqXoSm0l\nQ2oszriQugCckD1XvlDz5aTSrDKpbm6B/DxmYLAJ+kyQtb2rvduxvxweXWQuMgPV\nm9viX26ZwhFOa16UrdtU\n=VvAC\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree ac9a7ef4778a6176a127dd36d719e79898c21167\nparent 98bf1eb65e55156e2bd710a2906750652dbf3e09\nauthor Mark Jerwin <git@jrwnnnn.me> 1795682518 +0800\ncommitter GitHub <noreply@github.com> 1795682518 +0800\n\nfeat: disarm before BLE disconnect (#92)",
+        "verified_at": "2026-11-26T08:41:58Z"
       }
     },
-    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/fcd9ee54ffee1f4c633818b02c6eb09049c536ee",
-    "html_url": "https://github.com/jrwnnnn/zipo/commit/fcd9ee54ffee1f4c633818b02c6eb09049c536ee",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/fcd9ee54ffee1f4c633818b02c6eb09049c536ee/comments",
+    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/404c42f68dbe7b8799f3906372c250d77667fcd1",
+    "html_url": "https://github.com/jrwnnnn/zipo/commit/404c42f68dbe7b8799f3906372c250d77667fcd1",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/404c42f68dbe7b8799f3906372c250d77667fcd1/comments",
     "author": {
       "login": "jrwnnnn",
       "id": 136870415,
@@ -53,388 +53,198 @@
       "site_admin": false
     },
     "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
       "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
       "type": "User",
       "user_view_type": "public",
       "site_admin": false
     },
     "parents": [
       {
-        "sha": "dadbddebaddbd623598501905bdc098b3f700e5b",
-        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/dadbddebaddbd623598501905bdc098b3f700e5b",
-        "html_url": "https://github.com/jrwnnnn/zipo/commit/dadbddebaddbd623598501905bdc098b3f700e5b"
+        "sha": "98bf1eb65e55156e2bd710a2906750652dbf3e09",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/98bf1eb65e55156e2bd710a2906750652dbf3e09",
+        "html_url": "https://github.com/jrwnnnn/zipo/commit/98bf1eb65e55156e2bd710a2906750652dbf3e09"
       }
     ],
     "stats": {
       "total": 4,
-      "additions": 2,
-      "deletions": 2
-    },
-    "files": [
-      {
-        "sha": "ed94aaed90bc8d8cf073098251b3c7c0b22b9ea2",
-        "filename": "src/services/txHandle.ts",
-        "status": "modified",
-        "additions": 2,
-        "deletions": 2,
-        "changes": 4,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/fcd9ee54ffee1f4c633818b02c6eb09049c536ee/src%2Fservices%2FtxHandle.ts",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/fcd9ee54ffee1f4c633818b02c6eb09049c536ee/src%2Fservices%2FtxHandle.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fservices%2FtxHandle.ts?ref=fcd9ee54ffee1f4c633818b02c6eb09049c536ee",
-        "patch": "@@ -16,12 +16,12 @@ export async function txHandle(incoming: string): Promise<void> {\n \tconst alertMode = useAlertModeStore();\n \n \tswitch (incoming) {\n-\t\tcase \"STATE.ARMED\": {\n+\t\tcase \"ARM\": {\n \t\t\talertState.isArmed = true;\n \t\t\tbreak;\n \t\t}\n \n-\t\tcase \"STATE.DISARMED\": {\n+\t\tcase \"DISARM\": {\n \t\t\talertState.isArmed = false;\n \t\t\tbreak;\n \t\t}"
-      }
-    ]
-  },
-  {
-    "sha": "dadbddebaddbd623598501905bdc098b3f700e5b",
-    "node_id": "C_kwDOVd-iudoAKGRhZGJkZGViYWRkYmQ2MjM1OTg1MDE5MDViZGMwOThiM2Y3MDBlNWI",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-11-26T05:03:08Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-11-26T05:03:08Z"
-      },
-      "message": "feat: disconnect when keep-alive notification is tapped (#83)",
-      "tree": {
-        "sha": "e3b08b5c3b72aa30e2f3f3c1c9e6eecc6a579903",
-        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/e3b08b5c3b72aa30e2f3f3c1c9e6eecc6a579903"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/dadbddebaddbd623598501905bdc098b3f700e5b",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJrB72MCRC1aQ7uu5UhlAAAyaEQAFgiVcR/+IYNf3+A1RmeMkst\nw2rSoHKE24DNKOR4EQz8L2hWTjmLRzf5ZAcsOsSblPorQcuSfTlx9isgBhxYDJ5I\n8KVkHuQhfxuXyaEZRGcSAHp5MgIutDVLBglSZk7kXntitEUX3q8qC+drdRo8wsU5\nVkdzJZWwWRewjJoTGrMwnq4VLHVePqU96NBBOBQ5sE74HBRvb8BgoWJFDJMIsl10\nzDVqWTrojLN8NVkFykhUNHGnY8TpmJnxvKFvKDYBURyM+oMnMn2To7HCQxdUsjP5\nuHYQZ0N464FRQbORHfg8PlvA7xBPpzelWvLU9ZmYB8wr2JDu1EAnr3riu05BloLR\nanaX2u1T3iri5n+eWJZFFVEiCogrZTSYkX7FGRInZqgbtS5OJdq/9/5eEM4+fRgD\nB6XaWNkopD0dAEWa8m9KDnp5B9Y6gKqfXMW9M4C6v6UQsXe8ay/Jgjm5g9mvnXG+\nWECx7VZTfjVCWgI4tHMNskCOuH1JVpZLbQe5//mHR+ci4y+qtwWtbpqppa5/W5t4\nIQIKtHonacx9Vv3g/ydbCp7+DHikV5weQDaB9PdLEW3bBDB1NESu1qc+sevhEX4h\nKNgMRGwSGh7iRvjssXA723vRXiI9CewAgOKTGsCHRgYNwWiQ2yqk8jY5SHjcrTvo\nxXpDlZ9gu3N+ZfkgtLTv\n=m3Zy\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree e3b08b5c3b72aa30e2f3f3c1c9e6eecc6a579903\nparent 232bf7260dfebfe61cb05e2acf5251a689c26bb7\nauthor Mark Jerwin <git@jrwnnnn.me> 1795669388 +0800\ncommitter GitHub <noreply@github.com> 1795669388 +0800\n\nfeat: disconnect when keep-alive notification is tapped (#83)",
-        "verified_at": "2026-11-26T05:03:09Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/dadbddebaddbd623598501905bdc098b3f700e5b",
-    "html_url": "https://github.com/jrwnnnn/zipo/commit/dadbddebaddbd623598501905bdc098b3f700e5b",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/dadbddebaddbd623598501905bdc098b3f700e5b/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "232bf7260dfebfe61cb05e2acf5251a689c26bb7",
-        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/232bf7260dfebfe61cb05e2acf5251a689c26bb7",
-        "html_url": "https://github.com/jrwnnnn/zipo/commit/232bf7260dfebfe61cb05e2acf5251a689c26bb7"
-      }
-    ],
-    "stats": {
-      "total": 10,
       "additions": 4,
-      "deletions": 6
-    },
-    "files": [
-      {
-        "sha": "426ffe7cadb756e4b75c40ba0e85eb2bd9db8fa8",
-        "filename": "src/services/keepAlive.ts",
-        "status": "modified",
-        "additions": 4,
-        "deletions": 6,
-        "changes": 10,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/dadbddebaddbd623598501905bdc098b3f700e5b/src%2Fservices%2FkeepAlive.ts",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/dadbddebaddbd623598501905bdc098b3f700e5b/src%2Fservices%2FkeepAlive.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fservices%2FkeepAlive.ts?ref=dadbddebaddbd623598501905bdc098b3f700e5b",
-        "patch": "@@ -8,12 +8,10 @@ import { useConnectivityStore } from \"@/stores/connectivity\";\n \n const KEEP_ALIVE_CHANNEL_ID = \"keepAlive\";\n \n-ForegroundService.addListener(\"buttonClicked\", async (e) => {\n-\tif (e.buttonId === 1) {\n-\t\tconst connectivity = useConnectivityStore();\n-\t\tawait keepAlive.stop();\n-\t\tawait connectivity.disconnect();\n-\t}\n+ForegroundService.addListener(\"notificationTapped\", async () => {\n+\tconst connectivity = useConnectivityStore();\n+\tawait keepAlive.stop();\n+\tawait connectivity.disconnect();\n });\n \n export const keepAlive = {"
-      }
-    ]
-  },
-  {
-    "sha": "232bf7260dfebfe61cb05e2acf5251a689c26bb7",
-    "node_id": "C_kwDOVd-iudoAKDIzMmJmNzI2MGRmZWJmZTYxY2IwNWUyYWNmNTI1MWE2ODljMjZiYjc",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-11-26T04:57:38Z"
-      },
-      "committer": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-11-26T04:57:38Z"
-      },
-      "message": "Revert \"feat: disarm on trigger (#82)\"\n\nThis reverts commit 0c215ace1bc1a7f7a651d2123c341d3d66b1ecbe.",
-      "tree": {
-        "sha": "052e4a742c5d48cbdd3e6b642b0989d852edff6a",
-        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/052e4a742c5d48cbdd3e6b642b0989d852edff6a"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/232bf7260dfebfe61cb05e2acf5251a689c26bb7",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQHwG68JdAM2LMQ+C11PyXS4VTaZlOCKhWzMafLCeJpB+JjYxnWuy82NMtaoKoSW9HY\nS876GS0V2pNuZ6PmX9TQI=\n-----END SSH SIGNATURE-----",
-        "payload": "tree 052e4a742c5d48cbdd3e6b642b0989d852edff6a\nparent 0c215ace1bc1a7f7a651d2123c341d3d66b1ecbe\nauthor Mark Jerwin <git@jrwnnnn.me> 1795669058 +0800\ncommitter Mark Jerwin <git@jrwnnnn.me> 1795669058 +0800\n\nRevert \"feat: disarm on trigger (#82)\"\n\nThis reverts commit 0c215ace1bc1a7f7a651d2123c341d3d66b1ecbe.\n",
-        "verified_at": "2026-11-26T04:57:42Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/232bf7260dfebfe61cb05e2acf5251a689c26bb7",
-    "html_url": "https://github.com/jrwnnnn/zipo/commit/232bf7260dfebfe61cb05e2acf5251a689c26bb7",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/232bf7260dfebfe61cb05e2acf5251a689c26bb7/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "0c215ace1bc1a7f7a651d2123c341d3d66b1ecbe",
-        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/0c215ace1bc1a7f7a651d2123c341d3d66b1ecbe",
-        "html_url": "https://github.com/jrwnnnn/zipo/commit/0c215ace1bc1a7f7a651d2123c341d3d66b1ecbe"
-      }
-    ],
-    "stats": {
-      "total": 2,
-      "additions": 0,
-      "deletions": 2
-    },
-    "files": [
-      {
-        "sha": "0ee1498f878870bf33e65490c2afc7c08c9c3349",
-        "filename": "src/services/txHandle.ts",
-        "status": "modified",
-        "additions": 0,
-        "deletions": 2,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/232bf7260dfebfe61cb05e2acf5251a689c26bb7/src%2Fservices%2FtxHandle.ts",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/232bf7260dfebfe61cb05e2acf5251a689c26bb7/src%2Fservices%2FtxHandle.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fservices%2FtxHandle.ts?ref=232bf7260dfebfe61cb05e2acf5251a689c26bb7",
-        "patch": "@@ -42,8 +42,6 @@ export async function txHandle(incoming: string): Promise<void> {\n \t\t}\n \n \t\tcase \"TRIGGER.LOW\": {\n-\t\t\talertState.isArmed = false;\n-\n \t\t\tconst id = await activityLog.addActivity(\n \t\t\t\t\"triggered\",\n \t\t\t\tawait geolocation.getPosition(),"
-      }
-    ]
-  },
-  {
-    "sha": "0c215ace1bc1a7f7a651d2123c341d3d66b1ecbe",
-    "node_id": "C_kwDOVd-iudoAKDBjMjE1YWNlMWJjMWE3ZjdhNjUxZDIxMjNjMzQxZDNkNjZiMWVjYmU",
-    "commit": {
-      "author": {
-        "name": "Mark Jerwin",
-        "email": "git@jrwnnnn.me",
-        "date": "2026-11-26T04:55:13Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-11-26T04:55:13Z"
-      },
-      "message": "feat: disarm on trigger (#82)",
-      "tree": {
-        "sha": "4dc862789dbebf8130196ba07f887a3e9b299a52",
-        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/4dc862789dbebf8130196ba07f887a3e9b299a52"
-      },
-      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/0c215ace1bc1a7f7a651d2123c341d3d66b1ecbe",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJrB7uxCRC1aQ7uu5UhlAAARNcQAE0j/XU8iwMAm2WGYpDER5DP\n8W+TtuFjq9mmHYyQS3o5BKnvdytDe7m4WDRDg+SdQ3F99rwKNUEfAOd9ZgrRjaOy\n+IADqi+qpMEerq57xe8vxbK5GgFxgIm2nxvaX/S9QlDV35RpqhTK816dPodFc3WQ\n9NLjUXf/45fnPkfXZ12wb+/dSZSGG1GSBDKHMhw4UFDRZm4r50QxOwTYZmpQoSDj\nrD3IchNdLzqk4JyjcZgtTqp5pohLUm+qAAMbiSFd57oZia2FquGqgZ3WgyRhiABw\nfFhw7j4OouxCPIkCnBX/hfgWP2ui9SqwBnx/MxA8EE4YcbVwd7R75DXILJuIO6yl\nIGqW9r67m0o5b9ZryqcAoG9Uf3IBiRHpyTOfD/yDpahBtvLXeX57Oc3k3pfNNZ49\nX5Rj8tCmzabvN9Hop6b4OIsZtIgLOBGrnCRTM1Tn0qQVvnBJF+AQtKFjo9nnSRfy\neSU84ANYqyPCv72fRJk+7+xZbMV7GlZVQPmMLJp7oNRaB9AAAI8VvG4cW6zkV9Ch\nRoI0Mos+qmLzJskm9q4ihgUTQMssZdgg2j0rWXe6bEk7/GbVG1yyIhUdheNM9szX\nhQ5ZqLJCNxeBwHH2Y3zq/6LPBRbx9SKGn878btagsOV/bfLze6wz3S8RqKFZARpl\ndQWWC/KNYv80hmajO2gL\n=JuLB\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 4dc862789dbebf8130196ba07f887a3e9b299a52\nparent c0f55ef9f2e3fa1290598f0ce742a4215a4157f3\nauthor Mark Jerwin <git@jrwnnnn.me> 1795668913 +0800\ncommitter GitHub <noreply@github.com> 1795668913 +0800\n\nfeat: disarm on trigger (#82)",
-        "verified_at": "2026-11-26T04:55:14Z"
-      }
-    },
-    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/0c215ace1bc1a7f7a651d2123c341d3d66b1ecbe",
-    "html_url": "https://github.com/jrwnnnn/zipo/commit/0c215ace1bc1a7f7a651d2123c341d3d66b1ecbe",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/0c215ace1bc1a7f7a651d2123c341d3d66b1ecbe/comments",
-    "author": {
-      "login": "jrwnnnn",
-      "id": 136870415,
-      "node_id": "U_kgDOCCh6Dw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/jrwnnnn",
-      "html_url": "https://github.com/jrwnnnn",
-      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
-      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
-      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
-      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
-      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
-      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "c0f55ef9f2e3fa1290598f0ce742a4215a4157f3",
-        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/c0f55ef9f2e3fa1290598f0ce742a4215a4157f3",
-        "html_url": "https://github.com/jrwnnnn/zipo/commit/c0f55ef9f2e3fa1290598f0ce742a4215a4157f3"
-      }
-    ],
-    "stats": {
-      "total": 2,
-      "additions": 2,
       "deletions": 0
     },
     "files": [
       {
-        "sha": "d8476d10b0e82cf5658035af8673fedea630aaac",
-        "filename": "src/services/txHandle.ts",
+        "sha": "b10944471b78d1832e7742973f5267b7a3c89b29",
+        "filename": "src/stores/connectivity.ts",
         "status": "modified",
-        "additions": 2,
+        "additions": 4,
         "deletions": 0,
-        "changes": 2,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/0c215ace1bc1a7f7a651d2123c341d3d66b1ecbe/src%2Fservices%2FtxHandle.ts",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/0c215ace1bc1a7f7a651d2123c341d3d66b1ecbe/src%2Fservices%2FtxHandle.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fservices%2FtxHandle.ts?ref=0c215ace1bc1a7f7a651d2123c341d3d66b1ecbe",
-        "patch": "@@ -42,6 +42,8 @@ export async function txHandle(incoming: string): Promise<void> {\n \t\t}\n \n \t\tcase \"TRIGGER.LOW\": {\n+\t\t\talertState.isArmed = false;\n+\n \t\t\tconst id = await activityLog.addActivity(\n \t\t\t\t\"triggered\",\n \t\t\t\tawait geolocation.getPosition(),"
+        "changes": 4,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/404c42f68dbe7b8799f3906372c250d77667fcd1/src%2Fstores%2Fconnectivity.ts",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/404c42f68dbe7b8799f3906372c250d77667fcd1/src%2Fstores%2Fconnectivity.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fstores%2Fconnectivity.ts?ref=404c42f68dbe7b8799f3906372c250d77667fcd1",
+        "patch": "@@ -8,10 +8,12 @@ import { keepAlive } from \"@/services/keepAlive\";\n import { sync } from \"@/services/sync\";\n import { SERVICE_UUID } from \"@/services/uuids\";\n import { activityLog } from \"@/stores/activityLog\";\n+import { useAlertStateStore } from \"@/stores/alertState\";\n \n let timer: ReturnType<typeof setTimeout> | undefined;\n \n export const useConnectivityStore = defineStore(\"connectivity\", () => {\n+\tconst alertState = useAlertStateStore();\n \tconst state = ref<\"connected\" | \"connecting\" | \"idle\">(\"idle\");\n \tconst esp = ref<BleDevice | null>(null);\n \n@@ -72,6 +74,8 @@ export const useConnectivityStore = defineStore(\"connectivity\", () => {\n \tasync function disconnect() {\n \t\tif (!esp.value) return;\n \t\tconst id = esp.value.deviceId;\n+\n+\t\tawait alertState.disarm();\n \t\tawait BleClient.disconnect(id);\n \t}\n "
       }
     ]
   },
   {
-    "sha": "c0f55ef9f2e3fa1290598f0ce742a4215a4157f3",
-    "node_id": "C_kwDOVd-iudoAKGMwZjU1ZWY5ZjJlM2ZhMTI5MDU5OGYwY2U3NDJhNDIxNWE0MTU3ZjM",
+    "sha": "98bf1eb65e55156e2bd710a2906750652dbf3e09",
+    "node_id": "C_kwDOVd-iudoAKDk4YmYxZWI2NWU1NTE1NmUyYmQ3MTBhMjkwNjc1MDY1MmRiZjNlMDk",
     "commit": {
       "author": {
         "name": "Mark Jerwin",
         "email": "git@jrwnnnn.me",
-        "date": "2026-11-26T04:52:20Z"
+        "date": "2026-11-26T08:38:38Z"
       },
       "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2026-11-26T04:52:20Z"
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-11-26T08:40:03Z"
       },
-      "message": "feat: open activity summaries from notifications (#81)",
+      "message": "chore: rename unarm to disarm (#91)",
       "tree": {
-        "sha": "052e4a742c5d48cbdd3e6b642b0989d852edff6a",
-        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/052e4a742c5d48cbdd3e6b642b0989d852edff6a"
+        "sha": "837a062e0fdfad778e72ae70dc9b61a3cf9b5c51",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/837a062e0fdfad778e72ae70dc9b61a3cf9b5c51"
       },
-      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/c0f55ef9f2e3fa1290598f0ce742a4215a4157f3",
+      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/98bf1eb65e55156e2bd710a2906750652dbf3e09",
       "comment_count": 0,
       "verification": {
         "verified": true,
         "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJrB7sECRC1aQ7uu5UhlAAA7UUQAEl7yhYUa8LB3IsK4Z/9qJYC\nchO9hrlhlw9QkdVCykAzz0GzBZrh9QesMxnnSCKnO5lcySt181Iy/a4qN6bia/oc\nLkfyaUoE0rzajGDzsa8GmAS+lftZLxoJOQaIUlRM5Ip2KUalaCL5gbaWeNNCCLc7\nMbZGLhIoN03BBPEKIjBXGEwXVkr+8BddgQxFCOkpxD6TcxVdRhrSda0jTbEysaMJ\nGsTXgmsvriJcFiw/FExnS+uMb0HZ9Cgc6CShTgofBMREScxM0TT8ea8geFx0K2IW\nBriugK8fw16W3WpCkZdR4VvBCgw7g/GcBeeMzph+iknRFO4dNrjMsY5DPfYYdh86\nXIjMJwD2GZJxNITa2hiWCfg30vSUWnV7EffahkzEtXYrOdVz3aFSNsL0+lKVLXpw\neImYio5Rxha5lXXXNRppYBzO3O9yLquswMLiFWcLIf0ONFwUwVbzYbVMim4oHHJr\nwNmc55dHPRISB0+5pwcicvHfp6X1Jjm/BghAY49pWXCPFbCTkXT8O6WON8q2+4fU\nDZmvO7XzYeATEoSH6xEL+65/+BFmP2+YZOAmy1uRVkfBBAXyY8rEViz7rSdjr6qg\nS7mHoHW31Di20t9+OJLzR/bEiO92AvJ+ZeYlK7sHM3RZBx0VZ6ynqeeN8wR2tSJI\nRewYODNDilApF4JI+GK6\n=b11m\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 052e4a742c5d48cbdd3e6b642b0989d852edff6a\nparent ae8b4be0e33c7a6f4c7d8400829f5458fffa10b0\nauthor Mark Jerwin <git@jrwnnnn.me> 1795668740 +0800\ncommitter GitHub <noreply@github.com> 1795668740 +0800\n\nfeat: open activity summaries from notifications (#81)",
-        "verified_at": "2026-11-26T04:52:21Z"
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQIrMUYEdXzBuWGIv6lINIRhFyuTNrK+K3uht6Q1ndY8ohORrcqqRSyWnTbJvSbI90L\nm2zV7Xn0zpklDcdbCWtAk=\n-----END SSH SIGNATURE-----",
+        "payload": "tree 837a062e0fdfad778e72ae70dc9b61a3cf9b5c51\nparent 2de47947d1d10b091cc79fd51fa7b24d3ce225fc\nauthor Mark Jerwin <git@jrwnnnn.me> 1795682318 +0800\ncommitter Mark Jerwin <git@jrwnnnn.me> 1795682403 +0800\n\nchore: rename unarm to disarm (#91)\n",
+        "verified_at": "2026-11-26T08:40:09Z"
       }
     },
-    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/c0f55ef9f2e3fa1290598f0ce742a4215a4157f3",
-    "html_url": "https://github.com/jrwnnnn/zipo/commit/c0f55ef9f2e3fa1290598f0ce742a4215a4157f3",
-    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/c0f55ef9f2e3fa1290598f0ce742a4215a4157f3/comments",
+    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/98bf1eb65e55156e2bd710a2906750652dbf3e09",
+    "html_url": "https://github.com/jrwnnnn/zipo/commit/98bf1eb65e55156e2bd710a2906750652dbf3e09",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/98bf1eb65e55156e2bd710a2906750652dbf3e09/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2de47947d1d10b091cc79fd51fa7b24d3ce225fc",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/2de47947d1d10b091cc79fd51fa7b24d3ce225fc",
+        "html_url": "https://github.com/jrwnnnn/zipo/commit/2de47947d1d10b091cc79fd51fa7b24d3ce225fc"
+      }
+    ],
+    "stats": {
+      "total": 6,
+      "additions": 3,
+      "deletions": 3
+    },
+    "files": [
+      {
+        "sha": "ceb8e906af658501fed0a8519bc091632af83853",
+        "filename": "src/components/ZipoControls.vue",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/98bf1eb65e55156e2bd710a2906750652dbf3e09/src%2Fcomponents%2FZipoControls.vue",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/98bf1eb65e55156e2bd710a2906750652dbf3e09/src%2Fcomponents%2FZipoControls.vue",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fcomponents%2FZipoControls.vue?ref=98bf1eb65e55156e2bd710a2906750652dbf3e09",
+        "patch": "@@ -13,7 +13,7 @@ async function toggleConnectivity() {\n \n async function toggleModes() {\n \tif (!alertState.isArmed) await alertState.arm();\n-\telse await alertState.unarm();\n+\telse await alertState.disarm();\n }\n </script>\n "
+      },
+      {
+        "sha": "41d94506475ea34270db30a3b4fc51fd0784e9cb",
+        "filename": "src/stores/alertState.ts",
+        "status": "modified",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/98bf1eb65e55156e2bd710a2906750652dbf3e09/src%2Fstores%2FalertState.ts",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/98bf1eb65e55156e2bd710a2906750652dbf3e09/src%2Fstores%2FalertState.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fstores%2FalertState.ts?ref=98bf1eb65e55156e2bd710a2906750652dbf3e09",
+        "patch": "@@ -35,7 +35,7 @@ export const useAlertStateStore = defineStore(\"alert state\", () => {\n \t * Disarms the connected Zipo.\n \t * Creates a \"disarmed\" activity entry in the activity log.\n \t */\n-\tasync function unarm(): Promise<void> {\n+\tasync function disarm(): Promise<void> {\n \t\ttry {\n \t\t\tawait characteristics.rxSend(\"DISARM\");\n \t\t\tactivityLog.addActivity(\"disarmed\");\n@@ -49,6 +49,6 @@ export const useAlertStateStore = defineStore(\"alert state\", () => {\n \treturn {\n \t\tisArmed,\n \t\tarm,\n-\t\tunarm,\n+\t\tdisarm,\n \t};\n });"
+      }
+    ]
+  },
+  {
+    "sha": "2de47947d1d10b091cc79fd51fa7b24d3ce225fc",
+    "node_id": "C_kwDOVd-iudoAKDJkZTQ3OTQ3ZDFkMTBiMDkxY2M3OWZkNTFmYTdiMjRkM2NlMjI1ZmM",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-11-26T08:35:58Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-11-26T08:35:58Z"
+      },
+      "message": "refactor: move disarm-on-disconnect watcher to alert state store (#90)",
+      "tree": {
+        "sha": "32f022c857f2275501d6d6694572a813a8b5dc94",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/32f022c857f2275501d6d6694572a813a8b5dc94"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/2de47947d1d10b091cc79fd51fa7b24d3ce225fc",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJrB+9uCRC1aQ7uu5UhlAAAFq4QAIfTc0qoIzReGPeX/3wycfvQ\nrJy3ok82JcQZEeRGxRxFTg68cF1IjAkRyWwJBA/XmjP7AG02xq+KbeCIvB8UP0tf\nMS2TH3Z+sokinaZq5LXK7NRsbhXOVqgrP3OmYtfFqL6LjrBQm0yxv+wtg6Gjyt7o\nhDNN7e9zyZctlS4tT3NvxpnnUJ8nWh/4wXgJLlL0gI/rXa8JfYXvWHGDAGSU8dmD\nQFDfJ4etJh5DiQSF0IPIIKN6MSjh3G2tGo0CK7t3wK8UDf+ndKh/5+fPyblYknaP\n7evrxMwSHVUZ3zQSICYzKFTPYtYLvoxv2PovE8KEsqUUCX6X5/8bronusHM1R5lq\npnqsCDuHFnOOlGaUvR8tXhzB3QMjTBDoh51v2L4b2QT7kqOAag9Nc2R2tSsT2DIc\nm99d2Vw4ITo9VDLHjO1Mrt4mnlPTm+oUM1l652QZ/AvnPOoun5xKDTiV4aUWPjvh\nedLCkmAPObSSwZKL1oHw3w43F1z+MnAAtgtoD72WGBtalS1JdZMmL7wjCyMriT3w\nV+xE4mQOJefhFezJnshMRT1vje/SxOsAOUhJEnvjqf4HbZSHgOmiWdTNJ4XylntL\npzYoGPxOmkqn6EYxM3ZSV6qfkVwF0ZYdGWg01fQuVWYSII6KhKYDvOUqdEdUlvZv\n3K1wiJlAhxjEM6jDTIQC\n=YxsW\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 32f022c857f2275501d6d6694572a813a8b5dc94\nparent 6066fd70cdd5dbc7fae9d1f8319edce8c3a80257\nauthor Mark Jerwin <git@jrwnnnn.me> 1795682158 +0800\ncommitter GitHub <noreply@github.com> 1795682158 +0800\n\nrefactor: move disarm-on-disconnect watcher to alert state store (#90)",
+        "verified_at": "2026-11-26T08:35:58Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/2de47947d1d10b091cc79fd51fa7b24d3ce225fc",
+    "html_url": "https://github.com/jrwnnnn/zipo/commit/2de47947d1d10b091cc79fd51fa7b24d3ce225fc",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/2de47947d1d10b091cc79fd51fa7b24d3ce225fc/comments",
     "author": {
       "login": "jrwnnnn",
       "id": 136870415,
@@ -479,52 +289,278 @@
     },
     "parents": [
       {
-        "sha": "ae8b4be0e33c7a6f4c7d8400829f5458fffa10b0",
-        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/ae8b4be0e33c7a6f4c7d8400829f5458fffa10b0",
-        "html_url": "https://github.com/jrwnnnn/zipo/commit/ae8b4be0e33c7a6f4c7d8400829f5458fffa10b0"
+        "sha": "6066fd70cdd5dbc7fae9d1f8319edce8c3a80257",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/6066fd70cdd5dbc7fae9d1f8319edce8c3a80257",
+        "html_url": "https://github.com/jrwnnnn/zipo/commit/6066fd70cdd5dbc7fae9d1f8319edce8c3a80257"
       }
     ],
     "stats": {
-      "total": 29,
-      "additions": 19,
-      "deletions": 10
+      "total": 23,
+      "additions": 11,
+      "deletions": 12
     },
     "files": [
       {
-        "sha": "ea570cfa1a41ca2e33005bc31913f1d6031f9477",
-        "filename": "src/App.vue",
-        "status": "modified",
-        "additions": 0,
-        "deletions": 5,
-        "changes": 5,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/c0f55ef9f2e3fa1290598f0ce742a4215a4157f3/src%2FApp.vue",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/c0f55ef9f2e3fa1290598f0ce742a4215a4157f3/src%2FApp.vue",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2FApp.vue?ref=c0f55ef9f2e3fa1290598f0ce742a4215a4157f3",
-        "patch": "@@ -8,11 +8,6 @@ onMounted(async () => {\n \tawait useConnectivityStore().restore();\n \n \tawait LocalNotifications.requestPermissions();\n-\tawait LocalNotifications.createChannel({\n-\t\tid: \"alerts\",\n-\t\tname: \"Alerts\",\n-\t\timportance: 5,\n-\t});\n });\n </script>\n "
-      },
-      {
-        "sha": "b55f61c6b5a87f44f8475f273330a2dd42d1b218",
-        "filename": "src/services/notifyLocal.ts",
-        "status": "modified",
-        "additions": 18,
-        "deletions": 0,
-        "changes": 18,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/c0f55ef9f2e3fa1290598f0ce742a4215a4157f3/src%2Fservices%2FnotifyLocal.ts",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/c0f55ef9f2e3fa1290598f0ce742a4215a4157f3/src%2Fservices%2FnotifyLocal.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fservices%2FnotifyLocal.ts?ref=c0f55ef9f2e3fa1290598f0ce742a4215a4157f3",
-        "patch": "@@ -1,10 +1,28 @@\n import { LocalNotifications } from \"@capacitor/local-notifications\";\n \n+import router from \"@/router\";\n+\n+await LocalNotifications.addListener(\n+\t\"localNotificationActionPerformed\",\n+\t({ notification }) => {\n+\t\tvoid router.push({\n+\t\t\tname: \"ActivitySummary\",\n+\t\t\tparams: { eventId: notification.id },\n+\t\t});\n+\t},\n+);\n+\n export async function notifyLocal(\n \tid: number,\n \ttitle: string,\n \tbody: string,\n ): Promise<void> {\n+\tawait LocalNotifications.createChannel({\n+\t\tid: \"alerts\",\n+\t\tname: \"Alerts\",\n+\t\timportance: 5,\n+\t});\n+\n \tawait LocalNotifications.schedule({\n \t\tnotifications: [\n \t\t\t{"
-      },
-      {
-        "sha": "0ee1498f878870bf33e65490c2afc7c08c9c3349",
-        "filename": "src/services/txHandle.ts",
+        "sha": "50c8f82a12ec06c4926d4afc8c4ea335380e6899",
+        "filename": "src/components/DotMatrix.vue",
         "status": "modified",
         "additions": 1,
-        "deletions": 5,
-        "changes": 6,
-        "blob_url": "https://github.com/jrwnnnn/zipo/blob/c0f55ef9f2e3fa1290598f0ce742a4215a4157f3/src%2Fservices%2FtxHandle.ts",
-        "raw_url": "https://github.com/jrwnnnn/zipo/raw/c0f55ef9f2e3fa1290598f0ce742a4215a4157f3/src%2Fservices%2FtxHandle.ts",
-        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fservices%2FtxHandle.ts?ref=c0f55ef9f2e3fa1290598f0ce742a4215a4157f3",
-        "patch": "@@ -49,11 +49,7 @@ export async function txHandle(incoming: string): Promise<void> {\n \n \t\t\tif (alertMode.mode === \"zipo\") break;\n \n-\t\t\tawait notifyLocal(\n-\t\t\t\tid,\n-\t\t\t\t\"Zipo triggered\",\n-\t\t\t\t`Detected at ${new Date().toLocaleTimeString()}`,\n-\t\t\t);\n+\t\t\tawait notifyLocal(id, \"Zipo triggered\", \"Tap to view\");\n \t\t\tawait Haptics.vibrate({ duration: 3000 });\n \t\t\tbreak;\n \t\t}"
+        "deletions": 8,
+        "changes": 9,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/2de47947d1d10b091cc79fd51fa7b24d3ce225fc/src%2Fcomponents%2FDotMatrix.vue",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/2de47947d1d10b091cc79fd51fa7b24d3ce225fc/src%2Fcomponents%2FDotMatrix.vue",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fcomponents%2FDotMatrix.vue?ref=2de47947d1d10b091cc79fd51fa7b24d3ce225fc",
+        "patch": "@@ -1,5 +1,5 @@\n <script setup lang=\"ts\">\n-import { ref, watch, computed } from \"vue\";\n+import { ref, computed } from \"vue\";\n import { useIntervalFn } from \"@vueuse/core\";\n import { useConnectivityStore } from \"@/stores/connectivity\";\n import { useAlertStateStore } from \"@/stores/alertState\";\n@@ -178,13 +178,6 @@ const frame = ref(0);\n useIntervalFn(() => {\n \tframe.value += Math.sign(target.value - frame.value);\n }, 70);\n-\n-watch(\n-\t() => connectivity.state,\n-\t(state) => {\n-\t\tif (state !== \"connected\") alertState.isArmed = false;\n-\t},\n-);\n </script>\n \n <template>"
+      },
+      {
+        "sha": "13b5e804c030d1b7d87ac07f746d9d46fa1a1db4",
+        "filename": "src/stores/alertState.ts",
+        "status": "modified",
+        "additions": 10,
+        "deletions": 1,
+        "changes": 11,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/2de47947d1d10b091cc79fd51fa7b24d3ce225fc/src%2Fstores%2FalertState.ts",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/2de47947d1d10b091cc79fd51fa7b24d3ce225fc/src%2Fstores%2FalertState.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fstores%2FalertState.ts?ref=2de47947d1d10b091cc79fd51fa7b24d3ce225fc",
+        "patch": "@@ -1,12 +1,21 @@\n import { defineStore } from \"pinia\";\n-import { ref } from \"vue\";\n+import { ref, watch } from \"vue\";\n \n import { characteristics } from \"@/services/characteristics\";\n import { activityLog } from \"@/stores/activityLog\";\n+import { useConnectivityStore } from \"@/stores/connectivity\";\n \n export const useAlertStateStore = defineStore(\"alert state\", () => {\n+\tconst connectivity = useConnectivityStore();\n \tconst isArmed = ref(false);\n \n+\twatch(\n+\t\t() => connectivity.state,\n+\t\t(state) => {\n+\t\t\tif (state !== \"connected\") isArmed.value = false;\n+\t\t},\n+\t);\n+\n \t/**\n \t * Arms the connected Zipo.\n \t * Creates an \"armed\" activity entry in the activity log."
+      },
+      {
+        "sha": "8bd3c283e656264fbdf3745ad7894caea1f39c6c",
+        "filename": "src/stores/connectivity.ts",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 3,
+        "changes": 3,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/2de47947d1d10b091cc79fd51fa7b24d3ce225fc/src%2Fstores%2Fconnectivity.ts",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/2de47947d1d10b091cc79fd51fa7b24d3ce225fc/src%2Fstores%2Fconnectivity.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fstores%2Fconnectivity.ts?ref=2de47947d1d10b091cc79fd51fa7b24d3ce225fc",
+        "patch": "@@ -3,8 +3,6 @@ import { BleClient, type BleDevice } from \"@capacitor-community/bluetooth-le\";\n import { defineStore } from \"pinia\";\n import { ref } from \"vue\";\n \n-import { useAlertStateStore } from \"./alertState\";\n-\n import { characteristics } from \"@/services/characteristics\";\n import { keepAlive } from \"@/services/keepAlive\";\n import { sync } from \"@/services/sync\";\n@@ -14,7 +12,6 @@ import { activityLog } from \"@/stores/activityLog\";\n let timer: ReturnType<typeof setTimeout> | undefined;\n \n export const useConnectivityStore = defineStore(\"connectivity\", () => {\n-\tconst alertState = useAlertStateStore();\n \tconst state = ref<\"connected\" | \"connecting\" | \"idle\">(\"idle\");\n \tconst esp = ref<BleDevice | null>(null);\n "
+      }
+    ]
+  },
+  {
+    "sha": "6066fd70cdd5dbc7fae9d1f8319edce8c3a80257",
+    "node_id": "C_kwDOVd-iudoAKDYwNjZmZDcwY2RkNWRiYzdmYWU5ZDFmODMxOWVkY2U4YzNhODAyNTc",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-11-26T08:18:08Z"
+      },
+      "committer": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-11-26T08:21:03Z"
+      },
+      "message": "refactor: extract sync into a service (#89)",
+      "tree": {
+        "sha": "ae7261221b0ad47ae1b36f980fa19ef8cd941f91",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/ae7261221b0ad47ae1b36f980fa19ef8cd941f91"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/6066fd70cdd5dbc7fae9d1f8319edce8c3a80257",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAg92VCQWRSyGFN3VUmG9VjZnxi4f\ne/1ZRuULVsgfWC0jsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQJC1AZspEaUHd6wpxFrq2tp3PygB9pCAa76BCkxNa36fjf7YURxjqKMs3SP+CVxH+4\nzjFi0pv7mQ36EzpZ69MAk=\n-----END SSH SIGNATURE-----",
+        "payload": "tree ae7261221b0ad47ae1b36f980fa19ef8cd941f91\nparent 3dd6e705f186c5e5f4c157e4a26f8c278b4c67c3\nauthor Mark Jerwin <git@jrwnnnn.me> 1795681088 +0800\ncommitter Mark Jerwin <git@jrwnnnn.me> 1795681263 +0800\n\nrefactor: extract sync into a service (#89)",
+        "verified_at": "2026-11-26T08:23:01Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/6066fd70cdd5dbc7fae9d1f8319edce8c3a80257",
+    "html_url": "https://github.com/jrwnnnn/zipo/commit/6066fd70cdd5dbc7fae9d1f8319edce8c3a80257",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/6066fd70cdd5dbc7fae9d1f8319edce8c3a80257/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3dd6e705f186c5e5f4c157e4a26f8c278b4c67c3",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/3dd6e705f186c5e5f4c157e4a26f8c278b4c67c3",
+        "html_url": "https://github.com/jrwnnnn/zipo/commit/3dd6e705f186c5e5f4c157e4a26f8c278b4c67c3"
+      }
+    ],
+    "stats": {
+      "total": 31,
+      "additions": 16,
+      "deletions": 15
+    },
+    "files": [
+      {
+        "sha": "1bd00d7ae2a1fa4ac6440192d56505239eb1390e",
+        "filename": "src/services/sync.ts",
+        "status": "added",
+        "additions": 13,
+        "deletions": 0,
+        "changes": 13,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/6066fd70cdd5dbc7fae9d1f8319edce8c3a80257/src%2Fservices%2Fsync.ts",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/6066fd70cdd5dbc7fae9d1f8319edce8c3a80257/src%2Fservices%2Fsync.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fservices%2Fsync.ts?ref=6066fd70cdd5dbc7fae9d1f8319edce8c3a80257",
+        "patch": "@@ -0,0 +1,13 @@\n+import { characteristics } from \"@/services/characteristics\";\n+\n+/**\n+ * Updates the client’s settings from the connected Zipo.\n+ */\n+export async function sync(): Promise<void> {\n+\ttry {\n+\t\tawait characteristics.rxSend(\"SYNC\");\n+\t} catch (error) {\n+\t\tconsole.error(\"Failed to sync Zipo: \", error);\n+\t\treturn;\n+\t}\n+}"
+      },
+      {
+        "sha": "3e7f20d5fce740d8c6bb7f053dc1245c2270dbe4",
+        "filename": "src/stores/alertState.ts",
+        "status": "modified",
+        "additions": 0,
+        "deletions": 13,
+        "changes": 13,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/6066fd70cdd5dbc7fae9d1f8319edce8c3a80257/src%2Fstores%2FalertState.ts",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/6066fd70cdd5dbc7fae9d1f8319edce8c3a80257/src%2Fstores%2FalertState.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fstores%2FalertState.ts?ref=6066fd70cdd5dbc7fae9d1f8319edce8c3a80257",
+        "patch": "@@ -37,22 +37,9 @@ export const useAlertStateStore = defineStore(\"alert state\", () => {\n \t\t}\n \t}\n \n-\t/**\n-\t * Updates the client’s settings from the connected Zipo.\n-\t */\n-\tasync function sync(): Promise<void> {\n-\t\ttry {\n-\t\t\tawait characteristics.rxSend(\"SYNC\");\n-\t\t} catch (error) {\n-\t\t\tconsole.error(\"Failed to sync Zipo: \", error);\n-\t\t\treturn;\n-\t\t}\n-\t}\n-\n \treturn {\n \t\tisArmed,\n \t\tarm,\n \t\tunarm,\n-\t\tsync,\n \t};\n });"
+      },
+      {
+        "sha": "0f82b3780250bde88b4209dc7159c5e2ab29a00f",
+        "filename": "src/stores/connectivity.ts",
+        "status": "modified",
+        "additions": 3,
+        "deletions": 2,
+        "changes": 5,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/6066fd70cdd5dbc7fae9d1f8319edce8c3a80257/src%2Fstores%2Fconnectivity.ts",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/6066fd70cdd5dbc7fae9d1f8319edce8c3a80257/src%2Fstores%2Fconnectivity.ts",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fstores%2Fconnectivity.ts?ref=6066fd70cdd5dbc7fae9d1f8319edce8c3a80257",
+        "patch": "@@ -7,6 +7,7 @@ import { useAlertStateStore } from \"./alertState\";\n \n import { characteristics } from \"@/services/characteristics\";\n import { keepAlive } from \"@/services/keepAlive\";\n+import { sync } from \"@/services/sync\";\n import { SERVICE_UUID } from \"@/services/uuids\";\n import { activityLog } from \"@/stores/activityLog\";\n \n@@ -39,7 +40,7 @@ export const useConnectivityStore = defineStore(\"connectivity\", () => {\n \n \t\t\t\t\t\tstate.value = \"connected\";\n \n-\t\t\t\t\t\tawait alertState.sync();\n+\t\t\t\t\t\tawait sync();\n \t\t\t\t\t\tawait keepAlive.start();\n \n \t\t\t\t\t\tactivityLog.addActivity(\"connected\");\n@@ -93,7 +94,7 @@ export const useConnectivityStore = defineStore(\"connectivity\", () => {\n \t\t\tesp.value = { deviceId: d.deviceId, name: d.name };\n \t\t\tstate.value = \"connected\";\n \n-\t\t\tawait alertState.sync();\n+\t\t\tawait sync();\n \t\t\tawait keepAlive.start();\n \n \t\t\tconsole.log(\"Restored connection to \", esp.value.deviceId);"
+      }
+    ]
+  },
+  {
+    "sha": "3dd6e705f186c5e5f4c157e4a26f8c278b4c67c3",
+    "node_id": "C_kwDOVd-iudoAKDNkZDZlNzA1ZjE4NmM1ZTVmNGMxNTdlNGEyNmY4YzI3OGI0YzY3YzM",
+    "commit": {
+      "author": {
+        "name": "Mark Jerwin",
+        "email": "git@jrwnnnn.me",
+        "date": "2026-11-26T06:20:26Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-11-26T06:20:26Z"
+      },
+      "message": "feat: make activity summary map reactive (#86)\n\n* feat: make activity summary map reactive\n\n* refactor: open the map URL directly from @click\n\n* chore: remove unnecessary timestamp type assertions",
+      "tree": {
+        "sha": "3be85c65414b728e7a810f77ef8405cc69291596",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/git/trees/3be85c65414b728e7a810f77ef8405cc69291596"
+      },
+      "url": "https://api.github.com/repos/jrwnnnn/zipo/git/commits/3dd6e705f186c5e5f4c157e4a26f8c278b4c67c3",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJrB8+qCRC1aQ7uu5UhlAAAtX4QAElGYaJyeJoneAHwcZ76uQuQ\nGW3O7s2UctO+zRwx2Ioo65ur3Rb5uLEH1GTfvKQ2SyJTS8vgsEVuHlARzEcIrwnP\nUI6FZQBXALn/BytyOTcgraTiwdQMja3L4v6V4Tr4oZ5qoGBVWmP/UbBTiLpf+BH+\nTS1PiFpdsz9pwShtf5kDz5F+NWCSuk6HkCeZ1tS+QH4CmQJKEO4FHbHHBzvxr4VA\nbWjrQIftaVl/QN5NnldWIl8CdLdXvgCnlFCDutz2++ozklnUcO2VTAY/d6jSvHT1\nO5iV6ftstoeUPcnVZeGWGo+8KIMKyWaoB2rnTIx7FUL0O39dK0dxcBzXEMFCLrcE\nFZhMBcUO0V8H3RS8ox+RMqMFQaEfzoBuxkwBjG/4QGwQzmw9Gu4rE1n10vr2gOtX\nSYtHZl66dZQFOiDeh0GEMv4Hq9QZENzU/gg9h+PaRqPn3nU7ztjmgJ9toHOaFdlC\nbzFKUFxUa1lXq0UcpJ5nmQdCuDtWimfhT3sKuW2SRPPBFCVl0pMFUyyglMF6oQFI\noCKcdxg8d6KolslTkxu4rdy/ipaxJ397rIsQkp+6KifqAIPynP7otgOSgecdZRkb\nkiMi6cpZnOpAT3+LSsQLxcEgFq7KZ7DYOgh4RDvnsWmmGjuBCYNQvyc4Eb8+cADZ\nVIFDY3d1hcnv7Dt+VGta\n=NJjK\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 3be85c65414b728e7a810f77ef8405cc69291596\nparent bdefe15462e7fb140952683bc36bc4189c837a92\nauthor Mark Jerwin <git@jrwnnnn.me> 1795674026 +0800\ncommitter GitHub <noreply@github.com> 1795674026 +0800\n\nfeat: make activity summary map reactive (#86)\n\n* feat: make activity summary map reactive\n\n* refactor: open the map URL directly from @click\n\n* chore: remove unnecessary timestamp type assertions",
+        "verified_at": "2026-11-26T06:20:27Z"
+      }
+    },
+    "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/3dd6e705f186c5e5f4c157e4a26f8c278b4c67c3",
+    "html_url": "https://github.com/jrwnnnn/zipo/commit/3dd6e705f186c5e5f4c157e4a26f8c278b4c67c3",
+    "comments_url": "https://api.github.com/repos/jrwnnnn/zipo/commits/3dd6e705f186c5e5f4c157e4a26f8c278b4c67c3/comments",
+    "author": {
+      "login": "jrwnnnn",
+      "id": 136870415,
+      "node_id": "U_kgDOCCh6Dw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/136870415?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrwnnnn",
+      "html_url": "https://github.com/jrwnnnn",
+      "followers_url": "https://api.github.com/users/jrwnnnn/followers",
+      "following_url": "https://api.github.com/users/jrwnnnn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrwnnnn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrwnnnn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrwnnnn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrwnnnn/orgs",
+      "repos_url": "https://api.github.com/users/jrwnnnn/repos",
+      "events_url": "https://api.github.com/users/jrwnnnn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrwnnnn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bdefe15462e7fb140952683bc36bc4189c837a92",
+        "url": "https://api.github.com/repos/jrwnnnn/zipo/commits/bdefe15462e7fb140952683bc36bc4189c837a92",
+        "html_url": "https://github.com/jrwnnnn/zipo/commit/bdefe15462e7fb140952683bc36bc4189c837a92"
+      }
+    ],
+    "stats": {
+      "total": 40,
+      "additions": 24,
+      "deletions": 16
+    },
+    "files": [
+      {
+        "sha": "cac624f3728fae518f90dec5d2da0482cf240f8b",
+        "filename": "src/views/ActivitySummary.vue",
+        "status": "modified",
+        "additions": 24,
+        "deletions": 16,
+        "changes": 40,
+        "blob_url": "https://github.com/jrwnnnn/zipo/blob/3dd6e705f186c5e5f4c157e4a26f8c278b4c67c3/src%2Fviews%2FActivitySummary.vue",
+        "raw_url": "https://github.com/jrwnnnn/zipo/raw/3dd6e705f186c5e5f4c157e4a26f8c278b4c67c3/src%2Fviews%2FActivitySummary.vue",
+        "contents_url": "https://api.github.com/repos/jrwnnnn/zipo/contents/src%2Fviews%2FActivitySummary.vue?ref=3dd6e705f186c5e5f4c157e4a26f8c278b4c67c3",
+        "patch": "@@ -7,6 +7,7 @@ import {\n \tIonPage,\n \tIonToolbar,\n } from \"@ionic/vue\";\n+import { computed } from \"vue\";\n import { useRoute } from \"vue-router\";\n import { activityLog } from \"@/stores/activityLog\";\n import connectIcon from \"@/assets/ui/connect-icon.png\";\n@@ -18,19 +19,18 @@ import disarmedIcon from \"@/assets/ui/disarmed-icon.png\";\n \n const route = useRoute();\n \n-async function openLocation() {\n-\tawait InAppBrowser.openInExternalBrowser({\n-\t\turl: mapsUrl,\n-\t});\n-}\n+const activity = computed(() =>\n+\tactivityLog\n+\t\t.getActivities()\n+\t\t.value.find((activity) => activity.id === Number(route.params.eventId)),\n+);\n \n-const activity = activityLog\n-\t.getActivities()\n-\t.value.find((activity) => activity.id === Number(route.params.eventId));\n-const geolocation = activity?.geolocation;\n-const mapsUrl = geolocation\n-\t? `https://maps.google.com/maps?q=${geolocation.latitude},${geolocation.longitude}&z=15&output=embed`\n-\t: \"\";\n+const geolocation = computed(() => activity.value?.geolocation);\n+const mapsUrl = computed(() =>\n+\tgeolocation.value\n+\t\t? `https://maps.google.com/maps?q=${geolocation.value.latitude},${geolocation.value.longitude}&z=15&output=embed`\n+\t\t: \"\",\n+);\n </script>\n \n <template>\n@@ -66,8 +66,8 @@ const mapsUrl = geolocation\n \t\t\t\t\t<div class=\"flex justify-between\">\n \t\t\t\t\t\t<p class=\"text-m\">Timestamp</p>\n \t\t\t\t\t\t<p class=\"text-muted\">\n-\t\t\t\t\t\t\t{{ new Date(activity.timestamp as number).toLocaleDateString() }}\n-\t\t\t\t\t\t\t{{ new Date(activity.timestamp as number).toLocaleTimeString() }}\n+\t\t\t\t\t\t\t{{ new Date(activity.timestamp).toLocaleDateString() }}\n+\t\t\t\t\t\t\t{{ new Date(activity.timestamp).toLocaleTimeString() }}\n \t\t\t\t\t\t</p>\n \t\t\t\t\t</div>\n \t\t\t\t\t<div class=\"flex justify-between\">\n@@ -84,12 +84,20 @@ const mapsUrl = geolocation\n \t\t\t\t\t\t</p>\n \t\t\t\t\t</div>\n \n-\t\t\t\t\t<div v-if=\"geolocation\" @click=\"openLocation()\">\n+\t\t\t\t\t<div\n+\t\t\t\t\t\tv-if=\"geolocation\"\n+\t\t\t\t\t\t@click=\"\n+\t\t\t\t\t\t\tInAppBrowser.openInExternalBrowser({\n+\t\t\t\t\t\t\t\turl: mapsUrl,\n+\t\t\t\t\t\t\t})\n+\t\t\t\t\t\t\"\n+\t\t\t\t\t\tclass=\"h-50 rounded-md\"\n+\t\t\t\t\t>\n \t\t\t\t\t\t<iframe\n \t\t\t\t\t\t\t:src=\"mapsUrl\"\n \t\t\t\t\t\t\twidth=\"100%\"\n \t\t\t\t\t\t\tloading=\"lazy\"\n-\t\t\t\t\t\t\tclass=\"pointer-events-none h-50 rounded-md border-none\"\n+\t\t\t\t\t\t\tclass=\"pointer-events-none h-full rounded-md border-none\"\n \t\t\t\t\t\t></iframe>\n \t\t\t\t\t</div>\n \t\t\t\t</div>"
       }
     ]
   }
